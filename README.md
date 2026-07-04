@@ -25,46 +25,79 @@ The goal is to assist in scientific research, proposal writing, simulation devel
 
 ### Working title
 
-BELISARIUS
+PROGETTO
 
-Possible expansion:
+Name status:
 
-BEtatron LIght for Spectroscopic Absorption and Resonant Investigations using Ultrafast Sources
+The final acronym is not fixed. Avoid using BELISARIUS for now, because it overemphasizes EuAPS/betatron sources before the main scientific objective is mature.
 
 Project goal:
 
-Develop and validate a VOXES-like crystal spectrometer for X-ray Absorption Spectroscopy (XAS) and X-ray Emission Spectroscopy (XES) using the EuAPS betatron source.
+Develop and validate a laboratory fluorescence-XAS platform for operando studies of realistic samples, where transmission XAS is impractical or unrepresentative.
 
 The project should be clearly positioned as:
 
-* Detector and instrumentation development
+* X-ray spectroscopy instrumentation development
 * Spectroscopy methodology development
-* Technology transfer toward EuAPS
-* New capability for laboratory-scale ultrafast spectroscopy
+* Laboratory fluorescence-XAS for realistic/thick/non-ideal samples
+* Operando or in-situ XAS on scientifically motivated benchmark systems
+* A future technology-transfer path toward compact or unconventional X-ray sources, including EuAPS if justified
 
-The project must not appear as merely purchasing commercial equipment for EuAPS.
+The project must not appear as merely purchasing commercial equipment, nor as a setup built primarily for EuAPS. EuAPS is a possible application, extension, or dedicated WP, not the central goal.
 
 ---
 
 # Scientific Motivation
 
-Current EuAPS diagnostics focus mainly on:
+Many relevant problems in energy materials, catalysis, and functional materials require chemical-state information under realistic conditions. XAS is one of the most direct tools for this because it probes oxidation state, local coordination, and electronic structure.
 
-* imaging
-* beam characterization
-* source optimization
+The emergency/problem to present:
+
+* Synchrotron XAS provides excellent data but limited access, slow iteration, and limited compatibility with rapid laboratory screening.
+* Laboratory transmission XAS is simpler but often requires thin, homogeneous, carefully prepared samples.
+* Fluorescence XAS is better suited to realistic, thick, dilute, or operando samples, but in the laboratory it is limited by the coupled trade-off between flux, energy resolution, background, detector rate capability, and sample/cell geometry.
 
 The proposed project develops:
 
-* high-resolution XAS
-* high-resolution XES
-* future pump-probe spectroscopy
+* fluorescence-mode XAS in the laboratory
+* an optimized crystal-optics and detection geometry
+* validated simulation and analysis tools for predicting resolution, throughput, background, and signal-to-noise ratio
+* an operando demonstration on well-defined benchmark samples
 
-using crystal spectrometers optimized for extended betatron sources.
+Possible application domains:
 
-Main novelty:
+* Na-ion or Li-ion battery cathodes
+* catalysts and redox-active materials
+* reference oxides and foils for validation
+* EuAPS or other compact/unconventional X-ray sources as later extensions
 
-Demonstrate that high-resolution crystal spectroscopy traditionally associated with synchrotrons can be adapted to compact laser-plasma betatron sources.
+---
+
+# Novelty Relative to the State of the Art
+
+Do not claim novelty as "the first time that..." unless it is precise, documented, and necessary.
+
+The novelty should be formulated as a specific capability gap:
+
+Current laboratory XAS instruments can perform high-quality measurements in selected conditions, especially in transmission or with carefully prepared samples. However, routine fluorescence-mode operando XAS on realistic samples remains limited by the combined optimization of:
+
+* accepted source étendue versus energy resolution
+* fluorescence collection efficiency versus background
+* detector rate capability and pile-up rejection
+* sample environment constraints
+* scan time versus signal-to-noise ratio
+* quantitative agreement between simulation, calibration, and measured spectra
+
+Proposed novelty:
+
+* establish the quantitative operating domain of laboratory fluorescence-XAS for realistic and operando samples;
+* design and validate a spectrometer/detection architecture optimized around the flux-resolution-background trade-off, not around a single commercial component;
+* demonstrate chemically meaningful XAS observables, such as edge shift, white-line variation, and EXAFS-quality indicators, on selected benchmark samples;
+* produce a reusable INFN methodology combining crystal-optics simulations, detector characterization, calibration procedures, and analysis tools.
+
+The key question is:
+
+How much source phase space can be accepted while retaining enough energy resolution and signal quality to extract chemically meaningful XAS information from realistic operando samples?
 
 ---
 
@@ -75,15 +108,15 @@ VOXES is a Von Hamos spectrometer developed at INFN.
 Key features:
 
 * HAPG mosaic crystals
-* Extended X-ray sources
+* efficient use of non-microfocus X-ray sources
 * eV-scale energy resolution
 * Energy range approximately 2-10 keV
 
 Important concept:
 
-VOXES demonstrated that extended sources can still provide high-resolution spectroscopy through suitable crystal optics.
+VOXES demonstrated that suitable crystal optics can preserve useful energy resolution while accepting enough flux for laboratory X-ray spectroscopy.
 
-This philosophy should be transferred to EuAPS.
+This philosophy should be transferred to fluorescence-mode laboratory XAS on realistic samples. EuAPS can later benefit from the same methodology, but it should not drive the main proposal.
 
 ---
 
@@ -95,11 +128,12 @@ Simulation and design.
 
 Objectives:
 
-* Source modelling
+* Laboratory source modelling
 * Crystal optimization
 * Geometry optimization
 * Signal estimation
 * Background estimation
+* fluorescence collection and detector-rate estimates
 
 Tools:
 
@@ -111,6 +145,7 @@ Outputs:
 * Expected resolution
 * Expected efficiency
 * Expected signal rates
+* detectability of selected XAS observables
 
 ---
 
@@ -127,35 +162,41 @@ Objectives:
 * Build prototype
 * Validate geometry
 * Validate calibration procedures
-* Demonstrate XAS capability
-* Demonstrate XES capability
+* Demonstrate fluorescence-XAS capability
+* Benchmark against reference spectra and simulations
 
 Priority:
 
-XAS demonstration first.
+Fluorescence-XAS demonstration first.
 
 Reason:
 
-XAS is likely more feasible with betatron flux than XES.
+Fluorescence-XAS directly addresses realistic samples and is more defensible than XES unless flux and SNR estimates justify XES.
 
 ---
 
 ## Phase 3
 
-Deployment at EuAPS.
+Operando demonstration and possible EuAPS extension.
 
-Objectives:
+Primary objectives:
 
-* Install spectrometer
-* Commission beamline
-* Measure reference samples
-* Benchmark against simulations
+* Measure selected realistic samples under static and/or operando conditions
+* Benchmark spectra against reference data and simulations
+* Quantify edge-shift sensitivity, SNR, scan time, and reproducibility
+
+Optional EuAPS objectives:
+
+* Study compatibility with EuAPS source parameters
+* Define required geometry, shielding, timing, and detector conditions
+* Perform a pilot measurement only if EuAPS readiness and project timing allow it
 
 Possible targets:
 
-* Cu K-edge
 * Fe K-edge
 * Ni K-edge
+* Mn K-edge
+* Cu K-edge
 
 ---
 
@@ -167,10 +208,11 @@ Develop complete simulation chain.
 
 Tasks:
 
-* Geant4 source simulations
+* source and sample-environment simulations
 * SHADOW4 crystal simulations
 * Optimization studies
 * Flux and SNR estimates
+* detector-rate and pile-up estimates
 
 Deliverables:
 
@@ -203,8 +245,8 @@ Deliverables:
 
 Tasks:
 
-* XES measurements
-* XAS measurements
+* reference XAS measurements
+* fluorescence-XAS measurements
 * Calibration studies
 * Resolution measurements
 
@@ -216,18 +258,20 @@ Deliverables:
 
 ---
 
-### WP4 - EuAPS Measurements
+### WP4 - Operando Demonstration and EuAPS Applicability
 
 Tasks:
 
-* Installation
-* Commissioning
-* First XAS measurements
-* First XES measurements
+* Static measurements on selected benchmark samples
+* Operando or in-situ fluorescence-XAS demonstration
+* Quantitative comparison with reference spectra
+* EuAPS applicability study as an optional extension
+* Possible pilot EuAPS measurement only if technically and logistically justified
 
 Deliverables:
 
-* Demonstration experiment
+* Demonstration experiment on realistic samples
+* Applicability report for EuAPS or other compact/unconventional X-ray sources
 
 ---
 
@@ -247,34 +291,36 @@ Deliverables:
 
 ---
 
-# Detector Development Component
+# Detector and Readout Component
 
-The project should include genuine instrumentation development.
+The detector strategy is open. The project may use an existing SDD, buy a commercial SDD, or develop/customize an SDD-related system if a concrete need is identified.
 
 Possible topics:
 
-## Silicon Drift Detector Development
+## Silicon Drift Detector Strategy
 
 Motivations:
 
-* Timing capability
-* High-rate operation
-* Custom geometry
-* Multi-channel readout
-* Trigger generation
-* Integration with EuAPS timing structure
+* fluorescence collection efficiency
+* high-rate operation
+* pile-up rejection
+* multi-channel readout
+* synchronization with energy scans and operando cells
+* compatibility with sample environment and geometry
 
 Possible activities:
 
-* Sensor characterization
-* Bonding
-* Front-end electronics
-* Readout firmware
+* sensor characterization
+* evaluation of existing or commercial SDDs
+* definition of required active area, solid angle, shaping time, and energy resolution
+* front-end electronics
 * DAQ integration
+* pile-up and dead-time correction
+* trigger/synchronization only if scientifically needed
 
 Important argument:
 
-Commercial SDDs do not necessarily satisfy timing, geometry, trigger, and integration requirements of EuAPS.
+Do not claim "SDD development" unless the work is truly developmental. It is acceptable to use or purchase an SDD if the novelty is in the spectroscopy platform, geometry, calibration, and fluorescence-XAS methodology.
 
 ---
 
@@ -286,21 +332,22 @@ Commercial SDDs do not necessarily satisfy timing, geometry, trigger, and integr
 
 Response:
 
-The project develops instrumentation, methodology, simulations, and analysis tools that remain available to INFN independently of EuAPS.
+No. The project develops laboratory fluorescence-XAS instrumentation, methodology, simulations, and analysis tools for realistic and operando samples. EuAPS is only a possible application or later WP.
 
 ---
 
 ## Criticism
 
-"What happens after EuAPS?"
+"What is the so what?"
 
 Response:
 
-The spectrometer becomes a permanent platform for:
+The project addresses the lack of routine laboratory fluorescence-XAS on realistic samples. The result is a permanent INFN platform for:
 
 * XAS
-* XES
-* detector R&D
+* operando/in-situ XAS
+* sample-environment-compatible fluorescence measurements
+* detector/readout characterization if needed
 * future compact-source spectroscopy
 
 ---
@@ -311,14 +358,25 @@ The spectrometer becomes a permanent platform for:
 
 Response:
 
-Commercial solutions are not optimized for:
+Commercial solutions may be useful components but do not by themselves solve the coupled problem:
 
-* EuAPS source characteristics
-* timing requirements
-* detector integration
-* future developments
+* sample and cell constraints
+* fluorescence background
+* flux versus energy resolution
+* detector rate and pile-up
+* quantitative validation against simulations and reference measurements
 
 The project develops know-how and instrumentation within INFN.
+
+---
+
+## Criticism
+
+"What is the novelty compared with the state of the art?"
+
+Response:
+
+The novelty is not generic laboratory XAS. The novelty is a quantitatively validated fluorescence-XAS methodology for realistic and operando samples, built around the measurable trade-off between source acceptance, energy resolution, fluorescence efficiency, background, detector rate, and scan time.
 
 ---
 
@@ -358,9 +416,10 @@ For simulations:
 Create an INFN capability for:
 
 * compact-source XAS
-* compact-source XES
+* fluorescence-mode laboratory XAS
+* operando/in-situ XAS
 * ultrafast spectroscopy
-* detector development
+* detector/readout integration
 * future pump-probe experiments
 
-Position INFN as a reference laboratory for high-resolution spectroscopy using laser-plasma accelerator based X-ray sources.
+Position INFN as a reference laboratory for high-resolution X-ray spectroscopy on realistic samples, with future applicability to compact and unconventional X-ray sources including EuAPS.
