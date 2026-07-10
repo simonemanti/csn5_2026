@@ -52,6 +52,7 @@ VOXES-inspired X-ray spectroscopy approach, possibly using HAPG crystal optics, 
 
 Possible measurements
 
+- only X-ray measurements above 20 keV; do not propose Fe, Mn, Co, Ni, Cu, or other sub-20-keV edges
 - XAS
 - fluorescence-mode XAS on realistic/thick/non-ideal samples
 - operando or in-situ XAS

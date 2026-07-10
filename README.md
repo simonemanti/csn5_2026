@@ -193,10 +193,8 @@ Optional EuAPS objectives:
 
 Possible targets:
 
-* Fe K-edge
-* Ni K-edge
-* Mn K-edge
-* Cu K-edge
+* absorption edges above 20 keV only
+* no Fe, Mn, Co, Ni, Cu, or other sub-20-keV measurements
 
 ---
 
