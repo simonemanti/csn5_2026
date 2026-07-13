@@ -23,17 +23,17 @@ The goal is to assist in scientific research, proposal writing, simulation devel
 
 ## Grant Giovani INFN CSN5
 
-### Working title
+### Project name
 
-PROGETTO
+OLTRE
 
-Name status:
+Full title:
 
-The final acronym is not fixed. Avoid using BELISARIUS for now, because it overemphasizes EuAPS/betatron sources before the main scientific objective is mature.
+**Optimized Laboratory Technology with CZT detectors for high-energy x-Ray absorption Experiments**
 
 Project goal:
 
-Develop and validate a laboratory fluorescence-XAS platform for operando studies of realistic samples, where transmission XAS is impractical or unrepresentative.
+Develop and validate a laboratory XAS platform based on CZT detectors for absorption edges above 20 keV, including fluorescence measurements on realistic samples where transmission XAS is impractical or unrepresentative.
 
 The project should be clearly positioned as:
 
@@ -41,9 +41,9 @@ The project should be clearly positioned as:
 * Spectroscopy methodology development
 * Laboratory fluorescence-XAS for realistic/thick/non-ideal samples
 * Operando or in-situ XAS on scientifically motivated benchmark systems
-* A future technology-transfer path toward compact or unconventional X-ray sources, including EuAPS if justified
+* CZT-based high-energy X-ray detection and readout optimized for laboratory XAS above 20 keV
 
-The project must not appear as merely purchasing commercial equipment, nor as a setup built primarily for EuAPS. EuAPS is a possible application, extension, or dedicated WP, not the central goal.
+The project must not appear as merely purchasing commercial equipment. CZT is the only detector technology in scope, and the proposal is restricted to a laboratory source; alternatives must not be introduced as extensions, synergies, or fallback solutions.
 
 ---
 
@@ -69,7 +69,7 @@ Possible application domains:
 * Na-ion or Li-ion battery cathodes
 * catalysts and redox-active materials
 * reference oxides and foils for validation
-* EuAPS or other compact/unconventional X-ray sources as later extensions
+* reference compounds and application samples containing elements with absorption edges above 20 keV
 
 ---
 
@@ -116,7 +116,7 @@ Important concept:
 
 VOXES demonstrated that suitable crystal optics can preserve useful energy resolution while accepting enough flux for laboratory X-ray spectroscopy.
 
-This philosophy should be transferred to fluorescence-mode laboratory XAS on realistic samples. EuAPS can later benefit from the same methodology, but it should not drive the main proposal.
+This philosophy should be adapted to high-energy laboratory XAS above 20 keV, where the source, optics, sample geometry, and CZT response must be optimized as one measurement chain.
 
 ---
 
@@ -177,7 +177,7 @@ Fluorescence-XAS directly addresses realistic samples and is more defensible tha
 
 ## Phase 3
 
-Operando demonstration and possible EuAPS extension.
+High-energy laboratory XAS demonstration.
 
 Primary objectives:
 
@@ -185,13 +185,7 @@ Primary objectives:
 * Benchmark spectra against reference data and simulations
 * Quantify edge-shift sensitivity, SNR, scan time, and reproducibility
 
-Optional EuAPS objectives:
-
-* Study compatibility with EuAPS source parameters
-* Define required geometry, shielding, timing, and detector conditions
-* Perform a pilot measurement only if EuAPS readiness and project timing allow it
-
-Possible targets:
+Measurement targets:
 
 * absorption edges above 20 keV only
 * no Fe, Mn, Co, Ni, Cu, or other sub-20-keV measurements
@@ -256,20 +250,19 @@ Deliverables:
 
 ---
 
-### WP4 - Operando Demonstration and EuAPS Applicability
+### WP4 - Application Demonstration
 
 Tasks:
 
 * Static measurements on selected benchmark samples
 * Operando or in-situ fluorescence-XAS demonstration
 * Quantitative comparison with reference spectra
-* EuAPS applicability study as an optional extension
-* Possible pilot EuAPS measurement only if technically and logistically justified
+* Characterization of CZT performance during high-energy XAS scans
 
 Deliverables:
 
 * Demonstration experiment on realistic samples
-* Applicability report for EuAPS or other compact/unconventional X-ray sources
+* Quantitative performance report for laboratory XAS above 20 keV
 
 ---
 
@@ -289,13 +282,13 @@ Deliverables:
 
 ---
 
-# Detector and Readout Component
+# CZT Detector and Readout Component
 
-The detector strategy is open. The project may use an existing SDD, buy a commercial SDD, or develop/customize an SDD-related system if a concrete need is identified.
+CZT detectors are a defining element of OLTRE. Their selection and integration must be driven by the requirements of laboratory XAS above 20 keV and supported by quantitative characterization.
 
 Possible topics:
 
-## Silicon Drift Detector Strategy
+## CZT Detector Strategy
 
 Motivations:
 
@@ -309,7 +302,7 @@ Motivations:
 Possible activities:
 
 * sensor characterization
-* evaluation of existing or commercial SDDs
+* evaluation and characterization of suitable CZT sensors or detector modules
 * definition of required active area, solid angle, shaping time, and energy resolution
 * front-end electronics
 * DAQ integration
@@ -318,21 +311,11 @@ Possible activities:
 
 Important argument:
 
-Do not claim "SDD development" unless the work is truly developmental. It is acceptable to use or purchase an SDD if the novelty is in the spectroscopy platform, geometry, calibration, and fluorescence-XAS methodology.
+The proposal must distinguish procurement from R&D. CZT-related development should be claimed only for measurable activities such as detector geometry optimization, sensor characterization, multi-channel readout, rate and pile-up studies, calibration, DAQ integration, or coupling to the XAS geometry and sample environment.
 
 ---
 
 # Expected Criticisms and Responses
-
-## Criticism
-
-"You are building a setup for EuAPS."
-
-Response:
-
-No. The project develops laboratory fluorescence-XAS instrumentation, methodology, simulations, and analysis tools for realistic and operando samples. EuAPS is only a possible application or later WP.
-
----
 
 ## Criticism
 
@@ -346,7 +329,7 @@ The project addresses the lack of routine laboratory fluorescence-XAS on realist
 * operando/in-situ XAS
 * sample-environment-compatible fluorescence measurements
 * detector/readout characterization if needed
-* future compact-source spectroscopy
+* high-energy XAS measurements above 20 keV with CZT detectors
 
 ---
 
@@ -417,7 +400,6 @@ Create an INFN capability for:
 * fluorescence-mode laboratory XAS
 * operando/in-situ XAS
 * ultrafast spectroscopy
-* detector/readout integration
-* future pump-probe experiments
+* CZT detector/readout integration
 
-Position INFN as a reference laboratory for high-resolution X-ray spectroscopy on realistic samples, with future applicability to compact and unconventional X-ray sources including EuAPS.
+Position INFN as a reference laboratory for CZT-based high-energy XAS on realistic samples.

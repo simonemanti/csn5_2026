@@ -2,13 +2,16 @@
 
 INFN CSN5 Grant Giovani proposal.
 
-Working title:
-PROGETTO
+Project name:
+OLTRE
+
+Full title:
+Optimized Laboratory Technology with CZT detectors for high-energy x-Ray absorption Experiments
 
 Goal:
-Develop and validate a laboratory fluorescence-XAS platform for operando studies of realistic samples.
+Develop and validate a laboratory XAS platform based on CZT detectors for absorption edges above 20 keV, including measurements on realistic samples and in-situ/operando applications where scientifically justified.
 
-EuAPS is not the main goal. It can be considered a possible application, extension, or dedicated WP, but the proposal must stand on its own as a CSN5 instrumentation and spectroscopy-methodology project.
+The proposal is entirely laboratory-based. CZT is the only detector technology in scope; alternative source facilities and detector technologies must not be introduced as options, extensions, synergies, risk mitigations, or future developments.
 
 Current maturity:
 Early proposal phase. The project architecture is not fixed and every choice should be critically evaluated.
@@ -48,24 +51,23 @@ Every design choice should be quantitatively motivated.
 
 Current idea:
 
-VOXES-inspired X-ray spectroscopy approach, possibly using HAPG crystal optics, optimized for laboratory fluorescence-XAS rather than only transmission XAS.
+Laboratory high-energy XAS architecture, optimized around CZT detection and absorption edges above 20 keV. Crystal optics and measurement mode must be selected from quantitative flux, resolution, efficiency, background, and acquisition-time studies.
 
-Possible measurements
+Measurements
 
 - only X-ray measurements above 20 keV; do not propose Fe, Mn, Co, Ni, Cu, or other sub-20-keV edges
 - XAS
 - fluorescence-mode XAS on realistic/thick/non-ideal samples
 - operando or in-situ XAS
-- XES only if technically justified by flux and SNR estimates
+- XES is outside the baseline unless it becomes strictly instrumental to validating the XAS platform
 
-Possible detector
+Detector
 
-- Mythen
-- existing SDD
-- purchased/commercial SDD
-- custom SDD only if a specific, defensible detector-development need emerges
+- CZT (cadmium zinc telluride) detectors
+- optimize sensor geometry, active area, thickness, segmentation, efficiency, energy resolution, rate capability, pile-up rejection, readout, and DAQ for photons above 20 keV
+- quantify CZT performance and its coupling to the source, optics, sample environment, and selected absorption edges
 
-The SDD choice is open. Do not claim "SDD development" unless the proposal contains a real development activity, such as geometry, rate capability, pile-up rejection, readout, timing, DAQ integration, or coupling to the spectrometer/cell requirements.
+Do not propose alternative detector technologies as a baseline, backup, comparison detector, or development path.
 
 Possible simulation tools
 
