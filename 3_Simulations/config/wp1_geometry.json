@@ -1,0 +1,29 @@
+{
+  "description": "Symmetric sagittal-focusing Von Hamos baseline for Ge(880).",
+  "crystal": {
+    "material": "Ge",
+    "miller_indices": [8, 8, 0],
+    "thickness_m": 0.001,
+    "use_thick_crystal_approximation": true,
+    "radius_m": 0.25,
+    "width_sagittal_m": 0.04,
+    "length_tangential_m": 0.02,
+    "asymmetry_angle_rad": 0.0,
+    "curvature_direction": "sagittal",
+    "convexity": "downward",
+    "material_constants_library": "xraylib"
+  },
+  "distances": {
+    "source_to_crystal_m": null,
+    "crystal_to_sample_m": null
+  },
+  "focus_scan": {
+    "minimum_distance_factor": 0.75,
+    "maximum_distance_factor": 1.25,
+    "points": 101
+  },
+  "plots": {
+    "bins": 160,
+    "maximum_scatter_rays": 25000
+  }
+}

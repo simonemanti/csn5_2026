@@ -1,0 +1,249 @@
+{
+  "acceptance": {
+    "accepted_reflected_weight": 4056.763350927461,
+    "exclusive_diffraction_loss_after_intercept_fraction": 0.6458782366490726,
+    "exclusive_geometric_miss_fraction": 0.35006499999999996,
+    "exclusive_reflected_fraction": 0.004056763350927461,
+    "geometric_intercepted_fraction": 0.649935,
+    "geometric_rejected_fraction": 0.35006499999999996,
+    "geometrically_intercepted_incident_weight": 649935.0,
+    "geometrically_intercepted_rays": 649935,
+    "geometrically_intercepted_weight_fraction": 0.649935,
+    "geometrically_rejected_rays": 350065,
+    "incident_weight": 1000000.0,
+    "launched_rays": 1000000,
+    "mean_reflectivity_for_geometrically_intercepted_rays": 0.006241798565898838,
+    "weighted_accepted_fraction": 0.004056763350927461,
+    "weighted_rejected_fraction": 0.9959432366490726
+  },
+  "analysis": {
+    "acceptance": {
+      "accepted_reflected_weight": 4056.763350927461,
+      "exclusive_diffraction_loss_after_intercept_fraction": 0.6458782366490726,
+      "exclusive_geometric_miss_fraction": 0.35006499999999996,
+      "exclusive_reflected_fraction": 0.004056763350927461,
+      "geometric_intercepted_fraction": 0.649935,
+      "geometric_rejected_fraction": 0.35006499999999996,
+      "geometrically_intercepted_incident_weight": 649935.0,
+      "geometrically_intercepted_rays": 649935,
+      "geometrically_intercepted_weight_fraction": 0.649935,
+      "geometrically_rejected_rays": 350065,
+      "incident_weight": 1000000.0,
+      "launched_rays": 1000000,
+      "mean_reflectivity_for_geometrically_intercepted_rays": 0.006241798565898838,
+      "weighted_accepted_fraction": 0.004056763350927461,
+      "weighted_rejected_fraction": 0.9959432366490726
+    },
+    "crystal_footprint": {
+      "geometric_centroid_sagittal_x_m": 7.193898733381069e-06,
+      "geometric_centroid_tangential_y_m": -0.0004815893240280777,
+      "geometric_maximum_sagittal_x_m": 0.019999951923449548,
+      "geometric_maximum_tangential_y_m": 0.0009205953169716952,
+      "geometric_minimum_sagittal_x_m": -0.01999997844279869,
+      "geometric_minimum_tangential_y_m": -0.0022879543100586264,
+      "geometric_sigma_sagittal_x_m": 0.011562387216779909,
+      "geometric_sigma_tangential_y_m": 0.0004772165451726725,
+      "reflected_weighted_centroid_sagittal_x_m": -9.2745928170712e-06,
+      "reflected_weighted_centroid_tangential_y_m": 2.7789894356125203e-06,
+      "reflected_weighted_sigma_sagittal_x_m": 0.0010188569793224272,
+      "reflected_weighted_sigma_tangential_y_m": 0.00020478250436208924
+    },
+    "focus": {
+      "centroid_x_m": -1.2626035686272533e-07,
+      "centroid_z_m": -1.231752731713586e-06,
+      "distance_m": 0.5045608416724962,
+      "effective_weighted_rays": 8074.606644367102,
+      "gaussian_equivalent_fwhm_x_m": 0.00022898892119190196,
+      "gaussian_equivalent_fwhm_z_m": 0.00023447345316327876,
+      "sigma_x_m": 9.724264139635874e-05,
+      "sigma_z_m": 9.957170768019221e-05,
+      "total_weight": 4056.763350927461
+    },
+    "sample_spot": {
+      "centroid_x_m": 5.613649726695656e-08,
+      "centroid_z_m": -1.265589225345159e-06,
+      "distance_m": 0.5146234948137789,
+      "effective_weighted_rays": 8074.606644367102,
+      "gaussian_equivalent_fwhm_x_m": 0.00023389004249965608,
+      "gaussian_equivalent_fwhm_z_m": 0.00023447323896813818,
+      "sigma_x_m": 9.93239559826246e-05,
+      "sigma_z_m": 9.957161671989102e-05,
+      "total_weight": 4056.763350927461
+    },
+    "statistical_quality": {
+      "effective_reflected_rays": 8074.606644367102,
+      "interpretation": "Single-seed Monte Carlo diagnostic; repeat seeds before claiming sub-millimetre focal shifts.",
+      "largest_single_ray_weight_fraction": 0.0001915761019796241,
+      "positive_weight_rows": 649935,
+      "rows_carrying_50_percent_of_weight": 2881,
+      "rows_carrying_90_percent_of_weight": 9737
+    }
+  },
+  "assumptions": [
+    "The source is monoenergetic and has unit relative weight per launched ray.",
+    "The Ge(880) crystal is symmetric, perfect, and cylindrically curved sagittally.",
+    "Crystal planes remain locally parallel to the curved surface; bending strain is absent.",
+    "Vacuum propagation is used; slits, windows, air, and absolute source flux are absent.",
+    "Throughput fractions are conditional on the configured normalized source phase space.",
+    "Only x is focused; z is the flat tangential direction in this Von Hamos model.",
+    "With thick-crystal mode enabled, configured thickness is metadata rather than a scan variable.",
+    "Valid phase-space rows must be sampled proportionally to weight for particle transport."
+  ],
+  "command": [
+    "/home/smanti/anaconda3/envs/shadow4/bin/python3",
+    "shadow4/wp1_monoenergetic.py",
+    "--nrays",
+    "1000000"
+  ],
+  "config_sha256": "aa1e4c948d1a3befd9e2ed22f2e12e4827eda0ff3fd1c552fc4a8bc25fda1ec5",
+  "coordinate_convention": {
+    "crystal_footprint": "local curved-surface frame",
+    "source_and_output": "x=sagittal, y=central-ray axis, z=tangential"
+  },
+  "created_utc": "2026-07-20T16:33:01.261655+00:00",
+  "crystal_footprint": {
+    "geometric_centroid_sagittal_x_m": 7.193898733381069e-06,
+    "geometric_centroid_tangential_y_m": -0.0004815893240280777,
+    "geometric_maximum_sagittal_x_m": 0.019999951923449548,
+    "geometric_maximum_tangential_y_m": 0.0009205953169716952,
+    "geometric_minimum_sagittal_x_m": -0.01999997844279869,
+    "geometric_minimum_tangential_y_m": -0.0022879543100586264,
+    "geometric_sigma_sagittal_x_m": 0.011562387216779909,
+    "geometric_sigma_tangential_y_m": 0.0004772165451726725,
+    "reflected_weighted_centroid_sagittal_x_m": -9.2745928170712e-06,
+    "reflected_weighted_centroid_tangential_y_m": 2.7789894356125203e-06,
+    "reflected_weighted_sigma_sagittal_x_m": 0.0010188569793224272,
+    "reflected_weighted_sigma_tangential_y_m": 0.00020478250436208924
+  },
+  "focus": {
+    "centroid_x_m": -1.2626035686272533e-07,
+    "centroid_z_m": -1.231752731713586e-06,
+    "difference_from_paraxial_prediction_m": -0.01006265314128274,
+    "distance_m": 0.5045608416724962,
+    "effective_weighted_rays": 8074.606644367102,
+    "gaussian_equivalent_fwhm_x_m": 0.00022898892119190196,
+    "gaussian_equivalent_fwhm_z_m": 0.00023447345316327876,
+    "inside_configured_scan": true,
+    "metric": "plane minimizing intensity-weighted sagittal RMS sigma_x",
+    "sigma_x_m": 9.724264139635874e-05,
+    "sigma_z_m": 9.957170768019221e-05,
+    "total_weight": 4056.763350927461
+  },
+  "geometry": {
+    "aligned_azimuthal_angle_deg": 0.0,
+    "aligned_incident_angle_to_normal_deg": 60.9356219125736,
+    "aligned_outgoing_angle_to_normal_deg": 60.935621912573616,
+    "central_deflection_angle_deg": 58.12875617485279,
+    "configured_crystal_to_sample_m": 0.5146234948137789,
+    "corrected_bragg_angle_deg": 29.064378087426395,
+    "crystal_label": "Ge(880)",
+    "paraxial_predicted_crystal_to_focus_m": 0.5146234948137789,
+    "sample_plane_orientation": "perpendicular to the reflected central ray in the local output frame",
+    "source_to_crystal_m": 0.5146234948137788,
+    "von_hamos_symmetric_arm_m": 0.5146234948137788,
+    "weighted_sagittal_focus_distance_m": 0.5045608416724962
+  },
+  "geometry_config": {
+    "crystal": {
+      "asymmetry_angle_rad": 0.0,
+      "convexity": "downward",
+      "curvature_direction": "sagittal",
+      "length_tangential_m": 0.02,
+      "material": "Ge",
+      "material_constants_library": "xraylib",
+      "miller_indices": [
+        8,
+        8,
+        0
+      ],
+      "radius_m": 0.25,
+      "thickness_m": 0.001,
+      "use_thick_crystal_approximation": true,
+      "width_sagittal_m": 0.04
+    },
+    "description": "Symmetric sagittal-focusing Von Hamos baseline for Ge(880).",
+    "distances": {
+      "crystal_to_sample_m": null,
+      "source_to_crystal_m": null
+    },
+    "focus_scan": {
+      "maximum_distance_factor": 1.25,
+      "minimum_distance_factor": 0.75,
+      "points": 101
+    },
+    "plots": {
+      "bins": 160,
+      "maximum_scatter_rays": 25000
+    }
+  },
+  "outputs": {
+    "focal_scan_csv": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_focal_scan.csv",
+    "phase_space_hdf5": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_phase_space.h5",
+    "plots": [
+      "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_diagnostics.png",
+      "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_diagnostics.pdf",
+      "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_geometry.png",
+      "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_geometry.pdf"
+    ],
+    "summary_json": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/3_Simulations/results/wp1/wp1_summary.json"
+  },
+  "resolved_geometry": {
+    "aligned_azimuthal_angle_deg": 0.0,
+    "aligned_incident_angle_to_normal_deg": 60.9356219125736,
+    "aligned_outgoing_angle_to_normal_deg": 60.935621912573616,
+    "central_deflection_angle_deg": 58.12875617485279,
+    "configured_crystal_to_sample_m": 0.5146234948137789,
+    "corrected_bragg_angle_deg": 29.064378087426395,
+    "crystal_label": "Ge(880)",
+    "paraxial_predicted_crystal_to_focus_m": 0.5146234948137789,
+    "sample_plane_orientation": "perpendicular to the reflected central ray in the local output frame",
+    "source_to_crystal_m": 0.5146234948137788,
+    "von_hamos_symmetric_arm_m": 0.5146234948137788,
+    "weighted_sagittal_focus_distance_m": 0.5045608416724962
+  },
+  "sample_spot": {
+    "centroid_x_m": 5.613649726695656e-08,
+    "centroid_z_m": -1.265589225345159e-06,
+    "distance_m": 0.5146234948137789,
+    "effective_weighted_rays": 8074.606644367102,
+    "focused_axis": "x (sagittal)",
+    "gaussian_equivalent_fwhm_x_m": 0.00023389004249965608,
+    "gaussian_equivalent_fwhm_z_m": 0.00023447323896813818,
+    "sigma_x_m": 9.93239559826246e-05,
+    "sigma_z_m": 9.957161671989102e-05,
+    "total_weight": 4056.763350927461,
+    "unfocused_axis": "z (tangential)"
+  },
+  "software": {
+    "crystalpy": "0.0.27",
+    "h5py": "3.14.0",
+    "matplotlib": "3.10.8",
+    "numpy": "2.2.6",
+    "python": "3.11.14",
+    "shadow4": "0.1.88",
+    "syned": "1.0.57"
+  },
+  "source_config": {
+    "angular_distribution": "flat",
+    "description": "Preliminary monoenergetic WP1 source, set just above the Ag K edge; not a calibrated W-tube model.",
+    "energy_keV": 25.52,
+    "horizontal_angle_max_rad": 0.06,
+    "horizontal_angle_min_rad": -0.06,
+    "nrays": 1000000,
+    "polarization_degree": 0.5,
+    "seed": 20260720,
+    "sigma_x_m": 0.0001,
+    "sigma_z_m": 0.0001,
+    "spatial_distribution": "gaussian",
+    "vertical_angle_max_rad": 1e-05,
+    "vertical_angle_min_rad": -1e-05
+  },
+  "statistical_quality": {
+    "effective_reflected_rays": 8074.606644367102,
+    "interpretation": "Single-seed Monte Carlo diagnostic; repeat seeds before claiming sub-millimetre focal shifts.",
+    "largest_single_ray_weight_fraction": 0.0001915761019796241,
+    "positive_weight_rows": 649935,
+    "rows_carrying_50_percent_of_weight": 2881,
+    "rows_carrying_90_percent_of_weight": 9737
+  }
+}
