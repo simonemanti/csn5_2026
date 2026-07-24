@@ -1,4 +1,7 @@
-# WP1 OASYS2 workflow
+# PRISM candidate Ge(880) OASYS2 workflow
+
+This workflow visualizes the exploratory Ag K-edge Ge(880) study in
+`3_Simulations/`; it does not freeze the final PRISM optical architecture.
 
 `wp1_monoenergetic.ows` is the visual/debugging counterpart of
 `../shadow4/wp1_monoenergetic.py`.  It contains:

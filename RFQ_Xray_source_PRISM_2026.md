@@ -1,12 +1,18 @@
 # PRISM - shortlist e richieste di quotazione per sorgente X sopra 20 keV
 
+> **Status rispetto alla proposta:** il documento esplora uno specifico scenario
+> HAPG/von Hamos successivo alla v2. La fonte autorevole corrente è
+> `VERSIONS/v2_Proposal_Grant_Giovani_2026-2.pdf`, che non ha ancora congelato
+> cristallo e geometria. Le conclusioni qui riportate sono quindi input al WP di
+> simulazione e alla futura selezione, non requisiti già approvati del progetto.
+
 Data della ricerca: 14 luglio 2026  
 Scadenza operativa per ricevere le offerte: 28 luglio 2026  
 Budget di riferimento: 40 kEUR complessivi; chiedere sempre prezzo netto, IVA, trasporto e installazione separati.
 
 ## Esito in breve
 
-La geometria di progetto è **von Hamos dispersiva con cristallo HAPG cilindricamente curvato**. È un vincolo scientifico, sostenuto dagli articoli del gruppo, e non va sostituita con Johann/Johansson. La sorgente deve quindi massimizzare i fotoni utili accettati dall'intera ottica e dalla banda simultanea, non semplicemente avere lo spot più piccolo.
+Lo scenario studiato in questa nota è una geometria **von Hamos dispersiva con cristallo HAPG cilindricamente curvato**. La sua compatibilità con la fluorescence-XAS PRISM deve essere dimostrata esplicitando come l'energia incidente sul campione viene scansita o codificata e ricostruita. In questo scenario la sorgente deve massimizzare i fotoni utili accettati dall'intera ottica e dalla banda simultanea, non semplicemente avere lo spot più piccolo.
 
 La scelta raccomandata è un anodo di tungsteno (W), non Mo/Rh/Ag. Per massimizzare il flusso occorre chiedere subito due classi prestazionali, entrambe molto superiori ai 75-100 W inizialmente considerati:
 
@@ -21,13 +27,13 @@ Non ci sono prezzi pubblici affidabili per questi prodotti: le pagine ufficiali 
 
 ## Requisito ricavato dai documenti
 
-Il proposal PRISM richiede XAS in fluorescenza oltre 20 keV, fino a 50 keV, con CZT multicanale, risoluzione sub-keV e QE >90% fino a circa 40 keV (`Proposal_Grant_Giovani_2026.pdf`).
+La v2 del proposal PRISM richiede XAS in fluorescenza oltre 20 keV, fino a 50 keV, con CZT multicanale, risoluzione sub-keV e QE >90% fino a circa 40 keV (`VERSIONS/v2_Proposal_Grant_Giovani_2026-2.pdf`).
 
 I lavori locali rendono credibile e conservativa la scelta von Hamos:
 
 - `SANDBOX/Praetz_2025_OperandoLaboratory.pdf` dimostra una piattaforma scan-free con tubo microfocus 30 W/70 x 70 um, HAPG curvo e rivelatore 2D: campione a circa 8 cm dalla sorgente, circa 500 eV di banda XANES o 1500 eV EXAFS e acquisizioni di 5-25 min;
 - `SANDBOX/Praetz_2026_OperandoLaboratory.pdf` usa esplicitamente un tubo **rtw MCBI50B-70Mo**, HAPG cilindrico ed EIGER2 R500K, con spettri Ni K in 5-15 min;
-- l'upgrade PRISM conserva quindi la stessa architettura dispersiva e aumenta potenza, energia, efficienza HAPG e rivelazione CZT. Cambiare famiglia geometrica indebolirebbe la continuità scientifica del progetto.
+- lo scenario di upgrade valutato in questa nota conserva la stessa architettura dispersiva e aumenta potenza, energia, efficienza HAPG e rivelazione CZT. La continuità con questi lavori è un vantaggio, ma non sostituisce la validazione quantitativa rispetto alle altre geometrie candidate.
 
 Il benchmark Yamamoto usa un generatore open-tube W a:
 
@@ -308,11 +314,11 @@ Interpretazione:
 - i valori non includono l'etendue: il confronto finale deve usare i fotoni accettati dall'HAPG e rivelati nella banda simultanea;
 - normalizzare il valore a 50 keV non rende il tubo 60 kV adeguato: il valore assoluto è basso perché mancano solo 10 kV all'endpoint.
 
-## Architettura per superare Yamamoto
+## Scenario architetturale da validare rispetto a Yamamoto
 
-### 1. Von Hamos dispersivo come vincolo progettuale
+### 1. Von Hamos dispersivo come scenario progettuale
 
-PRISM adotta la geometria **von Hamos scan-free**, con campione vicino alla sorgente, cristallo HAPG cilindricamente curvato e rivelatore position-sensitive lungo la direzione dispersiva. È la continuità diretta dei lavori Praetz 2025/2026 e permette di acquisire simultaneamente una banda di centinaia di eV fino a circa 1,5 keV. Il confronto con Johann di Yamamoto resta un benchmark esterno, non una proposta di conversione dell'apparato.
+Questa nota valuta per PRISM la geometria **von Hamos scan-free**, con campione vicino alla sorgente, cristallo HAPG cilindricamente curvato e rivelatore position-sensitive lungo la direzione dispersiva. È la continuità diretta dei lavori Praetz 2025/2026 e permette di acquisire simultaneamente in trasmissione una banda di centinaia di eV fino a circa 1,5 keV. Prima di assumerla come baseline PRISM va però definita e validata la ricostruzione della fluorescence-XAS in funzione dell'energia incidente. Il confronto con Johann di Yamamoto resta un benchmark esterno.
 
 Per PRISM:
 

@@ -1,4 +1,14 @@
-# OLTRE simulation chain
+# PRISM exploratory Ag K-edge simulation chain
+
+This directory supports PRISM Goal 1 as a candidate Ge(880) optical study. It does
+not define the final PRISM architecture, detector choice, or grant work-package
+structure. The authoritative proposal is
+`../VERSIONS/v2_Proposal_Grant_Giovani_2026-2.pdf`.
+
+The current model tests a possible tube-crystal-sample transport chain and
+establishes the numerical workflow. A final fluorescence-XAS design must also
+include an explicit incident-energy scan or energy-position encoding strategy,
+absolute source flux, sample interactions, and the multichannel CZT response.
 
 WP1 now contains a reproducible monoenergetic SHADOW4 baseline for a symmetric
 Ge(880) Von Hamos optic near the Ag K edge.  The 25.52 keV default is just

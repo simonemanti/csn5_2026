@@ -1,5 +1,8 @@
 # Lower-order reflections of Ge(880)
 
+This is a PRISM candidate-optics study supporting the design simulations. Ge(880)
+has not yet been selected as the final crystal in the authoritative v2 proposal.
+
 The default calculation studies a symmetric perfect Ge(880) crystal set to
 20 keV. At the same physical orientation, the parallel planes are `n(110)`.
 The Ge diamond-lattice extinction rules remove the odd orders, so the allowed

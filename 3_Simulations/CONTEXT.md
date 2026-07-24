@@ -1,8 +1,16 @@
-# Simulation of Ag K-edge XAS
+# PRISM exploratory simulation of Ag K-edge XAS
+
+## Relation to the proposal
+
+This is a candidate optical study supporting the simulation objective in
+`../VERSIONS/v2_Proposal_Grant_Giovani_2026-2.pdf`. It is not the authoritative PRISM
+architecture and its WP labels are internal simulation stages, not the grant WPs.
+The final project must retain the v2 focus on laboratory fluorescence-XAS,
+multichannel CZT development, realistic samples, and validation above 20 keV.
 
 ## Goal
 
-Implement a simulation chain using **SHADOW4** and **GEANT4** for fluorescence-mode X-ray absorption spectroscopy at the Ag K-edge (~25.5 keV), with a VOXES-like Von Hamos geometry and a Ge(880) crystal.
+Implement and test a candidate simulation chain using **SHADOW4** and **GEANT4** for fluorescence-mode X-ray absorption spectroscopy at the Ag K-edge (~25.5 keV), with a VOXES-inspired curved Ge(880) geometry.
 
 The simulation should determine:
 
@@ -13,7 +21,7 @@ The simulation should determine:
 
 The concept is inspired by `SANDBOX/Yamamoto_2026_SelectionMonochromator.pdf`, but must be adapted to a VOXES-like Von Hamos layout.
 
-## Target geometry
+## Candidate geometry under study
 
 ```text
 W-anode X-ray tube -> Slit 1 -> Ge(880) crystal -> Slit 2 -> Ag sample -> CZT detector
@@ -40,7 +48,7 @@ x, y, z, dx, dy, dz, energy_keV, weight
 
 Keep geometry and source parameters configurable and separate from the simulation logic.
 
-## Work packages
+## Internal simulation stages
 
 ### WP1 — Monoenergetic ray tracing
 
