@@ -1,0 +1,330 @@
+{
+  "assumptions_and_limitations": [
+    "The tube continuum uses Kramers law normalized by eta=9e-10*Z*V and isotropic emission.",
+    "A 0.3-3x envelope is retained because no calibrated tube spectrum is available.",
+    "The 10 eV incident bandwidth is a proposal requirement, not derived by this monoenergetic trace.",
+    "The Ge(880) crystal is perfect and unstrained; manufacturing errors and bending strain are absent.",
+    "The launched angular window is treated as the accepted collimated source phase space.",
+    "The Ag sample is a uniform plane-parallel foil; fluorescence and self-absorption are analytic.",
+    "Only Ag K-alpha lines are counted as useful signal in the configured baseline.",
+    "CZT charge transport is represented by an explicit photopeak collection factor, not particle transport.",
+    "Background is represented by a configurable background-to-signal ratio.",
+    "No GEANT4, electronics waveform simulation, pile-up transport, or scattering spectrum is included."
+  ],
+  "command": [
+    "/usr/bin/python",
+    "12_Photon_Budget/photon_budget.py"
+  ],
+  "config_path": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/config/baseline.json",
+  "config_sha256": "f9185d2d5e6e9b5cb1afbc94f131aa9306db6fcc84e9e6c1c11dc0e5f1471dcd",
+  "configuration": {
+    "crystal": {
+      "asymmetry_angle_rad": 0.0,
+      "length_tangential_m": 0.02,
+      "material": "Ge",
+      "miller_indices": [
+        8,
+        8,
+        0
+      ],
+      "radius_m": 0.25,
+      "thickness_m": 0.001,
+      "use_thick_crystal_approximation": true,
+      "width_sagittal_m": 0.04
+    },
+    "description": "PRISM minimum defensible Ag K-edge photon-budget screening model.",
+    "detector": {
+      "active_height_mm": 40.0,
+      "active_width_mm": 40.0,
+      "density_g_cm3": 5.8,
+      "distance_mm": 30.0,
+      "live_time_fraction": 0.9,
+      "material": "Cd0.9Zn0.1Te",
+      "photopeak_collection_fraction": 0.85,
+      "thickness_mm": 2.0
+    },
+    "geometry": {
+      "crystal_to_sample_m": null,
+      "source_to_crystal_m": null
+    },
+    "incident_beam": {
+      "effective_bandwidth_eV": 10.0,
+      "energy_keV": 25.52,
+      "horizontal_angle_max_rad": 0.06,
+      "horizontal_angle_min_rad": -0.06,
+      "polarization_degree": 0.5,
+      "sigma_x_m": 0.0001,
+      "sigma_z_m": 0.0001,
+      "spatial_distribution": "gaussian",
+      "vertical_angle_max_rad": 1e-05,
+      "vertical_angle_min_rad": -1e-05
+    },
+    "measurement": {
+      "background_to_signal_ratio": 1.0,
+      "benchmark_time_h": 12.0,
+      "target_snr_per_point": 20.0,
+      "xanes_points": 101
+    },
+    "passive_path": {
+      "air_path_m": 1.03,
+      "aluminium_filter_mm": 0.2,
+      "beryllium_window_mm": 0.127
+    },
+    "plot": {
+      "dpi": 300,
+      "waterfall_scenario": "benchmark_2kW"
+    },
+    "run": {
+      "nrays_per_seed": 200000,
+      "seeds": [
+        20260726,
+        20260727,
+        20260728,
+        20260729,
+        20260730
+      ]
+    },
+    "sample": {
+      "density_g_cm3": 10.49,
+      "detector_takeoff_angle_to_normal_deg": 45.0,
+      "incident_angle_to_normal_deg": 45.0,
+      "material": "Ag",
+      "thickness_um": 20.0,
+      "useful_lines": [
+        "KA1",
+        "KA2"
+      ]
+    },
+    "source_model": {
+      "absolute_output_scale_high": 3.0,
+      "absolute_output_scale_low": 0.3,
+      "absolute_output_scale_nominal": 1.0,
+      "angular_emission": "isotropic screening approximation",
+      "kramers_efficiency_coefficient_per_volt": 9e-10,
+      "scenarios": [
+        {
+          "electrical_power_W": 75.0,
+          "label": "Phase-0 W\n60 kV, 75 W",
+          "name": "phase0_W_75W",
+          "voltage_kV": 60.0
+        },
+        {
+          "electrical_power_W": 500.0,
+          "label": "Fallback\n100 kV, 500 W",
+          "name": "upgrade_500W",
+          "voltage_kV": 100.0
+        },
+        {
+          "electrical_power_W": 2000.0,
+          "label": "Benchmark\n40 kV, 2 kW",
+          "name": "benchmark_2kW",
+          "voltage_kV": 40.0
+        }
+      ],
+      "target": "W",
+      "target_atomic_number": 74
+    }
+  },
+  "created_utc": "2026-07-26T08:17:46.282693+00:00",
+  "model_scope": "SHADOW4 crystal ray tracing plus analytic xraylib attenuation, fluorescence, and detector absorption; no GEANT4.",
+  "optics": {
+    "bragg_angle_deg": 29.064378087426395,
+    "crystal_to_sample_m": 0.5146234948137789,
+    "effective_reflected_rays": {
+      "maximum": 1565.8629456836134,
+      "mean": 1545.7865699553863,
+      "minimum": 1517.5402356523582,
+      "sample_std": 18.032659633415715,
+      "standard_error": 8.064450551086795
+    },
+    "geometric_intercept_fraction": {
+      "maximum": 0.64912,
+      "mean": 0.648577,
+      "minimum": 0.647975,
+      "sample_std": 0.0005251856814499116,
+      "standard_error": 0.00023487017690631054
+    },
+    "mean_reflectivity_after_intercept": {
+      "maximum": 0.006102162430923183,
+      "mean": 0.005953888828219252,
+      "minimum": 0.0057737811468093056,
+      "sample_std": 0.00012770295535313063,
+      "standard_error": 5.711049781944415e-05
+    },
+    "sample_fwhm_x_mm": {
+      "maximum": 0.24489448600186273,
+      "mean": 0.23980022794245018,
+      "minimum": 0.23375430348978407,
+      "sample_std": 0.004239476326272016,
+      "standard_error": 0.001895951450909061
+    },
+    "sample_fwhm_z_mm": {
+      "maximum": 0.2417971455937811,
+      "mean": 0.23826006795246696,
+      "minimum": 0.23446544382997483,
+      "sample_std": 0.0032776316648649097,
+      "standard_error": 0.0014658014415687493
+    },
+    "seeds": [
+      20260726,
+      20260727,
+      20260728,
+      20260729,
+      20260730
+    ],
+    "source_to_crystal_m": 0.5146234948137788,
+    "throughput": {
+      "maximum": 0.003961035677160857,
+      "mean": 0.003861578000761526,
+      "minimum": 0.0037418143478127066,
+      "sample_std": 8.418460807005116e-05,
+      "standard_error": 3.764850126076235e-05
+    }
+  },
+  "outputs": {
+    "optics_csv": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/shadow4_seed_results.csv",
+    "plots": [
+      "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/prism_photon_budget.png",
+      "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/prism_photon_budget.pdf"
+    ],
+    "proposal_note": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/proposal_numbers.md",
+    "scenarios_csv": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/source_scenarios.csv",
+    "stages_csv": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/budget_stages.csv",
+    "summary_json": "/home/smanti/WORK/BANDI/CSN5_2026/12_Photon_Budget/results/photon_budget_summary.json"
+  },
+  "photon_budget_common": {
+    "CZT_intrinsic_efficiency": 0.9999999964191588,
+    "CZT_photopeak_and_live_factor": 0.7649999972606566,
+    "SHADOW4_optical_throughput": 0.003861578000761526,
+    "detector_fraction_of_4pi": 0.0995567396632905,
+    "detector_solid_angle_sr": 1.25106688776618,
+    "effective_bandwidth_eV": 10.0,
+    "fluorescence_lines": [
+      {
+        "energy_keV": 22.1629,
+        "escape_probability_per_incident_photon": 0.2549227336584561,
+        "line": "KA1",
+        "production_cross_section_cm2_g": 20.25149968541697
+      },
+      {
+        "energy_keV": 21.9903,
+        "escape_probability_per_incident_photon": 0.13457088812034074,
+        "line": "KA2",
+        "production_cross_section_cm2_g": 10.722504961785887
+      }
+    ],
+    "incident_energy_keV": 25.52,
+    "mean_useful_line_energy_keV": 22.103266326967063,
+    "passive_transmissions": {
+      "air": 0.9438822390031097,
+      "aluminium_filter": 0.9105988641684539,
+      "beryllium_window": 0.9954959752522933,
+      "combined": 0.8556268940556706
+    },
+    "sample_useful_fluorescence_probability_4pi": 0.3894936217787968,
+    "source_emission_solid_angle_sr": 12.566370614359172,
+    "stages_by_scenario": {
+      "benchmark_2kW": {
+        "after_window_filter_and_air": 38542.29150754079,
+        "at_sample_after_SHADOW4_crystal": 148.83406498445729,
+        "emitted_in_band_all_angles": 235858605921.6136,
+        "entering_CZT_solid_angle": 5.7712961356641586,
+        "escaping_useful_Ag_fluorescence_4pi": 57.96991901485707,
+        "recorded_useful_CZT_photopeak": 4.41504152797352,
+        "within_traced_angular_phase_space": 45045.675603825825
+      },
+      "phase0_W_75W": {
+        "after_window_filter_and_air": 2294.4375193024966,
+        "at_sample_after_SHADOW4_crystal": 8.86014944866037,
+        "emitted_in_band_all_angles": 14040754026.549095,
+        "entering_CZT_solid_angle": 0.3435674909490679,
+        "escaping_useful_Ag_fluorescence_4pi": 3.450971698260137,
+        "recorded_useful_CZT_photopeak": 0.26282912963488764,
+        "within_traced_angular_phase_space": 2681.586489675266
+      },
+      "upgrade_500W": {
+        "after_window_filter_and_air": 19824.791930121803,
+        "at_sample_after_SHADOW4_crystal": 76.55498038703298,
+        "emitted_in_band_all_angles": 121317327134.2664,
+        "entering_CZT_solid_angle": 2.968550664255984,
+        "escaping_useful_Ag_fluorescence_4pi": 29.817676576150234,
+        "recorded_useful_CZT_photopeak": 2.270941250023948,
+        "within_traced_angular_phase_space": 23169.90275533803
+      }
+    },
+    "traced_solid_angle_sr": 2.4000000000000003e-06
+  },
+  "run": {
+    "nrays_per_seed": 200000,
+    "seeds": [
+      20260726,
+      20260727,
+      20260728,
+      20260729,
+      20260730
+    ]
+  },
+  "script_sha256": "a89304bce6b7020aecfe3eb29a1ce5fb7311d6b807eba0ff49d58c35025249e3",
+  "software": {
+    "crystalpy": "0.0.26",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.4",
+    "python": "3.12.13",
+    "shadow4": "0.1.84",
+    "syned": "1.0.52",
+    "xraylib": "4.2.1"
+  },
+  "source_scenarios": [
+    {
+      "bremsstrahlung_efficiency": 0.003996,
+      "electrical_power_W": 75.0,
+      "estimated_total_xray_power_W": 0.2997,
+      "full_xanes_time_best_h": 28.465191403534586,
+      "full_xanes_time_h": 85.39557421060375,
+      "full_xanes_time_worst_h": 284.65191403534584,
+      "label": "Phase-0 W\n60 kV, 75 W",
+      "meets_12h_nominal": false,
+      "name": "phase0_W_75W",
+      "photon_rate_at_sample_per_s": 8.86014944866037,
+      "recorded_useful_rate_high_per_s": 0.7884873889046629,
+      "recorded_useful_rate_low_per_s": 0.07884873889046629,
+      "recorded_useful_rate_per_s": 0.26282912963488764,
+      "spectral_photon_rate_all_angles_per_s_per_keV": 1404075402654.9094,
+      "voltage_kV": 60.0
+    },
+    {
+      "bremsstrahlung_efficiency": 0.00666,
+      "electrical_power_W": 500.0,
+      "estimated_total_xray_power_W": 3.33,
+      "full_xanes_time_best_h": 3.2944407881104745,
+      "full_xanes_time_h": 9.883322364331423,
+      "full_xanes_time_worst_h": 32.944407881104745,
+      "label": "Fallback\n100 kV, 500 W",
+      "meets_12h_nominal": true,
+      "name": "upgrade_500W",
+      "photon_rate_at_sample_per_s": 76.55498038703298,
+      "recorded_useful_rate_high_per_s": 6.812823750071844,
+      "recorded_useful_rate_low_per_s": 0.6812823750071844,
+      "recorded_useful_rate_per_s": 2.270941250023948,
+      "spectral_photon_rate_all_angles_per_s_per_keV": 12131732713426.64,
+      "voltage_kV": 100.0
+    },
+    {
+      "bremsstrahlung_efficiency": 0.002664,
+      "electrical_power_W": 2000.0,
+      "estimated_total_xray_power_W": 5.328,
+      "full_xanes_time_best_h": 1.694543852889973,
+      "full_xanes_time_h": 5.083631558669919,
+      "full_xanes_time_worst_h": 16.94543852889973,
+      "label": "Benchmark\n40 kV, 2 kW",
+      "meets_12h_nominal": true,
+      "name": "benchmark_2kW",
+      "photon_rate_at_sample_per_s": 148.83406498445729,
+      "recorded_useful_rate_high_per_s": 13.245124583920559,
+      "recorded_useful_rate_low_per_s": 1.3245124583920558,
+      "recorded_useful_rate_per_s": 4.41504152797352,
+      "spectral_photon_rate_all_angles_per_s_per_keV": 23585860592161.36,
+      "voltage_kV": 40.0
+    }
+  ]
+}

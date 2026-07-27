@@ -1,0 +1,16 @@
+=== Confronto Fe Kalpha - HAPG(002) ===
+Shadow4: 0.1.88
+Fe Kalpha avg (pesi 2:1): 6399.507 eV
+d(002), database xraylib: 3.348000 A
+Angolo di Bragg cinematico: 16.818285 deg
+Angolo corretto dinamicamente: 16.820686 deg
+Centro del picco sul motore: 72.24971 +/- 0.00075 deg
+Rate Fe Kalpha massimo (fit spettrale): 5.888 Hz
+Fondo del confronto: 0.1077 Hz
+FWHM della distribuzione mosaica: 0.1000 deg (fissata)
+FWHM della rocking curve completa: 0.1083 deg
+FWHM Shadow4 del cristallite perfetto a E_avg: 0.0625 mrad
+chi2/ndf: 94.02
+
+Commento:
+Il profilo misurato e' dominato dalla distribuzione mosaica: la larghezza del singolo cristallite calcolata da Shadow4 e' molto minore della larghezza osservata. Il chi-quadro ridotto elevato segnala code/asimmetrie non descritte dal semplice mosaico gaussiano; la FWHM ottenuta va quindi letta come mosaicita' efficace, comprendente anche divergenza, accettanza geometrica e sistema di rotazione. La normalizzazione in Hz e' adattata ai dati: senza flusso incidente, geometria completa ed efficienza del rivelatore Shadow4 non predice il rate assoluto.
