@@ -694,7 +694,9 @@ def save_phase_space(
 def save_focus_csv(path: Path, rows: list[dict[str, float]]) -> None:
     fields = list(rows[0])
     with path.open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer = csv.DictWriter(
+            stream, fieldnames=fields, lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -1231,7 +1233,15 @@ def run_simulation(args: argparse.Namespace) -> dict[str, Any]:
             "Vacuum propagation is used; slits, windows, air, and absolute source flux are absent.",
             "Throughput fractions are conditional on the configured normalized source phase space.",
             "Only x is focused; z is the flat tangential direction in this Von Hamos model.",
-            "With thick-crystal mode enabled, configured thickness is metadata rather than a scan variable.",
+            (
+                f"Finite-crystal diffraction uses the configured "
+                f"{1.0e3 * float(crystal_config['thickness_m']):g} mm thickness."
+                if not crystal_config["use_thick_crystal_approximation"]
+                else (
+                    "With thick-crystal mode enabled, configured thickness is "
+                    "metadata rather than a scan variable."
+                )
+            ),
             "Valid phase-space rows must be sampled proportionally to weight for particle transport.",
         ],
         "geometry": resolved_geometry,
@@ -1263,7 +1273,13 @@ def run_simulation(args: argparse.Namespace) -> dict[str, Any]:
         },
     }
     with summary_path.open("w", encoding="utf-8") as stream:
-        json.dump(summary, stream, indent=2, sort_keys=True)
+        json.dump(
+            summary,
+            stream,
+            indent=2,
+            sort_keys=True,
+            allow_nan=False,
+        )
         stream.write("\n")
     return summary
 

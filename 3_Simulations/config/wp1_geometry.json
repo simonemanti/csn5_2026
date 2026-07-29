@@ -4,7 +4,7 @@
     "material": "Ge",
     "miller_indices": [8, 8, 0],
     "thickness_m": 0.001,
-    "use_thick_crystal_approximation": true,
+    "use_thick_crystal_approximation": false,
     "radius_m": 0.25,
     "width_sagittal_m": 0.04,
     "length_tangential_m": 0.02,

@@ -1,0 +1,60 @@
+{
+  "description": "Exploratory two-slit scan for the legacy WP3 simulation stage; outputs are simulation diagnostics, not hardware recommendations.",
+  "wp2_source_config": "wp2_tube_source.json",
+  "geometry_config": "wp1_geometry.json",
+  "reference_energy_keV": 25.52,
+  "nrays_per_seed": 20000,
+  "seeds": [
+    20260728,
+    20260729,
+    20260730
+  ],
+  "slits": [
+    {
+      "name": "slit_1_source",
+      "distance_from_source_m": 0.05,
+      "position_scan_m": [
+        0.05,
+        0.1
+      ],
+      "width_x_m": 0.005,
+      "height_z_m": 0.005,
+      "center_x_m": 0.0,
+      "center_z_m": 0.0
+    },
+    {
+      "name": "slit_2_precrystal",
+      "distance_from_source_m": 0.45,
+      "position_scan_m": [
+        0.4,
+        0.45
+      ],
+      "width_x_m": 0.008,
+      "height_z_m": 0.003,
+      "center_x_m": 0.0,
+      "center_z_m": 0.0
+    }
+  ],
+  "scan": {
+    "aperture_scale_factors": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "include_open_case": true,
+    "include_single_slit_cases": true,
+    "include_two_slit_cases": true
+  },
+  "pareto": {
+    "maximize": [
+      "sample_photons_per_mAs"
+    ],
+    "minimize": [
+      "sample_fwhm_x_m",
+      "incident_energy_fwhm_eV"
+    ]
+  },
+  "plots": {
+    "maximum_points": 2000
+  }
+}

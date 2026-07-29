@@ -3,3 +3,14 @@ __pycache__/
 
 # Large generated simulation data
 results/**/*.h5
+
+# Reproducible generated campaigns (WP1 reference plots remain tracked)
+results/wp2/
+results/wp3/
+results/wp4/
+results/wp5/
+
+# Keep Geant4/CMake builds out of the source tree
+geant4/**/build/
+geant4/**/CMakeFiles/
+geant4/**/CMakeCache.txt

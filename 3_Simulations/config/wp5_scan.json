@@ -1,0 +1,86 @@
+{
+  "description": "Conditional WP5 detector-geometry scan. Results are simulation diagnostics and cannot approve detector hardware.",
+  "events": 0,
+  "seeds": [
+    20260728,
+    20260729,
+    20260730
+  ],
+  "geometry_grid": {
+    "angle_deg": [
+      75.0,
+      90.0,
+      105.0
+    ],
+    "distance_mm": [
+      30.0,
+      50.0
+    ],
+    "width_mm": [
+      10.0,
+      20.0
+    ],
+    "height_mm": [
+      10.0,
+      20.0
+    ],
+    "thickness_mm": [
+      1.0,
+      2.0
+    ]
+  },
+  "fixed_geometry": {
+    "sample_width_mm": 10.0,
+    "sample_height_mm": 10.0,
+    "sample_thickness_mm": 0.1,
+    "czt_density_g_cm3": 5.78,
+    "world_half_size_mm": 250.0,
+    "production_cut_um": 1.0
+  },
+  "response": {
+    "noise_fwhm_keV": 0.8,
+    "fractional_fwhm": 0.02,
+    "detection_threshold_keV": 0.5,
+    "ag_kalpha_roi_keV": [
+      21.6,
+      22.5
+    ],
+    "ag_kbeta_roi_keV": [
+      24.45,
+      25.25
+    ]
+  },
+  "screening_statistics": {
+    "prepared_events_min": 100000,
+    "ag_kalpha_entries_per_seed_min": 25,
+    "ag_kbeta_entries_per_seed_min": 25,
+    "fluorescence_roi_events_per_seed_min": 25
+  },
+  "selection": {
+    "independent_seeds_min": 3,
+    "maximize": [
+      "ag_kalpha_entry_weight_per_incident",
+      "ag_kbeta_entry_weight_per_incident",
+      "fluorescence_roi_weight_fraction_proxy"
+    ],
+    "minimize": [
+      "background_weight_fraction_of_incident_proxy",
+      "detector_active_volume_cm3"
+    ],
+    "objective_weights": {
+      "ag_kalpha_entry_weight_per_incident": 0.3,
+      "ag_kbeta_entry_weight_per_incident": 0.15,
+      "fluorescence_roi_weight_fraction_proxy": 0.25,
+      "background_weight_fraction_of_incident_proxy": 0.2,
+      "detector_active_volume_cm3": 0.1
+    },
+    "robustness_cv_penalty": 0.1
+  },
+  "runtime": {
+    "timeout_s": 300
+  },
+  "plots": {
+    "marker_size": 55,
+    "dpi": 240
+  }
+}
