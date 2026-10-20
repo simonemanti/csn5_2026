@@ -1,0 +1,8 @@
+stage,photon_rate_per_s
+emitted_in_band_all_angles,235858605921.6136
+within_traced_angular_phase_space,45045.675603825825
+after_window_filter_and_air,38542.29150754079
+at_sample_after_SHADOW4_crystal,148.83406498445729
+escaping_useful_Ag_fluorescence_4pi,57.96991901485707
+entering_CZT_solid_angle,5.7712961356641586
+recorded_useful_CZT_photopeak,4.41504152797352

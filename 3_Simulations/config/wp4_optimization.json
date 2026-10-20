@@ -1,0 +1,135 @@
+{
+  "description": "End-to-end SHADOW4 screening grid for the Ag K-edge candidate design. Values are simulation assumptions, not frozen hardware specifications.",
+  "reference_energy_keV": 25.52,
+  "nrays_per_seed": 100000,
+  "seeds": [
+    20260728,
+    20260729,
+    20260730
+  ],
+  "trace_energy_importance": {
+    "minimum_keV": 25.48,
+    "maximum_keV": 25.56,
+    "description": "WP4 narrows the physically normalized SpekPy importance window around the fixed Ge(880) response. This improves Monte Carlo statistics without renormalizing the photons/mAs represented by that window; an explicit edge-weight gate rejects truncated responses."
+  },
+  "resolution_scan": {
+    "nrays_per_seed": 5000,
+    "minimum_keV": 25.48,
+    "maximum_keV": 25.56,
+    "step_eV": 0.5,
+    "batch_energy_points": 20,
+    "description": "Monoenergetic transmission response T(E) with common source coordinates and directions at every energy. FWHM is obtained from interpolated half-maximum crossings; the scan is unresolved if either crossing lies outside this range."
+  },
+  "geometry_grid": {
+    "crystal_radius_m": [
+      0.206,
+      0.25
+    ],
+    "source_distance_scale_of_symmetric_arm": [
+      0.95,
+      1.0
+    ],
+    "sample_distance_scale_of_paraxial_image": [
+      0.98,
+      1.0
+    ]
+  },
+  "slit_designs": [
+    {
+      "name": "open",
+      "slits": []
+    },
+    {
+      "name": "slit1_only",
+      "slits": [
+        {
+          "name": "slit1",
+          "distance_fraction_of_source_crystal_arm": 0.1,
+          "width_x_m": 0.002,
+          "height_z_m": 0.0005,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        }
+      ]
+    },
+    {
+      "name": "slit2_only",
+      "slits": [
+        {
+          "name": "slit2",
+          "distance_fraction_of_source_crystal_arm": 0.9,
+          "width_x_m": 0.01,
+          "height_z_m": 0.0005,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        }
+      ]
+    },
+    {
+      "name": "both_nominal",
+      "slits": [
+        {
+          "name": "slit1",
+          "distance_fraction_of_source_crystal_arm": 0.1,
+          "width_x_m": 0.002,
+          "height_z_m": 0.0005,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        },
+        {
+          "name": "slit2",
+          "distance_fraction_of_source_crystal_arm": 0.9,
+          "width_x_m": 0.01,
+          "height_z_m": 0.0005,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        }
+      ]
+    },
+    {
+      "name": "both_tight",
+      "slits": [
+        {
+          "name": "slit1",
+          "distance_fraction_of_source_crystal_arm": 0.1,
+          "width_x_m": 0.001,
+          "height_z_m": 0.00025,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        },
+        {
+          "name": "slit2",
+          "distance_fraction_of_source_crystal_arm": 0.9,
+          "width_x_m": 0.005,
+          "height_z_m": 0.00025,
+          "center_x_m": 0.0,
+          "center_z_m": 0.0
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "constraints": {
+      "incident_energy_resolution_fwhm_eV_max": 10.0,
+      "independent_seeds_min": 3,
+      "sample_fwhm_x_m_max": 0.0005,
+      "effective_weighted_rays_min": 30.0,
+      "resolution_peak_effective_rays_min": 50.0,
+      "resolution_peak_offset_eV_max": 5.0,
+      "resolution_peak_energy_std_eV_max": 1.0,
+      "resolution_fwhm_cv_max": 0.1,
+      "energy_window_edge_weight_fraction_max": 0.001
+    },
+    "objective_weights": {
+      "sample_photons_per_mAs": 0.5,
+      "incident_energy_resolution_fwhm_eV": 0.25,
+      "sample_fwhm_x_m": 0.25
+    },
+    "robustness_cv_penalty": 0.1
+  },
+  "plots": {
+    "maximum_scatter_rays": 20000,
+    "spectrum_bins": 160,
+    "spot_bins": 120
+  }
+}

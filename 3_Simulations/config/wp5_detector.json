@@ -1,0 +1,37 @@
+{
+  "description": "Reference defaults mirrored by the WP5 Geant4 CLI; command-line values remain authoritative.",
+  "coordinate_convention": {
+    "incident_axis": "+y",
+    "transverse_axes": ["x", "z"],
+    "detector_angle": "degrees from +y toward +x in the x-y plane"
+  },
+  "sample": {
+    "material": "Ag",
+    "width_mm": 10.0,
+    "height_mm": 10.0,
+    "thickness_mm": 0.1
+  },
+  "detector": {
+    "material": "Cd0.9Zn0.1Te",
+    "density_g_cm3": 5.78,
+    "distance_to_front_face_mm": 50.0,
+    "angle_deg": 90.0,
+    "width_mm": 20.0,
+    "height_mm": 20.0,
+    "thickness_mm": 2.0
+  },
+  "physics": {
+    "constructor": "G4EmLivermorePhysics",
+    "fluorescence": true,
+    "auger": true,
+    "pixe": true,
+    "deexcitation_ignore_cut": true,
+    "production_cut_um": 1.0
+  },
+  "response": {
+    "noise_fwhm_keV": 0.8,
+    "fractional_fwhm": 0.02,
+    "formula": "FWHM(E)=sqrt(noise_fwhm_keV^2+(fractional_fwhm*E)^2)"
+  },
+  "random_seed": 20260728
+}

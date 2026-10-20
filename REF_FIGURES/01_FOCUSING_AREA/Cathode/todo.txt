@@ -1,0 +1,7 @@
+TODO:
+
+-Rewrite bond class (use neighbour list, clean code, threshold on bond)
+-Assign material to dynamic bond
+-Plot isosurface with marching cube algorithm
+-Show unit cell
+-Import latex (svg)

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="120mm"
+   viewBox="0 0 200 120"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="Objectives/2_Objectives.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   sodipodi:docname="v1_Objectives.svg"
+   inkscape:export-batch-path="/home/smanti/Work/2024_11_19_Riunione_CSN5/figure-csn5/02_Infographics"
+   inkscape:export-batch-name="2"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.6761354"
+     inkscape:cx="377.95276"
+     inkscape:cy="226.71199"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="33.333332"
+       spacingy="20"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="3"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="140.59172"
+       y="132.07101"
+       width="170.31407"
+       height="71.087748"
+       id="rect1" />
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="6"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34" />
+    <rect
+       x="407.45764"
+       y="29.152542"
+       width="275.91268"
+       height="155.86456"
+       id="rect17" />
+    <rect
+       x="279.32202"
+       y="54.237289"
+       width="339.66101"
+       height="69.152542"
+       id="rect16" />
+    <rect
+       x="348.66144"
+       y="414.45084"
+       width="319.62628"
+       height="100.44575"
+       id="rect15" />
+    <rect
+       x="28.661427"
+       y="282.16736"
+       width="320.00003"
+       height="132.28346"
+       id="rect14" />
+    <rect
+       x="668.66144"
+       y="282.16736"
+       width="295.89752"
+       height="139.08981"
+       id="rect13" />
+    <rect
+       x="668.66144"
+       y="282.16736"
+       width="262.67719"
+       height="52.988129"
+       id="rect8" />
+    <rect
+       x="348.66144"
+       y="147.36455"
+       width="293.91632"
+       height="129.5605"
+       id="rect7" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-2" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-1" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-6" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-22" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-29" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-0" />
+    <rect
+       x="140.59172"
+       y="132.07101"
+       width="183.1419"
+       height="81.805215"
+       id="rect1-3" />
+    <rect
+       x="140.59172"
+       y="132.07101"
+       width="179.0076"
+       height="79.442757"
+       id="rect1-3-1" />
+    <rect
+       x="140.59172"
+       y="132.07101"
+       width="191.70581"
+       height="83.872364"
+       id="rect1-3-3" />
+    <rect
+       x="140.59172"
+       y="132.07101"
+       width="179.0076"
+       height="79.442757"
+       id="rect1-3-4" />
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-4"
+       refX="6"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-6"
+       refX="6"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-49"
+       refX="6"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-4-0"
+       refX="6"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-4-4" />
+    </marker>
+    <g
+       id="g3200">
+      <symbol
+         overflow="visible"
+         id="symbol7328">
+        <path
+           style="stroke:none"
+           d=""
+           id="path7252" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol397">
+        <path
+           style="stroke:none"
+           d="m 8.390625,-14.25 c -0.171875,-0.359375 -0.25,-0.359375 -0.421875,-0.359375 -0.25,0 -0.265625,0.04687 -0.40625,0.328125 L 0.875,-0.34375 C 0.84375,-0.3125 0.765625,-0.125 0.765625,-0.109375 0.765625,-0.015625 0.78125,0 1.15625,0 h 13.609375 c 0.375,0 0.390625,-0.015625 0.390625,-0.109375 0,-0.015625 -0.07813,-0.203125 -0.09375,-0.234375 z m -0.9375,1.21875 5.71875,11.875 H 1.71875 Z m 0,0"
+           id="path4002" />
+      </symbol>
+    </g>
+    <g
+       id="g5352">
+      <symbol
+         overflow="visible"
+         id="symbol1598">
+        <path
+           style="stroke:none"
+           d=""
+           id="path9457" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol558">
+        <path
+           style="stroke:none"
+           d="m 6.984375,-11.875 c -0.125,-0.296875 -0.203125,-0.296875 -0.34375,-0.296875 -0.203125,0 -0.21875,0.03125 -0.34375,0.28125 L 0.71875,-0.296875 C 0.703125,-0.265625 0.640625,-0.109375 0.640625,-0.09375 0.640625,-0.015625 0.65625,0 0.96875,0 H 12.3125 c 0.3125,0 0.328125,-0.015625 0.328125,-0.09375 0,-0.015625 -0.07813,-0.171875 -0.09375,-0.203125 z m -0.765625,1.015625 4.765625,9.890625 h -9.5625 z m 0,0"
+           id="path7111" />
+      </symbol>
+    </g>
+    <g
+       id="g4164">
+      <symbol
+         overflow="visible"
+         id="symbol1091">
+        <path
+           style="stroke:none"
+           d=""
+           id="path3244" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol9098">
+        <path
+           style="stroke:none"
+           d="M 5.15625,-8.3125 C 5.0625,-8.484375 5.046875,-8.53125 4.875,-8.53125 c -0.171875,0 -0.203125,0.046875 -0.28125,0.21875 l -4,8.078125 C 0.578125,-0.203125 0.546875,-0.125 0.546875,-0.078125 0.546875,-0.015625 0.5625,0 0.796875,0 H 8.9375 c 0.25,0 0.25,-0.015625 0.25,-0.078125 0,-0.046875 -0.015625,-0.125 -0.046875,-0.15625 z M 4.5,-7.4375 7.765625,-0.828125 H 1.25 Z m 0,0"
+           id="path6740" />
+      </symbol>
+    </g>
+    <g
+       id="g7618">
+      <symbol
+         overflow="visible"
+         id="symbol6864">
+        <path
+           style="stroke:none"
+           d=""
+           id="path7534" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="symbol8391">
+        <path
+           style="stroke:none"
+           d="M 5.15625,-8.3125 C 5.0625,-8.484375 5.046875,-8.53125 4.875,-8.53125 c -0.171875,0 -0.203125,0.046875 -0.28125,0.21875 l -4,8.078125 C 0.578125,-0.203125 0.546875,-0.125 0.546875,-0.078125 0.546875,-0.015625 0.5625,0 0.796875,0 H 8.9375 c 0.25,0 0.25,-0.015625 0.25,-0.078125 0,-0.046875 -0.015625,-0.125 -0.046875,-0.15625 z M 4.5,-7.4375 7.765625,-0.828125 H 1.25 Z m 0,0"
+           id="path1071" />
+      </symbol>
+    </g>
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5-8" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5-0" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5-4" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5-5" />
+    <rect
+       x="541.52539"
+       y="246.77966"
+       width="39.661018"
+       height="22.542374"
+       id="rect34-5-7" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background"
+     inkscape:export-filename="1_Objectives.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Title"
+     inkscape:export-filename="Objectives/4_Objectives.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-43.705012,11.687046)"
+       id="text16"
+       style="font-size:14.6667px;line-height:0;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect17);display:inline"
+       inkscape:label="OPTIMAL"
+       inkscape:export-filename="Objectives/4_Objectives.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="477.99355"
+         y="42.943246"
+         id="tspan5"><tspan
+           style="font-weight:bold;font-size:37.3333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan3">MOSES</tspan><tspan
+           style="font-weight:bold;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan4">
+</tspan></tspan><tspan
+         x="407.52859"
+         y="59.356176"
+         id="tspan16"><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan7">(</tspan><tspan
+           style="font-weight:bold;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan10">M</tspan><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan11">etal </tspan><tspan
+           style="font-weight:bold;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan12">O</tspan><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan13">xidation and </tspan><tspan
+           style="font-weight:bold;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan14">S</tspan><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan15">pin states Analysis with </tspan></tspan><tspan
+         x="414.10185"
+         y="74.68947"
+         id="tspan67"><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan17">X-ray </tspan><tspan
+           style="font-weight:bold;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan33">E</tspan><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan46">mission/Absorption </tspan><tspan
+           style="font-weight:bold;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan53">S</tspan><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan60">pectroscopy for </tspan></tspan><tspan
+         x="440.90586"
+         y="90.022764"
+         id="tspan74"><tspan
+           style="font-size:13.3333px;line-height:1.15;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           id="tspan73">Operando Applications in Batteries)</tspan></tspan></text>
+  </g>
+  <rect
+     style="fill:#1f77b4;fill-opacity:0.5;fill-rule:evenodd;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;paint-order:markers fill stroke"
+     id="rect1-5-3-0-5"
+     width="49.5"
+     height="19.500002"
+     x="8.5833321"
+     y="10.249998"
+     rx="2.5582805"
+     ry="2.747683" />
+  <rect
+     style="fill:#d62728;fill-opacity:0.50196081;fill-rule:evenodd;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;paint-order:markers fill stroke"
+     id="rect1-5-3-0-8"
+     width="49.500004"
+     height="19.500002"
+     x="75.25"
+     y="50.25"
+     rx="2.5582805"
+     ry="2.747683" />
+  <rect
+     style="fill:#2ca02c;fill-opacity:0.50196081;fill-rule:evenodd;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;paint-order:markers fill stroke"
+     id="rect1-5-3-0-5-8"
+     width="49.500004"
+     height="19.500002"
+     x="141.91666"
+     y="30.249998"
+     rx="2.5582805"
+     ry="2.747683" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="O3">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 80,20 H 58.083332"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-4)"
+       d="M 33.333332,29.75 V 48.241666"
+       id="path9-0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g35-0"
+       transform="matrix(0.63004999,0,0,0.61794891,-31.210424,-23.83969)"
+       style="stroke-width:1.60264">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.801319;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="rect33-3"
+         width="11.678813"
+         height="6.500001"
+         x="202.41458"
+         y="116.64614"
+         rx="2.0667276"
+         ry="2.128233" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,60.079055,52.216701)"
+         id="text33-0"
+         style="font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect34-5-4);display:inline;stroke-width:1.60264"><tspan
+           x="544.60156"
+           y="261.49163"
+           id="tspan76"><tspan
+             style="font-weight:bold"
+             id="tspan75">WP5</tspan></tspan></text>
+    </g>
+    <g
+       id="g35-4"
+       transform="matrix(0.63004999,0,0,0.61794891,35.456239,-43.839692)"
+       style="stroke-width:1.60264">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.801319;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="rect33-6"
+         width="11.678813"
+         height="6.500001"
+         x="202.41458"
+         y="116.64614"
+         rx="2.0667276"
+         ry="2.128233" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,60.079055,52.216701)"
+         id="text33-9"
+         style="font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect34-5-5);display:inline;stroke-width:1.60264"><tspan
+           x="544.60156"
+           y="261.49163"
+           id="tspan78"><tspan
+             style="font-weight:bold"
+             id="tspan77">WP4</tspan></tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-4-0)"
+       d="M 99.999997,69.750002 V 88.241665"
+       id="path9-0-7"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.46069,-21.891775)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline"><tspan
+         x="144.61642"
+         y="144.60744"
+         id="tspan80"><tspan
+   style="font-weight:bold"
+   id="tspan79">O1. Simulations XAS/XES</tspan>
+</tspan><tspan
+         x="154.55129"
+         y="161.27406"
+         id="tspan81">• Ab initio + Ray-Tracing
+</tspan><tspan
+         x="141.90158"
+         y="177.94069"
+         id="tspan82">• K,L-edge &amp; Kα,Kβ,Lα-lines</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-6)"
+       d="M 58.083336,60 H 75.25"
+       id="path9-4"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <rect
+     style="fill:#9467bd;fill-opacity:0.50196081;fill-rule:evenodd;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;paint-order:markers fill stroke"
+     id="rect1-5-3-0"
+     width="49.500004"
+     height="19.500002"
+     x="75.249992"
+     y="90.25"
+     rx="2.5582805"
+     ry="2.747683" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="O2">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 120,20.023259 h 46.76579 v 8.329973"
+       id="path10"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g35-48"
+       transform="matrix(0.63004999,0,0,0.61794891,-31.210427,16.16031)"
+       style="stroke-width:1.60264">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.801319;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="rect33-1"
+         width="11.678813"
+         height="6.500001"
+         x="202.41458"
+         y="116.64614"
+         rx="2.0667276"
+         ry="2.128233" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,60.079055,52.216701)"
+         id="text33-2"
+         style="font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect34-5-7);display:inline;stroke-width:1.60264"><tspan
+           x="544.60156"
+           y="261.49163"
+           id="tspan84"><tspan
+             style="font-weight:bold"
+             id="tspan83">WP6</tspan></tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-49)"
+       d="m 166.66666,49.75 0,10.25 -41.91666,0"
+       id="path10-6"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <rect
+     style="fill:#ff7f0e;fill-opacity:0.50196081;fill-rule:evenodd;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;paint-order:markers fill stroke"
+     id="rect1-5-3-0-0"
+     width="49.500004"
+     height="19.500002"
+     x="8.5833302"
+     y="50.25"
+     rx="2.5582805"
+     ry="2.747683" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-28.180138,18.461347)"
+     id="text1-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1-3);display:inline"><tspan
+       x="141.77594"
+       y="144.60744"
+       id="tspan86"><tspan
+   style="font-weight:bold"
+   id="tspan85">O2. Optimization Framework</tspan>
+</tspan><tspan
+       x="156.82473"
+       y="161.27406"
+       id="tspan87">• Reinforcement Learning
+</tspan><tspan
+       x="164.49399"
+       y="177.94069"
+       id="tspan88">• ML Extraction of SBR</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,39.01888,18.283164)"
+     id="text1-1-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1-3-1);display:inline"><tspan
+       x="163.78402"
+       y="144.60744"
+       id="tspan90"><tspan
+   style="font-weight:bold"
+   id="tspan89">O4. Setup Validation </tspan>
+</tspan><tspan
+       x="149.75085"
+       y="161.27406"
+       id="tspan91">• E /   E &gt; 4000 in 5-20 keV
+</tspan><tspan
+       x="144.94618"
+       y="177.94069"
+       id="tspan92">• LOD &lt; 0.01 %wt (100 ppm)</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,104.02044,-1.8693816)"
+     id="text1-1-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1-3-3);display:inline"><tspan
+       x="170.87158"
+       y="144.60744"
+       id="tspan94"><tspan
+   style="font-weight:bold"
+   id="tspan93">O3. XAS / XES Setup</tspan>
+</tspan><tspan
+       x="169.24724"
+       y="161.27406"
+       id="tspan95">• Automated Alignment
+</tspan><tspan
+       x="162.23228"
+       y="177.94069"
+       id="tspan96">• Movement Optimization</tspan></text>
+  <g
+     id="g35"
+     transform="matrix(0.63004999,0,0,0.61794891,-97.877091,-63.839692)"
+     style="stroke-width:1.60264">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.801319;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect33"
+       width="11.678813"
+       height="6.500001"
+       x="202.41458"
+       y="116.64614"
+       rx="2.0667276"
+       ry="2.128233" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,60.079055,52.216701)"
+       id="text33"
+       style="font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect34-5);display:inline;stroke-width:1.60264"><tspan
+         x="544.60156"
+         y="261.49163"
+         id="tspan98"><tspan
+           style="font-weight:bold"
+           id="tspan97">WP2</tspan></tspan></text>
+  </g>
+  <g
+     id="g35-8"
+     transform="matrix(0.63004999,0,0,0.61794891,-97.877091,-23.83969)"
+     style="stroke-width:1.60264">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.801319;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect33-8"
+       width="11.678813"
+       height="6.500001"
+       x="202.41458"
+       y="116.64614"
+       rx="2.0667276"
+       ry="2.128233" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,60.079055,52.216701)"
+       id="text33-8"
+       style="font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;white-space:pre;shape-inside:url(#rect34-5-0);display:inline;stroke-width:1.60264"><tspan
+         x="544.60156"
+         y="261.49163"
+         id="tspan100"><tspan
+           style="font-weight:bold"
+           id="tspan99">WP3</tspan></tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,39.01888,58.283163)"
+     id="text1-1-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1-3-4);display:inline"><tspan
+       x="144.40256"
+       y="144.60744"
+       id="tspan102"><tspan
+   style="font-weight:bold"
+   id="tspan101">O5. Operando Applications</tspan>
+</tspan><tspan
+       x="143.28603"
+       y="161.27406"
+       id="tspan103">• NMC and LiFePO₄ Batteries
+</tspan><tspan
+       x="143.27626"
+       y="177.94069"
+       id="tspan104">• Battery design for XAS/XES</tspan></text>
+  <g
+     inkscape:label=""
+     transform="matrix(0.87752103,0,0,0.87752103,85.516999,58.345)"
+     id="g18"
+     style="stroke-width:1.13959">
+    <g
+       id="surface1"
+       transform="matrix(0.352778,0,0,0.352778,-0.896011,-0.57494)"
+       style="stroke-width:1.13959">
+      <g
+         style="fill:#000000;fill-opacity:1;stroke-width:1.13959"
+         id="g3">
+        <g
+           id="use2"
+           transform="translate(1.993,10.161)"
+           style="stroke-width:1.13959">
+          <path
+             style="stroke:none;stroke-width:1.13959"
+             d="M 5.15625,-8.3125 C 5.0625,-8.484375 5.046875,-8.53125 4.875,-8.53125 c -0.171875,0 -0.203125,0.046875 -0.28125,0.21875 l -4,8.078125 C 0.578125,-0.203125 0.546875,-0.125 0.546875,-0.078125 0.546875,-0.015625 0.5625,0 0.796875,0 H 8.9375 c 0.25,0 0.25,-0.015625 0.25,-0.078125 0,-0.046875 -0.015625,-0.125 -0.046875,-0.15625 z M 4.5,-7.4375 7.765625,-0.828125 H 1.25 Z m 0,0"
+             id="path3" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

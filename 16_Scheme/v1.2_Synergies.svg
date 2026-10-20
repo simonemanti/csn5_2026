@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  PRISM synergies — compact reviewer map.
+  Three partner families are placed on third/sixth-grid intersections.
+  Palette: Matplotlib C0, C1, C2, C4 and C7; text is black.
+-->
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="160mm"
+   height="80mm"
+   viewBox="0 0 160 80"
+   version="1.1"
+   id="svg-prism-synergies-compact"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   sodipodi:docname="v1.2_Synergies.svg"
+   inkscape:export-filename="v1.2_Synergies.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <title id="title">PRISM synergies — compact reviewer map</title>
+  <desc id="desc">PRISM at the centre, connected to three concise partner families positioned on a thirds and sixths grid.</desc>
+
+  <sodipodi:namedview
+     id="namedview"
+     pagecolor="#e6e6e6"
+     bordercolor="#7f7f7f"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.75"
+     inkscape:cx="302"
+     inkscape:cy="151"
+     inkscape:current-layer="layer-labels">
+    <!-- Sixth grid: 160/6 = 26.6667 mm; 80/6 = 13.3333 mm. -->
+    <inkscape:grid
+       type="xygrid"
+       id="grid-sixths"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="26.666666667"
+       spacingy="13.333333333"
+       color="#7f7f7f"
+       opacity="0.18"
+       empcolor="#7f7f7f"
+       empopacity="0.18"
+       empspacing="1"
+       enabled="true"
+       visible="true"/>
+    <!-- Third grid: 160/3 = 53.3333 mm; 80/3 = 26.6667 mm. -->
+    <inkscape:grid
+       type="xygrid"
+       id="grid-thirds"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="53.333333333"
+       spacingy="26.666666667"
+       color="#1f77b4"
+       opacity="0.34"
+       empcolor="#1f77b4"
+       empopacity="0.34"
+       empspacing="1"
+       enabled="true"
+       visible="true"/>
+  </sodipodi:namedview>
+
+  <defs id="defs">
+    <marker
+       id="arrow-c7"
+       markerWidth="4"
+       markerHeight="4"
+       refX="3.55"
+       refY="2"
+       orient="auto"
+       markerUnits="strokeWidth"
+       viewBox="0 0 4 4">
+      <path d="M0,0 L4,2 L0,4 Z" fill="#7f7f7f"/>
+    </marker>
+    <style id="style"><![CDATA[
+      text {
+        font-family: Helvetica, Arial, sans-serif;
+        /* 8 pt = 2.822222 mm; this document uses 1 SVG unit per mm. */
+        font-size: 2.822222px;
+        fill: #000000;
+      }
+      .label { font-weight: 700; }
+      .detail { font-weight: 400; }
+      .node {
+        stroke: #7f7f7f;
+        stroke-width: .45;
+        fill-opacity: .45;
+      }
+      .link {
+        fill: none;
+        stroke: #7f7f7f;
+        stroke-width: .45;
+        stroke-linecap: round;
+        marker-end: url(#arrow-c7);
+      }
+    ]]></style>
+  </defs>
+
+  <g inkscape:groupmode="layer" inkscape:label="01 Background" id="layer-background">
+    <rect id="page-background" x="0" y="0" width="160" height="80" fill="#e6e6e6"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="02 Connections" id="layer-connections">
+    <path id="link-infn" class="link" d="M80,31 L80,22.333333"/>
+    <path id="link-external" class="link" d="M66,49 L53.333333,57.666667"/>
+    <path id="link-industry" class="link" d="M94,49 L106.666667,57.666667"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="03 Nodes — Matplotlib C0 C1 C2 C4" id="layer-nodes">
+    <!-- Centre: C0 -->
+    <rect id="node-prism" class="node" x="56" y="31" width="48" height="18" rx="2.8" fill="#1f77b4" stroke-width=".55"/>
+
+    <!-- Top centre on the first horizontal sixth: C2 -->
+    <rect id="node-infn" class="node" x="28" y="4.333333" width="104" height="18" rx="2.5" fill="#2ca02c"/>
+
+    <!-- Bottom-left on the first vertical third: C4 -->
+    <rect id="node-external" class="node" x="28.333333" y="57.666667" width="50" height="18" rx="2.5" fill="#9467bd"/>
+
+    <!-- Bottom-right on the second vertical third: C1 -->
+    <rect id="node-industry" class="node" x="81.666667" y="57.666667" width="50" height="18" rx="2.5" fill="#ff7f0e"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="04 Labels — 8 pt" id="layer-labels">
+    <text id="label-prism" x="80" y="35.2" text-anchor="middle">
+      <tspan x="80" class="label">PRISM</tspan>
+      <tspan x="80" dy="4.0" class="detail">fluorescence-XAS &gt;20 keV</tspan>
+      <tspan x="80" dy="4.0" class="detail">crystal optics · CZT</tspan>
+    </text>
+
+    <text id="label-infn" x="80" y="9.45" text-anchor="middle">
+      <tspan x="80" class="label">INFN SCIENTIFIC COMMITTEES</tspan>
+      <tspan x="80" dy="4.0" class="detail">CSN3: KAONNIS · VIP</tspan>
+      <tspan x="80" dy="4.0" class="detail">CSN5: VOXES · SPHINX</tspan>
+    </text>
+
+    <text id="label-external" x="53.333333" y="62.8" text-anchor="middle">
+      <tspan x="53.333333" class="label">EXTERNAL INSTITUTIONS &amp; LABS</tspan>
+      <tspan x="53.333333" dy="4.0" class="detail">UniPa · ENRICH COST · EuPRAXIA</tspan>
+      <tspan x="53.333333" dy="4.0" class="detail">EuAPS · AQUA</tspan>
+    </text>
+
+    <text id="label-industry" x="106.666667" y="64.8" text-anchor="middle">
+      <tspan x="106.666667" class="label">INDUSTRY &amp; PRIVATE SECTOR</tspan>
+      <tspan x="106.666667" dy="4.0" class="detail">Beamide · Due2Lab · Rigaku</tspan>
+    </text>
+  </g>
+</svg>
