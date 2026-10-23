@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "presentation": {
+    "id": "1WXjd2Zy0VMVTIDiQ-eIxt8ctDEMiOW3k81sA1vCwU6U",
+    "title": "PRISM@CSN5_2026_11_16",
+    "revisionId": "vQ0PYVTLkdLUxg",
+    "slideCount": 20
+  },
+  "snapshotSha256": "cf513612b2699280fede06233459c4b68c1cc3a694198ccf30c65ff645b82202",
+  "summary": {
+    "totalIssues": 1,
+    "reportedIssues": 1,
+    "truncated": false,
+    "bySeverity": {
+      "warning": 1
+    },
+    "byCode": {
+      "TEXT_BELOW_NARRATIVE_TARGET": 1
+    }
+  },
+  "issues": [
+    {
+      "id": "TEXT_BELOW_NARRATIVE_TARGET:h44cae004078c7866_0_28:h44cae004078c7866_0_91:shape:all",
+      "code": "TEXT_BELOW_NARRATIVE_TARGET",
+      "severity": "warning",
+      "slideId": "h44cae004078c7866_0_28",
+      "slideIndex": 10,
+      "objectId": "h44cae004078c7866_0_91",
+      "surface": "shape",
+      "message": "Narrative text explicitly renders at 9 pt, below the 12 pt target.",
+      "remediation": "Preserve the template size when possible; otherwise shorten the copy or choose a denser exemplar instead of shrinking further.",
+      "evidence": {
+        "minimumFontSizePt": 9,
+        "autofitScale": 1,
+        "textPreview": "Manti, S. et al. Pulse-Shape Discrimination with Machine Learning for CZT Detectors at DAΦNE Beam Test Facility. Condens. Matter 2026, 11, 38"
+      }
+    }
+  ]
+}
