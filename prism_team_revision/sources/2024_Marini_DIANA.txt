@@ -1,0 +1,481 @@
+                           DIANA
+Development of a sustaInable Amorphous Novel scintillAtor
+
+
+
+                         Anna Marini
+
+     Istituto Nazionale di Fisica Nucleare - Sezione di Genova
+
+                Rome, November 19th 2024
+
+
+                                                                 γ
+
+                                                                 iana
+Project goals and methodology       Preliminary tests           Project organization   Summary
+
+
+
+Table of Contents
+
+
+
+       1   Project goals and methodology
+
+       2   Preliminary tests
+
+       3   Project organization
+
+       4   Summary
+
+
+
+
+                   A. Marini                            DIANA                              2 / 18
+Project goals and methodology                   Preliminary tests                    Project organization                  Summary
+
+
+
+Overview
+           The scintillating materials find a wide use in
+           many physics field
+                                                                            Organic scintillators
+           Roughly, they can be divided into two categories:
+           organic and inorganic scintillators
+                                                                              ✓ Easily-tunable geometries
+           The DIANA project aims to develop innovative
+                                                                              ✓ Reduced production costs
+           scintillating materials combining the benefits of
+           both organic and inorganic scintillators by                        × Low density
+           incorporating scintillating crystals (SC) fragments                × Large radiation length
+           in an amorphous medium (glass or polymer)
+           These material could be employed in various
+           physics fields, such as High Energy Physics and                  Inorganic scintillators
+           veto systems
+                                                                              ✓ High density
+                                                                              ✓ Lower radiation length
+                                                                              ✓ Lower Moliere radius
+                                                                              × Complex production and high costs
+                                                                              × Limited geometries of the final products
+
+                   A. Marini                                        DIANA                                                      3 / 18
+Project goals and methodology              Preliminary tests               Project organization                  Summary
+
+
+
+Materials and methodologies
+
+
+                                                                       Epoxy                      SC fragments
+           Bicomponent epoxy resin for initial
+           studies → good transparency, the
+           polymerization process doesn’t require
+           heat or high pressure                                          Incorporation and
+           Glass matrix:                                                    polymerization
+                   Borosilicate glass (n ≃ 1.5) → good
+                   compromise for the project
+                   Lead glass (n up to 1.8) → high                         Final sample in
+                   density, high refractive index                         polymeric matrix
+
+
+
+                   A. Marini                                   DIANA                                                 4 / 18
+Project goals and methodology              Preliminary tests                     Project organization                  Summary
+
+
+
+Materials and methodologies
+                                                                       Glass fragments                  SC fragments
+
+
+
+           Bicomponent epoxy resin for initial
+           studies → good transparency, the
+                                                                                         Mixing
+           polymerization process doesn’t require
+           heat or high pressure                                                 Heating up to glass
+           Glass matrix:                                                          softening point +
+                   Borosilicate glass (n ≃ 1.5) → good                           thermal treatment
+                   compromise for the project
+                                                                                     Slow cooling
+                   Lead glass (n up to 1.8) → high
+                   density, high refractive index
+                                                                                     Final sample
+                                                                                    in glass matrix
+
+
+                   A. Marini                                   DIANA                                                       5 / 18
+Project goals and methodology                   Preliminary tests                            Project organization                        Summary
+
+
+
+Choice of the scintillating crystals
+   The SC must satisfy different requirements
+   depending on the type of matrix:
+           Polymeric matrix: SC with good light yield, with
+           λemission far from the absorption range of the                   Scintillator    Tm      n          ρ           LY       λemission
+           matrix.                                                                         [◦ C]           [g·cm−3 ]   [γ·MeV−1 ]    [nm]
+                                                                             PbWO4         1123    2.17      8.28         170         420
+           Glass matrix: SC with good light yield, λemission
+                                                                             CsI(Tl)        621     1.8      4.51        54000        550
+           far from the absorption range, and softening
+                                                                             NaI(Tl)        650    1.85      3.67        38000        415
+           point below the SC melting point.
+                                                                            LYSO(Ce)       1800     1.8       7.1        33000        420
+                                                                            LSO(Ce)        2150     1.8      7.41        33000        420
+                                                                              BGO          1050    2.15       7.1         8000        480
+
+
+                                                                        CsI and LYSO fragments will be provided
+                                                                        by the Hilger Crystals company.
+
+
+
+
+                   A. Marini                                        DIANA                                                                       6 / 18
+Project goals and methodology           Preliminary tests                          Project organization               Summary
+
+
+
+Construction of the prototypes
+
+
+
+           Parallelepiped shape 2×2×20 cm3                          Optical ﬁber
+
+           Possible insertion of optical fibers
+           (plastic or quartz)                                                                               SiPM
+
+           Photons readout via SiPMs
+           (Hamamatsu S13360)
+                                                                                                          DIANA prototype
+           Reflective foils to maximize light
+                                                                          Reﬂective foil
+           gathering
+
+
+
+
+                   A. Marini                                DIANA                                                           7 / 18
+Project goals and methodology       Preliminary tests           Project organization   Summary
+
+
+
+Table of Contents
+
+
+
+       1   Project goals and methodology
+
+       2   Preliminary tests
+
+       3   Project organization
+
+       4   Summary
+
+
+
+
+                   A. Marini                            DIANA                              8 / 18
+Project goals and methodology        Preliminary tests                                          Project organization                        Summary
+
+
+
+Polymeric matrix
+
+
+
+
+                                                                 Absorbance ratio
+                                                                                    3.5
+           Optical UV-Vis Absorbance test on a                                       3
+           commercial epoxy resin                                                   2.5
+
+           Incorporation of PbWO4 fragments in                                       2          λ$%&' = 420 𝑛𝑚
+           epoxy matrix. The result was a sample                                    1.5
+                                                                                                          λ!"# = 550 𝑛𝑚
+
+           with medium density                                                        1
+
+           ρ = 3.69 ± 0.02 g · cm−3 whose                                           0.5
+
+           scintillation was tested using cosmic                                     0
+
+           rays.                                                                          300    400      500      600    700   800      900
+                                                                                                                                  Wavelength [nm]
+
+
+
+
+                   A. Marini                             DIANA                                                                                      9 / 18
+Project goals and methodology              Preliminary tests                                                    Project organization                                                  Summary
+
+
+
+Polymeric matrix
+
+           Optical UV-Vis Absorbance test on a
+
+
+
+
+                                                                       Counts per hour
+                                                                                             4                                             Epoxy+PbWO
+           commercial epoxy resin                                                           3.5                                          Epoxy
+                                                                                                                                                                          4
+
+                                                                                                                                 Epoxy+PbWO
+                                                                                                                                              4
+                                                                                                                                Entries       500
+           Incorporation of PbWO4 fragments in epoxy                                         3                                  Mean
+                                                                                                                                Std Dev
+                                                                                                                                          0.03541
+                                                                                                                                           0.0194
+
+           matrix. The result was a sample with medium                                      2.5
+
+
+
+           density ρ = 3.69 ± 0.02 g · cm−3 whose
+                                                                                             2
+
+                                                                                            1.5
+
+           scintillation was tested using cosmic rays.                                        1
+
+
+           The result is very encouraging and shows the                                     0.5
+
+                                                                                             0                                                                                    μ
+           feasibility of the DIANA project                                                   0   0.02   0.04     0.06   0.08     0.1      0.12         0.14
+                                                                                                                                                   Amplitude [V]
+                                                                                                                                                     Spectra subtraction
+                                                                                                                                              Entries                        47
+
+
+
+
+                                                                          Counts per hour
+                                                                                             5                                                Mean                     0.03992
+                                                                                                                                              Std Dev                  0.01886
+                                                                                                                                              χ2 / ndf               34.48 / 53
+                                                                                                                                              Constant            16.48 ± 3.55
+                                                                                             4                                                MPV           0.03149 ± 0.00367
+                                                                                                                                              Sigma      0.004503 ± 0.000633
+
+                                                                                             3                  LY = 2-3 phe/MeV
+                                                                                             2
+
+
+                                                                                              1
+
+
+                                                                                             0
+
+
+                                                                                            −1
+
+
+                                                                                            −2
+                                                                                              0   0.02   0.04     0.06   0.08     0.1       0.12        0.14
+                                                                                                                                                   Amplitude [V]
+
+
+
+
+                   A. Marini                                   DIANA                                                                                                                     10 / 18
+Project goals and methodology                          Preliminary tests           Project organization   Summary
+
+
+
+Glass matrix
+
+
+
+           A PbWO4 crystal was heated up to 800◦ C. After
+           the test, this crystal showed unaltered scintillating
+           properties
+           A sample was prepared using lead glass and a
+           fraction equal to 30%w of PbWO4 fragments.
+           The thermal cycle included:
+                   A 20 minutes heating ramp from room temperature to
+                   800-850◦ C
+                   A 30 minutes long temperature dwell
+                   Slow cooling down to room temperature (2 hours)
+           The sample presented optical defects (air
+           bubbles), but shows a correct inclusion of the SC
+           fragments.
+
+
+
+
+                   A. Marini                                               DIANA                             11 / 18
+Project goals and methodology       Preliminary tests           Project organization   Summary
+
+
+
+Table of Contents
+
+
+
+       1   Project goals and methodology
+
+       2   Preliminary tests
+
+       3   Project organization
+
+       4   Summary
+
+
+
+
+                   A. Marini                            DIANA                             12 / 18
+Project goals and methodology   Preliminary tests           Project organization   Summary
+
+
+
+Comprehensive schedule and milestones
+
+
+
+
+                   A. Marini                        DIANA                             13 / 18
+Project goals and methodology                 Preliminary tests                  Project organization                      Summary
+
+
+
+The DIANA’s team
+
+
+
+            Name                       Institution                         Role             FTE         Current position
+          A. Marini             INFN, Sezione di Genova                     PI              0.9             Postdoc
+          M. Hamza              INFN, Sezione di Ferrara           XRD measurements          0.2         Ph.D. student
+        M. Romagnoni            INFN, Sezione di Ferrara           XRD measurements         0.1              RTDA
+        P. Manfrinetti            Università di Genova               chemical tests         0.1           Professor
+        M. Magnozzi               Università di Genova           optical measurements       0.1             RTDA
+        A. Celentano            INFN, Sezione di Genova                  readout            0.05        INFN researcher
+         R. Spotorno              Università di Genova               chemical tests        0.05           Professor
+            Total                                                                            1.5
+
+
+
+
+                   A. Marini                                      DIANA                                                       14 / 18
+Project goals and methodology                               Preliminary tests                        Project organization                      Summary
+
+
+
+Costs
+                                                                                                                      Item:         Cost: [e·g−1 ]
+                     Voce                    Costo unitario       Quantità      Costo complessivo               CsI(Tl) crystals        2.3
+                                                   [e]                                   [e]                    CsI(Tl) fragments       0.08
+         CsI(Tl) fragments                    0.07956·g−1            5 kg              397.80                    LYSO crystals          5.86
+       LYSO(Ce) fragments                     0.57915·g−1            5 kg             2895.75                   LYSO fragments          0.58
+         Nabertherm oven                         10110                1              10110.00
+       SiPM S13360-6050PE                        79,20                25              1980,00
+       SiPM S13360-3050PE                        35,64                25               891.00                 Quotation provided by Hilger
+     A5202 - 64 Channel Citiroc                 5.473,71              1               5473,71
+                                                                                                              Crystals. Link
+          DAQ computer a                          1000                1               1000,00
+              Missions                              -                  -              6000,00
+         Aquisition board b                     6023,89               1               6023,89
+     Ferrara XRD maintenance                      3000                 1                3000
+               Total                                                                    ≃40k
+
+        a
+            Estimate based on the Test Point catalog, partnered with INFN.
+        b
+            for the EEE telescope
+
+
+
+                      A. Marini                                                 DIANA                                                                15 / 18
+Project goals and methodology                                         Preliminary tests                                Project organization                                     Summary
+
+
+
+Risk management
+
+Risk sources                   Consequences                   P          I        Mitigation strategies
+
+Delay in the delivery of ma-   Delay of the studies on            2          1    Use of the two-component epoxy
+terials for polymer matrix     polymer matrices                                   resin available at INFN Genova
+testing
+
+Delay in the delivery of SC    Delay of the studies on            2          1    Use of PbWO4 crystals available       Color   Code   Incidence probability (P)   Impact on schedule (I)
+                               polymer matrices                                   at INFN Genova                        ■       1      Low                         Negligible
+                                                                                                                        ■       2      Medium-low                  ≃ 1 month
+Delay in the delivery of       Delay of the studies on            2          1    Use of the lead glass available at    ■       3      Medium                      ≃ 1-2 months
+glass                          glass matrices                                     INFN Genova                           ■       4      High                        ≃ 2-4 months
+                                                                                                                        ■       5      Very high                   Supension of some goals
+Delay in delivery of readout   Delay of scintillation tests       2          1    Use of SiPMs and electronic
+instrumentations                                                                  modules already available at
+                                                                                  INFN Genova
+
+Unavailability of the XRD
+from INFN Ferrara
+                               Impossibility to perform
+                               the fragments size charac-
+                                                                  2          3    Use of the Genova’s Physics De-
+                                                                                  partment resources                   This shows the capability to adapt
+                               terizations
+                                                                                                                       the DIANA project even in the
+Difficulties in the mixing     Inability to produce the           2          5    Use of samples in polymer ma-
+strategy of SC fragments       material in glassy matrix                          trix                                 worst-case scenarios
+and glass
+
+Unavailability    of    the    Delay in radiation resis-          2          3    Flexible timing has been planned
+Gießen, BTF, and        ILL    tance testing                                      for measurements at external fa-
+facilities   within     the                                                       cilities.
+expected timelines
+
+
+
+
+                       A. Marini                                                          DIANA                                                                                      16 / 18
+Project goals and methodology       Preliminary tests           Project organization   Summary
+
+
+
+Table of Contents
+
+
+
+       1   Project goals and methodology
+
+       2   Preliminary tests
+
+       3   Project organization
+
+       4   Summary
+
+
+
+
+                   A. Marini                            DIANA                             17 / 18
+Project goals and methodology                   Preliminary tests                   Project organization                   Summary
+
+
+
+Conclusions
+
+
+
+              The DIANA project aims to the realization of novel scintillators based on scintillating crystals in an
+              amorphous medium, reaching 3 − 4 g·cm−3 densities
+              The feasibility of DIANA is shown by the preliminary tests
+              This novel material is easily workable and economically competitive
+              This material can be employed in high energy physics experiments and as veto system (for example in
+              rare-events physics).
+              The synergies with the EEE collaboration and the Gießen University are already granted by supportive
+              letters to the DIANA project
+              The SC procurement at a competitive price is granted by the collaboration with Hilger Crystals.
+              The risk analysis enlights the possibility to adapt the project even in the worst-case scenario.
+
+                                                                                                                       γ
+
+                                                                                                                       iana
+                   A. Marini                                        DIANA                                                     18 / 18
+

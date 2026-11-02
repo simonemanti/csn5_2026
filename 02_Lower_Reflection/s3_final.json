@@ -1,0 +1,179 @@
+{
+  "model": "Ideal symmetric cylindrical von Hamos geometry; Bragg law with xraylib lattice spacings",
+  "source_files": [
+    "/home/smanti/WORK/VOXES/RAY-TRACING/07_VOXES_Single_Spectrum/s1_compare_GUI.py",
+    "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/03_Simulations/O-2094 subsrate for Von Hamos analyzer 50x25 R206.pdf"
+  ],
+  "voxes_hapg": {
+    "material": "Graphite",
+    "miller_index_h": 0,
+    "miller_index_k": 0,
+    "miller_index_l": 2,
+    "thickness": 0.0001,
+    "radius": 0.2067,
+    "is_cylinder": 1,
+    "cylinder_direction": 1,
+    "mosaicity_fwhm_deg": 0.1,
+    "mosaicity_profile_flag": 0
+  },
+  "ge_substrate": {
+    "substrate_material": "Aluminum 2017A",
+    "substrate_dimensions_mm": [
+      52.0,
+      27.0
+    ],
+    "radius_m": 0.206,
+    "crystal_material_specified": false,
+    "crystal_thickness_specified": false,
+    "crystal_hkl_specified": false,
+    "note": "PDF describes the substrate, not a complete Ge crystal specification."
+  },
+  "ge_crystal_assumption": "Ge material and candidate hkl requested by user; not specified by substrate drawing",
+  "actual_hapg_hkl": [
+    0,
+    0,
+    2
+  ],
+  "hapg_higher_orders": "Accessible reciprocal-lattice reflections, not separate crystal cuts or verified high-energy efficiencies",
+  "reference": "Ag K absorption edge; not Ag Kalpha fluorescence",
+  "ag_kedge_kev": 25.514,
+  "formulas": {
+    "bragg": "sin(theta)=hc/(2*d*E)",
+    "distance": "L=R/sin(theta)",
+    "sensitivity": "abs(dE/dtheta)=E*cot(theta); tabulated in eV/mrad",
+    "axial_focus": "z=2*R*cot(theta); standard von Hamos only"
+  },
+  "references": [
+    "https://doi.org/10.3390/condmat4020038",
+    "https://journals.iucr.org/a/issues/2012/01/00/wx0006/index.html"
+  ],
+  "settings": {
+    "voxes_script": "/home/smanti/WORK/VOXES/RAY-TRACING/07_VOXES_Single_Spectrum/s1_compare_GUI.py",
+    "ge_support_pdf": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/03_Simulations/O-2094 subsrate for Von Hamos analyzer 50x25 R206.pdf",
+    "energy_kev": 25.514,
+    "emin_kev": 24.5,
+    "emax_kev": 26.5,
+    "hapg_orders": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "points": 1001,
+    "output": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s3_final"
+  },
+  "results": [
+    {
+      "crystal": "Ge(220)",
+      "hkl": [
+        2,
+        2,
+        0
+      ],
+      "radius_mm": 206.0,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 6.977282784773713,
+      "source_to_crystal_cm": 169.58110313023562,
+      "axial_source_to_focus_cm": 336.6505044634129,
+      "angular_sensitivity_ev_per_mrad": 208.47817890484268
+    },
+    {
+      "crystal": "Ge(440)",
+      "hkl": [
+        4,
+        4,
+        0
+      ],
+      "radius_mm": 206.0,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 14.060811791440525,
+      "source_to_crystal_cm": 84.79055156511781,
+      "axial_source_to_focus_cm": 164.50018400861322,
+      "angular_sensitivity_ev_per_mrad": 101.8703323979553
+    },
+    {
+      "crystal": "Ge(660)",
+      "hkl": [
+        6,
+        6,
+        0
+      ],
+      "radius_mm": 206.0,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 21.372347992800155,
+      "source_to_crystal_cm": 56.5270343767452,
+      "axial_source_to_focus_cm": 105.27954436508043,
+      "angular_sensitivity_ev_per_mrad": 65.19665764394811
+    },
+    {
+      "crystal": "Ge(880)",
+      "hkl": [
+        8,
+        8,
+        0
+      ],
+      "radius_mm": 206.0,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 29.071664315323716,
+      "source_to_crystal_cm": 42.395275782558905,
+      "axial_source_to_focus_cm": 74.1080132962482,
+      "angular_sensitivity_ev_per_mrad": 45.89300609806983
+    },
+    {
+      "crystal": "HAPG(002)",
+      "hkl": [
+        0,
+        0,
+        2
+      ],
+      "radius_mm": 206.7,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 4.16175942771431,
+      "source_to_crystal_cm": 284.8184359561818,
+      "axial_source_to_focus_cm": 568.1348169599382,
+      "angular_sensitivity_ev_per_mrad": 350.63840638403155
+    },
+    {
+      "crystal": "HAPG(004)",
+      "hkl": [
+        0,
+        0,
+        4
+      ],
+      "radius_mm": 206.7,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 8.34568162151429,
+      "source_to_crystal_cm": 142.4092179780909,
+      "axial_source_to_focus_cm": 281.80231698927827,
+      "angular_sensitivity_ev_per_mrad": 173.9212461457292
+    },
+    {
+      "crystal": "HAPG(006)",
+      "hkl": [
+        0,
+        0,
+        6
+      ],
+      "radius_mm": 206.7,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 12.575014760052944,
+      "source_to_crystal_cm": 94.9394786520606,
+      "axial_source_to_focus_cm": 185.3241021208528,
+      "angular_sensitivity_ev_per_mrad": 114.37733772403092
+    },
+    {
+      "crystal": "HAPG(008)",
+      "hkl": [
+        0,
+        0,
+        8
+      ],
+      "radius_mm": 206.7,
+      "energy_kev": 25.514,
+      "bragg_angle_deg": 16.87533051375755,
+      "source_to_crystal_cm": 71.20460898904545,
+      "axial_source_to_focus_cm": 136.27688639358993,
+      "angular_sensitivity_ev_per_mrad": 84.10663956086245
+    }
+  ]
+}

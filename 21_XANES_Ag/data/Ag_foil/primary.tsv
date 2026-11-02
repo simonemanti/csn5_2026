@@ -1,0 +1,103 @@
+key	value
+@data_info@identifier@pid	spring8.348e11b9-4f7f-4dfe-b5f7-a71cc4336543
+@data_info@identifier@proposal_number	2014S0000
+@data_info@identifier@register_name	/SPring-8/BL14B2/XAFS_Standard/Ag/K/311/Ag-foil
+@data_info@date@create_time	2020-01-15 18:52:58
+@data_info@date@update_time	2021-03-19 16:37:22
+@data_info@access_rights	open
+@data_info@contact_name@affiliation@organization	JASRI
+@data_info@contact_name@name	Industrial Application and Partnership Division
+@data_info@contact_name@role	organization
+@data_info@data_depositor@affiliation@organization	JASRI
+@data_info@data_depositor@name	Hironori Ofuchi
+@data_info@facility	SPring-8
+@data_info@class_name	BL14B2
+@data_info@disk_name	XAFS_Standard
+@data_info@title_ja	標準試料
+@data_info@title	Standard Sample
+@facility@ring@end_current	99.5
+@facility@ring@end_current_unit	mA
+@facility@ring@energy	8.0
+@facility@ring@energy_unit	GeV
+@facility@ring@filling_pattern	406 bunches
+@facility@ring@filling_pattern_mode	A
+@facility@ring@start_current	99.5
+@facility@ring@start_current_unit	mA
+@sample_0@chemical_formula	Ag-foil
+@sample_0@lot_number	34445605
+@sample_0@model_number	AG-403241
+@sample_0@name	Silver
+@sample_0@supplier	NILACO CORPORATION
+@measurement@date@end_time	2016-06-24 05:06:00
+@measurement@date@start_time	2016-06-24 05:01:00
+@measurement@method@absorption_edge	Ag K-edge
+@measurement@method@category	spectroscopy
+@measurement@method@detection	Transmission( 2)
+@measurement@method@sub_category	XAFS
+@measurement@scan_mode	angle axis (1)
+@instrument@monochrometer@distance	1.63747
+@instrument@monochrometer@distance_unit	A
+@instrument@monochrometer@net_plane	Si(311)
+@instrument@monochrometer@section_0@start_energy	8.65
+@instrument@monochrometer@section_0@start_energy_unit	deg
+@instrument@monochrometer@section_0@step_energy	-0.00012
+@instrument@monochrometer@section_0@step_energy_unit	deg
+@instrument@monochrometer@section_0@end_energy	8.04
+@instrument@monochrometer@section_0@end_energy_unit	deg
+@instrument@monochrometer@section_0@dwell_time	50.0
+@instrument@monochrometer@section_0@dwell_time_unit	ms
+@instrument@slit_0@name	4Dslit
+@instrument@slit_0@vertical_size	1.0
+@instrument@slit_0@vertical_size_unit	mm
+@instrument@slit_0@horizontal_size	5.0
+@instrument@slit_0@horizontal_size_unit	mm
+@instrument@xafs@I0@element_0@type	Ion Chamber
+@instrument@xafs@I0@element_0@gas	Ar 100%
+@instrument@xafs@I0@element_0@HV	1000.0
+@instrument@xafs@I0@element_0@HV_unit	V
+@instrument@xafs@I0@element_0@amp_gain	100000000.0
+@instrument@xafs@I0@element_0@amp_gain_unit	V/A
+@instrument@xafs@I0@element_number	1
+@instrument@xafs@I1@element_0@type	Ion Chamber
+@instrument@xafs@I1@element_0@gas	Ar 70% + Kr 30%
+@instrument@xafs@I1@element_0@HV	1000.0
+@instrument@xafs@I1@element_0@HV_unit	V
+@instrument@xafs@I1@element_0@amp_gain	10000000.0
+@instrument@xafs@I1@element_0@amp_gain_unit	V/A
+@instrument@xafs@I1@element_number	1
+@local@measurement_time	254.0
+@local@measurement_time_unit	sec
+@local@xafs_filename_list_0	Ag-K_Ag-foil_Si311_50ms_160624.dat
+@local@xafs_processed_data_format_0@extension	ex3
+@local@xafs_processed_data_format_0@format	Rex2000
+@local@xafs_processed_data_format_0@columns_0@name	photon energy
+@local@xafs_processed_data_format_0@columns_0@unit	eV
+@local@xafs_processed_data_format_0@columns_0@formula	12398/(2*D*math.sin(columns[1]))
+@local@xafs_processed_data_format_0@columns_0@input@columns	xafs_raw_data_format[0].columns
+@local@xafs_processed_data_format_0@columns_0@input@D	xafs_raw_data_format[0].parameter.D
+@local@xafs_processed_data_format_0@columns_1@name	absorption coefficient mu*t
+@local@xafs_processed_data_format_0@columns_1@formula	math.log(columns[3]/columns[4])
+@local@xafs_processed_data_format_0@columns_1@input@columns	xafs_raw_data_format[0].columns
+@local@xafs_processed_data_format_1@extension	txt
+@local@xafs_processed_data_format_1@format	Athena
+@local@xafs_processed_data_format_1@columns_0@name	photon energy
+@local@xafs_processed_data_format_1@columns_0@unit	eV
+@local@xafs_processed_data_format_1@columns_0@formula	12398/(2*D*math.sin(columns[1]))
+@local@xafs_processed_data_format_1@columns_0@input@columns	xafs_raw_data_format[0].columns
+@local@xafs_processed_data_format_1@columns_0@input@D	xafs_raw_data_format[0].parameter.D
+@local@xafs_processed_data_format_1@columns_1@name	absorption coefficient mu*t
+@local@xafs_processed_data_format_1@columns_1@formula	math.log(columns[3]/columns[4])
+@local@xafs_processed_data_format_1@columns_1@input@columns	xafs_raw_data_format[0].columns
+@local@xafs_raw_data_format_0@extension	dat
+@local@xafs_raw_data_format_0@format	PF9809
+@local@xafs_raw_data_format_0@parameter@D	monochrometer distance
+@local@xafs_raw_data_format_0@columns_0@name	monochrometer angle (setting value of PC)
+@local@xafs_raw_data_format_0@columns_0@unit	deg
+@local@xafs_raw_data_format_0@columns_1@name	monochrometer angle (encoder value)
+@local@xafs_raw_data_format_0@columns_1@unit	deg
+@local@xafs_raw_data_format_0@columns_2@name	dwell time
+@local@xafs_raw_data_format_0@columns_2@unit	sec
+@local@xafs_raw_data_format_0@columns_3@name	intensity I0
+@local@xafs_raw_data_format_0@columns_3@unit	count
+@local@xafs_raw_data_format_0@columns_4@name	intensity I1
+@local@xafs_raw_data_format_0@columns_4@unit	count

@@ -1,0 +1,17 @@
+Costi associati all’utilizzo dell’infrastruttura DataCloud
+
+                  allocazione annuale        allocazione a tempo
+
+   CPU, 3 GB      20               €/corey   4,11             €/kcoreh
+   RAM/core
+
+   GPU H100, 80   5000             €/GPUy    1,03             €/GPUh
+   GB
+
+   Disco          60               €/TBNy    9                €/TBNmonth
+   rotazionale
+
+   Disco veloce   120              €/TBNy    18               €/TBNmonth
+
+   Nastro         1,43             €/TBy
+

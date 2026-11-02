@@ -1,0 +1,219 @@
+{
+  "blend_sha256": "9c2240fa17dad8a7161ed4ae9805c198d45297e475e06859f548e9994cc0fe7d",
+  "frames": [
+    1,
+    336
+  ],
+  "fps": 24,
+  "render_resolution": [
+    1920,
+    1080
+  ],
+  "crystal": {
+    "mesh_identical": true,
+    "materials_identical": true,
+    "scale_identical": true,
+    "vertices": 46,
+    "polygons": 25,
+    "scale": [
+      50.0,
+      10.0,
+      35.0
+    ],
+    "base_angle_identical": true,
+    "modifiers": [],
+    "sweep_z_degrees": 80.00000450293254,
+    "xy_rotation_range": [
+      0.0,
+      0.0
+    ]
+  },
+  "curve": {
+    "reference_points": 1751,
+    "rendered_points": 1751,
+    "reference_max_deviation_px": 0.0002799280567946487,
+    "fixed": true,
+    "camera_fixed": true,
+    "marker_max_curve_deviation_px": 0.00024913270070199886,
+    "embedded_reference_matches": true
+  },
+  "fluorescence": {
+    "belowedge_errors": [],
+    "aboveedge_errors": []
+  },
+  "arrows": {
+    "driver_objects": [
+      "Incident_beam_direction",
+      "Diffracted_beam_direction",
+      "Fluorescence_direction",
+      "Incident_beam_direction_02",
+      "Diffracted_beam_direction_02"
+    ],
+    "invalid_drivers": [],
+    "advance_between_1_and_112": {
+      "Incident_beam_direction": true,
+      "Diffracted_beam_direction": true,
+      "Fluorescence_direction": true,
+      "Incident_beam_direction_02": true,
+      "Diffracted_beam_direction_02": true
+    },
+    "loop_visible_arrows_frame1_equals_frame337": true,
+    "loop_hidden_arrow_note": "Hidden fluorescence object may retain unevaluated transforms; it has no visual contribution at frame 1 or 337.",
+    "live_control_tests": [
+      {
+        "property": "arrow_cycle_frames",
+        "before": 84.0,
+        "test_value": 42.0,
+        "result_changed": true
+      },
+      {
+        "property": "arrow_travel_start",
+        "before": 0.08,
+        "test_value": 0.2,
+        "result_changed": true
+      },
+      {
+        "property": "arrow_travel_end",
+        "before": 0.92,
+        "test_value": 0.7,
+        "result_changed": true
+      },
+      {
+        "property": "arrow_size",
+        "before": 1.25,
+        "test_value": 2.0,
+        "result_changed": true
+      },
+      {
+        "property": "fluorescence_cycle_frames",
+        "before": 42.0,
+        "test_value": 84.0,
+        "result_changed": true
+      }
+    ],
+    "parameter_defaults": {
+      "arrow_cycle_frames": 84.0,
+      "fluorescence_cycle_frames": 42.0,
+      "arrow_travel_start": 0.08,
+      "arrow_travel_end": 0.92,
+      "arrow_size": 1.25
+    }
+  },
+  "labels": {
+    "XAS_tick_x_label_-40": "\u221240",
+    "XAS_tick_x_label_0": "0",
+    "XAS_tick_x_label_40": "40",
+    "XAS_tick_x_label_80": "80",
+    "XAS_tick_x_label_120": "120",
+    "XAS_tick_y_label_0": "0.0",
+    "XAS_tick_y_label_0.5": "0.5",
+    "XAS_tick_y_label_1": "1.0",
+    "XAS_label_energy": "E \u2212 E\u2080 (eV)",
+    "XAS_label_absorption": "Normalized absorption"
+  },
+  "font_files": [
+    {
+      "name": "DejaVu Sans Book",
+      "packed": true
+    }
+  ],
+  "background": {
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 1.0,
+    "transparent": false
+  },
+  "libraries": [],
+  "external_images": [],
+  "loop_snapshots": [
+    {
+      "frame": 1,
+      "marker": [
+        656.3948364257812,
+        -432.0555419921875,
+        195.96102905273438
+      ],
+      "crystal": [
+        0.0,
+        0.0,
+        1.673770546913147
+      ],
+      "sample_emission": 0.0,
+      "fluor_hidden": true
+    },
+    {
+      "frame": 336,
+      "marker": [
+        656.3948364257812,
+        -432.0555419921875,
+        195.96102905273438
+      ],
+      "crystal": [
+        0.0,
+        0.0,
+        1.673770546913147
+      ],
+      "sample_emission": 0.0,
+      "fluor_hidden": true
+    },
+    {
+      "frame": 337,
+      "marker": [
+        656.3948364257812,
+        -432.0555419921875,
+        195.96102905273438
+      ],
+      "crystal": [
+        0.0,
+        0.0,
+        1.673770546913147
+      ],
+      "sample_emission": 0.0,
+      "fluor_hidden": true
+    }
+  ],
+  "loop_render_comparison": {
+    "frames": [
+      1,
+      337
+    ],
+    "resolution": [
+      480,
+      270
+    ],
+    "identical": true,
+    "max_channel_difference": 0,
+    "changed_pixels": 0
+  },
+  "mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_frames": "336"
+      }
+    ],
+    "format": {
+      "duration": "14.000000",
+      "size": "307463"
+    }
+  },
+  "gif": {
+    "size": [
+      1280,
+      720
+    ],
+    "frames": 224,
+    "loop": 0,
+    "bytes": 885546,
+    "duration_s": 14.0
+  },
+  "rendered_frames_full_hd": 336
+}

@@ -1,0 +1,10 @@
+/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/Ge(8_8_0)/fine/crystal.bra
+0
+0
+0.1
+0
+4
+29.0716443399
+25509
+25519
+20001

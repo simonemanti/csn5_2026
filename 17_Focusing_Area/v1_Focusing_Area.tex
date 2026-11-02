@@ -1,0 +1,35 @@
+% v1: clockwise pentagon. Build all versions: make focusing
+\input{focusing_common.tex}
+\begin{document}
+\begin{tikzpicture}[focusing]
+\path[use as bounding box] (0,0) rectangle (22.42,7);
+\clip (0,0) rectangle (22.42,7);
+\begin{pgfinterruptboundingbox}
+\coordinate (SIM) at (11.21,4.95);
+\coordinate (CRYSTAL) at (18.37,4.20);
+\coordinate (XAS) at (16.25,1.35);
+\coordinate (CZT) at (6.17,1.35);
+\coordinate (XANES) at (4.05,4.20);
+\draw[flow] (SIM) -- (CRYSTAL);
+\draw[flow] (CRYSTAL) -- (XAS);
+\draw[flow] (XAS) -- (CZT);
+\draw[flow] (CZT) -- (XANES);
+\DrawSimulation{SIM}
+\DrawCrystal{CRYSTAL}
+\DrawXAS{XAS}
+\DrawCZT{CZT}
+\DrawXANES{XANES}
+\node[title] at (11.21,6.70) {SIMULATION};
+\node[detail] at (11.21,6.28) {Ray tracing\enspace$\cdot$\enspace Detector response};
+\node[title] at (20.75,4.50) {CRYSTAL};
+\node[detail] at (20.75,3.89) {Bent Ge optics\\Energy selection};
+\node[title] at (18.90,1.65) {XAS};
+\node[detail] at (18.90,1.04) {X-ray absorption\\spectroscopy};
+\node[title] at (3.20,1.65) {CZT};
+\node[detail] at (3.20,1.04) {Multichannel detection\\Pulse-shape analysis};
+\node[title] at (1.48,4.50) {XANES};
+\node[detail] at (1.48,3.89) {Near-edge\\structure};
+\node[project] at (11.21,3.04) {PRISM};
+\end{pgfinterruptboundingbox}
+\end{tikzpicture}
+\end{document}

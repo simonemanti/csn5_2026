@@ -1,0 +1,18 @@
+00:00.349  blend            | Read blend: "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/v3_VOXES.blend"
+/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/blender_assets/update_v3_materials.py:6: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  metal=bpy.data.materials.new('v3 | Polished light steel');metal.use_nodes=True
+/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/blender_assets/update_v3_materials.py:22: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w=s.world;w.use_nodes=True;nt=w.node_tree;nt.nodes.clear()
+00:20.069  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/05_Source.png'
+00:39.563  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/06_Transmission.png'
+00:50.476  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/01_Overview.png'
+01:01.249  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/02_Reverse.png'
+01:11.914  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/03_Top.png'
+01:22.157  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/04_Elevation.png'
+01:41.078  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/07_Transmission_top.png'
+Info: Saved as "v3_VOXES.blend"
+Info: Saved as "v3_VOXES.blend"
+VERIFIED: shared plate materials, Forest packed, label size control
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:32:04)
+
+Blender quit

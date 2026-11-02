@@ -1,0 +1,35 @@
+% v2: linear left-to-right workflow. Build all versions: make focusing
+\input{focusing_common.tex}
+\begin{document}
+\begin{tikzpicture}[focusing]
+\path[use as bounding box] (0,0) rectangle (22.42,7);
+\clip (0,0) rectangle (22.42,7);
+\begin{pgfinterruptboundingbox}
+\coordinate (SIM) at (2.25,3.75);
+\coordinate (CRYSTAL) at (6.73,3.75);
+\coordinate (XAS) at (11.21,3.75);
+\coordinate (CZT) at (15.69,3.75);
+\coordinate (XANES) at (20.17,3.75);
+\draw[flow] (SIM) -- (CRYSTAL);
+\draw[flow] (CRYSTAL) -- (XAS);
+\draw[flow] (XAS) -- (CZT);
+\draw[flow] (CZT) -- (XANES);
+\DrawSimulation{SIM}
+\DrawCrystal{CRYSTAL}
+\DrawXAS{XAS}
+\DrawCZT{CZT}
+\DrawXANES{XANES}
+\node[project] at (11.21,6.25) {PRISM};
+\node[title] at (2.25,2.22) {SIMULATION};
+\node[detail] at (2.25,1.57) {Ray tracing\\Detector response};
+\node[title] at (6.73,2.22) {CRYSTAL};
+\node[detail] at (6.73,1.57) {Bent Ge optics\\Energy selection};
+\node[title] at (11.21,2.22) {XAS};
+\node[detail] at (11.21,1.57) {X-ray absorption\\spectroscopy};
+\node[title] at (15.69,2.22) {CZT};
+\node[detail] at (15.69,1.57) {Multichannel detection\\Pulse-shape analysis};
+\node[title] at (20.17,2.22) {XANES};
+\node[detail] at (20.17,1.57) {Near-edge\\structure};
+\end{pgfinterruptboundingbox}
+\end{tikzpicture}
+\end{document}

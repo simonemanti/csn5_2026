@@ -1,0 +1,2354 @@
+[
+  {
+    "frame": 1,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 2,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 3,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 4,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 5,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 6,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 7,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 8,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 9,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 10,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 11,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 12,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 13,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 14,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 15,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 16,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 17,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 18,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 19,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 20,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 21,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 22,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 23,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 24,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 25,
+    "progress": 0.00012274734907871,
+    "angle_deg": -69.0545580560954,
+    "absorption": 0.12000306868372697,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 26,
+    "progress": 0.0004888821456868794,
+    "angle_deg": -69.02527020493439,
+    "absorption": 0.12001222205364216,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 27,
+    "progress": 0.0010952435138825672,
+    "angle_deg": -68.97675537125978,
+    "absorption": 0.12002738108784707,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 28,
+    "progress": 0.001938670577723832,
+    "angle_deg": -68.9092867626384,
+    "absorption": 0.12004846676444308,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 29,
+    "progress": 0.003016002461268733,
+    "angle_deg": -68.82309660550202,
+    "absorption": 0.12007540006153171,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 30,
+    "progress": 0.004324078288575331,
+    "angle_deg": -68.71845127722824,
+    "absorption": 0.12010810195721437,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 31,
+    "progress": 0.005859737183701681,
+    "angle_deg": -68.59559666462722,
+    "absorption": 0.12014649342959254,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 32,
+    "progress": 0.007619818270705844,
+    "angle_deg": -68.45479231488741,
+    "absorption": 0.12019049545676765,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 33,
+    "progress": 0.009601160673645881,
+    "angle_deg": -68.29628411481893,
+    "absorption": 0.12024002901684114,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 34,
+    "progress": 0.011800603516579845,
+    "angle_deg": -68.12033161161023,
+    "absorption": 0.12029501508791449,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 35,
+    "progress": 0.014214985923565805,
+    "angle_deg": -67.92718069207145,
+    "absorption": 0.12035537464808914,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 36,
+    "progress": 0.016841147018661816,
+    "angle_deg": -67.71708407320185,
+    "absorption": 0.12042102867546654,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 37,
+    "progress": 0.019675925925925927,
+    "angle_deg": -67.49030130218992,
+    "absorption": 0.12049189814814815,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 38,
+    "progress": 0.02271616176941621,
+    "angle_deg": -67.24708509603494,
+    "absorption": 0.1205679040442354,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 39,
+    "progress": 0.025958693673190713,
+    "angle_deg": -66.98768134154702,
+    "absorption": 0.12064896734182977,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 40,
+    "progress": 0.029400360761307504,
+    "angle_deg": -66.71234958591464,
+    "absorption": 0.12073500901903268,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 41,
+    "progress": 0.033038002157824646,
+    "angle_deg": -66.4213357159479,
+    "absorption": 0.12082595005394561,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 42,
+    "progress": 0.036868456986800184,
+    "angle_deg": -66.11489927883528,
+    "absorption": 0.12092171142467,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 43,
+    "progress": 0.040888564372292185,
+    "angle_deg": -65.79329299157605,
+    "absorption": 0.1210222141093073,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 44,
+    "progress": 0.0450951634383587,
+    "angle_deg": -65.45676274098035,
+    "absorption": 0.12112737908595897,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 45,
+    "progress": 0.0494850933090578,
+    "angle_deg": -65.10556807423664,
+    "absorption": 0.12123712733272644,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 46,
+    "progress": 0.05405519310844755,
+    "angle_deg": -64.7399617083442,
+    "absorption": 0.12135137982771119,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 47,
+    "progress": 0.058802301960585994,
+    "angle_deg": -64.36019636030233,
+    "absorption": 0.12147005754901465,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 48,
+    "progress": 0.0637232589895312,
+    "angle_deg": -63.96651791692113,
+    "absorption": 0.12159308147473828,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 49,
+    "progress": 0.0688149033193412,
+    "angle_deg": -63.55918592538907,
+    "absorption": 0.12172037258298353,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 50,
+    "progress": 0.07407407407407407,
+    "angle_deg": -63.13845310270546,
+    "absorption": 0.12185185185185185,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 51,
+    "progress": 0.07949761037778788,
+    "angle_deg": -62.70457216586957,
+    "absorption": 0.12198744025944469,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 52,
+    "progress": 0.0850823513545407,
+    "angle_deg": -62.25778900169153,
+    "absorption": 0.12212705878386351,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 53,
+    "progress": 0.09082513612839058,
+    "angle_deg": -61.79836998754896,
+    "absorption": 0.12227062840320976,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 54,
+    "progress": 0.09672280382339554,
+    "angle_deg": -61.326554180062814,
+    "absorption": 0.12241807009558489,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 55,
+    "progress": 0.10277219356361367,
+    "angle_deg": -60.84260112642156,
+    "absorption": 0.12256930483909034,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 56,
+    "progress": 0.10897014447310305,
+    "angle_deg": -60.34676354362449,
+    "absorption": 0.12272425361182757,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 57,
+    "progress": 0.11531349567592172,
+    "angle_deg": -59.83930097886005,
+    "absorption": 0.12288283739189804,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 58,
+    "progress": 0.1217990862961277,
+    "angle_deg": -59.320452488749204,
+    "absorption": 0.12304497715740319,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 59,
+    "progress": 0.12842375545777912,
+    "angle_deg": -58.7904776204804,
+    "absorption": 0.12321059388644448,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 60,
+    "progress": 0.135184342284934,
+    "angle_deg": -58.249629091052945,
+    "absorption": 0.12337960855712335,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 61,
+    "progress": 0.1420776859016504,
+    "angle_deg": -57.69815961746611,
+    "absorption": 0.12355194214754125,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 62,
+    "progress": 0.14910062543198638,
+    "angle_deg": -57.136328746908376,
+    "absorption": 0.12372751563579966,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 63,
+    "progress": 0.15625,
+    "angle_deg": -56.564378951095264,
+    "absorption": 0.12390625,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 64,
+    "progress": 0.16352264872974928,
+    "angle_deg": -55.98256636212065,
+    "absorption": 0.12408806621824373,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 65,
+    "progress": 0.1709154107452924,
+    "angle_deg": -55.39114369698383,
+    "absorption": 0.12427288526863231,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 66,
+    "progress": 0.1784251251706873,
+    "angle_deg": -54.790367087778684,
+    "absorption": 0.12446062812926718,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 67,
+    "progress": 0.18604863112999212,
+    "angle_deg": -54.1804858364099,
+    "absorption": 0.1246512157782498,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 68,
+    "progress": 0.1937827677472648,
+    "angle_deg": -53.56175607497137,
+    "absorption": 0.12484456919368161,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 69,
+    "progress": 0.20162437414656348,
+    "angle_deg": -52.934427105367796,
+    "absorption": 0.1250406093536641,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 70,
+    "progress": 0.20957028945194628,
+    "angle_deg": -52.29875505969305,
+    "absorption": 0.12523925723629864,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 71,
+    "progress": 0.2176173527874711,
+    "angle_deg": -51.65498923985184,
+    "absorption": 0.12544043381968678,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 72,
+    "progress": 0.2257624032771962,
+    "angle_deg": -51.003385777938036,
+    "absorption": 0.1256440600819299,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 73,
+    "progress": 0.23400228004517945,
+    "angle_deg": -50.34419397585635,
+    "absorption": 0.12585005700112947,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 74,
+    "progress": 0.24233382221547908,
+    "angle_deg": -49.67767338079524,
+    "absorption": 0.12605834555538697,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 75,
+    "progress": 0.25075386891215296,
+    "angle_deg": -49.00406646447024,
+    "absorption": 0.1262688467228038,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 76,
+    "progress": 0.25925925925925924,
+    "angle_deg": -48.323636189164404,
+    "absorption": 0.12648148148148147,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 77,
+    "progress": 0.26784683238085605,
+    "angle_deg": -47.63663185678242,
+    "absorption": 0.1266961708095214,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 78,
+    "progress": 0.2765134274010013,
+    "angle_deg": -46.943302769229014,
+    "absorption": 0.12691283568502504,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 79,
+    "progress": 0.2852558834437533,
+    "angle_deg": -46.243908473692635,
+    "absorption": 0.12713139708609383,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 80,
+    "progress": 0.2940710396331698,
+    "angle_deg": -45.538694856983405,
+    "absorption": 0.12735177599082925,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 81,
+    "progress": 0.302955735093309,
+    "angle_deg": -44.8279180511952,
+    "absorption": 0.12757389337733271,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 82,
+    "progress": 0.3119068089482291,
+    "angle_deg": -44.11183418842189,
+    "absorption": 0.12779767022370572,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 83,
+    "progress": 0.3209211003219879,
+    "angle_deg": -43.3906891554736,
+    "absorption": 0.12836325390443615,
+    "fluorescence": 0.0006955200187802308
+  },
+  {
+    "frame": 84,
+    "progress": 0.32999544833864364,
+    "angle_deg": -42.6647424995388,
+    "absorption": 0.16457762703368772,
+    "fluorescence": 0.07367566699974216
+  },
+  {
+    "frame": 85,
+    "progress": 0.33912669212225427,
+    "angle_deg": -41.93424352252218,
+    "absorption": 0.24791836551884758,
+    "fluorescence": 0.24230157490749044
+  },
+  {
+    "frame": 86,
+    "progress": 0.34831167079687786,
+    "angle_deg": -41.19944494142304,
+    "absorption": 0.36137179063889374,
+    "fluorescence": 0.47053529828311647
+  },
+  {
+    "frame": 87,
+    "progress": 0.35754722348657264,
+    "angle_deg": -40.46059947324066,
+    "absorption": 0.48935349541816286,
+    "fluorescence": 0.713842647941898
+  },
+  {
+    "frame": 88,
+    "progress": 0.3668301893153964,
+    "angle_deg": -39.717963250068934,
+    "absorption": 0.6177613807522373,
+    "fluorescence": 0.9149459319515594
+  },
+  {
+    "frame": 89,
+    "progress": 0.37615740740740744,
+    "angle_deg": -38.97178557381255,
+    "absorption": 0.7296216533307374,
+    "fluorescence": 1.0042940629326065
+  },
+  {
+    "frame": 90,
+    "progress": 0.3855257168866636,
+    "angle_deg": -38.22231916147081,
+    "absorption": 0.7963062309426796,
+    "fluorescence": 1.0229657446639504
+  },
+  {
+    "frame": 91,
+    "progress": 0.39493195687722304,
+    "angle_deg": -37.469820145137575,
+    "absorption": 0.8266785792387875,
+    "fluorescence": 1.0314700021868606
+  },
+  {
+    "frame": 92,
+    "progress": 0.404372966503144,
+    "angle_deg": -36.71454124181215,
+    "absorption": 0.8486777698991625,
+    "fluorescence": 1.0376297755717656
+  },
+  {
+    "frame": 93,
+    "progress": 0.4138455848884843,
+    "angle_deg": -35.95673175339924,
+    "absorption": 0.8760459700750217,
+    "fluorescence": 1.0452928716210061
+  },
+  {
+    "frame": 94,
+    "progress": 0.4233466511573021,
+    "angle_deg": -35.19664439689812,
+    "absorption": 0.8851859113298769,
+    "fluorescence": 1.0478520551723656
+  },
+  {
+    "frame": 95,
+    "progress": 0.43287300443365534,
+    "angle_deg": -34.43453871949727,
+    "absorption": 0.854614532559459,
+    "fluorescence": 1.0392920691166485
+  },
+  {
+    "frame": 96,
+    "progress": 0.4424214838416022,
+    "angle_deg": -33.6706606080068,
+    "absorption": 0.8147731080629608,
+    "fluorescence": 1.028136470257629
+  },
+  {
+    "frame": 97,
+    "progress": 0.45198892850520067,
+    "angle_deg": -32.905262779425996,
+    "absorption": 0.7738666867773178,
+    "fluorescence": 1.016682672297649
+  },
+  {
+    "frame": 98,
+    "progress": 0.4615721775485089,
+    "angle_deg": -32.13860478094333,
+    "absorption": 0.7348797806862221,
+    "fluorescence": 1.0057663385921423
+  },
+  {
+    "frame": 99,
+    "progress": 0.47116807009558487,
+    "angle_deg": -31.37093249936892,
+    "absorption": 0.6992587608874743,
+    "fluorescence": 0.9957924530484928
+  },
+  {
+    "frame": 100,
+    "progress": 0.48077344527048665,
+    "angle_deg": -30.602502066796635,
+    "absorption": 0.6690225717010612,
+    "fluorescence": 0.9873263200762972
+  },
+  {
+    "frame": 101,
+    "progress": 0.4903851421972724,
+    "angle_deg": -29.83356620022577,
+    "absorption": 0.6468360098926459,
+    "fluorescence": 0.9811140827699409
+  },
+  {
+    "frame": 102,
+    "progress": 0.5,
+    "angle_deg": -29.064377616655612,
+    "absorption": 0.6350134753607131,
+    "fluorescence": 0.9778037731009998
+  },
+  {
+    "frame": 103,
+    "progress": 0.5096148578027275,
+    "angle_deg": -28.295189033085457,
+    "absorption": 0.6345883449973357,
+    "fluorescence": 0.977684736599254
+  },
+  {
+    "frame": 104,
+    "progress": 0.5192265547295132,
+    "angle_deg": -27.526253166514593,
+    "absorption": 0.6449011123547411,
+    "fluorescence": 0.9805723114593276
+  },
+  {
+    "frame": 105,
+    "progress": 0.5288319299044152,
+    "angle_deg": -26.75782273394231,
+    "absorption": 0.6636849042742212,
+    "fluorescence": 0.9858317731967821
+  },
+  {
+    "frame": 106,
+    "progress": 0.5384278224514911,
+    "angle_deg": -25.990152159915187,
+    "absorption": 0.6874933871741462,
+    "fluorescence": 0.9924981484087609
+  },
+  {
+    "frame": 107,
+    "progress": 0.5480110714947993,
+    "angle_deg": -25.22349245388523,
+    "absorption": 0.7123182780220804,
+    "fluorescence": 0.9994491178461826
+  },
+  {
+    "frame": 108,
+    "progress": 0.5575785161583978,
+    "angle_deg": -24.45809633285172,
+    "absorption": 0.7342614524855379,
+    "fluorescence": 1.0055932066959508
+  },
+  {
+    "frame": 109,
+    "progress": 0.5671269955663446,
+    "angle_deg": -23.69421822136125,
+    "absorption": 0.7501428145279907,
+    "fluorescence": 1.0100399880678375
+  },
+  {
+    "frame": 110,
+    "progress": 0.576653348842698,
+    "angle_deg": -22.932109128865815,
+    "absorption": 0.7579488943793601,
+    "fluorescence": 1.0122256904262208
+  },
+  {
+    "frame": 111,
+    "progress": 0.5861544151115157,
+    "angle_deg": -22.172025187459283,
+    "absorption": 0.7570617381740402,
+    "fluorescence": 1.0119772866887313
+  },
+  {
+    "frame": 112,
+    "progress": 0.595627033496856,
+    "angle_deg": -21.41421569904637,
+    "absorption": 0.7482488605405601,
+    "fluorescence": 1.0095096809513568
+  },
+  {
+    "frame": 113,
+    "progress": 0.6050680431227768,
+    "angle_deg": -20.658933380626358,
+    "absorption": 0.7334358209190215,
+    "fluorescence": 1.005362029857326
+  },
+  {
+    "frame": 114,
+    "progress": 0.6144742831133363,
+    "angle_deg": -19.90643436429313,
+    "absorption": 0.7153165169313849,
+    "fluorescence": 1.0002886247407878
+  },
+  {
+    "frame": 115,
+    "progress": 0.6238425925925927,
+    "angle_deg": -19.156969659498678,
+    "absorption": 0.6968775447102846,
+    "fluorescence": 0.9951257125188797
+  },
+  {
+    "frame": 116,
+    "progress": 0.6331698106846037,
+    "angle_deg": -18.410791983242294,
+    "absorption": 0.6809195577762226,
+    "fluorescence": 0.9906574761773423
+  },
+  {
+    "frame": 117,
+    "progress": 0.6424527765134274,
+    "angle_deg": -17.668155760070565,
+    "absorption": 0.6696508538861874,
+    "fluorescence": 0.9875022390881325
+  },
+  {
+    "frame": 118,
+    "progress": 0.651688329203122,
+    "angle_deg": -16.92931199943548,
+    "absorption": 0.6644092455636175,
+    "fluorescence": 0.9860345887578129
+  },
+  {
+    "frame": 119,
+    "progress": 0.6608733078777457,
+    "angle_deg": -16.19451341833634,
+    "absorption": 0.6655420893345291,
+    "fluorescence": 0.9863517850136683
+  },
+  {
+    "frame": 120,
+    "progress": 0.6700045516613564,
+    "angle_deg": -15.46401273377243,
+    "absorption": 0.672446300119574,
+    "fluorescence": 0.9882849640334808
+  },
+  {
+    "frame": 121,
+    "progress": 0.6790788996780122,
+    "angle_deg": -14.738066077837624,
+    "absorption": 0.6837450950036221,
+    "fluorescence": 0.9914486266010143
+  },
+  {
+    "frame": 122,
+    "progress": 0.6880931910517709,
+    "angle_deg": -14.01692275243663,
+    "absorption": 0.6975598241794241,
+    "fluorescence": 0.9953167507702388
+  },
+  {
+    "frame": 123,
+    "progress": 0.6970442649066909,
+    "angle_deg": -13.300836328342385,
+    "absorption": 0.7118256833843069,
+    "fluorescence": 0.999311191347606
+  },
+  {
+    "frame": 124,
+    "progress": 0.7059289603668303,
+    "angle_deg": -12.590060376327823,
+    "absorption": 0.7245997403758648,
+    "fluorescence": 1.0028879273052422
+  },
+  {
+    "frame": 125,
+    "progress": 0.7147441165562467,
+    "angle_deg": -11.884848467165885,
+    "absorption": 0.73431735989304,
+    "fluorescence": 1.0056088607700513
+  },
+  {
+    "frame": 126,
+    "progress": 0.7234865725989986,
+    "angle_deg": -11.185451610308565,
+    "absorption": 0.7399664503529897,
+    "fluorescence": 1.0071906060988371
+  },
+  {
+    "frame": 127,
+    "progress": 0.732153167619144,
+    "angle_deg": -10.492124230302448,
+    "absorption": 0.7411650759270064,
+    "fluorescence": 1.007526221259562
+  },
+  {
+    "frame": 128,
+    "progress": 0.7407407407407407,
+    "angle_deg": -9.805118190373179,
+    "absorption": 0.7381439676785151,
+    "fluorescence": 1.0066803109499842
+  },
+  {
+    "frame": 129,
+    "progress": 0.7492461310878471,
+    "angle_deg": -9.124687061293692,
+    "absorption": 0.7316488893903833,
+    "fluorescence": 1.0048616890293074
+  },
+  {
+    "frame": 130,
+    "progress": 0.757666177784521,
+    "angle_deg": -8.45108356006328,
+    "absorption": 0.7227870248218985,
+    "fluorescence": 1.0023803669501317
+  },
+  {
+    "frame": 131,
+    "progress": 0.7659977199548206,
+    "angle_deg": -7.7845604036812315,
+    "absorption": 0.7128458383345269,
+    "fluorescence": 0.9995968347336676
+  },
+  {
+    "frame": 132,
+    "progress": 0.7742375967228038,
+    "angle_deg": -7.125369882260015,
+    "absorption": 0.7031123876678138,
+    "fluorescence": 0.9968714685469879
+  },
+  {
+    "frame": 133,
+    "progress": 0.7823826472125288,
+    "angle_deg": -6.4737659934593905,
+    "absorption": 0.694716703731812,
+    "fluorescence": 0.9945206770449074
+  },
+  {
+    "frame": 134,
+    "progress": 0.7904297105480538,
+    "angle_deg": -5.830000600505002,
+    "absorption": 0.6885159017732965,
+    "fluorescence": 0.992784452496523
+  },
+  {
+    "frame": 135,
+    "progress": 0.7983756258534366,
+    "angle_deg": -5.194327701056609,
+    "absorption": 0.6850276073876745,
+    "fluorescence": 0.9918077300685489
+  },
+  {
+    "frame": 136,
+    "progress": 0.8062172322527352,
+    "angle_deg": -4.566999158339856,
+    "absorption": 0.6844134239327828,
+    "fluorescence": 0.9916357587011793
+  },
+  {
+    "frame": 137,
+    "progress": 0.8139513688700079,
+    "angle_deg": -3.9482681162408566,
+    "absorption": 0.686506599956576,
+    "fluorescence": 0.9922218479878413
+  },
+  {
+    "frame": 138,
+    "progress": 0.8215748748293126,
+    "angle_deg": -3.3383877186457243,
+    "absorption": 0.6908734480144505,
+    "fluorescence": 0.9934445654440462
+  },
+  {
+    "frame": 139,
+    "progress": 0.8290845892547076,
+    "angle_deg": -2.737610469110338,
+    "absorption": 0.6968956771728432,
+    "fluorescence": 0.9951307896083962
+  },
+  {
+    "frame": 140,
+    "progress": 0.8364773512702508,
+    "angle_deg": -2.146189511520811,
+    "absorption": 0.7038605212234789,
+    "fluorescence": 0.9970809459425741
+  },
+  {
+    "frame": 141,
+    "progress": 0.84375,
+    "angle_deg": -1.5643776695981406,
+    "absorption": 0.7110469904428292,
+    "fluorescence": 0.9990931573239923
+  },
+  {
+    "frame": 142,
+    "progress": 0.8508993745680137,
+    "angle_deg": -0.9924276603416163,
+    "absorption": 0.7177992048680748,
+    "fluorescence": 1.000983777363061
+  },
+  {
+    "frame": 143,
+    "progress": 0.8579223140983495,
+    "angle_deg": -0.4305924942352197,
+    "absorption": 0.7235809933386205,
+    "fluorescence": 1.0026026781348139
+  },
+  {
+    "frame": 144,
+    "progress": 0.864815657715066,
+    "angle_deg": 0.1208750050000528,
+    "absorption": 0.7280092241703473,
+    "fluorescence": 1.0038425827676973
+  },
+  {
+    "frame": 145,
+    "progress": 0.8715762445422208,
+    "angle_deg": 0.6617219602823522,
+    "absorption": 0.7308662419422797,
+    "fluorescence": 1.0046425477438383
+  },
+  {
+    "frame": 146,
+    "progress": 0.8782009137038723,
+    "angle_deg": 1.1916954411689764,
+    "absorption": 0.7320940379447964,
+    "fluorescence": 1.004986330624543
+  },
+  {
+    "frame": 147,
+    "progress": 0.8846865043240782,
+    "angle_deg": 1.7105427573410614,
+    "absorption": 0.7317742470188676,
+    "fluorescence": 1.004896789165283
+  },
+  {
+    "frame": 148,
+    "progress": 0.891029855526897,
+    "angle_deg": 2.2180108716341995,
+    "absorption": 0.7300987406207711,
+    "fluorescence": 1.004427647373816
+  },
+  {
+    "frame": 149,
+    "progress": 0.8972278064363864,
+    "angle_deg": 2.7138469603273943,
+    "absorption": 0.7273355748276589,
+    "fluorescence": 1.0036539609517445
+  },
+  {
+    "frame": 150,
+    "progress": 0.9032771961766045,
+    "angle_deg": 3.1977980929779437,
+    "absorption": 0.7237945146335644,
+    "fluorescence": 1.002662464097398
+  },
+  {
+    "frame": 151,
+    "progress": 0.9091748638716094,
+    "angle_deg": 3.6696113391431457,
+    "absorption": 0.7197954796508685,
+    "fluorescence": 1.0015427343022432
+  },
+  {
+    "frame": 152,
+    "progress": 0.9149176486454592,
+    "angle_deg": 4.1290341952671215,
+    "absorption": 0.7156422233899811,
+    "fluorescence": 1.0003798225491947
+  },
+  {
+    "frame": 153,
+    "progress": 0.9205023896222121,
+    "angle_deg": 4.575813517463757,
+    "absorption": 0.7116025237513902,
+    "fluorescence": 0.9992487066503893
+  },
+  {
+    "frame": 154,
+    "progress": 0.925925925925926,
+    "angle_deg": 5.009696588733763,
+    "absorption": 0.7078952418918494,
+    "fluorescence": 0.9982106677297179
+  },
+  {
+    "frame": 155,
+    "progress": 0.9311850966806587,
+    "angle_deg": 5.430430265191025,
+    "absorption": 0.7046838725708763,
+    "fluorescence": 0.9973114843198454
+  },
+  {
+    "frame": 156,
+    "progress": 0.9362767410104689,
+    "angle_deg": 5.837761829836252,
+    "absorption": 0.7020756932908736,
+    "fluorescence": 0.9965811941214446
+  },
+  {
+    "frame": 157,
+    "progress": 0.941197698039414,
+    "angle_deg": 6.231438138783331,
+    "absorption": 0.7001253205605763,
+    "fluorescence": 0.9960350897569614
+  },
+  {
+    "frame": 158,
+    "progress": 0.9459448068915524,
+    "angle_deg": 6.611206901919795,
+    "absorption": 0.6988413740622308,
+    "fluorescence": 0.9956755847374247
+  },
+  {
+    "frame": 159,
+    "progress": 0.9505149066909422,
+    "angle_deg": 6.97681497535953,
+    "absorption": 0.6981949937736605,
+    "fluorescence": 0.995494598256625
+  },
+  {
+    "frame": 160,
+    "progress": 0.9549048365616413,
+    "angle_deg": 7.328009215216423,
+    "absorption": 0.6981291059692394,
+    "fluorescence": 0.9954761496713871
+  },
+  {
+    "frame": 161,
+    "progress": 0.9591114356277078,
+    "angle_deg": 7.664536904491182,
+    "absorption": 0.6985675474669182,
+    "fluorescence": 0.9955989132907371
+  },
+  {
+    "frame": 162,
+    "progress": 0.9631315430131998,
+    "angle_deg": 7.986145753071342,
+    "absorption": 0.6994233952925594,
+    "fluorescence": 0.9958385506819167
+  },
+  {
+    "frame": 163,
+    "progress": 0.9669619978421754,
+    "angle_deg": 8.292582190183964,
+    "absorption": 0.700606081268744,
+    "fluorescence": 0.9961697027552484
+  },
+  {
+    "frame": 164,
+    "progress": 0.9705996392386925,
+    "angle_deg": 8.583593498829758,
+    "absorption": 0.7020270772552719,
+    "fluorescence": 0.9965675816314762
+  },
+  {
+    "frame": 165,
+    "progress": 0.9740413063268092,
+    "angle_deg": 8.858926962009434,
+    "absorption": 0.703604104901026,
+    "fluorescence": 0.9970091493722874
+  },
+  {
+    "frame": 166,
+    "progress": 0.9772838382305838,
+    "angle_deg": 9.118329862723703,
+    "absorption": 0.7052639491757677,
+    "fluorescence": 0.997473905769215
+  },
+  {
+    "frame": 167,
+    "progress": 0.9803240740740741,
+    "angle_deg": 9.361548630199625,
+    "absorption": 0.7069440385869905,
+    "fluorescence": 0.9979443308043574
+  },
+  {
+    "frame": 168,
+    "progress": 0.9831588529813382,
+    "angle_deg": 9.588330547437913,
+    "absorption": 0.7085930015705314,
+    "fluorescence": 0.9984060404397488
+  },
+  {
+    "frame": 169,
+    "progress": 0.9857850140764342,
+    "angle_deg": 9.798423751212919,
+    "absorption": 0.7101704249078524,
+    "fluorescence": 0.9988477189741988
+  },
+  {
+    "frame": 170,
+    "progress": 0.9881993964834201,
+    "angle_deg": 9.991573816978065,
+    "absorption": 0.7116460337643071,
+    "fluorescence": 0.999260889454006
+  },
+  {
+    "frame": 171,
+    "progress": 0.9903988393263542,
+    "angle_deg": 10.167529735281347,
+    "absorption": 0.7129984914262908,
+    "fluorescence": 0.9996395775993615
+  },
+  {
+    "frame": 172,
+    "progress": 0.9923801817292942,
+    "angle_deg": 10.326037081576187,
+    "absorption": 0.7142139865307604,
+    "fluorescence": 0.9999799162286129
+  },
+  {
+    "frame": 173,
+    "progress": 0.9941402628162983,
+    "angle_deg": 10.466843138863293,
+    "absorption": 0.7152847418039909,
+    "fluorescence": 1.0002797277051174
+  },
+  {
+    "frame": 174,
+    "progress": 0.9956759217114246,
+    "angle_deg": 10.58969604391702,
+    "absorption": 0.7162075450199581,
+    "fluorescence": 1.0005381126055883
+  },
+  {
+    "frame": 175,
+    "progress": 0.9969839975387312,
+    "angle_deg": 10.694342225964432,
+    "absorption": 0.7169823727704879,
+    "fluorescence": 1.0007550643757366
+  },
+  {
+    "frame": 176,
+    "progress": 0.9980613294222762,
+    "angle_deg": 10.780528968006237,
+    "absorption": 0.7176111523552746,
+    "fluorescence": 1.000931122659477
+  },
+  {
+    "frame": 177,
+    "progress": 0.9989047564861174,
+    "angle_deg": 10.8480026992695,
+    "absorption": 0.718096687444318,
+    "fluorescence": 1.001067072484409
+  },
+  {
+    "frame": 178,
+    "progress": 0.9995111178543131,
+    "angle_deg": 10.896511556528576,
+    "absorption": 0.7184417593077239,
+    "fluorescence": 1.0011636926061627
+  },
+  {
+    "frame": 179,
+    "progress": 0.9998772526509213,
+    "angle_deg": 10.925802822784178,
+    "absorption": 0.7186484070971382,
+    "fluorescence": 1.0012215539871987
+  },
+  {
+    "frame": 180,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 181,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 182,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 183,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 184,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 185,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 186,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 187,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 188,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 189,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 190,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 191,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 192,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 193,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 194,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 195,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 196,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 197,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 198,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 199,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 200,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 201,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 202,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 203,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 204,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 205,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 206,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 207,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 208,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 209,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 210,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 211,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 212,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 213,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 214,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 215,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 216,
+    "progress": 1.0,
+    "angle_deg": 10.935622073489716,
+    "absorption": 0.7187173873914464,
+    "fluorescence": 1.001240868469605
+  },
+  {
+    "frame": 217,
+    "progress": 0.9996767397280093,
+    "angle_deg": 10.909761269744756,
+    "absorption": 0.7185354006218005,
+    "fluorescence": 1.0011899121741041
+  },
+  {
+    "frame": 218,
+    "progress": 0.9987160011574074,
+    "angle_deg": 10.832902858561894,
+    "absorption": 0.7179885729629489,
+    "fluorescence": 1.0010368004296257
+  },
+  {
+    "frame": 219,
+    "progress": 0.99713134765625,
+    "angle_deg": 10.706130278698227,
+    "absorption": 0.7170689041339,
+    "fluorescence": 1.0007792931574921
+  },
+  {
+    "frame": 220,
+    "progress": 0.9949363425925926,
+    "angle_deg": 10.530529530231783,
+    "absorption": 0.7157646983560408,
+    "fluorescence": 1.0004141155396915
+  },
+  {
+    "frame": 221,
+    "progress": 0.9921445493344907,
+    "angle_deg": 10.307186613240598,
+    "absorption": 0.7140698553614054,
+    "fluorescence": 0.9999395595011936
+  },
+  {
+    "frame": 222,
+    "progress": 0.98876953125,
+    "angle_deg": 10.037184966481764,
+    "absorption": 0.7119963503363623,
+    "fluorescence": 0.9993589780941815
+  },
+  {
+    "frame": 223,
+    "progress": 0.9848248517071759,
+    "angle_deg": 9.72161059003331,
+    "absorption": 0.7095894052193068,
+    "fluorescence": 0.9986850334614059
+  },
+  {
+    "frame": 224,
+    "progress": 0.9803240740740741,
+    "angle_deg": 9.361548630199625,
+    "absorption": 0.7069440385869905,
+    "fluorescence": 0.9979443308043574
+  },
+  {
+    "frame": 225,
+    "progress": 0.97528076171875,
+    "angle_deg": 8.958083379511448,
+    "absorption": 0.7042204443656735,
+    "fluorescence": 0.9971817244223886
+  },
+  {
+    "frame": 226,
+    "progress": 0.9697084780092593,
+    "angle_deg": 8.51230083804681,
+    "absorption": 0.7016541242078207,
+    "fluorescence": 0.9964631547781899
+  },
+  {
+    "frame": 227,
+    "progress": 0.9636207863136574,
+    "angle_deg": 8.025285298336453,
+    "absorption": 0.6995552122707007,
+    "fluorescence": 0.9958754594357963
+  },
+  {
+    "frame": 228,
+    "progress": 0.95703125,
+    "angle_deg": 7.498122760458407,
+    "absorption": 0.6982905560906048,
+    "fluorescence": 0.9955213557053694
+  },
+  {
+    "frame": 229,
+    "progress": 0.9499534324363426,
+    "angle_deg": 6.931897090056587,
+    "absorption": 0.6982426554713531,
+    "fluorescence": 0.9955079435319789
+  },
+  {
+    "frame": 230,
+    "progress": 0.9424008969907407,
+    "angle_deg": 6.327694287209028,
+    "absorption": 0.6997424135549983,
+    "fluorescence": 0.9959278757953995
+  },
+  {
+    "frame": 231,
+    "progress": 0.93438720703125,
+    "angle_deg": 5.6865990713332915,
+    "absorption": 0.7029785235573491,
+    "fluorescence": 0.9968339865960578
+  },
+  {
+    "frame": 232,
+    "progress": 0.9259259259259259,
+    "angle_deg": 5.009696588733763,
+    "absorption": 0.7078952418918494,
+    "fluorescence": 0.9982106677297179
+  },
+  {
+    "frame": 233,
+    "progress": 0.9170306170428241,
+    "angle_deg": 4.298071558828005,
+    "absorption": 0.7141011112696023,
+    "fluorescence": 0.9999483111554888
+  },
+  {
+    "frame": 234,
+    "progress": 0.90771484375,
+    "angle_deg": 3.55280998169405,
+    "absorption": 0.7208210752747204,
+    "fluorescence": 1.0018299010769218
+  },
+  {
+    "frame": 235,
+    "progress": 0.8979921694155093,
+    "angle_deg": 2.774995936419226,
+    "absorption": 0.7269289008473929,
+    "fluorescence": 1.0035400922372701
+  },
+  {
+    "frame": 236,
+    "progress": 0.8878761574074074,
+    "angle_deg": 1.9657149961947413,
+    "absorption": 0.731090579154946,
+    "fluorescence": 1.004705362163385
+  },
+  {
+    "frame": 237,
+    "progress": 0.87738037109375,
+    "angle_deg": 1.1260520938815706,
+    "absorption": 0.7320280642181474,
+    "fluorescence": 1.0049678579810812
+  },
+  {
+    "frame": 238,
+    "progress": 0.8665183738425926,
+    "angle_deg": 0.25709229574282033,
+    "absorption": 0.7288756627066553,
+    "fluorescence": 1.0040851855578636
+  },
+  {
+    "frame": 239,
+    "progress": 0.8553037290219907,
+    "angle_deg": -0.6400792785975503,
+    "absorption": 0.7215544365547903,
+    "fluorescence": 1.0020352422353414
+  },
+  {
+    "frame": 240,
+    "progress": 0.84375,
+    "angle_deg": -1.5643776695981406,
+    "absorption": 0.7110469904428292,
+    "fluorescence": 0.9990931573239923
+  },
+  {
+    "frame": 241,
+    "progress": 0.8318707501446759,
+    "angle_deg": -2.514717704274138,
+    "absorption": 0.6994364112975232,
+    "fluorescence": 0.9958421951633065
+  },
+  {
+    "frame": 242,
+    "progress": 0.8196795428240741,
+    "angle_deg": -3.4900142896820108,
+    "absorption": 0.6896000805920861,
+    "fluorescence": 0.9930880225657842
+  },
+  {
+    "frame": 243,
+    "progress": 0.80718994140625,
+    "angle_deg": -4.489182386239078,
+    "absorption": 0.6845336472869894,
+    "fluorescence": 0.9916694212403571
+  },
+  {
+    "frame": 244,
+    "progress": 0.7944155092592592,
+    "angle_deg": -5.511137061084365,
+    "absorption": 0.68641437681941,
+    "fluorescence": 0.9921960255094349
+  },
+  {
+    "frame": 245,
+    "progress": 0.7813698097511574,
+    "angle_deg": -6.554792954470075,
+    "absorption": 0.6956606171971875,
+    "fluorescence": 0.9947849728152126
+  },
+  {
+    "frame": 246,
+    "progress": 0.76806640625,
+    "angle_deg": -7.619064920091822,
+    "absorption": 0.7103451198543358,
+    "fluorescence": 0.9988966335592141
+  },
+  {
+    "frame": 247,
+    "progress": 0.7545188621238426,
+    "angle_deg": -8.702868238532044,
+    "absorption": 0.7263076583913886,
+    "fluorescence": 1.003366144349589
+  },
+  {
+    "frame": 248,
+    "progress": 0.7407407407407407,
+    "angle_deg": -9.805118190373179,
+    "absorption": 0.7381439676785151,
+    "fluorescence": 1.0066803109499842
+  },
+  {
+    "frame": 249,
+    "progress": 0.72674560546875,
+    "angle_deg": -10.924728775537192,
+    "absorption": 0.7409377549085308,
+    "fluorescence": 1.0074625713743888
+  },
+  {
+    "frame": 250,
+    "progress": 0.7125470196759259,
+    "angle_deg": -12.060615701493347,
+    "absorption": 0.7322403664815672,
+    "fluorescence": 1.0050273026148389
+  },
+  {
+    "frame": 251,
+    "progress": 0.6981585467303242,
+    "angle_deg": -13.211693821937256,
+    "absorption": 0.7135406397364643,
+    "fluorescence": 0.9997913791262101
+  },
+  {
+    "frame": 252,
+    "progress": 0.68359375,
+    "angle_deg": -14.376877136790887,
+    "absorption": 0.6904664213781104,
+    "fluorescence": 0.993330597985871
+  },
+  {
+    "frame": 253,
+    "progress": 0.6688661928530093,
+    "angle_deg": -15.555081353523502,
+    "absorption": 0.6713086425621037,
+    "fluorescence": 0.9879664199173891
+  },
+  {
+    "frame": 254,
+    "progress": 0.6539894386574074,
+    "angle_deg": -16.745223033378007,
+    "absorption": 0.6641031010473459,
+    "fluorescence": 0.9859488682932569
+  },
+  {
+    "frame": 255,
+    "progress": 0.63897705078125,
+    "angle_deg": -17.946212761181783,
+    "absorption": 0.6732210556532913,
+    "fluorescence": 0.9885018955829217
+  },
+  {
+    "frame": 256,
+    "progress": 0.6238425925925926,
+    "angle_deg": -19.156969659498678,
+    "absorption": 0.696877544710285,
+    "fluorescence": 0.9951257125188798
+  },
+  {
+    "frame": 257,
+    "progress": 0.6085996274594907,
+    "angle_deg": -20.37640772825066,
+    "absorption": 0.7268693828415821,
+    "fluorescence": 1.003523427195643
+  },
+  {
+    "frame": 258,
+    "progress": 0.59326171875,
+    "angle_deg": -21.603440967359695,
+    "absorption": 0.751106378455331,
+    "fluorescence": 1.0103097859674928
+  },
+  {
+    "frame": 259,
+    "progress": 0.5778424298321759,
+    "angle_deg": -22.836983376747753,
+    "absorption": 0.7583104501474542,
+    "fluorescence": 1.0123269260412873
+  },
+  {
+    "frame": 260,
+    "progress": 0.5623553240740741,
+    "angle_deg": -24.075952371431388,
+    "absorption": 0.7431168923388064,
+    "fluorescence": 1.0080727298548657
+  },
+  {
+    "frame": 261,
+    "progress": 0.54681396484375,
+    "angle_deg": -25.31926024378527,
+    "absorption": 0.7092974789580461,
+    "fluorescence": 0.998603294108253
+  },
+  {
+    "frame": 262,
+    "progress": 0.5312319155092593,
+    "angle_deg": -26.565824408825957,
+    "absorption": 0.6693181147092422,
+    "fluorescence": 0.9874090721185879
+  },
+  {
+    "frame": 263,
+    "progress": 0.5156227394386574,
+    "angle_deg": -27.814558866475416,
+    "absorption": 0.6398880262424229,
+    "fluorescence": 0.9791686473478785
+  },
+  {
+    "frame": 264,
+    "progress": 0.5,
+    "angle_deg": -29.064377616655612,
+    "absorption": 0.6350134753607131,
+    "fluorescence": 0.9778037731009998
+  },
+  {
+    "frame": 265,
+    "progress": 0.48437726056134267,
+    "angle_deg": -30.314196366835812,
+    "absorption": 0.659615716011362,
+    "fluorescence": 0.9846924004831814
+  },
+  {
+    "frame": 266,
+    "progress": 0.4687680844907407,
+    "angle_deg": -31.562932532032562,
+    "absorption": 0.7077546272968037,
+    "fluorescence": 0.9981712956431051
+  },
+  {
+    "frame": 267,
+    "progress": 0.45318603515625,
+    "angle_deg": -32.80949328197867,
+    "absorption": 0.7688566033675941,
+    "fluorescence": 1.0152798489429264
+  },
+  {
+    "frame": 268,
+    "progress": 0.43764467592592604,
+    "angle_deg": -34.05280286187984,
+    "absorption": 0.8351636818760351,
+    "fluorescence": 1.0338458309252898
+  },
+  {
+    "frame": 269,
+    "progress": 0.42215757016782407,
+    "angle_deg": -35.29177185656347,
+    "absorption": 0.8865762906645422,
+    "fluorescence": 1.048241361386072
+  },
+  {
+    "frame": 270,
+    "progress": 0.40673828125,
+    "angle_deg": -36.52531426595153,
+    "absorption": 0.855212517729542,
+    "fluorescence": 1.0394595049642719
+  },
+  {
+    "frame": 271,
+    "progress": 0.3914003725405093,
+    "angle_deg": -37.75234750506057,
+    "absorption": 0.8166509320399691,
+    "fluorescence": 1.0286622609711915
+  },
+  {
+    "frame": 272,
+    "progress": 0.37615740740740733,
+    "angle_deg": -38.97178557381255,
+    "absorption": 0.729621653330736,
+    "fluorescence": 1.004294062932606
+  },
+  {
+    "frame": 273,
+    "progress": 0.36102294921875,
+    "angle_deg": -40.18254247212945,
+    "absorption": 0.5382243874389606,
+    "fluorescence": 0.7977160688919406
+  },
+  {
+    "frame": 274,
+    "progress": 0.34601056134259267,
+    "angle_deg": -41.38353219993322,
+    "absorption": 0.3310723361389186,
+    "fluorescence": 0.41012315966872087
+  },
+  {
+    "frame": 275,
+    "progress": 0.3311338071469907,
+    "angle_deg": -42.573672172240435,
+    "absorption": 0.17277355001485079,
+    "fluorescence": 0.09022159975910157
+  },
+  {
+    "frame": 276,
+    "progress": 0.31640625,
+    "angle_deg": -43.751876388973045,
+    "absorption": 0.12791015625,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 277,
+    "progress": 0.30184145326967593,
+    "angle_deg": -44.91706226514762,
+    "absorption": 0.12754603633174189,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 278,
+    "progress": 0.28745298032407407,
+    "angle_deg": -46.068140385591526,
+    "absorption": 0.12718632450810186,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 279,
+    "progress": 0.27325439453125,
+    "angle_deg": -47.20402475022674,
+    "absorption": 0.12683135986328126,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 280,
+    "progress": 0.2592592592592593,
+    "angle_deg": -48.323636189164404,
+    "absorption": 0.12648148148148147,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 281,
+    "progress": 0.24548113787615733,
+    "angle_deg": -49.42588528723189,
+    "absorption": 0.12613702844690394,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 282,
+    "progress": 0.23193359375,
+    "angle_deg": -50.50968945944576,
+    "absorption": 0.12579833984375,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 283,
+    "progress": 0.21863019024884267,
+    "angle_deg": -51.57396270572798,
+    "absorption": 0.12546575475622107,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 284,
+    "progress": 0.2055844907407407,
+    "angle_deg": -52.61761902600051,
+    "absorption": 0.12513961226851852,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 285,
+    "progress": 0.19281005859375,
+    "angle_deg": -53.639572420185324,
+    "absorption": 0.12482025146484374,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 286,
+    "progress": 0.18032045717592604,
+    "angle_deg": -54.63874030329898,
+    "absorption": 0.12450801142939814,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 287,
+    "progress": 0.16812924985532396,
+    "angle_deg": -55.61403667526344,
+    "absorption": 0.12420323124638309,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 288,
+    "progress": 0.15625,
+    "angle_deg": -56.564378951095264,
+    "absorption": 0.12390625,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 289,
+    "progress": 0.1446962709780093,
+    "angle_deg": -57.488677715621826,
+    "absorption": 0.12361740677445023,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 290,
+    "progress": 0.13348162615740744,
+    "angle_deg": -58.385850383859676,
+    "absorption": 0.12333704065393518,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 291,
+    "progress": 0.12261962890625,
+    "angle_deg": -59.25480754063621,
+    "absorption": 0.12306549072265624,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 292,
+    "progress": 0.11212384259259267,
+    "angle_deg": -60.09447001606256,
+    "absorption": 0.1228030960648148,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 293,
+    "progress": 0.1020078305844907,
+    "angle_deg": -60.90375181006069,
+    "absorption": 0.12255019576461226,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 294,
+    "progress": 0.09228515625,
+    "angle_deg": -61.68156692255257,
+    "absorption": 0.12230712890624999,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 295,
+    "progress": 0.08296938295717604,
+    "angle_deg": -62.42682935346017,
+    "absorption": 0.1220742345739294,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 296,
+    "progress": 0.07407407407407396,
+    "angle_deg": -63.13845310270546,
+    "absorption": 0.12185185185185185,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 297,
+    "progress": 0.06561279296875,
+    "angle_deg": -63.8153521702104,
+    "absorption": 0.12164031982421875,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 298,
+    "progress": 0.05759910300925919,
+    "angle_deg": -64.45644738608614,
+    "absorption": 0.12143997757523148,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 299,
+    "progress": 0.05004656756365744,
+    "angle_deg": -65.06065275025463,
+    "absorption": 0.12125116418909143,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 300,
+    "progress": 0.04296875,
+    "angle_deg": -65.6268754324487,
+    "absorption": 0.12107421874999999,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 301,
+    "progress": 0.03637921368634256,
+    "angle_deg": -66.15404309296862,
+    "absorption": 0.12090948034215857,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 302,
+    "progress": 0.0302915219907407,
+    "angle_deg": -66.64105607135804,
+    "absorption": 0.12075728804976851,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 303,
+    "progress": 0.02471923828125,
+    "angle_deg": -67.08683519772809,
+    "absorption": 0.12061798095703125,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 304,
+    "progress": 0.01967592592592593,
+    "angle_deg": -67.49030130218992,
+    "absorption": 0.12049189814814815,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 305,
+    "progress": 0.01517514829282407,
+    "angle_deg": -67.85036838466547,
+    "absorption": 0.1203793787073206,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 306,
+    "progress": 0.01123046875,
+    "angle_deg": -68.1659367846984,
+    "absorption": 0.12028076171874999,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 307,
+    "progress": 0.00785545066550919,
+    "angle_deg": -68.43594099277819,
+    "absorption": 0.12019638626663773,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 308,
+    "progress": 0.005063657407407329,
+    "angle_deg": -68.6592881786376,
+    "absorption": 0.12012659143518518,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 309,
+    "progress": 0.00286865234375,
+    "angle_deg": -68.83488551200945,
+    "absorption": 0.12007171630859374,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 310,
+    "progress": 0.0012839988425925597,
+    "angle_deg": -68.96166065319406,
+    "absorption": 0.12003209997106482,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 311,
+    "progress": 0.00032326027199081064,
+    "angle_deg": -69.03851394173505,
+    "absorption": 0.12000808150679977,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 312,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 313,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 314,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 315,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 316,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 317,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 318,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 319,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 320,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 321,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 322,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 323,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 324,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 325,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 326,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 327,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 328,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 329,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 330,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 331,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 332,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 333,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 334,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 335,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 336,
+    "progress": 0.0,
+    "angle_deg": -69.06437986812189,
+    "absorption": 0.12,
+    "fluorescence": 0.0
+  }
+]

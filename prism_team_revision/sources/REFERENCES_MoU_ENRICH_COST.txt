@@ -1,0 +1,1131 @@
+                                                                               Brussels, 19 May 2025
+
+                                                                                        COST 040/25
+
+
+
+DECISION
+
+
+
+Subject:          Memorandum of Understanding for the implementation of the COST Action “European
+                  Network for radiation-detection based Research and Innovation addressing increasing
+                  societal CHallenges” (ENRICH) CA24131
+
+
+
+
+The COST Member Countries will find attached the Memorandum of Understanding for the COST Action
+European Network for radiation-detection based Research and Innovation addressing increasing societal
+CHallenges approved by the Committee of Senior Officials through written procedure on 19 May 2025.
+                                 MEMORANDUM OF UNDERSTANDING
+
+                         For the implementation of a COST Action designated as
+
+                             COST Action CA24131
+   EUROPEAN NETWORK FOR RADIATION-DETECTION BASED RESEARCH AND INNOVATION
+             ADDRESSING INCREASING SOCIETAL CHALLENGES (ENRICH)
+
+
+
+
+The COST Members through the present Memorandum of Understanding (MoU) wish to undertake joint
+activities of mutual interest and declare their common intention to participate in the COST Action, referred
+to above and described in the Technical Annex of this MoU.
+
+
+
+
+The Action will be carried out in accordance with the set of COST Implementation Rules approved by the
+Committee of Senior Officials (CSO), or any document amending or replacing them.
+
+
+
+
+The main aim and objective of the Action is to build a European network of researchers and stakeholders
+working on radiation-detection based experiments and applications, to strengthen connections among
+different radiation detection physics sub-communities, creating a cross-border, integrated community where
+multidisciplinary knowledge, information exchange, and discussion of new ideas and challenges are central.
+This will be achieved through the specific objectives detailed in the Technical Annex.
+
+
+
+
+The present MoU enters into force on the date of the approval of the COST Action by the CSO.
+
+
+
+
+                                                                                                         2
+                                                                                         TECHNICAL ANNEX
+OVERVIEW
+
+Summary
+The ENRICH (European Network for radiation-detection based Research and Innovation addressing
+increasing societal CHallenges) COST Action aims to build a European network of researchers and
+stakeholders working on radiation-detection based experiments and applications.
+
+Numerous researchers work with photon detection daily, applying it in astrophysics, nuclear and atomic
+physics, material science, data analysis, simulations, detectors, electronics, optics, medicine, cultural
+heritage, food safety, fraud detection and others. However, the community remains fragmented, with sub-
+communities (e.g., nuclear physics, synchrotron users) often working in silos. This lack of cross-
+disciplinary collaboration limits knowledge exchange and the transfer of technologies from large-scale
+facilities to smaller labs and industries.
+
+ENRICH seeks to unite these diverse communities, allowing collaboration across sectors and
+disciplines to accelerate scientific and technological advances in radiation detection.
+
+Such a collaboration will, first of all, focus on pressing scientific questions related to radiation detection
+in research fields like fundamental physics, nuclear and astrophysics, data analysis, and X- and Gamma-
+ray spectroscopy or imaging.
+
+In addition, the scientific outcomes of ENRICH's activities will enhance Europe’s industrial
+competitiveness by contributing to tackling key societal and technological challenges Europe faces, such
+as energy autonomy, food security, faster medical diagnostics, and more. These challenges require,
+indeed, advances in analytical sciences, with radiation-based technologies playing a crucial role across
+various sectors of science and society.
+
+ENRICH will be grounded on inclusiveness, and special attention will be paid to young researchers,
+those with caregiving responsibilities, and participants from ITC countries, through mentoring programs,
+training in proposal submissions, and special initiatives.
+
+Areas of Expertise Relevant for the Action                        Keywords
+● Physical Sciences: Instrumentation - telescopes, detectors      ● Radiation Detection based applications
+and techniques                                                    ● X-ray and Gamma-ray detectors and
+                                                                  electronics
+                                                                  ● Imaging and spectroscopic applications
+                                                                  ● Medical and societal applications
+                                                                  ● Optics, photon sources and MC
+                                                                  simulations
+
+
+
+
+Specific Objectives
+To achieve the main objective described in this MoU, the following specific objectives shall be
+accomplished:
+
+Research Coordination
+● Build an overtime increasing broad and multidisciplinary community that includes experts,
+
+
+                                                                                                             3
+                                   institutes, laboratories, and stakeholders across fundamental, atomic and nuclear physics, astrophysics,
+                                   environmental science, biology, life sciences, detector development, solid-state physics, imaging, medical
+                                   physics, raytracing simulations, agrifood, material science, nuclear forensic, radiation security, cultural
+                                   heritage, optics, photon sources, and electronics.
+                                   ● Survey the globally most widely used photon detection techniques, identifying their strengths,
+                                   weaknesses, and potentials for improvement based on interest range, energy, resolutions, and counting
+                                   capabilities.
+                                   ● Create a collection of private enterprises, including manufacturers and other stakeholders, to facilitate
+                                   collaboration on market applications, new tools for data acquisition and analysis, and user-friendly software
+                                   development.
+                                   ● Promote knowledge exchange among Monte Carlo simulation communities, integrating ray-tracing
+                                   software with other physics simulations (e.g., GEANT4, FLUKA).
+                                   ● Support the comparison and exchange of advanced data fitting and simulation techniques, focusing on
+                                   novel Machine Learning algorithms. This includes targeted training and expert exchanges to standardize
+                                   effective data analysis techniques.
+                                   ● Compare and exchange the latest techniques in development of readout electronics for photon
+                                   detectors identifying weak points and possible spaces for improvement.
+                                   ● Identify Grand Societal Challenges that ENRICH can address through technological
+                                   improvements, outlining current obstacles and linking challenges to the appropriate Working Groups.
+                                   ● Create a web platform for research funding publication and application, facilitating joint projects
+                                   and enhancing funding opportunities.
+                                   ● Develop a web platform for optimizing beamline usage, allowing users to find compatible research teams
+                                   and secure shared experimental time slots.
+                                   ● Coordinate a pool of global experts to guide younger scientists and researchers and improve their
+                                   knowledge, access to infrastructures, and collaboration with experienced groups and companies.
+
+                                   Capacity Building
+                                   ● Serve as a transnational platform to gather and disseminate state-of-the-art knowledge in radiation
+                                   detection fields, including fundamental, atomic and nuclear physics, astrophysics, environmental science,
+                                   biology, life sciences, detector development, solid-state physics, imaging, medical physics, raytracing
+                                   simulations, agrifood, material science, nuclear forensic, radiation security, cultural heritage, optics, photon
+                                   sources, and electronics.
+                                   ● Engage COST Inclusiveness Target Countries (ITC), new research groups, and teams from countries
+                                   with less capacity, ensuring gender balance and supporting young researchers to provide equal access to
+                                   scientific and technological knowledge.
+                                   ● Strengthen collaborations among leading international scientists in radiation-related fields to develop a
+                                   joint research agenda.
+                                   ● Enhance collaboration between research teams and stakeholders to promote mass production of
+                                   technological outcomes (e.g., detectors, electronic boards, photon sources), reducing costs and increasing
+                                   accessibility.
+                                   ● Develop a joint research agenda for the identified four main technological strands, focusing on
+                                   scientifically and socio-economically relevant photon detection applications.
+                                   ● Establish a permanent international pool of experts to assist researchers, particularly younger ones, in
+                                   preparing and submitting research projects for various funding calls (e.g., ERC grants, Marie Curie grants),
+                                   ensuring financial support for the Action’s objectives.
+
+
+
+
+                                                                                                                                                4
+Powered by TCPDF (www.tcpdf.org)
+TECHNICAL ANNEX
+1. S&T EXCELLENCE
+1.1.     SOUNDNESS OF THE CHALLENGE
+1.1.1.    DESCRIPTION OF THE STATE OF THE ART
+The ENRICH (European Network for radiation-detection based Research and Innovation addressing
+increasing societal CHallenges) COST Action aims to build a European network of researchers and
+stakeholders working on radiation-detection based experiments and applications.
+Photon detection research is expanding fast, and further progress demands better resolution (energy,
+spatial, and time), efficient optics, advanced simulation tools, and multimodality data. Large-scale
+infrastructures like X-ray telescopes, free-electron lasers, and 4th generation light sources are being built
+or upgraded. On a smaller scale, brighter photon sources are emerging, using innovative technologies
+like liquid anodes or new concepts of particle accelerators and colliders, e.g., driven by high-power
+lasers. This drives innovation in detection, optics, and data analysis technologies.
+Despite the progress, Europe faces uncoordinated activities within siloed sub-communities (e.g.,
+imaging, nuclear physics, synchrotron users), leading to minimal and non-efficient cross-interaction. This
+hampers knowledge sharing and slows the transfer of technology from large-scale infrastructures to
+smaller labs and industries. Detector markets are similarly segmented, divided by domain, region, or
+academic/industrial focus.
+Overcoming this fragmentation could yield competitive, high-quality solutions.
+The scientific and technological advancements produced by the ENRICH COST Action will allow targeting
+key societal Grand Challenges Europe is facing. These challenges raise crucial questions, for example:
+•     Industrial and energy autonomy: “can we increase battery autonomy, environmental compliance,
+      and lifespan?”; “can we make buildings and machines energetically self-sustainable?”.
+•     Food security: “is the food I eat safe? High quality? Can I check it myself?”.
+•     Healthcare and prevention: “Can we shorten diagnostic times?”, “Can we detect smaller tumors for
+      better treatment?”.
+•     Risk of pandemics: “Can we reduce research and testing time for new medicines and vaccines?”.
+•     Nuclear forensic and monitoring: “Can we fast and efficiently detect dirty bombs or radiation
+      hazards at the national borders or in critical places like airports?”
+These challenges can indeed only be tackled through multidisciplinary scientific investigations, where
+analytical science significantly impacts every study. Analytical science covers imaging, structural, and
+chemical analysis. In this context, X-rays (0.1 keV to 100s keV) and Gamma-rays (up to 1 MeV) are
+invaluable for non-destructive investigation of matter. Their penetrating power and ability to excite atomic
+core levels allow for detecting signatures of their environment, with direct impacts on crucial societal
+aspects like tumor detection (X-ray imaging), swift formulation of vaccines (crystallography), food quality,
+security, and counterfeiting prevention (XRF for elemental analysis and chemical speciation), and many
+others. Overcoming the present technological limits in photon detection and related applications is the
+only possible way towards a successful tackling of Grand Societal Challenges.
+
+Within the ENRICH Cost Action, four main investigation strands have been identified and reported below
+including, for each one, a non-exhaustive list of critical aspects to face.
+
+Photon Sources and Optics: Synchrotrons and X-ray free-electron lasers (XFELs) are the gold
+standard for X-ray measurements, but they are expensive, scarce, and access is highly competitive.
+Tabletop photon sources are a common alternative, but their lower X-ray beam quality (e.g., reduced flux
+or tunability) can hinder measurements, especially in low-yield applications like liquid sample
+investigations. For example, high-resolution measurements of the Kβ transition line of metallic
+compounds, which provide insights into the oxidation and spin states of metals, require energy resolution
+at the level of a few eV. This can only be achieved using expensive Transition Edge Sensors (TES) or
+Metallic Magnetic Calorimeters (MMC) devices or crystal spectrometers. Applications such as food
+quality control demand such measurements on liquid samples, where self-absorption dominates, leading
+to low signal rates. This necessitates either high-brilliance facilities, extended measurement times in local
+labs or a simpler treatment of the samples to significantly improve the sensitivity down to 1ppb for
+conventional table-top EDXRF systems.
+A major obstacle in photon detection is the current X-ray optics, which are costly and have low efficiency,
+especially at small spot sizes/high resolutions and higher energies. This limits the translation of
+
+techniques from large-scale facilities to smaller labs or to crucial locations such as hospitals, industries,
+oc-2024-1
+                                             1/18 pages maximum
+and universities.
+
+Photon detection: One major challenge in photon detection is the lack of a single device that offers
+together high energy (<0.1%), spatial (a few microns) and time resolution (a few ns or below), and high
+detection efficiency. Current technology offers energy resolution of a few %, using silicon detectors (SDD)
+for X-rays below 20 keV, CdZnTe detectors up to a few hundred keV, and HPGe detectors for higher
+energies. Bragg/Laue spectroscopy achieves much better resolution, but suffers from poor geometrical
+acceptance, significantly lower than solid-state devices. Micro-calorimeters like TES or MMC offer much
+higher resolution with reasonable acceptance but require complex, expensive cryogenic systems,
+operating at very low temperatures (mK range), limiting their widespread use.
+Cryogenic cooling is also required for other high-performance detectors, significantly raising costs and
+imposing constraints on experimental setups, particularly in limited spaces like accelerators.
+Energy and spatial resolution tend to be inversely proportional, meaning high spatial resolution comes at
+the cost of energy resolution and vice versa. This impacts techniques like Wavelength Dispersive X-ray
+Fluorescence (WDXRF), and improving both resolutions would enhance noise reduction, and the
+information gathered from a single measurement.
+
+Electronics and Data Acquisition (DAQ): Pulse processing techniques are inefficient at very high
+fluxes, where high-throughput detection systems are required. On the opposite site, rare events and low-
+brilliance sources face the challenge of single photon counting. To overcome both these limitations, a big
+opportunity for novel hardware and software solutions to develop low-noise detectors and advanced
+denoising techniques is brought forward by the interaction between physics and Machine Learning (ML).
+Achieving cutting-edge photon detection with combined energy, time, and spatial resolutions requires a
+collaborative effort across research teams in solid-state device production (including new materials) and
+analog and digital electronics development.
+Low-noise analog front-end electronics are needed for sub-keV room temperature energy resolution,
+complemented by digital electronics for optimal pulse processing and multi-parameter analysis.
+Another challenge is the large volume of data produced by high-quality, fast, and high-resolution
+measurements. This “data deluge” issue is time-consuming and labor-intensive to process, especially in
+imaging applications, where advancements in pixel size and density lead to exponential data growth, and
+it should be also attacked at the DAQ level, implementing new and faster boards allowing, thanks to novel
+ML algorithms, for a better online data quality and rejection.
+
+Data Analysis, Software and Ray Tracing simulations: The widespread use of Machine Learning (ML)
+techniques in data analysis, image reconstruction, and beam-line control presents challenges,
+particularly regarding the need for standardizing data analysis methods and ensuring a broader
+understanding of the underlying algorithms to prevent biases. However, ML offers faster and more
+accurate software solutions to many experimental problems like, for example, PLS regression which is
+used to improve quantification of the results.
+For example, experiments with optical elements like slits, mirrors, and crystals require precise alignment
+and optimization, which can be time-consuming, especially in low-photon-count applications. At beamline
+facilities, where time is limited, long optimization periods can hinder successful measurements.
+Additionally, photon detection experiments heavily rely on ray-tracing simulations, which predict beam
+dimensions, intensity, and energy. Many experiments require input from external simulation tools, such
+as MC simulation codes, to provide physical parameters. For example, using a Bragg spectrometer to
+measure photons resulting from particle interactions in an accelerator requires a complex MC simulation
+to determine the input source parameters.
+
+Addressing the outlined issues will be accelerated only by developing a broader community that
+exchanges information and expertise. This Action's multidisciplinary nature will drive progress in
+addressing Grand Challenges like energy crises, climate change, and health. By fostering open and
+inclusive collaboration across these fields, ENRICH will facilitate cross-disciplinary and international
+research, enhancing the effectiveness and cost-efficiency of global scientific projects in line with the
+COST Action's vision and spirit.
+
+1.1.2.    DESCRIPTION OF THE CHALLENGE (MAIN AIM)
+The ENRICH COST Action aims to strengthen connections among different radiation detection physics
+sub-communities, creating a cross-border, integrated community where multidisciplinary knowledge,
+information exchange, and discussion of new ideas and challenges are central. ENRICH will contribute
+to address the issues identified in Section 1.1.1 by promoting collaboration among existing communities
+to achieve significant advancements beyond the current state of the art, as follows:
+oc-2024-1
+                                            2/18 pages maximum
+Photon Detection: The ENRICH action aims to advance technological research in radiation detection,
+focusing on developing new detectors, materials and detection techniques to enhance energy, spatial,
+and time resolutions beyond current technologies. Emphasis will be given to achieving top performance
+at non-cryogenic temperatures and overcoming limitations in combining cutting-edge resolutions.
+ENRICH seeks to facilitate the exchange of information and expertise among various sub-communities
+to create next-generation devices and techniques. ENRICH seeks to facilitate the exchange of
+information and expertise among various sub-communities to create next-generation devices and
+techniques as well as motivate small and medium size enterprises (SME) for producing photon detection
+systems based on the new developed technologies.
+
+Photon Sources and Optics: ENRICH aims to advance research on tabletop high-flux photon sources,
+optical elements, and motorized positioners and holders in collaboration with stakeholders and
+producers. Innovations in materials, design, or production methods will make optics more affordable and
+efficient, broadening the use of X-rays. At the same time, sharing knowledge among researchers and
+producers will allow for the realization of more powerful and efficient tabletop photon sources respecting
+the security standards.
+
+Data Analysis, Software, and Ray Tracing Simulations: The ENRICH Action will integrate the
+raytracing/wave optics simulations community, which currently focuses on beamline applications, into
+the broader radiation detection field. The aim is to develop high-quality ray propagation simulation codes
+for general applications and assist research groups in applying these codes. ENRICH will also seek to
+enhance collaboration between the raytracing/wave optics community and other MC simulation
+frameworks like, for example, GEANT and FLUKA, promoting multidisciplinary experiments. The Action
+will leverage Machine Learning to standardize analysis techniques for photon detection applications,
+addressing challenges like handling large data volumes and improving experimental reliability.
+Additionally, ENRICH will aim to enhance alignment and optimization of experimental setups through
+encouraging collaborations towards new automatic self-optimization software using Machine Learning
+algorithms.
+
+Electronics & DAQ: ENRICH will help develop novel hardware and software for advanced detection
+techniques, fostering joint efforts to improve noise suppression, efficiency at high fluxes, and resolution
+in energy, space, and time. Collaboration with stakeholders such as electronic board designers will be
+crucial, with the aim of improving the implementation of Machine Learning algorithms in the DAQ boards.
+ENRICH aims to develop the new generation readout electronics by reducing noise in front-end
+electronics and developing new pulse processing techniques. This includes creating fast, low-noise
+charge-sensitive preamplifiers and digital pulse processing electronics, which offer benefits such as
+custom filters, stability, and multi-parameter analysis. Enhanced collaboration between researchers in
+both detectors and electronics development will improve performance and integration.
+
+Simultaneous advancements in these areas will address societal challenges such as, for example:
+battery autonomy (by having a better chemical-physical analysis of cathode and anode materials), food
+safety (by identifying tiny traces of dangerous metals), early disease detection (by improving spatial, time
+and energy resolutions for better imaging quality), faster medical diagnostics (by reducing the necessary
+doses and enhancing the precision tissues investigation with more performant photon detection).
+
+Various groups of subjects will benefit from the ENRICH Action:
+Scientists, researchers, and PhD students across fields like Physics, Biology, Medicine, Agrifood,
+Chemistry, Environmental Science, Computing, Engineering, Life Science, and many others. They will
+gain advanced knowledge in photon detection techniques and applications, enhancing their teamwork
+and problem-solving skills for scientific and technological challenges.
+Stakeholders, including existing networks, academic and research institutes, healthcare providers,
+public and civil organizations, and producers of photon detectors, optical components, new materials for
+photon detection, and laboratory equipment. They will directly connect with potential end users, discuss
+technological solutions, and gather information on critical issues and needs to guide their research
+directions.
+The European and non-European populations will benefit from technological advancements enabled
+by ENRICH, leading to improved techniques for food quality assessment, medical care, prevention, and
+faster responses to energy, climate, and health crises.
+
+
+
+
+oc-2024-1
+                                             3/18 pages maximum
+1.2.       PROGRESS BEYOND THE STATE OF THE ART
+1.2.1.      APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE OF THE
+            ART
+
+The ENRICH Action will build a collaborative and multidisciplinary network of international experts in
+radiation detection, aiming to create a broad, interdisciplinary community where many other scientists
+will benefit from individual research expertise. The goal is to advance photon detection science,
+impacting fields such as particle and nuclear physics, astrophysics, foundational physics, environmental
+science, agrifood, medicine, chemistry, cultural heritage and many others.
+This expanded community will disseminate and gather scientific knowledge, discuss recent results and
+needed improvements, collaborate on experiment design, train young researchers, and attract funding
+through application to national and international calls.
+ENRICH will partner with leading industries to support experimental work and develop new tools,
+software, and components based on research outcomes.
+
+Technological Efforts (TE) ENRICH aims to pursue, to overcome the present state of art in radiation
+detection applications, by fostering discussion and the interchange of know-how and new ideas among
+the various communities, include:
+TE1: Reduce the gap between energy resolution, efficiency, and cost for radiation detectors by exploring
+new materials for photon detection, configurations, and readout techniques.
+TE2: Enhance Research & Development (R&D) for photon detectors with high energy, space and time
+resolution at room or non-cryogenic temperatures.
+TE3: Develop more efficient and cost-effective optics through new manufacturing processes and
+materials.
+TE4: Improve the brilliance and power of lab-based photon sources like X-ray tubes.
+TE5: Integrate advanced raytracing and wave optics simulations with MC simulation software to enhance
+multidisciplinary experiments.
+TE6: Bring innovations in data acquisition and pre-processing hardware and software, including AI-
+powered solutions.
+TE7: Standardize new Machine Learning data analysis techniques for broader understanding and use.
+TE8: Develop Machine Learning-based self-alignment tools for optical components adaptable to various
+applications and measurements.
+
+The above-mentioned TE will be crucial to the development of new tools and instrumentations for several
+societal applications, like improved medical diagnostic machines.
+The ENRICH vision aligns with the COST Action’s emphasis on knowledge sharing. COST support will
+be crucial for networking activities, including meetings, training schools, conferences, workshops, and
+Short-Term Scientific Missions (STSMs), with a priority on training young researchers.
+
+1.2.2.      OBJECTIVES
+1.2.2.1.     Research Coordination Objectives
+To address the ENRICH Action main challenges and achieve its technological goals, the following
+Research and Coordination Objectives have been identified:
+
+RCO1: Build an overtime increasing broad and multidisciplinary community that includes experts,
+institutes, laboratories, and stakeholders across fundamental, atomic and nuclear physics, astrophysics,
+environmental science, biology, life sciences, detector development, solid-state physics, imaging,
+medical physics, raytracing simulations, agrifood, material science, nuclear forensic, radiation security,
+cultural heritage, optics, photon sources, and electronics. This includes cataloguing existing but
+unconnected sub-communities.
+RCO2: Survey the globally most widely used photon detection techniques, identifying their strengths,
+weaknesses, and potentials for improvement based on interest range, energy, resolutions, and counting
+capabilities.
+RCO3: Create a collection of private enterprises, including manufacturers and other stakeholders, to
+facilitate collaboration on market applications, new tools for data acquisition and analysis, and user-
+friendly software development.
+RCO4: Promote knowledge exchange among Monte Carlo simulation communities, integrating ray-
+tracing software with other physics simulations (e.g., GEANT4, FLUKA).
+RCO5: Support the comparison and exchange of advanced data fitting and simulation techniques,
+focusing on novel Machine Learning algorithms. This includes targeted training and expert exchanges to
+oc-2024-1
+                                            4/18 pages maximum
+standardize effective data analysis techniques.
+RCO6: Compare and exchange the latest techniques in development of readout electronics for photon
+detectors identifying weak points and possible spaces for improvement.
+RCO7: Identify Grand Societal Challenges that ENRICH can address through technological
+improvements, outlining current obstacles and linking challenges to the appropriate Working Groups.
+RCO8: Create a web platform for research funding publication and application, facilitating joint projects
+and enhancing funding opportunities.
+RCO9: Develop a web platform for optimizing beamline usage, allowing users to find compatible
+research teams and secure shared experimental time slots.
+RCO10: Coordinate a pool of global experts to guide younger scientists and researchers and improve their
+knowledge, access to infrastructures, and collaboration with experienced groups and companies.
+
+1.2.2.2.     Capacity-building Objectives
+In parallel with the Research Coordination Objectives, the following Capacity-building Objectives are
+essential for addressing the ENRICH Action's main challenges and achieving its technological goals:
+
+CBO1: Serve as a transnational stakeholder platform to gather and disseminate state-of-the-art
+knowledge in radiation detection fields, including fundamental, atomic and nuclear physics, astrophysics,
+environmental science, biology, life sciences, detector development, solid-state physics, imaging,
+medical physics, raytracing simulations, agrifood, material science, nuclear forensic, radiation security,
+cultural heritage, optics, photon sources, and electronics. This CB aims as well to gather and disseminate
+information on infrastructures, research groups, and manufacturers.
+CBO2: Engage COST Inclusiveness Target Countries (ITC), new research groups, and teams from
+countries with less capacity, ensuring gender balance and supporting young researchers to provide
+equal access to scientific and technological knowledge.
+CBO3: Strengthen collaborations among leading international scientists in radiation-related fields to
+develop a joint research agenda.
+CBO4: Enhance collaboration between research teams and stakeholders to promote mass production
+of technological outcomes (e.g., detectors, electronic boards, photon sources), reducing costs and
+increasing accessibility.
+CBO5: Develop a joint research agenda for the identified four main technological strands, focusing on
+scientifically and socio-economically relevant photon detection applications.
+CBO6: Establish a permanent international pool of experts to assist researchers, particularly younger
+ones, in preparing and submitting research projects for various funding calls (e.g., ERC grants, Marie
+Curie grants), ensuring financial support for the Action’s objectives.
+
+These Research Coordination and Capacity-building Objectives will adhere to the COST principles of
+inclusivity and excellence, encouraging young researchers' involvement and maintaining gender
+balance, while maximizing participation from emerging countries.
+
+2. NETWORKING EXCELLENCE
+2.1.       ADDED VALUE OF NETWORKING IN S&T EXCELLENCE
+2.1.1.      ADDED VALUE IN RELATION TO EXISTING EFFORTS AT EUROPEAN AND/OR
+            INTERNATIONAL LEVEL
+There are numerous European and international projects focused on photon detection, each targeting
+specific sectors. Examples include initiatives for radiation protection (EURATOM, EURADOS, MELODI),
+medical research (Euro-BioImaging, MEDIRAD), environmental monitoring (NORMAN), nuclear fusion
+(EUROfusion), and training (ENEN). These projects, however, aim to advance scientific knowledge and
+develop new technologies, but each operates within its own domain.
+The ENRICH Action will complement these efforts by enhancing knowledge sharing, fostering
+interdisciplinary collaboration, and driving innovation through cross-community exchanges. Key to this
+effort will be engaging active participants from existing networks to join ENRICH, which will facilitate a
+comprehensive census of photon detection research teams, identify suitable intervention areas, and
+quickly advance ENRICH objectives.
+Existing networks will benefit from improved collaboration and knowledge sharing through ENRICH as
+well.
+
+The ENRICH Cost Action added value can be summarized in three main pillars:
+
+oc-2024-1
+                                            5/18 pages maximum
+Integration of efforts: ENRICH will unify existing projects and networks, promoting the exchange of
+ideas, data, and methodologies. This will enable researchers to build on each other's work and foster
+interdisciplinary collaboration across fields like fundamental, atomic and nuclear physics, astrophysics,
+environmental science, biology, life sciences, detector development, solid-state physics, imaging,
+medical physics, raytracing simulations, agrifood, material science, nuclear forensic, radiation security,
+cultural heritage, optics, photon sources, and electronics.
+Resource Sharing and Finding: By creating a network, ENRICH will optimize the use of sophisticated
+equipment and facilities, such as synchrotrons and specialized software. Coordinated scheduling and
+shared resources will make advanced technology more accessible and ensure broad benefits for
+researchers. To ensure the success of the technological and scientific advancements proposed by
+ENRICH, dedicated tasks will be devoted to helping the participating researchers in submitting proposals
+for national and international funding applications.
+Accelerated Innovation: ENRICH will speed up the development and application of new technologies
+through fostering joint research projects and collective expertise. This will lead to rapid advancements in
+photon radiation techniques and applications, including the realization of new and more performant tools
+for societal applications, like devices for medical inspections or food control.
+In summary, ENRICH will enhance existing photon detection research efforts by fostering synergy,
+optimizing resources, and accelerating innovation. This cohesive network will improve the impact and
+efficiency of research, benefiting healthcare, environmental monitoring, and industrial applications.
+
+2.2.     ADDED VALUE OF NETWORKING IN IMPACT
+2.2.1.    SECURING THE CRITICAL MASS, EXPERTISE AND GEOGRAPHICAL BALANCE
+          WITHIN THE COST MEMBERS AND BEYOND
+The success of the ENRICH COST Action depends on assembling a diverse and balanced network of
+experts and institutions across Europe, with a strategy that involves three key elements:
+
+Engaging Leading Experts: ENRICH will identify and invite top researchers in photon radiation from
+various fields, including fundamental, atomic and nuclear physics, astrophysics, environmental science,
+biology, life sciences, detector development, solid-state physics, imaging, medical physics, raytracing
+simulations, agrifood, material science, nuclear forensic, radiation security, cultural heritage, optics,
+photon sources, and electronics. Existing networks will be leveraged to recruit both renowned and
+emerging talents, while mentoring programs and trainings will be organized to provide guidance and
+facilitate connections.
+Promoting Inclusiveness: ENRICH prioritizes inclusiveness by involving researchers from more than
+20 countries with an almost equal gender balance already at the initial stage. Moreover, special attention
+will be given to supporting young researchers and women, as well as to those with caregiving
+responsibilities through dedicated activities and childcare facilities. Participation in events for researchers
+with caregiving duties will be encouraged by establishing a series of dedicated activities like, for example,
+offering in-situ childcare facilities.
+
+Ensuring Geographical Balance: To ensure all participating countries are represented, ENRICH will
+monitor and adjust activities for fair distribution. Transparent processes and clear criteria will be
+established to ensure equal access to funding and resources, as well as to leading roles in the Action
+Management and in the Working Groups.
+
+By engaging top experts, promoting inclusiveness, and ensuring geographical balance, ENRICH will
+create a dynamic network that drives innovation and addresses key challenges in photon radiation,
+benefiting Europe and beyond.
+
+2.2.2.    INVOLVEMENT OF STAKEHOLDERS
+The involvement of stakeholders is critical to the success and impact of the ENRICH COST Action on
+photon detection and related applications. Engaging a diverse range of stakeholders ensures relevance,
+addresses real-world challenges, and facilitates the translation of research into practical applications.
+
+Key stakeholder groups include:
+Academic and Research Institutions: Universities, research centers, and laboratories in photon
+radiation, nuclear physics, medical imaging, material science, cultural heritage and related fields.
+Industry Partners: Companies developing and applying radiation technologies, including medical
+device manufacturers and environmental monitoring firms.
+Healthcare Providers: Hospitals, clinics, and practitioners using radiation technologies for diagnostics
+oc-2024-1
+                                              6/18 pages maximum
+and treatment.
+Regulatory Bodies and Policy Makers: Agencies regulating radiation safety, medical devices, and
+environmental protection.
+Public and Civil Society Organizations: Patient advocacy groups, environmental NGOs, and
+organizations representing public interests.
+
+Stakeholder engagement will focus on three main pillars:
+Regular Communication and Consultation: ENRICH will maintain open communication through
+regular Stakeholder Meetings, Workshops, and Webinars to update stakeholders, gather feedback, and
+discuss future directions. Stakeholders will be also invited to participate to the Working Groups meetings
+and activities.
+Collaborative Research and Development Projects: ENRICH will promote discussions on R&D
+projects involving stakeholders to ensure relevance and practical application. Joint projects with industry
+stakeholders and collaborations with healthcare providers will focus on co-developing technologies and
+refining tools and devices for all practical applications like, for example, medical imaging and treatment
+technologies.
+Dissemination and Exploitation of Results: A comprehensive plan will ensure widespread and
+effective dissemination of research findings. This includes supporting and patronizing workshops and
+conferences, organizing targeted training sessions, and developing policy briefs to inform regulatory
+bodies and policy makers.
+
+By involving a diverse range of stakeholders, ENRICH will ensure that its research is relevant and
+impactful, facilitating the rapid translation of discoveries into practical applications and maximizing
+societal and economic benefits.
+
+
+3. IMPACT
+3.1.     IMPACT TO SCIENCE, SOCIETY AND COMPETITIVENESS, AND POTENTIAL
+         FOR INNOVATION/BREAKTHROUGHS
+3.1.1.    SCIENTIFIC, TECHNOLOGICAL, AND/OR SOCIOECONOMIC IMPACTS (INCLUDING
+          POTENTIAL INNOVATIONS AND/OR BREAKTHROUGHS)
+The ENRICH COST Action is set to make a significant impact across scientific, technological, and
+socioeconomic domains. By fostering interdisciplinary collaboration and knowledge sharing, it will drive
+innovation and breakthroughs addressing critical challenges. In Fig. 1, a schematic of the main
+anticipated impacts and of the measures to maximize impact of the ENRICH Action are highlighted.
+
+More in detail, the anticipated impacts of the ENRICH Action include:
+Scientific Impacts: The ENRICH Action will advance fundamental knowledge of photon radiation
+phenomena, including interactions with matter at atomic, nuclear and molecular levels. Integrating
+expertise from diverse scientific fields will yield novel insights into photon applications in fundamental,
+atomic and nuclear physics, astrophysics, environmental science, biology, life sciences, detector
+development, solid-state physics, imaging, medical physics, raytracing simulations, agrifood, material
+science, nuclear forensic, radiation security, cultural heritage, optics, photon sources, and electronics.
+The promotion of standardized experimental techniques will enhance the reliability and reproducibility of
+results, and collaborative research will foster the development of new analytical tools and technologies.
+Technological Impacts: ENRICH will significantly influence the field of radiation detectors by
+developing advanced detectors with improved capabilities and performances at room temperature. This
+will enable smaller, cost-effective experimental setups, devices and tools. Innovations in low-noise
+electronics and advanced pulse processing will facilitate room temperature measurements under high
+flux conditions. The development of cutting-edge detection technologies will enable, for example, early
+detection of diseases and reduce exposure times in medical exams. Additionally, industrial applications
+will benefit from enhanced radiation detection technologies, optimizing processes like non-destructive
+testing and material analysis crucial, for example, in many cultural heritage or food control applications.
+Socioeconomic Impacts: Economic growth and job creation will stem from the development of new
+photon radiation technologies, creating market opportunities in high-tech sectors. New analytical
+techniques and Machine Learning software will aid in identifying counterfeit products, preventing
+economic losses. The commercialization of research findings will generate high-skilled jobs in research,
+development, and manufacturing, while SME will be motivated in producing photon detection systems
+based on the new developed technologies. For example, advances in medical imaging and radiation
+therapy will improve diagnosis and patient care, while enhanced environmental monitoring will safeguard
+oc-2024-1
+                                            7/18 pages maximum
+communities from radiation hazards. Training programs and workshops will elevate skills and expertise,
+especially among early-career scientists and those from ITCs, raising the overall quality of research and
+education.
+Potential Innovations and Breakthroughs: ENRICH will lead to the development of novel machines,
+tools and devices for several societal applications, like for example new diagnostic and therapeutic tools
+for early disease detection and effective treatments. It will also drive the discovery of new materials with
+unique properties, enhancing radiation detection devices and providing new energy solutions, such as
+longer-lasting batteries. The expected increased analytical capabilities of benchtop XRF systems or
+handheld units will allow non-invasive analysis of samples in perfect agreement with the Green Analytical
+Chemistry (GAC) postulates.
+
+Overall, the ENRICH COST Action will drive significant advancements in photon radiation research,
+positioning Europe as a global leader and benefiting society through improved health, safety, and
+economic growth.
+
+3.2.     MEASURES TO MAXIMISE IMPACT
+3.2.1.    KNOWLEDGE   CREATION,              TRANSFER         OF     KNOWLEDGE          AND     CAREER
+          DEVELOPMENT
+The ENRICH COST Action aims to foster knowledge creation, facilitate knowledge transfer, and promote
+career development among researchers. By building a collaborative and inclusive network, the Action
+will enhance scientific expertise, disseminate cutting-edge research findings, and support member
+professional growth.
+
+The strategies to achieve these goals are outlined below.
+Knowledge Creation: The Action will support collaborative research projects across diverse disciplines
+and institutions. These projects will address key scientific and technological challenges in photon
+radiation research, leading to innovative solutions. By integrating perspectives from detectors and
+electronics development, astrophysics, atomic, nuclear and hadronic physics, medical imaging, material
+science, and other fields, ENRICH will promote interdisciplinary research that advances the state of the
+art. Access to research infrastructure will be optimized; the ENRICH network will facilitate access to
+shared facilities (like synchrotrons), radiation detectors, and computational tools, enabling high-quality
+experiments and analyses. Centralized data repositories will enhance the reproducibility and impact of
+scientific findings through efficient data sharing.
+Transfer of Knowledge: The Action will prioritize disseminating research results through high-impact
+and open access publications, conference presentations, and journal special issues to reach the broader
+scientific community. Regular workshops, seminars, and webinars will share research findings, best
+practices, and technological innovations.
+Knowledge Exchange Platforms, such as websites and online collections, will facilitate information
+sharing. Collaborative tools like virtual workspaces will enable real-time interaction among network
+members. Outreach to stakeholders will be ensured through joint projects, technology transfer
+agreements, and innovation hubs, translating research into practical applications. Developing policy
+briefs and engaging with regulatory bodies will help shape policies that support the safe use of radiation
+detection technologies.
+Career Development: Training will be central to ENRICH. The Action will offer workshops, summer
+schools, and short courses to enhance researchers' skills, particularly those from Inclusiveness Target
+Countries (ITCs). Mentorship schemes will pair early-career researchers with experienced mentors for
+guidance and development.
+Mobility and Exchange Opportunities will be crucial. Short-term research visits and secondments will
+provide experience in different laboratories and access to specialized equipment. Exchange programs
+will foster cross-institutional collaboration and cultural exchange. Career Advancement Support will
+include workshops on grant writing, project management, and career planning, alongside recognition
+and award programs to motivate researchers.
+Attract fundings: Ensuring the necessary financial resources for the various R&D activities will play a
+central role in ENRICH. The Action will establish a board of experts to help researchers in successfully
+writing scientific proposals by offering workshops, courses and mentoring sessions. This will allow to
+attract fundings for the R&D activities and will also serve as career boosting opportunity for young
+researchers.
+By building a dynamic and inclusive network, the Action will advance scientific expertise, promote
+research application, and support member growth, ensuring Europe remains at the forefront of
+innovation in photon radiation research.
+oc-2024-1
+                                            8/18 pages maximum
+3.2.2.    PLAN FOR DISSEMINATION AND/OR EXPLOITATION AND DIALOGUE WITH THE
+          GENERAL PUBLIC OR POLICY
+The ENRICH COST Action is dedicated to ensuring that its findings and innovations are widely
+disseminated to the scientific community, industry stakeholders, policymakers, and the general public.
+To maximize impact and fully realize the benefits of the research, effective dissemination and exploitation
+strategies, combined with active dialogue, are crucial.
+
+The following plan outlines the approach to achieving these objectives:
+
+Dissemination Strategy: A key component of the strategy will focus on the Scientific Community. High-
+impact publications in peer-reviewed open-access journals will be a primary method for sharing research
+findings. Special issues and thematic collections will highlight the Action’s contributions to the field.
+Organizing and participating in international conferences, symposia, and workshops will facilitate idea
+exchange and showcase the Action’s research outcomes. Making research outputs, including datasets
+and software, available in open-access repositories will enhance visibility and accessibility.
+Another significant aspect will address Industry and Stakeholders. Workshops and webinars tailored for
+industry partners will focus on the practical applications of research findings, promoting technology
+transfer and commercialization. Joint research and development projects with industry partners will
+support the direct application of new technologies and innovations in commercial settings. Establishing
+innovation hubs or incubators will aid in developing and scaling new technologies emerging from the
+Action’s research. Establishing advisory panels with representation from regulatory bodies will provide
+ongoing dialogue and collaboration on policy-related issues.
+Dialogue with the General Public and Policymakers: Special emphasis will be placed on engaging
+the General Public. Organizing public lectures, science cafés, open days, and community events will
+engage the public in discussions about photon radiation, its applications, and its societal impact. Through
+social media, press releases, and educational materials for schools, such as brochures, videos, and online
+resources, the ENRICH COST Action will provide accessible information about the research and its
+benefits. Leveraging traditional and social media platforms will help disseminate research findings and
+raise public awareness about the Action’s activities and achievements.
+Public Engagement Activities will include initiatives such as interactive exhibitions at science museums
+and public events to provide hands-on learning experiences related to photon radiation. ENRICH will try
+to involve the general public in research activities, fostering a deeper understanding and appreciation of
+scientific inquiry. For example, extensive participation in initiatives like the Research’s Night across
+Europe will be encouraged.
+Educational Outreach will be set up with school programs and materials to educate students about
+photon radiation detection and its applications, inspiring the next generation of scientists and informed
+citizens. Offering online courses and webinars on relevant topics will make educational content
+accessible to a broad audience, including students, educators, and the general public.
+
+By engaging with the scientific community, industry stakeholders, policymakers, and the general public,
+the Action will maximize its contributions to knowledge, technology, and society. This strategic approach
+will enhance the visibility, accessibility, and application of research outcomes, fostering a collaborative
+and informed environment that supports the advancement of research on photon detection and its
+beneficial applications.
+
+4. IMPLEMENTATION
+4.1.     COHERENCE AND EFFECTIVENESS OF THE WORK PLAN
+4.1.1.    DESCRIPTION OF WORKING GROUPS, TASKS AND ACTIVITIES
+The implementation of the ENRICH Action will be organized into seven Working Groups (WGs),
+collectively addressing the Research Coordination Objectives (RCO), Capacity-Building Objectives
+(CBO), and Technological Efforts (TE) outlined in the proposal. The interconnections among the WGs
+will be structured to ensure a synergistic approach, enabling the effective achievement of the Action’s
+goals (see Fig. 2). For each WG, the specific tasks (T) are listed below with the involved RCO, CBO and
+TE indicated in brackets.
+WG1: Community Coordination: this WG focuses on all the necessary activities to improve the quality
+of the Action and to increase the number of participants.
+T1.1: Compilation of all the research teams and subcommunities initially involved in the ENRICH Action
+(RCO1)                                                 .
+oc-2024-1
+                                            9/18 pages maximum
+T1.2: Census and compilation of existing research teams and subcommunities potentially interested in
+joining the ENRICH Action to promote its goals and enlarge the community (RCO1, CBO1, CBO2).
+T1.3: Promote and maintain links among the various WGs by organizing regular meetings among WG
+leaders and disseminating the advancement of the ENRICH Action to the participants through annual
+reports, internal notes, websites and similar initiatives (RCO1, CBO3). A set of mailing lists and
+newsletters will be also created for the various WG, the management, the general public, etc.
+WG2: Technological Advancement: this WG focuses on all the necessary activities to allow for
+technological advancements impacting on the various applications.
+T2.1: Conduct a comprehensive survey of existing photon detection techniques, focusing on energy,
+position, and timing resolution capabilities (RCO2).
+T2.2: Stimulate the investigation in new materials and detector configurations to enhance photon
+detection performances (energy, time and spatial resolution) and to develop a new generation of optical
+components while reducing costs (TE1, TE2, TE3).
+T2.3: Connect research teams and producers to allow for a more massive production of the new
+technological outcomes produced by the ENRICH Action, aiming at a sizeable reduction of the production
+costs (RCO3, CBO4).
+T2.4: Create a stronger collaboration between research teams and producers to identify the present
+weak points in table-top photon sources production aiming at developing and testing new photon sources
+improving table-top beams brilliance of, at least, one order of magnitude (TE4).
+
+WG3: Software Advancement: this WG focuses on all the necessary activities involving the
+development of new software and standards for the community.
+T3.1: Foster collaboration among Monte Carlo simulation communities to integrate ray-tracing software
+with other simulation tools and validate integrated simulation models for various photon detection
+applications (RCO4, TE5).
+T3.2: Collaborate with software developers to promote the realization of open-source packages with a
+multidisciplinary approach, allowing for easy modifications and customizations by the research teams to
+be adapted to many possible applications (RCO5, TE6).
+T3.3: Realize a compilation of the various data analysis techniques used by the various research teams
+of the Action, aiming at a more generalized standardization and wider comprehension of the experimental
+outcomes in different fields and applications (TE7, TE8).
+T3.4 Enhance AI-powered solutions for data processing and analysis to implement next-generation data
+processing systems (TE8).
+
+WG4: Electronics and DAQ: this WG focuses on all the necessary activities to bring readout electronics
+for photon detection beyond the present state of art, aiming at improved performance (energy, space and
+time resolutions) and reduced costs and dimensions.
+T4.1: Conduct an evaluation of current readout electronics and DAQ systems, identifying strengths and
+weaknesses, benchmarking existing technologies against industry standards (RCO6).
+T4.2: Boost the emergent technology of AI and Machine Learning based electronic boards aiming at a
+wider and easier implementation of these tools in many multidisciplinary applications (TE6)
+T4.3: Stimulate collaboration among researchers and manufacturers in electronics to integrate novel
+readout solutions into photon detectors at low costs (RCO3, CBO4).
+
+WG5: Multidisciplinary and Societal Applications: this WG focuses on all the activities related to
+multidisciplinary applications, in particular with those related to the Societal Challenges addressed by
+this Action.
+T5.1: Compile existing photon detection techniques tailored for specific applications, identifying weak
+points and potential improvements for each application area (RCO2, RCO7).
+T5.2: Assign each of the applications identified in T5.1 to the various WGs, with a particular focus on
+those addressing the Grand Societal Challenges, aiming at the realization of effective steps towards their
+solutions (RCO7).
+T5.3: Facilitate knowledge exchange between different fields to foster interdisciplinary applications by
+organizing joint workshops and conferences (RCO1, RCO3, RCO5, RCO7, CBO3, CBO5, TE5).
+WG6: Integration and Interchange: this WG focuses on all the necessary activities aimed at making all
+the ENRICH Action’s initiatives (meetings, workshop, schools, etc.) accessible to all the researchers of
+the community and at attracting funds. The activities of this WG will last until the end of the COST Action
+and will be constantly updated to ensure the success of ENRICH.
+T6.1: Implement support measures for researchers with care duties during the various events, such as
+offering babysitting services for example, and promoting flexible working arrangements to support
+researchers with diverse needs (CBO2, CBO6).
+T6.2: Providing support to all the research teams participating in the Action in attracting fundings and
+oc-2024-1
+                                            10/18 pages maximum
+obtain financial supports for their activities (RCO8, CBO2)
+T6.3 Coordinate access to shared experimental beamtimes and measurement campaigns (RCO9,
+CBO3, CBO5).
+T6.4 Implement on the ENRICH Website the following Integration and Interchange Forums:
+    • Technology Collaboration Forum: An online platform to connect research teams and producers
+         (demand and supply) for enhancing mass production and cost reduction.
+    • Open-Source Software Repository: A repository of the open-source, multidisciplinary software
+         packages developed within the ENRICH Action.
+    • Electronics Collaboration Forum: An online platform to connect electronics research teams and
+         producers (demand and supply) for enhancing mass production and cost reduction.
+    • Shared Experiments Forum: An online platform for coordinating shared experimental beamtimes
+         and measurement campaigns.
+    • Funding Search Engine Collection: A regularly updated collection of links to the available
+         funding search engines, divided by main categories, to collect and show the various calls for
+         funding applications published from various funding agencies.; this platform will also serve as a
+         publisher for funding applications to be used by the various stakeholders involved in the ENRICH
+         Action.
+    • Mentoring Program Forum: An online platform for the mentoring program connecting young
+         researchers with experienced mentors.
+
+WG7: Mentoring, training and dissemination: this WG focuses on all the activities related to mentoring
+and training, in particular of young scientists, as well as with the dissemination of the ENRICH’s outcomes
+both to the specialistic and to the general public.
+T7.1: Establish a mentoring program to connect young researchers with experienced mentors providing
+regular mentoring sessions and career advice (RCO10, CBO7).
+T7.2: Conduct training sessions on novel data analysis algorithms and software tools (TE7, TE8).
+T7.3: Realization of the dissemination plan underlined in the previous sections and inform possible users
+and stakeholders on the advancements through newsletter and workshops.
+T7.4: Organize webinars on writing research proposals and grant applications (CBO7, RCO8).
+T7.5: Offer training on various career paths, including academia and industry, facilitating networking
+opportunities with industry professionals and academic leaders (RCO10, CBO1, CBO4).
+
+In Fig. 2, a schematic of the interconnection among the tasks of the various WGs is reported.
+
+4.1.2.    DESCRIPTION OF DELIVERABLES AND TIMEFRAME
+The ENRICH COST Action will produce two types of deliverables: cross-sectional and WG specific ones,
+with delivery time defined in four-months periods (Q).
+The cross-sectional deliverables will be common to all WG, and will consist in:
+
+DX.1 – Annual general and technical reports of the individual WG results, realized initiatives and status of
+the various tasks (Q5, Q9, Q13, Q16).
+DX.2 – Annual document about the line of interventions, planned activities, goals and expected results for
+each WG in the following year (Q5, Q9, Q13).
+DX.3 - Final reports and recommendations for future work, for each WG, summarizing the findings and
+recommendations for future research and development resulting from the ENRICH activities (Q16).
+
+Then, each of the WG w ill have specific deliverables which are listed below, with their delivery time
+in brackets.
+
+WG1: Community Coordination
+D1.1 - Coordination Meeting Records (Q2, Q6, Q10, Q14): Records and minutes from regular
+coordination meetings among WG leaders.
+D1.2 - ENRICH Community Census (Q5): A comprehensive collection of research teams and
+subcommunities involved in the ENRICH Action, to be regularly updated along the whole duration of the
+Action.
+
+WG2: Technological Advancement
+D2.1 – Census of Technology Producers (Q5): Census of all the producers of X-ray sources, electronic
+components, detectors, materials and all the possible items required by the research teams involved in
+ENRICH.
+D2.2 – Mass Production Regulation Document (Q7): A document including the agreements between the
+oc-2024-1
+                                            11/18 pages maximum
+various producers identified in D2.1 and the ENRICH Research Teams, where the regulations and the
+procedures to enhance mass production and cost lowering are outlined.
+WG3: Software Advancement
+D3.1 – Open-Source Software Regulation Document (Q7): Document where the rules and the
+procedures for the online publication of the new software developed within ENRICH will be established.
+D3.2 - Data Analysis Standardization Document (Q16): A final document, based on D3.2, with a
+proposed strategy towards a Data Analysis Standardization among the ENRICH community.
+
+WG4: Electronics and DAQ
+D4.1 – Census of Electronics and DAQ research teams (Q5): Census of all the research teams involved
+in ENRICH working on front-end and readout electronics, as well as on Data Acquisition (DAQ) hardware
+and software.
+D4.2 - Next-Generation DAQ Systems Report (Q14): A final report on the performance evaluation and
+validation of next-generation DAQ systems and readout boards.
+
+WG5: Multidisciplinary and Societal Applications
+D5.1: - Interdisciplinary Workshops Reports and Proceedings Collection (Q4): Realization of an online
+collection where to store all the Minutes, Reports and Proceedings of the interdisciplinary workshops and
+conferences organized to facilitate knowledge exchange.
+D5.2 - Target Application List (Q6): Compilation of the identified multidisciplinary and societal
+applications, related to the Grand Challenges, which can be addressed within the various WG of the
+COST Action.
+D5.3 - Intervention strategies and implementation plan (Q10): Detailed plan for integrating
+interdisciplinary activities, including schedules and resources, including a series of documents,
+addressed to the various WG, where the weak points, the technological showstoppers and a proposed
+intervention strategy for each of the applications identified in D5.1 are reported.
+
+WG6: Integration and Interchange
+D6.1 – Disciplinary Regulation Document (Q5): A document providing the guidelines and the regulations
+for the organization of all the ENRICH events, where the initiatives to be taken for the support of
+researchers with care duties will be explicitly outlined.
+D6.2 – ENRICH Website and mailing lists (Q7): Website of the ENRICH Action where the main scopes of
+the Action, all the produced documents and the link to the various collections and platforms realized
+within ENRICH will be linked.
+D6.3 – Integration and Interchange Platforms (Q9): Inclusion in the ENRICH Website of all the
+Integration and Interchange Forums described in the T6.4 task.
+
+WG7: Mentoring, Training, and Dissemination
+D7.1 - Training Sessions Reports (Q4, Q8, Q12, Q16): Reports on training sessions, both for career
+paths, technological and data analysis techniques, including surveys and evaluations from both teachers
+and students.
+D7.2 - Proposal Writing Webinars Reports (Q6, Q10, Q14): Reports on workshops conducted for writing
+research proposals and grant applications.
+
+Milestones:
+
+The ENRICH Action will also have 4 cross-functional Milestones:
+
+M1 - ENRICH Kick-Off Meeting (Q1): This will be the first meeting of the ENRICH Action at which the
+leadership positions will be elected and Action will officially start. A plan for the first year and budget
+distribution will be discussed and agreed upon.
+
+M2 - Mid-term Review Meetings (Q2, Q6, Q10, Q14): In these meetings, that will be organized online,
+the coordinators of each WG will present their WGs achievements and will serve as a verification step
+for the various tasks and activities.
+M3 – WG Annual Meetings (Q4, Q8, Q12, Q16): These meetings will be done in presence and will gather
+active participants of the various WGs to review, plan and organize the tasks and the activities of each
+year. These meetings will be opened to the representatives of the various stakeholders involved in each
+WG.
+M4 – Final Conference (Q16): This will be the conclusive event of the ENRICH Action, where all the results
+will be presented and the pathways and recommendations for future works will be discussed.
+oc-2024-1
+                                            12/18 pages maximum
+Timeline:
+The timeline of the ENRICH Action spans four years, with quarterly checkpoints for tasks and
+deliverables. The project begins with foundational activities, such as collections’ creation and platforms’
+development, followed by performance evaluations, training sessions, and integration plans. Annual and
+mid-term reviews ensure continuous monitoring and adjustments. The timeline is structured to support
+dependencies, such as platforms needed early to aid subsequent tasks, and concentrate deliverables
+around major meetings and workshops for effective coordination and output preparation.
+
+The timeline of the various tasks and deliverables is planned to consider the following key considerations:
+First compilations and databases: the first quarters of the ENRICH Action will be devoted to the initial
+activities of the various WGs and of the community in general, like the various censuses of the
+technologies, research teams, stakeholders, etc.
+Dependencies: Dependencies among the various tasks are considered; for example, online platforms
+and repositories will be created soon after the end of the first compilations and should be completed early
+to support subsequent tasks of the various WGs.
+Annual and General Workshops: The due dates of many of the deliverables, particularly those
+consisting in produced documents, are intentionally concentrated in particular quarters, where either
+Annual or Mid-term Meetings or General Workshops will take place. In these occasions, the WG
+members will have the occasion to meet and to prepare such documents.
+
+The ENRICH timeline ensures that all tasks, milestones, and deliverables are aligned, and
+dependencies are managed, facilitating the effective implementation of the Action.
+
+4.1.3.    RISK ANALYSIS AND CONTINGENCY PLANS
+The following is a list of possible risks. For each one, a mitigation plan and the risk level are reported.
+
+Resource Allocation Conflicts: Overlapping tasks and milestones across WGs could lead to resource
+constraints. Mitigation: Implement a resource management plan to ensure adequate allocation and avoid
+overburdening team members. Risk Level: Low.
+Technical Challenges: Unforeseen technical difficulties in photon detection and data analysis could
+delay progress. Mitigation: Establish a technical advisory board to provide expert guidance and promptly
+troubleshoot issues. Risk Level: Medium.
+Collaboration Issues: Lack of effective communication and coordination among diverse WG members.
+Mitigation: Schedule regular inter-WG meetings and use collaboration tools to ensure smooth
+communication and issue resolution. Risk Level: Medium
+Lack of fundings: Lack of financial resources to realize the R&D activities resulting from the networking
+activities of ENRICH. Mitigation: In addition to all the activities foreseen by ENRICH for attract fundings,
+a resource (tools, instrumentations, laboratories, expertise, etc) sharing plan will be developed. Risk
+Level: Medium.
+Impact of External Factors: External factors like political instability or global pandemics could disrupt
+project timelines. Mitigation: Develop a flexible project plan that can adapt to external changes and
+include remote work options, as well as preparing the ground for an efficient eventual organization of
+online meetings and events. Risk Level: Low
+
+By identifying these risks and implementing the mitigation strategies, the COST Action can proceed with
+greater confidence in achieving its objectives on schedule.
+
+
+
+
+oc-2024-1
+                                             13/18 pages maximum
+             Fig. 1: Scheme of the anticipated impacts of the ENRICH COST Action
+
+
+
+
+            Fig. 2: Schematic of the interconnections among the different tasks of the WGs.
+
+
+oc-2024-1
+                                      14/18 pages maximum
+4.1.4.   GANTT DIAGRAM
+In Fig. 3, the GANTT Chart of the ENRICH COST Action is reported. The timeline is divided into 16
+quarters for a total of 4 years (48 months). The activities of each WG are identified by a unique color,
+while in the lower part the various deliverables and milestones are indicated.
+
+
+
+
+                        Fig. 3: GANTT Chart of the ENRICH COST Action
+oc-2024-1
+                                           15/18 pages maximum
+                          REFERENCES (grouped by arguments)
+
+
+1) The role of radiation detection in medical applications
+
+Cancer Imaging 20 (2020) https://doi.org/10.1186/s40644-020-00312-3
+Front. Oncol. 14 (2024) https://doi.org/10.3389/fonc.2024.1281922
+Sensors 24 (2024) https://doi.org/10.3390/s24196251
+Sensors 19 (2019) https://doi.org/10.3390/s19102226
+Int J Mol Sci. 24(13) (2023) https://doi.org/10.3390/ijms241310990
+Sci Rep 10 (2020) https://doi.org/10.1038/s41598-020-76647-5
+Cancer Epidemiol Biomarkers Prev 29 (12) (2020) https://doi.org/10.1158/1055-9965.EPI-20-0075
+EJNMMI Phys. 10(1) 2023 https://doi.org/10.1186/s40658-023-00546-7
+Acta Physica Polonica B 48 https://doi.org/10.5506/APhysPolB.48.1567
+https://home.cern/news/news/knowledge-sharing/spectroscopic-x-ray-imaging-now-certified-medical-use
+
+
+2) The role of radiation detection in Agrifood
+
+Plant Methods 18 (2022) https://doi.org/10.1186/s13007-022-00932-9
+J Food Sci Technol 51 (2014) https://doi.org/10.1007/s13197-011-0485-y
+TrAC 166 (2023) https://doi.org/10.1016/j.trac.2023.117165
+ACS Omega 6 (2021) https://doi.org/10.1021/acsomega.1c02731
+Spectrochimica Acta Part B: Atomic Spectroscopy 152 (2019) https://doi.org/10.1016/j.sab.2018.12.011
+
+
+3) The role of radiation detection in Cultural Heritage
+
+Appl. Phys. A 100 (2010) https://doi.org/10.1007/s00339-010-5648-6
+Eur. Phys. J. Plus 139 (2024) https://doi.org/10.1140/epjp/s13360-024-05429-z
+Anal. Methods 12 (2020) https://doi.org/10.1039/D0AY90112A
+Spectrochimica Acta Part B: Atomic Spectroscopy 136 (2017) https://doi.org/10.1016/j.sab.2017.08.003
+Chemistry Select 8(33) (2023) https://doi.org/10.1002/slct.202301306
+
+
+4) The role of radiation in research and development of vaccines and medicals
+
+https://www.frontiersin.org/research-topics/19316/irradiation-technologies-for-vaccine-development
+Frontiers in Immunology 13 (2023) https://doi.org/10.3389/fimmu.2022.1075335
+Frontiers in Physics 8 (2020) https://doi.org/10.3389/fphy.2020.565861
+Int. J. Mol. Sci. 24 (2023) https://doi.org/10.3390/ijms241310990
+Journal of Microscopy 284 (2021) https://doi.org/10.1111/jmi.13054
+
+
+5) The role of radiation detection in chemical speciation
+
+Phys. Metals Metallogr. 122 (2021) https://doi.org/10.1134/S0031918X21020046
+Physchem 4 (2024) https://doi.org/10.3390/physchem4010003
+Chem. Sci. 9 (2018) https://doi.org/10.1039/C8SC00550H
+Comptes Rendus Chimie 21 (2018) https://doi.org/10.1016/j.crci.2018.10.001
+Nat. Commun. 15 (2024) https://doi.org/10.1038/s41467-024-47409-y
+Angew. Chem. Int. Ed. 60 (2021) https://doi.org/10.1002/anie.202015669
+
+
+6) The role of radiation detection in Atomic and Hadronic Physics
+
+J Low Temp Phys 199 (2020) https://doi.org/10.1007/s10909-020-02434-1
+Rev. Mod. Phys. 91 (2019) https://doi.org/10.1103/RevModPhys.91.025006
+PTEP 22 (2022) https://doi.org/10.1093/ptep/ptac156
+Nature 618 (2023) https://doi.org/10.1038/s41586-023-06011-w
+NIM A 1008 (2021) https://doi.org/10.1016/j.nima.2021.165452
+7) Review of the present State-of-art of Radiation Detectors
+oc-2024-1
+                                                 16/18 pages maximum
+NUCL SCI TECH 33 (2022) https://doi.org/10.1007/s41365-022-01071-5
+Springer Cham (2024) https://doi.org/10.1007/978-3-031-20955-0
+J Radioanal Nucl Chem 264 (2005) https://doi.org/10.1007/s10967-005-0687-
+Eur. Phys. J. A 59 (2023) https://doi.org/10.1140/epja/s10050-023-01019-2
+Materials Today 55 (2022) https://doi.org/10.1016/j.mattod.2022.04.009
+Sensors 23 (2023) https://doi.org/10.3390/s23042167
+Microscopy and Microanalysis 29 (2023) https://doi.org/10.1093/micmic/ozad067.1080
+Research (Wash D C) (2021) https://doi.org/10.34133/2021/9892152
+J. Anal. At. Spectrom. 29 (2014) https://doi.org/10.1039/C4JA00183D
+
+
+8) The role of radiation detectors in research for new batteries and energy solutions
+
+Nat Rev Mater 3 (2018) https://doi.org/10.1038/s41578-018-0053-4
+J. Electron. Mater. 53 (2024) https://doi.org/10.1007/s11664-024-11300-9
+Materials Today 34 (2020) https://doi.org/10.1016/j.mattod.2019.08.011
+Accounts of Chemical Research 56 (2023) https://doi.org/10.1021/acs.accounts.2c00525.
+Journal of Power Sources 524 (2022) https://doi.org/10.1016/j.jpowsour.2022.231063
+Accounts of Materials Research 2 (2021) https://doi.org/10.1021/accountsmr.1c00159
+Quantum Beam Science 8 (2024) https://doi.org/10.3390/qubs8020010
+
+
+9) Present State-of-art of X-ray Optics and Bragg Spectrometers
+
+https://www.mdpi.com/journal/photonics/special_issues/xray_optics
+J. Synchrotron Rad. 31 (2024) https://doi.org/10.1107/S1600577524002935
+JINST 15(11) (2020) https://doi.org/10.1088/1748-0221/15/11/P11033
+Int. J. Mol. Sci. 25 (2024) https://doi.org/10.3390/ijms25094733
+
+
+10) The role of radiation detection in Astrophysics
+
+Applied Sciences 11 (2021) https://doi.org/10.3390/app11093793
+A&A 676 (2023) https://doi.org/10.1051/0004-6361/202346541
+International Journal of Modern Physics D 31 (2022) https://doi.org/10.1142/S0218271822300014
+
+
+11) The role of Machine Learning in data analysis and radiation detection for various applications
+
+PLOS ONE 18 (2023) https://doi.org/10.1371/journal.pone.0286829
+Journal of Cultural Heritage 70 (2024) https://doi.org/10.1016/j.culher.2024.08.014
+Trends in Analytical Chemistry 167 (2023) https://doi.org/10.1016/j.trac.2023.117216
+Anal Sci Adv. 2 (2021) https://doi.org/10.1002/ansa.202000162
+
+
+12) The role of radiation detection in research for New Materials
+
+Materials 17 (2024) https://doi.org/10.3390/ma17051147
+Small Methods 7 (2023) https://doi.org/10.1002/smtd.202201527
+J. Chem. Phys. 28 (2023) https://doi.org/10.1063/5.0157194
+https://www.anl.gov/article/scientists-discover-a-durable-but-sensitive-material-for-high-energy-xray-
+detection
+
+
+13) Present State-of-art of tabletop photon sources
+
+Review of Scientific Instruments 95 (2024) https://doi.org/10.1063/5.0181132
+Nature Phys 6 (2010) https://doi.org/10.1038/nphys1789
+Phil. Trans. R. Soc. A. 377 (2019) http://doi.org/10.1098/rsta.2018.0384
+Rev. Sci. Instrum. 1 (2020) https://doi.org/10.1063/5.0005206
+14) Present State-of-art of the readout electronics for radiation detection
+oc-2024-1
+                                             17/18 pages maximum
+Sens. & Instrumen. Food Qual. 2 (2008) https://doi.org/10.1007/s11694-008-9059-8
+Med. Phys. 40(10) (2013) https://doi.org/10.1118%2F1.4820371
+NIM A 731 (2013) https://doi.org/10.1016/j.nima.2013.05.174
+Med Phys. 50(1) (2023) https://doi.org/10.1002/mp.16049
+NIM A 568 (2006) https://doi.org/10.1016/j.nima.2006.07.021
+IEEE TRANSACTIONS ON NUCLEAR SCIENCE 70(10) (2023) https://doi.org/10.1109/TNS.2023.3310357
+NIM B 204 (2003) https://doi.org/10.1016/S0168-583X(02)02146-8
+
+
+15) Present State-of-art of ray tracing simulations
+
+J. Synchrotron Rad. 8 (2001) https://doi.org/10.1107/S0909049501004289
+Optics Express 31 (2023) https://doi.org/10.1364/OE.497987
+J. Synch. Rad. 23 (2016) https://doi.org/10.1107%2FS1600577516013837
+Comp. Phys. Comm. 262 (2021) https://doi.org/10.1016/j.cpc.2020.107811
+
+
+
+
+oc-2024-1
+                                             18/18 pages maximum
+

@@ -1,0 +1,8 @@
+{
+  "source": "v004_VOXES.FCStd",
+  "sha256": "9001d5b8014670579ed2032f02c6ba780e56b84c9450c5b76bbcf6fd2041f18d",
+  "objects": 37,
+  "triangles": 281774,
+  "units": "metres",
+  "rear_mount": "Tube rotated -90 deg about Y; flange aligned to x=-70 mm; laser adapter removed in transmission."
+}

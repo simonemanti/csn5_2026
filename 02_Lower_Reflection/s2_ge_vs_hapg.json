@@ -1,0 +1,163 @@
+{
+  "ag_kedge_ev": 25514.0,
+  "reference": "Ag K absorption edge",
+  "polarization": "unpolarized",
+  "library": "xraylib",
+  "model": "XCRYSTAL/diff_pat: finite perfect Ge; Gaussian mosaic graphite; flat symmetric Bragg; temperature factor=1",
+  "defaults_sources": [
+    "03_Simulations/config/wp1_geometry.json: Ge thickness",
+    "12_VOXES_Feasebility/s2_compare.py: 100 um model thickness",
+    "02_Lower_Reflection/v1_Reflectivity.ows: mosaic FWHM"
+  ],
+  "limitations": "Intrinsic model, not measured HAPG efficiency or bent-optics resolution; integrals cover the selected energy window.",
+  "parameters": {
+    "ge_thickness_mm": 1.0,
+    "hapg_thickness_um": 100.0,
+    "mosaic_fwhm_deg": 0.1,
+    "ge_angle_deg": null,
+    "hapg_angle_deg": null,
+    "span_ev": 600.0,
+    "points": 20001,
+    "polarization": "unpolarized",
+    "library": "xraylib",
+    "output": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg"
+  },
+  "results": [
+    {
+      "crystal": "Ge(2,2,0)",
+      "hkl": [
+        2,
+        2,
+        0
+      ],
+      "thickness_mm": 1.0,
+      "mosaic_fwhm_deg": 0.0,
+      "angle_deg": 6.97676885565328,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.984418405,
+      "fwhm_ev": 4.076685297059157,
+      "equivalent_angular_fwhm_deg": 0.0011203066297373824,
+      "integral_ev": 4.7582418273505676,
+      "r_at_kedge": 0.984418405
+    },
+    {
+      "crystal": "Ge(4,4,0)",
+      "hkl": [
+        4,
+        4,
+        0
+      ],
+      "thickness_mm": 1.0,
+      "mosaic_fwhm_deg": 0.0,
+      "angle_deg": 14.060650934042442,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.953093945,
+      "fwhm_ev": 0.6728604659365374,
+      "equivalent_angular_fwhm_deg": 0.00037843800774523537,
+      "integral_ev": 0.7537071125002055,
+      "r_at_kedge": 0.953093945
+    },
+    {
+      "crystal": "Ge(6,6,0)",
+      "hkl": [
+        6,
+        6,
+        0
+      ],
+      "thickness_mm": 1.0,
+      "mosaic_fwhm_deg": 0.0,
+      "angle_deg": 21.372291748680006,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.889899765,
+      "fwhm_ev": 0.19036247469557566,
+      "equivalent_angular_fwhm_deg": 0.00016729285246500037,
+      "integral_ev": 0.1978545747780349,
+      "r_at_kedge": 0.889899765
+    },
+    {
+      "crystal": "Ge(8,8,0)",
+      "hkl": [
+        8,
+        8,
+        0
+      ],
+      "thickness_mm": 1.0,
+      "mosaic_fwhm_deg": 0.0,
+      "angle_deg": 29.07164433989693,
+      "peak_energy_ev": 25514.001,
+      "peak_reflectivity": 0.7780397800000001,
+      "fwhm_ev": 0.07390608672358212,
+      "equivalent_angular_fwhm_deg": 9.226903472630505e-05,
+      "integral_ev": 0.06671744951290574,
+      "r_at_kedge": 0.77759364
+    },
+    {
+      "crystal": "HAPG(0,0,2)",
+      "hkl": [
+        0,
+        0,
+        2
+      ],
+      "thickness_mm": 0.1,
+      "mosaic_fwhm_deg": 0.1,
+      "angle_deg": 4.160396638074109,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.524350385,
+      "fwhm_ev": 789.143673285067,
+      "equivalent_angular_fwhm_deg": 0.12890699692490276,
+      "integral_ev": 406.766566627965,
+      "r_at_kedge": 0.524350385
+    },
+    {
+      "crystal": "HAPG(0,0,4)",
+      "hkl": [
+        0,
+        0,
+        4
+      ],
+      "thickness_mm": 0.1,
+      "mosaic_fwhm_deg": 0.1,
+      "angle_deg": 8.344989808218992,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.0900738095,
+      "fwhm_ev": 314.7267052080606,
+      "equivalent_angular_fwhm_deg": 0.10367333580883899,
+      "integral_ev": 29.986316079690376,
+      "r_at_kedge": 0.0900738095
+    },
+    {
+      "crystal": "HAPG(0,0,6)",
+      "hkl": [
+        0,
+        0,
+        6
+      ],
+      "thickness_mm": 0.1,
+      "mosaic_fwhm_deg": 0.1,
+      "angle_deg": 12.574563917627927,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.020765567999999998,
+      "fwhm_ev": 201.57747910117178,
+      "equivalent_angular_fwhm_deg": 0.10097377110527093,
+      "integral_ev": 4.449394597929931,
+      "r_at_kedge": 0.020765567999999998
+    },
+    {
+      "crystal": "HAPG(0,0,8)",
+      "hkl": [
+        0,
+        0,
+        8
+      ],
+      "thickness_mm": 0.1,
+      "mosaic_fwhm_deg": 0.1,
+      "angle_deg": 16.875003524705274,
+      "peak_energy_ev": 25514.0,
+      "peak_reflectivity": 0.008015958,
+      "fwhm_ev": 147.53866234183442,
+      "equivalent_angular_fwhm_deg": 0.10050537083062185,
+      "integral_ev": 1.258207996641687,
+      "r_at_kedge": 0.008015958
+    }
+  ]
+}

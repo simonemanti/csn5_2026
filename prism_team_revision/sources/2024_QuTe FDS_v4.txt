@@ -1,0 +1,652 @@
+                  QuTe FDS
+        Quantum Teleportation induced
+       Frequency Dependent Squeezing
+
+Candidato
+Andrea Grimaldi
+
+                                Sede Ospitante
+                                  INFN Padova    1
+2
+                               Why
+                          For the Science
+
+
+
+The new Generation of Gravitational
+Wave Detectors is extending the
+Sensitivity to Low Frequency (8~20Hz).
+
+Improving different aspect of the
+interferometer:
+• Suspension, Coating, Vacuum, …
+• New Detector Configuration: Detuned       Heavier                   Warning for
+  interferometer                            systems            electromagnetic/neutrino
+                                                                       follow-up
+                                                      Core collapse
+                                                       supernovae             4
+                                       Why
+                               For the Science
+
+
+
+Detuned Configuration
+                                                           Signal
+The Signal Recycling Cavity is detuned                    Recycling
+to enhance Low-Frequency Response                          Cavity
+
+                           Detuned scheme
+                           Tuned scheme
+             Extra Gain
+
+
+                                             Complex response
+                                                   To
+                                              Quantum Noise
+
+
+
+
+                                                                      5
+                                     Why
+                              For the Science
+
+
+
+Quantum Noise                                                         Detuned scheme
+Vacuum Entering from the output                           Radiation
+• Radiation Pressure noise (1/f2 )                        Pressure
+  proportional to Amplitude
+  Quadrature                                                              Shot-Noise
+
+• Shot-Noise (“flat”)
+  proportional to Phase Quadrature
+
+In a detuned interferometer Noise are      Interference
+correlated
+
+                                                                               6
+                                Why
+                           For the Science
+
+
+
+Squeezed Vacuum Injection
+Replace the vacuum with                                  Detuned scheme
+Frequency Dependent Squeezed                 Amplitude
+Vacuum                                       Squeezing
+                                                               Phase
+                                                             Squeezing
+
+
+
+
+                                                                  7
+                                 Why
+                          For the Science
+
+
+
+Squeezed Vacuum Injection
+Second rotation to compensate                           Detuned scheme
+
+for the Detuned Signal Recycling            Amplitude
+                                            Squeezing
+                                                              Phase
+                                                            Squeezing
+
+
+
+ They are not
+                          5 km
+   feasible               Long
+
+
+                                                                 8
+10
+           What
+         Qute_FDS
+    Quantum Teleportation
+           induced
+Frequency Dependent Squeezing
+
+
+
+
+                                11
+                                              What
+                                             Qute_FDS
+
+                                                         Victor                    “ITF” as Filter Cavity
+
+Steps
+                                                          ω0 + ΔΩb
+1.   Generate Frequency Dependent Squeezing       Squeezing
+     at detuned frequency ω0 + ΔΩb by using       Source
+     the Interferometer as Filter Cavity.                                                 Bell State
+                                                                                          Measurement
+2.   Couple it with EPR entangled link and                 Alice
+     project the joint state with the Bell                 ω0 + ΔΩa /2
+     Measurement
+3.   Teleport the Frequency Dependent
+     Squeezing from the ω0 + ΔΩb to the           EPR entangled
+     interferometer frequency 𝜔0
+                                                                           “ITF” as Filter Cavity
+4.   Inject the teleported state into the
+     Interferometer ITF                                   Bob
+                                                          Interferometer                            ITF
+                                                          frequency 𝜔0
+
+                                                                                               12
+                                              What
+                                             Qute_FDS
+
+                                                           Victor                     “ITF” as Filter Cavity
+
+The Entangled Link
+                                                            ω0 + ΔΩb
+Prepare a Frequency Dependent EPR entangled         Squeezing
+link by using the Interferometer as Filter Cavity   Source
+                                                                                             Bell State
+                                                                                             Measurement
+1.   Alice generated at ω0 + ΔΩa /2                          Alice
+                                                             ω0 + ΔΩa /2
+2.   Bob generated at ω0
+
+                                                    EPR entangled
+Alice interacts with the Interferometer at
+detuned frequency ω0 +ΔΩa /2.                                                “ITF” as Filter Cavity
+
+Second Rotation Imprinted in the EPR Link                   Bob
+                                                            Interferometer                             ITF
+                                                            frequency 𝜔0
+
+                                                                                                  13
+14
+                                    What
+                                   Qute_FDS
+
+                                               ω0 + ΔΩb                   Test Cavity
+
+Table-Top Experiment
+1. Interferometer replaced by a Linear   Squeezing
+   Cavity                                Source
+                                                                                Bell State
+                                                                                Measurement
+
+2. Phase Rotations around 1MHz
+
+                                         EPR entangled
+3. Double Rotation measured by
+   Tomography of the final state                                  Test Cavity
+
+                                                 Interferometer
+                                                 frequency 𝜔0
+
+
+                                                                                   15
+                            HOW?
+                       Working Packages
+
+                            SIMULATION
+
+
+
+
+EPR SQUEEZING SOURCE
+                            QuTe           MULTILMODE SQUEEZING
+                            FDS
+
+
+
+                           TELEPORTATION
+
+
+                                                                  16
+                                                                 Gantt
+
+1        2       3          4   5       6        7   8     9       10      11      12      13      14      15      16      17      18   19    20
+
+
+
+
+M1
+
+
+
+                                                          Milestones
+          MODEL                                      M1 Final design of the optical setup and place the order for the custom optics.
+                                TECHNICAL
+     Simulations of the
+                                 ANALYSIS
+          protocol
+                                    Estimation
+       Re-adaptation
+                                    parameters
+     with a linear cavity
+
+                                                                                                                                         17
+                              HOW?
+                       EPR source installation
+
+               Pump                    Signal
+
+                                    Idler
+
+Installation
+of the EPR         Spontaneous              Optical Resonator select 𝜔𝑠 and 𝜔𝑖 :
+  source
+                  down conversion
+                                            𝜔𝑠 ≠ 𝜔𝑖 we generate a entangle pair
+                             𝜔𝑠
+                 𝜔𝑝                                 ωp = 2 ω0 + ΔΩa
+                              𝜔𝑖
+                                                𝜔𝑠 = 𝜔0        𝜔𝑖 = 𝜔0 + ΔΩa
+                  𝜔𝑝 = 𝜔𝑠 + 𝜔𝑖
+                                                                            18
+                              HOW?
+                       EPR source installation
+
+
+
+
+Installation
+of the EPR
+  source
+
+
+
+
+               775nm
+
+
+
+
+                                                 19
+                                                Gantt
+
+1    2    3    4    5     6     7   8     9       10      11      12      13      14      15      16      17      18   19    20
+
+
+
+         EPR SQUEEZING SOURCE
+
+
+
+
+M1                       M2
+
+
+
+                                         Milestones
+                                    M1 Final design of the optical setup and place the order for the custom optics.
+                                    M2 Measurement of two-mode squeezing
+
+
+
+
+                                                                                                                        20
+                                   HOW?
+                         Multi-mode Squeezing source
+
+                  Pump                    Signal
+
+                                       Idler
+
+Modification to
+a Single Mode         Spontaneous              Optical Resonator select 𝜔𝑠 and 𝜔𝑖 :
+   Squeezer
+                     down conversion
+                                               𝜔𝑠 = 𝜔𝑖 we generate a Squeezing
+                                  𝜔𝑠
+                    𝜔𝑝                                ωp = 2 (ω0 + ΔΩb )
+                                  𝜔𝑖                  𝜔𝑠 = 𝜔𝑖 = 𝜔0 + ΔΩb
+                     𝜔𝑝 = 𝜔𝑠 + 𝜔𝑖
+                                                                               21
+                              HOW?
+                    Multi-mode Squeezing source
+
+
+
+
+Modification to
+a Single Mode
+   Squeezer
+
+
+
+
+                  775nm
+
+
+
+
+                                                  22
+                              HOW?
+                    Multi-mode Squeezing source
+
+
+
+
+Modification to
+a Single Mode
+   Squeezer
+
+
+
+Test Multimode
+Mode Squeezer
+                  775nm
+
+
+
+
+                                                  23
+                                                    Gantt
+
+1       2     3     4   5     6     7   8     9       10      11      12      13      14      15      16      17      18   19    20
+
+
+
+             EPR SQUEEZING SOURCE
+
+                                        MULTILMODE SQUEEZING
+
+
+
+
+M1                           M2              M3.1                    M3.2
+
+
+
+                                             Milestones
+                                        M1 Final design of the optical setup and place the order for the custom optics.
+                                        M2 Measurement of two-mode squeezing
+     Modification                       M3.1 Measurement of single mode squeezing
+                                        M3.2 Measurement of the benchmark defined in M2 and M3.1 simultaneously.
+     to a Single
+       Mode
+      Squeezer                                                                                                              24
+                                      HOW?
+                            Multi-mode Squeezing source
+
+
+
+
+Validation of the
+    protocol
+                    775nm
+
+    In three
+    “simple”
+      steps
+
+
+
+
+                                                          25
+                                                  HOW?
+                              Multi-mode Squeezing source
+
+
+
+
+Validation of the
+    protocol
+                    775nm
+
+    In three
+    “simple”
+      steps
+
+
+                                                                                 Quantum
+                                Single Mode            EPR Conditional
+                                                                           Teleportation induced
+                                  Fequency                Fequency
+                                                                                 Fequency
+                            Dependent Squeezing      Dependent Squeezing
+                                                                           Dependent Squeezing
+
+
+                                                                                                   26
+                                                  HOW?
+                              Multi-mode Squeezing source
+
+
+
+
+Validation of the
+    protocol
+                    775nm
+
+    In three
+    “simple”
+      steps
+
+
+                                                                                 Quantum
+                                Single Mode            EPR Conditional
+                                                                           Teleportation induced
+                                  Fequency                Fequency
+                                                                                 Fequency
+                            Dependent Squeezing      Dependent Squeezing
+                                                                           Dependent Squeezing
+
+
+                                                                                                   27
+                                                  HOW?
+                                Multi-mode Squeezing source
+
+
+
+
+Validation of the
+    protocol
+                    775nm
+                     Lorem ipsum dolor sit
+    In three           amet, consectetur
+    “simple”         adipiscing elit, sed do
+      steps             eiusmod tempor
+                     incididunt ut labore et
+                      dolore magna aliqua.
+                                                                                 Quantum
+                                Single Mode            EPR Conditional
+                                                                           Teleportation induced
+                                  Fequency                Fequency
+                                                                                 Fequency
+                            Dependent Squeezing      Dependent Squeezing
+                                                                           Dependent Squeezing
+
+
+                                                                                                   28
+                                               Gantt
+
+1    2    3    4    5     6     7   8    9      10     11     12     13     14     15      16    17     18     19     20
+
+
+
+         EPR SQUEEZING SOURCE
+
+                                    MULTILMODE SQUEEZING
+
+                                                                                        TELEPORTATION
+
+M1                       M2             M3.1                 M3.2                 M4.1                  M4.2          M4.3
+
+
+                                        Milestones
+                                    M1 Final design of the optical setup and place the order for the custom optics.
+                                    M2 Measurement of two-mode squeezing
+                                    M3.1 Measurement of single mode squeezing
+                                    M3.2 Measurement of the benchmark defined in M2 and M3.1 simultaneously.
+                                    M4.1 Measurement of Frequency-Dependent Squeezing
+                                    M4.2 Measurement of Conditional Frequency-Dependent Squeezing
+                                    M4.3 Measurement of Quantum Teleportation induced Frequency-Dependent Squeezing
+                                                                                                                29
+                                                               Gantt
+
+  1      2       3       4          5   6     7     8    9      10     11     12     13     14     15      16    17     18     19     20
+
+
+
+                EPR SQUEEZING SOURCE
+
+                                                    MULTILMODE SQUEEZING
+
+                                                                                                        TELEPORTATION
+
+ M1                                     M2              M3.1                 M3.2                 M4.1                  M4.2          M4.3
+
+
+Plan Defined on 20 months instead of 24.                Milestones
+                                                    M1 Final design of the optical setup and place the order for the custom optics.
+                                                    M2 Measurement of two-mode squeezing
+Risk Management & Contingency Plans:
+                                                    M3.1 Measurement of single mode squeezing
+CP1 Piezo actuators delivery time                   M3.2 Measurement of the benchmark defined in M2 and M3.1 simultaneously.
+CP2 Alternative scheme for the multimode squeezer   M4.1 Measurement of Frequency-Dependent Squeezing
+                                                    M4.2 Measurement of Conditional Frequency-Dependent Squeezing
+Contingency time: 4 months
+                                                    M4.3 Measurement of Quantum Teleportation induced Frequency-Dependent Squeezing
+                                                                                                                                30
+31
+                         WHO?
+                     Official Team
+
+                               Me
+                           A. Grimaldi
+
+
+Dott. JP. Zendri                                  Prof. M. Bazzan
+      10%                                               10%
+                           QuTe
+                           FDS
+Marco Toffano                                    Simone Marchetti
+    20%                                               20%
+                               1.5
+                               FTE
+                     Dedicated to this project
+
+          Synergy with the individual projects
+                                                                    32
+                                           WHO?
+                                       Official Team
+
+
+
+
+           Dott. JP. Zendri                                    Prof. M. Bazzan
+                 10%                                                 10%
+
+Primo Ricercatore at INFN Padova                       Associated Professor at the
+                                                       Universitá degli Studi di Padova
+Local Team Leader for ET INFN-Padova
+                                                       Local Team Leader for SQUEZZE
+› Supervisor of PhD students, M.
+  Toffano and S. Marchetti                             › Supervisor of PhD student S.
+                                                         Marchetti
+Connection with
+› ET squeezing team                                    › Connection with SQUEEZE
+› Quantum Frontiers (Dipartimento di
+  Eccellenza)
+
+                                                                                          33
+                                        WHO?
+                                    Official Team
+
+
+
+
+Low noise Electronics                               Quantum Optic
+
+           Marco Toffano                                     Simone Marchetti
+               20%                                                20%
+
+Study of Methods for                                Hybrid quantum squeezer
+Low Phase Noise Timing
+                                                    Supervisor: M.Bazzan, JP. Zendri
+Distribution in Astrophysics
+Experiments
+Supervisor: M.Bellato, JP. Zendri                                                      34
+                                         WHO?
+                                     Official Team
+            Recent                                                 Relevant
+           Activities                       Me                     Expertise
+                                        A. Grimaldi
+PhD at the University of Trento                       Quantum Noise Reduction technique
+Mode Matching Sensing for Quantum                     for Gravitational Wave Detectors
+Noise Reduction system in Advanced
+Virgo+
+
+PostDoc at Niels Bohr Institute                       Two colors EPR squeezing source in
+Atomic Noise for                                      audio bandwidth
+Gravitational Wave Detectors
+
+Marie Skłodowska-Curie Actions
+at Niels Bohr Institute                               Teleportation protocols for continuous
+Einstein-Podolsky-Rosen proxy for                     variable
+Quantum Memories
+
+
+                                                                                     35
+                                WHO?
+                        External Collaboration
+
+
+Copenhagen University
+     Tulio Brasil
+                              Synergy            ET ITALIA – Gruppo 2
+                                                        JP Zendri
+Design Mode Cleaner                                    Low Noise Electronics
+Crystal Hoven                                         DDS, Phase Lock Loops,
+                                                  Data Acquistion, Controller
+NOPO design                     QuTe
+                                FDS
+
+
+Simulations                                             Balance Detectors,
+Data Prosessing                                               Phododiode
+Theoretical Model                                           LASER sources
+                                                 SQUEEZE – Gruppo 5
+   Tokyo University
+                                                  Matteo Leonardi
+     Yohei Nishino
+                                                   Marco Bazzan 36
+                                                        Why
+                                                 Summary and outlook
+
+                                  SCIENTIFIC                                               STRATEGIC
+
+             Quantum Noise Reduction                                   Test bench for other QNR
+AT THE END
+
+
+
+
+             › Validation of a new Quantum Noise Reduction             › EPR squeezing source at 1550nm
+               Tecnhique.
+                                                                       › Single mode squeezer at 1500nm
+             › First investigation about technical limitation of the
+               protocol.
+
+
+
+
+             Future experiments                                        Possible external collaboration
+             › Alternative technique for Quantum Noise reduction       › Optical & Quantum communications at the University
+AFTER
+
+
+
+
+               in a Gravitational Wave Detector                          of Padua. Teleportation of non-classical state throught
+                                                                         telecom fibers
+             › Multipartite entanglement in continuos variable
+                                                                       › SQUEEZE. In-chip multimode squeezing source
+
+
+
+
+                                                                                                                                   37
+

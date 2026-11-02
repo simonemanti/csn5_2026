@@ -1,0 +1,1138 @@
+              Verbale CSN5 - 19-20 Novembre 2024 – Presidenza
+
+Presenti: A. Quaranta, O. Adriani, A. Fabbri, C. Sbarra, F. Groppi, A. Bersani, S. Bortolussi, F.
+Arfelli, A. Lonardo, S. Giordanengo, F. Romano, P. Cardarelli, C. Vaccarezza, G. Simi, E. Scifoni,
+R. Giordano, R. Ammendola, A. Morozzi, V. Conte, F. Pilo, M. Bruzzi, G. Torrisi, M. Laubenstein,
+L. Ubaldini, M.R. Ludovici. Da remoto: B. Golosio, S. Tangaro. Oss.: A. Di Mattia, C. Sgrò (da
+remoto).
+Invitati: L. Bandiera, A. Apponi, F. Barbaro, A. Bianchi, L. Burratti, C. Ciampi, C. Galelli, A.
+Grimaldi (da remoto), S. Manti, A. Marini, A. Minopoli, G. Parisi, V. Taffelli, V. Toso.
+
+Martedì 19 Novembre
+09:30 Sessione aperta:
+Presentazioni dei candidati al concorso per giovani ricercatori per progetti di ricerca
+di ambito CSN5
+
+Presenta: Alice Apponi
+GREEAT. GRaphene to Electrons: Energy and Angular resolved Transmission (vedi file su sito
+INDICO della riunione)
+
+Domande:
+[Arfelli]: come controllare l’efficienza del rivelatore?
+Risposta: si misura la corrente assoluta e i conteggi all’uscita dell’analizzatore, il rapporto dà
+l’efficienza
+
+[Arfelli]: rispetto ad altre esperienze riportate in letteratura, come si affronta il problema di
+risultati sperimentali discordanti e come si possono superare i problemi di incertezze legati ai
+risultati?
+Risposta: Il motivo principale è che è difficile controllare la purezza e la pulizia del grafene.
+Anche noi abbiamo fatto diverse prove con i campioni di IIT. Il polimero che si usa per la
+produzione non viene rimosso del tutto, noi facciamo una pulizia di questi residui ma la
+trasmissione cambia completamente anche per livelli bassissimi di residui.
+
+[Bandiera]: in PTOLEMY servono energie più alte sopra i 10 keV, si è accennato ad
+un’estensione del range di misura, come si può fare questa estensione almeno per la misura
+di sezione d’urto integrale? È prevista la misura?
+Risposta: la sezione d’urto ad alta energia non si può misurare con il nostro analizzatore
+perché il sistema di lenti non è ottimizzato per alte energie. Si può acquistare un analizzatore
+commerciale, anche se si deve fare attenzione alla precisione della misura. Si può fare la
+misura integrale di trasmissione e prevediamo di fare una misura a 5 keV. Poi nel contesto
+della collaborazione con PTOLEMY si potrebbe comprare un gun a 20 keV
+
+
+
+                                                1
+[Giordanengo]: Curiosità sulla Faraday cup, utilizzata per la misura diretta della corrente
+assoluta. La Faraday cup ha bisogno di particolari calibrazioni?
+Risposta: la Faraday cup ha un foro di ingresso di 3 mm e la griglietta ha fori di 2 mm, il fascio
+è 500 micron a mezza altezza, e possiamo controllare allineamento in maniera fine,
+deflettendo il fascio in direzioni ortogonali o muovendo la faraday cup con movimenti fini.
+Non servono particolari calibrazioni (misura di corrente assoluta)
+
+[Giordano] In merito all’applicazione con rivelatori micromegas etc, se il progetto avesse
+successo, quali sarebbero le sfide tecnologiche per l’integrazione del grafene in questi tipo di
+progetto?
+La sezione d’urto dipende dalla purezza del campione, le misure sono dipendenti dal
+campione quindi?
+Può commentare meglio l’utilizzo della delay line? Di quale risoluzione temporale abbiamo
+bisogno?
+Risposta: Problema nel grafene stesso, per avere uno strato uniforme senza buchi è la sfida
+principale.
+Questo è possibile, nel momento in cui si ha il campione pronto, si inserisce nella camera e si
+fa la misura di sezione d’urto. L’analizzatore è un filtro elettrostatico quindi gli elettroni
+dell’energia centrale nella finestra sono quelli che fanno la traiettoria centrale nelle semisfere.
+La posizione nello spazio è lineare con energia dell’elettrone. L’energia viene depositata e dà
+un segnale nella serpentina, l’elettronica separa in tempo i segnali e si ricostruisce la posizione
+di arrivo degli elettroni e quindi l’energia. La risoluzione temporale che serve è circa 1 ns.
+
+[Quaranta] Che dimensione hanno i campioni che utilizzerete?
+Fate qualche pre-test sui campioni post realizzazione?
+Per il lavoro su GEM che dimensioni dovrebbero avere le strutture di grafene?
+Risposta: vengono cresciuti su substrato di Cu e poi il grafene si deposita sulla griglia. Da una
+crescita si fanno più griglie. Il test è necessario, si fa micro Raman per controllare foro per foro
+il grafene su tutta la mesh.
+Trasferimento sul grafene di fori da 50 micron, al momento i fori sono da 8 micron
+
+[Conte] Curiosità riguardo al substrato: le misure si fanno con grafene depositato su griglie
+con fori da 8 micron. Quale impatto hanno sulle misure le tolleranze sul substrato?
+Il diametro del fascio è più grande del foro, quali sono gli effetti di scattering dovuti a ciò?
+Risposta: i fori possono andare dai 7 agli 8 micron, prima di fare misura integrale passiamo
+alla microscopia con elettroni (SEM) e misuriamo dimensione dei fori per valutare il
+ricoprimento del grafene sui fori (singolarmente) e anche l’apertura geometrica della griglia
+(quanto è l’area aperta della griglia rispetto all’area illuminata dal fascio di elettroni).
+Non abbiamo visto effetti di scattering su bordo di griglia, provando la trasmissione con griglia
+senza grafene. Questo aspetto è tenuto sotto controllo da misure complementari
+
+
+                                                 2
+[Scifoni]: Non ci sono misure a queste energie, ci sono almeno risultati da simulazioni e calcoli
+per queste sezioni d’urto?
+Risposta: Ci sono molte simulazioni ma c’è discordanza perché la difficoltà è che nei calcoli si
+usa lo scattering multiplo, che in materiali bidimensionali perde di significato.
+
+[Sbarra]: Ci sono indicazioni sulle caratteristiche della conservazione/stabilità della qualità del
+grafene dopo inserimento in GEM?
+Risposta: Sì è un aspetto da tenere in considerazione. In ultra alto vuoto il grafene è molto
+stabile. Anche facendo delle misure dopo averlo tenuto in aria, il substrato è molto stabile,
+pur essendoci contaminazioni dovute all’aria. Si può pensare ad una applicazione in cui il
+grafene viene testato e poi messo nella GEM, la sezione d’urto comprenderà anche queste
+contaminazioni, ma si può tenere in considerazione a priori.
+
+[Quaranta]: Il grafene cambia dopo l’irraggiamento sotto fascio?
+Risposta: Sotto fascio non abbiamo evidenze a queste energie e correnti che il substrato
+cambi.
+
+
+Presenta: Francesca Barbaro
+
+RADIANT: Radionuclide Advanced Development and Irradiation Analysis for Nuclear
+Therapy (vedi file su sito INDICO della riunione)
+
+Domande:
+[Laubenstein]: Riguardo al calcolo della dose, quali sono i valori di incertezza di queste
+simulazioni?
+Risposta: Parliamo delle simulazioni con OLINDA, per esempio. Si parte da dati di
+biodistruzione su topi che si trovano in letteratura, dove l’incertezza è data dalla misura.
+Queste informazioni si traslano all’umano. Questa distribuzione viene ottenuta in funzione
+del tempo, tenendo conto dell’accumulo e dell’eliminazione. Le curve di attività in funzione
+del tempo danno il numero di disintegrazioni al secondo nell'organo. OLINDA calcola la dose
+a partire da questo e l’errore è dovuto a tutta la catena. OLINDA alla fine restituisce la
+dosimetria per unità di attività iniettata. E’ però possibile usare la sezione d’urto calcolata che
+è un errore teorico che influisce sulla quantità di attività prodotta. TALYS ha 30 combinazioni
+possibili di modelli, il primo approccio è considerare la banda interquartile e il centro della
+banda. La larghezza della banda è l’errore teorico, quindi dipende dal tipo di interazione.
+
+[Bandiera]: il progetto nasce da un’idea brevettata, qual è stato il suo contributo personale
+nel brevetto?
+Avete già fatto simulazioni con deutoni?
+
+
+
+                                                3
+Risposta: l’idea è nata durante REMIX quando si studiavano protoni su titanio. Di solito si
+produce usando protoni da ciclotrone, ma la produzione non era sufficiente, abbiamo visto
+che mettere insieme due target è molto conveniente. Il mio contributo è stato lo studio
+teorico, su cui si basa il brevetto. Per il Ti abbiamo studiato il deuterio, per il Vanadio c’è
+ancora tutto lo studio da fare, per ora abbiamo solo iniziato il lavoro.
+
+[Giordano]: Il brevetto è il punto di partenza, che si incentra su protoni, ci sono però altre
+strade per produrre lo scandio, perché ci si concentra su protoni?
+Risposta: i protoni sono più semplici da usare perché sono presenti in molte facility, 35 meV
+sono reperibili negli ospedali, e sono energie in linea con quelle di SPES. Abbiamo provato
+anche con 30 MeV perché non sempre è possibile raggiungere 35 MeV nelle facility. Anche
+così, a 30 MeV, si resta competitivi nella produzione.
+
+[Arfelli]: i contaminanti sono importanti, c’è una strategia per ridurre la contaminazione,
+avete fatto simulazioni a riguardo?
+Lo Scandio-47 rispetto ad altri isotopi, quali vantaggi ha rispetto, ad esempio, allo Sc-43 o 44?
+Risposta: L’importante è capire la variazione di dose che determina il contaminante. Abbiamo
+visto che abbassare la purezza fino al 98% non portava a un incremento di dose di più del 10%
+quindi dipende caso per caso, non si può generalizzare. Lo Sc-47 può essere un radionuclide
+teranostico, facendo immagini e terapie; posso fare prima imaging a bassa attività per
+controllare la selettività nel singolo paziente, quindi si può fare trattamento personalizzato.
+Sc-43 e 44 fanno invece solo imaging.
+
+[Conte] il brevetto riguarda l’idea o anche la tecnica di realizzazione? Avete provato la tecnica
+dell’HIPping?
+Visto che è inclusa la collaborazione con LNL, perché sono previste misure ad ARRONAX e non
+come priorità il ciclotrone di Legnaro per le attività sperimentali?
+Risposta: Il brevetto è solo su aspetti teorici e non c’è lo sviluppo tecnologico, per questo il
+progetto punta a completare lo studio per mantenere la leadership su questa area. Il progetto
+comprende anche persone che normalmente lavorano a SPES, ma si è configurato un overload
+di lavoro per questo si è pensato di aggiungere altre strade rispetto a quelle già esplorate per
+i target di CUPRUM e REMIX. Si è quindi aperta la collaborazione con l’officina di Padova per
+poter affiancare e confrontare due tecniche: SPS e ink deposition. SPES non ha dato tempo
+per questo esperimento perché i tempi non erano certi. Questo ha spinto verso Arronax, ma
+l’idea è di poter fare le stesse misure a SPES pur non avendo unità di LNL. Tuttavia le persone
+di LNL che si occupano di target sono consulenti del progetto.
+
+[Bersani]: le caratteristiche del server le ha stabilite Cloud Veneto o sono richieste
+dell’esperimento?
+Risposta: Sono in contatto con esperti, al momento viene richiesto una macchina 48 core, 10
+TB di memoria. Si sono concordate le specifiche con Lisa Zangrando.
+
+
+                                               4
+[Lonardo]: commento riguardo alla tempistica delle richieste di calcolo per grant giovani
+rispetto alla schedula della commissione calcolo.
+Risposta: avevamo provato con la via dell’acquisto, ma il server serve di più nella parte
+esplorativa del progetto; da un punto di vista organizzativo conviene procedere così.
+
+[Scifoni]: come pensate di usare MIRDcell; contiene tutte le sezioni d’urto e modellizzazione
+degli effetti microscopici? Simula microscopicamente la traccia degli elettroni?
+Risposta: Si può definire la distribuzione del farmaco nei distretti della cellula e si calcola la
+dose nei singoli distretti e la cross-irradiation, credo che faccia le singole tracce
+
+[Romano] Che vantaggio rispetto allo stato dell’arte con questo radioisotopo?
+Risposta: ad oggi la teranostica è fatta con coppie di radionuclidi diversi per diagnosi e terapia
+perché la chimica del carrier è simile ma non identica. Al momento i più promettenti sono
+scandio e terbio.
+
+Presenta Anna Bianchi
+AToMiQA. A Tool for Microdosimetric Quality Assurance (vedi file su sito INDICO della
+riunione)
+
+Domande:
+[Arfelli]: i nuovi rivelatori che serviranno sono diversi dal punto di vista meccanico (area
+sensibile etc) rispetto a quelli disponibili?
+Risposta: al momento rimpicciolire i rivelatori esistenti è fisicamente impossibile, per i primi
+test si userà lo stesso rivelatore per capire se varianza e covarianza siano adeguate, tenendosi
+dei margini di manovra per cambiare alcune caratteristiche del rivelatore.
+[Giordanengo]: può fornire qualche dettaglio in più riguardo alla componente innovativa dello
+sviluppo dell’elettronica?
+Risposta: la scheda di singolo evento era stata ottimizzata con ampio range dinamico e basso
+rumore tenendo conto che si misura in moltiplicazione. Per il multievento non c'è ancora una
+scheda disegnata. Dobbiamo disegnare tempi variabili di integrazione e tempi dell’ordine del
+ms e molto precisi, altrimenti si maschera la varianza della misura. La parte innovativa è
+questa. Per la scheda di singolo evento potrebbe essere necessario un cambiamento per
+abbassare le correnti parassite.
+
+[Quaranta]: si parla di neutroni per le misure, perché?
+Risposta: si usano neutroni perché il CN è il banco di test di tutti i rivelatori che facciamo,
+anche se non c’è interesse in clinica dei neutroni veloci, a LNL è l’unico fascio che possiamo
+usare per avere un segnale che possiamo leggere con questi rivelatori, le energie della
+particelle cariche (tranne SPES) sono troppo basse.
+
+
+
+
+                                                5
+[Giordano]: tecnica va-covar con un solo rivelatore, come funziona questo metodo?
+Risposta: Prendere il doppio di misure e fare due sottogruppi per avere set su cui valutare
+covarianza che però perde la capacità di essere indipendente dalle fluttuazioni del rivelatore,
+richiede quindi un rivelatore con risposta perfettamente stabile. Sarà da investigare e
+valutare. Un setup con rivelatore unico sarebbe necessario per semplificare una realistica
+implementazione in ambito clinico.
+
+[Romano]: riguardo alla parte di elettronica, avete già pensato a come migliorare la
+compattezza del sistema, in vista di possibili applicazioni?
+In prospettiva futura per applicazioni di terapia con ioni pesanti pensate di affrontare anche
+misure di rapporto con LET medio anche con ioni diversi (oltre a protoni)?
+Risposta: Sulla parte di singolo evento si sta già pensando all’utilizzo pratico, con la
+conclusione che il modulo in uso non è adatto e quindi serve un modulo digitale proprio per
+la compattezza (catena analogica ingombrante). Per multievento serve una soluzione più
+semplice possibile che faciliti il lavoro del fisico medico, anche se l’alta tensione serve sempre.
+L’idea di ATOMIQA è la protonterapia, tuttavia per altri fasci si può fare delle misure che
+sarebbero pur sempre meglio di pure simulazioni disponibili al momento.
+
+11:15 -11:30 coffee break
+
+Presenta Luca Burratti
+PHOTO-Si-STRUCTURES: Broadband PHOTOdetectors based on Si integrated Topological
+Insulator/Transition metal dichalcogenites heteroSTRUCTURES (vedi file su sito INDICO della
+riunione)
+
+
+Domande:
+[Bandiera]: nel caso in cui lo sputtering non arrivi in tempo, con la sinterizzazione sono previsti
+o stimati i difetti che potrebbero emergere nel materiale?
+Nel progetto parla di possibili applicazioni in modo generico, c’è un’applicazione specifica a
+cui stavate pensando?
+Risposta: La sintesi ottiene una polvere, si vuole sinterizzarla per mettere in contatto tutte le
+particelle con il substrato, a quel punto, si hanno due strati. La polvere si controlla bene con
+il sintering. Nella parte di telecomunicazioni si usa una lunghezza d’onda di 1550 nm e la guida
+d’onda del silicio è adeguata. Sempre nell’ambito medico una applicazione possibile è lo
+sviluppo di agenti di contrasto che emettono nell’infrarosso.
+
+[Arfelli]: quali sono le dimensioni previste per l’oggetto che verrà realizzato? L’aumento di
+efficienza di questi dispositivi può essere quantificato più in dettaglio? Vorrei un chiarimento
+riguardo al piano temporale per i tre dispositivi da realizzare.
+Risposta: possiamo arrivare a 240 nm per un’altezza di 200 nm e a quel punto scopriamo una
+parte del sistema ma questa è la dimensione dei materiali che dovremo depositare sulla
+
+
+                                                6
+superficie. Sulla parte del trasporto elettronico se utilizzo un solo componente per fare
+entrambe le funzioni, abbiamo una risposta in tempo sulle centinaia di ms. Per quanto
+riguarda il dispositivo 1 e 2 si può procedere in maniera parallela, con sintesi idrotermica
+avendo materiali facilmente reperibili. Per il dispositivo 3 bisogna aspettare l'arrivo del
+sistema.
+
+[Laubenstein]: sono previste solo 2 milestone del progetto, perché così poche? forse non sono
+sufficienti a monitorare le attività del progetto.
+Risposta: Ne ho individuate 2, ma in realtà se ne possono individuare anche 3. In effetti nel
+progetto ce n’erano 3, poi in fase di presentazione sembrava più adeguato metterne solo due
+per semplificare.
+
+[Giordano]: il terzo dispositivo è più challenging, ma forse più interessante, perché esplorare
+3 strade? Potrebbe avere senso partire dal dispositivo 3 e usare 1-2 come back up?
+Risposta: l’idea era partire da sistemi di sintesi di materiali più semplici, come la sintesi
+idrotermica e di esfoliazione meccanica. Questo permette di pensare a un dispositivo da
+commercializzare che potrebbe avere così costi minori rispetto al dispositivo ottenuto via
+sputtering. Quindi l’idea era seguire la strada dell’applicazione reale abbassando i costi di
+produzione.
+
+[Quaranta]: il solfuro di Mo comprende nel range di efficienza alte lunghezze d’onda previste
+per le applicazioni? Chiarimento riguardo al ruolo personale nel progetto?
+Risposta: il MoS con un rapporto molare 1:2 dà una banda a circa 700 nm al massimo. Il mio
+ruolo nel progetto è occuparmi della sintesi idrotermica e successivamente la
+caratterizzazione strutturale e optoelettroniche di tutti i sistemi
+
+[Simi]: Perché la risposta temporale dipende dalla modulazione temporale del laser usato per
+generare il segnale?
+Risposta: la risposta temporale può dipendere dalla modulazione con cui arriva il segnale,
+quindi le proprietà del materiale dipendono dalla modulazione con cui arriva la luce.
+
+[Cardarelli] Quali sono le tecnologie concorrenti per questi dispositivi e quali sono i vantaggi
+di questa proposta rispetto a quanto esistente?
+Risposta: i rivelatori infrarossi attuali hanno problemi di matching, inoltre altri sistemi
+lavorano a basse temperature, con tutti i problemi connessi. In questo caso il vantaggio è di
+avere un’eterogiunzione che funziona a temperatura ambiente.
+
+Presenta Caterina Ciampi
+NeuMUSiC. Neutron Monitors Using SiC (vedi file su sito INDICO della riunione)
+
+Domande:
+
+
+                                               7
+[Bandiera] hai contribuito agli algoritmi di PSA che sono stati citati nella letteratura? Qual è il
+piano riguardo allo sviluppo di questi metodi?
+Test previsti in 3 facility diverse, N-ToF per esempio. Alcune facility potrebbero non essere
+disponibili (N-TOF per esempio) quando saranno disponibili i prototipi, ci sono piani alternativi
+per misure analoghe?
+Risposta: ho lavorato nella collaborazione PAXIA per applicare gli algoritmi sviluppati anche
+nei SiC. Il piano è di estrarre anche features della forma del segnale tramite metodi
+convenzionali e metodi di “principal component analysis”. Dove lavoro c’è una nuova linea
+passando dal PAC, ma in principio si può usare. In qualche modo la misura è fattibile, tranne
+la disponibilità di alte fluenze in poco tempo.
+
+[Giordano]: Rispetto a rivelatori per neutroni a stato solido commerciali, le caratteristiche
+come efficienza di rivelazione neutronica, come ci si aspetta che siano?
+Risposta: dipende dal tipo e qualità del convertitore LiF
+Curiosità rispetto all’irraggiamento, si prevedono misure in core e in camera asciutta, per
+misurare risposta o radiation hardness. C’è qualche limitazione per cui nel core non è possibile
+fare altre misure a causa del rate?
+Risposta: il rate è troppo alto
+
+[Laubenstein] commento rispetto all’utilizzo di uranio?
+Risposta: l’uranio non è inserito nel progetto per problemi di radioprotezione e questo allunga
+i tempi del progetto, per questo abbiamo messo solo il fluoruro di Li.
+
+[Arfelli]: WP4-5 prevede attività sperimentali presso varie facility. L’accesso alle facility è
+garantito o ci sono problemi di accesso? Avete sufficienti FTE per fare tutte queste misure?
+Perché impegnato 0. 9 FTE per la proponente?
+Risposta: le facility sono state contattate e si sono dimostrate collaborative e interessate. Dal
+punto di vista degli FTE è difficile fare i turni di misura, tuttavia alcuni collaboratori offriranno
+disponibilità per turni anche se non hanno messo FTE. Ho 0.1 in un esperimento approvato
+che segue un mio studente.
+
+[Sbarra] come è possibile fare un salto dell’efficienza al 10% rispetto allo stato dell’arte
+(ordine qualche % per boro o litio)? Come è possibile aumentare lo spessore senza influire
+sull’assorbimento degli alfa nel substrato?
+Risposta: viene dalla simulazione e dipende dallo spessore del convertitore, aumentando lo
+spessore si aumenta il numero di particelle cariche ma spesso il tutto viene coperto dal fondo
+gamma. Possiamo dire che il 10% è la situazione ideale. Le alfa devono uscire dal substrato
+per essere rivelate, e nelle nostre simulazioni recuperiamo anche le particelle a più bassa
+energia.
+
+
+
+
+                                                 8
+[Lonardo]: Cosa cambia rispetto al progetto presentato nel precedente progetto (call grant
+giovani 2023)?
+Risposta: abbiamo ragionato molto sugli algoritmi basati su machine learning per separare la
+componente gamma e neutroni.
+
+[Conte] Che range di spessori di strato attivo saranno considerati (max-min spessore)?
+In termini di energia depositata i dispositivi da 100 micron che “minimum detection
+threshold” prevedono (~odg keV)?
+Risposta: abbiamo la possibilità di stare tra 10 e 150 micron, e pensiamo che 100 micron sia
+la soluzione migliore. Quelli da 10 micron li abbiamo già in casa e si possono già testare. La
+capacità di rivelare basse energie dipende molto dal rumore, precedentemente avevamo un
+taglio in energia piuttosto alto, dell’ordine del centinaio di keV in situazioni rumorose.
+
+
+
+Presenta Claudio Galelli
+PRIμS: Paleo-astroparticles Reconstructed with the Interactions of MUons in Stone (vedi file
+su sito INDICO della riunione)
+
+
+Domande:
+[Arfelli] quando nasce la collaborazione scientifica alla base di questa idea?
+Risposta: nasce durante il COVID tra il 2020-2021
+Questa sarebbe la prima prova sperimentale?
+Risposta: sono già state fatte misure su tracce generate ad hoc tramite irraggiamento
+controllato. E’ stato testato anche il plasma cleaning per verificare che funzionasse come ci si
+aspettava.
+Avete pensato a possibili tecniche di imaging con raggi X per visualizzazione 3D?
+Risposta: altri gruppi in USA stanno affrontando anche tecniche alternative soprattutto per
+tracce più piccole (sotto il micron)
+In analisi dati si parla di tracce dell’ordine di pochi micron che possono avere varie cause,
+come si distinguono tracce di interesse da fondo?
+Risposta: dalla morfologia sono tubulari, rettilinee.
+
+[Bandiera]: La gold milestone, non è ancora stato raggiunto questo obiettivo?
+Risposta: l'obiettivo di questa milestone è fare uno spettro completo di un campione e il
+confronto con la simulazione non è ancora stato fatto. Il gruppo di Milano è di riferimento
+internazionale per questo lavoro ed è il primo impegnato in questo lavoro. Sarebbe quindi un
+risultato molto importante. C’è molta competitività soprattutto per tracce molto piccole per
+eventi esotici dove si concentrano gli sforzi della comunità. Nella parte di spettroscopia ottica
+il gruppo di Milano è sicuramente il primo, se non unico.
+Non c’è competitività.
+Quale previsione di probabilità per il raggiungimento platinum milestone?
+
+
+                                               9
+Risposta: platinum 99%, diamond milestone più sfidante invece.
+Criticità degli obiettivi rispetto a possibil ritardi acquisto/disponibilità plasma cleaner?
+Risposta: incremento di risorse umane impiegate potrebbe sopperire ai ritardi del plasma
+cleaner.
+
+[Giordano]: aspetti tecnologici, l’unica innovazione è sulla preparazione campione, plasma
+cleaning?
+Risposta: non ci sono altre innovazioni hardware, ma l’interplay tra integrazione hardware e
+software per analisi e riconoscimento immagini.
+Considerata la velocità di scansione e analisi immagini, è possibile fare analisi immagini in
+hardware e non software?
+Risposta: al momento non è prevista analisi integrata hardware
+
+[Giordanengo]: il progetto prevede come innovazione soprattutto l’unione hardware
+software, qual è la parte più innovativa?
+Risposta: utilizzo sistematico plasma cleaning, messa in campo dell’apparato di misura
+automatizzato riproducibile da altri gruppi in futuro.
+Quali difficoltà vi aspettate nell'implementazione del sistema?
+Risposta: ottimizzazione e velocità della procedura
+
+[Groppi] laboratorio per etching e plasma cleaning è già presente a Milano?
+Risposta: sì presso Milano
+
+
+
+Presenta Andrea Grimaldi
+QUTE_FDS: Quantum Teleportation induced Frequency Dependent Squeezing (vedi file su
+sito INDICO della riunione)
+
+
+Domande:
+[Arfelli]: gli esperimenti come LIGO/VIRGO, usano già lo squeezing, cosa c’è di diverso?
+Risposta: gli attuali detector di onde gravitazionali usano un twin schema, in questo caso i due
+contributi sono completamente scorrelati (ragionevolmente sicuro che questo valga sia per
+LIGO che per VIRGO). Il problema è la seconda rotazione con aggiunta di una risonanza.
+L’aggiunta di una seconda cavità è fuori budget. Questa possibilità non è nemmeno discussa.
+[Bandiera]: il progetto è molto ambizioso. C’è l'obiettivo tecnologico e quello scientifico, quali
+sono i rischi per il raggiungimento dell’obiettivo tecnologico e come si relazionano alla
+possibilità di raggiungere l’obiettivo scientifico?
+Risposta: E’ vero che il rischio tecnologico è la criticità più alta, per questo abbiamo già
+previsto un contingency plan, che prevede di usare una sorgente squeezing prodotta dal
+gruppo di Padova. Questo è anche il motivo per cui ci sono 4 mesi di contingency time. Per le
+altre componenti ci sono meno criticità e non mi aspetto ritardi sul resto dello sviluppo.
+
+
+                                               10
+Il telescopio ad alta frequenza non ha la necessità di applicare la tecnica descritta per il
+telescopio a bassa frequenza.
+
+[Cardarelli]: Abbiamo un esperimento che si chiama SQUEEZE a TIFPA e include PD, quali sono
+le sinergie/complementarità di setup sperimentali e obiettivi?
+Risposta: SQUEEZE studia la miniaturizzazione del set-up di tecnologie esistenti. Questo
+esperimento invece non vuole fare un nuovo design, ma creare stati di squeezing. Ci sarà
+sviluppo su tutto quello che viene dopo la sorgente e sta in aria
+
+[Lonardo]: commento riguardo all’esperimento T4_QC di Simone Cialdi presso Milano
+riguardo alla rotazione di polarizzazione
+
+pausa pranzo 14:00 -> 14:45
+
+Presenta Simone Manti
+OPTIMAL: automated Optimization of x-ray beamline Parameters using experimenT-
+Informed MAchine Learning methods (vedi file su sito INDICO della riunione)
+
+Domande:
+[Bandiera]: Dalla descrizione e stato dell’arte ci sono altri modelli e metodi di ottimizzazione
+di beamline competitivi, in cosa si differenzia la metodologia proposta rispetto ad altri
+metodi?
+Altri modelli che usino X-ray tracing già esistenti per questo task?
+Risposta: partire da principi primi per lo sviluppo di modelli virtuali che utilizza anche ray
+tracing e modelli virtuali. Altri metodi si limitano a trovare il punto migliore nello spazio dei
+parametri. Il software Oasis che ho riportato prima fa simulazioni che servono a descrivere
+questo sistema.
+
+[Arfelli]: Il lavoro è limitato alla XES o è possibile una generalizzazione ad altri setup e tipi
+diversi di beamline?
+Ogni beamline e applicazione sono diverse, l’ottimizzazione multiparametrica viene dopo una
+simulazione della beamline con strumenti come SHADOW, oppure può essere fatta a monte
+della progettazione della beamline?
+Risposta: Il punto di partenza dopo che questo set-up sarà disponibile è la parte di emissione.
+Si potrà renderlo disponibile a più situazioni diverse ottimizzando alcune caratteristiche. Si
+potrà avere una complementarità dei due metodi. Per la costruzione della beamline,
+propongo di includere la parte di machine learning, ma si può fare anche ottimizzazione
+bayesiana. In generale se ci fosse una simulazione della beamline sarebbe meglio, per evitare
+ottimizzazioni real-time. Tuttavia, il framework permette di ottimizzare senza simulazione
+pregressa.
+
+
+
+
+                                               11
+[Laubenstein]: riguardo alla mitigazione di alcuni dei rischi individuati che coinvolgono
+personale esterno, c’è qualche stima degli FTE previsti proprio per il personale esterno?
+Risposta: non ci sono stime. L’impegno dipenderà dalla natura e dalla complessità del
+problema che sarà effettivamente riscontrato.
+
+[Giordanengo]: è possibile ottimizzare il setup della beamline a partire dai parametri e
+conoscendo l’obiettivo da raggiungere, per utilizzare il metodo in fase di design del setup?
+Risposta: sì, utilizzando il machine learning informato dell'esperimento
+
+[Giordano]: riguardo all’impatto industriale sullo sviluppo di digital twin, ci sono altre ricadute
+riguardo alla trasferibilità di quanto si impara da questo progetto come applicazione su altre
+beamline?
+Risposta: ad esempio per ADVACAM è interessante l’automatizzazione e la calibrazione.
+Questo processo di ottimizzazione permette di capire quali sono i parametri più importanti
+su cui agire nell’ottimizzazione o correlazione tra i parametri.
+
+[Sbarra]: questo progetto riguarda principalmente il computing, quanto sono fondamentali
+per il progetto le specifiche del rivelatore richiesto (timepix3) riguardo la realizzazione di
+setup?
+Risposta: computing è essenzialmente nella parte di validation e di machine learning (WP1-
+WP3). Una caratteristica principale è la grandezza dei pixel perché determina effettivamente
+la risoluzione dello spettro finale e inoltre è importante la grandezza dell’area del detector.
+
+
+
+Presenta Anna Marini
+DIANA: Development of a sustaInable Amorphous Novel scintillator (vedi file su sito INDICO
+della riunione)
+
+
+Domande:
+[Quaranta]: 2 fotoelettroni/MeV rispetto ad uno scintillatore tradizionale come si colloca?
+Quanto ci si aspetta che siano le lunghezze di attenuazione e light yield di questi oggetti alla
+luce di una possibile applicazione in rivelatori del tipo calorimetro?
+Risposta: c’è un confronto con il tungstato di Pb in termini di fotoelettroni per MeV che va tra
+i 10 e i 15, quindi siamo intorno al 10-20%. Tuttavia posso usare altri cristalli ottimizzando in
+base all’efficienza di scintillazione. La lunghezza di attenuazione vorrei che fosse più simile
+possibile a quella di un cristallo intero, aumentando molto la densità dei cristalli scintillanti
+dentro la materia trasparente. Un calcolo indicativo dava una lunghezza di radiazione circa 2
+rispetto al Tungstato di Pb che è 0.89.
+
+[Arfelli]: qual è la percentuale in volume/massa cristallo/matrice? Quanto piccoli possono
+essere i frammenti di cristalli da includere nella matrice?
+
+
+                                                12
+Afterglow di questi materiali e velocità di scintillazione, che tipo di proprietà ci si attende?
+Risposta: mi piacerebbe una percentuale in massa fra il 70 e l’80% di cristalli scintillanti e
+stessa cosa per la percentuale organico-inorganico, che è più semplice ma c’è da lavorare
+sull’omogeneità. Nel team di DIANA ci sono colleghi di Ferrara che aiuteranno a caratterizzare
+le dimensioni dei cristalli, che comunque non dovrebbero essere troppo piccoli, tra 1 micron
+e un millimetro. Mi aspetto che il comportamento sia dominato dai cristalli inorganici, intorno
+alla decina di nanosecondi.
+
+[Giordanengo ]: uniformità della distribuzione dei frammenti in funzione dell’applicazione: è
+stata fatta qualche previsione/analisi?
+Risposta: ho esperienza su un altro materiale che ho usato nel PhD, in questo caso penso di
+fare simulazioni con Geant4.
+
+[Laubenstein]: Le grandezze target degli oggetti da realizzare sono determinate da particolari
+applicazioni, come sono state scelte? Sono previsti test meccanici degli agglomerati prodotti?
+Risposta: è una misura molto standard per la caratterizzazione di questi materiali. La stabilità
+meccanica verrà indagata nelle fasi iniziali, ma non mi aspetto fragilità nei prototipi plastici,
+mentre potrebbe essere più fragile la matrice con il vetro. Per quest’ultima, si ottimizzerà il
+ciclo termico.
+
+[Giordano]: collaborazione con azienda: questo progetto usa scarti di lavorazione, a cosa è
+dovuto il costo richiesto per l’approvvigionamento?
+Risposta: La ditta può riciclare un certo numero di volte gli scarti e rimetterli nel processo
+produttivo, alcune ditte preferiscono eliminarli. Speravo in offerte ancora più vantaggiose.
+
+
+
+[Quaranta]: quale strategia per eliminare le bolle nella matrice di vetro?
+Risposta: Il prof. Spotorno ha già effettuato cicli termici sul vetro, e le perplessità sulla
+presenza di bolle è stata smorzata prevedendo un raffreddamento più lento (più lento
+rispetto a 2 ore, tempo di raffreddamento delle prime prove fatte). Si è ottimisti riguardo alla
+possibilità di ottenere oggetti otticamente continui.
+
+Presenta Antonio Minopoli
+BioRad3D: Evaluation of radio-induced effects of therapeutic and diagnostic beams on 3D
+bioprinted breast cancer and healthy tissue models (vedi file su sito INDICO della riunione)
+
+Domande:
+[Quaranta]: quale è il ruolo personale nel progetto?
+Qual è il coinvolgimento/sinergia con il progetto MATHER3D?
+La stampa bio3d in cosa consiste? Come avviene inclusione cellulare?
+
+
+
+
+                                               13
+Risposta: il mio ruolo in questo progetto è di usare diverse tecniche di stampa 3D, e di fare la
+valutazione biologica degli effetti delle radiazioni sugli scaffold. MATHER3D è un progetto
+Milano-Pavia che studia la sinergia tra particelle cariche e ipertermia. I loro modelli partono
+da tessuti decellularizzati di fegato di suino, che richiede una fase di autorizzazione di
+comitato etico. Nel mio caso si usano supporti sintetici. In una siringa mixiamo gel e coltura
+cellulare e poi si estrude. Si possono ottenere altre forme oltre quella sferica.
+
+[Arfelli]: nel caso della valutazione diagnostica, i livelli di dose riportati sono alti (100 mGy)
+molto più alti di quelli clinici, perché?
+Perché lo studio con protoni? Vengono utilizzati per trattamento tumore al seno? C’è
+interesse clinico a riguardo?
+Il progetto si propone di coprire un vasto intervallo di energie e di dosi, c’è un piano preciso
+di misure: quante e a che valori precisamente?
+Ci sono modelli in radiobiologia che possano essere confrontati con dati sperimentali?
+Risposta: Al momento non abbiamo motivo particolare per spingerci fino a 100 mGy, ma
+vogliamo coprire un range grande di dose.
+È meno diffusa la protonterapia per breast cancer, anche se i colleghi di CNAO hanno
+confermato un possibile interesse futuro.
+Come punto di partenza si vuole esplorare qualche punto di energia e di dose e poi casomai
+estendere.
+Negli ultimi anni abbiamo a disposizione molti modelli 3D computazionali, per applicazioni di
+tipo radiobiologico però ne ho trovati solo 2.
+
+[Bandiera]: differenza tra colture 2D o 3d rispetto alle tecniche proposte di bioprinting 3D?
+Risposta: Esistono colture cellulari 3D ma questi costrutti non sono colture, ma si tratta di
+bioprinting. Nel nostro caso si incorpora una matrice extracellulare in cui il segnale può essere
+trasmesso non solo tra cellula e cellula ma anche attraverso questo materiale.
+
+[Giordanengo]: impatto sulla parte di analisi passando da 2D a 3D?
+Risposta: per le colture cellulari standard si usano test di sopravvivenza e clonogenici. Nel caso
+3D si può valutare anche la morfologia cellulare, ad esempio la presenza di un core necrotico
+all’interno. Non si può usare la tecnica FISH perché si distruggerebbe il costrutto. Si può invece
+studiare apoptosi.
+
+[Laubenstein]: in che cosa consiste la selezione del bioink? Quali caratteristiche verranno
+analizzate e valutate?
+Risposta: Si fa un tuning di parametri per ottimizzare la stiffness e le proprietà viscoelastiche
+in modo da mimare il più possibile il tessuto mammario.
+
+[Giordano]: le strutture 3D da stampare come vengono determinate?
+
+
+
+
+                                               14
+Risposta: Si acquisteranno colture cellulari commerciali, poi si può agire sulla pressione o
+sull’estrusione.
+
+Coffee break 16:25 - 16:40
+Presenta Gabriele Parisi
+DEBELLI: DEvelopment and BEnchmark of Geant4-DNA physical models of Low energy
+Lithium Ions for BNCT (vedi file su sito INDICO della riunione)
+
+Domande:
+[Arfelli]: il rivelatore GEM-pix è disponibile o è da sviluppare?
+Risposta: oggetto molto innovativo. Finora il gruppo di LNF si è basato su Timepix1. Timepix3
+permette l’acquisizione di tempo e energia insieme, permettendo la ricostruzione della
+traccia in 3D. LNF collabora con N-TOF in cui è stato usato Gem-pix basato su Timepix3, si
+vuole fare un nuovo prototipo, in modo da evitare problemi riguardo alla costruzione,
+basandosi su qualcosa che già esiste e si usa.
+
+[Bandiera]: è fondamentale lavorare con un rivelatore così innovativo?
+Questo progetto somiglia, ma con obiettivi diversi, a GEANT4INFN, c’è un’interazione o è
+prevista con questo progetto?
+Cosa aggiunge questo progetto al lavoro che già sta svolgendo nella sua posizione lavorativa
+attuale?
+Risposta: uno strumento come questo permette una misura microdosimetrica che si potrebbe
+ottenere anche con altri rivelatori già esistenti. Ma questo detector permette la ricostruzione
+della traccia e questa ci sembrava una caratteristica importante. Si tratta di un benchmark
+innovativo che ad oggi non c’è.
+Al momento non c’è interazione con GEANT4INFN ma ci sarà, al momento non c’è
+sovrapposizione ma complementarità, l’idea è eventualmente di collaborare anche se gli
+obiettivi sono diversi. NECTAR è stata la scintilla scatenante per la research question a cui
+propongo di dare risposta in questo grant. Io ho lavorato più su Geant4 invece che su
+Geant4DNA, cercando di sviluppare dei modelli geometrici della placca amiloide responsabile
+dei sintomi del morbo di Alzheimer.
+
+[Giordanengo]: Quale sarà il suo ruolo nel progetto?
+Risposta: L’idea è che mi vorrei occupare di tutti i WP supportato dai diversi colleghi, nel primo
+anno con gli esperti di modelli, nel secondo anno invece sarei supportato dai colleghi esperti
+di radiobiologia. Delle tre cose mi occuperò soprattutto della parte sperimentale di fisica e
+dei modelli.
+
+[Romano]: riguardo all’attività di Sebastian Incerti sullo sviluppo di sezioni d’urto al Li in
+GEANT4, siete in comunicazione/collaborazione? Questi modelli sono stati validati in TOPAS,
+
+
+
+
+                                               15
+eventualmente i dati che loro hanno usato per validare in TOPAS si possono usare anche in
+questo progetto?
+Risposta: Lo sviluppo dei modelli per carbonio e litio è nella roadmap della collaborazione di
+GEANT4DNA a IRSN. Quindi questa parte sarà fatta con loro. Alcuni modelli stanno già in
+TOPAS, ma manca la parte di interazione elastica.
+Sì, siamo in contatto con loro (TOPAS), sono disponibili a condividere i dati e modelli nella
+struttura geant4-DNA.
+
+[Quaranta]: ad oggi del litio in BNCT non se n’era occupato nessuno?
+Risposta: Non GEANT4, ci sono altri strumenti disponibili. Serve questo studio per avere una
+rappresentazione a livello nanometrico che veramente si leghino all’effetto radiobiologico.
+
+[Conte]: Oltre all’interazione con l’esperimento GEANT4-DNA è stata considerata
+l’interazione con il progetto PNRR ANTHEM?
+GEM-pix sono stati trattati come rivelatori per microdosimetria nel proposal, un progetto
+ARDENT, aveva già trattato questo approccio in passato. Dalle referenze disponibili riguardo
+a misure micro-dosimetriche tramite GEM (non riportate nel proposal), risulta che al
+momento i risultati non siano sufficientemente quantitativi per fare microdosimetria?
+Risposta: Non conosco nessun lavoro che descriva l’utilizzo di GEM-pix per microdosimetria.
+
+Presenta Alberto Taffelli
+FORM-3D: Fast optimization of Range Modulators 3D (vedi file su sito INDICO della riunione)
+
+Domande:
+[Bandiera]: una volta fatto il modulatore se ci fossero discrepanze rispetto alla distribuzione
+di dose impartita/pianificata, come si disaccoppiano le dipendenze da errori di stampa
+rispetto ad errori di disallineamento dalle misure?
+È prevista una caratterizzazione dell’oggetto stampato (morfologia/uniformità)?
+Risposta: La cosa si può fare, in particolare se si vuole disaccoppiare il problema si può usare
+un rivelatore per capire se c’è un problema di allineamento o di stampa. Dovremo restare
+conservativi sulla dimensione della stampa, restiamo sul centinaio di micron anche se è
+possibile andare più giù. L’oggetto può essere caratterizzato con microscopia elettronica, per
+esempio, che va sicuramente fatta.
+
+[Giordanengo]: in vista di un’applicazione clinica, quanto tempo è previsto per la realizzazione
+dei dispositivi?
+Impatto riguardo invece allo sviluppo del tool di simulazione FRED?
+Risposta: il processo di stampa richiede qualche ora, se dalla clinica arriva la richiesta per una
+stampa nel giorno stesso è molto difficile, ma nell’arco di 24 ore è possibile. L’impatto è quindi
+quello di rispondere a esigenze personalizzate. Oggi si fanno dei modulatori, ma si tratta di un
+processo troppo lento e non scalabile alla clinica. Recentemente si è fatto un modello a voxel
+
+
+                                               16
+della regione, l’idea è che si potrà descrivere in FRED usando le funzioni in C o delle routine in
+Python, cose abbastanza realistiche.
+
+[Laubenstein]: la resina che usate per la stampa 3D è stata scelta appositamente?
+Risposta: sono state fatte esperienze in esperimenti precedenti in cui non era stata
+ottimizzata la procedura di progettazione prevista per questo progetto.
+
+[Quaranta]: dimensioni dell’oggetto?
+Risposta: variabile, dell’ordine di centimetri.
+
+[Giordano]: innovazione rispetto allo stato dell’arte? Di quanto è più veloce? Potrebbe valere
+la pena passare a C++ che è più veloce?
+Risposta: Questo approccio funziona solo se è veloce la parte della simulazione, e devo
+renderla irrisoria rispetto a tutto il processo. I tempi indicati nella presentazione sono reali,
+non stimati. Ovviamente dipende anche dalla potenza di calcolo usata. Python è più semplice,
+ma se si potesse scrivere in C++ sarebbe un ulteriore guadagno temporale.
+
+[Conte]: la modulazione attiva è stata implementata perché risolve alcuni problemi di
+modulazione passiva, tra cui la dose out of field dovuta all’interazione del fascio con i
+materiali. E’ già stato valutato il rischio di ri-passare alla modulazione passiva senza
+compromettere i vantaggi di sparing legati alla flash?
+Risposta: in effetti il rischio c’è, bisognerà confrontare piani attivi e passivi e capire se
+clinicamente è vantaggioso o no, noi intanto lavoriamo nella parte tecnologica perché siamo
+fiduciosi che il vantaggio dell’effetto FLASH non sia perso a causa dell’interazione con la
+modulazione passiva.
+
+Presenta Valerio Toso
+FLASH: Fast and Large Area Single photon Harvester (vedi file su sito INDICO della riunione)
+
+Domande:
+[Giordano]: La composizione delle 64 tile, quando formano un unico segnale combinando i
+vari segnali dalla matrice, non deteriora la risoluzione temporale?
+Quali schede TDC commerciali si pensa di utilizzare? che risoluzione hanno?
+Risposta: il punto è proprio questo, in questo progetto si tengono i canali separati. CAEN
+V1290 con risoluzione compatibile con le misure (non ricorda valore)
+
+[Quaranta]: la risoluzione di 100 ps è davvero compatibile con l’applicazione proposta (che ha
+tempi scala mostrati di pochi ns)?
+Risposta: Teniamo conto che gli spettri che ho mostrato sono stati acquisiti con sistemi
+tradizionali a fototubi, nonostante ciò, riusciamo a mantenere separati i contributi.
+
+
+
+
+                                                  17
+[Bandiera]: Quale parte dell’elettronica è nuova e quanto è già stato sviluppato dal gruppo di
+ricerca? Quale è stato il contributo personale nello sviluppo dell’elettronica?
+La scelta del cristallo scintillatore per l’applicazione è basata solo sulle caratteristiche
+temporali dell’emissione?
+Risposta: Per quanto riguarda lo sviluppo di elettronica, non sarò io a fare il front end a livello
+circuitale. Io sarò coinvolto nella caratterizzazione come avevo già fatto in ASTAROTH. La
+parte più nuova è lo sviluppo dell’interfaccia RF, preferiamo costruirlo e non comprarlo per
+essere più flessibili. Il cristallo è uno dei più rapidi sviluppati recentemente.
+
+[Sbarra]: confronto con tecnologie competitive (MCP)?
+Risposta: mi serve risoluzione temporale di 100 psec.
+
+[Arfelli]: per integrare 64 oggetti è necessario anche lo sviluppo di meccanica, come verrà
+gestito? Rilevanze di eventuali zone morte?
+Risposta: Ci sono soluzioni facilmente implementabili, non si prevedono criticità a riguardo
+
+[Giordanengo]: E’ rischioso passare direttamente da 1 canale a 64 canali? Avete strategia di
+mitigazione del rischio (passare per un numero più limitato di canali)?
+Risposta: Sì certamente si può cominciare con meno canali.
+
+Si conclude sessione aperta delle presentazioni alle 18:20
+
+18:30 Sessione CHIUSA
+
+Comunicazioni del componente di Giunta Oscar Adriani
+   1) esprime soddisfazione per la giornata di presentazione dei grant giovani e commenta
+      favorevolmente riguardo alla componente femminile espressa
+   2) FISICA MEDICA periodo con molte collaborazioni in fisica medica:
+          a) partecipazione a bando BNCT con CNAO, verrà stipulata convenzione specifica
+             perché non è possibile partecipare al bando come unità INFN per mancanza di
+             FTE. La convenzione specifica permetterà di contribuire alle attività del bando
+             avendo un “rimborso” da parte CNAO.
+          b) visita al CNAO effettuata ad ottobre, prevista la firma di 2 convenzioni. La
+             seconda riguarda tutte le attività di BNCT, di interesse INFN e CNAO
+          c) 29 novembre previsto incontro bilaterale con AIFM per coordinare attività
+             nell’ambito della fisica medica (Adriani, Bisogni, Martelli)
+          d) previste giornate workshop fisica medica a Catania per aprile 2025
+          e) accordo quadro con la SIRR (Società Italiana Ricerca Radiazioni) in fase di
+             redazione
+
+
+
+
+                                                18
+3) Trasferimento tecnologico: prevista giornata conclusiva del percorso mentoring per
+    trasferimento tecnologico
+4) Riunione CVI comitato valutazione internazionale è stata fatta a Firenze a metà
+    ottobre
+5) Viaggio Giunta e Presidente in Cina per incontro con IHEP riguardo esperimenti in
+    collaborazione (BESIII, JUNO etc..) è stata attivata una collaborazione che attiverà una
+    serie di iniziative riguardo ai beni culturali in cui loro sono molto attivi. Non
+    lavoreremo più a HERD perché si tratterebbe di scambiare hardware sensibile.
+6) G7 delle infrastrutture di ricerca è stato tenuto in Sardegna vicino al sito proposto per
+    ET con ministri e varie rappresentanze internazionali.
+7) Firmato il CCN I-III, sforzo per ri-allineare temporalmente i contratti
+8) nuovo disciplinare per benefici assistenziali: attivato tavolo di lavoro INFN che sarà
+    discusso domani con i sindacati. Obiettivo: allineare i benefici assistenziali perché
+    siano chiusi ed erogati all’interno dell'anno successivo
+9) Il Direttivo ha istituito una task force per Europa (guida = Adriani, Malvezzi) per essere
+    più incisivi e accedere a più finanziamenti a livello europeo. Selezionati 8 direttori o
+    ex-direttori per vari ambiti: elettronica e chips act (Rivetti), ricerca eccellenza (Forti),
+    infrastrutture di ricerca (Campana), calcolo (Dell’Agnello), energia (Previtali), dual use
+    e sicurezza (Valente), medica (Nicrosini) tecnologie quantistiche (Bonvicini) -> saranno
+    redatti 2 position paper che saranno successivamente distribuiti
+10) UBUY/MEPA/NOVA-PA c’è fermento riguardo RUP/ordini. E’ stato testato UBUY
+    presso Bologna, direttore soddisfatto -> tutte le strutture avranno a disposizione
+    UBUY da gennaio. E’ in corso la redazione per accordo quadro forniture materiale
+    ottico. Sono arrivate lamentele riguardo al catalogo RS, è in corso contrattazione per
+    usare RS come intermediario per articoli non disponibili sul loro catalogo. Il direttore
+    di MI aveva segnalato difficoltà per le fonderie. Ora Europractice, Fraunhofer e altre
+    si stanno iscrivendo alle nostre piattaforme, quindi si può accedere a questi ordini a
+    partire da gennaio.
+11) DDL pre-ruolo al momento fermo, non calendarizzato in Parlamento. Probabilmente
+    non sarà discusso entro fine anno, vedremo che fine farà la riforma degli assegni di
+    ricerca. Possibili decreti-legge o ulteriori proroghe.
+12) legge bilancio: la legge è stata presentata circa 20 gg fa, sono stati fatti gli
+    emendamenti. Gli articoli di potenziale interesse per INFN sono:
+         a) possibile trattenimento in servizio su base volontaria fino a 70 anni (max 10%
+            delle risorse assunzionali)
+         b) 150 milioni € per centri nazionali e partenariati estesi post PNRR (assegnato a
+            enti o fondazioni)
+         c) 2025-2027 turnover al 75% del personale cessato nell’anno precedente.
+            Rimane da verificare se INFN rientra in questo articolo, e se verrà confermato.
+         d) articolo 135 al MUR verranno tagliati l’8% dei fondi. Sembra che la Ministra
+            garantisca che per il prossimo anno il taglio sarà compensato da fondi
+
+
+                                            19
+              accantonati in precedenza. Segnale pericoloso, la Giunta farà il possibile per
+              evitare i tagli. SI cercherà di mantenere concorsi regolari come si è fatto negli
+              anni scorsi.
+           e) sono state approvate le graduatorie art 15 per le progressioni III->II.
+           f) i nuovi bandi ricercatori III livello saranno pubblicati entro l’anno e resterà
+              aperto il bando per 30 gg
+
+
+
+[Bersani]: tempi determinati TA PNRR?
+Risposta: discrasia tra raccomandazione di stabilizzazione e taglio turnover del governo. In
+ogni caso si sta facendo una ricognizione su tutte le strutture per l’assunzione del personale
+PNRR TD.
+
+[Bortolussi]: questione Cina: apprezzo che ci sia la volontà di mantenere attive collaborazioni
+su canali specifici. Nel nostro caso è attiva collaborazione su BNCT soprattutto attraverso
+grant MECI. Non è stato però permesso dalla dirigenza di siglare agreement specifici a
+riguardo, c’è possibilità che questa cosa cambi?
+Risposta: c’è la possibilità concreta di riapertura, favorita anche da recenti visite di Mattarella
+e Meloni, che testimoniano la possibilità di riaprire canali di collaborazione scientifica dopo la
+chiusura della Via della Seta. Altre istituzioni hanno siglato agreement scientifici come per
+esempio CNR con CAS e varie Università hanno firmato bilaterali con atenei cinesi.
+
+[Alessandro Di Mattia (CSN1)]: domanda su LHCb?
+Polizza INA: ci sono sviluppi riguardo a possibilità di alternative economiche?
+Risposta: convocate diverse riunioni per trovare strategie comuni con CSN1, bisogna sentire
+Adriano Lai.
+Risposta: non è possibile probabilmente trovare soluzione per polizza INA. Forse possibile
+differenziare salario accessorio, ma non confrontabile con entità polizza INA.
+
+[Romano]: accordo RS è solo con aziende italiane?
+Risposta: anche con Mauser
+
+[Romano]: Se passasse la questione del 75% cosa succederebbe ai vincitori del concorso?
+Risposta: si assumerebbero a tempo determinato fino al momento che si possano assumere.
+E sarebbe in priorità stabilizzare queste figure anche posticipando l’assunzione dei tecnici e
+tecnologi PNRR.
+
+[Giordano] : Sempre su RS forse si potrebbe estendere a DigiKey oltre che a Mauser
+Risposta: bisogna chiedere a Marino Nicoletto di PD che si sta facendo carico di questo.
+
+Comunicazioni del Presidente di CSN5
+
+
+                                                20
+   1) Per quanto riguarda le riunioni 2025 bisognerà spostare quella di febbraio, poi 6-8
+      maggio c’è INFN condivide all’Elba, riunione 6-8 Maggio probabile data di riunioni
+      consuntivi - confermata Ortigia a Settembre.
+   2) Condividere in Sezione i Grant. Ci deve essere un Consiglio di Sezione dove si approva
+      il Grant. Il coordinatore può essere coinvolto ed eventualmente può aiutare.
+   3) CVI 2024: avuti molti complimenti. La presentazione riguardava le call. Inoltre una
+      domanda era se i grant giovani potessero essere aiutati a competere su fondi EU, sono
+      stati mostrati i 4 che hanno già vinto. Sulle call è stata evidenziata l’innovatività sulle
+      infrastrutture, sui rivelatori e quelle sulle tematiche. Infine è stato mostrato il follow
+      up. Su una base di 15M euro investiti, sono stati raccolti 29M euro in fondi esterni. E’
+      stato un momento importante per capire il significato delle Call come strumento
+      strategico della CSN5
+   4) C’è stata una riunione di INFN4LS, molto costruttiva.
+   5) C’è stato il workshop di calcolo a Bari, è stato molto stimolante anche se non ha avuto
+      grande pubblico. Si è vista un'evoluzione rispetto a due anni fa, notevole la presenza
+      di giovani. Ci sono delle sigle di calcolo che fanno più o meno sempre la stessa cosa
+      circa, cambiando nome. Si potrebbe mantenerle attive con lo stesso nome, ma fare
+      una valutazione ogni 3 anni.
+   6) DRD - ci sarà un MoU trasversale e si sta ancora discutendo. CSN5 non mette fondi su
+      DRD direttamente, ma in realtà ci sono delle sigle finanziate in CSN5 che chiaramente
+      afferiscono a qualche DRD, quindi con Gabriele Simi è stata fatta una ricognizione di
+      queste sigle e mostrate al management come finanziamento che abbiamo già dato.
+   7) Strategy sulla fisica delle alte energie: i coordinatori devono mandare al Presidente un
+      riassunto delle riunioni che sono state fatte nelle Sezioni entro il 4 dicembre.
+
+19:39
+Simone Dell’Agnello - Presentazione di ricadute nella CSN2 di esperimenti finanziati da CSN5
+
+Mercoledì 20 Novembre
+08:30 Sessione chiusa: Sessione chiusa con il componente esterno della commissione
+giudicatrice
+
+Giro di tavolo sulle presentazioni dei progetti
+
+[Scifoni] il livello mi sembra molto alto. GREEAT ha fatto un’ottima presentazione, meno
+convincente RADIANT, sembra più incrementale che veramente innovativo, le risposte non
+sono state soddisfacenti. su ATOMIQA, DEBELLI e TOSI ho conflitto, il progetto di Ciampi non
+ha presentato grande advancement rispetto a quello dell’anno scorso, PRIuS è interessante
+ma non ha specificato molto bene le tecniche di misure, non sono in grado di commentare su
+QUTE_FDS, DIANA presentato molto bene ed è stato molto chiaro quello che vorrà fare.
+
+
+                                              21
+OPTIMAL non mi ha entusiasmato, l’applicazione di ML è sembrata un po’ forzata e anche non
+tanto innovativa anche se la presentazione è stata buona. BIORAD3D è ovviamente
+interessante e utile ma non c’è stata discussione sullo stato dell’arte e non era chiaro cosa
+doveva fare il candidato, anche se il candidato ha competenze in materia.
+
+[Conte] Mi astengo dal commentare ATOMIQA. Quelli che mi hanno convinto di più sono stati
+GREEAT, PRIuS (tematica di nicchia ma progetto si adatta bene a un grant giovani), DIANA,
+FORM3D (ho apprezzato onestà delle risposte e la consapevolezza del candidato).
+Non mi hanno impressionato PHOTOSi, NeuMUSIC (cose già viste e fatte in altri contesti),
+BIORAD3D (il progetto è molto incentrato sulla biotecnologia; c’è nel progetto una forte
+componente CNAO così come in MATHER3D e finora le strutture 3D di MATHER3D non hanno
+funzionato. Il processo non è riproducibile e non sono disponibili protocolli consolidati come
+nel caso della radiobiologia tradizionale con colture 2D. Per me è un doppio finanziamento
+perché c’è già una sigla). L’altro progetto su cui ho molte perplessità è DEBELLI perché è un
+terreno dove il candidato non ha expertise in questo tema. IRSN comunque lavorerà su questo
+tema, e non credo che sia il caso di finanziare un progetto che è più legato alla comunità
+francese quando stiamo già finanziando GEANT4INFN. Le misure radiobiologiche si fanno già
+in ANTHEM. La validazione su cellule con neutroni rischia di essere poco convincente e si
+propone l’uso di uno strumento che non è ancora consolidato.
+
+[Cardarelli] GREEAT, la candidata aveva ottime competenze ma l’applicazione su GEM mi è
+parsa non a fuoco, molto ambiziosa e lontana dalla realizzabilità. Su ATOMIQA bisogna
+considerare le condizioni al contorno (secondo grant), il lavoro è però molto interessante e
+grande competenza e maturità della candidata. RADIANT: progetto poco a fuoco, molti
+obiettivi e molti WP e richieste economiche su missioni forse non giustificate; candidata molto
+preparata. NeuMUSIC: tematiche PSA per discriminazione tracce già presente a Firenze (ARDE
+grant giovani 2023), alcune risposte della candidata poco convincenti. PRIuS molto
+interessante, attività nuova ma fa parte dell’anima interdisciplinare della CSN5 e il candidato
+era molto competente e preparato. DIANA: mi è piaciuto molto, padronanza e originalità della
+proposta. BIORAD3D: ho un po’ di conflitto di interessi, non commento. DEBELLI ha convinto
+poco sulla parte di rivelatore: la realizzazione e utilizzo di GEM-pix per misure benchmark non
+è realistica. FORM3D Taffelli: molto bella la presentazione e molto convincente. Anche su
+FLASH non sono sicuro sull’effettiva rilevanza della applicazione proposta.
+
+[Bortolussi]: mi hanno colpito alcuni progetti sulla base della padronanza dei candidati e la
+sensazione che fosse un'idea matura e solida. Bene Apponi GREEAT (convincente la
+presentazione), ATOMIQA Anna Bianchi, Anna Marini DIANA, F. Barbaro RADIANT (sono stata
+supervisor di dottorato, disclosure possibile conflitto interessi) la tecnica è stata brevettata
+(proponente tra gli autori) e potrebbe essere veramente traslata in clinica in tempi
+ragionevoli. PRIMUS molto affine alla CSN5, da valorizzare leadership italiana. FORM3D mi ha
+colpito l’onestà intellettuale riguardo ai punti di forza e punti deboli della proposta.
+
+
+                                              22
+Non mi hanno colpito: BIORAD3D, si poteva fare un grant su questo puntando di più sulla
+fisica (dosimetria), mancava la parte radiobiologica (come si correlano i risultati radiobiologici
+rispetto alla dosimetria e alla microdosimetria in queste strutture) rispetto alla parte di
+competenza più bioingegneristiche. NeuMUSIC ha dimostrato poca consapevolezza sulla
+possibilità di irraggiare presso facility quali LENA.
+
+[Bersani]: sono d’accordo con Valeria Conte. GREEAT interessante ma ambizioso. RADIANT
+meno solida ma interessante. ATOMIQA candidata molto preparata. PHOTO-si molto
+ambizioso per la scala di un progetto giovani non compatibile. PRIMUS mi è molto piaciuto il
+progetto, presentazione non ottimale. OPTIMAL progetto grande e costoso. BIORAD3D
+interessante ma come riportato da esperti forse manca contributo di fisica. DEBELLI non ha
+convinto il progetto. FORM3D molto ben presentato. FLASH non ha convinto.
+
+[Bruzzi]: GREEAT progetto OK, argomento interessante e applicazione particolare, ma è
+importante per INFN lavorare su grafene. RADIANT, brevetto esistente ok, lascio agli esperti
+un commento a riguardo, buona presentazione, ATOMIQA ben presentato, gruppo solido,
+discussione su doppio grant.
+PHOTO-SI: molto interessanti queste strutture, possibili applicazioni biomedicali. Il candidato
+però non ha dimostrato particolari competenze pregresse che permettano di ottenere i
+risultati proposti nel corso del grant. Magneto sputtering ha un costo che non è compatibile
+con il piano finanziario grant giovani. NeuMUSIC (è di Firenze, conflitto di interessi) Ma voglio
+ricordare alla commissione che noi facciamo una valutazione comparativa, quindi non
+dobbiamo tener conto che era stato già valutato l’anno scorso. PRIMUS ottima impressione e
+padronanza della tematica.
+OPTIMAL progetto calcolo, rivelatore non giustificato come approccio, punto molto debole,
+progetto eccessivamente strutturato (wp disseminazione? non necessario per grant giovani).
+DIANA, candidata molto competente, bella anche la tematica di sostenibilità deve essere un
+plus da considerare. DEBELLI poca profondità bibliografica.
+
+[Sbarra] GREEAT: anche se le applicazioni sul rivelatore sono lontane, io credo che il progetto
+sia buono e lei molto consapevole, su RADIANT il ruolo della proponente sembra meno
+rilevante e ha poco idea sugli ordini di grandezza, la vedo più debole. ATOMIQA: la
+proponente chiaramente è competente perché lavora già su questi temi, il proponente di
+PHOTOSi non ha dato sufficienti motivazioni sull’importanza e sul problema della proposta.
+La proponente di NeuMUSIC non ha saputo rispondere alle domande su efficienza (ha risposto
+con un numero troppo alto), l’originalità del progetto è moderata. PRIuS mi ha convinto, il
+progetto è interessante e il proponente è preparato ed entusiasta, QUTE presenta un
+argomento di punta, il proponente è competente ma non me ne intendo abbastanza per
+valutare la forza del progetto, DIANA è stato il mio grant preferito, BIORAD3D non è nelle mie
+competenze, ma non mi ha convinto nelle sue risposte alla commissione, DEBELLI non ha
+portato un’idea particolarmente originale, anche perché sembra già dentro alla roadmap di
+GEANT4INFN, il proponente di FORM3D ha spiegato molto bene il problema e le strategie per
+
+
+                                               23
+risolvere. OPTIME non mi ha convinto perché la presentazione è stata confusionaria. Il ruolo
+del proponente di FLASH mi è sembrato marginale.
+
+[Alessandro Di Mattia (CSN1)]: molto interessante GREEAT. DIANA molto convincente: idea
+innovativa. Scettico su PRIMUS, tecnica già usata in CSN1 sulle emulsioni ed esiste ed è
+consolidata. Non chiaro il caso di fisica e le problematiche di allineamento tra le varie slices
+
+[Simi]: GREEAT Apponi il progetto mi è piaciuto, ottima competenza e prospettive di
+applicazione. Su RADIANT sottoscrivo quanto detto da Bortolussi. ATOMIQA oggetto
+interessante, forse incrementale rispetto al lavoro precedente. PRIMUS la tecnica non era
+fare tracciatura, ma solo identificare blob su singola slice e quindi riconoscere la firma del
+rinculo della particella carica, progetto interdisciplinare in linea con CSN5. QUTE-FDS è un
+progetto complicato ma se l’idea viene dimostrata questo avrà grandi ricadute
+nell’applicazione per Einstein Telescope. FLASH piaciuto molto, legato allo sviluppo di
+rivelatori anche per fisica delle alte energie. DIANA molto interessante, idea innovativa e
+originale. BIORAD3d: dalla presentazione non è chiara l’innovatività. OPTIMAL: rivelatore
+c’entra poco con ottimizzazione beamline che è l’obiettivo centrale del progetto.
+
+[Groppi] GREEAT interessante, ben organizzato, la proponente ha risposto in modo
+competente, ATOMIQA interessante e bilanciato ma non mi è sembrato innovativo, PHOTOSi
+mi è sembrato limitato sulle milestone e le risposte non sono state brillanti, NEUMUSIC vede
+un po’ di problemi sperimentali con pochi FTE. OPTIMAL, risponde bene alle domande. DIANA
+mi ha impressionato positivamente. Su BIORAD3D mi allineo alla maggioranza. DEBELLI e
+FORM3D sono interessanti.
+
+[Romano] Commento generale: non sono del tutto d’accordo con Scifoni sulla qualità media
+dei progetti. Tutti hanno sicuramente fatto un ottimo lavoro di scrittura e di presentazione,
+ma rispetto ad altri anni la qualità è medio alta, e avrei poca difficoltà a selezionare i migliori.
+Mi è piaciuto GREEAT per la sfida tecnologica e la presentazione, la proponente di RADIANT
+non ha mostrato sufficiente sicurezza, ma la tematica è interessante. ATOMIQA presenta un
+argomento completamente diverso dal precedente MUSICA e associo questo commento a
+FORM3D perché sono due progetti importanti in CSN5 perché volti alla traslazione clinica. Il
+proponente di PHOTOSi non mi ha convinto nella discussione, stessa cosa la proponente di
+NEuMUSIC, perchè mi aspettavo un lavoro di miglioramento rispetto al progetto che avevamo
+già valutato. PRIMUS non è nelle mie corde e la presentazione è stata troppo enfatica. Su
+QUTE non ho abbastanza competenze per commentare. Su OPTIMAL non capisco
+l’innovatività e una vera applicazione. DIANA è stato ben presentato con uno stile adeguato
+e si vedeva la sua competenza e la sua appartenenza al progetto. Su BIORAD3D mi associo
+alla maggioranza sulla mancanza di innovatività: se si fosse focalizzato sulla validazione della
+parte in vivo e sulla parte fisica della radiobiologia avrebbe avuto un taglio diverso. DEBELLI
+(conflitto: ex dottorando) progetto non in linea con la sua esperienza precedente, poco solida
+
+
+                                                24
+la competenza sulle tematiche del progetto. Poco chiaro cosa aggiunge il progetto alle attività
+già in corso nella collaborazione Geant4.
+
+[Morozzi]: DIANA ha colpito: eccellente. Commento generale: non tutti i progetti erano di
+taglia grant giovani. PRIMUS: la presentazione ha convinto, padronanza oltre alla
+consapevolezza e trasparenza dei risultati attesi. FORM3D ha convinto molto. BIORAD3D: dal
+proposal mi aveva convinto, considerati però i commenti degli esperti di queste tematiche ho
+rivalutato il progetto. RADIANT: progetto convincente e con basi solide. NeuMUSIC va
+valutato come nuovo progetto ma non mi ha convinto. Confrontando però la presentazione
+di quest’anno e dello scorso anno non è cambiato nulla. Non è stato fatto sforzo per
+rimodulare il progetto. ATOMIQA è incrementale o c’è vera innovatività?
+GREEAT l’applicazione non ha convinto molto, anche se il progetto non è male. FLASH e
+DEBELLI hanno convinto poco.
+
+[PILO]: più convincenti: PRIMUS, vale la pena investire su questo filone di ricerca e inserirlo
+nell’INFN potrebbe essere importante. QUTE-FDS, è difficile capire il modo dell’ottica per i
+non esperti che sono poco rappresentati in CSN5, sarebbe importante capire quanto queste
+tematiche siano integrate con ET e rilevanti per l’applicazione finale. DIANA, caratterizzazione
+del materiale deve essere fatta con cura, forse bisogna rivalutare dove caratterizzare il
+materiale.
+Meno convincenti: OPTIMAL poca trasferibilità dei risultati su altri setup, quindi rilevanza.
+FLASH perchè la scelta dell’applicazione presentata? poco forte il caso scientifico. DEBELLI
+poco convincente sul rivelatore a gas.
+ATOMIQA (sono refereee di MUSICA) proponente molto brava, progetto procede molto bene.
+
+[Torrisi]: poca esperienza sulle tematiche dei grant presentati. Mi hanno colpito le
+presentazioni: GREEAT, PRIMUS, DIANA (migliore della giornata), FORM3D.
+
+[Ammendola]: Colpito positivamente da GREEAT, ben inserita anche in altri progetti. PRIMUS:
+lavoro seminale da valorizzare. FORM3D.
+
+[Vaccarezza]: molto lontane dalle mie competenze. In ogni caso, le proposte più interessanti
+che mi hanno colpito: QUTE-FDS, la riduzione del rumore di questi segnali è molto rilevante
+nell’ambito dei progetti come ET, argomento di punta, vale la pena investire. DIANA molto
+interessante anche per la sostenibilità e ben presentata. FORM3D molto convincente.
+RADIANT interessante anche interazione con deutoni. PRIMUS argomento interessante, ben
+presentato.
+
+[Tangaro]: Condivido la maggior parte dei giudizi già espressi. I progetti che hanno convinto
+di più sono DIANA e PRIMUS. Condivido le stesse perplessità su DEBELLI e FLASH.
+
+
+
+
+                                              25
+[Fabbri]: FORM3D molto interessante, però molto spostato su tecnologia. DIANA molto
+interessante, alcuni dubbi sulla timeline in due anni.
+
+[Lonardo]: Ho considerato innovatività e provenienza dell’idea dal candidato. Valutazione NO:
+NeuMUSIC, BIORAD3D per quanto già detto.
+Valutazione FORSE: Radiant, programma molto complesso e competenza ristrette della
+proponente rispetto a tutto il progetto. ATOMIQA sviluppo incrementale, innovazione
+limitata. QUTE-FDS topic di interesse, ma molti lavori nel campo. OPTIMAL poco chiaro nel
+focus del progetto anche se ben preparato. DEBELLI lo sviluppo è importante di geant4-dna
+ma innesto di GEM-pix sembra artificiale. FORM3D interessante anche se lontano da
+applicazioni cliniche nel breve termine. FLASH manca applicazione di riferimento, sono nel
+core di tematiche INFN? forse più adatto a R4I?
+SI: GREEAT. PHOTO-SI può essere interessante. PRIMUS presenta alcune difficoltà tecniche
+toccate superficialmente, ma il candidato ha convinto. DIANA: condivido quanto già detto,
+candidata calma e sicura con padronanza.
+
+A questo punto termina la riunione della CSN5 per dare spazio alla riunione ristretta della
+Commissione giudicatrice dei grant giovani.
+
+
+
+
+                                             26
+

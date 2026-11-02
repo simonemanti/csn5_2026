@@ -1,0 +1,122 @@
+{
+  "file": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/Y_Animation/v1_Animation.blend",
+  "frames": [
+    1,
+    336
+  ],
+  "fps": 24,
+  "duration_s": 14.0,
+  "sweep_z_degrees": 80.0000019416116,
+  "xy_rotation_range": [
+    0.0,
+    0.0
+  ],
+  "curve_animation": false,
+  "curve_data_animation": false,
+  "camera_animation": false,
+  "marker_max_curve_deviation_camera_units": 0.02503227017528732,
+  "marker_max_curve_deviation_full_hd_px": 0.04569470844352517,
+  "subedge_visibility_errors": [],
+  "aboveedge_visibility_errors": [],
+  "font_count": 0,
+  "libraries": [],
+  "external_images": [],
+  "keyframe_interpolation": {
+    "hide_render": [
+      "CONSTANT"
+    ],
+    "hide_viewport": [
+      "CONSTANT"
+    ],
+    "nodes[\"Principled BSDF\"].inputs[29].default_value": [
+      "LINEAR"
+    ],
+    "nodes[\"Emission\"].inputs[1].default_value": [
+      "LINEAR"
+    ],
+    "location": [
+      "LINEAR"
+    ],
+    "scale": [
+      "LINEAR"
+    ],
+    "rotation_euler": [
+      "LINEAR"
+    ],
+    "[\"progress\"]": [
+      "LINEAR"
+    ]
+  },
+  "loop_endpoints": [
+    {
+      "frame": 1,
+      "marker": [
+        645.8168334960938,
+        -433.1072082519531,
+        193.23204040527344
+      ],
+      "crystal": [
+        0.0,
+        0.0,
+        -1.205400824546814
+      ],
+      "progress": 0.0,
+      "sample_emission": 0.0,
+      "fluor_hidden": true
+    },
+    {
+      "frame": 336,
+      "marker": [
+        645.8168334960938,
+        -433.1072082519531,
+        193.23204040527344
+      ],
+      "crystal": [
+        0.0,
+        0.0,
+        -1.205400824546814
+      ],
+      "progress": 0.0,
+      "sample_emission": 0.0,
+      "fluor_hidden": true
+    }
+  ],
+  "render_resolution": [
+    1920,
+    1080
+  ],
+  "blend_sha256": "f6cdb7d85e7f4a06370bdbe75951693464093f317b4f8e30e2a11c3237c601c6",
+  "loop_render_comparison": {
+    "resolution": [
+      480,
+      270
+    ],
+    "identical": true,
+    "max_channel_difference": 0,
+    "changed_pixels": 0
+  },
+  "full_hd_sequence": {
+    "frame_count": 336,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "loop_endpoints_identical": true
+  },
+  "video": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_frames": "336"
+      }
+    ],
+    "format": {
+      "duration": "14.000000",
+      "size": "992806"
+    }
+  }
+}

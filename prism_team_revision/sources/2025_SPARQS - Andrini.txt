@@ -1,0 +1,1003 @@
+   SPARQS: Silicon Photonic Architecture of Robust
+      Quantum Sources for a scalable testbed in
+                quantum computing
+
+
+                       GRETA ANDRINI
+                   INFN – sez. di Torino
+
+
+
+
+01/12/2025         GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   1
+                                             Single photon sources in silicon
+                   •     Point defects: individual transitions→on-demand single photon emission with given properties
+                   •     Unique spin-photon interface
+
+                                        CB
+State of the art
+
+
+
+
+                                                       Andrini G. et al., Photonics 2024, 11(2)
+                                        VB
+
+                          ❑ Bright telecom wavelength single photon
+                            sources T<110K
+                          ❑ Silicon-based solutions benefit from
+                            microelectronics and integrated photonics
+                            know-how
+
+                               Applications:
+                               o Quantum communication
+                               o Quantum information processing
+
+
+                       01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                     2
+                                             Single photon sources in silicon
+                   •     Point defects: individual transitions→on-demand single photon emission with given properties
+                   •     Unique spin-photon interface
+
+                                        CB
+State of the art
+
+
+
+
+                                                                                                  M. Khoury& M. Abbarchi, J. Appl. Phys.
+                                                       Andrini G. et al., Photonics 2024, 11(2)
+                                                                                                  131, 200901 (2022)
+                                        VB
+
+                          ❑ Bright telecom wavelength single photon
+                            sources T<110K
+                          ❑ Silicon-based solutions benefit from
+                            microelectronics and integrated photonics
+                            know-how
+
+                               Applications:
+                               o Quantum communication
+                               o Quantum information processing                                   Ensemble spectrum of G centers
+
+
+                       01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                              2
+                                                           Single photon sources in silicon
+
+
+                                                              ❑ RF field can control spin-dependent radiation dynamics of the
+                                                                metastable triplet state
+
+                                                              ❑ Optically Detected Magnetic Resonances are affected by nuclear spins
+                                                                → quantum storage
+State of the art
+
+
+
+
+                       M. Khoury& M. Abbarchi, J. Appl. Phys. 131, 200901 (2022)
+
+
+
+                                                                                       First evidence on ensemble (80s)
+
+                                                     CB                       OMDR signal (a.u.)
+                                                          Optical                                                MW
+                                                          Detrapping                                             fixed
+                                                                   |0ۧ
+                              Excitation
+
+                                           0.97 eV
+
+
+
+
+                                                     PL
+                    1.17 eV
+
+
+
+
+                                                                   | ± 1ۧ
+
+
+
+
+                                                          RF Detrapping
+
+
+
+
+                                                     VB
+                                                                                                   B(T) → Zeeman effect
+                              G center’s energy levels                           K. M. Lee et al., Phys. Rev. Lett. 48, 37 (1982)
+
+
+
+                   01/12/2025                                               GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                  3
+                                                           Single photon sources in silicon
+
+
+                                                              ❑ RF field can control spin-dependent radiation dynamics of the
+                                                                metastable triplet state
+
+                                                              ❑ Optically Detected Magnetic Resonances are affected by nuclear spins
+                                                                → quantum storage
+State of the art
+
+
+
+
+                       M. Khoury& M. Abbarchi, J. Appl. Phys. 131, 200901 (2022)
+
+
+
+
+                                                     CB
+                                                          Optical           Electron spin             Nuclear spin     •   How do the nearby
+                                                          Detrapping
+                                                                   |0ۧ
+                                                                                                                           nuclear spins couple to
+                                                                                                                           the G electronic spin?
+                              Excitation
+
+                                           0.97 eV
+
+
+
+
+                                                     PL
+                    1.17 eV
+
+
+
+
+                                                                   | ± 1ۧ
+
+
+
+
+                                                          RF Detrapping                                                •   G center ground state
+                                                                                                                           S=0 → long nuclear
+                                                                                                                           spins coherence time
+                                                     VB
+
+                              G center’s energy levels
+
+
+                   01/12/2025                                                 GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                               3
+                                          Silicon-based quantum optics
+                       ❑ Electrically injected monolithic solution for cryogenic photonic integrated circuits
+                         with ensembles of W quantum emitters.
+
+
+
+
+                                                   S. Buckley et al., Appl. Phys. Lett. 111, 141101 (2017)
+State of the art
+
+
+
+
+                   01/12/2025                        GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                     4
+                                          Silicon-based quantum optics
+                       ❑ Electrically injected monolithic solution for cryogenic photonic integrated circuits
+                         with ensembles of W quantum emitters.
+
+
+
+
+                                                     S. Buckley et al., Appl. Phys. Lett. 111, 141101 (2017)
+
+                       ❑ DC-field manipulation of ensembles of G quantum emitters embedded in a diode.
+State of the art
+
+
+
+
+                       ❑ Imaging of the electric-field distribution.
+
+
+
+
+                                                A. M. Day et al., Nat. Comm. 15, 4722 (2024)
+
+
+
+
+                   01/12/2025                          GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                   4
+                                                      Silicon-based quantum optics
+                       ❑ Electrically injected monolithic solution for cryogenic photonic integrated circuits
+                         with ensembles of W quantum emitters.
+
+
+
+
+                                                                   S. Buckley et al., Appl. Phys. Lett. 111, 141101 (2017)
+
+                       ❑ DC-field manipulation of ensembles of G quantum emitters embedded in a diode.
+State of the art
+
+
+
+
+                       ❑ Imaging of the electric-field distribution.
+
+
+
+
+                                                             A. M. Day et al., Nat. Comm. 15, 4722 (2024)
+
+                       ❑ Tuning of single G emitters’ spectral properties with foundry-fabricated
+                         photonic integrated circuit (PIC).
+
+
+
+
+                                M. Prabhu et al., Nat. Comm. 14, 2380 (2023)                           A. Buzzi et al., Nat. Comm. 16, 8829 (2025)
+
+
+                   01/12/2025                                        GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                          4
+                                          Creation of silicon quantum emitters
+                                                  General rule: Ion Implantation + thermal treatment
+
+
+
+
+                                                                                                             Industrially available techniques
+
+                                                                                                             Controlled position and fluence
+State of the art
+
+
+
+
+                                                                    Ion Implantation at LNL INFN
+
+
+                                So far, isolating single emitters has mostly relied on a purely statistical approach
+
+
+
+
+                   1.                                                                           Multi-step fabrication processes
+                                                                                               required to integrate randomly distributed
+                                   1000°C                                                      emitters into photonic structures.
+                   2.
+                                                                                                Alternative Focused Ion Beam Technology
+                                                                                               can be used → still a statistical approach
+                   3.
+                                          M. Hollenbach et al., Vol. 28, No. 18/31 August
+                                          2020/Optics Express 26111
+
+
+
+
+                   01/12/2025                                       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                     5
+                                     Creation of silicon quantum emitters
+
+
+                                    What are the main fabrication challenges?
+State of the art
+
+
+
+
+                           Ion Implantation at LNL INFN
+
+
+
+
+                       Ion Implantation + thermal treatment
+
+                   01/12/2025                     GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   6
+                                      Project goal
+
+
+
+
+               Goal 1: platform-independent approach for the controlled
+               creation of multiple single-photon sources
+
+               Goal 2: Realization of a silicon qubit platform for spin state
+               coherent manipulation
+
+
+
+
+             Large-scale quantum networks and quantum computing
+
+
+
+
+01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO          7
+                                    Project goal
+
+Scalable, silicon-based, fault-tolerant array of quantum emitters that serves
+as a testbed for generating and controlling photonic quantum states.
+
+                                           How?
+
+
+      WP1: End-to-end architecture for wafer-scale production of telecom color
+                                centers in silicon
+                 Coordinator: Greta Andrini, Postdoc, INFN-TO
+
+
+
+             Collimated ion beams technology and in-situ laser
+             processing
+
+
+             Laser processing techniques for silicon defects
+             engineering developed by the PI
+
+
+
+
+01/12/2025                    GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO             8
+                                       Project goal
+
+Scalable, silicon-based, fault-tolerant array of quantum emitters that serves
+as a testbed for generating and controlling photonic quantum states.
+
+                                              How?
+
+
+             WP2: Silicon qubit platform for spin state coherent manipulation
+              Coordinator: Gabriele Zanelli (Postdoc INRiM), Greta Andrini
+
+
+
+                Post selection of optimal emitters through cryogenic confocal
+                microscopy and HBT interferometry
+
+                Coherent control of qubits using the Optically Detected Magnetic
+                Resonance technique.
+
+
+
+
+01/12/2025                       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO            9
+                                             Turin Ion Implantation facility
+
+                                                                                            QUANTEP project INFN CSN5
+                                                                                            Call "Quantum Technologies" 2020
+
+                                                              100 kV maximum terminal potential
+Proposal – WP 1
+
+
+
+
+                               Laboratory for Ion Implantation at the University of Torino (LIUTo)
+
+
+                  01/12/2025                       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                10
+                                               Turin Ion Implantation facility
+
+                                                                                            QUANTEP project INFN CSN5
+                                                                                            Call "Quantum Technologies" 2020
+
+                                                              100 kV maximum terminal potential
+Proposal – WP 1
+
+
+
+
+                               Laboratory for Ion Implantation at the University of Torino (LIUTo)
+
+
+                  01/12/2025                       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                10
+                  ❑ 1° y
+                  ❑ 2° y        Ion implantation and in-situ laser annealing
+                                 Chamber upgrade
+                                                                                       Device Fabrication
+
+
+                                                                            1. In-situ and diffraction-limited laser
+                                                                            processing (100 μJ pulse)
+
+                                                                            2. Implantation resolution with
+Proposal – WP 1
+
+
+
+
+                                                                            collimation masks down to ~ 5µm
+
+                                                                            3. Stirling cryocooler for exploratory in-
+                                                                            situ confocal microscopy
+
+
+
+
+                                                                                        Custom Objective:
+                                                                                        12 k€ (1° year)
+
+                                                                                        Cryocooler: 42 k€ (2° year)
+
+                                                                                        Optics and Optomechanics
+                                                                                        (1° and 2° year): 31 k€
+
+
+
+                   01/12/2025                 GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                 11
+                  ❑ 1° y
+                  ❑ 2° y        Characterization of the optical properites
+                                Telecom single-photon cryogenic confocal microscopy
+
+                     5K<T<350K                                                                  Instrumentation at the Quantum
+                                                                                                Optics Laboratories – Research
+                                                                                                Unit 2:
+
+                                                                                                1. Superconductive Nanowire
+                                                                                                   Single Photon Detector
+                                                                                                   (@1550 nm) T = 2.5 K
+Proposal – WP 1
+
+
+
+
+                                                                                                2. Interferometer for Fourier
+                                                                                                   Transform spectroscopy
+
+
+                                                                                                  Device
+                                                                                              Characterization
+
+                                                                            •    Optical sectioning → high contrast
+                                                                            •    Diffraction-limited resolution
+                                                                                                     λ
+                                                                                       𝑟𝑥,𝑦 = 0,6         ~ 1 𝑢𝑚
+                                                                                                    𝑁. 𝐴.
+
+                                                                                               2𝑛λ
+                                                                                       𝑟𝑧 =          ~ 4 𝑢𝑚
+                                                                                              𝑁. 𝐴.2
+
+                   01/12/2025                 GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                    12
+                  ❑ 1° y
+                  ❑ 2° y                  Coherent manipulation of silicon qubits
+                                                       Step 1: Hanbury Brown & Twiss interferometry
+                  Photoluminescence map
+
+
+
+
+                                                             Single-mode
+                                                             fiber
+Proposal – WP 2
+
+
+
+
+                   E. Corte & G. Andrini et al., ACS
+                   Photonics 2023, 10, 1, 101–110
+
+
+
+
+                    01/12/2025                                 GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   13
+                  ❑ 1° y
+                  ❑ 2° y                  Coherent manipulation of silicon qubits
+                                                       Step 1: Hanbury Brown & Twiss interferometry
+                  Photoluminescence map
+
+
+
+
+                                                             Single-mode
+                                                             fiber
+Proposal – WP 2
+
+
+
+
+                   E. Corte & G. Andrini et al., ACS
+                   Photonics 2023, 10, 1, 101–110
+                                         Device
+                                        Validation
+                    Second-order autocorrelation function
+                       Classical expression
+                                                                                                        • R1, R2 = count
+                                                                                                          rate detector 1,2;
+                                                                                                        • T = acquisition
+                          Quantum formalism                                                               time;
+                                                                                                        • w = bin width
+
+
+
+
+                    01/12/2025                                 GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                13
+                  ❑ 1° y
+                  ❑ 2° y                  Coherent manipulation of silicon qubits
+                                                       Step 2: CW Optically Detected Magnetic Resonance
+                  Photoluminescence map
+
+                                                                                                         Click signal
+
+
+
+
+                                                                                                         SNSPD 1
+                                                                                                                           Multifunction
+Proposal – WP 2
+
+
+
+
+                                                                                                                            I/O board
+                   E. Corte & G. Andrini et al., ACS                                                          MW trigger
+                   Photonics 2023, 10, 1, 101–110
+                                         Device
+
+
+
+
+                                                                                                                                Counts
+                                        Validation
+                                                                                                 MW
+                                     arXiv:2510.15590, Oct 25
+                                                                                               generator
+
+                                                                                                          Counts
+
+
+
+
+                    01/12/2025                                  GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                   13
+                                  My expertises and SPARQS incomes
+
+                                                                                                          7 μm
+                                                                                       2 years from PhD, 16 ISI
+                                                                                       publications, INFN Affiliation:
+                                                                                       2020- today
+
+
+                                                                                   •   QUANTEP INFN Call
+                                                                                       PhD Thesis: Fabrication and
+Supporting results
+
+
+
+
+                                                                                       characterization of telecom
+                                                                                       quantum emitters in silicon for
+                                                                                       quantum technology
+                                                                                       applications. (Awarded with
+                                                                                       IEEE Gatti Manfredi Award
+                                                                                       2025)
+
+                                                                                   •   ROUGE: Advanced irradiation
+                                                                                       strategies, collimation masks
+
+                                                                                   •   AURORA: quantum sensing
+                                                                                       protocols
+
+                                                                                   •   PNRR NQSTI, Spoke4
+                                                                                       Controlled fabrication of SPs
+
+
+                     01/12/2025           GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                    14
+                                                   SPARQS outcomes
+
+                                                                                                   7 μm
+
+                     Photon-based quantum technologies:
+
+                     •     Turnkey approach compatible with INFN SOI technology.
+
+                     •     Native Telecom qubits addressing current scientific efforts in photon
+                           frequency conversion.
+Supporting results
+
+
+
+
+                     •     Single photon sources compatible with CMOS-based cryogenic control
+                           of quantum circuits
+
+
+                     Other technological and interdisciplinary research:
+
+                     •     Expanding the capabilities of the ion implantation facility
+
+
+
+                     CSN5 funded experiments:
+                     • QUERIS: Single-photon sources for Quantum enhanced recognition
+
+
+
+                     01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO               15
+                                          Research group
+
+              Research Unit 1: INFN-TO @ Physics Department
+              Coordinator: Greta Andrini, FTE 1
+              1 Full professor, 1 Associated professor, 1 Senior Researcher, 1 RTD, 1
+              Technologist, 2 Post-docs, 2 PhD students, TOT FTE: 3,4
+
+              •     Ion implantation
+              •     Activation and characterization of single emitters
+              •     Electronics for coherent manipulation of spin qubits
+Who?
+
+
+
+
+              Research Unit 2: INFN-TO @ INRiM
+              Coordinator: Gabriele Zanelli, Postdoc INRiM, (Greta Andrini)
+              2 Director of Research, 1 Senior Researcher, 1 PhD student, TOT FTE: 1
+
+              •     Optical characterization of telecom color centers
+              •     Dedicated ODMR protocols
+              •     IR Single photon detectors (SNSPDs)
+
+
+
+
+       01/12/2025                        GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO         16
+                                 Project Timeline
+
+M12:                                                 M24:
+•    Activation of micrometer-sized regularly        •    Commissioning of the upgraded
+     spaced spots with G quantum emitters                 irradiation chamber.
+
+•    PL signal modulation under microwave •               Identification of the optimal emitters
+     excitation (laser optical power, microwave           g(0) < 0.5 and ODMR manipulation of
+     intensities, additional external fields)             single spins
+
+
+
+
+01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                             17
+                                   Project budget
+
+                                                              1%          5%
+1° year (60.5 k€):                               MW antenna              Travels
+• Acquisition of the high-energy ns-pulsed laser design
+• Acquisition of the custom reflective objective
+• Realization of the dedicated optical path                                         53%
+                                                                                   Cryogenic
+2nd year (48.5 k€) :                                                               Instrumentation
+• Acquisition of the Stirling cryocooler
+                                                           41%
+• Acquisition of the dedicated thermal strap
+                                                    Laser prosessing
+• Design of the MW antenna
+                                                    instrumentation
+
+
+
+
+01/12/2025                      GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                       18
+             Thank you for your attention!
+
+
+
+
+01/12/2025        GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   19
+             Backup slides
+
+
+01/12/2025       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   20
+                Photonic quantum technologies @ INFN
+
+
+                         2018-2028: € 1 billion for the Quantum Flagship
+
+
+
+                         2023-2026: Piano Nazionale di Ripresa e Resilienza
+INFN
+
+
+
+
+                         (PNRR), 116 M €
+
+                         2021-2025: Quantum-oriented funded projects:
+                         INFN QUANTEP National Call
+                               Photons as carriers of quantum information:
+                               ✓ Store the information of “stationary qubits.”
+                               ✓ Transfer quantum info over long distances
+                               ✓ Easily detected with single-photon detectors
+
+
+
+                                                Point defects in solids can provide:
+                                                ✓ On-demand single-photon sources
+                                                ✓ A unique spin-photon interface
+
+
+
+   01/12/2025             GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                   21
+                              Diamond-based quantum optics
+
+
+
+
+Unique spin properties → quantum sensing: the                            Science Advances 2017, 3 e1602429 Melbourne
+spin state transition can be coherently driven by                              Current imaging in 2D materials
+microwaves.
+                 Group IV elements for scalable quantum photonic devices
+
+
+
+
+•   ns excited state lifetime
+•   strong emission into the ZPL
+                                 Bradac, C. et al., Nature Communications volume 10, Article number: 5625
+•   high-fidelity spin control   (2019)
+
+    01/12/2025                        GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                   22
+                          Diamond-based quantum optics
+
+     Diamond for laboratory-scale quantum memories and quantum networks
+  The Nitrogen-Vacancy (NV) center               10-qubit quantum register                   3-node remote quantum
+                                                                                             network
+
+
+
+
+                                                 C. E. Bradley et al. Phys. Rev. X 9,
+                                                 031045 (2019)
+                                                                                          Pompili et al., Science 372, 259–264 (2021)
+Unique spin properties → quantum
+                                                                             2-node quantum network
+information and sensing: microwave-driven                   Frequency conversion
+coherent control.
+
+
+    Lack of technology for wafer-scale
+    diamond photonic integrated circuits
+
+    Frequency conversion required for
+    low-loss optical components
+
+                                                                                        C. M. Knaut et al., Nature, 629, 573–578 (2024)
+
+
+01/12/2025                       GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                                    23
+                              SiC-based quantum optics
+
+
+ ❑ Color centers from UV to IR, even at Telecom wavelengths
+
+
+                              J. Phys.: Photonics 2(2020) 022001
+                              S. Castelletto and A. Boretti
+                                                                          •   Energy gap: 3.3 eV
+                                                                          •   Mature production protocols
+                                                                          •   High optical nonlinearity
+                                                                          •   Suitability for nanofabrication
+
+
+
+ ❑ CMOS Compatible Platform for Harsh-Environment Electronics                       H. Wang et al., Materials Science in
+                                                                                    Semiconductor Processing 178 (2024)
+
+                               https://microdevices.jpl.nasa.gov/capabilities/
+SiCMag (NASA project)          nano-and-micro-systems/sic-magnetometer/
+
+to sense the magnetic
+fields of planetary bodies:
+
+→ Vector magnetometer
+for space application
+
+
+
+  01/12/2025                     GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                        24
+                                         SiC-based quantum optics
+
+
+    The 4H-SiC crystal structure results in 2 inequivalent lattice sites for the 𝑉𝑆𝑖 center.
+
+                                             S. A. Tarasenko et al., Phys. Status Solidi B
+    J. Phys.: Photonics 2(2020) 022001       2017, 00, 1700258
+    S. Castelletto and A. Boretti
+
+                               T = 70 K
+           862 nm      917 nm
+
+                         ~4ns lifetime
+      858 nm             ~ 10 kcounts/s
+
+
+
+
+                                                                                         ❑ Suitability for quantum
+•    V1, V2 ODMR active                                                                    information applications
+•    ms-long spin coherence time
+•    𝑇2∗ = 30 µs
+•    High inizialization fidelity
+                                                                                         ❑ Nanotesla magnetometry
+                                                                                           (4.0 nT/√Hz)
+
+
+    01/12/2025                             GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                              25
+                                                 Creation of silicon quantum emitters
+
+                        General rule: Ion Implantation +                                                          So far, isolating single emitters
+                              thermal treatment                                                                   has mostly relied on a purely
+                                                                                         1.                       statistical approach
+
+
+                                                                                                          1000°C
+                                                                                         2.
+State of the art
+
+
+
+
+                                                                                         3.
+                                                      Ion Implantation at LNL INFN
+
+
+
+                   Multi-step fabrication processes to integrate                                     Focus Ion beam technology to enable the
+                   randomly distributed emitters into photonic                                       controlled placement (~100 nm) of single
+                   structures.                                                                       emitters.
+
+                                                                                                    Still probabilistic!
+                                                                                                          25 ions per spot
+
+                                    Single emitters
+
+
+
+
+                    Y. Baron et al., Nat. Comm. 14, 3321 (2023), supplementary info                 M. Hollenbach et al., Nat. Comm.13, Article number: 7683 (2022)
+
+
+                     01/12/2025                                          GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                                26
+                         Research group composition
+                    Research Unit 1: INFN-TO @ Physics Department
+Who?
+
+
+
+
+                          Research Unit 2: INFN-TO @ INRiM
+
+
+
+
+       01/12/2025               GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO   27
+                                 Risks and mitigation
+                                                                  •    Other companies
+Delay in delivery of the Q-switched laser                         •    Objective without custom design
+or related optical elements                                            for off-axis geometry
+
+                                                                  •    Proof-of-concept experiment with
+Unpredictable malfunction or
+                                                                       CW low-power lasers and emitters
+interaction effects of the Q-switched
+                                                                       in diamond
+laser for localized in-situ activation.
+
+                                                                  •    It is still possible to perform the
+Delay in the Stirling Cryocooler or the                                controlled fabrication of the emitters
+thermal strap                                                     •    Ex-situ cryogenic optical
+                                                                       characterization
+
+                                                                  •    Silicon carbide as an alternative
+Unsuccessful ODMR measurements:                                        solid-state platform with
+Poor ODMR signal contrast                                              consolidated ODMR and laser-
+                                                                       annealing protocols
+
+
+                                                                  •    The PI benefit from access to the
+                                                                       LNL AN2000 facility and beamtime
+Unpredictable malfunctioning of the                                    for FIB technology at the HZDR
+INFN-TO ion implanter                                                  center and FBK institute.
+                                                                  •    Ex-situ cryogenic characterization
+
+
+ 01/12/2025                         GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                 28
+                           Future perspectives
+
+
+•    Realization of embedded SPs by combining the end-to-end experimental
+     methodology developed in the SPARQS project with dedicated photonic
+     structures (QUANTEP know-how).
+
+•    Investigation of alternative fabrication protocols based on cryogenic
+     implantations for accessing higher creation efficiency of the quantum
+     emitters.
+
+•    Synergistic integration of the end-to-end experimental workflow with a
+     dedicated single-ion-counting protocol, ensuring precise control of process
+     uniformity and efficiency.
+
+
+
+
+01/12/2025                   GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO            29
+                 Consolidated strategies at INFN-TO
+       Single-photon sensitive cryogenic confocal microscopy to address SPs
+
+                   Unprecedented insights into
+                   the MgV optical activity!
+
+
+
+
+                Experimental confirmation of the system’s
+                predicted temperature tunability                        Future qubit?
+
+
+
+
+                                           PL map at T = 7 K
+
+01/12/2025                     GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                   30
+                  Consolidated strategies at INFN-TO
+Investigation of the competing processes involved in forming defect complexes
+                                                                       keV implantation
+
+
+
+
+                                                                       MeV implantation
+«Hot» implantation and dual beam implantation
+                Silicon             W ZPL
+  Ion beam      substrate           1217 nm
+
+
+
+
+              Heating
+              element
+
+
+
+ 01/12/2025                   GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                      31
+                                        Consolidated strategies at INFN-TO
+                                   Investigation of formation dynamics and defect engineering
+                                                                                             Controlled and localized
+                                                                                             ex-situ activation of G
+                                                                                             centers.
+Supporting results
+
+
+
+
+                                                                                             Thermal budget below the
+                                                                                             melting point!
+                                                                                                                        SiC
+                              Silicon
+
+
+
+
+                     01/12/2025                     GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                                32
+                                         Consolidated strategies at INFN
+                                    Ion Beam Induced Charge for single ion counting                            7 μm
+
+
+                                                                                                   Ramo theorem
+Supporting results
+
+
+
+
+                     µm or nm beam → map the device response to the single ion impact!
+
+                                                                        ✓ Single ion sensitivity
+                                                                        ✓ Same wafer to be processed by individual ions
+                                                                        ✓ Probing structure directly on the same wafer
+
+
+                                                                               Proof of concept experiment: in-situ
+                                                                               monitoring of a MeV ion micro-beam
+                                                                               resolution exploiting the spatial correlation
+                     SEM picture (left) and Charge Collection                  between the Charge Collection Efficiency
+                     Efficiency map (right) of a nano-machined                 (CCE) and probing micro-structures
+                     Si photodiode
+
+
+                     01/12/2025                     GRETA.ANDRINI@TO.INFN.IT - INFN-TORINO                              33
+

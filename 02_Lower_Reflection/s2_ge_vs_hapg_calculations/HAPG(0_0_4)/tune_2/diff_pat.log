@@ -1,0 +1,96 @@
+  
+  
+  
+ *****************************************************
+ *           DIFF_PAT    v1.8  (18 Oct 2016)         *
+ *Calculation of a single crystal diffraction profile*
+ *                                                   *
+ *****************************************************
+  
+  Name of file with crystal data (from BRAGG):  What kind of crystal you want to use ?: 
+         [0] Perfect crystal 
+         [1] Mosaic crystal 
+         [2] Bent Multilamellar (ML)
+         [3] Bent Penning-Polder (PP)
+  <?>    What do you want to calculate ?: 
+ [0] Diffracted beam in Reflection (Bragg) geometry
+ [1] Diffracted beam in Transmission (Laue) geometry
+  <?>    mosaic angle spread (FWHM) [deg] ?    Input the thickness of the crystal [cm] 
+  <?>    Please select scanning variable: 
+  [1] Incident/Reflected angle [absolute] 
+  [2] Incident/Reflected angle minus theta Bragg corrected
+  [3] Incident/Reflected angle minus theta Bragg
+  [4] Photon energy 
+  [5] y variable [Zachariasen] 
+ <?>    ... at what grazing angle [deg]:    Input scanning variable limits in the chosen units.
+ Minimum ?    Maximum ?    Number of points ?     
+ So far, we are working with:
+  
+  
+ ******************************************************
+            **  DIFF_PAT  v1.8  (24 Mar 2014) **       
+ Crystal data from file /home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/HAPG(0_0_4)/tune_2/crystal.bra
+        at energy    =    25516.097789046977       eV
+                     =   0.48590579336009826       Angstroms
+        and at angle =    8.3449898082199994       degrees
+                     =   0.14564754819880915       rads
+ ******************************************************
+  
+ For atom            1 :
+        fo + fp+ i fpp = 
+            2.6139650291986456      +   6.0621789482850040E-004 + i   7.0973742483345780E-004 = 
+                  (2.6145712470934739,7.09737424833457799E-004)
+        Z =    6.0000000000000000     
+ Structure factor F(0,0,0) =          (24.002424871579315,2.83894969933383120E-003)
+ Structure factor FH =          (10.458284988373896,2.83894969933126944E-003)
+ Structure factor FH_BAR =          (10.458284988373896,2.83894969933639295E-003)
+ Structure factor F(h,k,l) = sqrt(FH*FH_BAR)          (10.458284988373896,2.83894969933383120E-003)
+ Psi_0  =  (-1.45324353611176586E-006,-1.71886187415524607E-010)
+ Psi_H  =  (-6.33204150809161520E-007,-1.71886187415369510E-010)
+ Psi_HBar  =  (-6.33204150809161520E-007,-1.71886187415679703E-010)
+ |Psi_H/Psi_HBar|  =    1.0000000000000000     
+ sqrt(Psi_H*Psi_HBar)  =    (6.33204150809161520E-007,1.71886187415524607E-010)
+ |Psi_H|  =    6.3320417413881031E-007
+ Refraction index = 1 - delta - i*beta :
+            delta =    7.2662176808790946E-007
+             beta =    8.5943093707762290E-011
+ Absorption coeff =   0.22226381780880985       cm^-1
+ Absorption correction (mu_total/mu_photoelec) =    1.0000000000000000     
+  
+ e^2/(mc^2)/V =    8056177000.0000000       cm^-2
+ d-spacing =    1.6739999999999999       Angstroms
+ SIN(theta)/Lambda =   0.29868578255675032     
+  
+ Photon energy =    25516.097789046977       eV
+        wavelength =   0.48590579336009815       Angstroms
+ Theta (grazing uncorrected Bragg angle)   =   0.14564754819880915       rads
+                                           =    8.3449898082199994       degrees
+ Symmetric Bragg angle (corrected) =   0.14565260836225405       rad
+                                   =    8.3452797342290381       degrees
+ Angle (H,kin) = Bragg angle (corrected) including asymmetry =   0.14565260836225405      rad
+                                                             =    8.3452797342290381       degrees
+ Asymmetry angle alpha=    0.0000000000000000       degrees
+ Asymmetry factor b=    -1.0000000000000000     
+  
+ Extinction lengths and depths given here are for amplitude (for intensities, 
+    consider half value).
+ DEPTH values are measured perpendicular to the crystal surface and LENGTH
+    values are along the incident beam path.
+ Extinction length (amplitude) sigma=    24.425499508037074       microns
+ Extinction length (amplitude) pi=    25.499733505695509       microns
+ Extinction depth (amplitude) sigma=    3.5450720245072151       microns
+ Extinction depth (amplitude) pi=    3.7009843689659392       microns
+ Pendellosung period (amplitude) sigma = Extinction depth sigma times 2 pi =    22.274344457277124       microns
+ Pendellosung period (amplitude) pi = Extinction depth pi times 2 pi =    23.253970609188102       microns
+  
+ width of diffraction profile  s-pol  =     4.4096072482131561       microradians
+                                 =    0.90954678467847838       arc sec
+ width of diffraction profile  p-pol  =     4.2238425608569683       microradians
+                                 =    0.87123006743340181       arc sec
+ File written to disk: diff_pat.gle
+ File written to disk: diff_pat.xop
+ >> 
+ >> Files diff_pat.par (parameters) and 
+ >> diff_pat.dat (E [eV],Lambda [A],...,p-pol,s-pol)
+ >> written  to disk.
+ >> 

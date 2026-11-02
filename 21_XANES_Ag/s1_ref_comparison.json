@@ -1,0 +1,27 @@
+{
+  "normalization_e0_eV": 25514.0,
+  "pre_window_relative_eV": [
+    -280.0,
+    -150.0
+  ],
+  "post_window_relative_eV": [
+    150.0,
+    700.0
+  ],
+  "energy_shift_eV": 0,
+  "smoothing": false,
+  "samples": [
+    {
+      "file": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/21_XANES_Ag/data/Ag_foil/Ag-K_Ag-foil_Si311_50ms_160624.txt",
+      "doi": "10.48505/nims.1453",
+      "edge_step": 1.7108754854144217,
+      "points": 626
+    },
+    {
+      "file": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/21_XANES_Ag/data/Ag2O/Ag-K_Ag2O_Si311_50ms_160624.txt",
+      "doi": "10.48505/nims.1463",
+      "edge_step": 1.1381821747488838,
+      "points": 626
+    }
+  ]
+}

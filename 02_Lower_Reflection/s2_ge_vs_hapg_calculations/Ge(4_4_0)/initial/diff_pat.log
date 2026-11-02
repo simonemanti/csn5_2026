@@ -1,0 +1,123 @@
+  
+  
+  
+ *****************************************************
+ *           DIFF_PAT    v1.8  (18 Oct 2016)         *
+ *Calculation of a single crystal diffraction profile*
+ *                                                   *
+ *****************************************************
+  
+  Name of file with crystal data (from BRAGG):  What kind of crystal you want to use ?: 
+         [0] Perfect crystal 
+         [1] Mosaic crystal 
+         [2] Bent Multilamellar (ML)
+         [3] Bent Penning-Polder (PP)
+  <?>    What do you want to calculate ?: 
+ [0] Diffracted beam in Reflection (Bragg) geometry
+ [1] Diffracted beam in Transmission (Laue) geometry
+ [2] Transmitted beam in Bragg case
+ [3] Transmitted beam in Laue case
+  <?>    Input the thickness of the crystal [cm] 
+  [Type a negative value for using the thick crystal approximation] 
+  <?>    Asymmetric cut angle (deg) between face and bragg planes (CW)= 
+ Please select scanning variable: 
+  [1] Incident/Reflected angle [absolute] 
+  [2] Incident/Reflected angle minus theta Bragg corrected
+  [3] Incident/Reflected angle minus theta Bragg
+  [4] Photon energy 
+  [5] y variable [Zachariasen] 
+ <?>    ... at what grazing angle [deg]:    Input scanning variable limits in the chosen units.
+ Minimum ?    Maximum ?    Number of points ?     
+ So far, we are working with:
+  
+  
+ ******************************************************
+            **  DIFF_PAT  v1.8  (24 Mar 2014) **       
+ Crystal data from file /home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/Ge(4_4_0)/initial/crystal.bra
+        at energy    =    25513.988950111943       eV
+                     =   0.48594595552595160       Angstroms
+        and at angle =    14.060811791400001       degrees
+                     =   0.24540746126317212       rads
+ ******************************************************
+  
+ For atom            1 :
+        fo + fp+ i fpp = 
+            16.399198578402352      +  0.31170958517843977      + i  0.92812758297373110      = 
+                       (16.710908163580793,0.92812758297373110)
+        Z =    32.000000000000000     
+ Structure factor F(0,0,0) =                (258.49367668142753,7.4250206637898488)
+ Structure factor FH =                (133.68726530864635,7.4250206637897502)
+ Structure factor FH_BAR =                (133.68726530864635,7.4250206637899474)
+ Structure factor F(h,k,l) = sqrt(FH*FH_BAR)                (133.68726530864635,7.4250206637898488)
+ Psi_0  =  (-3.02390925494244769E-006,-8.68593344008334518E-008)
+ Psi_H  =  (-1.56389960491365316E-006,-8.68593344008323003E-008)
+ Psi_HBar  =  (-1.56389960491365316E-006,-8.68593344008346032E-008)
+ |Psi_H/Psi_HBar|  =   0.99999999999999989     
+ sqrt(Psi_H*Psi_HBar)  =    (1.56389960491365316E-006,8.68593344008334518E-008)
+ |Psi_H|  =    1.5663098410664590E-006
+ Refraction index = 1 - delta - i*beta :
+            delta =    1.5119546274977580E-006
+             beta =    4.3429667200416726E-008
+ Absorption coeff =    112.30740527679308       cm^-1
+ Absorption correction (mu_total/mu_photoelec) =    1.0000000000000000     
+  
+ e^2/(mc^2)/V =    1556298000.0000000       cm^-2
+ d-spacing =    1.0000879999999999       Angstroms
+ SIN(theta)/Lambda =   0.49995600387165928     
+  
+ Photon energy =    25513.988950111943       eV
+        wavelength =   0.48594595552595155       Angstroms
+ Theta (grazing uncorrected Bragg angle)   =   0.24540746126317212       rads
+                                           =    14.060811791400001       degrees
+ Symmetric Bragg angle (corrected) =   0.24541387675663071       rad
+                                   =    14.061179372098671       degrees
+ Angle (H,kin) = Bragg angle (corrected) including asymmetry =   0.24541387675663071      rad
+                                                             =    14.061179372098671       degrees
+ Asymmetry angle alpha=    0.0000000000000000       degrees
+ Asymmetry factor b=   -0.99999999999999967     
+  
+ Extinction lengths and depths given here are for amplitude (for intensities, 
+    consider half value).
+ DEPTH values are measured perpendicular to the crystal surface and LENGTH
+    values are along the incident beam path.
+ Extinction length (amplitude) sigma=    9.8752772686203336       microns
+ Extinction length (amplitude) pi=    11.197106406300263       microns
+ Extinction depth (amplitude) sigma=    2.3992758498427311       microns
+ Extinction depth (amplitude) pi=    2.7204245772543088       microns
+ Pendellosung period (amplitude) sigma = Extinction depth sigma times 2 pi =    15.075094767602664       microns
+ Pendellosung period (amplitude) pi = Extinction depth pi times 2 pi =    17.092931733094510       microns
+  
+ width of diffraction profile  s-pol  =     6.6461323355155892       microradians
+                                 =     1.3708631984776849       arc sec
+ width of diffraction profile  p-pol  =     5.8615500465575954       microradians
+                                 =     1.2090314846608610       arc sec
+ File written to disk: diff_pat.gle
+ File written to disk: diff_pat.xop
+ >> 
+ >> Files diff_pat.par (parameters) and 
+ >> diff_pat.dat (E [eV],Lambda [A],...,p-pol,s-pol)
+ >> written  to disk.
+ >> 
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.

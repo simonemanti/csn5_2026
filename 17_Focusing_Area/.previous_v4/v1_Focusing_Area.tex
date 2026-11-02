@@ -1,0 +1,163 @@
+% Build: make focusing   (LuaLaTeX -> PDF -> vector SVG and transparent PNG)
+% Exact page: 224.2 x 70 mm. No caption.
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{fontspec}
+\setsansfont{Arial}
+\setmainfont{Arial}
+\usepackage{graphicx,amsmath,pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,calc}
+
+% Matplotlib tab10: C0/C1 are already used by the original XAS/XANES SVGs.
+% All badges use 50% white; internal objects use the saturated base colour.
+\definecolor{mplBlue}{HTML}{1F77B4}
+\definecolor{mplOrange}{HTML}{FF7F0E}
+\definecolor{mplGreen}{HTML}{2CA02C}
+\definecolor{mplPurple}{HTML}{9467BD}
+\definecolor{mplOlive}{HTML}{BCBD22}
+\colorlet{crystalInk}{mplGreen!75!black}
+\colorlet{cztInk}{mplPurple!80!black}
+\colorlet{simInk}{mplOlive!65!black}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,line cap=round,line join=round,
+  every node/.style={font=\sffamily,inner sep=0pt},
+  title/.style={font=\sffamily\bfseries\fontsize{12}{14}\selectfont},
+  detail/.style={font=\sffamily\fontsize{9}{11}\selectfont,align=center},
+  badge/.style={draw=black,line width=.32mm},
+  flow/.style={draw=black!85,line width=.42mm,
+    -{Stealth[length=2.3mm,width=1.7mm]},shorten <=11.6mm,shorten >=11.6mm},
+  axisArrow/.style={black,line width=.20mm,-{Stealth[length=1.0mm,width=.8mm]}},
+  mathlabel/.style={font=\fontsize{8}{9}\selectfont}]
+\path[use as bounding box] (0,0) rectangle (22.42,7);
+\clip (0,0) rectangle (22.42,7);
+\begin{pgfinterruptboundingbox}
+
+% Clockwise workflow: model the instrument, select energy, excite the sample,
+% detect fluorescence, reconstruct the near-edge spectrum. No feedback claim.
+\coordinate (SIM) at (11.21,4.95);
+\coordinate (CRYSTAL) at (18.37,4.20);
+\coordinate (XAS) at (16.25,1.35);
+\coordinate (CZT) at (6.17,1.35);
+\coordinate (XANES) at (4.05,4.20);
+\draw[flow] (SIM) -- (CRYSTAL);
+\draw[flow] (CRYSTAL) -- (XAS);
+\draw[flow] (XAS) -- (CZT);
+\draw[flow] (CZT) -- (XANES);
+
+% Preserve the user's original vector artwork, with its unused margins cropped.
+\node at (XAS) {\includegraphics[width=21.6mm,trim=18mm 18mm 18mm 18mm,clip]{.build/XAS.pdf}};
+\node at (XANES) {\includegraphics[width=21.6mm,trim=18mm 18mm 18mm 18mm,clip]{.build/XANES.pdf}};
+
+% CRYSTAL: intrinsic sigma reflectivity of a flat Ge(220) crystal at 10 keV,
+% calculated with crystalpy (see README). The bent wafer below is schematic.
+% The curve illustrates energy selection; it is not a bent-Ge(880) prediction.
+\begin{scope}[shift={(CRYSTAL)}]
+  \filldraw[badge,fill=mplGreen!50!white] (0,0) circle (1.06);
+  \begin{axis}[at={(-.73cm,.16cm)},anchor=south west,
+    width=1.47cm,height=.58cm,scale only axis,
+    xmin=-100,xmax=100,ymin=0,ymax=1.05,hide axis]
+    \addplot[draw=crystalInk,line width=.31mm]
+      table[x index=0,y index=1] {4_Crystal/reflectivity_Ge220.dat};
+  \end{axis}
+  \draw[axisArrow] (-.76,.14) -- (.83,.14);
+  \draw[axisArrow] (-.76,.14) -- (-.76,.75);
+  \node[mathlabel] at (-.56,.76) {$\mathcal{R}$};
+  \node[mathlabel] at (.64,-.02) {$\Delta\theta$};
+  % Broad, dark curved wafer and a few legible lattice planes.
+  \path[fill=crystalInk,draw=black,line width=.25mm]
+    (-.80,-.26) .. controls (-.30,-.58) and (.30,-.58) .. (.80,-.26)
+    -- (.80,-.47) .. controls (.30,-.79) and (-.30,-.79) .. (-.80,-.47) -- cycle;
+  \path[fill=mplGreen,draw=black,line width=.25mm]
+    (-.80,-.08) .. controls (-.30,-.40) and (.30,-.40) .. (.80,-.08)
+    -- (.80,-.26) .. controls (.30,-.58) and (-.30,-.58) .. (-.80,-.26) -- cycle;
+  \draw[black,line width=.17mm]
+    (-.80,-.17) .. controls (-.30,-.49) and (.30,-.49) .. (.80,-.17);
+  \foreach \xx/\drop in {-.64/.09,-.42/.175,-.21/.225,0/.24,.21/.225,.42/.175,.64/.09}{
+    \draw[black,line width=.17mm] (\xx,-.08-\drop) -- (\xx,-.26-\drop);
+  }
+  \node[font=\sffamily\bfseries\fontsize{8}{9}\selectfont] at (0,-.83) {Ge};
+\end{scope}
+
+% CZT: a 20-anode array drawn directly in TikZ, then two measured traces.
+% The purple sensor and electrodes are schematic; sample values are unchanged.
+\begin{scope}[shift={(CZT)}]
+  \filldraw[badge,fill=mplPurple!50!white] (0,0) circle (1.06);
+  \path[fill=cztInk,draw=black,line width=.20mm]
+    (-.79,.51) -- (.71,.51) -- (.80,.61) -- (.80,.39)
+    -- (.71,.29) -- (-.79,.29) -- cycle;
+  \path[fill=mplPurple,draw=black,line width=.20mm]
+    (-.79,.51) -- (.71,.51) -- (.80,.61) -- (-.70,.61) -- cycle;
+  \draw[black,line width=.16mm] (.71,.51) -- (.71,.29);
+  \foreach \i in {0,...,19}{
+    \pgfmathsetmacro{\xx}{-.747+.073*\i}
+    \filldraw[fill=mplPurple!25!white,draw=cztInk,line width=.09mm]
+      (\xx,.35) rectangle ++(.043,.105);
+  }
+  \begin{axis}[at={(-.75cm,-.66cm)},anchor=south west,
+    width=1.39cm,height=.85cm,scale only axis,
+    xmin=0,xmax=1,ymin=-1.15,ymax=1.15,hide axis]
+    \addplot[draw=cztInk,line width=.29mm]
+      table[x index=0,y index=1] {5_Pulse_Shape/waveforms.dat};
+    \addplot[draw=cztInk,line width=.29mm]
+      table[x index=0,y expr=\thisrowno{2}-1.12] {5_Pulse_Shape/waveforms.dat};
+  \end{axis}
+  \draw[black,line width=.31mm] (.70,.04) -- (.78,-.04) -- (.92,.16);
+  \draw[black,line width=.31mm] (.72,-.38) -- (.88,-.54) (.72,-.54) -- (.88,-.38);
+\end{scope}
+
+% SIMULATION: a clean ray bundle and detector-response distribution.
+% Both are schematic, with no simulated acceptance or resolution implied.
+\begin{scope}[shift={(SIM)}]
+  \filldraw[badge,fill=mplOlive!50!white] (0,0) circle (1.06);
+  % Ray paths are behind the source, optic and detector.
+  \foreach \xx/\yy in {-.10/.55,0/.53,.10/.55}{
+    \draw[simInk,line width=.24mm]
+      (-.65,.12) -- (\xx,\yy) -- (.67,-.03);
+  }
+  \draw[simInk,line width=.25mm,-{Stealth[length=1.15mm,width=.9mm]}]
+    (-.53,.20) -- (-.26,.37);
+  \draw[simInk,line width=.25mm,-{Stealth[length=1.15mm,width=.9mm]}]
+    (.23,.34) -- (.47,.14);
+  \filldraw[fill=simInk,draw=black,line width=.23mm,rounded corners=.35mm]
+    (-.85,-.02) rectangle (-.66,.29);
+  \fill[fill=mplOlive] (-.69,.075) rectangle (-.64,.19);
+  \path[fill=mplOlive,draw=black,line width=.25mm]
+    (-.26,.69) .. controls (-.10,.60) and (.10,.60) .. (.26,.69)
+    -- (.26,.56) .. controls (.10,.47) and (-.10,.47) .. (-.26,.56) -- cycle;
+  \filldraw[fill=simInk,draw=black,line width=.23mm]
+    (.65,-.18) rectangle (.84,.14);
+  \foreach \yy in {-.12,-.04,.04}{
+    \draw[mplOlive!30!white,line width=.15mm] (.68,\yy) -- (.81,\yy);
+  }
+  \draw[axisArrow] (-.68,-.71) -- (.77,-.71);
+  \draw[axisArrow] (-.68,-.71) -- (-.68,-.20);
+  \path[fill=mplOlive!85!white]
+    (-.61,-.69) -- (-.39,-.69)
+    .. controls (-.20,-.69) and (-.22,-.30) .. (-.04,-.29)
+    .. controls (.15,-.28) and (.13,-.69) .. (.34,-.69)
+    -- (.65,-.69) -- cycle;
+  \draw[simInk,line width=.31mm]
+    (-.61,-.69) -- (-.39,-.69)
+    .. controls (-.20,-.69) and (-.22,-.30) .. (-.04,-.29)
+    .. controls (.15,-.28) and (.13,-.69) .. (.34,-.69) -- (.65,-.69);
+\end{scope}
+
+% Titles and explanatory labels remain outside the circles.
+\node[title] at (11.21,6.70) {SIMULATION};
+\node[detail] at (11.21,6.28) {Ray tracing\enspace$\cdot$\enspace Detector response};
+\node[title] at (20.75,4.50) {CRYSTAL};
+\node[detail] at (20.75,3.89) {Bent Ge optics\\Energy selection};
+\node[title] at (18.90,1.65) {XAS};
+\node[detail] at (18.90,1.04) {X-ray absorption\\spectroscopy};
+\node[title] at (3.20,1.65) {CZT};
+\node[detail] at (3.20,1.04) {Multichannel detection\\Pulse-shape analysis};
+\node[title] at (1.48,4.50) {XANES};
+\node[detail] at (1.48,3.89) {Near-edge\\structure};
+
+% Clear centre: the project name only.
+\node[font=\sffamily\bfseries\fontsize{29}{31}\selectfont]
+  at (11.21,3.04) {PRISM};
+\end{pgfinterruptboundingbox}
+\end{tikzpicture}
+\end{document}
