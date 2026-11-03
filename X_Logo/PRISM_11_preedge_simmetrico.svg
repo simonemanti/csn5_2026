@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1774" height="887" viewBox="0 0 1774 887">
+<title>PRISM — Pre-edge simmetrico</title>
+<desc>Editable vector reconstruction. Separate letter outlines and an open cubic Bezier absorption curve. Transparent background.</desc>
+<g inkscape:groupmode="layer" inkscape:label="Lettere nere" id="letters" fill="#080909">
+<path id="P" fill-rule="evenodd" d="M 291,568 V 312 H 408 C 475,312 509,345 509,395 C 509,447 473,479 408,479 H 337 V 568 Z M 337,352 V 439 H 405 C 444,439 462,423 462,395 C 462,368 444,352 405,352 Z"/>
+<path id="R" fill-rule="evenodd" d="M 552,568 V 312 H 664 C 727,312 763,343 763,394 C 763,432 742,459 707,471 L 774,568 H 718 L 657,479 H 598 V 568 Z M 598,352 V 439 H 660 C 697,439 716,423 716,395 C 716,367 697,352 660,352 Z"/>
+<path id="I" d="M 829,312 H 874 V 568 H 829 Z"/>
+<path id="M" d="M 1198,568 V 312 H 1253 L 1341,453 L 1429,312 H 1483 V 568 H 1437 V 385 L 1341,533 L 1244,385 V 568 Z"/>
+</g>
+<g inkscape:groupmode="layer" inkscape:label="Bordo XAS rosso" id="edge">
+<path id="S-edge" d="M 565,610 H 880 C 958,610 987,570 1000,500 L 1022,302 C 1026,258 1047,224 1071,224 C 1106,224 1121,291 1148,291 C 1177,291 1193,248 1218,248 C 1245,248 1264,289 1289,289 C 1311,289 1325,260 1345,260 C 1369,260 1384,284 1408,284 C 1432,284 1442,282 1459,282 H 1483" fill="none" stroke="#E71932" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round"/>
+</g>
+</svg>

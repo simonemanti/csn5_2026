@@ -1,0 +1,53 @@
+{
+  "description": "WP2 screening model for a polychromatic W-anode tube. SpekPy fluence is evaluated on axis at 1 mAs and converted to photons/mAs in the explicitly sampled SHADOW4 solid angle.",
+  "spekpy": {
+    "target": "W",
+    "kvp": 60.0,
+    "anode_angle_deg": 12.0,
+    "bin_width_keV": 0.02,
+    "reference_distance_cm": 100.0,
+    "mas": 1.0,
+    "spekpy_version": "2.5.4",
+    "physics": "spekpy-v2-casim",
+    "mu_data_source": "pene",
+    "x_cm": 0.0,
+    "y_cm": 0.0,
+    "bremsstrahlung": true,
+    "characteristic": true,
+    "obliquity": true,
+    "filtration": [
+      {
+        "material": "Al",
+        "thickness_mm": 1.0
+      }
+    ]
+  },
+  "source_phase_space": {
+    "nrays": 100000,
+    "seed": 20260728,
+    "reference_energy_keV": 25.52,
+    "spatial_distribution": "gaussian",
+    "sigma_x_m": 0.000025,
+    "sigma_z_m": 0.000025,
+    "angular_distribution": "flat",
+    "horizontal_angle_min_rad": -0.06,
+    "horizontal_angle_max_rad": 0.06,
+    "vertical_angle_min_rad": -0.00001,
+    "vertical_angle_max_rad": 0.00001,
+    "polarization_degree": 0.5
+  },
+  "energy_importance": {
+    "minimum_keV": 24.5,
+    "maximum_keV": 26.5,
+    "description": "Only this physically normalized window is ray-traced. The complete SpekPy spectrum and the window fraction are retained in the outputs."
+  },
+  "reporting": {
+    "current_mA": 1.0,
+    "exposure_s": 1.0
+  },
+  "plots": {
+    "spectrum_bins": 240,
+    "profile_bins": 120,
+    "maximum_scatter_rays": 25000
+  }
+}

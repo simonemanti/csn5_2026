@@ -1,0 +1,732 @@
+                                                  GREEAT
+                         GRaphene to Electrons: Energy and
+                           Angular resolved Transmission
+
+
+Proposal for Young Researcher Grant CSN5 26724/2024
+Proponent:          Alice Apponi
+Participating units: - INFN Sezione di Roma Tre
+                   - Dipartimento di Scienze,
+                    Università degli studi Roma Tre
+
+
+Presidenza INFN - 19.11.2024
+                                                      1
+          Graphene Transparency: a Growing Topic of Interest
+            Graphene:
+            ✤ Single sheet 1 atom thick
+            ✤ C atoms arranged in honeycomb lattice
+
+
+
+                       Integration of graphene in MPGD:
+                       ✤ Transparency to electrons
+                       ✤ Impermeability to atoms
+
+
+                                                   PTOLEMY experiment:
+                                                   ✤ Neutrino mass
+                                                   ✤ Tritiated graphene target
+
+Alice Apponi - 19.11.2024                                 2     GREEAT Project - Young Researcher Grant CSN5 2024
+Graphene Transparency: Lots of Interest But Lack of Information
+                                                                                    1.0
+      Transmission of low-energy electrons through graphene:                                    EXPERIMANTAL DATA:
+                                                                                                    J Y Mutus et al 2011 New J. Phys.
+                                                                                                    Longchamp et al 2012 Appl. Phys. Lett.
+      ✤ Only a few data below 1 keV                                                 0.8             Kraus et al 2014 Nanoscale
+                                                                                                    Li et al 2014 Adv. Funct. Mater.
+                                                                                                    Hassink et al 2015 APL Mater.
+
+      ✤ Clear lack of information
+
+
+
+
+                                                                     Transmission
+                                                                                    0.6
+      ✤ Cross-section: still unknown
+                                                                                    0.4
+
+
+
+                                                           ?                        0.2
+
+
+                                                                                     0
+                                      Quality? Cleannes?                                  0   200      400     600      800              1000
+                                                                                                    Kinetic energy [eV]
+            My PhD thesis included:
+            ✤ Graphene thorough characterisation
+            ✤ Transmission measurement in an extended energy
+              range (30 - 900 eV)
+Alice Apponi - 19.11.2024                            3         GREEAT Project - Young Researcher Grant CSN5 2024
+       Our Samples: Graphene Transferred Onto Metallic Grids
+  Monolayer graphene on nickel grids:
+  ✤ Graphene grown on copper                               SLG/Cu                      PMMA/SLG/Cu         PMMA/SLG
+  ✤ Transfer onto commercial nickel grids                                                         Cu
+                                                                     PMMA spin
+    (Ted Pella Inc. - G2000HAN)                                       coating                   etching
+                                                                                                               Transfer
+  ✤ Access to suspended graphene regions
+                       3 mm                                        SLG                       PMMA/SLG
+                                                               on TEM grid                   on TEM grid
+                              8 μm
+                                                                          Removing
+                                                                          PMMA
+
+
+
+
+                                        A. Apponi et al., Carbon (2024),
+                                        https://doi.org/10.1016/j.carbon.2023.118502
+
+Alice Apponi - 19.11.2024                                     4           GREEAT Project - Young Researcher Grant CSN5 2024
+           LASEC Lab: Electronic Spoctroscopies and More…
+
+                                                                               X-ray Al Kα source:
+                                        MONOCHROMATIZATION
+X-RAYS SOURCE                                  +                               ✤ hv = 1486.7 eV
+                                            FOCUSING
+                                                                               ✤ Monochromatized beam
+                                                                               ✤ XPS resolution = 0.46 eV
+
+                                                  HEMISPHERICAL                Custom-made monochromatic
+                                                ELECTRON ANALYZER              electron gun:
+                                                                               ✤ Continuous electron beam
+                            LE
+                            MP
+                        SA
+
+
+
+
+                                                                               ✤ Tuneable energy 30 - 900 eV
+                                                                               ✤ Resolution = 45 meV
+      ELECTRON
+         GUN                           He DISCHARGE LAMP
+                                                                               He discharge lamp:
+                                                                               ✤ Spot diameter 300 μm
+                              HEMISPHERICAL
+                            ELECTRON ANALYZER
+Alice Apponi - 19.11.2024                               5      GREEAT Project - Young Researcher Grant CSN5 2024
+           LASEC Lab: Electronic Spoctroscopies and More…
+
+
+
+                                                                     Equipped with MCP + delay line
+                                                                          for parallel acquisition
+                                           HEMISPHERICAL
+                                         ELECTRON ANALYZER
+
+
+
+
+                                                                       “Twin” analayzer of the one we
+                                                                         will use in the new chamber
+
+
+                       HEMISPHERICAL
+                     ELECTRON ANALYZER
+Alice Apponi - 19.11.2024                        6      GREEAT Project - Young Researcher Grant CSN5 2024
+Spectroscopic Characterisation Reveals High Quality Graphene
+      X-ray photoemission spectroscopy (XPS):                                    Electron energy loss spectroscopy (EELS):
+      ✤ C 1s core-level spectrum                                                 ✤ π-plasmon excitation
+      ✤ Pure sp2 contribution —> high quality + cleannes!                        ✤ High quality + suspended footprint
+
+                           C 1s Monolayer                                                                  Monolayer graphene
+                           550°C annealing                                                                 550°C annealing
+                                                                                                                Data
+  Intensity [arb. units]
+
+
+
+
+                                                                                  Intensity [arb. units]
+                                Data
+                                Best Fit                                                                        Best Fit
+                                                                                                                π1
+                                   2
+                                sp
+                                π-plasmon
+                                                                                                                π2
+                                bkg
+
+
+
+
+                             292    288    284    280                                           14 12 10 8 6 4                  2
+                                                     A. Apponi et al., Carbon (2024),
+                              Binding energy [eV]    https://doi.org/10.1016/j.carbon.2023.118502    Energy loss [eV]
+Alice Apponi - 19.11.2024                                                7       GREEAT Project - Young Researcher Grant CSN5 2024
+   Graphene Transmission Measured in the 30 - 900 eV Range
+ ELECTRON                                                FARADAY
+    GUN                                                    CUP         PICOAMMETER
+                                                                           KEYSIGHT B2987A
+
+
+               (a)
+                        1.0
+                                        I0                                              (b)
+                                                                                              1.0
+                                      ★ Free   ight!          Empty grid
+
+                        0.8           GRAPHENE ON Monolayer
+                                                  TEM       graphene                          0.8
+                                                      pristine
+                                                      550°C annealing
+                                                      400°C annealing
+                        0.6             IS                                                    0.6
+                Tmeas
+
+
+
+
+                                                                                         TG
+                        0.4 I (E) = a[I T
+                                               0 gridTG(E)] + b[I0Tgrid]
+                                                                                              0.4             A. Apponi et al., Carbon (2024),
+                                  S                                                                           https://doi.org/10.1016/j.carbon.2023.118502
+
+                                                         IS
+         a+b=1          0.2
+                                                       I0Tgrid
+                                                                  −b                          0.2
+                                         TG(E) =                                                                                         Sample A
+         Graphene coverage                                    a                                                                          Sample B
+                         0                                                                     0
+                              0       200       400     600      800          1000                  0   200     400    600     800 1000
+Alice Apponi - 19.11.2024                    Kinetic energy [eV]             8           GREEAT Project - Young Researcher
+                                                                                                            Kinetic energy Grant
+                                                                                                                           [eV] CSN5 2024
+    fl
+Energy Resolution for Direct Measurement of Total Cross-Section
+                                                               Integral measurement:
+                                                               ✤ No energy selection
+                                                               ✤ Current integrated within angular
+                                                                 acceptance
+                                                               ✤ Result setup-dependent
+
+
+
+
+      Differential measurement:
+                                                                                               ELECTRON
+      ✤ Energy and momentum selection with                                                     ANALYSER
+        hemispherical electron analyser
+
+      ✤ Direct measurement of σtot = total cross-section
+      ✤ Moveable setup for differential cross-section                       −nGσtot(E)
+                                                               I(E) = I0e
+Alice Apponi - 19.11.2024                               9   GREEAT Project - Young Researcher Grant CSN5 2024
+    New Transmission Chamber is Currently Under Contruction
+
+
+                                                        To the main
+                                                         chamber
+
+
+
+
+          New transmission chamber:
+                                                                         Delivery
+          ✤ Currently under construction                              DECEMBER 2024
+          ✤ Coupled to the LASEC main chamber in the rst place
+          ✤ Standalone apparatus in the II year
+Alice Apponi - 19.11.2024                          10        GREEAT Project - Young Researcher Grant CSN5 2024
+                                            fi
+Moveable Electron Source for Angular Dependent Measurement
+
+ HEMISPHERICAL
+   ELECTRON                                                   ELECTRON
+   ANALYSER                 SAMPLE
+                                                                 GUN
+                                          BELLOW
+
+
+
+
+Alice Apponi - 19.11.2024            11      GREEAT Project - Young Researcher Grant CSN5 2024
+Moveable Electron Source for Angular Dependent Measurement
+
+ HEMISPHERICAL
+   ELECTRON
+   ANALYSER                 SAMPLE
+                                          BE
+                                            LL
+                                                 OW
+                                                                  ELECTRON
+                                                                     GUN
+
+
+
+
+Alice Apponi - 19.11.2024            12          GREEAT Project - Young Researcher Grant CSN5 2024
+Hemispherical Electron Analyser: an Electrostatic Filter for Electrons
+
+                                                                    Hemispherical electron analyser:
+                                                                    ✤ Electrostatic lter
+                                                                    ✤ Channeltron at exit
+                                                  E < Ep < E        ✤ Final electron position ∝ its energy
+
+                                                    MCP
+
+                                                   Anode                   MCP+Delay line for parallel
+                                                                          counting can be implemented
+                                                  Delay line
+                                                                      preamp.   CFD   TDC
+                    single direction delay line
+
+
+          Ek
+
+
+
+Alice Apponi - 19.11.2024                                      13   GREEAT Project - Young Researcher Grant CSN5 2024
+               fi
+Start with Non-Interacting e , Boost with Parallel Acqisition for Scattered e
+                            -                                                 -
+
+
+                                                                                                   Elastic and
+                                                                                                    inelastic
+                                                                                                                           Non-interacting electrons:
+                                                                                                    electrons
+                                                                                                                           ✤ Measure at “0 angle” (1° angular acceptance)
+                              Primary electrons                          Non-interacting electrons
+
+                                                                                                                           ✤ Total cross-section
+                                                                                                                                                                     I year goal
+
+
+                                                                                                                                 Scattered electrons:
+                         20                                                                0.5
+                                  Monolayer graphene
+                                      550°C annealing
+                                                                                                 Monolayer graphene
+                                                                                                     550°C annealing
+                                                                                                                                 ✤ Re ection spectrum acquired in 30 hours with
+                                                                                           0.4
+                                                                                                                                   channeltron
+Intensity [arb. units]
+
+
+
+
+                                                                  Intensity [arb. units]
+
+
+
+
+                         15                         Elastic
+                                                    peak                                            Losses
+                                                                                           0.3
+                         10
+                                                                                                                                 ✤ MCP+delay line for parallel acquisition gives a (vital)
+                                                                                           0.2                                     10x boost
+                                   REFLECTION
+                              5
+                                                                                           0.1                                   ✤ Similar acquisition time in transmission
+                                          Losses
+                              0                                                             0                                    ✤ Differential and total cross-section
+                                  15      10       5
+                                        Energy loss [eV]
+                                                              0                                    12        8       4
+                                                                                                        Energy loss [eV]
+                                                                                                                            0                                                 II year goal
+    Alice Apponi - 19.11.2024                                                                                                    14      GREEAT Project - Young Researcher Grant CSN5 2024
+                         fl
+                 But How Do You Measure the Cross-Section?
+       Energy loss measurement:
+
+       ✤ Distribution of the transmitted electrons N*
+                                                    s                            θ      N*
+                                                                                         s (θ, E = E1)
+
+       ✤ Spectrum at a given angle —> N*
+                                       s (θ = θ1, E)
+       ✤ Repeat for different angles                                         N*
+                                                                              s (θ = θ1, E)
+
+       ✤ Slice at a given energy loss —> N*
+                                          s (θ, E = E1)
+       ✤ Repeat for different primary energies
+
+
+             Considering the detector ef ciency ϵ
+
+                           N*
+                            s = Ns ϵ                                              Ns
+                                                                              σ=
+                                                                                 N0nG
+                            WE CAN MEASURE THIS!                                                              nG ~ 39 nm-2
+               A. Apponi et al., Measur.Sci.Tech (2022), 10.1088/1361-6501/ac3d07
+Alice Apponi - 19.11.2024                                            15       GREEAT Project - Young Researcher Grant CSN5 2024
+                              fi
+             The GREEAT Project Needs 145 k€ to Come True
+                 WHAT WE (WILL) HAVE                                         WHAT WE NEED
+
+   ✤ Transmission chamber                                   ✤ Ultra-high vacuum system
+   ✤ Hemispherical electron analyser                        ✤ Fast-timing acquisition chain
+   ✤ Custom-made electron gun                               ✤ Femto/Picoammeter 0.01fA resolution            I year
+   ✤ Manipulator (5 DoF)                                    ✤ Magnetic arm
+   ✤ Drilled sample holder                                  ✤ Automation
+   ✤ Faraday cup
+   ✤ Commercial electron gun 5 keV                          ✤ MCP with delay line for parallel acquisition
+                                                                                                             II year
+                                                            ✤ HV oating power supply system
+
+
+        Financial cooperation of:
+        Dipartimento di Scienze, Università Roma Tre                                               Total request
+        UTMOST and RD_PTOLEMY, INFN                                                                145 k€
+Alice Apponi - 19.11.2024                              16        GREEAT Project - Young Researcher Grant CSN5 2024
+   fl
+                                                     GREEAT Timeline and Team
+                                                                             I SEM 2025                     II SEM 2025                            I SEM 2026                      II SEM 2026
+                                                                     gen   feb mar apr mag giu      lug   ago    set    ott   nov    dic   gen   feb mar apr mag giu      lug   ago   set   ott   nov   dic
+
+                         Chamber mounting + vacuum
+  WP 1 (A. Ruocco)       Moveable syst
+    Apparatus
+   commissiong           Sample manipulation
+
+                         Software for signal acquisition
+
+                         Source and analyser optimisation
+   WP 2 (A. Apponi)      Energy-integrated meas. (FC)                                                           LOW-E                            HIGH-E
+  Total cross-section
+         meas.           Energy-resolved meas. (analyser)
+
+                         Optimisation of angular meas.
+
+                         MCP with delay line mounting
+  WP 3 (A. Ruocco)
+  Parallel acquisition   Software adaptation
+       upgrade
+                         Test and optimisation
+
+  WP 4 (A. Apponi)       Energy-resolved meas.
+  Differential cross-
+   section meas.         Angular resolved meas.
+
+   SAMPLE PREP.          IIT@NEST Pisa (UTMOST collab.)
+
+                                                       Name                           Position                                Unit                        FTE
+
+       UNIT 1                                      Alice Apponi1,2               Post-doctoral fellow             INFN Sezione di Roma Tre                0.8   + 0.2 UTMOST and RD_PTOLEMY
+                                                 Alessandro Ruocco2              Associate professor                                                      0.4
+                                                                                                            Dipartimento di Scienze, Università
+                                                   Daniele Paoloni               Post-doctoral fellow                                                     0.2
+       UNIT 2                                        To be hired                 Post-doctoral fellow
+                                                                                                                        Roma Tre
+                                                                                                                                                          0.2
+                                                                                                                     (associato INFN)
+                                                 Orlando Castellano                 PhD student                                                           0.2   1Principal investigator
+Alice Apponi - 19.11.2024                                  TOT                                    17             GREEAT Project - Young
+                                                                                                                                      1.8 Researcher      Grant CSN5 2024
+                                                                                                                                            2Unit coordinator
+ GREEAT project will measure the cross-section of electrons-graphene interaction
+                              (and any other 2D!)
+                               Design gas detectors with highly improved performances:
+                                                                                                                                                          Aroused interest of
+                               ✤ Graphene on the mesh (or GEM)                                                                                            DRD1 collaboration
+                               ✤ Conversion and avalanche gas(es) optimised in mixture
+                                 and pressure
+                               ✤ Ion back- ow prevented
+
+
+
+
+                            Development of novel neutrino detector PTOLEMY:
+                            ✤ Graphene-based target
+                            ✤ Transmission of electrons (higher energy) is crucial                  Nanoporous
+                                                                                     Nano Lett. 2022, 22, 2971−2977. doi: 10.1021/acs.nanolett.2c00162    Carbon
+                                                                                                                                                         nanotubes
+                                                                                                                                                                     Stacked
+                                                                                                     graphene                                                        graphene
+
+
+
+
+Alice Apponi - 19.11.2024                                 18      GREEAT Project - Young Researcher Grant CSN5 2024
+         fl
+                                               To Conclude
+                            The GREEAT project:
+                            ✤ Graphene-electrons cross-section measured for the rst time
+                            ✤ Fundamental for applications: MPGD, PTOLEMY
+
+   The GREEAT project would reinforce the LASEC lab. (Univeristà Roma Tre) involvement in INFN activities
+
+                                                    RD_PTOLEMY
+
+                                   UTMOST             INFN RM3,             SEGNAR
+                                                      INFN RM1,
+                                  INFN RM3,             LNGS               INFN RM3,
+                                   INFN Pisa                                INFN RM1
+
+
+
+
+                                 ANDROMeDa                                  NanoUV
+                                  INFN RM1                                  INFN RM1
+
+
+Alice Apponi - 19.11.2024                                   19    GREEAT Project - Young Researcher Grant CSN5 2024
+                                                       fi
+BACKUP
+
+
+
+
+ 20
+                                                   To Conclude
+                            The GREEAT project:
+                            ✤ Graphene-electrons cross-section measured for the rst time
+                            ✤ Fundamental for applications: MPGD, PTOLEMY
+
+   The GREEAT project would reinforce the LASEC lab. (Univeristà Roma Tre) involvement in INFN activities
+
+                                       UTMOST
+                                                        RD_PTOLEMY
+                                      INFN RM3,
+                                       INFN Pisa          INFN RM3,
+                                                          INFN RM1,
+                                                            LNGS
+
+
+                                                                      SEGNAR
+                                                                  INFN RM3
+
+
+                                                   NanoUV
+                                 ANDROMeDa
+                                                   INFN RM1
+                                  INFN RM1
+Alice Apponi - 19.11.2024                                        21       GREEAT Project - Young Researcher Grant CSN5 2024
+                                                            fi
+ GREEAT project will measure the cross-section of electrons-graphene interaction
+                              (and any other 2D!)
+
+     Design gas detectors (MPGD) with highly improved performances:
+     ✤ Graphene on the mesh (or GEM)
+     ✤ Conversion and avalanche gas(es) optimised in
+       mixture and pressure
+     ✤ Ion back- ow prevented
+
+
+
+
+                                                            Aroused interest of
+                                                            DRD1 collaboration
+
+
+
+Alice Apponi - 19.11.2024                              22       GREEAT Project - Young Researcher Grant CSN5 2024
+         fl
+ GREEAT project will measure the cross-section of electrons-graphene interaction
+                              (and any other 2D!)
+                                                                                                                       T
+       Development of novel neutrino detector PTOLEMY:                                                       C
+       ✤ Neutrino mass and cosmic neutrino background
+
+       ✤ Measure the β-spectrum at end-point (18 keV)
+       ✤ Tritium (T) in a graphene-based target
+       ✤ Wrapped/Stacked con gurations to improve density
+
+
+
+
+                                                                                                                           ~10 nm
+
+
+
+
+                                                               Nanoporous
+                                                  Nano Lett. 2022, 22, 2971−2977. doi: 10.1021/acs.nanolett.2c00162    Carbon       Stacked
+                                                                graphene                                              nanotubes     graphene
+Alice Apponi - 19.11.2024                               23                       GREEAT Project - Young Researcher Grant CSN5 2024
+                        fi
+      Graphene Integration to Improve Detector Performances
+
+    Micro Pattern Gaseous Detectors (MPGD):
+    ✤ Two gaps —> conversion and ampli cation
+    ✤ Different gas characteristics to optimise
+      performances
+    ✤ What if the separation was made of graphene?
+
+
+
+
+                                        ✤ Atomically thin layer
+                                        ✤ Impermeable to atoms
+                                        ✤ Transparent to electrons?
+
+Alice Apponi - 19.11.2024                             24          GREEAT Project - Young Researcher Grant CSN5 2024
+                                   fi
+                             T on Graphene as Ptolemy Target
+                                                                               T2                                            T
+    PTOLEMY experiment:
+    ✤ Cosmic neutrino background and neutrino mass                                                                    C
+
+    ✤ Measure the β-spectrum at end-point
+    ✤ Tritium (T) in a solid-state target
+    ✤ Carbon nanostructures main candidates
+    ✤ Wrapped/Stacked con gurations to improve density
+
+
+
+
+               Graphene - electron
+                 transmission?                                                                                      ~10 nm
+
+
+
+
+                                                        Nanoporous       Carbon             Stacked
+                                                Nano Lett. 2022, 22, 2971−2977. doi: 10.1021/acs.nanolett.2c00162
+
+
+Alice Apponi - 19.11.2024                             25 graphene      nanotubes
+                                                             GREEAT Project                 graphene
+                                                                            - Young Researcher Grant CSN5 2024
+                        fi
+     Hemispherical Electron Analyser: an Electrostatic Filter for Electrons
+
+                                                               Hemispherical electron analyser:
+                                                               ✤ Electrostatic lter
+                                                               ✤ Electron detector at exit
+                                                Ep
+                    d        R0
+                                                 MCP
+                                                             Channeltron / microchannel plate (MCP)
+                                                Anode
+
+
+                         Retarding
+                            eld
+
+
+                                          ( R0      )
+                                            d     2
+               Ek                 ΔE ∝ Ep      +α
+
+
+     Alice Apponi - 19.11.2024                          26     GREEAT Project - Young Researcher Grant CSN5 2024
+fi
+                    fi
+Hemispherical Electron Analyser: an Electrostatic Filter for Electrons
+
+                                                                    Hemispherical electron analyser:
+                                                                    ✤ Electrostatic lter
+                                                                    ✤ Channeltron at exit
+                                                  E < Ep < E        ✤ Final electron position ∝ its energy
+
+                                                    MCP
+
+                                                   Anode                   MCP+Delay line for parallel
+                                                                          counting can be implemented
+                                                  Delay line
+                                                                      preamp.   CFD   TDC
+                    single direction delay line
+
+
+          Ek
+
+
+
+Alice Apponi - 19.11.2024                                      27   GREEAT Project - Young Researcher Grant CSN5 2024
+               fi
+Run the Experiment Backwards: Electron Currents of 10 - 100 fA
+
+
+
+
+      Electron detector side:                                                   Monochromatic electron gun:
+      ✤ Max rate ~600 kHz (~100 fA) for linear-mode                             ✤ Continuous beam ~1 fA - ~40 nA
+        operation
+                                                                                ✤ Tuneable energy within 30 - 900 eV
+      ✤ Absolute ef ciency of MCP measured with
+                                                                                ✤ Optimal stability even down to a few fA
+        LASEC apparatus
+         A. Apponi et al., Measur.Sci.Tech (2022), 10.1088/1361-6501/ac3d07
+
+
+                    We will run the experiments with electron currents in the 10 - 100 fA range
+
+Alice Apponi - 19.11.2024                                         28          GREEAT Project - Young Researcher Grant CSN5 2024
+           fi
+                            Re ection vs Transmission signal
+
+                                         REFLECTION PROCESS: EL+ANEL
+                                1°
+                                                   Electrons accepted within analyser
+                                                          (0.5/57)2
+                                                                    ~4x10-5
+                                                              2
+                            2
+
+
+                                         TRANSMISSION PROCESS: ANEL
+                       ∆E/2E0
+
+
+
+
+                                     TRANSMISSION = 4x105 x REFLECTION
+
+
+
+
+Alice Apponi - 19.11.2024                          29     GREEAT Project - Young Researcher Grant CSN5 2024
+ 𝜋
+ 𝜋
+     fl
+          𝜋
+                          Thickness of a 2D material is an ill-de ned quantity
+
+              0                                                                                         0
+
+                                                            d,λEAL
+
+
+
+                                                                                        −                                −       ( )
+                                   ( )=                                             0                       ( )=     0
+      Which thickness d should be used for ML
+      graphene?                                                                                  ✤ nG is the surface density of the carbon
+                                                                                                   atom in graphene
+          ✤ Interplanar distance in graphite: 3.35 Å
+                                                                                                 ✤ σtot is the total cross section
+          ✤ Twice the radius of covalent bond: 2.48 Å
+      The attenuation length affected by the                                                     A correct measurement of the non
+      arbitrariness of the thickness choice                                                      scattered electrons I(E) allows to obtain
+                                                                                                 the total cross section
+𝐼
+      𝐸
+                  𝐼
+                           𝑒
+                                            𝐸
+                                                        𝐴
+                                                                𝐿
+𝐼
+      𝐸
+                      𝐼
+                               𝑒
+    Alice Apponi - 19.11.2024                                                                    GREEAT Project - Young Researcher Grant CSN5 2024
+                                        𝜆
+                                                                                            30
+                                                𝐺
+                                                                    𝑡
+                                                                        𝑜
+                                                                            𝑡
+𝐼
+𝐼
+𝐼
+𝐼
+                                    𝑛
+                                                            𝜎
+                                                                                𝐸
+                                                    𝑑
+                                                                                                   fi
+

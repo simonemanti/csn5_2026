@@ -1,0 +1,508 @@
+                 FORM-3D:
+         Fast Optimization of Range
+               Modulators 3D
+                   Grant Giovani INFN, November, 19th, 2024
+
+
+
+
+Alberto Taffelli                                              Rome, November, 19th, 2024
+ INTRODUCTION
+     Proton
+     Therapy:
+     Protons can deliver dose precisely in deep                                 SOBP
+     seated tumours thanks to their peaked dose
+     distribution in depth (Bragg peak), thus sparing
+     normal tissues
+     Active Pencil beam scanning (PBS) systems                                                           Dell’Oro et al.,
+                                                                                                         2021
+     make use of different energy layers to
+     reproduce dose uniformity in the target (SOPB)               COST
+                                                                  FUNCTION
+                                                                                              n ∽ 103-
+                                                                                              104
+
+     FLASH
+     Effect:
+     Ultra-high dose rates (UHDR) irradiation, i.e. >40 Gy/s, have a
+     protective effect on normal tissues, compared to conventional
+
+
+
+
+                                                                                                                2020
+                                                                                                                Schuller et al.,
+     irradiation (0.01Gy/s), while maintaining the same efficacy
+     against tumours.
+
+       In RT = increase the therapeutic window
+
+
+A. Taffelli,                                  Grant Giovani INFN, Roma, Nov 19th,      Dose                                        2
+ INTRODUCTION
+         FLASH Effect in proton therapy:
+
+         Problem: modern PBS proton therapy centers (PTC)
+         can’t deliver UHDR due to the energy switching
+         time required between different energy layers (0.5-
+         2 s)
+
+                  The FLASH effect is lost
+
+          3D Range Modulators (3DRM)
+
+          Solution: 3DRM, objects able to passively modulate
+          the proton pencil beam energy and conformally
+          shape the dose in the target (tumor)
+
+          • Optimization based on pre-calculated look-up-                            Simoneov et al.
+                                                                                     2017
+            tables
+          • Each pin is designed to contribute correctly to
+            the final dose distribution (pin’s lengths)
+          • Fluence of each pencil beam needs to be
+            optimized
+A. Taffelli,                                   Grant Giovani INFN, Roma, Nov 19th,                     3
+ PURPOSE
+
+                                                                                                                  Copyright © 2015-2023. A.
+                                      Fast Optimization of Range                                                     Schiavi and Sapienza
+
+   Why?                                                                                                          university of Rome. All rights
+
+                                      Modulators 3D                                                                         reserved
+
+
+
+
+   • The design of 3DRM is a non-trivial optimization process, dealing
+     with inaccurate 3D look-up-tables, requiring long computational
+     times, uncompatible with clinical routine (up to days)
+   • A complete workflow to design, print and test the 3DRM is still
+     missing
+                                                                                                    www.fred-
+               To speed up the translation of FLASH proton therapy into                             mc.org
+   clinics
+                                                                                                 FRED EXPERTISE:
+
+                                                                                   FRED Commissioning during FRIDA:
+   How?
+                                                                                   •   APSS beam model implemented in FRED
+                                                                                   •   Tool to recalculate patient’s RT plan
+   • Exploiting the superior computational speed of FRED, a GPU-based                  developed
+     MC simulation tool, in the optimization process                               •   Validated on a set of significant patients
+   • Creating a dedicated efficient optimization algorithm to design
+     the 3DRM
+A. Taffelli,                                 Grant Giovani INFN, Roma, Nov 19th,                                                          4
+ 3DRM DESIGN
+                 1. Acquire and
+                manage TPS data
+
+
+               2. Initial guess of the
+                 shape of a 3DRM
+                                                          ITERATIVE
+                                                          LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM
+
+                                                 correction of the
+                     4. Fluence                weights wl associated
+                    optimization                to the pin’s lengths
+
+
+
+                                          N
+                   5. Check clinical
+                        goals
+                                          O
+
+                            YES
+
+                PRINTING PROCESS
+
+A. Taffelli,       Grant Giovani INFN, Roma, Nov 19th,                 5
+ 3DRM DESIGN
+                 1. Acquire and
+                manage TPS data
+
+
+               2. Initial guess of the
+                                                                                         TPS dicom files:
+                 shape of a 3DRM
+                                                                                         • RT plan
+                                                         ITERATIVE
+                                                                                         • RT dose
+                                                         LOOP                            • CT
+                3. FRED simulation
+                with the designed
+                                                                                         • Structures
+                      3DRM
+
+                                               correction of the
+                     4. Fluence              weights wl associated
+                    optimization              to the pin’s lengths
+                                                                                        RT original              3DRM based
+                                                                                        plan                     plan
+                                         N                                              pb: 001 1; E=105.6;   pb: 001 1; E=105.6;
+                   5. Check clinical
+                        goals
+                                         O                                              pb: 002 1; E=105.6;
+                                                                                        …
+                                                                                                              pb: 002 1; E=105.6;
+                                                                                                              …
+                                                                                        pb: 301 1; E=98.5;    pb: 301 1; E=105.6;
+                            YES                                                         pb: 302 1; E=98.5;    pb: 302 1; E=105.6;
+                                                                                        …                     …
+                                                                                        pb: 701 1; E=78.3;    pb: 701 1; E=105.6;
+                PRINTING PROCESS                                                        pb: 702 1; E=78.3;    pb: 702 1; E=105.6;
+                                                                                        …                     …
+A. Taffelli,                                      Grant Giovani INFN, Roma, Nov 19th,                                               6
+ 3DRM DESIGN
+                                                                      Starting from simple geometries (e.g.
+                 1. Acquire and                                       sphere)                   G
+                manage TPS data                                                                      y
+                                                                                                                   TPS dose
+                                                                                                                  distributio
+               2. Initial guess of the                                                                                 n
+                 shape of a 3DRM
+                                                         ITERATIVE
+                                                         LOOP
+                3. FRED simulation                                                      Depth
+                                                                                                               Target structure
+                with the designed                                                       (cm)         G
+                                                                                                                  (e.g. PTV)
+                      3DRM                                                                           y
+
+
+                                               correction of the
+                     4. Fluence              weights wl associated
+                    optimization              to the pin’s lengths
+
+
+                                                                                        Depth                      Raw
+                                         N                                              (cm)                       3DRM
+                   5. Check clinical                                                                Quick guess of the 3DRM based on:
+                        goals
+                                         O
+                                                                                                •    Geometrical considerations on the
+                            YES                                                                      target
+                                                                                                •    Pre-optimized independent 2D
+                PRINTING PROCESS                                                                     SOPBs
+
+                                                  Grant Giovani INFN, Roma, Nov 19th,    cm                                         7
+A. Taffelli,
+ 3DRM DESIGN
+                 1. Acquire and                                                                    FRED
+                manage TPS data                                                                    simulation
+
+               2. Initial guess of the
+                                                                p+
+                                                                beam
+
+
+
+
+                                                                                  cm
+
+
+
+
+                                                                                                                                    Dose
+                                                                                                                                    (Gy)
+                 shape of a 3DRM
+                                                         ITERATIVE
+                                                         LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM                                                                                         Depth
+                                                                                                     Time          (cm)
+
+                                               correction of the                        RM           estimate
+                                                                                                   Phantom #vox nPrim   FRED Time
+                     4. Fluence                                                         #vox
+                                             weights wl associated
+                    optimization              to the pin’s lengths                        106          106       105        2s
+                                                                                          106          106       106        2s
+                                                                                          106          106       107        4s
+
+                                         N                                               6.4 x         106       105        3s
+                   5. Check clinical                                                      107
+                        goals
+                                         O                                               6.4 x         106       106        3s
+                                                                                          107
+                            YES                                                          6.4 x         106       107        7s
+                                                                                          107
+                                                                                          109          106       105       20 s
+                PRINTING PROCESS
+                                                                                          109Very fast
+                                                                                                   10    6
+                                                                                                            10     6
+                                                                                                                           15 s
+
+A. Taffelli,                                      Grant Giovani INFN, Roma, Nov 19th,     10 recalculation!
+                                                                                               9
+                                                                                                   10    6
+                                                                                                            10     7
+                                                                                                                           23 s     8
+ 3DRM DESIGN
+                 1. Acquire and
+                manage TPS data
+
+
+               2. Initial guess of the                                                    Fluence
+                 shape of a 3DRM                                                          Optimization
+                                                         ITERATIVE
+                                                         LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM                                                     dose in the ith           dose influence
+                                                                               voxel                     matrix
+                                               correction of the                        weight of the jth pb
+                     4. Fluence              weights wl associated
+                    optimization              to the pin’s lengths
+                                                                                        (fluence)
+
+
+                                         N                                         optimize the weights wj to converge to
+                   5. Check clinical
+                        goals
+                                         O                                            the objective dose distribution Di
+                            YES                                                      e.g. (PTV coverage, OARs sparing)
+
+                PRINTING PROCESS
+
+A. Taffelli,                                      Grant Giovani INFN, Roma, Nov 19th,                                       9
+ 3DRM DESIGN
+                 1. Acquire and                                                        Compare DVH metrics: D98%, D2%,
+                manage TPS data                                                        Dmax
+
+               2. Initial guess of the
+                 shape of a 3DRM
+                                                        ITERATIVE
+                                                        LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM
+
+                                               correction of the
+                     4. Fluence              weights wl associated
+                    optimization              to the pin’s lengths
+
+
+
+                                         N
+                   5. Check clinical
+                        goals
+                                         O
+
+                            YES
+
+                PRINTING PROCESS                                                                             Deffet et al.,
+                                                                                                             2023
+A. Taffelli,                                     Grant Giovani INFN, Roma, Nov 19th,                                          10
+ 3DRM DESIGN
+                 1. Acquire and
+                manage TPS data                                            Development of an algorithm to correct
+                                                                           the pin’s weights based on the dose
+                                                                           distribution
+               2. Initial guess of the                                     (e.g. matching algorithm)
+                 shape of a 3DRM
+                                                         ITERATIVE
+                                                         LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM
+
+                                               correction of the                             +                        +
+                     4. Fluence              weights wl associated
+                    optimization              to the pin’s lengths
+                                                                                           Fluenc                   Fluenc
+                                                                                              e                        e
+                                                                                             Opt                      Opt
+                                         N                                      STEP                 STEP                 STEP
+                   5. Check clinical
+                        goals
+                                         O                                      0                    1                    2
+                                                                                               Time estimate:
+                            YES
+                                                                                    (10s (FRED) + 1min (fluence opt)) x 100
+                                                                                                    iter =
+                PRINTING PROCESS
+
+A. Taffelli,                                      Grant Giovani INFN, Roma, Nov 19th,               ≈ 1-2 hours                  11
+ 3DRM DESIGN
+                 1. Acquire and
+                manage TPS data
+
+
+               2. Initial guess of the
+                 shape of a 3DRM
+                                                          ITERATIVE
+                                                          LOOP
+                3. FRED simulation
+                with the designed
+                      3DRM
+
+                                                 correction of the
+                     4. Fluence                weights wl associated
+                    optimization                to the pin’s lengths
+
+
+
+                                          N
+                   5. Check clinical
+                        goals
+                                          O
+
+                            YES
+
+                PRINTING PROCESS
+
+A. Taffelli,       Grant Giovani INFN, Roma, Nov 19th,                 12
+ PRINTING & TESTING
+
+               PRINTING                                                        TESTING
+               • 3D printing performed with a                                  Perfomed at the Proton Therapy Center of
+                 stereolithographic printer in Vero resin                      Trento (APSS):
+                 (StratasysTM) at UniTN-DICAM                                  • Experimental room
+                                                                                     • To test first 2DRM prototypes
+
+
+                                                                               • Gantry
+                                                                                     • Through the fabrication of a dedicated support
+                                                                                       and alignment system for the 3DRM (ProMTM)
+                                                                                     • with dosimetric Tests and QA
+
+
+
+
+                           R. Cristoforetti (M. Thesis),
+                           2022
+
+
+
+
+A. Taffelli,                                               Grant Giovani INFN, Roma, Nov 19th,                                          13
+ OUTLOOK
+
+        FORM-3D aims to make a concrete step towards the translation of FLASH proton therapy into
+        clincs, in the framework of the PTC of Trento, to be possibly extended to other facilities
+
+                                                       (but not only)
+
+        A part from Flash Radiotherapy, the project will be
+        important also:
+
+        • To speed up the current PT treatments, with an
+          impact in the treatment of moving targets (e.g.
+          Lung) and to better allocate the PTC resources
+        • Create the basis for the use of FRED as an
+          independent MC tool at the PTC of Trento for
+          further research
+        • Fast calculation of dose rate metrics with
+          biophysical implications
+        • Contribute to the development of FRED, due to a
+          ongoing collaboration
+        • Possible technological transfer
+
+A. Taffelli,                                   Grant Giovani INFN, Roma, Nov 19th,                   14
+ COSTS
+
+
+
+
+A. Taffelli,   Grant Giovani INFN, Roma, Nov 19th,   15
+ GANTT & WORKPACKAGES
+
+
+
+
+A. Taffelli,       Grant Giovani INFN, Roma, Nov 19th,   16
+ ORGANIZATION
+
+
+
+
+                   Primo Ricercatore
+
+
+
+
+A. Taffelli,    Grant Giovani INFN, Roma, Nov 19th,   17
+                 FORM-3D:
+         Fast Optimization of Range
+               Modulators 3D
+                   Grant Giovani INFN, November, 19th, 2024
+
+
+
+
+Alberto Taffelli                                              Rome, November, 19th, 2024
+ BACKUP SLIDES
+
+
+
+
+A. Taffelli,     Grant Giovani INFN, Roma, Nov 19th,   19
+ 3DRM DESIGN
+                 1. Acquire and                                        1. Acquire and
+                manage TPS data                                       manage TPS data
+
+
+               2. Computation of 3D                                  2. Initial guess of the
+               look-up-tables (LUTs)                                   shape of a 3DRM
+                                                                                                              ITERATIVE
+                                                                                                              LOOP
+               3. Optimization of Pin                                 3. FRED simulation
+               lengths and fluences                                   with the designed
+                                                                            3DRM
+
+                                                                                                     correction of the
+                 4. MC Simulation                                          4. Fluence              weights wl associated
+                                                                          optimization              to the pin’s lengths
+
+
+
+                                                                                               N
+                   5. Check clinical                                     5. Check clinical
+                        goals                                                 goals
+                                                                                               O
+
+                            YES                                                   YES
+
+                PRINTING PROCESS                                      PRINTING PROCESS
+
+A. Taffelli,                            Grant Giovani INFN, Roma, Nov 19th,                                                20
+ 3DRM DESIGN
+
+
+
+
+                                                     Ma et al.
+                                                     2023
+
+
+
+
+A. Taffelli,   Grant Giovani INFN, Roma, Nov 19th,               21
+ 3DRM DESIGN
+
+
+
+
+                                                     Deffet et al.
+                                                     2023
+
+
+
+
+A. Taffelli,   Grant Giovani INFN, Roma, Nov 19th,                   22
+ DADR PBDR metrics
+
+
+
+
+A. Taffelli,         Grant Giovani INFN, Roma, Nov 19th,   23
+

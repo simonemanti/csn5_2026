@@ -1,0 +1,419 @@
+ AToMiQA
+ A
+ Tool for
+ Microdosimetr
+ ic                         i an
+                                 c hi
+                        a B         NL
+                      n          L
+ Quality           An
+                       IN
+                           F N-
+
+ Assurance
+
+19 Novembre 2024
+                                           Stato dell’arte
+
+
+
+
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Microdosimetria in clinica - LET
+ W hen the mean number of charged particles, including delta rays originating outside the site, interacting
+  with the volume of interest is small, the stochastic nature of the radiation interactions should be considered.
+  Such a situation will arise when the reciprocal of the particle fluence is comparable to or larger than the
+  cross-sectional area of the volume of interest. In mixed radiation fields the fluence of the higher LET
+  components should be considered.
+
+
+                       62 MeV SOBP
+                     CATANA beam line
+                       @LNS - INFN
+
+
+                                                                             TPS con qualità di
+                                            Possibilità di
+                                           riprodurre LET
+                                                                              radiazione - RQ
+                                                                                (RBE-LET)
+
+                                                                                                       3
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Microdosimetria in clinica - RBE
+                                                                             62 MeV SOBP
+                                                                      CATANA beam line @LNS - INFN   Pihet et al., Radiat Prot Dos, Vol.31(1-4),
+                                                                                                     1990 https://doi.org/10.1093/oxfordjournals.rpd.a080709
+
+
+
+
+                Chaudary et al., Int J Radiat Oncol Biol Phys. 2014
+                Sep 1;90(1):27-35. doi:
+
+                10.1016/j.ijrobp.2014.05.010.
+
+
+                                                                        Possibilità di
+                                                                         riprodurre
+               RBE =                                                         RBE
+               1.1
+              RBE10 – U87 cell line
+                                                                                                      Servono strumenti
+                                                                                                        per introdurre
+                                                                                                      nuova QA per la RQ
+
+                                                                                                                                          4
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Rivelatori
+                                                                          Alta
+                                                                       sensibilità
+
+
+  TEPCs                            SSDs
+     Alta sensibilità              Alta sensibilità                 Rivelatori per   Siti simulati
+                                                                         QA          micrometri
+                                                      Alti flussi                      ci e sub-
+     Siti simulati                 Siti simulati                    microdosimetri   micrometri
+  micrometrici e sub-           micrometrici e sub-                       ca                ci
+    micrometrici                  micrometrici
+
+ Tessuto-Equivalenza           Tessuto-Equivalenza
+
+      Alti flussi
+    (max ~5·106 p s-1                 Alti flussi                       Tessuto-
+         cm-2)                                                         Equivalenz
+                                                                           a
+                                                                                          5
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Mini-TEPC
+
+
+
+                                                         Clinico: 108 - 109 p s-1 cm-2
+
+                                           Ora: 106-107 p s-1 cm-2
+
+
+
+
+  0.8 mm3 volume
+      sensibile
+                                                                            6
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+                                 La varianza-covarianza
+
+
+
+
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     La tecnica della varianza-covarianza
+                                                                                                                     … tecnica sviluppata negli anni ‘701
+
+             Misure di multi-evento ripetute ad intervalli di tempo costante con 2 rivelatori
+
+                                                      Singolo-                                                                     Multi-
+                                                      evento                                                                       evento
+Rivelatori di riferimento: camere a                                                                                            Non misurano spettri microdosimetrici
+ionizzazione                                                                                                                   in singolo evento
+
+                                                                                                                                                              Possiamo
+                                                                                                                                                             sfruttare la
+                                                                                                                                                           tecnica per uno
+                                                                                                                                                          strumento clinico
+                                                                                                                                                             combinato?
+       Bianchi A ., Selva A ., E liasson L ., L illhök J., Rabus H ., Conte
+       V ., 2024, Micr odosimetr y at the nanometr e level with
+       diff er ent techniques, Radiat. Phys. Chem. 221 (111778),
+       https://doi.or g/10.1016/j.radphyschem.2024.111778
+
+
+
+
+                                                                              1
+                                                                               Bengtsson LG, 1970, Assessment of dose equivalent from fluctuations of energy deposition. In: Proceedings of the   8
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5                                      Second Symposium on Microdosimetry, EUR 4452 d-f-e. HG Ebert (ed.) Euratom, Brussels
+                                           AToMiQA
+
+
+
+
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Obiettivi
+
+       Microdosimetria a gas per                                                              Misure a correnti cliniche
+           correnti cliniche                                                                possibili solo in distal e fall-off
+
+                                                                                                                             Metodologia
+ 1. Tecnica varianza-covarianza in                                                                    Tecnica validata per neutroni e
+ adroterapia                                                                                          fotoni da sorgente
+
+ 2. TEPCs (+ singolo evento = intera info                                                             Tecnica validata con camere a
+ spettrale)                                                                                           ionizzazione (solo valori medi)
+ 3. Tecnica varianza-covarianza con un solo                                                           Tecnica varianza-covarianza con
+ rivelatore alla proton terapia                                                                       un rivelatore* con sorgente
+                                                                                                      gamma                     10
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5   *Eliasson L., et al.., 2024, Radiat Phys Chem, 221 (111779), https://doi.org/10.1016/j.radphyschem.2024.111779
+     Deliverable
+    Prototipo di un TEPC e relativa metodologia di misura, per lo studio degli
+     aspetti stocastici dell’interazione radiazione-materia in adroterapia (ai
+                                    flussi clinici)
+                                               Impatto e ricadute
+
+                                                       Sistemi avanzati di
+                                                       treatment planning
+                                                        che tengono conto
+                      Singolo-evento                   della RQ, e relative
+                       (PA in carica)                    procedure di QA
+
+                     Multi-evento (PA
+                       in corrente e
+                      integratore a
+                     tempi variabili)
+                                                                          11
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Work Packages
+
+
+
+
+                                           W P1
+  • Rivelatori                                           • Sviluppo elettronica
+
+  • Test in campo di                                     • Design e costruzione
+    radiazione                                             sulla base dei parametri
+                                                           ottenuti in indagine
+                                                           W P1
+
+
+
+                                                  W P2
+  • Ricerca ottimizzazione
+    condizioni di misura
+
+                                                                              12
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Cronoprogramma 1° anno
+
+
+
+
+                                                                                                                                                                Dicembre
+                                                                                                                                                                Novembr
+                                                                                                                                                     Settembr
+                                                                                     Febbraio
+                                                                           Gennaio
+
+
+
+
+                                                                                                                                                     Ottobre
+                                                                                                                 Maggio
+                                                                                                                          Giugno
+
+
+                                                                                                                                            Agosto
+                                                                                                Marzo
+
+
+
+
+                                                                                                                                   Luglio
+                                                                                                        Aprile
+ Task 1° anno
+
+
+
+
+                                                                                                                                                     e
+
+
+                                                                                                                                                                e
+ W P2 – Schede su design esistente                                                               M1
+
+
+ W P1 – Sviluppo ed eventuali modifiche 2 TEPCs 4MiCA                                            M2
+
+
+ W P1 – Misure in campi di radiazione                                                                                                                                M3
+
+
+ W P1 – Calcoli COMSOL/MC                                                                                                                                            M4
+
+
+ W P2 – Progetto e verifica nuova elettronica ottimizzata                                                                                                            M5
+
+
+ W P2 – Inizio studi su sistema di acquisizione digitale                                                                                                             M6
+
+
+                      Milestones 1° anno                                                               Data
+                                                                                                   completamento
+                      W P2 – M1: Schede su design esistente                                                31.03.2025
+                      W P1 - M2: Sviluppo 2 TEPC                                                           31.03.2025
+                      W P1 - M3: Misure in campi di radiazione                                             31.12.2025
+                      W P1 - M4: Confronto con simulazioni TOPAS                                           31.12.2025
+                                                                                                                                                         13
+Anna Bianchi - AToMiQAW  P2 - M5: CSN5
+                      - 19.11.2024 Progetto e verifica nuova elettronica                                   31.12.2025
+     Mitigazione
+
+
+                  2 attualmente in uso
+                     ottimizzati per
+                   misure in singolo-      Non senza interferenze con i
+                         evento                 progetti esistenti.
+
+
+
+                                              Si cercherà la strategia
+                                           migliore per la riuscita di tutti
+                                                i progetti (esistenti e
+                                                     AToMiQA)
+
+
+
+
+                                                                      14
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Cronoprogramma 2° anno
+
+
+
+
+                                                                                                                                                                             Novembre
+                                                                                                                                                       Settembre
+
+
+
+
+                                                                                                                                                                                        Dicembre
+                                                                                       Febbraio
+                                                                             Gennaio
+
+
+
+
+                                                                                                                                                                   Ottobre
+                                                                                                                   Maggio
+                                                                                                                            Giugno
+
+
+                                                                                                                                              Agosto
+                                                                                                  Marzo
+
+
+
+
+                                                                                                                                     Luglio
+                                                                                                          Aprile
+ Task 2° anno
+ W P1 – Misure IC-TEPC (collaborazione Swedish Radiation Safety Authority)                                                                                                               M7
+
+
+ W P2 – Nuova elettronica e test                                                                                    M8
+
+
+ W P1 – Indagine uso di un singolo rivelatore                                                                                                                                            M9
+
+
+ W P1 – Simulazioni MC
+ W P1/2 – Resoconto sull’applicazione della varianza covarianza in                                                                                                                       M10
+
+ adroterapia
+      Milestones 2° anno                                                                              Data completamento
+      W P1 – M7: Misure con TEPC-IC                                                                                    31.12.2026
+      W P2 – M8: Nuova scheda per entrambe le modalità e test                                                          31.05.2026
+      W P1 – M9: Indagine metodologia a singolo rivelatore                                                             31.12.2026
+      W P1/2 - M10: Resoconto su indagine metodologia in adroterapia                                                   31.12.2026
+
+                                                                                                                                                                   15
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Anagrafica
+  Nome                        Et Unità              FTE    1.5
+                              à
+  Anna Bianchi*              31 INFN-LNL             0.9
+                                                                                              Uomini    Donne
+  Valeria Conte              60 INFN-LNL             0.4
+  Alberto Fazzi*             67 INFN-Milano          0.5    1
+
+
+  Davide Bortot              37 INFN-Milano          0.3
+                                                                                            52%             48%
+  Davide Mazzucconi          33 INFN-Milano          0.5
+  Stefano Agosteo            62 INFN-Milano          0.2   0.5
+  Andrea Fabbri*             42 INFN-Roma Tre        0.1
+  Lucrezia Bianchi           26 INFN-Roma Tre        0.4
+   * Responsabile                          Totale    3.3
+   locale                                                   0
+
+Età media pesata con FTE:                                        INFN-LNL     INFN-Milano
+
+        42.4 anni                                                INFN-Roma3
+
+
+
+                                                                                                       16
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+       Richieste finanziarie
+                                                                                INFN-LNL
+                                                Richieste 1° anno               INFN-Milano
+                           DAQ digitale                 Schede                  INFN-Roma Tre
+ 15                                                   elettronica
+                                                       HV basso
+ 10
+                                                        rumore
+  5                                                                              Totale:
+                                                                                  67k€
+  0
+           Missioni                Inventario         Consumo        Servizi
+
+                                                 Richieste 2° anno
+
+ 10
+                                                        Schede
+                                                      elettronica
+ 7.5
+  5                                                                              Totale:
+ 2.5                                                                              32k€
+  0
+            Missioni               Inventario          Consumo        Servizi
+
+                                                                                              17
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+     Giudizio panel pre-selezione
+   1. This is a subsequent step compared to the previous MUSICA Youth Grant
+   project, won by the same proponent, in which the device was developed and
+   patented.
+                   MUSICA                               AToMiQA
+       Siti simulati micrometrici                       Alti flussi
+           e sub-micrometrici                       (max 5·106 p s-1 cm-2)
+
+     Qual è il sito più                       Possiamo superare questo
+     significativo?                           limite?
+                     Ricerc                           Applicazion
+                     a                                e
+   2. Staff involvement is adequate for the planned activities, although a
+   higher number of FTEs could accelerate the results.
+                                                                             18
+Anna Bianchi - AToMiQA - 19.11.2024 CSN5
+                                                   i
+Grazie per l’attenzione!                    n ch
+                                       B i a
+                                 n a
+                           A   n
+
+
+
+
+                                                                                                   f n .
+                                                                                            .   in
+                                                                                     l nl
+                                                                              hi   @
+                                                                          n c
+                                                                   bi a
+                                                            n   a.
+                                                       an
+
+19 Novembre 2024
+

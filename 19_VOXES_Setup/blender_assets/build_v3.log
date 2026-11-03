@@ -1,0 +1,12 @@
+00:00.471  blend            | Read blend: "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/v1_VOXES.blend"
+/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/blender_assets/build_v3.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+00:11.779  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/01_Overview.png'
+00:29.252  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/05_Source.png'
+00:46.875  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/06_Transmission.png'
+01:05.234  render           | Saved: '/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/19_VOXES_Setup/previews_v3/07_Transmission_top.png'
+Info: Saved as "v3_VOXES.blend"
+Info: Saved as "v3_VOXES.blend"
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:32:04)
+
+Blender quit

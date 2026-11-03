@@ -1,0 +1,185 @@
+{
+  "source_unchanged": true,
+  "sidebar_registered_after_reopen": true,
+  "packed_Arial": true,
+  "cameras": [
+    {
+      "name": "01 Overview",
+      "configuration": "SETUP",
+      "visible_meshes": 37,
+      "groups": [
+        "Crystal",
+        "Laser mount",
+        "MYTHEN",
+        "Sample holder",
+        "Slit S1",
+        "Slit S2",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.06746277958154678,
+        0.34423068165779114,
+        0.9330765604972839,
+        0.6827499866485596
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber",
+        "Slit S1",
+        "Slit S2",
+        "HAPG crystal",
+        "MYTHEN detector"
+      ]
+    },
+    {
+      "name": "02 Reverse",
+      "configuration": "SETUP",
+      "visible_meshes": 37,
+      "groups": [
+        "Crystal",
+        "Laser mount",
+        "MYTHEN",
+        "Sample holder",
+        "Slit S1",
+        "Slit S2",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.10527742654085159,
+        0.27019622921943665,
+        0.9100167751312256,
+        0.6960611343383789
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber",
+        "Slit S1",
+        "Slit S2",
+        "HAPG crystal",
+        "MYTHEN detector"
+      ]
+    },
+    {
+      "name": "03 Top",
+      "configuration": "SETUP",
+      "visible_meshes": 37,
+      "groups": [
+        "Crystal",
+        "Laser mount",
+        "MYTHEN",
+        "Sample holder",
+        "Slit S1",
+        "Slit S2",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.0872093215584755,
+        0.2166498601436615,
+        0.9159513711929321,
+        0.7943223118782043
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber",
+        "Slit S1",
+        "Slit S2",
+        "HAPG crystal",
+        "MYTHEN detector"
+      ]
+    },
+    {
+      "name": "04 Elevation",
+      "configuration": "SETUP",
+      "visible_meshes": 37,
+      "groups": [
+        "Crystal",
+        "Laser mount",
+        "MYTHEN",
+        "Sample holder",
+        "Slit S1",
+        "Slit S2",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.08235292881727219,
+        0.3989894688129425,
+        0.9208448529243469,
+        0.6577147245407104
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber",
+        "Slit S1",
+        "Slit S2",
+        "HAPG crystal",
+        "MYTHEN detector"
+      ]
+    },
+    {
+      "name": "05 Source",
+      "configuration": "SOURCE",
+      "visible_meshes": 28,
+      "groups": [
+        "Laser mount",
+        "Sample holder",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.3134833872318268,
+        0.13345752656459808,
+        0.6897493004798889,
+        0.8767799735069275
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber",
+        "Laser mount"
+      ]
+    },
+    {
+      "name": "06 Transmission",
+      "configuration": "TRANSMISSION",
+      "visible_meshes": 27,
+      "groups": [
+        "Sample holder",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.30472996830940247,
+        0.20001867413520813,
+        0.7680619359016418,
+        0.8416728377342224
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber"
+      ]
+    },
+    {
+      "name": "07 Transmission top",
+      "configuration": "TRANSMISSION",
+      "visible_meshes": 27,
+      "groups": [
+        "Sample holder",
+        "Source chamber",
+        "X-ray tube"
+      ],
+      "frame_bounds": [
+        0.335916668176651,
+        0.1538000851869583,
+        0.7250000834465027,
+        0.8600000143051147
+      ],
+      "labels": [
+        "X-ray tube",
+        "Sample chamber"
+      ]
+    }
+  ]
+}

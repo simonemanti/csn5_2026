@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "presentation": {
+    "id": "1WXjd2Zy0VMVTIDiQ-eIxt8ctDEMiOW3k81sA1vCwU6U",
+    "title": "PRISM@CSN5_2026_11_16",
+    "revisionId": "Ak-0YHFpy05bTg",
+    "slideCount": 21
+  },
+  "snapshotSha256": "89e597c92787c6f567b2e4e4f0e80fe6ddf06ee491cd2036f771fcb951f5c68e",
+  "summary": {
+    "totalIssues": 0,
+    "reportedIssues": 0,
+    "truncated": false,
+    "bySeverity": {},
+    "byCode": {}
+  },
+  "issues": []
+}

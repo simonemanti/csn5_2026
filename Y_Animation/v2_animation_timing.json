@@ -1,0 +1,2354 @@
+[
+  {
+    "frame": 1,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 2,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 3,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 4,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 5,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 6,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 7,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 8,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 9,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 10,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 11,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 12,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 13,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 14,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 15,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 16,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 17,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 18,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 19,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 20,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 21,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 22,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 23,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 24,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 25,
+    "progress": 0.00012274734907871,
+    "relative_energy_eV": -44.97851921391123,
+    "normalized_absorption": 0.011518938738421934,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 26,
+    "progress": 0.0004888821456868794,
+    "relative_energy_eV": -44.91444562450479,
+    "normalized_absorption": 0.011544709849491805,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 27,
+    "progress": 0.0010952435138825672,
+    "relative_energy_eV": -44.80833238507055,
+    "normalized_absorption": 0.011587674428893692,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 28,
+    "progress": 0.001938670577723832,
+    "relative_energy_eV": -44.66073264889833,
+    "normalized_absorption": 0.011648066049601842,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 29,
+    "progress": 0.003016002461268733,
+    "relative_energy_eV": -44.47219956927797,
+    "normalized_absorption": 0.011726197140790807,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 30,
+    "progress": 0.004324078288575331,
+    "relative_energy_eV": -44.24328629949932,
+    "normalized_absorption": 0.011822683411950446,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 31,
+    "progress": 0.005859737183701681,
+    "relative_energy_eV": -43.97454599285221,
+    "normalized_absorption": 0.011938274182949352,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 32,
+    "progress": 0.007619818270705844,
+    "relative_energy_eV": -43.66653180262648,
+    "normalized_absorption": 0.012074016268771668,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 33,
+    "progress": 0.009601160673645881,
+    "relative_energy_eV": -43.31979688211197,
+    "normalized_absorption": 0.012231159898498547,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 34,
+    "progress": 0.011800603516579845,
+    "relative_energy_eV": -42.93489438459853,
+    "normalized_absorption": 0.012412719879912108,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 35,
+    "progress": 0.014214985923565805,
+    "relative_energy_eV": -42.512377463375984,
+    "normalized_absorption": 0.012621587870310102,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 36,
+    "progress": 0.016841147018661816,
+    "relative_energy_eV": -42.05279927173418,
+    "normalized_absorption": 0.012859726476557313,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 37,
+    "progress": 0.019675925925925927,
+    "relative_energy_eV": -41.55671296296296,
+    "normalized_absorption": 0.013128746729134548,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 38,
+    "progress": 0.02271616176941621,
+    "relative_energy_eV": -41.024671690352164,
+    "normalized_absorption": 0.013430214743952937,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 39,
+    "progress": 0.025958693673190713,
+    "relative_energy_eV": -40.457228607191624,
+    "normalized_absorption": 0.01376546340444627,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 40,
+    "progress": 0.029400360761307504,
+    "relative_energy_eV": -39.85493686677118,
+    "normalized_absorption": 0.014135439877661037,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 41,
+    "progress": 0.033038002157824646,
+    "relative_energy_eV": -39.218349622380686,
+    "normalized_absorption": 0.014540750423212507,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 42,
+    "progress": 0.036868456986800184,
+    "relative_energy_eV": -38.54802002730997,
+    "normalized_absorption": 0.014981612589993504,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 43,
+    "progress": 0.040888564372292185,
+    "relative_energy_eV": -37.84450123484887,
+    "normalized_absorption": 0.015457644318250138,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 44,
+    "progress": 0.0450951634383587,
+    "relative_energy_eV": -37.108346398287225,
+    "normalized_absorption": 0.01596993276709451,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 45,
+    "progress": 0.0494850933090578,
+    "relative_energy_eV": -36.34010867091489,
+    "normalized_absorption": 0.016534467610836365,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 46,
+    "progress": 0.05405519310844755,
+    "relative_energy_eV": -35.54034120602168,
+    "normalized_absorption": 0.01715519613953755,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 47,
+    "progress": 0.058802301960585994,
+    "relative_energy_eV": -34.70959715689745,
+    "normalized_absorption": 0.0178318320742772,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 48,
+    "progress": 0.0637232589895312,
+    "relative_energy_eV": -33.84842967683204,
+    "normalized_absorption": 0.018563348366271576,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 49,
+    "progress": 0.0688149033193412,
+    "relative_energy_eV": -32.95739191911529,
+    "normalized_absorption": 0.019347636071392824,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 50,
+    "progress": 0.07407407407407407,
+    "relative_energy_eV": -32.03703703703704,
+    "normalized_absorption": 0.020181774103961075,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 51,
+    "progress": 0.07949761037778788,
+    "relative_energy_eV": -31.08791818388712,
+    "normalized_absorption": 0.021062459058493205,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 52,
+    "progress": 0.0850823513545407,
+    "relative_energy_eV": -30.110588512955378,
+    "normalized_absorption": 0.021994280820434867,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 53,
+    "progress": 0.09082513612839058,
+    "relative_energy_eV": -29.10560117753165,
+    "normalized_absorption": 0.02298682491684764,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 54,
+    "progress": 0.09672280382339554,
+    "relative_energy_eV": -28.07350933090578,
+    "normalized_absorption": 0.024050843527059648,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 55,
+    "progress": 0.10277219356361367,
+    "relative_energy_eV": -27.014866126367608,
+    "normalized_absorption": 0.025198284017853907,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 56,
+    "progress": 0.10897014447310305,
+    "relative_energy_eV": -25.93022471720697,
+    "normalized_absorption": 0.026442658101709794,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 57,
+    "progress": 0.11531349567592172,
+    "relative_energy_eV": -24.820138256713697,
+    "normalized_absorption": 0.0277987713889805,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 58,
+    "progress": 0.1217990862961277,
+    "relative_energy_eV": -23.685159898177652,
+    "normalized_absorption": 0.029286600242795495,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 59,
+    "progress": 0.12842375545777912,
+    "relative_energy_eV": -22.525842794888653,
+    "normalized_absorption": 0.03093324281622748,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 60,
+    "progress": 0.135184342284934,
+    "relative_energy_eV": -21.34274010013655,
+    "normalized_absorption": 0.0327687182680844,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 61,
+    "progress": 0.1420776859016504,
+    "relative_energy_eV": -20.13640496721118,
+    "normalized_absorption": 0.03488196159757407,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 62,
+    "progress": 0.14910062543198638,
+    "relative_energy_eV": -18.907390549402383,
+    "normalized_absorption": 0.03740043905564939,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 63,
+    "progress": 0.15625,
+    "relative_energy_eV": -17.65625,
+    "normalized_absorption": 0.03973601227207518,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 64,
+    "progress": 0.16352264872974928,
+    "relative_energy_eV": -16.383536472293876,
+    "normalized_absorption": 0.043380488433901715,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 65,
+    "progress": 0.1709154107452924,
+    "relative_energy_eV": -15.08980311957383,
+    "normalized_absorption": 0.04744492817897859,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 66,
+    "progress": 0.1784251251706873,
+    "relative_energy_eV": -13.775603095129725,
+    "normalized_absorption": 0.052257900011291436,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 67,
+    "progress": 0.18604863112999212,
+    "relative_energy_eV": -12.441489552251376,
+    "normalized_absorption": 0.05785597285659795,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 68,
+    "progress": 0.1937827677472648,
+    "relative_energy_eV": -11.088015644228662,
+    "normalized_absorption": 0.0656581486594556,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 69,
+    "progress": 0.20162437414656348,
+    "relative_energy_eV": -9.71573452435139,
+    "normalized_absorption": 0.0764365249411142,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 70,
+    "progress": 0.20957028945194628,
+    "relative_energy_eV": -8.325199345909404,
+    "normalized_absorption": 0.09121591624382194,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 71,
+    "progress": 0.2176173527874711,
+    "relative_energy_eV": -6.91696326219256,
+    "normalized_absorption": 0.11141905550083261,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 72,
+    "progress": 0.2257624032771962,
+    "relative_energy_eV": -5.4915794264906665,
+    "normalized_absorption": 0.13990890772598405,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 73,
+    "progress": 0.23400228004517945,
+    "relative_energy_eV": -4.049600992093595,
+    "normalized_absorption": 0.18299974021027568,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 74,
+    "progress": 0.24233382221547908,
+    "relative_energy_eV": -2.591581112291159,
+    "normalized_absorption": 0.2463019250003776,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 75,
+    "progress": 0.25075386891215296,
+    "relative_energy_eV": -1.1180729403732315,
+    "normalized_absorption": 0.3216861129133463,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 76,
+    "progress": 0.25925925925925924,
+    "relative_energy_eV": 0.3703703703703667,
+    "normalized_absorption": 0.39928222955603104,
+    "fluorescence": 0.00437643875268155
+  },
+  {
+    "frame": 77,
+    "progress": 0.26784683238085605,
+    "relative_energy_eV": 1.8731956666498064,
+    "normalized_absorption": 0.4751155167771079,
+    "fluorescence": 0.11001111920761797
+  },
+  {
+    "frame": 78,
+    "progress": 0.2765134274010013,
+    "relative_energy_eV": 3.3898497951752304,
+    "normalized_absorption": 0.5478448565724898,
+    "fluorescence": 0.3270161733163091
+  },
+  {
+    "frame": 79,
+    "progress": 0.2852558834437533,
+    "relative_energy_eV": 4.919779602656824,
+    "normalized_absorption": 0.6160416097565761,
+    "fluorescence": 0.563327832795871
+  },
+  {
+    "frame": 80,
+    "progress": 0.2940710396331698,
+    "relative_energy_eV": 6.462431935804709,
+    "normalized_absorption": 0.6841133495268668,
+    "fluorescence": 0.6841133495268668
+  },
+  {
+    "frame": 81,
+    "progress": 0.302955735093309,
+    "relative_energy_eV": 8.01725364132907,
+    "normalized_absorption": 0.7568108709177009,
+    "fluorescence": 0.7568108709177009
+  },
+  {
+    "frame": 82,
+    "progress": 0.3119068089482291,
+    "relative_energy_eV": 9.583691565940093,
+    "normalized_absorption": 0.8272486123961487,
+    "fluorescence": 0.8272486123961487
+  },
+  {
+    "frame": 83,
+    "progress": 0.3209211003219879,
+    "relative_energy_eV": 11.161192556347885,
+    "normalized_absorption": 0.8927065959214621,
+    "fluorescence": 0.8927065959214621
+  },
+  {
+    "frame": 84,
+    "progress": 0.32999544833864364,
+    "relative_energy_eV": 12.749203459262638,
+    "normalized_absorption": 0.9373863524614561,
+    "fluorescence": 0.9373863524614561
+  },
+  {
+    "frame": 85,
+    "progress": 0.33912669212225427,
+    "relative_energy_eV": 14.347171121394496,
+    "normalized_absorption": 0.9534855713811745,
+    "fluorescence": 0.9534855713811745
+  },
+  {
+    "frame": 86,
+    "progress": 0.34831167079687786,
+    "relative_energy_eV": 15.954542389453628,
+    "normalized_absorption": 0.9515217848293418,
+    "fluorescence": 0.9515217848293418
+  },
+  {
+    "frame": 87,
+    "progress": 0.35754722348657264,
+    "relative_energy_eV": 17.570764110150215,
+    "normalized_absorption": 0.9430893582245785,
+    "fluorescence": 0.9430893582245785
+  },
+  {
+    "frame": 88,
+    "progress": 0.3668301893153964,
+    "relative_energy_eV": 19.19528313019437,
+    "normalized_absorption": 0.9300610059073438,
+    "fluorescence": 0.9300610059073438
+  },
+  {
+    "frame": 89,
+    "progress": 0.37615740740740744,
+    "relative_energy_eV": 20.827546296296305,
+    "normalized_absorption": 0.9095730535065452,
+    "fluorescence": 0.9095730535065452
+  },
+  {
+    "frame": 90,
+    "progress": 0.3855257168866636,
+    "relative_energy_eV": 22.46700045516613,
+    "normalized_absorption": 0.8866717842732255,
+    "fluorescence": 0.8866717842732255
+  },
+  {
+    "frame": 91,
+    "progress": 0.39493195687722304,
+    "relative_energy_eV": 24.113092453514028,
+    "normalized_absorption": 0.8736569919068348,
+    "fluorescence": 0.8736569919068348
+  },
+  {
+    "frame": 92,
+    "progress": 0.404372966503144,
+    "relative_energy_eV": 25.7652691380502,
+    "normalized_absorption": 0.877077945631674,
+    "fluorescence": 0.877077945631674
+  },
+  {
+    "frame": 93,
+    "progress": 0.4138455848884843,
+    "relative_energy_eV": 27.422977355484747,
+    "normalized_absorption": 0.8962480526003829,
+    "fluorescence": 0.8962480526003829
+  },
+  {
+    "frame": 94,
+    "progress": 0.4233466511573021,
+    "relative_energy_eV": 29.085663952527867,
+    "normalized_absorption": 0.9259430938470186,
+    "fluorescence": 0.9259430938470186
+  },
+  {
+    "frame": 95,
+    "progress": 0.43287300443365534,
+    "relative_energy_eV": 30.75277577588969,
+    "normalized_absorption": 0.9594813623624233,
+    "fluorescence": 0.9594813623624233
+  },
+  {
+    "frame": 96,
+    "progress": 0.4424214838416022,
+    "relative_energy_eV": 32.42375967228038,
+    "normalized_absorption": 0.9953222672816753,
+    "fluorescence": 0.9953222672816753
+  },
+  {
+    "frame": 97,
+    "progress": 0.45198892850520067,
+    "relative_energy_eV": 34.09806248841012,
+    "normalized_absorption": 1.0266244237151132,
+    "fluorescence": 1.0266244237151132
+  },
+  {
+    "frame": 98,
+    "progress": 0.4615721775485089,
+    "relative_energy_eV": 35.77513107098905,
+    "normalized_absorption": 1.0449051829095515,
+    "fluorescence": 1.0449051829095515
+  },
+  {
+    "frame": 99,
+    "progress": 0.47116807009558487,
+    "relative_energy_eV": 37.454412266727346,
+    "normalized_absorption": 1.048327834120053,
+    "fluorescence": 1.048327834120053
+  },
+  {
+    "frame": 100,
+    "progress": 0.48077344527048665,
+    "relative_energy_eV": 39.13535292233516,
+    "normalized_absorption": 1.033891179073087,
+    "fluorescence": 1.033891179073087
+  },
+  {
+    "frame": 101,
+    "progress": 0.4903851421972724,
+    "relative_energy_eV": 40.81739988452267,
+    "normalized_absorption": 1.0067326845872637,
+    "fluorescence": 1.0067326845872637
+  },
+  {
+    "frame": 102,
+    "progress": 0.5,
+    "relative_energy_eV": 42.5,
+    "normalized_absorption": 0.9691609300470012,
+    "fluorescence": 0.9691609300470012
+  },
+  {
+    "frame": 103,
+    "progress": 0.5096148578027275,
+    "relative_energy_eV": 44.182600115477314,
+    "normalized_absorption": 0.9317016447900439,
+    "fluorescence": 0.9317016447900439
+  },
+  {
+    "frame": 104,
+    "progress": 0.5192265547295132,
+    "relative_energy_eV": 45.86464707766481,
+    "normalized_absorption": 0.902109140573031,
+    "fluorescence": 0.902109140573031
+  },
+  {
+    "frame": 105,
+    "progress": 0.5288319299044152,
+    "relative_energy_eV": 47.545587733272654,
+    "normalized_absorption": 0.8839777265065449,
+    "fluorescence": 0.8839777265065449
+  },
+  {
+    "frame": 106,
+    "progress": 0.5384278224514911,
+    "relative_energy_eV": 49.22486892901095,
+    "normalized_absorption": 0.8818083953016104,
+    "fluorescence": 0.8818083953016104
+  },
+  {
+    "frame": 107,
+    "progress": 0.5480110714947993,
+    "relative_energy_eV": 50.90193751158988,
+    "normalized_absorption": 0.8934269436463272,
+    "fluorescence": 0.8934269436463272
+  },
+  {
+    "frame": 108,
+    "progress": 0.5575785161583978,
+    "relative_energy_eV": 52.57624032771962,
+    "normalized_absorption": 0.9111504607966439,
+    "fluorescence": 0.9111504607966439
+  },
+  {
+    "frame": 109,
+    "progress": 0.5671269955663446,
+    "relative_energy_eV": 54.24722422411031,
+    "normalized_absorption": 0.927631334018489,
+    "fluorescence": 0.927631334018489
+  },
+  {
+    "frame": 110,
+    "progress": 0.576653348842698,
+    "relative_energy_eV": 55.91433604747216,
+    "normalized_absorption": 0.9423020082179807,
+    "fluorescence": 0.9423020082179807
+  },
+  {
+    "frame": 111,
+    "progress": 0.5861544151115157,
+    "relative_energy_eV": 57.57702264451524,
+    "normalized_absorption": 0.9540919339333809,
+    "fluorescence": 0.9540919339333809
+  },
+  {
+    "frame": 112,
+    "progress": 0.595627033496856,
+    "relative_energy_eV": 59.2347308619498,
+    "normalized_absorption": 0.9618107243706568,
+    "fluorescence": 0.9618107243706568
+  },
+  {
+    "frame": 113,
+    "progress": 0.6050680431227768,
+    "relative_energy_eV": 60.88690754648594,
+    "normalized_absorption": 0.9684864014352362,
+    "fluorescence": 0.9684864014352362
+  },
+  {
+    "frame": 114,
+    "progress": 0.6144742831133363,
+    "relative_energy_eV": 62.53299954483386,
+    "normalized_absorption": 0.9756257719036278,
+    "fluorescence": 0.9756257719036278
+  },
+  {
+    "frame": 115,
+    "progress": 0.6238425925925927,
+    "relative_energy_eV": 64.17245370370372,
+    "normalized_absorption": 0.9832682841405946,
+    "fluorescence": 0.9832682841405946
+  },
+  {
+    "frame": 116,
+    "progress": 0.6331698106846037,
+    "relative_energy_eV": 65.80471686980565,
+    "normalized_absorption": 0.9963672311151577,
+    "fluorescence": 0.9963672311151577
+  },
+  {
+    "frame": 117,
+    "progress": 0.6424527765134274,
+    "relative_energy_eV": 67.42923588984979,
+    "normalized_absorption": 1.0099771605829646,
+    "fluorescence": 1.0099771605829646
+  },
+  {
+    "frame": 118,
+    "progress": 0.651688329203122,
+    "relative_energy_eV": 69.04545761054635,
+    "normalized_absorption": 1.0251338770429013,
+    "fluorescence": 1.0251338770429013
+  },
+  {
+    "frame": 119,
+    "progress": 0.6608733078777457,
+    "relative_energy_eV": 70.65282887860549,
+    "normalized_absorption": 1.0374960945173224,
+    "fluorescence": 1.0374960945173224
+  },
+  {
+    "frame": 120,
+    "progress": 0.6700045516613564,
+    "relative_energy_eV": 72.25079654073737,
+    "normalized_absorption": 1.042331689867753,
+    "fluorescence": 1.042331689867753
+  },
+  {
+    "frame": 121,
+    "progress": 0.6790788996780122,
+    "relative_energy_eV": 73.83880744365213,
+    "normalized_absorption": 1.0366308573631269,
+    "fluorescence": 1.0366308573631269
+  },
+  {
+    "frame": 122,
+    "progress": 0.6880931910517709,
+    "relative_energy_eV": 75.41630843405991,
+    "normalized_absorption": 1.021474811410552,
+    "fluorescence": 1.021474811410552
+  },
+  {
+    "frame": 123,
+    "progress": 0.6970442649066909,
+    "relative_energy_eV": 76.98274635867091,
+    "normalized_absorption": 1.0004908635026681,
+    "fluorescence": 1.0004908635026681
+  },
+  {
+    "frame": 124,
+    "progress": 0.7059289603668303,
+    "relative_energy_eV": 78.5375680641953,
+    "normalized_absorption": 0.9757677211948363,
+    "fluorescence": 0.9757677211948363
+  },
+  {
+    "frame": 125,
+    "progress": 0.7147441165562467,
+    "relative_energy_eV": 80.08022039734317,
+    "normalized_absorption": 0.9518642503544539,
+    "fluorescence": 0.9518642503544539
+  },
+  {
+    "frame": 126,
+    "progress": 0.7234865725989986,
+    "relative_energy_eV": 81.61015020482476,
+    "normalized_absorption": 0.9335348371508292,
+    "fluorescence": 0.9335348371508292
+  },
+  {
+    "frame": 127,
+    "progress": 0.732153167619144,
+    "relative_energy_eV": 83.12680433335018,
+    "normalized_absorption": 0.9222159621728105,
+    "fluorescence": 0.9222159621728105
+  },
+  {
+    "frame": 128,
+    "progress": 0.7407407407407407,
+    "relative_energy_eV": 84.62962962962962,
+    "normalized_absorption": 0.9169653896748233,
+    "fluorescence": 0.9169653896748233
+  },
+  {
+    "frame": 129,
+    "progress": 0.7492461310878471,
+    "relative_energy_eV": 86.11807294037325,
+    "normalized_absorption": 0.9172557047303794,
+    "fluorescence": 0.9172557047303794
+  },
+  {
+    "frame": 130,
+    "progress": 0.757666177784521,
+    "relative_energy_eV": 87.59158111229118,
+    "normalized_absorption": 0.9192751754630536,
+    "fluorescence": 0.9192751754630536
+  },
+  {
+    "frame": 131,
+    "progress": 0.7659977199548206,
+    "relative_energy_eV": 89.04960099209359,
+    "normalized_absorption": 0.9241043058291367,
+    "fluorescence": 0.9241043058291367
+  },
+  {
+    "frame": 132,
+    "progress": 0.7742375967228038,
+    "relative_energy_eV": 90.49157942649066,
+    "normalized_absorption": 0.929586974669585,
+    "fluorescence": 0.929586974669585
+  },
+  {
+    "frame": 133,
+    "progress": 0.7823826472125288,
+    "relative_energy_eV": 91.91696326219255,
+    "normalized_absorption": 0.935765479238993,
+    "fluorescence": 0.935765479238993
+  },
+  {
+    "frame": 134,
+    "progress": 0.7904297105480538,
+    "relative_energy_eV": 93.32519934590943,
+    "normalized_absorption": 0.9419867204147341,
+    "fluorescence": 0.9419867204147341
+  },
+  {
+    "frame": 135,
+    "progress": 0.7983756258534366,
+    "relative_energy_eV": 94.7157345243514,
+    "normalized_absorption": 0.9479858051051643,
+    "fluorescence": 0.9479858051051643
+  },
+  {
+    "frame": 136,
+    "progress": 0.8062172322527352,
+    "relative_energy_eV": 96.08801564422868,
+    "normalized_absorption": 0.9537937567800328,
+    "fluorescence": 0.9537937567800328
+  },
+  {
+    "frame": 137,
+    "progress": 0.8139513688700079,
+    "relative_energy_eV": 97.44148955225137,
+    "normalized_absorption": 0.9585646087653845,
+    "fluorescence": 0.9585646087653845
+  },
+  {
+    "frame": 138,
+    "progress": 0.8215748748293126,
+    "relative_energy_eV": 98.7756030951297,
+    "normalized_absorption": 0.9626312773980268,
+    "fluorescence": 0.9626312773980268
+  },
+  {
+    "frame": 139,
+    "progress": 0.8290845892547076,
+    "relative_energy_eV": 100.08980311957384,
+    "normalized_absorption": 0.9661958502653618,
+    "fluorescence": 0.9661958502653618
+  },
+  {
+    "frame": 140,
+    "progress": 0.8364773512702508,
+    "relative_energy_eV": 101.38353647229388,
+    "normalized_absorption": 0.969447266078739,
+    "fluorescence": 0.969447266078739
+  },
+  {
+    "frame": 141,
+    "progress": 0.84375,
+    "relative_energy_eV": 102.65625,
+    "normalized_absorption": 0.9726722579014849,
+    "fluorescence": 0.9726722579014849
+  },
+  {
+    "frame": 142,
+    "progress": 0.8508993745680137,
+    "relative_energy_eV": 103.90739054940241,
+    "normalized_absorption": 0.9760028561730598,
+    "fluorescence": 0.9760028561730598
+  },
+  {
+    "frame": 143,
+    "progress": 0.8579223140983495,
+    "relative_energy_eV": 105.13640496721118,
+    "normalized_absorption": 0.9786572330611971,
+    "fluorescence": 0.9786572330611971
+  },
+  {
+    "frame": 144,
+    "progress": 0.864815657715066,
+    "relative_energy_eV": 106.34274010013655,
+    "normalized_absorption": 0.9813086132110509,
+    "fluorescence": 0.9813086132110509
+  },
+  {
+    "frame": 145,
+    "progress": 0.8715762445422208,
+    "relative_energy_eV": 107.52584279488863,
+    "normalized_absorption": 0.9846440270441458,
+    "fluorescence": 0.9846440270441458
+  },
+  {
+    "frame": 146,
+    "progress": 0.8782009137038723,
+    "relative_energy_eV": 108.68515989817766,
+    "normalized_absorption": 0.9877773175535612,
+    "fluorescence": 0.9877773175535612
+  },
+  {
+    "frame": 147,
+    "progress": 0.8846865043240782,
+    "relative_energy_eV": 109.8201382567137,
+    "normalized_absorption": 0.9904728448819183,
+    "fluorescence": 0.9904728448819183
+  },
+  {
+    "frame": 148,
+    "progress": 0.891029855526897,
+    "relative_energy_eV": 110.93022471720695,
+    "normalized_absorption": 0.9926237786532448,
+    "fluorescence": 0.9926237786532448
+  },
+  {
+    "frame": 149,
+    "progress": 0.8972278064363864,
+    "relative_energy_eV": 112.01486612636762,
+    "normalized_absorption": 0.993471816113773,
+    "fluorescence": 0.993471816113773
+  },
+  {
+    "frame": 150,
+    "progress": 0.9032771961766045,
+    "relative_energy_eV": 113.07350933090578,
+    "normalized_absorption": 0.9932907984119026,
+    "fluorescence": 0.9932907984119026
+  },
+  {
+    "frame": 151,
+    "progress": 0.9091748638716094,
+    "relative_energy_eV": 114.10560117753164,
+    "normalized_absorption": 0.9927165253730968,
+    "fluorescence": 0.9927165253730968
+  },
+  {
+    "frame": 152,
+    "progress": 0.9149176486454592,
+    "relative_energy_eV": 115.11058851295536,
+    "normalized_absorption": 0.9903051556879142,
+    "fluorescence": 0.9903051556879142
+  },
+  {
+    "frame": 153,
+    "progress": 0.9205023896222121,
+    "relative_energy_eV": 116.08791818388713,
+    "normalized_absorption": 0.9876126572471782,
+    "fluorescence": 0.9876126572471782
+  },
+  {
+    "frame": 154,
+    "progress": 0.925925925925926,
+    "relative_energy_eV": 117.03703703703707,
+    "normalized_absorption": 0.9847402133592302,
+    "fluorescence": 0.9847402133592302
+  },
+  {
+    "frame": 155,
+    "progress": 0.9311850966806587,
+    "relative_energy_eV": 117.95739191911528,
+    "normalized_absorption": 0.9820552891725685,
+    "fluorescence": 0.9820552891725685
+  },
+  {
+    "frame": 156,
+    "progress": 0.9362767410104689,
+    "relative_energy_eV": 118.84842967683204,
+    "normalized_absorption": 0.9796005761016429,
+    "fluorescence": 0.9796005761016429
+  },
+  {
+    "frame": 157,
+    "progress": 0.941197698039414,
+    "relative_energy_eV": 119.70959715689744,
+    "normalized_absorption": 0.977174244408576,
+    "fluorescence": 0.977174244408576
+  },
+  {
+    "frame": 158,
+    "progress": 0.9459448068915524,
+    "relative_energy_eV": 120.54034120602165,
+    "normalized_absorption": 0.9747246052105564,
+    "fluorescence": 0.9747246052105564
+  },
+  {
+    "frame": 159,
+    "progress": 0.9505149066909422,
+    "relative_energy_eV": 121.34010867091487,
+    "normalized_absorption": 0.972345166122812,
+    "fluorescence": 0.972345166122812
+  },
+  {
+    "frame": 160,
+    "progress": 0.9549048365616413,
+    "relative_energy_eV": 122.10834639828721,
+    "normalized_absorption": 0.9700592675475173,
+    "fluorescence": 0.9700592675475173
+  },
+  {
+    "frame": 161,
+    "progress": 0.9591114356277078,
+    "relative_energy_eV": 122.84450123484888,
+    "normalized_absorption": 0.9678902556434277,
+    "fluorescence": 0.9678902556434277
+  },
+  {
+    "frame": 162,
+    "progress": 0.9631315430131998,
+    "relative_energy_eV": 123.54802002730997,
+    "normalized_absorption": 0.9659157162943002,
+    "fluorescence": 0.9659157162943002
+  },
+  {
+    "frame": 163,
+    "progress": 0.9669619978421754,
+    "relative_energy_eV": 124.21834962238069,
+    "normalized_absorption": 0.9640854595125,
+    "fluorescence": 0.9640854595125
+  },
+  {
+    "frame": 164,
+    "progress": 0.9705996392386925,
+    "relative_energy_eV": 124.8549368667712,
+    "normalized_absorption": 0.9624572438977241,
+    "fluorescence": 0.9624572438977241
+  },
+  {
+    "frame": 165,
+    "progress": 0.9740413063268092,
+    "relative_energy_eV": 125.45722860719161,
+    "normalized_absorption": 0.9610786037643331,
+    "fluorescence": 0.9610786037643331
+  },
+  {
+    "frame": 166,
+    "progress": 0.9772838382305838,
+    "relative_energy_eV": 126.02467169035216,
+    "normalized_absorption": 0.9599041804667415,
+    "fluorescence": 0.9599041804667415
+  },
+  {
+    "frame": 167,
+    "progress": 0.9803240740740741,
+    "relative_energy_eV": 126.55671296296296,
+    "normalized_absorption": 0.9588540644206068,
+    "fluorescence": 0.9588540644206068
+  },
+  {
+    "frame": 168,
+    "progress": 0.9831588529813382,
+    "relative_energy_eV": 127.05279927173419,
+    "normalized_absorption": 0.9578706009730662,
+    "fluorescence": 0.9578706009730662
+  },
+  {
+    "frame": 169,
+    "progress": 0.9857850140764342,
+    "relative_energy_eV": 127.51237746337597,
+    "normalized_absorption": 0.9569255294954683,
+    "fluorescence": 0.9569255294954683
+  },
+  {
+    "frame": 170,
+    "progress": 0.9881993964834201,
+    "relative_energy_eV": 127.93489438459852,
+    "normalized_absorption": 0.9560424913911335,
+    "fluorescence": 0.9560424913911335
+  },
+  {
+    "frame": 171,
+    "progress": 0.9903988393263542,
+    "relative_energy_eV": 128.31979688211197,
+    "normalized_absorption": 0.955249118960603,
+    "fluorescence": 0.955249118960603
+  },
+  {
+    "frame": 172,
+    "progress": 0.9923801817292942,
+    "relative_energy_eV": 128.66653180262648,
+    "normalized_absorption": 0.9545605797206043,
+    "fluorescence": 0.9545605797206043
+  },
+  {
+    "frame": 173,
+    "progress": 0.9941402628162983,
+    "relative_energy_eV": 128.9745459928522,
+    "normalized_absorption": 0.9539816816118096,
+    "fluorescence": 0.9539816816118096
+  },
+  {
+    "frame": 174,
+    "progress": 0.9956759217114246,
+    "relative_energy_eV": 129.24328629949932,
+    "normalized_absorption": 0.9535064231005819,
+    "fluorescence": 0.9535064231005819
+  },
+  {
+    "frame": 175,
+    "progress": 0.9969839975387312,
+    "relative_energy_eV": 129.47219956927796,
+    "normalized_absorption": 0.95311053213156,
+    "fluorescence": 0.95311053213156
+  },
+  {
+    "frame": 176,
+    "progress": 0.9980613294222762,
+    "relative_energy_eV": 129.66073264889835,
+    "normalized_absorption": 0.9527900326020526,
+    "fluorescence": 0.9527900326020526
+  },
+  {
+    "frame": 177,
+    "progress": 0.9989047564861174,
+    "relative_energy_eV": 129.80833238507054,
+    "normalized_absorption": 0.952543446095723,
+    "fluorescence": 0.952543446095723
+  },
+  {
+    "frame": 178,
+    "progress": 0.9995111178543131,
+    "relative_energy_eV": 129.9144456245048,
+    "normalized_absorption": 0.9523692348592553,
+    "fluorescence": 0.9523692348592553
+  },
+  {
+    "frame": 179,
+    "progress": 0.9998772526509213,
+    "relative_energy_eV": 129.97851921391123,
+    "normalized_absorption": 0.9522653678359119,
+    "fluorescence": 0.9522653678359119
+  },
+  {
+    "frame": 180,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 181,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 182,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 183,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 184,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 185,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 186,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 187,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 188,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 189,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 190,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 191,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 192,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 193,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 194,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 195,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 196,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 197,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 198,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 199,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 200,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 201,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 202,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 203,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 204,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 205,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 206,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 207,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 208,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 209,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 210,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 211,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 212,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 213,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 214,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 215,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 216,
+    "progress": 1.0,
+    "relative_energy_eV": 130.0,
+    "normalized_absorption": 0.9522305462295247,
+    "fluorescence": 0.9522305462295247
+  },
+  {
+    "frame": 217,
+    "progress": 0.9996767397280093,
+    "relative_energy_eV": 129.94342945240163,
+    "normalized_absorption": 0.9523222503847373,
+    "fluorescence": 0.9523222503847373
+  },
+  {
+    "frame": 218,
+    "progress": 0.9987160011574074,
+    "relative_energy_eV": 129.7753002025463,
+    "normalized_absorption": 0.9525983200647734,
+    "fluorescence": 0.9525983200647734
+  },
+  {
+    "frame": 219,
+    "progress": 0.99713134765625,
+    "relative_energy_eV": 129.49798583984375,
+    "normalized_absorption": 0.9530662260383921,
+    "fluorescence": 0.9530662260383921
+  },
+  {
+    "frame": 220,
+    "progress": 0.9949363425925926,
+    "relative_energy_eV": 129.1138599537037,
+    "normalized_absorption": 0.9537325402251218,
+    "fluorescence": 0.9537325402251218
+  },
+  {
+    "frame": 221,
+    "progress": 0.9921445493344907,
+    "relative_energy_eV": 128.62529613353587,
+    "normalized_absorption": 0.9546406297965818,
+    "fluorescence": 0.9546406297965818
+  },
+  {
+    "frame": 222,
+    "progress": 0.98876953125,
+    "relative_energy_eV": 128.03466796875,
+    "normalized_absorption": 0.9558349758579547,
+    "fluorescence": 0.9558349758579547
+  },
+  {
+    "frame": 223,
+    "progress": 0.9848248517071759,
+    "relative_energy_eV": 127.34434904875579,
+    "normalized_absorption": 0.9572745452828012,
+    "fluorescence": 0.9572745452828012
+  },
+  {
+    "frame": 224,
+    "progress": 0.9803240740740741,
+    "relative_energy_eV": 126.55671296296296,
+    "normalized_absorption": 0.9588540644206068,
+    "fluorescence": 0.9588540644206068
+  },
+  {
+    "frame": 225,
+    "progress": 0.97528076171875,
+    "relative_energy_eV": 125.67413330078125,
+    "normalized_absorption": 0.9606189971684094,
+    "fluorescence": 0.9606189971684094
+  },
+  {
+    "frame": 226,
+    "progress": 0.9697084780092593,
+    "relative_energy_eV": 124.69898365162038,
+    "normalized_absorption": 0.9628415206888384,
+    "fluorescence": 0.9628415206888384
+  },
+  {
+    "frame": 227,
+    "progress": 0.9636207863136574,
+    "relative_energy_eV": 123.63363760489005,
+    "normalized_absorption": 0.9656783840368548,
+    "fluorescence": 0.9656783840368548
+  },
+  {
+    "frame": 228,
+    "progress": 0.95703125,
+    "relative_energy_eV": 122.48046875,
+    "normalized_absorption": 0.9689529872109375,
+    "fluorescence": 0.9689529872109375
+  },
+  {
+    "frame": 229,
+    "progress": 0.9499534324363426,
+    "relative_energy_eV": 121.24185067635995,
+    "normalized_absorption": 0.972635754294233,
+    "fluorescence": 0.972635754294233
+  },
+  {
+    "frame": 230,
+    "progress": 0.9424008969907407,
+    "relative_energy_eV": 119.92015697337962,
+    "normalized_absorption": 0.976560487708688,
+    "fluorescence": 0.976560487708688
+  },
+  {
+    "frame": 231,
+    "progress": 0.93438720703125,
+    "relative_energy_eV": 118.51776123046875,
+    "normalized_absorption": 0.9805089995687677,
+    "fluorescence": 0.9805089995687677
+  },
+  {
+    "frame": 232,
+    "progress": 0.9259259259259259,
+    "relative_energy_eV": 117.03703703703704,
+    "normalized_absorption": 0.9847402133592302,
+    "fluorescence": 0.9847402133592302
+  },
+  {
+    "frame": 233,
+    "progress": 0.9170306170428241,
+    "relative_energy_eV": 115.48035798249421,
+    "normalized_absorption": 0.989254409650097,
+    "fluorescence": 0.989254409650097
+  },
+  {
+    "frame": 234,
+    "progress": 0.90771484375,
+    "relative_energy_eV": 113.85009765625,
+    "normalized_absorption": 0.993000648613052,
+    "fluorescence": 0.993000648613052
+  },
+  {
+    "frame": 235,
+    "progress": 0.8979921694155093,
+    "relative_energy_eV": 112.14862964771413,
+    "normalized_absorption": 0.9934628450283718,
+    "fluorescence": 0.9934628450283718
+  },
+  {
+    "frame": 236,
+    "progress": 0.8878761574074074,
+    "relative_energy_eV": 110.3783275462963,
+    "normalized_absorption": 0.9915783369454788,
+    "fluorescence": 0.9915783369454788
+  },
+  {
+    "frame": 237,
+    "progress": 0.87738037109375,
+    "relative_energy_eV": 108.54156494140625,
+    "normalized_absorption": 0.9873912036753505,
+    "fluorescence": 0.9873912036753505
+  },
+  {
+    "frame": 238,
+    "progress": 0.8665183738425926,
+    "relative_energy_eV": 106.6407154224537,
+    "normalized_absorption": 0.9821109768842582,
+    "fluorescence": 0.9821109768842582
+  },
+  {
+    "frame": 239,
+    "progress": 0.8553037290219907,
+    "relative_energy_eV": 104.67815257884837,
+    "normalized_absorption": 0.9777397658684316,
+    "fluorescence": 0.9777397658684316
+  },
+  {
+    "frame": 240,
+    "progress": 0.84375,
+    "relative_energy_eV": 102.65625,
+    "normalized_absorption": 0.9726722579014849,
+    "fluorescence": 0.9726722579014849
+  },
+  {
+    "frame": 241,
+    "progress": 0.8318707501446759,
+    "relative_energy_eV": 100.57738127531829,
+    "normalized_absorption": 0.9674578679658505,
+    "fluorescence": 0.9674578679658505
+  },
+  {
+    "frame": 242,
+    "progress": 0.8196795428240741,
+    "relative_energy_eV": 98.44391999421296,
+    "normalized_absorption": 0.9616645661989656,
+    "fluorescence": 0.9616645661989656
+  },
+  {
+    "frame": 243,
+    "progress": 0.80718994140625,
+    "relative_energy_eV": 96.25823974609375,
+    "normalized_absorption": 0.9544515218983007,
+    "fluorescence": 0.9544515218983007
+  },
+  {
+    "frame": 244,
+    "progress": 0.7944155092592592,
+    "relative_energy_eV": 94.02271412037035,
+    "normalized_absorption": 0.9450139079182707,
+    "fluorescence": 0.9450139079182707
+  },
+  {
+    "frame": 245,
+    "progress": 0.7813698097511574,
+    "relative_energy_eV": 91.73971670645255,
+    "normalized_absorption": 0.934963448789358,
+    "fluorescence": 0.934963448789358
+  },
+  {
+    "frame": 246,
+    "progress": 0.76806640625,
+    "relative_energy_eV": 89.41162109375,
+    "normalized_absorption": 0.9253746678624598,
+    "fluorescence": 0.9253746678624598
+  },
+  {
+    "frame": 247,
+    "progress": 0.7545188621238426,
+    "relative_energy_eV": 87.04080087167245,
+    "normalized_absorption": 0.9180730415998395,
+    "fluorescence": 0.9180730415998395
+  },
+  {
+    "frame": 248,
+    "progress": 0.7407407407407407,
+    "relative_energy_eV": 84.62962962962962,
+    "normalized_absorption": 0.9169653896748233,
+    "fluorescence": 0.9169653896748233
+  },
+  {
+    "frame": 249,
+    "progress": 0.72674560546875,
+    "relative_energy_eV": 82.18048095703125,
+    "normalized_absorption": 0.9282647888098616,
+    "fluorescence": 0.9282647888098616
+  },
+  {
+    "frame": 250,
+    "progress": 0.7125470196759259,
+    "relative_energy_eV": 79.69572844328704,
+    "normalized_absorption": 0.9575307984229265,
+    "fluorescence": 0.9575307984229265
+  },
+  {
+    "frame": 251,
+    "progress": 0.6981585467303242,
+    "relative_energy_eV": 77.17774567780673,
+    "normalized_absorption": 0.9975428450535699,
+    "fluorescence": 0.9975428450535699
+  },
+  {
+    "frame": 252,
+    "progress": 0.68359375,
+    "relative_energy_eV": 74.62890625,
+    "normalized_absorption": 1.0299646749683073,
+    "fluorescence": 1.0299646749683073
+  },
+  {
+    "frame": 253,
+    "progress": 0.6688661928530093,
+    "relative_energy_eV": 72.05158374927663,
+    "normalized_absorption": 1.0423039437790158,
+    "fluorescence": 1.0423039437790158
+  },
+  {
+    "frame": 254,
+    "progress": 0.6539894386574074,
+    "relative_energy_eV": 69.4481517650463,
+    "normalized_absorption": 1.028582533531829,
+    "fluorescence": 1.028582533531829
+  },
+  {
+    "frame": 255,
+    "progress": 0.63897705078125,
+    "relative_energy_eV": 66.82098388671875,
+    "normalized_absorption": 1.004348279691967,
+    "fluorescence": 1.004348279691967
+  },
+  {
+    "frame": 256,
+    "progress": 0.6238425925925926,
+    "relative_energy_eV": 64.1724537037037,
+    "normalized_absorption": 0.9832682841405944,
+    "fluorescence": 0.9832682841405944
+  },
+  {
+    "frame": 257,
+    "progress": 0.6085996274594907,
+    "relative_energy_eV": 61.50493480541087,
+    "normalized_absorption": 0.9714700548943583,
+    "fluorescence": 0.9714700548943583
+  },
+  {
+    "frame": 258,
+    "progress": 0.59326171875,
+    "relative_energy_eV": 58.82080078125,
+    "normalized_absorption": 0.9611572796087486,
+    "fluorescence": 0.9611572796087486
+  },
+  {
+    "frame": 259,
+    "progress": 0.5778424298321759,
+    "relative_energy_eV": 56.12242522063079,
+    "normalized_absorption": 0.9438656813770103,
+    "fluorescence": 0.9438656813770103
+  },
+  {
+    "frame": 260,
+    "progress": 0.5623553240740741,
+    "relative_energy_eV": 53.41218171296296,
+    "normalized_absorption": 0.9189824651994941,
+    "fluorescence": 0.9189824651994941
+  },
+  {
+    "frame": 261,
+    "progress": 0.54681396484375,
+    "relative_energy_eV": 50.69244384765625,
+    "normalized_absorption": 0.8917097985543344,
+    "fluorescence": 0.8917097985543344
+  },
+  {
+    "frame": 262,
+    "progress": 0.5312319155092593,
+    "relative_energy_eV": 47.96558521412038,
+    "normalized_absorption": 0.8808376631523793,
+    "fluorescence": 0.8808376631523793
+  },
+  {
+    "frame": 263,
+    "progress": 0.5156227394386574,
+    "relative_energy_eV": 45.233979401765055,
+    "normalized_absorption": 0.9116767673393898,
+    "fluorescence": 0.9116767673393898
+  },
+  {
+    "frame": 264,
+    "progress": 0.5,
+    "relative_energy_eV": 42.5,
+    "normalized_absorption": 0.9691609300470012,
+    "fluorescence": 0.9691609300470012
+  },
+  {
+    "frame": 265,
+    "progress": 0.48437726056134267,
+    "relative_energy_eV": 39.766020598234974,
+    "normalized_absorption": 1.0247251373467252,
+    "fluorescence": 1.0247251373467252
+  },
+  {
+    "frame": 266,
+    "progress": 0.4687680844907407,
+    "relative_energy_eV": 37.03441478587962,
+    "normalized_absorption": 1.0481517976160253,
+    "fluorescence": 1.0481517976160253
+  },
+  {
+    "frame": 267,
+    "progress": 0.45318603515625,
+    "relative_energy_eV": 34.30755615234375,
+    "normalized_absorption": 1.0290208828161254,
+    "fluorescence": 1.0290208828161254
+  },
+  {
+    "frame": 268,
+    "progress": 0.43764467592592604,
+    "relative_energy_eV": 31.587818287037052,
+    "normalized_absorption": 0.9778731721137708,
+    "fluorescence": 0.9778731721137708
+  },
+  {
+    "frame": 269,
+    "progress": 0.42215757016782407,
+    "relative_energy_eV": 28.877574779369212,
+    "normalized_absorption": 0.9218648090114122,
+    "fluorescence": 0.9218648090114122
+  },
+  {
+    "frame": 270,
+    "progress": 0.40673828125,
+    "relative_energy_eV": 26.17919921875,
+    "normalized_absorption": 0.8807360041890434,
+    "fluorescence": 0.8807360041890434
+  },
+  {
+    "frame": 271,
+    "progress": 0.3914003725405093,
+    "relative_energy_eV": 23.49506519458913,
+    "normalized_absorption": 0.8770731937193852,
+    "fluorescence": 0.8770731937193852
+  },
+  {
+    "frame": 272,
+    "progress": 0.37615740740740733,
+    "relative_energy_eV": 20.827546296296276,
+    "normalized_absorption": 0.9095730535065456,
+    "fluorescence": 0.9095730535065456
+  },
+  {
+    "frame": 273,
+    "progress": 0.36102294921875,
+    "relative_energy_eV": 18.17901611328125,
+    "normalized_absorption": 0.937527842262996,
+    "fluorescence": 0.937527842262996
+  },
+  {
+    "frame": 274,
+    "progress": 0.34601056134259267,
+    "relative_energy_eV": 15.551848234953717,
+    "normalized_absorption": 0.9530925751119466,
+    "fluorescence": 0.9530925751119466
+  },
+  {
+    "frame": 275,
+    "progress": 0.3311338071469907,
+    "relative_energy_eV": 12.948416250723369,
+    "normalized_absorption": 0.9403542163562182,
+    "fluorescence": 0.9403542163562182
+  },
+  {
+    "frame": 276,
+    "progress": 0.31640625,
+    "relative_energy_eV": 10.37109375,
+    "normalized_absorption": 0.8609080907111631,
+    "fluorescence": 0.8609080907111631
+  },
+  {
+    "frame": 277,
+    "progress": 0.30184145326967593,
+    "relative_energy_eV": 7.822254322193288,
+    "normalized_absorption": 0.7467720522486703,
+    "fluorescence": 0.7467720522486703
+  },
+  {
+    "frame": 278,
+    "progress": 0.28745298032407407,
+    "relative_energy_eV": 5.304271556712962,
+    "normalized_absorption": 0.632544866954608,
+    "fluorescence": 0.6090025804531954
+  },
+  {
+    "frame": 279,
+    "progress": 0.27325439453125,
+    "relative_energy_eV": 2.81951904296875,
+    "normalized_absorption": 0.5196209509202764,
+    "fluorescence": 0.23639333888793593
+  },
+  {
+    "frame": 280,
+    "progress": 0.2592592592592593,
+    "relative_energy_eV": 0.3703703703703809,
+    "normalized_absorption": 0.39928222955603176,
+    "fluorescence": 0.004376438752681885
+  },
+  {
+    "frame": 281,
+    "progress": 0.24548113787615733,
+    "relative_energy_eV": -2.0408008716724666,
+    "normalized_absorption": 0.27408664086700785,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 282,
+    "progress": 0.23193359375,
+    "relative_energy_eV": -4.41162109375,
+    "normalized_absorption": 0.17145291906713664,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 283,
+    "progress": 0.21863019024884267,
+    "relative_energy_eV": -6.739716706452533,
+    "normalized_absorption": 0.11419072088878246,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 284,
+    "progress": 0.2055844907407407,
+    "relative_energy_eV": -9.022714120370381,
+    "normalized_absorption": 0.08309201662046838,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 285,
+    "progress": 0.19281005859375,
+    "relative_energy_eV": -11.25823974609375,
+    "normalized_absorption": 0.0643230152472635,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 286,
+    "progress": 0.18032045717592604,
+    "relative_energy_eV": -13.443919994212944,
+    "normalized_absorption": 0.05350851700995886,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 287,
+    "progress": 0.16812924985532396,
+    "relative_energy_eV": -15.577381275318306,
+    "normalized_absorption": 0.045853629850799923,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 288,
+    "progress": 0.15625,
+    "relative_energy_eV": -17.65625,
+    "normalized_absorption": 0.03973601227207518,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 289,
+    "progress": 0.1446962709780093,
+    "relative_energy_eV": -19.678152578848373,
+    "normalized_absorption": 0.035825620041990164,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 290,
+    "progress": 0.13348162615740744,
+    "relative_energy_eV": -21.6407154224537,
+    "normalized_absorption": 0.03229040701089659,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 291,
+    "progress": 0.12261962890625,
+    "relative_energy_eV": -23.54156494140625,
+    "normalized_absorption": 0.02948320915863932,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 292,
+    "progress": 0.11212384259259267,
+    "relative_energy_eV": -25.378327546296283,
+    "normalized_absorption": 0.027105726368317658,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 293,
+    "progress": 0.1020078305844907,
+    "relative_energy_eV": -27.148629647714127,
+    "normalized_absorption": 0.0250498775683192,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 294,
+    "progress": 0.09228515625,
+    "relative_energy_eV": -28.85009765625,
+    "normalized_absorption": 0.02324572055206682,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 295,
+    "progress": 0.08296938295717604,
+    "relative_energy_eV": -30.48035798249419,
+    "normalized_absorption": 0.02163827337097636,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 296,
+    "progress": 0.07407407407407396,
+    "relative_energy_eV": -32.03703703703706,
+    "normalized_absorption": 0.020181774103961055,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 297,
+    "progress": 0.06561279296875,
+    "relative_energy_eV": -33.51776123046875,
+    "normalized_absorption": 0.018851388923791068,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 298,
+    "progress": 0.05759910300925919,
+    "relative_energy_eV": -34.92015697337964,
+    "normalized_absorption": 0.017657482411716215,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 299,
+    "progress": 0.05004656756365744,
+    "relative_energy_eV": -36.241850676359945,
+    "normalized_absorption": 0.0166089824326516,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 300,
+    "progress": 0.04296875,
+    "relative_energy_eV": -37.48046875,
+    "normalized_absorption": 0.01570858953171534,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 301,
+    "progress": 0.03637921368634256,
+    "relative_energy_eV": -38.633637604890055,
+    "normalized_absorption": 0.0149245668701646,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 302,
+    "progress": 0.0302915219907407,
+    "relative_energy_eV": -39.69898365162038,
+    "normalized_absorption": 0.01423340079407848,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 303,
+    "progress": 0.02471923828125,
+    "relative_energy_eV": -40.67413330078125,
+    "normalized_absorption": 0.01363571315603238,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 304,
+    "progress": 0.01967592592592593,
+    "relative_energy_eV": -41.55671296296296,
+    "normalized_absorption": 0.013128746729134548,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 305,
+    "progress": 0.01517514829282407,
+    "relative_energy_eV": -42.34434904875579,
+    "normalized_absorption": 0.012707395303379953,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 306,
+    "progress": 0.01123046875,
+    "relative_energy_eV": -43.03466796875,
+    "normalized_absorption": 0.012364844094018796,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 307,
+    "progress": 0.00785545066550919,
+    "relative_energy_eV": -43.62529613353589,
+    "normalized_absorption": 0.012092452804012489,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 308,
+    "progress": 0.005063657407407329,
+    "relative_energy_eV": -44.11385995370372,
+    "normalized_absorption": 0.011878013473930176,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 309,
+    "progress": 0.00286865234375,
+    "relative_energy_eV": -44.49798583984375,
+    "normalized_absorption": 0.011715410299291613,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 310,
+    "progress": 0.0012839988425925597,
+    "relative_energy_eV": -44.775300202546305,
+    "normalized_absorption": 0.011601141046017158,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 311,
+    "progress": 0.00032326027199081064,
+    "relative_energy_eV": -44.94342945240161,
+    "normalized_absorption": 0.011533052231198864,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 312,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 313,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 314,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 315,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 316,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 317,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 318,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 319,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 320,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 321,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 322,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 323,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 324,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 325,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 326,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 327,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 328,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 329,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 330,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 331,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 332,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 333,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 334,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 335,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  },
+  {
+    "frame": 336,
+    "progress": 0.0,
+    "relative_energy_eV": -45.0,
+    "normalized_absorption": 0.011510298927084843,
+    "fluorescence": 0.0
+  }
+]

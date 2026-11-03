@@ -1,0 +1,618 @@
+ ECHO Magnet
+Extremely Curved Hadrontherapy Optics
+Magnet
+ Proposal for young researchers grant – CSN5
+
+  L. Balconi
+
+     01/12/2025           L. Balconi | Young researchers grant
+About me:
+  • 2020 – Bachelor degree in Physics                                              PAPRICA detector
+     • University of Milan, Medical Physics
+        ”Feasibility study of an innovative range monitoring
+        technique using prompt gamma in hadrontherapy”
+  • 2022 – Master degree in Fusion Plasma Physics
+     • University of Milan, CNR Padova – Consorzio RFX
+        ”Set-up of the spectroscopic diagnostics for MITICA”
+
+  • 2022 – Present PhD in Applied Physics (Final defense                                              MITICA Neutral Beam Injector
+    expected early jan 2026)
+      • University of Milan, LASA laboratory
+        ”Design and study of the IRIS 10 T Energy Saving dipole
+        Magnet for Accelerators ESMA”
+
+          CSC Graduate Study Fellowship Award
+           by IEEE, Council on SuperConductivity (CSC)                           ESMA dipole magnet
+
+
+01/12/2025                                L. Balconi | Young researchers grant                                         2
+Outline
+• Status of the art,
+  Why ECHO Magnet?
+• Realization plan of ECHO
+      1. Design
+      2. Manufacturing
+• Timeline, risks and costs analysis
+• Conclusions
+
+
+01/12/2025                   L. Balconi | Young researchers grant   3
+ State-of-the-art & actual R&D
+ Resistive magnets for ion gantry:
+    • HIT: B = 1.8 T, ρ = 3.65 m
+                                                                                     HTS?
+    • 650 tons
+ Low Temperature Superconductors (LTS)
+    • Toshiba/NIRST: B = 2.88 T, ρ = 2.3 m,
+        • 300 tons
+    • Yamagata: B = 3.5 T, ρ = 1.9 m
+        • 200 tons
+    • SIG: B = 4 T, ρ = 1.65 m
+                                       m ~ 100 tons
+    • HITRI+: B = 4 T, ρ = 1.65 m
+ High Temperature Superconducting (HTS)
+  tapes are promising candidates
+
+
+  01/12/2025                                  L. Balconi | Young researchers grant          4
+                                                                                      Canted Cosine Theta - CCT
+
+
+ECHO Magnet: Targets                                                                       B            B
+
+Extremly Curved Hadrontherapy Optics (ECHO) Magnet:
+
+• Gantries and particle accelerators for hadrontherapy.
+                                                                             Inner layer                          Outer layer
+• Demonstrating the Technological Readiness Level (TRL)
+  of High Temperature Superconductors (HTS)
+                                                                             Beam-pipe
+• Energy saving with respect to classical
+  Low Temperature Superconductors (LTS)
+• Modular design assembled in a curved geometry
+
+     Target central field B0    T            5                   Inner layer
+        Curvature radius        m          1.3
+                                                                                                                  Outer layer
+                               mm          50
+    Operating temperature       K          20
+    Critical current margin    N/A        >20%
+01/12/2025                            L. Balconi | Young researchers grant                                               5
+ State-of-the-art & actual R&D
+ Resistive magnets for ion gantry:                                                  B = 5 T, ρ = 1.3 m
+    • HIT: B = 1.8 T, ρ = 3.65 m
+    • 650 tons
+ Low Temperature Superconductors (LTS)
+    • Toshiba/NIRST: B = 2.88 T, ρ = 2.3 m,
+        • 300 tons
+    • Yamagata: B = 3.5 T, ρ = 1.9 m
+        • 200 tons
+    • SIG: B = 4 T, ρ = 1.65 m
+                                       m ~ 100 tons
+    • HITRI+: B = 4 T, ρ = 1.65 m
+ High Temperature Superconducting (HTS)
+  tapes are promising candidates
+
+
+  01/12/2025                                  L. Balconi | Young researchers grant                        6
+ECHO Magnet: Advantages
+Given the state of the art on SC dipole magnets for
+hadrontherapy ECHO magnet introduces:
+
+• Operation at 20 K liquid He free
+      x5 energy saving factor with respect to 4.2 K (just for COP)
+                                                                                             Bending Dipoles - ECHO
+• Modular design: industrialization and scalability
+                                                                                                  ρ
+• Target central field of 5 T
+      20 % reduction of the curvature radius ρ                                              Scanning Magnet
+
+• QA procedure at 77 K granted by HTS
+
+                                                                                                        Particle Accelerator
+
+
+  01/12/2025                                  L. Balconi | Young researchers grant   Treatment Room             7
+Dipolar HTS magnet towards
+ECHO
+
+                                                            Courtesy of
+                                                           E. De Matteis
+
+
+
+      IRIS dipole - ESMA            I.FAST CCT dipole                                ECHO Magnet
+      Pros                         Pros                                           Pros
+      • Flat coils  windability   • Field quality                                • Flat coils  windability
+      • High field (10 T)          • No inner junctions                           • Curved geometry
+      • Solid design                                                              • Field quality
+      Cons                         Cons                                           • Scalability
+      • Straight geometry          • Straight geometry
+                                                                                  Cons
+      • ± 1.5 % field quality      • Complex helix-winding
+                                   • Critical external junctions
+                                                                                  • Modules assembly on
+                                                                                     curved support
+01/12/2025                                 L. Balconi | Young researchers grant   • Resistive joints         8
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   9
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   10
+Phase 1: Characterization of HTS tape
+Electrical
+                                                                                              Courtesy of C. Senatore, University of Geneva
+Electrical properties are fundamental to drive the
+electromagnetic design of each module:
+                                                                                 HTS
+                                                                                 tape
+ HTS tape critical current dependencies:
+                                                                                 Insulating
+      • Temperature                                                              guide
+
+      • Magnetic field
+      • Angular
+     Optimization of resistive splices
+
+      1.     Within each module                                         Simple Flat                               Lap
+
+      2.     Inter-module
+
+                                                                            Bridge                            Joint Failure
+01/12/2025                                L. Balconi | Young researchers grant                                                 11
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   12
+Phase 1: Characterization of HTS tape
+Thermal and Mechanical
+Thermal and mechanical properties will be studied
+for different cables configurations:
+ Thermal conductivity
+
+      • Dry-wound
+      • Impregnated
+ Lower than expected Young’s modulus
+      •      Dry-stack
+      •      Impregnated stack
+
+
+
+01/12/2025                            L. Balconi | Young researchers grant   13
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   14
+Phase 1: Single module design
+A small HTS racetrack coil design aiming at one
+ECHO module will be performed.
+The design must assess the following question:
+
+• Realize a solid design with operational margins
+
+• Achieve a repeatible field quality
+
+• Optimize resistive joints
+
+• Handle the assembly on a curved support
+
+• Set up a QA procedure in LN2
+       Modularity and repeatibility of the process
+                                                                                  Conceptual
+                                                                                  Single Module
+01/12/2025                                 L. Balconi | Young researchers grant              15
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   16
+Phase 2: Module Manufacturing
+                                                                                Winding test: single tape on plastic mandrel
+
+The winding of each ECHO module will be carried
+out considering:
+
+• Different winding technologies using a multi-
+  tape winding machine:
+      • Up to 6 tapes in parallel.
+      • Variable and controlled winding tension.
+• A classical racetrack geometry suffers from
+  buckling:
+      • Alternatives/mitigations will be studied.
+
+
+
+
+01/12/2025                               L. Balconi | Young researchers grant                                       17
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   18
+Phase 2: Mechanical assembly
+ The manufacturing of the ECHO module will be
+ carried out considering:
+ • Integrating the mechanic of each module with
+   the curved support
+ • Optimization of resistive junctions between
+   modules
+ • Possibility to exploit metallic additive
+   manufacturing:
+       • Copper
+       • Stainless steel
+
+
+
+
+01/12/2025                               L. Balconi | Young researchers grant   19
+Roadmap of activities for ECHO
+
+ Phase 1 Characterization of HTS tape                    • Electrical
+                                                         • Thermal and Mechanical
+
+
+             Single module design and challenges
+
+ Phase 2     Modules manufacturing
+
+             Mechanical Assembly
+
+             Final Testing
+
+
+
+01/12/2025                   L. Balconi | Young researchers grant                   20
+Phase 2: Final testing
+ Tests at 20 K will be carried out inside the IRIS
+ variable temperature test stand for HTS magnets:
+ Closed loop cooling 20 K – 50 K
+ • Based on cryocoolers and closed loop
+   G-Helium :
+       • 20 W @ 20 K
+         (Adjustable T from 20 K to 50 K)
+       • 300 W @ 55 K
+                                                                                                   HiLumi
+                                                                                                   D 450 mm
+                                                                         8                         h 1910 mm
+                                                                                   SOLEMI insert
+                                                                         T
+                                                                                   D 450 mm
+01/12/2025                                  L. Balconi | Young researchers grant   h 720 mm           21
+Project timeline
+                                                               Milestones:
+                                                               Deliverables:
+
+
+
+
+             3
+             5
+
+
+
+
+                                                             First 10 coils
+
+
+
+
+             18
+
+
+
+
+             20
+             24   1
+
+
+01/12/2025            L. Balconi | Young researchers grant                     22
+Risks and costs summary
+About the risk analysis:                                 RiskMatrix
+                                                                                                               Impact
+                                                                                 Insignificant      Minor        Moderate        Major          Severe
+• Risks are mainly calculated from the
+
+
+
+
+                                                                Almost Certain
+                                                                                                                                            Field Quality
+  experience accumulated in the design                                             Medium           High         Very High      Very High      Very High
+
+
+  and manufacturing of ESMA
+                                                                                                 HTS defects                  Protection
+• Windability may be affected by the
+
+
+
+
+                                                                Likely
+                                                                                   Medium           High           High         Very High      Very High
+
+
+  chosen geometry and superficial
+
+
+
+
+                                                   Likelihood
+  homogeneity of the tape
+
+
+
+
+                                                                Possible
+                                                                                     Low           Medium          High           High         Very High
+
+
+• Protection and thermal budget must be
+                                                                                                               Test issues
+
+
+
+
+                                                                Unlikelyh
+  carefully addressed, as well as field                                              Low             Low         Medium         Medium           High
+
+
+  quality                                                                                                                    Windability
+
+
+
+
+                                                                Rare
+                                                                                     Low             Low           Low            Low          Medium
+
+
+
+
+ 01/12/2025                          L. Balconi | Young researchers grant                                                                                23
+Risks and costs summary
+Main mitigations:                                                                                                       Impact
+                                                                  RiskMatrix
+•    Field quality: in the design phase consider a                                        Insignificant     Minor          Moderate      Major       Severe
+
+
+
+
+                                                                         Almost Certain
+     narrow tape (4 mm, or less).                                                           Medium           High          Very High    Very High   Very High
+
+•    Protection: pass from insulated to Controlled
+     Resistance (CI) mode.                                                                HTS defects                   Field Quality
+
+
+
+
+                                                                         Likely
+                                                                                            Medium           High            High       Very High   Very High
+
+•    Defects: cut the weak portion of the cable
+
+
+
+
+                                                            Likelihood
+     and optimize joint procedure.                                                                                      Protection
+
+
+
+
+                                                                         Possible
+                                                                                              Low           Medium           High         High      Very High
+•    Test issues: Increase the cooling power with a
+     suitable additional variable temperature heat                                                        Test issues
+
+
+
+
+                                                                         Unlikelyh
+     exchanger.                                                                               Low            Low           Medium       Medium        High
+
+
+
+•    Windability: Ask for more demanding                                                                                Windability
+     thickness specification to the
+
+
+
+
+                                                                         Rare
+                                                                                              Low            Low             Low          Low       Medium
+
+
+     manufacturerand act on the design of the flat
+     coil geometry.
+
+
+ 01/12/2025                                   L. Balconi | Young researchers grant                                                                            24
+Risks and costs summary
+Costs analysis considered:
+• Tape quotation was obtained addressing                    Object           Year   Cost [€]   Cost + IVA [€]
+  medium performance, commerically                  3 km of HTS tape         1+2    55 500        67 710
+  available 4 mm HTS tape                           Coils mechanical
+                                                                              1     22 800        27 816
+                                                      components
+• Mechanical components for each coil              Curved mechanical
+  were based on a preliminary design for                                      2     12 250        14 945
+                                                        supports
+  small HTS racetrack coil                           Cryogenic test
+                                                                              2     25 300        30 866
+                                                      components
+• Curved mechanical supports and
+                                                     Presentation at
+  cryogenic tests component are based on               conferences
+                                                                             1+2     3 600         3 600
+  SIG mechanics and from the preparation
+                                                            Total            1+2    119 450      144 937
+  of the test of a single ESMA coil
+
+
+
+
+  01/12/2025                          L. Balconi | Young researchers grant                             25
+Final recap and conclusions
+• Given the expertise gained from INFN-led project as SIG e HITRI+ on SC gantry,
+  a classical CCT design was adapted to be realized in a modular structure:
+      The goal is to realize a small-scale HTS dipole magnet demonstrator
+       consisting of 10 modules for each layer.
+• The project sets the first milestone towards a next generation of ion gantries
+  introducing:
+      • Energy saving.
+      • Industrial scalability.
+      • Compact gantries.
+
+
+
+01/12/2025                        L. Balconi | Young researchers grant             26
+The end
+
+
+
+
+01/12/2025   L. Balconi | Young researchers grant   27
+             Backup Slides
+
+
+
+
+01/12/2025     L. Balconi | Young researchers grant   28
+Thickness Inhomogeneity
+
+Tapes may show thickness inhomogeneity
+commonly referred to as “dog-bone”, occurring
+during the electroplating of the final copper layer.
+
+This may lead to:
+
+• Localized stresses
+
+• Winding issues
+
+
+
+
+                                                           Supplier Spec 67 µm ± 10% (from 59 µm to 74 µm
+
+
+ 01/12/2025                                       Backup                                      29
+Inclusion Characterisation
+64 Spools fully de-spooled and inspected for
+defects
+Minimum Inclusion thickness tracked: 30 µm
+Inclusions: > 400
+95% Inclusion on the good side (YBCO side)
+80% Inclusion on the edge areas
+
+Inclusion Genesis – Silver Sputtering
+1. small silver particles can stick to the rollers
+   in the tape transport system
+2. they stick to the tape surface
+3. they get coated with copper during
+   electroplating
+
+  01/12/2025                                   Backup   30
+Characterization of HTS stacks
+ Mechanical measurement will be followed by
+ electrical measurements to assess a possible tape
+ degradation:
+
+ • Variable uniaxial compressive load
+
+ • Different stack conditions
+
+
+
+
+01/12/2025                                     Backup   31
+ Resources availability
+Endorsement of the magnet group leader at LASA for the use of the following resources:
+
+
+•       Group technicians for coil assembly and manufacturing up to 2 FTE
+
+
+
+
+01/12/2025                                      Backup                                   32
+

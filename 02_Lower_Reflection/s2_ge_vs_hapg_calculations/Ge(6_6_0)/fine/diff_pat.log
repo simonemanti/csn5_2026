@@ -1,0 +1,674 @@
+  
+  
+  
+ *****************************************************
+ *           DIFF_PAT    v1.8  (18 Oct 2016)         *
+ *Calculation of a single crystal diffraction profile*
+ *                                                   *
+ *****************************************************
+  
+  Name of file with crystal data (from BRAGG):  What kind of crystal you want to use ?: 
+         [0] Perfect crystal 
+         [1] Mosaic crystal 
+         [2] Bent Multilamellar (ML)
+         [3] Bent Penning-Polder (PP)
+  <?>    What do you want to calculate ?: 
+ [0] Diffracted beam in Reflection (Bragg) geometry
+ [1] Diffracted beam in Transmission (Laue) geometry
+ [2] Transmitted beam in Bragg case
+ [3] Transmitted beam in Laue case
+  <?>    Input the thickness of the crystal [cm] 
+  [Type a negative value for using the thick crystal approximation] 
+  <?>    Asymmetric cut angle (deg) between face and bragg planes (CW)= 
+ Please select scanning variable: 
+  [1] Incident/Reflected angle [absolute] 
+  [2] Incident/Reflected angle minus theta Bragg corrected
+  [3] Incident/Reflected angle minus theta Bragg
+  [4] Photon energy 
+  [5] y variable [Zachariasen] 
+ <?>    ... at what grazing angle [deg]:    Input scanning variable limits in the chosen units.
+ Minimum ?    Maximum ?    Number of points ?     
+ So far, we are working with:
+  
+  
+ ******************************************************
+            **  DIFF_PAT  v1.8  (24 Mar 2014) **       
+ Crystal data from file /home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/Ge(6_6_0)/fine/crystal.bra
+        at energy    =    25514.061879276454       eV
+                     =   0.48594456650241225       Angstroms
+        and at angle =    21.372291748700004       degrees
+                     =   0.37301685971163157       rads
+ ******************************************************
+  
+ For atom            1 :
+        fo + fp+ i fpp = 
+            11.068110409254622      +  0.31170938101902596      + i  0.92812276403249860      = 
+                       (11.379819790273649,0.92812276403249860)
+        Z =    32.000000000000000     
+ Structure factor F(0,0,0) =                (258.49367504815223,7.4249821122599888)
+ Structure factor FH =                (91.038558322189203,7.4249821122598885)
+ Structure factor FH_BAR =                (91.038558322189175,7.4249821122600892)
+ Structure factor F(h,k,l) = sqrt(FH*FH_BAR)                (91.038558322189203,7.4249821122599871)
+ Psi_0  =  (-3.02389194883097234E-006,-8.68583868649573092E-008)
+ Psi_H  =  (-1.06498065568670358E-006,-8.68583868649561312E-008)
+ Psi_HBar  =  (-1.06498065568670337E-006,-8.68583868649584871E-008)
+ |Psi_H/Psi_HBar|  =    1.0000000000000000     
+ sqrt(Psi_H*Psi_HBar)  =    (1.06498065568670337E-006,8.68583868649573224E-008)
+ |Psi_H|  =    1.0685168114520536E-006
+ Refraction index = 1 - delta - i*beta :
+            delta =    1.5119459744195041E-006
+             beta =    4.3429193432478661E-008
+ Absorption coeff =    112.30650114749479       cm^-1
+ Absorption correction (mu_total/mu_photoelec) =    1.0000000000000000     
+  
+ e^2/(mc^2)/V =    1556298000.0000000       cm^-2
+ d-spacing =   0.66672509999999996       Angstroms
+ SIN(theta)/Lambda =   0.74993426826138687     
+  
+ Photon energy =    25514.061879276454       eV
+        wavelength =   0.48594456650241225       Angstroms
+ Theta (grazing uncorrected Bragg angle)   =   0.37301685971163157       rads
+                                           =    21.372291748700004       degrees
+ Symmetric Bragg angle (corrected) =   0.37302131492365370       rad
+                                   =    21.372547013545706       degrees
+ Angle (H,kin) = Bragg angle (corrected) including asymmetry =   0.37302131492365370      rad
+                                                             =    21.372547013545706       degrees
+ Asymmetry angle alpha=    0.0000000000000000       degrees
+ Asymmetry factor b=   -0.99999999999999967     
+  
+ Extinction lengths and depths given here are for amplitude (for intensities, 
+    consider half value).
+ DEPTH values are measured perpendicular to the crystal surface and LENGTH
+    values are along the incident beam path.
+ Extinction length (amplitude) sigma=    14.476065986371173       microns
+ Extinction length (amplitude) pi=    19.711776421338953       microns
+ Extinction depth (amplitude) sigma=    5.2755218723594171       microns
+ Extinction depth (amplitude) pi=    7.1835751337232088       microns
+ Pendellosung period (amplitude) sigma = Extinction depth sigma times 2 pi =    33.147081516113232       microns
+ Pendellosung period (amplitude) pi = Extinction depth pi times 2 pi =    45.135733733230296       microns
+  
+ width of diffraction profile  s-pol  =     3.1485707986867406       microradians
+                                 =    0.64943934574638595       arc sec
+ width of diffraction profile  p-pol  =     2.3122684465520447       microradians
+                                 =    0.47693960311933198       arc sec
+ File written to disk: diff_pat.gle
+ File written to disk: diff_pat.xop
+ >> 
+ >> Files diff_pat.par (parameters) and 
+ >> diff_pat.dat (E [eV],Lambda [A],...,p-pol,s-pol)
+ >> written  to disk.
+ >> 
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL p-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.
+ CRYSTAL s-pol: exponential overflow. Corrected.

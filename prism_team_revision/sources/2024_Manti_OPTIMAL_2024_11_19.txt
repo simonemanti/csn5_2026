@@ -1,0 +1,305 @@
+                                   Roma, 19 novembre 2024
+
+
+
+
+                     PROPOSAL GRANT GIOVANI CSN5 2024
+
+
+                                OPTIMAL
+                    automated Optimization of x-ray beamline Parameters
+                   using experimenT-Informed MAchine Learning methods
+
+
+                             Simone Manti, LNF INFN
+
+19 Novembre 2024                        Simone Manti                      1
+ How can Machine Learning methods be used to
+       Optimize Beamline Parameters?
+
+
+
+
+19 Novembre 2024    Simone Manti               2
+Why is important to develop an Automated Optimization of
+beamline parameters?
+
+ ● ⏳ Minimize Time from setup to data collection
+
+ ● 💡 Reduce Operational Costs
+
+ ● 📈 Enhance Data Quality & Reproducibility
+
+
+ ● 🧪 Tailor to Specific Research Needs
+
+
+ ● ⚙ Limit Human Errors
+
+   19 Novembre 2024            Simone Manti                3
+Increased Use of ML methods for Experimental Optimization of
+beamlines and accelerators
+  ●     Particle Accelerators: Optimize operational parameters
+  ●     Free-Electron Lasers: Reﬁne laser pulse properties
+  ●     Plasma Accelerators: Adjust beam dimensions
+
+                                                                                                            Roussel, Ryan, et al. "Bayesian
+                                                                                                            optimization algorithms for accelerator
+                                                                                                            physics." Physical Review Accelerators and
+                                                                                                            Beams 27.8 (2024)
+
+
+
+
+                                                                                                        How?
+                                                                                                         ● Bayesian Optimization (BO)
+                                                                                                         ● Reinforcement Learning (RL)
+
+
+                    Roussel, Ryan, et al. "Bayesian optimization algorithms
+      19 Novembre 2024                                               Simone    accelerator physics." Phys. Rev. Accel. Beams (2024).
+                                                                            forManti                                                       4
+Status in X-ray Beamline Experiments
+ ● Diverse Techniques: Each one (e.g. XAS, XES,...) with unique requirements
+ ● Setup demands: Different constraints for Synchrotron vs. Tabletop Setups
+ ● Limited use of ML optimization: it requires specialized models and expertise
+
+                                                                                                           e.g. Bayesian Optimization
+                                                                                                           independently to reduce XANES
+                                                                                                           measurement time by selecting
+                                                                                                           optimal data points.
+                                                                                                           Cakir, Cafer Tufan, et al. Machine
+                                                                                                           Learning: Science and Technology 5.2
+                                                                                                           (2024): 025037.
+
+
+
+Integrating ML-driven techniques within an Optimization Framework to enhance
+eﬃciency in X-ray experiments is the core concept behind OPTIMAL ✨
+
+                   Roussel, Ryan, et al. "Bayesian optimization algorithms
+     19 Novembre 2024                                               Simone    accelerator physics." Phys. Rev. Accel. Beams (2024).
+                                                                           forManti                                                      5
+Challenges for XES operations: VOXES at LNF as a case study
+                                          ● Typical Operations:
+                                           ○ Move to align xC and xD
+                                           ○ Crystal fine alignment
+                                           ○ Detector fine alignement
+                                           ○ Set S1 and S2 for Rate and
+                                             Resolution
+                                          ● Rate ~Hz, challenging for
+                                            High-throughput measurements
+                                            and Low Concentrations!
+
+                                          ● Performed optimization for
+                                            Background Reduction
+                                          Manti, Simone, et al. "Enhancing Performances of
+                                          the VOXES Bragg Spectrometer for XES
+                                          Investigations." Condensed Matter 9.1 (2024): 19.
+
+   19 Novembre 2024        Simone Manti                                           6
+Bayesian Optimization Reduces Operation Time
+
+
+
+
+● Improved Alignment: Feasibility study optimizing crystal Rotation and Tilting for the Iron Kα
+  emission line, achieving precise alignment.
+
+● Faster Convergence: Bayesian Optimization achieves convergence in just 20 iterations,
+  surpassing manual operations.
+● Enhanced Rate and Eﬃciency: Optimized parameters result in higher rate intensity and reduced
+  operation time from 20 hours to under 2 hours.
+     19 Novembre 2024                       Simone Manti                                   7
+19 Novembre 2024   Simone Manti   8
+Framework based on ML model trained on the Ray-Tracing Simulations of
+the Experiment (O1,WP1)
+                         Simulations of Intrinsic Emission Line Shapes:
+
+                          ●   Derived from Experimental Linewidth data
+                          ●   Based on Ab Initio calculations
+
+                         Ray-Tracing Simulations of the XES Setup:
+
+                          ●   Utilizing SHADOW-XOP with the OASYS environment
+
+                         Training a Convolutional Neural Network:
+
+                          ●   For Features Extraction as input for the Optimization loop
+
+
+
+
+   19 Novembre 2024                Simone Manti                                            9
+Inclusion of a Pixel Detector in the XES setup (O2,WP2)
+ ●    Exploit ML capabilities on 2d Image compared to a 1d Histogram
+●     Improve spectrum acquisition for alignment in the Vertical Direction
+
+
+
+
+                                          AdvaPIX Timepix3 from ADVACAM)   Wang, W., et al. Spectrochimica Acta Part B:
+                                                                           Atomic Spectroscopy 215 (2024): 106918.
+     19 Novembre 2024                      Simone Manti                                                      10
+Optimization Loop to iteratively ﬁnd the best Parameters (O3,WP3)
+                      ●   Controlling Setup and Data Acquisition (DAQ)
+                      ●   Features Extraction from Trained ML Models
+                      ●   Complementary and Interoperable Optimization Methods:
+                           ○ Bayesian Optimization
+                           ○ Reinforcement Learning
+                      ●   Optimization Goals:
+                           ○ Single-Objective
+                           ○ Multi-Objective
+
+
+
+
+   19 Novembre 2024              Simone Manti                              11
+Optimization Workﬂow of OPTIMAL (O3,WP3)
+
+
+
+
+                                       ● Saving data in a Database to
+                                         eventually training on Historical
+                                         Data.
+
+                                       ● Optimize 10 Key Parameters
+                                         of the XES Setup.
+
+                                       ● Enhanced Adaptability to
+                                         specific use cases, for a
+                                         broader range of Applications.
+
+
+  19 Novembre 2024      Simone Manti                              12
+Applications and Synergies (O4,WP4)
+INFN Scientiﬁc Commissions and Collaborations:
+
+ ●   VOXES->OPTIMAL (LNF)
+
+ ●   DAΦNE-Light, EuAPS (LNF), SPHINX (CSN5)
+
+ ●   EuPRAXIA (LNF)
+
+
+National and International Research Institutions:
+
+ ●   Advanced X-Ray Imaging Group (UCL)
+
+Industry and Private Sector:
+
+ ●   ADVACAM (Prague)
+                                   Digital Twins
+ ●   CRISEL (Rome)
+
+     19 Novembre 2024                               Simone Manti   13
+Impact of the OPTIMAL Setup
+
+
+
+
+  19 Novembre 2024       Simone Manti   14
+A Work Package for every Objectives plus Dissemination
+
+
+
+
+   19 Novembre 2024        Simone Manti                  15
+Cost of the OPTIMAL project
+The overall cost of OPTIMAL is 224 k€, of which 124 k€ are in-kind contributions, and 100 k€ are
+requested for the project: 72 k€ for the ﬁrst year and 28 k€ for the second year of the project.
+
+
+
+
+                                                                ● In-kind:
+                                                                  ○ XES Setup
+                                                                  ○ Travel to the AXIm Group
+                                                                ● Requested:
+                                                                  ○ Pixel Detector Integration
+                                                                  ○ Computing Resources
+                                                                  ○ Dissemination
+
+    19 Novembre 2024                       Simone Manti                                  16
+Why Me?
+● 🎓 PhD Copenhagen:
+ ○ Ab initio simulations
+ ○ ML and Databases
+
+● 🧪 Assegno LNF:
+ ○ XES measurements
+
+
+Here and Now
+
+●   📍 Current LNF possible applications:
+    VOXES, DAΦNE-Light, EuAPS and SPHINX
+
+●   🚀 Future LNF application: EuPRAXIA
+
+    19 Novembre 2024                Simone Manti   17
+OPTIMAL for X-ray Beamline Parameters Optimization
+●   🛠 Framework Development:
+    Developing a versatile framework to optimize X-ray
+    beamline parameters using BO/RL and ML models trained
+    on Ray-Tracing simulations.
+
+●   🧪 OPTIMAL Setup:
+
+    Realize an advanced and versatile OPTIMAL Setup with a
+    faster acquisition time, for a broad spectrum of
+    applications inside and outside of LNF.
+
+●   🌍 Applications:
+
+    Propose beamline applications starting with LNF’s
+    DAFΦNE-Light, extending to AXIm (London), and future
+    projects like EuPRAXIA.
+    19 Novembre 2024                    Simone Manti         18
+                   SPARE
+
+
+
+
+19 Novembre 2024   Simone Manti   19
+Risks Assessment
+Inaccuracy of Ray-Tracing Simulations (T1.3)
+ ●   Risk: Simulations may not fully represent the XES experiment due to limitations in modeling mosaic crystals.
+ ●   Mitigation: Collaborate with SHADOW-XOP developer Manuel Sanchez del Rio to enhance simulation accuracy.
+
+Data Integration and Feature Extraction Issues (T1.5)
+ ●   Risk: Challenges in integrating data and extracting XES spectral features with deep learning.
+ ●   Mitigation: Leverage historical data to align simulated and real-world data.
+
+Delays in Equipment Integration (T2.1, T2.2, T2.3)
+ ●   Risk: Delays in acquiring or integrating new equipment could impact timelines.
+ ●   Mitigation: Use a VOXES CCD as a temporary solution until the pixel detector is ready.
+
+Optimization Complexity (T3.1, T3.2)
+ ●   Risk: Multi-objective optimization (e.g., time, precision, resolution) is complex and computationally demanding.
+ ●   Mitigation: Adjust strategies based on results and consult experts like Lucio Anderlini for AI-driven enhancements.
+
+
+     19 Novembre 2024                               Simone Manti                                             20
+In-kind Cost of the OPTIMAL project
+
+The in-kind contributions are:
+
+ ●   120 k€ from VOXES project for the XES setup which comprehends:
+
+      ○    X-ray tube (10k€)
+      ○    Bragg’s crystal (15k€)
+      ○    Bunker (5k€)
+      ○    Motorized Stages (15k€)
+      ○    Axis-motors (15k€)
+      ○    Strip detector (25k€)
+      ○    CCD (35k€)
+
+ ●   Travel to AXIm: Travel to the AXIm group in London, for discussion with Silvia Piciccia (4k€)
+
+
+
+
+     19 Novembre 2024                      Simone Manti                                   21
+

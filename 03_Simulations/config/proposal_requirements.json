@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "document_version": "v8",
+    "path_base": "repository_root",
+    "path": "VERSIONS/v8_Proposal_Grant_Giovani_2026.pdf",
+    "sha256": "fd88b5b5230176093471dfde61dd0aa187c93130ce2e968707fbea8c937aa15c",
+    "page_numbering": {
+      "primary": "physical_pdf_page",
+      "printed_page_offset": -1
+    },
+    "requirements_pages": {
+      "goals_and_expected_outcomes": {
+        "pdf_page": 3,
+        "printed_page": 2
+      },
+      "detector_and_simulation_methodology": {
+        "pdf_pages": [
+          5,
+          6,
+          7
+        ],
+        "printed_pages": [
+          4,
+          5,
+          6
+        ]
+      },
+      "work_packages": {
+        "pdf_page": 8,
+        "printed_page": 7
+      },
+      "activities_and_milestones": {
+        "pdf_page": 9,
+        "printed_page": 8
+      },
+      "deliverable_d4": {
+        "pdf_page": 10,
+        "printed_page": 9
+      }
+    }
+  },
+  "semantics": {
+    "validation_level": {
+      "simulation": "Evidence produced from analytical or numerical models; it is assumption-dependent and is not an experimental acceptance result.",
+      "measurement": "Evidence produced from traceable experimental data acquired with the relevant hardware or sample."
+    },
+    "legacy_stage_rule": "Legacy simulation stages S1-S5 support grant WP1 activities A1.1-A1.4; they are not grant Work Packages.",
+    "resolution_rule": "incident_energy_resolution and czt_energy_resolution are distinct observables."
+  },
+  "unit_definitions": {
+    "boolean": "true or false",
+    "count": "integer count",
+    "dimensionless": "unitless ratio or score",
+    "eV": "electronvolt",
+    "h": "hour",
+    "keV": "kiloelectronvolt",
+    "percent": "percentage points",
+    "sigma": "standard-deviation significance"
+  },
+  "work_packages": [
+    {
+      "id": "WP1",
+      "title": "Requirements, simulations and design freeze",
+      "months": {
+        "start": 1,
+        "end": 6
+      },
+      "activities": [
+        {
+          "id": "A1.1",
+          "title": "Requirements definition",
+          "months": {
+            "start": 1,
+            "end": 3
+          },
+          "software_scope": "Machine-readable requirements, observables, units and acceptance gates.",
+          "hardware_required_for_completion": false
+        },
+        {
+          "id": "A1.2",
+          "title": "SHADOW4 ray-tracing optimization",
+          "months": {
+            "start": 1,
+            "end": 3
+          },
+          "software_scope": "Source-to-sample ray tracing, parameter scans, absolute normalization and tolerance studies.",
+          "hardware_required_for_completion": false
+        },
+        {
+          "id": "A1.3",
+          "title": "GEANT4 fluorescence simulations",
+          "months": {
+            "start": 4,
+            "end": 6
+          },
+          "software_scope": "Sample absorption, fluorescence, self-absorption, scattering, background and CZT energy deposition.",
+          "hardware_required_for_completion": false
+        },
+        {
+          "id": "A1.4",
+          "title": "Final geometry selection",
+          "months": {
+            "start": 4,
+            "end": 6
+          },
+          "software_scope": "Multi-objective design selection, scan kinematics and frozen-configuration dossier.",
+          "hardware_required_for_completion": false,
+          "external_approval_required": true
+        }
+      ]
+    },
+    {
+      "id": "WP2",
+      "title": "CZT, front-end, DAQ, calibration and characterization",
+      "months": {
+        "start": 4,
+        "end": 15
+      },
+      "activities": [
+        {
+          "id": "A2.1",
+          "title": "CZT detector and front-end design",
+          "months": {
+            "start": 4,
+            "end": 9
+          },
+          "software_scope": "Parametric detector, charge-transport, weighting-potential and front-end response models.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A2.2",
+          "title": "Multichannel DAQ and signal-processing development",
+          "months": {
+            "start": 7,
+            "end": 12
+          },
+          "software_scope": "Synthetic waveform, digitization, reconstruction, pulse-shape analysis and classifier pipeline.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A2.3",
+          "title": "CZT calibration and performance characterization",
+          "months": {
+            "start": 10,
+            "end": 15
+          },
+          "software_scope": "Calibration and performance estimators that can run on synthetic or measured datasets.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A2.4",
+          "title": "Detector validation and operating-point selection",
+          "months": {
+            "start": 13,
+            "end": 15
+          },
+          "software_scope": "Operating-point scans and an MS2 acceptance evaluator.",
+          "hardware_required_for_completion": true
+        }
+      ]
+    },
+    {
+      "id": "WP3",
+      "title": "Procurement, mechanics, integration and commissioning",
+      "months": {
+        "start": 10,
+        "end": 18
+      },
+      "activities": [
+        {
+          "id": "A3.1",
+          "title": "Procurement of source, optics and motion stages",
+          "months": {
+            "start": 10,
+            "end": 15
+          },
+          "software_scope": "Design-derived bill of materials and acceptance-test schema only.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A3.2",
+          "title": "Mechanical design and spectrometer assembly",
+          "months": {
+            "start": 13,
+            "end": 18
+          },
+          "software_scope": "Kinematic digital twin, travel, clearance, collision and tolerance checks.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A3.3",
+          "title": "Hardware, software and control-system integration",
+          "months": {
+            "start": 13,
+            "end": 18
+          },
+          "software_scope": "Device emulators, synchronized scan control, logging, replay and fault injection.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A3.4",
+          "title": "Instrument commissioning and verification",
+          "months": {
+            "start": 16,
+            "end": 18
+          },
+          "software_scope": "Virtual commissioning and prediction-versus-measurement analysis.",
+          "hardware_required_for_completion": true
+        }
+      ]
+    },
+    {
+      "id": "WP4",
+      "title": "Ag reference samples and realistic sample demonstration",
+      "months": {
+        "start": 16,
+        "end": 24
+      },
+      "activities": [
+        {
+          "id": "A4.1",
+          "title": "Ag foil calibration and reproducibility tests",
+          "months": {
+            "start": 16,
+            "end": 18
+          },
+          "software_scope": "Synthetic scan, calibration and reproducibility analysis; the same pipeline can ingest measured data.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A4.2",
+          "title": "XANES validation on Ag reference compounds",
+          "months": {
+            "start": 16,
+            "end": 21
+          },
+          "software_scope": "Reference-spectrum forward model, XANES reconstruction and quantitative comparison.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A4.3",
+          "title": "Fluorescence XAS demonstration on a realistic sample",
+          "months": {
+            "start": 19,
+            "end": 24
+          },
+          "software_scope": "Configurable thick, dilute or heterogeneous sample and chemical-state recovery tests.",
+          "hardware_required_for_completion": true
+        },
+        {
+          "id": "A4.4",
+          "title": "Performance map and operating-domain assessment",
+          "months": {
+            "start": 22,
+            "end": 24
+          },
+          "software_scope": "Predicted performance maps and measured-data operating-domain analysis.",
+          "hardware_required_for_completion": true
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "MS1",
+      "title": "Instrument design frozen",
+      "due_month": 6,
+      "validation_level": "simulation",
+      "external_approval_required": true,
+      "criteria": [
+        {
+          "metric": "experimental_requirements_defined",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        },
+        {
+          "metric": "source_optics_sample_detector_geometry_complete",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        },
+        {
+          "metric": "procurement_specifications_approved",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "MS2",
+      "title": "CZT detection chain validated",
+      "due_month": 15,
+      "validation_level": "measurement",
+      "criteria": [
+        {
+          "metric": "czt_intrinsic_efficiency",
+          "operator": "gt",
+          "value": 90,
+          "unit": "percent",
+          "at_energy": {
+            "value": 50,
+            "unit": "keV"
+          }
+        },
+        {
+          "metric": "czt_energy_resolution",
+          "operator": "lte",
+          "value": 2,
+          "unit": "percent",
+          "at_energy": {
+            "value": 25.5,
+            "unit": "keV"
+          }
+        },
+        {
+          "metric": "dead_time",
+          "operator": "lt",
+          "value": 10,
+          "unit": "percent",
+          "condition": "selected_operating_rate"
+        },
+        {
+          "metric": "residual_pileup",
+          "operator": "lt",
+          "value": 5,
+          "unit": "percent",
+          "condition": "selected_operating_rate"
+        }
+      ]
+    },
+    {
+      "id": "MS3",
+      "title": "Integrated instrument commissioned",
+      "due_month": 18,
+      "validation_level": "measurement",
+      "criteria": [
+        {
+          "metric": "synchronized_scanning_operational",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        },
+        {
+          "metric": "energy_calibration_operational",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        },
+        {
+          "metric": "measured_rate_relative_difference_from_simulation",
+          "operator": "lte",
+          "value": 20,
+          "unit": "percent"
+        },
+        {
+          "metric": "measured_spot_size_relative_difference_from_simulation",
+          "operator": "lte",
+          "value": 10,
+          "unit": "percent"
+        },
+        {
+          "metric": "measured_incident_energy_resolution_relative_difference_from_simulation",
+          "operator": "lte",
+          "value": 10,
+          "unit": "percent"
+        }
+      ]
+    },
+    {
+      "id": "MS4",
+      "title": "Fluorescence XAS capability demonstrated",
+      "due_month": 24,
+      "validation_level": "measurement",
+      "criteria": [
+        {
+          "metric": "ag_k_edge_xanes_obtained",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        },
+        {
+          "metric": "xanes_edge_step_snr",
+          "operator": "gte",
+          "value": 20,
+          "unit": "dimensionless"
+        },
+        {
+          "metric": "edge_position_reproducibility",
+          "operator": "lte",
+          "value": 1,
+          "unit": "eV"
+        },
+        {
+          "metric": "realistic_sample_chemical_states_discriminated",
+          "operator": "gte",
+          "value": 2,
+          "unit": "count"
+        },
+        {
+          "metric": "chemical_state_discrimination_significance",
+          "operator": "gte",
+          "value": 3,
+          "unit": "sigma"
+        },
+        {
+          "metric": "operating_domain_documented",
+          "operator": "eq",
+          "value": true,
+          "unit": "boolean"
+        }
+      ]
+    }
+  ],
+  "eo3": {
+    "title": "Quantitative XANES measurements above 20 keV using the Ag K-edge",
+    "validation_level": "measurement",
+    "criteria": [
+      {
+        "metric": "metallic_ag_reference_spectra",
+        "operator": "gte",
+        "value": 1,
+        "unit": "count"
+      },
+      {
+        "metric": "oxidized_ag_compounds_with_different_oxidation_states",
+        "operator": "gte",
+        "value": 2,
+        "unit": "count"
+      },
+      {
+        "metric": "incident_energy_resolution_fwhm",
+        "operator": "lte",
+        "value": 10,
+        "unit": "eV"
+      },
+      {
+        "metric": "edge_position_reproducibility",
+        "operator": "lte",
+        "value": 1,
+        "unit": "eV"
+      },
+      {
+        "metric": "xanes_edge_step_snr",
+        "operator": "gte",
+        "value": 20,
+        "unit": "dimensionless"
+      },
+      {
+        "metric": "acquisition_time_per_spectrum",
+        "operator": "lt",
+        "value": 12,
+        "unit": "h"
+      }
+    ]
+  },
+  "deliverables": [
+    {
+      "id": "D1",
+      "due_month": 6,
+      "validation_level": "simulation",
+      "title": "Validated SHADOW4-GEANT4 workflow, frozen instrument design and procurement specifications",
+      "external_approval_required": true
+    },
+    {
+      "id": "D2",
+      "due_month": 15,
+      "validation_level": "measurement",
+      "title": "CZT calibration and performance-characterization dataset with acceptance report"
+    },
+    {
+      "id": "D3",
+      "due_month": 21,
+      "validation_level": "measurement",
+      "title": "Ag foil and reference-compound XANES dataset with quantitative validation report"
+    },
+    {
+      "id": "D4",
+      "due_month": 24,
+      "validation_level": "measurement",
+      "title": "Realistic-sample dataset, operating-domain assessment, documented analysis tools and final project report"
+    }
+  ],
+  "missing_inputs": [
+    {
+      "id": "absolute_xray_source_model",
+      "required_for": [
+        "A1.2",
+        "A1.4",
+        "MS3",
+        "EO3"
+      ],
+      "status": "missing",
+      "description": "Traceable W-tube spectral fluence or brightness versus energy, voltage, current, filtration, window, anode angle, spot distribution and operating duty."
+    },
+    {
+      "id": "crystal_candidate_properties",
+      "required_for": [
+        "A1.2",
+        "A1.4"
+      ],
+      "status": "missing",
+      "description": "Candidate reflections and measured or vendor-backed dimensions, curvature, thickness, strain or mosaic model, reflectivity and tolerances."
+    },
+    {
+      "id": "ag_reference_definitions_and_spectra",
+      "required_for": [
+        "A4.1",
+        "A4.2",
+        "D3",
+        "EO3"
+      ],
+      "status": "missing",
+      "description": "Identity, preparation and traceable reference spectra for metallic Ag and two oxidized Ag compounds."
+    },
+    {
+      "id": "realistic_sample_definition",
+      "required_for": [
+        "A4.3",
+        "A4.4",
+        "MS4",
+        "D4"
+      ],
+      "status": "missing",
+      "description": "Matrix, thickness, dilution, heterogeneity, chemical-state fractions, geometry and predefined discrimination observable."
+    },
+    {
+      "id": "complete_czt_sensor_parameters",
+      "required_for": [
+        "A1.3",
+        "A2.1",
+        "A2.3",
+        "MS2"
+      ],
+      "status": "missing",
+      "description": "Full active and electrode dimensions, material composition, bias, transport and trapping parameters, guard-ring geometry and channel map."
+    },
+    {
+      "id": "front_end_and_daq_response",
+      "required_for": [
+        "A2.1",
+        "A2.2",
+        "A2.3",
+        "A2.4",
+        "MS2"
+      ],
+      "status": "missing",
+      "description": "Measured or specified impulse response, gain, noise, shaping, trigger, saturation, clock, channel covariance and dead-time model."
+    },
+    {
+      "id": "mechanical_and_motion_definition",
+      "required_for": [
+        "A1.4",
+        "A3.1",
+        "A3.2",
+        "A3.3",
+        "A3.4"
+      ],
+      "status": "missing",
+      "description": "Approved CAD, component envelopes, stage models, coordinate frames, travel, clearances, load limits and positioning accuracy."
+    },
+    {
+      "id": "experimental_benchmark_data",
+      "required_for": [
+        "D1",
+        "MS2",
+        "MS3",
+        "MS4"
+      ],
+      "status": "missing",
+      "description": "Traceable VOXES, detector-calibration, commissioning and XANES datasets with uncertainties and acquisition metadata."
+    },
+    {
+      "id": "operating_domain_definition",
+      "required_for": [
+        "A4.4",
+        "MS4",
+        "D4"
+      ],
+      "status": "missing",
+      "description": "Agreed scan axes, ranges and success criteria for concentration, thickness, matrix, rate, background, dwell time and total acquisition time."
+    }
+  ]
+}

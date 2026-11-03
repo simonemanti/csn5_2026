@@ -1,0 +1,125 @@
+  
+  
+ ******************************************************
+            **  DIFF_PAT  v1.8  (24 Mar 2014) **       
+ Crystal data from file /home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/HAPG(0_0_2)/initial/crystal.bra
+        at energy    =    25513.997616412107       eV
+                     =   0.48594579046543940       Angstroms
+        and at angle =    4.1617594277099998       degrees
+                     =    7.2636404689454426E-002  rads
+ ******************************************************
+  
+ For atom            1 :
+        fo + fp+ i fpp = 
+            4.3907406052509934      +   6.0662689188686870E-004 + i   7.0987187273084033E-004 = 
+                  (4.3913472321428806,7.09871872730840335E-004)
+        Z =    6.0000000000000000     
+ Structure factor F(0,0,0) =          (24.002426507567549,2.83948749092336134E-003)
+ Structure factor FH =          (17.565388928571522,2.83948749092121028E-003)
+ Structure factor FH_BAR =          (17.565388928571522,2.83948749092551240E-003)
+ Structure factor F(h,k,l) = sqrt(FH*FH_BAR)          (17.565388928571522,2.83948749092336134E-003)
+ Psi_0  =  (-1.45348289113418613E-006,-1.71947052367618984E-010)
+ Psi_H  =  (-1.06368380195840113E-006,-1.71947052367488729E-010)
+ Psi_HBar  =  (-1.06368380195840113E-006,-1.71947052367749239E-010)
+ |Psi_H/Psi_HBar|  =    1.0000000000000000     
+ sqrt(Psi_H*Psi_HBar)  =    (1.06368380195840113E-006,1.71947052367618958E-010)
+ |Psi_H|  =    1.0636838158562289E-006
+ Refraction index = 1 - delta - i*beta :
+            delta =    7.2674144557804965E-007
+             beta =    8.5973526183809505E-011
+ Absorption coeff =   0.22232422098240176       cm^-1
+ Absorption correction (mu_total/mu_photoelec) =    1.0000000000000000     
+  
+ e^2/(mc^2)/V =    8056177000.0000000       cm^-2
+ d-spacing =    3.3479999999999999       Angstroms
+ SIN(theta)/Lambda =   0.14934289127837516     
+  
+ Photon energy =    25513.997616412107       eV
+        wavelength =   0.48594579046543940       Angstroms
+ Theta (grazing uncorrected Bragg angle)   =    7.2636404689454426E-002  rads
+                                           =    4.1617594277099998       degrees
+ Symmetric Bragg angle (corrected) =    7.2646445163942946E-002  rad
+                                   =    4.1623347045225003       degrees
+ Angle (H,kin) = Bragg angle (corrected) including asymmetry =    7.2646445163942946E-002 rad
+                                                             =    4.1623347045225003       degrees
+ Asymmetry angle alpha=    0.0000000000000000       degrees
+ Asymmetry factor b=    -1.0000000000000047     
+  
+ Extinction lengths and depths given here are for amplitude (for intensities, 
+    consider half value).
+ DEPTH values are measured perpendicular to the crystal surface and LENGTH
+    values are along the incident beam path.
+ Extinction length (amplitude) sigma=    14.540035867222729       microns
+ Extinction length (amplitude) pi=    14.694824533826466       microns
+ Extinction depth (amplitude) sigma=    1.0553530744167621       microns
+ Extinction depth (amplitude) pi=    1.0665880326161004       microns
+ Pendellosung period (amplitude) sigma = Extinction depth sigma times 2 pi =    6.6309789310622040       microns
+ Pendellosung period (amplitude) pi = Extinction depth pi times 2 pi =    6.7015702553470629       microns
+  
+ width of diffraction profile  s-pol  =     14.695584354101678       microradians
+                                 =     3.0311818594866433       arc sec
+ width of diffraction profile  p-pol  =     14.540787683893202       microradians
+                                 =     2.9992527542983964       arc sec
+   
+ ***********  MOSAIC PARAMETERS  ***************
+   
+ spread_mos=   0.10000000000000001       deg fwhm
+ true absorp depth =                   Infinity  microns
+ true absorp length =                   Infinity  microns
+ peak thickness =                   Infinity  cm
+  
+ For s-polarization we have: 
+    Q      =    1.5873815812272755E-002  cm^-1 
+    Primary extinction:
+       mu =   9475.5018414348888      cm^-1
+       length =   1.0553530744167621       microns
+       depth =   7.6589663077596334E-002  microns
+    Secondary extinction:
+       mu =   8.5267176002958127      cm^-1
+       length =   1172.7842375890432       microns
+       depth =   85.111941962457465       microns
+  
+ For p-polarization we have: 
+    Q     =    1.5541161842186573E-002  cm^-1 
+    Primary extinction:
+       mu =   9375.6911705377479      cm^-1
+       length =   1.0665880326161004       microns
+       depth =   7.7405012635992948E-002  microns
+    Secondary extinction:
+       mu =   8.3480304783658017      cm^-1
+       length =   1197.8873371288394       microns
+       depth =   86.933737892714163       microns
+   
+   
+   
+ ***********  VECTOR AND ANGLES  ***************
+   
+ Reciprocal space hkl along BH:    0.0000000000000000        0.0000000000000000        187669812.04240102     
+ Reciprocal space hkl along BH (normalized): (  0.00000000,    0.000000,    1.000000)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ Normal to the crystal VNOR:                 (  0.00000000,    0.000000,    1.000000)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+   
+ Incident directions matching Bragg angle:
+     VIN_BRAGG_UNCORR (Uncorrected): (  0.00000000,    0.997363,   -0.072573)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+     VIN_BRAGG          (Corrected): (  0.00000000,    0.997362,   -0.072583)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+     VIN_BRAGG_ENERGY              : (  0.00000000,    0.997362,   -0.072583)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ Reflected directions matching Bragg angle:
+    VOUT_BRAGG_UNCORR (Uncorrected): (  0.00000000,    0.997363,    0.072573)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    VOUT_BRAGG          (Corrected): (  0.00000000,    0.997362,    0.072583)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    VOUT_BRAGG_ENERGY              : (  0.00000000,    0.997362,    0.072583)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ Gamma0 =  VIN_BRAGG(3) =   -7.2582563348129042E-002
+ GammaH = VOUT_BRAGG(3) =    7.2582563348126850E-002
+ b~Gamma0/GammaH =   -1.0000000000000302     
+   
+ angle between VIN_BRAGG_UNCORR and VNOR [deg]:         94.161759427710024     
+ angle between VOUT_BRAGG_UNCORR and VNOR [deg]:        85.838240572290019     
+ angle between VIN_BRAGG and VNOR [deg]:                94.162334704522522     
+ angle THETA_B:    94.162334704522522     
+ angle between VOUT_BRAGG and VNOR [deg]:               85.837665295477620     
+ angle THETA_B_H [deg] =:    85.837665295477620     
+ angle between VIN_BRAGG and BH [deg]:                  94.162334704522522     
+ angle THETA_B_COR [deg] =:    4.1623347045225003     
+ angle between VIN_BRAGG_UNCORR and BH [deg]:           94.161759427710024     
+ angle GRAZE [deg]:       4.1617594277099998     
+ angle alphaX [deg]:      0.0000000000000000     
+ angle alpha [deg]:       180.00000000000000     
+ angle chi [deg]:         90.000000000000000     

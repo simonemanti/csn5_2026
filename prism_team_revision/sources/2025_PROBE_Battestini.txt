@@ -1,0 +1,570 @@
+            Marco Battestini, Ph.D.
+
+
+
+
+PAVIA                          NAPOLI
+
+
+
+
+INFN CSN5 “Grant Giovani” proposal, Rome, 01/12/2025
+                                   Particle Therapy (PT)
+General goals of RadioTherapy (RT):
+   1) Controlling the tumor
+   2) Sparing as much as possible healthy tissues,
+      in order to reduce normal tissue toxicity
+                                  Map in per
+                                  mil of dose
+                                  prescription
+         Tumor                                              PHOTON
+                                                            S
+
+
+                                                               ION
+                                                               S
+
+
+                                                                        U. Amaldi et al., CERN Yellow Reports
+                                                                                        (2019)
+
+  Organ
+  at risk
+
+  M. Battestini et al.,
+ Front. Oncol. (2022)
+
+
+      01/12/2025                                     Marco Battestini                                 2
+               NTCP models in literature for standard
+                       RadioTherapy (RT)
+      Tumor Control Probability (TCP)                         Phenomenological                      Particle
+                                                                                                    Therapy
+                                                                   models
+Normal Tissue Complication Probability (NTCP)
+                                                                 e.g. Lyman-
+                                                               Kutcher-Burman
+
+                                                                                                      (PT)
+                                                                 (LKB) model
+
+                               To quantify the
+                                  quality of
+                              treatment plans
+
+
+
+
+                                                              NTCP                                  Lacking a solid foundation
+                                                                                                     in radiation biophysics
+
+                                       Statistical models                          Mechanistic
+                                       e.g. uni- and multi-                           models
+                                         variate (MVA)                             e.g. Relative
+                                        logistic analyses                         Seriality model
+
+
+
+       01/12/2025                                              Marco Battestini                                            3
+      Tissue architecture and volume effect
+                                    Parallel organ
+                                                               •   Any FSU remaining preserves organ function
+                                                               •   Toxicity induction linked to mean dose
+                                                               •   Large volume effect
+                                                               •   e.g. lung, parotid gland
+                                      FSU
+
+
+   Tissue            Functional sub-units
+                                                                                   More realistic scenario
+architecture         (FSUs) arrangement
+
+
+
+                                                               •   Inactivation of any FSU leads to complication
+ Volume effect                                                 •   Toxicity induction linked to maximum dose
+                                                               •   Small volume effect
+            How an organ             Serial organ              •   e.g. spinal cord, oesophagus
+   responds to a damage
+   depending on its tissue
+                                                                     M. Battestini et al., Front. Oncol.
+        architecture                                                               (2022)
+ 01/12/2025                                 Marco Battestini        P. Kallman et al., Int. J. Radiat. Biol.       4
+                                                                                   (1992)
+Mechanistic NTCP: the Relative Seriality model
+                                Parallel organ
+
+
+
+                                  FSU
+
+
+     Tissue                               Poisson statistical model
+                 Functional sub-units
+                                                 P. Kallman et al., Int.    Physical and biological
+  architecture   (FSUs) arrangement              J. Radiat. Biol. (1992)   stochasticities and bio-
+                                                                           chemical environmental
+                                                                               heterogeneities
+
+
+
+                                 Serial organ
+
+
+   01/12/2025                           Marco Battestini                                       5
+                Radiation-induced skin toxicity
+
+                     Skin toxicity
+                                                                                                                       Complex multi-layered
+                    Common in all                                                                                     architecture with specific
+                      radiation                                                                                        bio-chemical properties
+                     treatments                                                                                             and functions
+NTCP models
+in literature                                                    ROS
+
+                                    Epidermis
+
+                                    Dermis
+                                                                                                                              Radiation toxicity
+                                                                               XSH                                        influenced by radiation
+                                    Hypodermis
+                                                                                                                          chemistry (free radicals,
+                                                                                                                                ROS, XSH, O2)
+
+                                                                          Y. Shindo et al., J. Invest. Dermatol. (1994)
+                    Rübe et al., Int. J. Mol. Sci. (2024)
+                                                                N. Chettouh-Hammas et al., Oxid. Med. Cell. Longev. (2024)
+
+ 01/12/2025                                                 Marco Battestini                                                                     6
+Modeling
+starting
+point
+The Generalized Stochastic
+Microdosimetric Model (GSM2)
+
+
+
+
+ 01/12/2025                    Marco Battestini   7
+The Generalized Stochastic Microdosimetric Model
+                     (GSM2)
+ 1) DNA damage formation        2) DNA damage evolution 3) Biological endpoint
+
+                                                                                      Development and validation
+
+                                                                                                                       MUSICA
+                                                                                       F. G. Cordoni et al., Phys. Rev. E (2021)
+                                                                                        F. G. Cordoni et al., Rad. Res. (2022)
+                                                                                    F. G. Cordoni et al., Int. J. Radiat. Biol. (2023)
+                                                                  Cell           G. Bordieri,…, M. Battestini, et al., Phys. Med. Biol.
+                                                                                                       (2024)
+                                                                  survival
+                                                                                                    Extensions
+
+
+
+
+                                                                                       M. Battestini et al., Front. Phys. (2023)
+                                                                                        M. Battestini et al., Radiother. Oncol.
+                                                                                                        (2025)
+  GSM2: a fully probabilistic       Different levels of spatio-temporal
+ radiation biophysical model        stochasticity in physics and biology
+     01/12/2025                                         Marco Battestini                                                    8
+The          project
+
+
+01/12/2025    Marco Battestini   9
+                The main goal of the project
+                                                   MUSICA                                            ARES
+                                  Mechanistic radiation       Innovative experimental
+                                   biophysical models                methods
+
+             Treatment planning                                                         Radiation-induced
+                 approaches                                                              toxicities studies
+
+
+
+
+                                              A novel combined
+                                           mathematical modeling-
+                                         experimental approach for PT
+01/12/2025                                          Marco Battestini                                          10
+                           Workpackages organization
+WP1: NTCP modeling
+for particle therapy
+
+• Development of a                 WP1.2              • Model extension
+  general mechanistic-                                  towards clinically
+  driven NTCP model         • Applications of the       relevant predictions
+• Systematic analysis of      NTCP model to in-vivo     for simple geometries                                  PA
+                                                                                                               VI
+  model parameters            experimental data                                                                A
+                              from literature                                                                  NAP
+                                                                                                               OLI
+
+
+       WP1.1                                                  WP1.3
+                                                      • Irradiation of multi-             WP2.2               • Calibration of bio-
+                                                        layer tissues with X-ray                                chemical model
+                                                        and proton beams           • Development of a           parameters on in-
+                                                      • Bio-chemical and             specific mechanistic-      house skin data
+                                                        histological analyses        driven model for skin
+                                                                                     lesions
+
+
+                                                              WP2.1                                                   WP2.3
+                                                                                                    WP2: Skin toxicity modeling
+                                                                                                    and proton beam experiments
+  01/12/2025                                                Marco Battestini                                                          11
+ The workflow of the GSM2-based NTCP model
+                                                                              Beam
+                                                                                               (iv) Whole organ effect
+                     (i) Energy deposition
+General model
+development                                                                                                  NTCP/TCP
+                                                                                                      Relative Seriality model
+      WP1.1
+                                                                                                         P. Kallman et al., Int.
+                                                                       Cell                                  J. Radiat. Biol.
+                                                                                                                  (1992)
+General model
+  validation                                                                                                FSU
+
+      WP1.2                                                                 Functional
+                                                                          sub-unit (FSU)
+
+Model extension
+   to clinic            (ii) DNA damage formation
+                                                                                   Cell
+      WP1.3                                                                        survival
+                                                                                                       Main advantage:
+                                                                                                         inclusion of
+                                                                                                       intra- and inter-
+                                                                        (iii) Single-cell response      cellular effects
+        01/12/2025                                  Marco Battestini                                                        12
+        From single cell description to multi-cellular
+                          response
+                                        Fractionation        Oxygenation
+                                           scheme               level
+
+General model
+development
+                            Radiation
+                                                                                   Cell line
+      WP1.1                  quality
+
+
+
+General model
+  validation
+                        Dose                                                               Tissue
+      WP1.2          prescription                 GSM        2                          architecture
+
+
+Model extension
+   to clinic
+
+      WP1.3
+                                                                           •   Impact of irradiation methods and environmental conditions
+                                                   NTCP                    •
+                                                                           •
+                                                                               Impact of stochastic effects and heterogeneities
+                                                                               GSM2-based NTCP model VS NTCP models from literature
+
+        01/12/2025                                      Marco Battestini                                                       13
+                  Comparison of model predictions with
+                          experimental data
+                                                                                                             Prof. C. P. Karger (see
+                                                                                                             letter)
+General model
+development
+
+      WP1.1
+
+                                                                                                             •     Rat spinal cord
+General model
+  validation                                                                                                 •     Conv irradiation
+                                                                                                             •     12
+                                                                                                                      C, 4He, p
+      WP1.2                                                                                                  •     18, 6, 2, 1 fractions
+                                                                                    Preliminary results
+                                                                                                          Exp: M. Saager et al., Radiother. Oncol. (2018),
+                                                                                                          L. Hintz et al., Radiother. Oncol. (2022),
+                                                                                                          C. P. Karger et al., Int. J. Radiation Oncology Biol. Phys.
+Model extension                                                                                           (2006)
+   to clinic
+
+      WP1.3             Assumptions: fully serial organ,
+                     single cell line, uniform oxygenation                      •      Complex parallel organs (e.g. lung) predictions
+                                                                                •      Possible interplays among radiation quality,
+                                                                                       fractionation scheme and biological endpoint
+                                                                                •      Tumor response predictions
+
+        01/12/2025                                           Marco Battestini                                                                        14
+Model extension for clinically relevant applications
+                                                                    Prof. F. Lohr (see
+                                                                    letter)
+General model
+development
+
+      WP1.1
+
+General model
+  validation                                                                             TCP/
+                                                GSM2                                     NTCP Tumor/organ
+      WP1.2                                                                                     response
+
+Model extension
+   to clinic         Healthy organ
+                        Tumor
+      WP1.3
+                       Cell line
+
+
+                                                                 Possible spillovers
+                                                        Biophysics-driven plan optimization methods
+        01/12/2025                   Marco Battestini                                             15
+   Irradiation of biological multi-layer systems and
+                        analyses
+                                        Microfluidic bioreactor                                  Skin-On-Chip                       Multi-layer skin tissue
+                                                    Pumping
+Irradiation of 3D                                    system
+                                                                                                                                   Epidermi
+    skin tissue             ARES                                                                                                       s
+      WP2.1                                                                                                      Skin tissue
+
+
+  Skin model                                                                                                                                            Dermis
+                                                              Independent
+ development                           Physiological            chambers
+                                        conditions                                 Culture medium (controlled
+       WP2.2                             (dynamic                                            flow)
+                                       environment)
+                                   Experimental proton beam at Trento                            Physical properties              Chemical and
+  Skin model                                                                                                                   biological analyses
+  calibration                                                                                        Radiation quality
+                                                                                                                               •    DNA damage
+      WP2.3                                                                                                                    •    Surviving fraction
+                                                                                                                               •    Histological analyses
+                                                                                                 Fractionation scheme          •    Oxidative stress
+                       PA                                                                        •    Number of fractions      •    Cytokines release
+                       VI
+                       A                                                                         •    Dose per fraction             P. Simoniello et al.,
+                       NAP                                                                       •    Total dose                    Front. Oncol. (2016)
+                       OLI
+          01/12/2025               F. Tommasino et al., Phys. Medica (2019)   Marco Battestini                                                              16
+A specific mechanistic-driven NTCP model for skin
+                          toxicity
+                 (i) Energy deposition                                                                                             Beam
+                                                                                              Keratinocy
+                                                                                                  te
+
+Irradiation of 3D                                                                      Epidermis
+    skin tissue          MS-GSM2
+                       M. Battestini et al.,
+      WP2.1            Front. Phys. (2023)
+                                                                                         Dermis
+                       M. Battestini et al.,
+                       Radiother. Oncol.
+                             (2025)
+                                                                      (iii) DNA damage formation
+  Skin model
+ development              (ii) Chemistry evolution
+
+       WP2.2                                                                                       Fibroblas
+                                                                                                       t
+                                                                                                               (v) Skin response
+  Skin model
+  calibration
+
+      WP2.3                                                                                                    Cell
+                                                     Antioxidant defense                                       survival
+
+
+                                                                                                      (iv) Single-cell response
+          01/12/2025                                     Marco Battestini                                                     17
+Bio-chemical model parameters calibration for skin
+                     lesions
+                       Experiments with multi-layer systems and bioreactor
+
+Irradiation of 3D                                                                  Possible spillovers
+    skin tissue
+                                                                                    An integrated modeling-
+                                               O2, XSH                          experimental approach to assess
+      WP2.1
+                                                                                  skin toxicity with innovative
+                           E, LET, D                                  a, b, r        irradiation techniques
+  Skin model
+                                                                                    Spatially fractionated RT
+ development
+
+       WP2.2
+                                              MS-GSM2-
+                                             based NTCP                                        FLASH RT
+  Skin model
+  calibration
+
+      WP2.3
+                                                                                  M. Battestini et al., Front. Phys. (2023)
+                                                                                   M. Battestini et al., Radiother. Oncol.
+                                  A mechanistic radiation biophysical                              (2025)
+                                     model for skin toxicity in PT
+          01/12/2025                                        Marco Battestini                                          18
+             Gantt chart and milestones
+                                  WP1.1: Development of a general mechanistic-driven NTCP model and systematic
+                                  analysis of model parameters
+                                  WP1.2: Applications of the NTCP model to in-vivo experimental data from literature
+                                  WP1.3: Model extension towards clinically relevant predictions for simple geometries
+
+                                  WP2.1: Proton irradiation of biological multi-layer systems with proton beams and
+                                  bio-chemical analyses
+                                  WP2.2: Development of a specific mechanistic-driven model for skin lesions
+                                  WP2.3: Calibrations of bio-chemical model parameters on in-house experiments
+
+
+
+
+01/12/2025              Marco Battestini                                                                      19
+                   Organization
+
+
+
+
+PA
+VI
+A
+
+
+
+
+NAP
+OLI
+
+
+
+
+      01/12/2025       Marco Battestini   20
+             Costs
+
+
+
+
+01/12/2025   Marco Battestini   21
+                                                             Skin model
+                                                            development
+
+                Model                    Irradiation of
+             extension to                3D skin tissue
+                clinic                   and analyses
+                             General
+                              model
+                            validation
+               General
+                model                                                     Skin model
+             development                                                  calibration
+
+
+
+
+01/12/2025                                      Marco Battestini                        22
+             Backup slides
+
+
+01/12/2025        Marco Battestini   23
+                                                   Risk assessment
+                   Risk                                             Impact                               Solution/mitigation
+                                                                                                         We will focus on further model development and its in-
+ Delays in procuring the bioreactor and/or its       Delays in irradiation testing and/or a decreased     silico applications (e.g. additional clinically relevant
+                                                                                                        developments, model extensions for specific PT settings)
+                 malfunction                              number of measurement campaigns               and/or we will irradiate the multi-cellular system without
+                                                                                                                              the bioreactor
+
+
+
+Malfunctions in the multi-cellular system and/or        Alternative and/or decreased number of           We will assess irradiating simpler systems for calibration
+                                                                                                           (e.g., 2D cell cultures) and/or alternative surrogate
+                in its irradiation                             measurement campaigns                        systems such as spheroids for chemical analyses
+
+
+
+
+                                                                                                             We will consider involving additional centers for
+     Delays in allocation of beamtime slots          Decreased number of measurement campaigns           irradiation currently not foreseen in the original project
+                                                                                                                          framework (e.g. CNAO)
+
+
+
+                                                                                                        We will carry out a detailed analysis of the available assays
+                                                                                                        and/or we will assess the feasibility of additional analyses
+Malfunctions in the biological and/or chemical
+                                                     Alternative and/or reduced number of analyses       and/or we will focus on further model development and
+      analyses of the irradiated tissues                                                                its in-silico applications (e.g. additional clinically relevant
+                                                                                                        developments, model extensions for specific PT settings)
+
+                                                                                                          We will focus on the study of the available endpoints
+Delays and/or issues in the development and/or         Reduced number of biological endpoints           and/or we will calibrate the model directly on in-vivo data
+                                                                                                          from literature and/or we will focus on further model
+ calibration of the specific NTCP framework for       available for analysis and incomplete model       development and its in-silico applications (e.g. additional
+                   skin toxicity                                       calibration                       clinically relevant developments, model extensions for
+                                                                                                                            specific PT settings)
+
+
+  01/12/2025                                                        Marco Battestini                                                                            24
+The mathematical workflow of the proposed NTCP
+                   model
+                            Organ
+                                                           FSU response           Surviving probability of a single cell
+
+General model          Beam
+development
+                     Functional
+      WP1.1           sub-unit
+                       (FSU)
+                                                           Probability that all cells in the FSU die
+                          Cell
+General model
+  validation
+                                                             FSU                        Volume effect parameter
+      WP1.2                                                                                                        Parallel organ
+                          ij-th FSU         GSM      2
+                                                                                                                   Serial organ
+Model extension
+   to clinic
+
+      WP1.3                                                Organ response
+
+                                      k-th nucleus
+
+
+                                           DNA damages
+
+        01/12/2025                                       Marco Battestini                                                  25
+  Irradiation scheme of the skin tissue experiment
+                                            Goal: investigation of the biological and chemical processes induced by
+                                              X-ray and proton beam radiation at different irradiation conditions
+Irradiation of 3D
+    skin tissue
+
+      WP2.1
+
+  Skin model
+ development
+
+       WP2.2
+
+                             Orthovoltage X-ray @ TIFPA: 195 kVp, 10 mA
+  Skin model
+  calibration                Experimental proton beam for radiobiology @ TPTC:
+                             148 MeV nominal energy, dual-ring setup
+      WP2.3
+                             Radiation quality characterization with microdosimetry:
+                             Benchmark between experiments and MC TOPAS simulations
+                       PA
+                       VI
+                       A
+                             M. Missiaggia et al., Int. J. Radiat. Oncol. Biol. Phys.
+                             (2023)
+                       NAP
+                       OLI   A. Bianchi et al., Radat. Phys. Chem. (2023)                         F. Tommasino et al., Phys. Medica (2019)
+          01/12/2025                                                           Marco Battestini                                              26
+

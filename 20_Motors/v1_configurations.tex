@@ -1,0 +1,110 @@
+% Minimal PRISM measurement configurations, intended for presentation slides.
+% Build: make (XeLaTeX, Arial, pdftocairo).
+% Default: both panels. The Makefile also exports each panel separately.
+% I denotes fluorescence, not transmitted intensity.
+% Motion arrows are schematic; no mechanical dimensions are implied.
+\documentclass[border=3mm]{standalone}
+\usepackage{fix-cm}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{amsmath,bm}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\usetikzlibrary{arrows.meta}
+
+\definecolor{ink}{HTML}{17365D}
+\definecolor{beamgreen}{HTML}{2CA02C}
+\definecolor{fluororange}{HTML}{FF7F0E}
+\definecolor{detectorblue}{HTML}{1F77B4}
+\definecolor{motioncyan}{HTML}{008FA8}
+\definecolor{samplegray}{HTML}{7F7F7F}
+
+% 0 = combined figure, 1 = fluorescence only, 2 = incident beam only.
+\providecommand{\ConfigurationPanel}{0}
+
+\tikzset{
+  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
+  title/.style={font=\sffamily\bfseries\fontsize{15}{18}\selectfont,anchor=west},
+  caption/.style={font=\sffamily\fontsize{11}{13}\selectfont},
+  detector/.style={draw=detectorblue,fill=detectorblue!13,line width=1pt,
+    minimum width=1.45cm,minimum height=.72cm,inner sep=2pt,
+    font=\sffamily\bfseries\fontsize{13}{15}\selectfont},
+  beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt},
+  motion/.style={draw=motioncyan,line width=1.2pt,-{Stealth[length=2.5mm]}},
+  motionlabel/.style={text=motioncyan,font=\sffamily\fontsize{10}{12}\selectfont,align=center}
+}
+
+% Schematic x-z view: x follows the beam; z points upwards.
+\newcommand{\XZAxes}{%
+  \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}]
+    (.55,2) -- (1.3,2) node[caption,anchor=west] {$x$};
+  \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}]
+    (.55,2) -- (.55,2.65) node[caption,anchor=east] {$z$};
+}
+
+% The sample is tilted relative to the incident beam.
+\newcommand{\SampleAt}[2]{%
+  \begin{scope}[shift={(#1,#2)}]
+    \path[draw=samplegray,fill=samplegray!35,line width=.8pt]
+      (-.43,-.47) -- (-.29,-.57) -- (.43,.47) -- (.29,.57) -- cycle;
+  \end{scope}%
+}
+
+\newcommand{\FluorescencePanel}{%
+  \XZAxes
+  \node[title] at (.1,3.65) {(a) $\bm{I}$: fluorescence};
+  \node[caption,anchor=west] at (.1,3.12) {Sample in the beam; CZT at $90^\circ$};
+  \draw[beam,beamgreen] (.45,0) -- (3.68,0);
+  \node at (1.75,.48) {X-ray beam};
+  \SampleAt{4}{0}
+  \draw[beam,fluororange] (4,.35) -- (4,2.03);
+  \node[detector] at (4,2.55) {CZT};
+  \node[anchor=west] at (4.4,1.25) {$\bm{I}$};
+  \draw[ink!65,line width=.7pt] (4.62,0) -- (4.62,.62) -- (4,.62);
+  \node[caption] at (5,.37) {$90^\circ$};
+  \node[caption] at (5.55,-.95) {Sample};
+  % R1: sample orientation. R2: detector arm, from lateral to direct beam.
+  \draw[motion] (3.2,-.25) arc[start angle=198,end angle=300,radius=.84];
+  \node[motionlabel,anchor=east] at (2.98,-.9) {Sample\\rotation};
+  \draw[motion,dashed] (4.94,2.58)
+    arc[start angle=70,end angle=5,radius=2.75];
+  \node[motionlabel] at (7.25,2.3) {CZT\\rotation};
+}
+
+\newcommand{\IncidentPanel}{%
+  \XZAxes
+  \node[title] at (.1,3.65) {(b) $\bm{I_0}$: incident beam};
+  \node[caption,anchor=west] at (.1,3.12) {Sample out; CZT on the beam axis};
+  \draw[beam,beamgreen] (.45,0) -- (6.02,0);
+  \node at (1.75,.48) {X-ray beam};
+  \node at (5.15,.48) {$\bm{I_0}$};
+  \node[detector,minimum width=.8cm,minimum height=1.45cm] at (6.65,0) {CZT};
+  % T: sample extraction. A dashed guide marks the former sample position.
+  \draw[samplegray!50,densely dashed,line width=.8pt] (4,-.55) -- (4,.55);
+  \SampleAt{4}{2.05}
+  \draw[motion] (3.25,.55) -- (3.25,2.15);
+  \node[motionlabel,anchor=east] at (3.03,1.4) {Sample\\in / out ($z$)};
+  \node[caption,anchor=west] at (4.6,2.05) {Sample out};
+}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round]
+  \ifcase\ConfigurationPanel\relax
+    \path[use as bounding box] (0,-2.05) rectangle (16.7,4);
+    \FluorescencePanel
+    \draw[ink!15,line width=.6pt] (8.15,-1.3) -- (8.15,3.85);
+    \begin{scope}[xshift=8.7cm]
+      \IncidentPanel
+    \end{scope}
+    \node[font=\sffamily\bfseries\fontsize{12}{14}\selectfont,text=motioncyan]
+      at (8.35,-1.8)
+      {2 rotations + 1 translation: automatic switching between $I$ and $I_0$};
+  \or
+    \path[use as bounding box] (0,-1.35) rectangle (8,4);
+    \FluorescencePanel
+  \or
+    \path[use as bounding box] (0,-1.35) rectangle (8,4);
+    \IncidentPanel
+  \fi
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="WP1 monoenergetic Ge(880) Von Hamos" description="WP1 baseline: 25.52 keV geometrical source, sagittally cylindrical Ge(880), footprint and sample diagnostics." working_directory="." workspace_units="1">
+	<nodes>
+		<node id="0" name="Geometrical Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_geometrical.OWGeometrical" project_name="OASYS2-SHADOW4" version="0.0.46" title="WP1 source: 25.52 keV" position="(80.0, 220.0)" />
+		<node id="1" name="Generic Crystal" qualified_name="orangecontrib.shadow4.widgets.optics.ow_crystal.OWCrystal" project_name="OASYS2-SHADOW4" version="0.0.46" title="Ge(880), R=0.25 m, sagittal" position="(360.0, 220.0)" />
+		<node id="2" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS2-SHADOW4" version="0.0.46" title="Sample profile X-Z" position="(700.0, 110.0)" />
+		<node id="3" name="Plot XY Footprint" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy_footprint.PlotXYFootprint" project_name="OASYS2-SHADOW4" version="0.0.46" title="Crystal footprint X-Y" position="(700.0, 260.0)" />
+		<node id="4" name="Info" qualified_name="orangecontrib.shadow4.widgets.tools.ow_info.OWInfo" project_name="OASYS2-SHADOW4" version="0.0.46" title="WP1 beamline information" position="(700.0, 410.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" />
+		<link id="2" source_node_id="1" sink_node_id="3" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" />
+		<link id="3" source_node_id="1" sink_node_id="4" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" />
+	</links>
+	<annotations>
+		<text font-family="Helvetica" font-size="16" id="0" rect="(50.0, 30.0, 900.0, 70.0)">WP1 monoenergetic baseline: 25.52 keV, Ge(880), symmetric Von Hamos, sagittal cylindrical radius 0.25 m.</text>
+		<text font-family="Helvetica" font-size="14" id="1" rect="(50.0, 500.0, 900.0, 100.0)">The Sample profile is evaluated q = 0.5146234948 m after the crystal. Plot XY Footprint uses local crystal X (sagittal) and Y (tangential) coordinates. Intensities are SHADOW4 ray weights, not absolute tube flux.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'angular_distribution': 0,
+ 'coherent_beam': 0,
+ 'depth': 0,
+ 'gauss_sigma_x': 0.0001,
+ 'gauss_sigma_z': 0.0001,
+ 'horizontal_div_x_minus': 0.06,
+ 'horizontal_div_x_plus': 0.06,
+ 'is_automatic_run': True,
+ 'number_of_rays': 100000,
+ 'phase_diff': 0.0,
+ 'photon_energy_distribution': 0,
+ 'polarization_degree': 0.5,
+ 'seed': 20260720,
+ 'single_line_value': 25520.0,
+ 'spatial_type': 3,
+ 'units': 0,
+ 'vertical_div_z_minus': 1e-05,
+ 'vertical_div_z_plus': 1e-05,
+ 'view_type': 2}</properties>
+		<properties format="literal" node_id="1">{'angles_respect_to': 0,
+ 'asymmetric_cut': 0,
+ 'crystal_auto_setting': 1,
+ 'cylinder_orientation': 1,
+ 'diffraction_calculation': 0,
+ 'dim_x_minus': 0.02,
+ 'dim_x_plus': 0.02,
+ 'dim_y_minus': 0.01,
+ 'dim_y_plus': 0.01,
+ 'image_plane_distance': 0.5146234948137789,
+ 'incidence_angle_deg': 60.9356219125736,
+ 'incidence_angle_mrad': 507.2690865,
+ 'is_automatic_run': True,
+ 'is_cylinder': 1,
+ 'is_infinite': 0,
+ 'is_thick': 1,
+ 'method_efields_management': 0,
+ 'oe_orientation_angle': 0,
+ 'oe_shape': 0,
+ 'photon_energy': 25520.0,
+ 'reflection_angle_deg': 60.935621912573616,
+ 'reflection_angle_mrad': 507.2690865,
+ 'source_plane_distance': 0.5146234948137788,
+ 'spherical_radius': 0.25,
+ 'surface_curvature': 0,
+ 'surface_shape_parameters': 1,
+ 'surface_shape_type': 1,
+ 'thickness': 0.001,
+ 'units_in_use': 0,
+ 'user_defined_crystal': 3,
+ 'user_defined_h': 8,
+ 'user_defined_k': 8,
+ 'user_defined_l': 0,
+ 'view_type': 2}</properties>
+		<properties format="literal" node_id="2">{'cartesian_axis': 0,
+ 'conversion_active': 1,
+ 'image_plane': 0,
+ 'is_automatic_run': True,
+ 'number_of_bins_h': 160,
+ 'number_of_bins_v': 160,
+ 'rays': 1,
+ 'title': 'WP1 sample at q=0.514623 m (X sagittal, Z tangential)',
+ 'weight_column_index': 23,
+ 'x_column_index': 0,
+ 'x_range': 0,
+ 'y_column_index': 2,
+ 'y_range': 0}</properties>
+		<properties format="literal" node_id="3">{'cartesian_axis': 0,
+ 'conversion_active': 1,
+ 'is_automatic_run': True,
+ 'number_of_bins_h': 160,
+ 'number_of_bins_v': 160,
+ 'rays': 1,
+ 'title': 'WP1 crystal footprint (X sagittal, Y tangential)',
+ 'weight_column_index': 23,
+ 'x_column_index': 0,
+ 'x_range': 0,
+ 'y_column_index': 1,
+ 'y_range': 0}</properties>
+		<properties format="literal" node_id="4">{'is_automatic_run': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

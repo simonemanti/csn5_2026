@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resultSet>
+  <work>
+    <work_type>mandatory</work_type>
+    <work_value>
+      <type>mandatory</type>
+      <column_num>1</column_num>
+      <column_name>column</column_name>
+      <metadata>
+        <meta display="none" key="title" type="String">
+          <key_en>Title</key_en>
+          <key_ja>タイトル</key_ja>
+          <value>XAFS spectrum of Silver(I) oxide</value>
+        </meta>
+        <meta key="filename" type="String">
+          <key_en>File Name</key_en>
+          <key_ja>ファイル名</key_ja>
+          <value>spring8.940198e0-4cd3-4190-a20d-c1fae98675ce.zip</value>
+        </meta>
+        <meta key="description" type="String">
+          <key_en>Description</key_en>
+          <key_ja>説明</key_ja>
+          <value>This dataset consists of X-ray absorption fine structure (XAFS) spectra at Ag K-edge of Silver(I) oxide measured at SPring-8 BL14B2, and is a part of XAFS database (MDR XAFS DB, https://doi.org/10.48505/nims.1447) as a collection of MDR</value>
+        </meta>
+        <meta key="data_origin" type="String">
+          <key_en>Data Origin</key_en>
+          <key_ja>データの起源</key_ja>
+          <value>experiments</value>
+        </meta>
+        <meta key="contact_person" type="String">
+          <key_en>Contact Person</key_en>
+          <key_ja>データ責任者</key_ja>
+          <value>Industrial Application and Partnership Division</value>
+        </meta>
+        <meta key="creator" type="String">
+          <key_en>Data Creator</key_en>
+          <key_ja>データ作成者</key_ja>
+          <value>ISHII, Masashi</value>
+        </meta>
+      </metadata>
+    </work_value>
+  </work>
+  <work>
+    <work_type>instrument</work_type>
+    <work_value>
+      <type>instrument</type>
+      <column_num>1</column_num>
+      <column_name>column</column_name>
+      <metadata>
+        <meta key="instrument_name" type="String">
+          <key_en>instrument_name</key_en>
+          <key_ja>instrument_name</key_ja>
+          <value>BL14B2_XAFS</value>
+        </meta>
+        <meta key="maker" type="String">
+          <key_en>maker</key_en>
+          <key_ja>maker</key_ja>
+          <value>Japan Synchrotron Radiation Research Institute</value>
+        </meta>
+        <meta key="instrumentation" type="String">
+          <key_en>instrumentation</key_en>
+          <key_ja>instrumentation</key_ja>
+          <value>Japan Synchrotron Radiation Research Institute</value>
+        </meta>
+        <meta key="method_category" type="String">
+          <key_en>method_category</key_en>
+          <key_ja>method_category</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q386">分光法(X線吸収分光法)</value>
+        </meta>
+        <meta key="description" type="String">
+          <key_en>description</key_en>
+          <key_ja>description</key_ja>
+          <value>SPring-8 Engineering Science Research Beamline XAFS setup</value>
+        </meta>
+      </metadata>
+    </work_value>
+  </work>
+  <work>
+    <work_type>specimen</work_type>
+    <work_value>
+      <type>specimen_meta</type>
+      <column_num>1</column_num>
+      <column_name>column</column_name>
+      <metadata>
+        <meta display="none" key="label" type="String">
+          <key_en>Specimen_ID</key_en>
+          <key_ja>試料ID</key_ja>
+          <value>66781575</value>
+        </meta>
+        <meta key="description" type="String">
+          <key_en>Description</key_en>
+          <key_ja>説明</key_ja>
+          <value>Standard Sample</value>
+        </meta>
+        <meta key="general_name" type="String">
+          <key_en>General name</key_en>
+          <key_ja>一般名称</key_ja>
+          <value>Silver(I) oxide</value>
+        </meta>
+        <meta key="chemical_composition" type="String">
+          <key_en>Chemical composition</key_en>
+          <key_ja>化学組成</key_ja>
+          <value>Ag2O</value>
+        </meta>
+        <meta key="material_main_category" type="String">
+          <key_en>Material  Type</key_en>
+          <key_ja>物質タイプ</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q735">Oxide</value>
+        </meta>
+        <meta key="material_sub_category" type="String">
+          <key_en>Material Sub Category</key_en>
+          <key_ja>物質サブカテゴリー</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q1278">Silver(I) oxide</value>
+        </meta>
+        <meta key="structural_main_features" type="String">
+          <key_en>Structural Features</key_en>
+          <key_ja>構造的特長</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q686">局所構造</value>
+        </meta>
+        <meta key="structural_sub_features" type="String">
+          <key_en>Structural Sub Category</key_en>
+          <key_ja>構造サブカテゴリー</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q687">動径分布関数</value>
+        </meta>
+        <meta key="supplier" type="String">
+          <key_en>supplier</key_en>
+          <key_ja>製造者・購入先</key_ja>
+          <value>KOJUNDO CHEMICAL LABORATORY</value>
+        </meta>
+        <meta key="lot_no_or_product_no_etc" type="String">
+          <key_en>Lot No. /Product No. etc</key_en>
+          <key_ja>ロット番号/製造番号など</key_ja>
+          <value>AGO01PB</value>
+        </meta>
+      </metadata>
+    </work_value>
+  </work>
+  <work>
+    <work_type>measurement</work_type>
+    <work_value>
+      <type>measurement_meta</type>
+      <column_num>1</column_num>
+      <column_name>column</column_name>
+      <metadata>
+        <meta key="method_category_1" type="String">
+          <key_en>Method category</key_en>
+          <key_ja>計測法カテゴリー</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q30">分光法</value>
+        </meta>
+        <meta key="method_category_2" type="String">
+          <key_en>Method sub-category</key_en>
+          <key_ja>計測法サブカテゴリー</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q386">X線吸収分光法</value>
+        </meta>
+        <meta key="analysis_field" type="String">
+          <key_en>Analysis field</key_en>
+          <key_ja>分析分野</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q688">結晶学</value>
+        </meta>
+        <meta key="measurement_environment" type="String">
+          <key_en>Measurement environment</key_en>
+          <key_ja>測定環境</key_ja>
+          <value dict_id="https://matvoc.nims.go.jp/wiki/Item:Q542">空気中</value>
+        </meta>
+        <meta key="energy_level_transition_structure_etc_of_interest" type="String">
+          <key_en>Energy Level_Transition_Structure etc. of interst</key_en>
+          <key_ja>対象準位_遷移_構造</key_ja>
+          <value>Ag K-edge</value>
+        </meta>
+        <meta key="measurement_date" type="ISODateString">
+          <key_en>Measurement date</key_en>
+          <key_ja>分析年月日</key_ja>
+          <value>2016-06-24</value>
+        </meta>
+        <meta key="standardized_procedure_specified_number" type="String">
+          <key_en>Standardized procedure</key_en>
+          <key_ja>標準手順</key_ja>
+          <value>Transmission( 2)</value>
+        </meta>
+        <meta key="instrumentation_site" type="String">
+          <key_en>Instrumentation site</key_en>
+          <key_ja>装置設置場所</key_ja>
+          <value>SPring-8/BL14B2</value>
+        </meta>
+        <meta key="reference" type="String">
+          <key_en>Reference</key_en>
+          <key_ja>参考文献</key_ja>
+          <value>T. Honda, SPring-8/SACLA Information Vol.12 (2007) 276-278.</value>
+        </meta>
+      </metadata>
+    </work_value>
+    <work_value>
+      <type>measurement</type>
+      <column_num>1</column_num>
+      <column_name>column</column_name>
+      <metadata>
+        <meta key="@data_info@identifier@pid" type="String">
+          <key_en>@data_info@identifier@pid</key_en>
+          <key_ja>@data_info@identifier@pid</key_ja>
+          <value>spring8.940198e0-4cd3-4190-a20d-c1fae98675ce</value>
+        </meta>
+        <meta key="@data_info@identifier@proposal_number" type="String">
+          <key_en>@data_info@identifier@proposal_number</key_en>
+          <key_ja>@data_info@identifier@proposal_number</key_ja>
+          <value>2014S0000</value>
+        </meta>
+        <meta key="@data_info@identifier@register_name" type="String">
+          <key_en>@data_info@identifier@register_name</key_en>
+          <key_ja>@data_info@identifier@register_name</key_ja>
+          <value>/SPring-8/BL14B2/XAFS_Standard/Ag/K/311/Ag2O</value>
+        </meta>
+        <meta key="@data_info@date@create_time" type="String">
+          <key_en>@data_info@date@create_time</key_en>
+          <key_ja>@data_info@date@create_time</key_ja>
+          <value>2020-01-15 18:53:12</value>
+        </meta>
+        <meta key="@data_info@date@update_time" type="String">
+          <key_en>@data_info@date@update_time</key_en>
+          <key_ja>@data_info@date@update_time</key_ja>
+          <value>2021-03-19 16:37:45</value>
+        </meta>
+        <meta key="@data_info@access_rights" type="String">
+          <key_en>@data_info@access_rights</key_en>
+          <key_ja>@data_info@access_rights</key_ja>
+          <value>open</value>
+        </meta>
+        <meta key="@data_info@contact_name@affiliation@organization" type="String">
+          <key_en>@data_info@contact_name@affiliation@organization</key_en>
+          <key_ja>@data_info@contact_name@affiliation@organization</key_ja>
+          <value>JASRI</value>
+        </meta>
+        <meta key="@data_info@contact_name@name" type="String">
+          <key_en>@data_info@contact_name@name</key_en>
+          <key_ja>@data_info@contact_name@name</key_ja>
+          <value>Industrial Application and Partnership Division</value>
+        </meta>
+        <meta key="@data_info@contact_name@role" type="String">
+          <key_en>@data_info@contact_name@role</key_en>
+          <key_ja>@data_info@contact_name@role</key_ja>
+          <value>organization</value>
+        </meta>
+        <meta key="@data_info@data_depositor@affiliation@organization" type="String">
+          <key_en>@data_info@data_depositor@affiliation@organization</key_en>
+          <key_ja>@data_info@data_depositor@affiliation@organization</key_ja>
+          <value>JASRI</value>
+        </meta>
+        <meta key="@data_info@data_depositor@name" type="String">
+          <key_en>@data_info@data_depositor@name</key_en>
+          <key_ja>@data_info@data_depositor@name</key_ja>
+          <value>Hironori Ofuchi</value>
+        </meta>
+        <meta key="@data_info@facility" type="String">
+          <key_en>@data_info@facility</key_en>
+          <key_ja>@data_info@facility</key_ja>
+          <value>SPring-8</value>
+        </meta>
+        <meta key="@data_info@class_name" type="String">
+          <key_en>@data_info@class_name</key_en>
+          <key_ja>@data_info@class_name</key_ja>
+          <value>BL14B2</value>
+        </meta>
+        <meta key="@data_info@disk_name" type="String">
+          <key_en>@data_info@disk_name</key_en>
+          <key_ja>@data_info@disk_name</key_ja>
+          <value>XAFS_Standard</value>
+        </meta>
+        <meta key="@data_info@title_ja" type="String">
+          <key_en>@data_info@title_ja</key_en>
+          <key_ja>@data_info@title_ja</key_ja>
+          <value>標準試料</value>
+        </meta>
+        <meta key="@data_info@title" type="String">
+          <key_en>@data_info@title</key_en>
+          <key_ja>@data_info@title</key_ja>
+          <value>Standard Sample</value>
+        </meta>
+        <meta key="@facility@ring@end_current" type="String">
+          <key_en>@facility@ring@end_current</key_en>
+          <key_ja>@facility@ring@end_current</key_ja>
+          <value>99.5</value>
+        </meta>
+        <meta key="@facility@ring@end_current_unit" type="String">
+          <key_en>@facility@ring@end_current_unit</key_en>
+          <key_ja>@facility@ring@end_current_unit</key_ja>
+          <value>mA</value>
+        </meta>
+        <meta key="@facility@ring@energy" type="String">
+          <key_en>@facility@ring@energy</key_en>
+          <key_ja>@facility@ring@energy</key_ja>
+          <value>8.0</value>
+        </meta>
+        <meta key="@facility@ring@energy_unit" type="String">
+          <key_en>@facility@ring@energy_unit</key_en>
+          <key_ja>@facility@ring@energy_unit</key_ja>
+          <value>GeV</value>
+        </meta>
+        <meta key="@facility@ring@filling_pattern" type="String">
+          <key_en>@facility@ring@filling_pattern</key_en>
+          <key_ja>@facility@ring@filling_pattern</key_ja>
+          <value>406 bunches</value>
+        </meta>
+        <meta key="@facility@ring@filling_pattern_mode" type="String">
+          <key_en>@facility@ring@filling_pattern_mode</key_en>
+          <key_ja>@facility@ring@filling_pattern_mode</key_ja>
+          <value>A</value>
+        </meta>
+        <meta key="@facility@ring@start_current" type="String">
+          <key_en>@facility@ring@start_current</key_en>
+          <key_ja>@facility@ring@start_current</key_ja>
+          <value>99.5</value>
+        </meta>
+        <meta key="@facility@ring@start_current_unit" type="String">
+          <key_en>@facility@ring@start_current_unit</key_en>
+          <key_ja>@facility@ring@start_current_unit</key_ja>
+          <value>mA</value>
+        </meta>
+        <meta key="@sample_0@chemical_formula" type="String">
+          <key_en>@sample_0@chemical_formula</key_en>
+          <key_ja>@sample_0@chemical_formula</key_ja>
+          <value>Ag2O</value>
+        </meta>
+        <meta key="@sample_0@lot_number" type="String">
+          <key_en>@sample_0@lot_number</key_en>
+          <key_ja>@sample_0@lot_number</key_ja>
+          <value>4050891</value>
+        </meta>
+        <meta key="@sample_0@model_number" type="String">
+          <key_en>@sample_0@model_number</key_en>
+          <key_ja>@sample_0@model_number</key_ja>
+          <value>AGO01PB</value>
+        </meta>
+        <meta key="@sample_0@name" type="String">
+          <key_en>@sample_0@name</key_en>
+          <key_ja>@sample_0@name</key_ja>
+          <value>Silver(I) oxide</value>
+        </meta>
+        <meta key="@sample_0@supplier" type="String">
+          <key_en>@sample_0@supplier</key_en>
+          <key_ja>@sample_0@supplier</key_ja>
+          <value>KOJUNDO CHEMICAL LABORATORY</value>
+        </meta>
+        <meta key="@measurement@date@end_time" type="String">
+          <key_en>@measurement@date@end_time</key_en>
+          <key_ja>@measurement@date@end_time</key_ja>
+          <value>2016-06-24 06:13:00</value>
+        </meta>
+        <meta key="@measurement@date@start_time" type="String">
+          <key_en>@measurement@date@start_time</key_en>
+          <key_ja>@measurement@date@start_time</key_ja>
+          <value>2016-06-24 06:09:00</value>
+        </meta>
+        <meta key="@measurement@method@absorption_edge" type="String">
+          <key_en>@measurement@method@absorption_edge</key_en>
+          <key_ja>@measurement@method@absorption_edge</key_ja>
+          <value>Ag K-edge</value>
+        </meta>
+        <meta key="@measurement@method@category" type="String">
+          <key_en>@measurement@method@category</key_en>
+          <key_ja>@measurement@method@category</key_ja>
+          <value>spectroscopy</value>
+        </meta>
+        <meta key="@measurement@method@detection" type="String">
+          <key_en>@measurement@method@detection</key_en>
+          <key_ja>@measurement@method@detection</key_ja>
+          <value>Transmission( 2)</value>
+        </meta>
+        <meta key="@measurement@method@sub_category" type="String">
+          <key_en>@measurement@method@sub_category</key_en>
+          <key_ja>@measurement@method@sub_category</key_ja>
+          <value>XAFS</value>
+        </meta>
+        <meta key="@measurement@scan_mode" type="String">
+          <key_en>@measurement@scan_mode</key_en>
+          <key_ja>@measurement@scan_mode</key_ja>
+          <value>angle axis (1)</value>
+        </meta>
+        <meta key="@instrument@monochrometer@distance" type="String">
+          <key_en>@instrument@monochrometer@distance</key_en>
+          <key_ja>@instrument@monochrometer@distance</key_ja>
+          <value>1.63747</value>
+        </meta>
+        <meta key="@instrument@monochrometer@distance_unit" type="String">
+          <key_en>@instrument@monochrometer@distance_unit</key_en>
+          <key_ja>@instrument@monochrometer@distance_unit</key_ja>
+          <value>A</value>
+        </meta>
+        <meta key="@instrument@monochrometer@net_plane" type="String">
+          <key_en>@instrument@monochrometer@net_plane</key_en>
+          <key_ja>@instrument@monochrometer@net_plane</key_ja>
+          <value>Si(311)</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@start_energy" type="String">
+          <key_en>@instrument@monochrometer@section_0@start_energy</key_en>
+          <key_ja>@instrument@monochrometer@section_0@start_energy</key_ja>
+          <value>8.65</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@start_energy_unit" type="String">
+          <key_en>@instrument@monochrometer@section_0@start_energy_unit</key_en>
+          <key_ja>@instrument@monochrometer@section_0@start_energy_unit</key_ja>
+          <value>deg</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@step_energy" type="String">
+          <key_en>@instrument@monochrometer@section_0@step_energy</key_en>
+          <key_ja>@instrument@monochrometer@section_0@step_energy</key_ja>
+          <value>-0.00012</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@step_energy_unit" type="String">
+          <key_en>@instrument@monochrometer@section_0@step_energy_unit</key_en>
+          <key_ja>@instrument@monochrometer@section_0@step_energy_unit</key_ja>
+          <value>deg</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@end_energy" type="String">
+          <key_en>@instrument@monochrometer@section_0@end_energy</key_en>
+          <key_ja>@instrument@monochrometer@section_0@end_energy</key_ja>
+          <value>8.04</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@end_energy_unit" type="String">
+          <key_en>@instrument@monochrometer@section_0@end_energy_unit</key_en>
+          <key_ja>@instrument@monochrometer@section_0@end_energy_unit</key_ja>
+          <value>deg</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@dwell_time" type="String">
+          <key_en>@instrument@monochrometer@section_0@dwell_time</key_en>
+          <key_ja>@instrument@monochrometer@section_0@dwell_time</key_ja>
+          <value>50.0</value>
+        </meta>
+        <meta key="@instrument@monochrometer@section_0@dwell_time_unit" type="String">
+          <key_en>@instrument@monochrometer@section_0@dwell_time_unit</key_en>
+          <key_ja>@instrument@monochrometer@section_0@dwell_time_unit</key_ja>
+          <value>ms</value>
+        </meta>
+        <meta key="@instrument@slit_0@name" type="String">
+          <key_en>@instrument@slit_0@name</key_en>
+          <key_ja>@instrument@slit_0@name</key_ja>
+          <value>4Dslit</value>
+        </meta>
+        <meta key="@instrument@slit_0@vertical_size" type="String">
+          <key_en>@instrument@slit_0@vertical_size</key_en>
+          <key_ja>@instrument@slit_0@vertical_size</key_ja>
+          <value>1.0</value>
+        </meta>
+        <meta key="@instrument@slit_0@vertical_size_unit" type="String">
+          <key_en>@instrument@slit_0@vertical_size_unit</key_en>
+          <key_ja>@instrument@slit_0@vertical_size_unit</key_ja>
+          <value>mm</value>
+        </meta>
+        <meta key="@instrument@slit_0@horizontal_size" type="String">
+          <key_en>@instrument@slit_0@horizontal_size</key_en>
+          <key_ja>@instrument@slit_0@horizontal_size</key_ja>
+          <value>5.0</value>
+        </meta>
+        <meta key="@instrument@slit_0@horizontal_size_unit" type="String">
+          <key_en>@instrument@slit_0@horizontal_size_unit</key_en>
+          <key_ja>@instrument@slit_0@horizontal_size_unit</key_ja>
+          <value>mm</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@type" type="String">
+          <key_en>@instrument@xafs@I0@element_0@type</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@type</key_ja>
+          <value>Ion Chamber</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@gas" type="String">
+          <key_en>@instrument@xafs@I0@element_0@gas</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@gas</key_ja>
+          <value>Ar 100%</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@HV" type="String">
+          <key_en>@instrument@xafs@I0@element_0@HV</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@HV</key_ja>
+          <value>1000.0</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@HV_unit" type="String">
+          <key_en>@instrument@xafs@I0@element_0@HV_unit</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@HV_unit</key_ja>
+          <value>V</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@amp_gain" type="String">
+          <key_en>@instrument@xafs@I0@element_0@amp_gain</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@amp_gain</key_ja>
+          <value>100000000.0</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_0@amp_gain_unit" type="String">
+          <key_en>@instrument@xafs@I0@element_0@amp_gain_unit</key_en>
+          <key_ja>@instrument@xafs@I0@element_0@amp_gain_unit</key_ja>
+          <value>V/A</value>
+        </meta>
+        <meta key="@instrument@xafs@I0@element_number" type="String">
+          <key_en>@instrument@xafs@I0@element_number</key_en>
+          <key_ja>@instrument@xafs@I0@element_number</key_ja>
+          <value>1</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@type" type="String">
+          <key_en>@instrument@xafs@I1@element_0@type</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@type</key_ja>
+          <value>Ion Chamber</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@gas" type="String">
+          <key_en>@instrument@xafs@I1@element_0@gas</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@gas</key_ja>
+          <value>Ar 70% + Kr 30%</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@HV" type="String">
+          <key_en>@instrument@xafs@I1@element_0@HV</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@HV</key_ja>
+          <value>1000.0</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@HV_unit" type="String">
+          <key_en>@instrument@xafs@I1@element_0@HV_unit</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@HV_unit</key_ja>
+          <value>V</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@amp_gain" type="String">
+          <key_en>@instrument@xafs@I1@element_0@amp_gain</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@amp_gain</key_ja>
+          <value>10000000.0</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_0@amp_gain_unit" type="String">
+          <key_en>@instrument@xafs@I1@element_0@amp_gain_unit</key_en>
+          <key_ja>@instrument@xafs@I1@element_0@amp_gain_unit</key_ja>
+          <value>V/A</value>
+        </meta>
+        <meta key="@instrument@xafs@I1@element_number" type="String">
+          <key_en>@instrument@xafs@I1@element_number</key_en>
+          <key_ja>@instrument@xafs@I1@element_number</key_ja>
+          <value>1</value>
+        </meta>
+        <meta key="@local@measurement_time" type="String">
+          <key_en>@local@measurement_time</key_en>
+          <key_ja>@local@measurement_time</key_ja>
+          <value>254.0</value>
+        </meta>
+        <meta key="@local@measurement_time_unit" type="String">
+          <key_en>@local@measurement_time_unit</key_en>
+          <key_ja>@local@measurement_time_unit</key_ja>
+          <value>sec</value>
+        </meta>
+        <meta key="@local@xafs_filename_list_0" type="String">
+          <key_en>@local@xafs_filename_list_0</key_en>
+          <key_ja>@local@xafs_filename_list_0</key_ja>
+          <value>Ag-K_Ag2O_Si311_50ms_160624.dat</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@extension" type="String">
+          <key_en>@local@xafs_processed_data_format_0@extension</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@extension</key_ja>
+          <value>ex3</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@format" type="String">
+          <key_en>@local@xafs_processed_data_format_0@format</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@format</key_ja>
+          <value>Rex2000</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_0@name" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_0@name</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_0@name</key_ja>
+          <value>photon energy</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_0@unit" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_0@unit</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_0@unit</key_ja>
+          <value>eV</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_0@formula" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_0@formula</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_0@formula</key_ja>
+          <value>12398/(2*D*math.sin(columns[1]))</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_0@input@columns" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_0@input@columns</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_0@input@columns</key_ja>
+          <value>xafs_raw_data_format[0].columns</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_0@input@D" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_0@input@D</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_0@input@D</key_ja>
+          <value>xafs_raw_data_format[0].parameter.D</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_1@name" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_1@name</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_1@name</key_ja>
+          <value>absorption coefficient mu*t</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_1@formula" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_1@formula</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_1@formula</key_ja>
+          <value>math.log(columns[3]/columns[4])</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_0@columns_1@input@columns" type="String">
+          <key_en>@local@xafs_processed_data_format_0@columns_1@input@columns</key_en>
+          <key_ja>@local@xafs_processed_data_format_0@columns_1@input@columns</key_ja>
+          <value>xafs_raw_data_format[0].columns</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@extension" type="String">
+          <key_en>@local@xafs_processed_data_format_1@extension</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@extension</key_ja>
+          <value>txt</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@format" type="String">
+          <key_en>@local@xafs_processed_data_format_1@format</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@format</key_ja>
+          <value>Athena</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_0@name" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_0@name</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_0@name</key_ja>
+          <value>photon energy</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_0@unit" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_0@unit</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_0@unit</key_ja>
+          <value>eV</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_0@formula" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_0@formula</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_0@formula</key_ja>
+          <value>12398/(2*D*math.sin(columns[1]))</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_0@input@columns" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_0@input@columns</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_0@input@columns</key_ja>
+          <value>xafs_raw_data_format[0].columns</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_0@input@D" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_0@input@D</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_0@input@D</key_ja>
+          <value>xafs_raw_data_format[0].parameter.D</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_1@name" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_1@name</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_1@name</key_ja>
+          <value>absorption coefficient mu*t</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_1@formula" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_1@formula</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_1@formula</key_ja>
+          <value>math.log(columns[3]/columns[4])</value>
+        </meta>
+        <meta key="@local@xafs_processed_data_format_1@columns_1@input@columns" type="String">
+          <key_en>@local@xafs_processed_data_format_1@columns_1@input@columns</key_en>
+          <key_ja>@local@xafs_processed_data_format_1@columns_1@input@columns</key_ja>
+          <value>xafs_raw_data_format[0].columns</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@extension" type="String">
+          <key_en>@local@xafs_raw_data_format_0@extension</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@extension</key_ja>
+          <value>dat</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@format" type="String">
+          <key_en>@local@xafs_raw_data_format_0@format</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@format</key_ja>
+          <value>PF9809</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@parameter@D" type="String">
+          <key_en>@local@xafs_raw_data_format_0@parameter@D</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@parameter@D</key_ja>
+          <value>monochrometer distance</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_0@name" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_0@name</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_0@name</key_ja>
+          <value>monochrometer angle (setting value of PC)</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_0@unit" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_0@unit</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_0@unit</key_ja>
+          <value>deg</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_1@name" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_1@name</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_1@name</key_ja>
+          <value>monochrometer angle (encoder value)</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_1@unit" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_1@unit</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_1@unit</key_ja>
+          <value>deg</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_2@name" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_2@name</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_2@name</key_ja>
+          <value>dwell time</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_2@unit" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_2@unit</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_2@unit</key_ja>
+          <value>sec</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_3@name" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_3@name</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_3@name</key_ja>
+          <value>intensity I0</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_3@unit" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_3@unit</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_3@unit</key_ja>
+          <value>count</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_4@name" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_4@name</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_4@name</key_ja>
+          <value>intensity I1</value>
+        </meta>
+        <meta key="@local@xafs_raw_data_format_0@columns_4@unit" type="String">
+          <key_en>@local@xafs_raw_data_format_0@columns_4@unit</key_en>
+          <key_ja>@local@xafs_raw_data_format_0@columns_4@unit</key_ja>
+          <value>count</value>
+        </meta>
+      </metadata>
+    </work_value>
+    <work_value>
+      <type>measurement_raw</type>
+      <metadata>
+        <meta key="raw">
+          <data_info type="dict">
+            <identifier type="dict">
+              <pid type="str">spring8.940198e0-4cd3-4190-a20d-c1fae98675ce</pid>
+              <proposal_number type="str">2014S0000</proposal_number>
+              <register_name type="str">/SPring-8/BL14B2/XAFS_Standard/Ag/K/311/Ag2O</register_name>
+            </identifier>
+            <date type="dict">
+              <create_time type="str">2020-01-15 18:53:12</create_time>
+              <update_time type="str">2021-03-19 16:37:45</update_time>
+            </date>
+            <access_rights type="str">open</access_rights>
+            <contact_name type="dict">
+              <affiliation type="dict">
+                <organization type="str">JASRI</organization>
+              </affiliation>
+              <name type="str">Industrial Application and Partnership Division</name>
+              <role type="str">organization</role>
+            </contact_name>
+            <data_depositor type="dict">
+              <affiliation type="dict">
+                <organization type="str">JASRI</organization>
+              </affiliation>
+              <name type="str">Hironori Ofuchi</name>
+            </data_depositor>
+            <facility type="str">SPring-8</facility>
+            <class_name type="str">BL14B2</class_name>
+            <disk_name type="str">XAFS_Standard</disk_name>
+            <title_ja type="str">標準試料</title_ja>
+            <title type="str">Standard Sample</title>
+          </data_info>
+          <facility type="dict">
+            <ring type="dict">
+              <end_current type="float">99.5</end_current>
+              <end_current_unit type="str">mA</end_current_unit>
+              <energy type="float">8.0</energy>
+              <energy_unit type="str">GeV</energy_unit>
+              <filling_pattern type="str">406 bunches</filling_pattern>
+              <filling_pattern_mode type="str">A</filling_pattern_mode>
+              <start_current type="float">99.5</start_current>
+              <start_current_unit type="str">mA</start_current_unit>
+            </ring>
+          </facility>
+          <sample type="list">
+            <item type="dict">
+              <chemical_formula type="str">Ag2O</chemical_formula>
+              <lot_number type="str">4050891</lot_number>
+              <model_number type="str">AGO01PB</model_number>
+              <name type="str">Silver(I) oxide</name>
+              <supplier type="str">KOJUNDO CHEMICAL LABORATORY</supplier>
+            </item>
+          </sample>
+          <measurement type="dict">
+            <date type="dict">
+              <end_time type="str">2016-06-24 06:13:00</end_time>
+              <start_time type="str">2016-06-24 06:09:00</start_time>
+            </date>
+            <method type="dict">
+              <absorption_edge type="str">Ag K-edge</absorption_edge>
+              <category type="str">spectroscopy</category>
+              <detection type="str">Transmission( 2)</detection>
+              <sub_category type="str">XAFS</sub_category>
+            </method>
+            <scan_mode type="str">angle axis (1)</scan_mode>
+          </measurement>
+          <instrument type="dict">
+            <monochrometer type="dict">
+              <distance type="float">1.63747</distance>
+              <distance_unit type="str">A</distance_unit>
+              <net_plane type="str">Si(311)</net_plane>
+              <section type="list">
+                <item type="dict">
+                  <start_energy type="float">8.65</start_energy>
+                  <start_energy_unit type="str">deg</start_energy_unit>
+                  <step_energy type="float">-0.00012</step_energy>
+                  <step_energy_unit type="str">deg</step_energy_unit>
+                  <end_energy type="float">8.04</end_energy>
+                  <end_energy_unit type="str">deg</end_energy_unit>
+                  <dwell_time type="float">50.0</dwell_time>
+                  <dwell_time_unit type="str">ms</dwell_time_unit>
+                </item>
+              </section>
+            </monochrometer>
+            <slit type="list">
+              <item type="dict">
+                <name type="str">4Dslit</name>
+                <vertical_size type="float">1.0</vertical_size>
+                <vertical_size_unit type="str">mm</vertical_size_unit>
+                <horizontal_size type="float">5.0</horizontal_size>
+                <horizontal_size_unit type="str">mm</horizontal_size_unit>
+              </item>
+            </slit>
+            <xafs type="dict">
+              <I0 type="dict">
+                <element type="list">
+                  <item type="dict">
+                    <type type="str">Ion Chamber</type>
+                    <gas type="str">Ar 100%</gas>
+                    <HV type="float">1000.0</HV>
+                    <HV_unit type="str">V</HV_unit>
+                    <amp_gain type="float">100000000.0</amp_gain>
+                    <amp_gain_unit type="str">V/A</amp_gain_unit>
+                  </item>
+                </element>
+                <element_number type="int">1</element_number>
+              </I0>
+              <I1 type="dict">
+                <element type="list">
+                  <item type="dict">
+                    <type type="str">Ion Chamber</type>
+                    <gas type="str">Ar 70% + Kr 30%</gas>
+                    <HV type="float">1000.0</HV>
+                    <HV_unit type="str">V</HV_unit>
+                    <amp_gain type="float">10000000.0</amp_gain>
+                    <amp_gain_unit type="str">V/A</amp_gain_unit>
+                  </item>
+                </element>
+                <element_number type="int">1</element_number>
+              </I1>
+            </xafs>
+          </instrument>
+          <local type="dict">
+            <measurement_time type="float">254.0</measurement_time>
+            <measurement_time_unit type="str">sec</measurement_time_unit>
+            <xafs_filename_list type="list">
+              <item type="str">Ag-K_Ag2O_Si311_50ms_160624.dat</item>
+            </xafs_filename_list>
+            <xafs_processed_data_format type="list">
+              <item type="dict">
+                <extension type="str">ex3</extension>
+                <format type="str">Rex2000</format>
+                <columns type="list">
+                  <item type="dict">
+                    <name type="str">photon energy</name>
+                    <unit type="str">eV</unit>
+                    <formula type="str">12398/(2*D*math.sin(columns[1]))</formula>
+                    <input type="dict">
+                      <columns type="str">xafs_raw_data_format[0].columns</columns>
+                      <D type="str">xafs_raw_data_format[0].parameter.D</D>
+                    </input>
+                  </item>
+                  <item type="dict">
+                    <name type="str">absorption coefficient mu*t</name>
+                    <formula type="str">math.log(columns[3]/columns[4])</formula>
+                    <input type="dict">
+                      <columns type="str">xafs_raw_data_format[0].columns</columns>
+                    </input>
+                  </item>
+                </columns>
+              </item>
+              <item type="dict">
+                <extension type="str">txt</extension>
+                <format type="str">Athena</format>
+                <columns type="list">
+                  <item type="dict">
+                    <name type="str">photon energy</name>
+                    <unit type="str">eV</unit>
+                    <formula type="str">12398/(2*D*math.sin(columns[1]))</formula>
+                    <input type="dict">
+                      <columns type="str">xafs_raw_data_format[0].columns</columns>
+                      <D type="str">xafs_raw_data_format[0].parameter.D</D>
+                    </input>
+                  </item>
+                  <item type="dict">
+                    <name type="str">absorption coefficient mu*t</name>
+                    <formula type="str">math.log(columns[3]/columns[4])</formula>
+                    <input type="dict">
+                      <columns type="str">xafs_raw_data_format[0].columns</columns>
+                    </input>
+                  </item>
+                </columns>
+              </item>
+            </xafs_processed_data_format>
+            <xafs_raw_data_format type="list">
+              <item type="dict">
+                <extension type="str">dat</extension>
+                <format type="str">PF9809</format>
+                <parameter type="dict">
+                  <D type="str">monochrometer distance</D>
+                </parameter>
+                <columns type="list">
+                  <item type="dict">
+                    <name type="str">monochrometer angle (setting value of PC)</name>
+                    <unit type="str">deg</unit>
+                  </item>
+                  <item type="dict">
+                    <name type="str">monochrometer angle (encoder value)</name>
+                    <unit type="str">deg</unit>
+                  </item>
+                  <item type="dict">
+                    <name type="str">dwell time</name>
+                    <unit type="str">sec</unit>
+                  </item>
+                  <item type="dict">
+                    <name type="str">intensity I0</name>
+                    <unit type="str">count</unit>
+                  </item>
+                  <item type="dict">
+                    <name type="str">intensity I1</name>
+                    <unit type="str">count</unit>
+                  </item>
+                </columns>
+              </item>
+            </xafs_raw_data_format>
+          </local>
+        </meta>
+      </metadata>
+    </work_value>
+  </work>
+</resultSet>

@@ -1,0 +1,2693 @@
+00:00.408  blend            | Read blend: "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/Y_Animation/v2_Animation.blend"
+00:00.438  render           | Rendering animation (frames 1..336)
+00:00.438  render           | Rendering frame 1
+00:00.438  render           | Start rendering: PRISM_Setup, ViewLayer
+00:00.438  render           | Engine: EEVEE
+00:00.951  render           | Fra: 1 | Rendering 1 / 32 samples
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:32:04)
+00:00.970  render           | Fra: 1 | Rendering 25 / 32 samples
+00:00.973  render           | Fra: 1 | Rendering 32 / 32 samples
+00:01.340  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0001.png'
+00:01.342  render           | Time: 00:00.90 (Saving: 00:00.14)
+00:01.342  render           | Rendering frame 2
+00:01.342  render           | Start rendering: PRISM_Setup, ViewLayer
+00:01.342  render           | Engine: EEVEE
+00:01.406  render           | Fra: 2 | Rendering 1 / 32 samples
+00:01.452  render           | Fra: 2 | Rendering 25 / 32 samples
+00:01.488  render           | Fra: 2 | Rendering 32 / 32 samples
+00:01.837  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0002.png'
+00:01.837  render           | Time: 00:00.49 (Saving: 00:00.08)
+00:01.837  render           | Rendering frame 3
+00:01.837  render           | Start rendering: PRISM_Setup, ViewLayer
+00:01.837  render           | Engine: EEVEE
+00:01.867  render           | Fra: 3 | Rendering 1 / 32 samples
+00:01.972  render           | Fra: 3 | Rendering 25 / 32 samples
+00:01.982  render           | Fra: 3 | Rendering 32 / 32 samples
+00:02.354  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0003.png'
+00:02.354  render           | Time: 00:00.51 (Saving: 00:00.10)
+00:02.354  render           | Rendering frame 4
+00:02.354  render           | Start rendering: PRISM_Setup, ViewLayer
+00:02.354  render           | Engine: EEVEE
+00:02.382  render           | Fra: 4 | Rendering 1 / 32 samples
+00:02.429  render           | Fra: 4 | Rendering 25 / 32 samples
+00:02.466  render           | Fra: 4 | Rendering 32 / 32 samples
+00:02.815  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0004.png'
+00:02.815  render           | Time: 00:00.46 (Saving: 00:00.08)
+00:02.815  render           | Rendering frame 5
+00:02.815  render           | Start rendering: PRISM_Setup, ViewLayer
+00:02.815  render           | Engine: EEVEE
+00:02.837  render           | Fra: 5 | Rendering 1 / 32 samples
+00:02.891  render           | Fra: 5 | Rendering 25 / 32 samples
+00:02.898  render           | Fra: 5 | Rendering 32 / 32 samples
+00:03.296  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0005.png'
+00:03.296  render           | Time: 00:00.48 (Saving: 00:00.09)
+00:03.296  render           | Rendering frame 6
+00:03.296  render           | Start rendering: PRISM_Setup, ViewLayer
+00:03.296  render           | Engine: EEVEE
+00:03.306  render           | Fra: 6 | Rendering 1 / 32 samples
+00:03.368  render           | Fra: 6 | Rendering 25 / 32 samples
+00:03.406  render           | Fra: 6 | Rendering 32 / 32 samples
+00:03.768  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0006.png'
+00:03.768  render           | Time: 00:00.47 (Saving: 00:00.08)
+00:03.768  render           | Rendering frame 7
+00:03.768  render           | Start rendering: PRISM_Setup, ViewLayer
+00:03.768  render           | Engine: EEVEE
+00:03.784  render           | Fra: 7 | Rendering 1 / 32 samples
+00:03.828  render           | Fra: 7 | Rendering 25 / 32 samples
+00:03.834  render           | Fra: 7 | Rendering 32 / 32 samples
+00:04.230  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0007.png'
+00:04.230  render           | Time: 00:00.46 (Saving: 00:00.08)
+00:04.230  render           | Rendering frame 8
+00:04.230  render           | Start rendering: PRISM_Setup, ViewLayer
+00:04.230  render           | Engine: EEVEE
+00:04.238  render           | Fra: 8 | Rendering 1 / 32 samples
+00:04.299  render           | Fra: 8 | Rendering 25 / 32 samples
+00:04.339  render           | Fra: 8 | Rendering 32 / 32 samples
+00:04.687  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0008.png'
+00:04.687  render           | Time: 00:00.45 (Saving: 00:00.07)
+00:04.687  render           | Rendering frame 9
+00:04.688  render           | Start rendering: PRISM_Setup, ViewLayer
+00:04.688  render           | Engine: EEVEE
+00:04.703  render           | Fra: 9 | Rendering 1 / 32 samples
+00:04.751  render           | Fra: 9 | Rendering 25 / 32 samples
+00:04.757  render           | Fra: 9 | Rendering 32 / 32 samples
+00:05.138  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0009.png'
+00:05.138  render           | Time: 00:00.45 (Saving: 00:00.07)
+00:05.138  render           | Rendering frame 10
+00:05.138  render           | Start rendering: PRISM_Setup, ViewLayer
+00:05.138  render           | Engine: EEVEE
+00:05.146  render           | Fra: 10 | Rendering 1 / 32 samples
+00:05.201  render           | Fra: 10 | Rendering 25 / 32 samples
+00:05.246  render           | Fra: 10 | Rendering 32 / 32 samples
+00:05.567  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0010.png'
+00:05.567  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:05.567  render           | Rendering frame 11
+00:05.567  render           | Start rendering: PRISM_Setup, ViewLayer
+00:05.567  render           | Engine: EEVEE
+00:05.581  render           | Fra: 11 | Rendering 1 / 32 samples
+00:05.627  render           | Fra: 11 | Rendering 25 / 32 samples
+00:05.633  render           | Fra: 11 | Rendering 32 / 32 samples
+00:05.992  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0011.png'
+00:05.992  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:05.992  render           | Rendering frame 12
+00:05.992  render           | Start rendering: PRISM_Setup, ViewLayer
+00:05.992  render           | Engine: EEVEE
+00:05.999  render           | Fra: 12 | Rendering 1 / 32 samples
+00:06.051  render           | Fra: 12 | Rendering 25 / 32 samples
+00:06.085  render           | Fra: 12 | Rendering 32 / 32 samples
+00:06.407  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0012.png'
+00:06.407  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:06.407  render           | Rendering frame 13
+00:06.407  render           | Start rendering: PRISM_Setup, ViewLayer
+00:06.407  render           | Engine: EEVEE
+00:06.415  render           | Fra: 13 | Rendering 1 / 32 samples
+00:06.464  render           | Fra: 13 | Rendering 25 / 32 samples
+00:06.470  render           | Fra: 13 | Rendering 32 / 32 samples
+00:06.826  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0013.png'
+00:06.827  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:06.827  render           | Rendering frame 14
+00:06.827  render           | Start rendering: PRISM_Setup, ViewLayer
+00:06.827  render           | Engine: EEVEE
+00:06.834  render           | Fra: 14 | Rendering 1 / 32 samples
+00:06.892  render           | Fra: 14 | Rendering 25 / 32 samples
+00:06.926  render           | Fra: 14 | Rendering 32 / 32 samples
+00:07.248  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0014.png'
+00:07.248  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:07.248  render           | Rendering frame 15
+00:07.248  render           | Start rendering: PRISM_Setup, ViewLayer
+00:07.248  render           | Engine: EEVEE
+00:07.255  render           | Fra: 15 | Rendering 1 / 32 samples
+00:07.304  render           | Fra: 15 | Rendering 25 / 32 samples
+00:07.311  render           | Fra: 15 | Rendering 32 / 32 samples
+00:07.666  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0015.png'
+00:07.666  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:07.666  render           | Rendering frame 16
+00:07.666  render           | Start rendering: PRISM_Setup, ViewLayer
+00:07.666  render           | Engine: EEVEE
+00:07.673  render           | Fra: 16 | Rendering 1 / 32 samples
+00:07.725  render           | Fra: 16 | Rendering 25 / 32 samples
+00:07.759  render           | Fra: 16 | Rendering 32 / 32 samples
+00:08.085  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0016.png'
+00:08.085  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:08.085  render           | Rendering frame 17
+00:08.085  render           | Start rendering: PRISM_Setup, ViewLayer
+00:08.085  render           | Engine: EEVEE
+00:08.093  render           | Fra: 17 | Rendering 1 / 32 samples
+00:08.143  render           | Fra: 17 | Rendering 25 / 32 samples
+00:08.149  render           | Fra: 17 | Rendering 32 / 32 samples
+00:08.506  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0017.png'
+00:08.506  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:08.506  render           | Rendering frame 18
+00:08.506  render           | Start rendering: PRISM_Setup, ViewLayer
+00:08.506  render           | Engine: EEVEE
+00:08.514  render           | Fra: 18 | Rendering 1 / 32 samples
+00:08.566  render           | Fra: 18 | Rendering 25 / 32 samples
+00:08.602  render           | Fra: 18 | Rendering 32 / 32 samples
+00:08.930  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0018.png'
+00:08.930  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:08.930  render           | Rendering frame 19
+00:08.930  render           | Start rendering: PRISM_Setup, ViewLayer
+00:08.930  render           | Engine: EEVEE
+00:08.937  render           | Fra: 19 | Rendering 1 / 32 samples
+00:08.986  render           | Fra: 19 | Rendering 25 / 32 samples
+00:08.992  render           | Fra: 19 | Rendering 32 / 32 samples
+00:09.350  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0019.png'
+00:09.350  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:09.350  render           | Rendering frame 20
+00:09.350  render           | Start rendering: PRISM_Setup, ViewLayer
+00:09.350  render           | Engine: EEVEE
+00:09.358  render           | Fra: 20 | Rendering 1 / 32 samples
+00:09.414  render           | Fra: 20 | Rendering 25 / 32 samples
+00:09.457  render           | Fra: 20 | Rendering 32 / 32 samples
+00:09.773  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0020.png'
+00:09.773  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:09.773  render           | Rendering frame 21
+00:09.773  render           | Start rendering: PRISM_Setup, ViewLayer
+00:09.773  render           | Engine: EEVEE
+00:09.780  render           | Fra: 21 | Rendering 1 / 32 samples
+00:09.829  render           | Fra: 21 | Rendering 25 / 32 samples
+00:09.835  render           | Fra: 21 | Rendering 32 / 32 samples
+00:10.190  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0021.png'
+00:10.190  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:10.190  render           | Rendering frame 22
+00:10.190  render           | Start rendering: PRISM_Setup, ViewLayer
+00:10.190  render           | Engine: EEVEE
+00:10.198  render           | Fra: 22 | Rendering 1 / 32 samples
+00:10.250  render           | Fra: 22 | Rendering 25 / 32 samples
+00:10.284  render           | Fra: 22 | Rendering 32 / 32 samples
+00:10.608  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0022.png'
+00:10.608  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:10.608  render           | Rendering frame 23
+00:10.608  render           | Start rendering: PRISM_Setup, ViewLayer
+00:10.608  render           | Engine: EEVEE
+00:10.616  render           | Fra: 23 | Rendering 1 / 32 samples
+00:10.666  render           | Fra: 23 | Rendering 25 / 32 samples
+00:10.672  render           | Fra: 23 | Rendering 32 / 32 samples
+00:11.029  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0023.png'
+00:11.029  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:11.029  render           | Rendering frame 24
+00:11.029  render           | Start rendering: PRISM_Setup, ViewLayer
+00:11.029  render           | Engine: EEVEE
+00:11.036  render           | Fra: 24 | Rendering 1 / 32 samples
+00:11.089  render           | Fra: 24 | Rendering 25 / 32 samples
+00:11.123  render           | Fra: 24 | Rendering 32 / 32 samples
+00:11.444  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0024.png'
+00:11.444  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:11.444  render           | Rendering frame 25
+00:11.444  render           | Start rendering: PRISM_Setup, ViewLayer
+00:11.444  render           | Engine: EEVEE
+00:11.452  render           | Fra: 25 | Rendering 1 / 32 samples
+00:11.501  render           | Fra: 25 | Rendering 25 / 32 samples
+00:11.507  render           | Fra: 25 | Rendering 32 / 32 samples
+00:11.871  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0025.png'
+00:11.871  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:11.871  render           | Rendering frame 26
+00:11.871  render           | Start rendering: PRISM_Setup, ViewLayer
+00:11.871  render           | Engine: EEVEE
+00:11.878  render           | Fra: 26 | Rendering 1 / 32 samples
+00:11.936  render           | Fra: 26 | Rendering 25 / 32 samples
+00:11.970  render           | Fra: 26 | Rendering 32 / 32 samples
+00:12.293  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0026.png'
+00:12.293  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:12.293  render           | Rendering frame 27
+00:12.293  render           | Start rendering: PRISM_Setup, ViewLayer
+00:12.293  render           | Engine: EEVEE
+00:12.301  render           | Fra: 27 | Rendering 1 / 32 samples
+00:12.350  render           | Fra: 27 | Rendering 25 / 32 samples
+00:12.355  render           | Fra: 27 | Rendering 32 / 32 samples
+00:12.713  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0027.png'
+00:12.713  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:12.713  render           | Rendering frame 28
+00:12.713  render           | Start rendering: PRISM_Setup, ViewLayer
+00:12.713  render           | Engine: EEVEE
+00:12.721  render           | Fra: 28 | Rendering 1 / 32 samples
+00:12.773  render           | Fra: 28 | Rendering 25 / 32 samples
+00:12.809  render           | Fra: 28 | Rendering 32 / 32 samples
+00:13.134  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0028.png'
+00:13.134  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:13.134  render           | Rendering frame 29
+00:13.134  render           | Start rendering: PRISM_Setup, ViewLayer
+00:13.134  render           | Engine: EEVEE
+00:13.141  render           | Fra: 29 | Rendering 1 / 32 samples
+00:13.192  render           | Fra: 29 | Rendering 25 / 32 samples
+00:13.198  render           | Fra: 29 | Rendering 32 / 32 samples
+00:13.554  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0029.png'
+00:13.554  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:13.554  render           | Rendering frame 30
+00:13.554  render           | Start rendering: PRISM_Setup, ViewLayer
+00:13.554  render           | Engine: EEVEE
+00:13.562  render           | Fra: 30 | Rendering 1 / 32 samples
+00:13.616  render           | Fra: 30 | Rendering 25 / 32 samples
+00:13.657  render           | Fra: 30 | Rendering 32 / 32 samples
+00:13.976  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0030.png'
+00:13.976  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:13.976  render           | Rendering frame 31
+00:13.976  render           | Start rendering: PRISM_Setup, ViewLayer
+00:13.976  render           | Engine: EEVEE
+00:13.983  render           | Fra: 31 | Rendering 1 / 32 samples
+00:14.032  render           | Fra: 31 | Rendering 25 / 32 samples
+00:14.038  render           | Fra: 31 | Rendering 32 / 32 samples
+00:14.403  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0031.png'
+00:14.403  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:14.403  render           | Rendering frame 32
+00:14.403  render           | Start rendering: PRISM_Setup, ViewLayer
+00:14.403  render           | Engine: EEVEE
+00:14.411  render           | Fra: 32 | Rendering 1 / 32 samples
+00:14.465  render           | Fra: 32 | Rendering 25 / 32 samples
+00:14.501  render           | Fra: 32 | Rendering 32 / 32 samples
+00:14.835  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0032.png'
+00:14.835  render           | Time: 00:00.43 (Saving: 00:00.08)
+00:14.835  render           | Rendering frame 33
+00:14.835  render           | Start rendering: PRISM_Setup, ViewLayer
+00:14.835  render           | Engine: EEVEE
+00:14.843  render           | Fra: 33 | Rendering 1 / 32 samples
+00:14.892  render           | Fra: 33 | Rendering 25 / 32 samples
+00:14.906  render           | Fra: 33 | Rendering 32 / 32 samples
+00:15.258  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0033.png'
+00:15.258  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:15.258  render           | Rendering frame 34
+00:15.258  render           | Start rendering: PRISM_Setup, ViewLayer
+00:15.258  render           | Engine: EEVEE
+00:15.268  render           | Fra: 34 | Rendering 1 / 32 samples
+00:15.320  render           | Fra: 34 | Rendering 25 / 32 samples
+00:15.353  render           | Fra: 34 | Rendering 32 / 32 samples
+00:15.687  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0034.png'
+00:15.687  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:15.687  render           | Rendering frame 35
+00:15.687  render           | Start rendering: PRISM_Setup, ViewLayer
+00:15.687  render           | Engine: EEVEE
+00:15.699  render           | Fra: 35 | Rendering 1 / 32 samples
+00:15.759  render           | Fra: 35 | Rendering 25 / 32 samples
+00:15.765  render           | Fra: 35 | Rendering 32 / 32 samples
+00:16.148  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0035.png'
+00:16.148  render           | Time: 00:00.46 (Saving: 00:00.08)
+00:16.148  render           | Rendering frame 36
+00:16.149  render           | Start rendering: PRISM_Setup, ViewLayer
+00:16.149  render           | Engine: EEVEE
+00:16.158  render           | Fra: 36 | Rendering 1 / 32 samples
+00:16.221  render           | Fra: 36 | Rendering 25 / 32 samples
+00:16.259  render           | Fra: 36 | Rendering 32 / 32 samples
+00:16.613  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0036.png'
+00:16.613  render           | Time: 00:00.46 (Saving: 00:00.08)
+00:16.613  render           | Rendering frame 37
+00:16.613  render           | Start rendering: PRISM_Setup, ViewLayer
+00:16.613  render           | Engine: EEVEE
+00:16.623  render           | Fra: 37 | Rendering 1 / 32 samples
+00:16.677  render           | Fra: 37 | Rendering 25 / 32 samples
+00:16.683  render           | Fra: 37 | Rendering 32 / 32 samples
+00:17.047  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0037.png'
+00:17.047  render           | Time: 00:00.43 (Saving: 00:00.07)
+00:17.047  render           | Rendering frame 38
+00:17.047  render           | Start rendering: PRISM_Setup, ViewLayer
+00:17.047  render           | Engine: EEVEE
+00:17.056  render           | Fra: 38 | Rendering 1 / 32 samples
+00:17.216  render           | Fra: 38 | Rendering 25 / 32 samples
+00:17.253  render           | Fra: 38 | Rendering 32 / 32 samples
+00:17.594  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0038.png'
+00:17.594  render           | Time: 00:00.54 (Saving: 00:00.07)
+00:17.594  render           | Rendering frame 39
+00:17.594  render           | Start rendering: PRISM_Setup, ViewLayer
+00:17.594  render           | Engine: EEVEE
+00:17.609  render           | Fra: 39 | Rendering 1 / 32 samples
+00:17.655  render           | Fra: 39 | Rendering 25 / 32 samples
+00:17.661  render           | Fra: 39 | Rendering 32 / 32 samples
+00:18.015  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0039.png'
+00:18.015  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:18.015  render           | Rendering frame 40
+00:18.015  render           | Start rendering: PRISM_Setup, ViewLayer
+00:18.015  render           | Engine: EEVEE
+00:18.028  render           | Fra: 40 | Rendering 1 / 32 samples
+00:18.078  render           | Fra: 40 | Rendering 25 / 32 samples
+00:18.120  render           | Fra: 40 | Rendering 32 / 32 samples
+00:18.440  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0040.png'
+00:18.440  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:18.440  render           | Rendering frame 41
+00:18.440  render           | Start rendering: PRISM_Setup, ViewLayer
+00:18.440  render           | Engine: EEVEE
+00:18.448  render           | Fra: 41 | Rendering 1 / 32 samples
+00:18.497  render           | Fra: 41 | Rendering 25 / 32 samples
+00:18.502  render           | Fra: 41 | Rendering 32 / 32 samples
+00:18.864  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0041.png'
+00:18.864  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:18.864  render           | Rendering frame 42
+00:18.864  render           | Start rendering: PRISM_Setup, ViewLayer
+00:18.864  render           | Engine: EEVEE
+00:18.871  render           | Fra: 42 | Rendering 1 / 32 samples
+00:18.927  render           | Fra: 42 | Rendering 25 / 32 samples
+00:18.960  render           | Fra: 42 | Rendering 32 / 32 samples
+00:19.285  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0042.png'
+00:19.285  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:19.285  render           | Rendering frame 43
+00:19.285  render           | Start rendering: PRISM_Setup, ViewLayer
+00:19.285  render           | Engine: EEVEE
+00:19.292  render           | Fra: 43 | Rendering 1 / 32 samples
+00:19.341  render           | Fra: 43 | Rendering 25 / 32 samples
+00:19.347  render           | Fra: 43 | Rendering 32 / 32 samples
+00:19.704  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0043.png'
+00:19.704  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:19.704  render           | Rendering frame 44
+00:19.704  render           | Start rendering: PRISM_Setup, ViewLayer
+00:19.704  render           | Engine: EEVEE
+00:19.715  render           | Fra: 44 | Rendering 1 / 32 samples
+00:19.764  render           | Fra: 44 | Rendering 25 / 32 samples
+00:19.798  render           | Fra: 44 | Rendering 32 / 32 samples
+00:20.120  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0044.png'
+00:20.120  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:20.120  render           | Rendering frame 45
+00:20.121  render           | Start rendering: PRISM_Setup, ViewLayer
+00:20.121  render           | Engine: EEVEE
+00:20.128  render           | Fra: 45 | Rendering 1 / 32 samples
+00:20.177  render           | Fra: 45 | Rendering 25 / 32 samples
+00:20.183  render           | Fra: 45 | Rendering 32 / 32 samples
+00:20.540  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0045.png'
+00:20.540  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:20.540  render           | Rendering frame 46
+00:20.540  render           | Start rendering: PRISM_Setup, ViewLayer
+00:20.540  render           | Engine: EEVEE
+00:20.547  render           | Fra: 46 | Rendering 1 / 32 samples
+00:20.600  render           | Fra: 46 | Rendering 25 / 32 samples
+00:20.635  render           | Fra: 46 | Rendering 32 / 32 samples
+00:20.961  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0046.png'
+00:20.961  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:20.961  render           | Rendering frame 47
+00:20.962  render           | Start rendering: PRISM_Setup, ViewLayer
+00:20.962  render           | Engine: EEVEE
+00:20.977  render           | Fra: 47 | Rendering 1 / 32 samples
+00:21.021  render           | Fra: 47 | Rendering 25 / 32 samples
+00:21.027  render           | Fra: 47 | Rendering 32 / 32 samples
+00:21.381  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0047.png'
+00:21.381  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:21.381  render           | Rendering frame 48
+00:21.381  render           | Start rendering: PRISM_Setup, ViewLayer
+00:21.382  render           | Engine: EEVEE
+00:21.389  render           | Fra: 48 | Rendering 1 / 32 samples
+00:21.442  render           | Fra: 48 | Rendering 25 / 32 samples
+00:21.477  render           | Fra: 48 | Rendering 32 / 32 samples
+00:21.804  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0048.png'
+00:21.804  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:21.804  render           | Rendering frame 49
+00:21.804  render           | Start rendering: PRISM_Setup, ViewLayer
+00:21.804  render           | Engine: EEVEE
+00:21.812  render           | Fra: 49 | Rendering 1 / 32 samples
+00:21.862  render           | Fra: 49 | Rendering 25 / 32 samples
+00:21.868  render           | Fra: 49 | Rendering 32 / 32 samples
+00:22.220  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0049.png'
+00:22.220  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:22.220  render           | Rendering frame 50
+00:22.220  render           | Start rendering: PRISM_Setup, ViewLayer
+00:22.220  render           | Engine: EEVEE
+00:22.227  render           | Fra: 50 | Rendering 1 / 32 samples
+00:22.280  render           | Fra: 50 | Rendering 25 / 32 samples
+00:22.322  render           | Fra: 50 | Rendering 32 / 32 samples
+00:22.636  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0050.png'
+00:22.636  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:22.636  render           | Rendering frame 51
+00:22.636  render           | Start rendering: PRISM_Setup, ViewLayer
+00:22.636  render           | Engine: EEVEE
+00:22.643  render           | Fra: 51 | Rendering 1 / 32 samples
+00:22.692  render           | Fra: 51 | Rendering 25 / 32 samples
+00:22.698  render           | Fra: 51 | Rendering 32 / 32 samples
+00:23.056  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0051.png'
+00:23.056  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:23.056  render           | Rendering frame 52
+00:23.056  render           | Start rendering: PRISM_Setup, ViewLayer
+00:23.056  render           | Engine: EEVEE
+00:23.063  render           | Fra: 52 | Rendering 1 / 32 samples
+00:23.117  render           | Fra: 52 | Rendering 25 / 32 samples
+00:23.151  render           | Fra: 52 | Rendering 32 / 32 samples
+00:23.472  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0052.png'
+00:23.472  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:23.472  render           | Rendering frame 53
+00:23.472  render           | Start rendering: PRISM_Setup, ViewLayer
+00:23.472  render           | Engine: EEVEE
+00:23.485  render           | Fra: 53 | Rendering 1 / 32 samples
+00:23.529  render           | Fra: 53 | Rendering 25 / 32 samples
+00:23.535  render           | Fra: 53 | Rendering 32 / 32 samples
+00:23.888  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0053.png'
+00:23.888  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:23.888  render           | Rendering frame 54
+00:23.888  render           | Start rendering: PRISM_Setup, ViewLayer
+00:23.888  render           | Engine: EEVEE
+00:23.895  render           | Fra: 54 | Rendering 1 / 32 samples
+00:23.948  render           | Fra: 54 | Rendering 25 / 32 samples
+00:23.983  render           | Fra: 54 | Rendering 32 / 32 samples
+00:24.312  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0054.png'
+00:24.313  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:24.313  render           | Rendering frame 55
+00:24.313  render           | Start rendering: PRISM_Setup, ViewLayer
+00:24.313  render           | Engine: EEVEE
+00:24.322  render           | Fra: 55 | Rendering 1 / 32 samples
+00:24.372  render           | Fra: 55 | Rendering 25 / 32 samples
+00:24.378  render           | Fra: 55 | Rendering 32 / 32 samples
+00:24.733  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0055.png'
+00:24.733  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:24.733  render           | Rendering frame 56
+00:24.733  render           | Start rendering: PRISM_Setup, ViewLayer
+00:24.733  render           | Engine: EEVEE
+00:24.745  render           | Fra: 56 | Rendering 1 / 32 samples
+00:24.798  render           | Fra: 56 | Rendering 25 / 32 samples
+00:24.831  render           | Fra: 56 | Rendering 32 / 32 samples
+00:25.157  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0056.png'
+00:25.157  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:25.157  render           | Rendering frame 57
+00:25.158  render           | Start rendering: PRISM_Setup, ViewLayer
+00:25.158  render           | Engine: EEVEE
+00:25.165  render           | Fra: 57 | Rendering 1 / 32 samples
+00:25.213  render           | Fra: 57 | Rendering 25 / 32 samples
+00:25.219  render           | Fra: 57 | Rendering 32 / 32 samples
+00:25.576  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0057.png'
+00:25.576  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:25.576  render           | Rendering frame 58
+00:25.576  render           | Start rendering: PRISM_Setup, ViewLayer
+00:25.576  render           | Engine: EEVEE
+00:25.584  render           | Fra: 58 | Rendering 1 / 32 samples
+00:25.636  render           | Fra: 58 | Rendering 25 / 32 samples
+00:25.672  render           | Fra: 58 | Rendering 32 / 32 samples
+00:25.990  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0058.png'
+00:25.990  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:25.990  render           | Rendering frame 59
+00:25.990  render           | Start rendering: PRISM_Setup, ViewLayer
+00:25.990  render           | Engine: EEVEE
+00:25.998  render           | Fra: 59 | Rendering 1 / 32 samples
+00:26.046  render           | Fra: 59 | Rendering 25 / 32 samples
+00:26.052  render           | Fra: 59 | Rendering 32 / 32 samples
+00:26.406  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0059.png'
+00:26.406  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:26.406  render           | Rendering frame 60
+00:26.406  render           | Start rendering: PRISM_Setup, ViewLayer
+00:26.406  render           | Engine: EEVEE
+00:26.414  render           | Fra: 60 | Rendering 1 / 32 samples
+00:26.467  render           | Fra: 60 | Rendering 25 / 32 samples
+00:26.509  render           | Fra: 60 | Rendering 32 / 32 samples
+00:26.822  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0060.png'
+00:26.822  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:26.822  render           | Rendering frame 61
+00:26.822  render           | Start rendering: PRISM_Setup, ViewLayer
+00:26.822  render           | Engine: EEVEE
+00:26.830  render           | Fra: 61 | Rendering 1 / 32 samples
+00:26.880  render           | Fra: 61 | Rendering 25 / 32 samples
+00:26.886  render           | Fra: 61 | Rendering 32 / 32 samples
+00:27.244  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0061.png'
+00:27.244  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:27.244  render           | Rendering frame 62
+00:27.244  render           | Start rendering: PRISM_Setup, ViewLayer
+00:27.244  render           | Engine: EEVEE
+00:27.252  render           | Fra: 62 | Rendering 1 / 32 samples
+00:27.304  render           | Fra: 62 | Rendering 25 / 32 samples
+00:27.337  render           | Fra: 62 | Rendering 32 / 32 samples
+00:27.657  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0062.png'
+00:27.657  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:27.658  render           | Rendering frame 63
+00:27.658  render           | Start rendering: PRISM_Setup, ViewLayer
+00:27.658  render           | Engine: EEVEE
+00:27.665  render           | Fra: 63 | Rendering 1 / 32 samples
+00:27.713  render           | Fra: 63 | Rendering 25 / 32 samples
+00:27.719  render           | Fra: 63 | Rendering 32 / 32 samples
+00:28.077  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0063.png'
+00:28.077  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:28.077  render           | Rendering frame 64
+00:28.077  render           | Start rendering: PRISM_Setup, ViewLayer
+00:28.077  render           | Engine: EEVEE
+00:28.084  render           | Fra: 64 | Rendering 1 / 32 samples
+00:28.137  render           | Fra: 64 | Rendering 25 / 32 samples
+00:28.171  render           | Fra: 64 | Rendering 32 / 32 samples
+00:28.493  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0064.png'
+00:28.493  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:28.493  render           | Rendering frame 65
+00:28.493  render           | Start rendering: PRISM_Setup, ViewLayer
+00:28.493  render           | Engine: EEVEE
+00:28.501  render           | Fra: 65 | Rendering 1 / 32 samples
+00:28.549  render           | Fra: 65 | Rendering 25 / 32 samples
+00:28.555  render           | Fra: 65 | Rendering 32 / 32 samples
+00:28.909  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0065.png'
+00:28.909  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:28.909  render           | Rendering frame 66
+00:28.909  render           | Start rendering: PRISM_Setup, ViewLayer
+00:28.909  render           | Engine: EEVEE
+00:28.916  render           | Fra: 66 | Rendering 1 / 32 samples
+00:28.969  render           | Fra: 66 | Rendering 25 / 32 samples
+00:29.003  render           | Fra: 66 | Rendering 32 / 32 samples
+00:29.329  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0066.png'
+00:29.329  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:29.329  render           | Rendering frame 67
+00:29.329  render           | Start rendering: PRISM_Setup, ViewLayer
+00:29.329  render           | Engine: EEVEE
+00:29.337  render           | Fra: 67 | Rendering 1 / 32 samples
+00:29.386  render           | Fra: 67 | Rendering 25 / 32 samples
+00:29.392  render           | Fra: 67 | Rendering 32 / 32 samples
+00:29.747  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0067.png'
+00:29.747  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:29.747  render           | Rendering frame 68
+00:29.748  render           | Start rendering: PRISM_Setup, ViewLayer
+00:29.748  render           | Engine: EEVEE
+00:29.754  render           | Fra: 68 | Rendering 1 / 32 samples
+00:29.807  render           | Fra: 68 | Rendering 25 / 32 samples
+00:29.843  render           | Fra: 68 | Rendering 32 / 32 samples
+00:30.168  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0068.png'
+00:30.168  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:30.168  render           | Rendering frame 69
+00:30.168  render           | Start rendering: PRISM_Setup, ViewLayer
+00:30.168  render           | Engine: EEVEE
+00:30.175  render           | Fra: 69 | Rendering 1 / 32 samples
+00:30.224  render           | Fra: 69 | Rendering 25 / 32 samples
+00:30.230  render           | Fra: 69 | Rendering 32 / 32 samples
+00:30.585  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0069.png'
+00:30.585  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:30.585  render           | Rendering frame 70
+00:30.585  render           | Start rendering: PRISM_Setup, ViewLayer
+00:30.585  render           | Engine: EEVEE
+00:30.593  render           | Fra: 70 | Rendering 1 / 32 samples
+00:30.648  render           | Fra: 70 | Rendering 25 / 32 samples
+00:30.691  render           | Fra: 70 | Rendering 32 / 32 samples
+00:31.006  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0070.png'
+00:31.006  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:31.006  render           | Rendering frame 71
+00:31.006  render           | Start rendering: PRISM_Setup, ViewLayer
+00:31.006  render           | Engine: EEVEE
+00:31.013  render           | Fra: 71 | Rendering 1 / 32 samples
+00:31.062  render           | Fra: 71 | Rendering 25 / 32 samples
+00:31.068  render           | Fra: 71 | Rendering 32 / 32 samples
+00:31.421  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0071.png'
+00:31.421  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:31.421  render           | Rendering frame 72
+00:31.421  render           | Start rendering: PRISM_Setup, ViewLayer
+00:31.421  render           | Engine: EEVEE
+00:31.428  render           | Fra: 72 | Rendering 1 / 32 samples
+00:31.480  render           | Fra: 72 | Rendering 25 / 32 samples
+00:31.514  render           | Fra: 72 | Rendering 32 / 32 samples
+00:31.835  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0072.png'
+00:31.835  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:31.835  render           | Rendering frame 73
+00:31.835  render           | Start rendering: PRISM_Setup, ViewLayer
+00:31.835  render           | Engine: EEVEE
+00:31.843  render           | Fra: 73 | Rendering 1 / 32 samples
+00:31.893  render           | Fra: 73 | Rendering 25 / 32 samples
+00:31.899  render           | Fra: 73 | Rendering 32 / 32 samples
+00:32.256  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0073.png'
+00:32.256  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:32.256  render           | Rendering frame 74
+00:32.256  render           | Start rendering: PRISM_Setup, ViewLayer
+00:32.256  render           | Engine: EEVEE
+00:32.264  render           | Fra: 74 | Rendering 1 / 32 samples
+00:32.316  render           | Fra: 74 | Rendering 25 / 32 samples
+00:32.350  render           | Fra: 74 | Rendering 32 / 32 samples
+00:32.672  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0074.png'
+00:32.672  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:32.672  render           | Rendering frame 75
+00:32.672  render           | Start rendering: PRISM_Setup, ViewLayer
+00:32.672  render           | Engine: EEVEE
+00:32.680  render           | Fra: 75 | Rendering 1 / 32 samples
+00:32.729  render           | Fra: 75 | Rendering 25 / 32 samples
+00:32.735  render           | Fra: 75 | Rendering 32 / 32 samples
+00:33.091  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0075.png'
+00:33.091  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:33.091  render           | Rendering frame 76
+00:33.091  render           | Start rendering: PRISM_Setup, ViewLayer
+00:33.091  render           | Engine: EEVEE
+00:33.101  render           | Fra: 76 | Rendering 1 / 32 samples
+00:33.155  render           | Fra: 76 | Rendering 25 / 32 samples
+00:33.206  render           | Fra: 76 | Rendering 32 / 32 samples
+00:33.518  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0076.png'
+00:33.518  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:33.518  render           | Rendering frame 77
+00:33.518  render           | Start rendering: PRISM_Setup, ViewLayer
+00:33.518  render           | Engine: EEVEE
+00:33.525  render           | Fra: 77 | Rendering 1 / 32 samples
+00:33.574  render           | Fra: 77 | Rendering 25 / 32 samples
+00:33.580  render           | Fra: 77 | Rendering 32 / 32 samples
+00:33.933  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0077.png'
+00:33.933  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:33.933  render           | Rendering frame 78
+00:33.933  render           | Start rendering: PRISM_Setup, ViewLayer
+00:33.933  render           | Engine: EEVEE
+00:33.940  render           | Fra: 78 | Rendering 1 / 32 samples
+00:33.993  render           | Fra: 78 | Rendering 25 / 32 samples
+00:34.036  render           | Fra: 78 | Rendering 32 / 32 samples
+00:34.350  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0078.png'
+00:34.350  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:34.350  render           | Rendering frame 79
+00:34.350  render           | Start rendering: PRISM_Setup, ViewLayer
+00:34.350  render           | Engine: EEVEE
+00:34.358  render           | Fra: 79 | Rendering 1 / 32 samples
+00:34.411  render           | Fra: 79 | Rendering 25 / 32 samples
+00:34.455  render           | Fra: 79 | Rendering 32 / 32 samples
+00:34.769  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0079.png'
+00:34.769  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:34.769  render           | Rendering frame 80
+00:34.769  render           | Start rendering: PRISM_Setup, ViewLayer
+00:34.769  render           | Engine: EEVEE
+00:34.776  render           | Fra: 80 | Rendering 1 / 32 samples
+00:34.830  render           | Fra: 80 | Rendering 25 / 32 samples
+00:34.872  render           | Fra: 80 | Rendering 32 / 32 samples
+00:35.186  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0080.png'
+00:35.186  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:35.186  render           | Rendering frame 81
+00:35.187  render           | Start rendering: PRISM_Setup, ViewLayer
+00:35.187  render           | Engine: EEVEE
+00:35.196  render           | Fra: 81 | Rendering 1 / 32 samples
+00:35.250  render           | Fra: 81 | Rendering 25 / 32 samples
+00:35.300  render           | Fra: 81 | Rendering 32 / 32 samples
+00:35.612  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0081.png'
+00:35.612  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:35.612  render           | Rendering frame 82
+00:35.612  render           | Start rendering: PRISM_Setup, ViewLayer
+00:35.612  render           | Engine: EEVEE
+00:35.619  render           | Fra: 82 | Rendering 1 / 32 samples
+00:35.668  render           | Fra: 82 | Rendering 25 / 32 samples
+00:35.674  render           | Fra: 82 | Rendering 32 / 32 samples
+00:36.030  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0082.png'
+00:36.030  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:36.030  render           | Rendering frame 83
+00:36.030  render           | Start rendering: PRISM_Setup, ViewLayer
+00:36.030  render           | Engine: EEVEE
+00:36.037  render           | Fra: 83 | Rendering 1 / 32 samples
+00:36.090  render           | Fra: 83 | Rendering 25 / 32 samples
+00:36.141  render           | Fra: 83 | Rendering 32 / 32 samples
+00:36.447  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0083.png'
+00:36.447  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:36.447  render           | Rendering frame 84
+00:36.447  render           | Start rendering: PRISM_Setup, ViewLayer
+00:36.447  render           | Engine: EEVEE
+00:36.455  render           | Fra: 84 | Rendering 1 / 32 samples
+00:36.508  render           | Fra: 84 | Rendering 25 / 32 samples
+00:36.550  render           | Fra: 84 | Rendering 32 / 32 samples
+00:36.866  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0084.png'
+00:36.866  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:36.866  render           | Rendering frame 85
+00:36.866  render           | Start rendering: PRISM_Setup, ViewLayer
+00:36.866  render           | Engine: EEVEE
+00:36.874  render           | Fra: 85 | Rendering 1 / 32 samples
+00:36.927  render           | Fra: 85 | Rendering 25 / 32 samples
+00:36.979  render           | Fra: 85 | Rendering 32 / 32 samples
+00:37.288  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0085.png'
+00:37.288  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:37.288  render           | Rendering frame 86
+00:37.288  render           | Start rendering: PRISM_Setup, ViewLayer
+00:37.288  render           | Engine: EEVEE
+00:37.295  render           | Fra: 86 | Rendering 1 / 32 samples
+00:37.349  render           | Fra: 86 | Rendering 25 / 32 samples
+00:37.393  render           | Fra: 86 | Rendering 32 / 32 samples
+00:37.712  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0086.png'
+00:37.712  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:37.712  render           | Rendering frame 87
+00:37.712  render           | Start rendering: PRISM_Setup, ViewLayer
+00:37.712  render           | Engine: EEVEE
+00:37.720  render           | Fra: 87 | Rendering 1 / 32 samples
+00:37.769  render           | Fra: 87 | Rendering 25 / 32 samples
+00:37.775  render           | Fra: 87 | Rendering 32 / 32 samples
+00:38.132  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0087.png'
+00:38.132  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:38.132  render           | Rendering frame 88
+00:38.132  render           | Start rendering: PRISM_Setup, ViewLayer
+00:38.132  render           | Engine: EEVEE
+00:38.140  render           | Fra: 88 | Rendering 1 / 32 samples
+00:38.197  render           | Fra: 88 | Rendering 25 / 32 samples
+00:38.239  render           | Fra: 88 | Rendering 32 / 32 samples
+00:38.552  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0088.png'
+00:38.552  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:38.552  render           | Rendering frame 89
+00:38.552  render           | Start rendering: PRISM_Setup, ViewLayer
+00:38.552  render           | Engine: EEVEE
+00:38.559  render           | Fra: 89 | Rendering 1 / 32 samples
+00:38.612  render           | Fra: 89 | Rendering 25 / 32 samples
+00:38.655  render           | Fra: 89 | Rendering 32 / 32 samples
+00:38.976  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0089.png'
+00:38.976  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:38.976  render           | Rendering frame 90
+00:38.976  render           | Start rendering: PRISM_Setup, ViewLayer
+00:38.976  render           | Engine: EEVEE
+00:38.984  render           | Fra: 90 | Rendering 1 / 32 samples
+00:39.037  render           | Fra: 90 | Rendering 25 / 32 samples
+00:39.085  render           | Fra: 90 | Rendering 32 / 32 samples
+00:39.408  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0090.png'
+00:39.408  render           | Time: 00:00.43 (Saving: 00:00.08)
+00:39.408  render           | Rendering frame 91
+00:39.408  render           | Start rendering: PRISM_Setup, ViewLayer
+00:39.408  render           | Engine: EEVEE
+00:39.418  render           | Fra: 91 | Rendering 1 / 32 samples
+00:39.472  render           | Fra: 91 | Rendering 25 / 32 samples
+00:39.513  render           | Fra: 91 | Rendering 32 / 32 samples
+00:39.830  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0091.png'
+00:39.830  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:39.830  render           | Rendering frame 92
+00:39.830  render           | Start rendering: PRISM_Setup, ViewLayer
+00:39.830  render           | Engine: EEVEE
+00:39.838  render           | Fra: 92 | Rendering 1 / 32 samples
+00:39.887  render           | Fra: 92 | Rendering 25 / 32 samples
+00:39.893  render           | Fra: 92 | Rendering 32 / 32 samples
+00:40.266  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0092.png'
+00:40.266  render           | Time: 00:00.43 (Saving: 00:00.09)
+00:40.266  render           | Rendering frame 93
+00:40.266  render           | Start rendering: PRISM_Setup, ViewLayer
+00:40.266  render           | Engine: EEVEE
+00:40.277  render           | Fra: 93 | Rendering 1 / 32 samples
+00:40.332  render           | Fra: 93 | Rendering 25 / 32 samples
+00:40.373  render           | Fra: 93 | Rendering 32 / 32 samples
+00:40.694  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0093.png'
+00:40.694  render           | Time: 00:00.42 (Saving: 00:00.09)
+00:40.694  render           | Rendering frame 94
+00:40.694  render           | Start rendering: PRISM_Setup, ViewLayer
+00:40.694  render           | Engine: EEVEE
+00:40.705  render           | Fra: 94 | Rendering 1 / 32 samples
+00:40.760  render           | Fra: 94 | Rendering 25 / 32 samples
+00:40.808  render           | Fra: 94 | Rendering 32 / 32 samples
+00:41.122  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0094.png'
+00:41.122  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:41.122  render           | Rendering frame 95
+00:41.122  render           | Start rendering: PRISM_Setup, ViewLayer
+00:41.122  render           | Engine: EEVEE
+00:41.132  render           | Fra: 95 | Rendering 1 / 32 samples
+00:41.201  render           | Fra: 95 | Rendering 25 / 32 samples
+00:41.257  render           | Fra: 95 | Rendering 32 / 32 samples
+00:41.581  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0095.png'
+00:41.581  render           | Time: 00:00.45 (Saving: 00:00.07)
+00:41.581  render           | Rendering frame 96
+00:41.581  render           | Start rendering: PRISM_Setup, ViewLayer
+00:41.581  render           | Engine: EEVEE
+00:41.590  render           | Fra: 96 | Rendering 1 / 32 samples
+00:41.647  render           | Fra: 96 | Rendering 25 / 32 samples
+00:41.714  render           | Fra: 96 | Rendering 32 / 32 samples
+00:42.058  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0096.png'
+00:42.058  render           | Time: 00:00.47 (Saving: 00:00.08)
+00:42.058  render           | Rendering frame 97
+00:42.058  render           | Start rendering: PRISM_Setup, ViewLayer
+00:42.058  render           | Engine: EEVEE
+00:42.069  render           | Fra: 97 | Rendering 1 / 32 samples
+00:42.123  render           | Fra: 97 | Rendering 25 / 32 samples
+00:42.130  render           | Fra: 97 | Rendering 32 / 32 samples
+00:42.497  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0097.png'
+00:42.497  render           | Time: 00:00.43 (Saving: 00:00.07)
+00:42.497  render           | Rendering frame 98
+00:42.497  render           | Start rendering: PRISM_Setup, ViewLayer
+00:42.497  render           | Engine: EEVEE
+00:42.507  render           | Fra: 98 | Rendering 1 / 32 samples
+00:42.663  render           | Fra: 98 | Rendering 25 / 32 samples
+00:42.706  render           | Fra: 98 | Rendering 32 / 32 samples
+00:43.038  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0098.png'
+00:43.038  render           | Time: 00:00.54 (Saving: 00:00.07)
+00:43.038  render           | Rendering frame 99
+00:43.038  render           | Start rendering: PRISM_Setup, ViewLayer
+00:43.038  render           | Engine: EEVEE
+00:43.061  render           | Fra: 99 | Rendering 1 / 32 samples
+00:43.105  render           | Fra: 99 | Rendering 25 / 32 samples
+00:43.148  render           | Fra: 99 | Rendering 32 / 32 samples
+00:43.464  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0099.png'
+00:43.464  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:43.464  render           | Rendering frame 100
+00:43.464  render           | Start rendering: PRISM_Setup, ViewLayer
+00:43.464  render           | Engine: EEVEE
+00:43.471  render           | Fra: 100 | Rendering 1 / 32 samples
+00:43.524  render           | Fra: 100 | Rendering 25 / 32 samples
+00:43.566  render           | Fra: 100 | Rendering 32 / 32 samples
+00:43.883  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0100.png'
+00:43.883  render           | Time: 00:00.41 (Saving: 00:00.08)
+00:43.883  render           | Rendering frame 101
+00:43.883  render           | Start rendering: PRISM_Setup, ViewLayer
+00:43.883  render           | Engine: EEVEE
+00:43.892  render           | Fra: 101 | Rendering 1 / 32 samples
+00:43.944  render           | Fra: 101 | Rendering 25 / 32 samples
+00:43.995  render           | Fra: 101 | Rendering 32 / 32 samples
+00:44.317  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0101.png'
+00:44.317  render           | Time: 00:00.43 (Saving: 00:00.08)
+00:44.317  render           | Rendering frame 102
+00:44.317  render           | Start rendering: PRISM_Setup, ViewLayer
+00:44.317  render           | Engine: EEVEE
+00:44.327  render           | Fra: 102 | Rendering 1 / 32 samples
+00:44.378  render           | Fra: 102 | Rendering 25 / 32 samples
+00:44.383  render           | Fra: 102 | Rendering 32 / 32 samples
+00:44.739  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0102.png'
+00:44.739  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:44.740  render           | Rendering frame 103
+00:44.740  render           | Start rendering: PRISM_Setup, ViewLayer
+00:44.740  render           | Engine: EEVEE
+00:44.748  render           | Fra: 103 | Rendering 1 / 32 samples
+00:44.800  render           | Fra: 103 | Rendering 25 / 32 samples
+00:44.851  render           | Fra: 103 | Rendering 32 / 32 samples
+00:45.160  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0103.png'
+00:45.160  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:45.160  render           | Rendering frame 104
+00:45.160  render           | Start rendering: PRISM_Setup, ViewLayer
+00:45.160  render           | Engine: EEVEE
+00:45.167  render           | Fra: 104 | Rendering 1 / 32 samples
+00:45.220  render           | Fra: 104 | Rendering 25 / 32 samples
+00:45.262  render           | Fra: 104 | Rendering 32 / 32 samples
+00:45.584  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0104.png'
+00:45.584  render           | Time: 00:00.42 (Saving: 00:00.08)
+00:45.584  render           | Rendering frame 105
+00:45.584  render           | Start rendering: PRISM_Setup, ViewLayer
+00:45.584  render           | Engine: EEVEE
+00:45.593  render           | Fra: 105 | Rendering 1 / 32 samples
+00:45.646  render           | Fra: 105 | Rendering 25 / 32 samples
+00:45.697  render           | Fra: 105 | Rendering 32 / 32 samples
+00:46.004  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0105.png'
+00:46.004  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:46.004  render           | Rendering frame 106
+00:46.004  render           | Start rendering: PRISM_Setup, ViewLayer
+00:46.004  render           | Engine: EEVEE
+00:46.015  render           | Fra: 106 | Rendering 1 / 32 samples
+00:46.064  render           | Fra: 106 | Rendering 25 / 32 samples
+00:46.107  render           | Fra: 106 | Rendering 32 / 32 samples
+00:46.426  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0106.png'
+00:46.426  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:46.426  render           | Rendering frame 107
+00:46.426  render           | Start rendering: PRISM_Setup, ViewLayer
+00:46.426  render           | Engine: EEVEE
+00:46.434  render           | Fra: 107 | Rendering 1 / 32 samples
+00:46.483  render           | Fra: 107 | Rendering 25 / 32 samples
+00:46.488  render           | Fra: 107 | Rendering 32 / 32 samples
+00:46.845  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0107.png'
+00:46.845  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:46.845  render           | Rendering frame 108
+00:46.845  render           | Start rendering: PRISM_Setup, ViewLayer
+00:46.845  render           | Engine: EEVEE
+00:46.853  render           | Fra: 108 | Rendering 1 / 32 samples
+00:46.906  render           | Fra: 108 | Rendering 25 / 32 samples
+00:46.949  render           | Fra: 108 | Rendering 32 / 32 samples
+00:47.261  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0108.png'
+00:47.261  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:47.261  render           | Rendering frame 109
+00:47.261  render           | Start rendering: PRISM_Setup, ViewLayer
+00:47.261  render           | Engine: EEVEE
+00:47.269  render           | Fra: 109 | Rendering 1 / 32 samples
+00:47.321  render           | Fra: 109 | Rendering 25 / 32 samples
+00:47.364  render           | Fra: 109 | Rendering 32 / 32 samples
+00:47.677  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0109.png'
+00:47.677  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:47.677  render           | Rendering frame 110
+00:47.677  render           | Start rendering: PRISM_Setup, ViewLayer
+00:47.677  render           | Engine: EEVEE
+00:47.688  render           | Fra: 110 | Rendering 1 / 32 samples
+00:47.737  render           | Fra: 110 | Rendering 25 / 32 samples
+00:47.784  render           | Fra: 110 | Rendering 32 / 32 samples
+00:48.096  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0110.png'
+00:48.096  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:48.096  render           | Rendering frame 111
+00:48.096  render           | Start rendering: PRISM_Setup, ViewLayer
+00:48.096  render           | Engine: EEVEE
+00:48.104  render           | Fra: 111 | Rendering 1 / 32 samples
+00:48.158  render           | Fra: 111 | Rendering 25 / 32 samples
+00:48.201  render           | Fra: 111 | Rendering 32 / 32 samples
+00:48.516  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0111.png'
+00:48.516  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:48.516  render           | Rendering frame 112
+00:48.516  render           | Start rendering: PRISM_Setup, ViewLayer
+00:48.516  render           | Engine: EEVEE
+00:48.523  render           | Fra: 112 | Rendering 1 / 32 samples
+00:48.572  render           | Fra: 112 | Rendering 25 / 32 samples
+00:48.578  render           | Fra: 112 | Rendering 32 / 32 samples
+00:48.931  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0112.png'
+00:48.931  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:48.931  render           | Rendering frame 113
+00:48.931  render           | Start rendering: PRISM_Setup, ViewLayer
+00:48.931  render           | Engine: EEVEE
+00:48.938  render           | Fra: 113 | Rendering 1 / 32 samples
+00:48.992  render           | Fra: 113 | Rendering 25 / 32 samples
+00:49.035  render           | Fra: 113 | Rendering 32 / 32 samples
+00:49.351  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0113.png'
+00:49.351  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:49.351  render           | Rendering frame 114
+00:49.351  render           | Start rendering: PRISM_Setup, ViewLayer
+00:49.351  render           | Engine: EEVEE
+00:49.359  render           | Fra: 114 | Rendering 1 / 32 samples
+00:49.413  render           | Fra: 114 | Rendering 25 / 32 samples
+00:49.464  render           | Fra: 114 | Rendering 32 / 32 samples
+00:49.775  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0114.png'
+00:49.775  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:49.775  render           | Rendering frame 115
+00:49.775  render           | Start rendering: PRISM_Setup, ViewLayer
+00:49.775  render           | Engine: EEVEE
+00:49.782  render           | Fra: 115 | Rendering 1 / 32 samples
+00:49.835  render           | Fra: 115 | Rendering 25 / 32 samples
+00:49.877  render           | Fra: 115 | Rendering 32 / 32 samples
+00:50.192  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0115.png'
+00:50.192  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:50.192  render           | Rendering frame 116
+00:50.192  render           | Start rendering: PRISM_Setup, ViewLayer
+00:50.192  render           | Engine: EEVEE
+00:50.200  render           | Fra: 116 | Rendering 1 / 32 samples
+00:50.252  render           | Fra: 116 | Rendering 25 / 32 samples
+00:50.303  render           | Fra: 116 | Rendering 32 / 32 samples
+00:50.613  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0116.png'
+00:50.613  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:50.613  render           | Rendering frame 117
+00:50.613  render           | Start rendering: PRISM_Setup, ViewLayer
+00:50.613  render           | Engine: EEVEE
+00:50.621  render           | Fra: 117 | Rendering 1 / 32 samples
+00:50.672  render           | Fra: 117 | Rendering 25 / 32 samples
+00:50.678  render           | Fra: 117 | Rendering 32 / 32 samples
+00:51.033  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0117.png'
+00:51.033  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:51.033  render           | Rendering frame 118
+00:51.033  render           | Start rendering: PRISM_Setup, ViewLayer
+00:51.033  render           | Engine: EEVEE
+00:51.041  render           | Fra: 118 | Rendering 1 / 32 samples
+00:51.094  render           | Fra: 118 | Rendering 25 / 32 samples
+00:51.136  render           | Fra: 118 | Rendering 32 / 32 samples
+00:51.452  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0118.png'
+00:51.452  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:51.452  render           | Rendering frame 119
+00:51.452  render           | Start rendering: PRISM_Setup, ViewLayer
+00:51.452  render           | Engine: EEVEE
+00:51.459  render           | Fra: 119 | Rendering 1 / 32 samples
+00:51.513  render           | Fra: 119 | Rendering 25 / 32 samples
+00:51.556  render           | Fra: 119 | Rendering 32 / 32 samples
+00:51.870  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0119.png'
+00:51.870  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:51.870  render           | Rendering frame 120
+00:51.870  render           | Start rendering: PRISM_Setup, ViewLayer
+00:51.870  render           | Engine: EEVEE
+00:51.878  render           | Fra: 120 | Rendering 1 / 32 samples
+00:51.931  render           | Fra: 120 | Rendering 25 / 32 samples
+00:51.973  render           | Fra: 120 | Rendering 32 / 32 samples
+00:52.287  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0120.png'
+00:52.287  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:52.287  render           | Rendering frame 121
+00:52.287  render           | Start rendering: PRISM_Setup, ViewLayer
+00:52.287  render           | Engine: EEVEE
+00:52.295  render           | Fra: 121 | Rendering 1 / 32 samples
+00:52.348  render           | Fra: 121 | Rendering 25 / 32 samples
+00:52.399  render           | Fra: 121 | Rendering 32 / 32 samples
+00:52.709  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0121.png'
+00:52.709  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:52.709  render           | Rendering frame 122
+00:52.709  render           | Start rendering: PRISM_Setup, ViewLayer
+00:52.709  render           | Engine: EEVEE
+00:52.716  render           | Fra: 122 | Rendering 1 / 32 samples
+00:52.765  render           | Fra: 122 | Rendering 25 / 32 samples
+00:52.771  render           | Fra: 122 | Rendering 32 / 32 samples
+00:53.133  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0122.png'
+00:53.133  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:53.133  render           | Rendering frame 123
+00:53.133  render           | Start rendering: PRISM_Setup, ViewLayer
+00:53.133  render           | Engine: EEVEE
+00:53.142  render           | Fra: 123 | Rendering 1 / 32 samples
+00:53.196  render           | Fra: 123 | Rendering 25 / 32 samples
+00:53.249  render           | Fra: 123 | Rendering 32 / 32 samples
+00:53.557  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0123.png'
+00:53.557  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:53.557  render           | Rendering frame 124
+00:53.557  render           | Start rendering: PRISM_Setup, ViewLayer
+00:53.557  render           | Engine: EEVEE
+00:53.565  render           | Fra: 124 | Rendering 1 / 32 samples
+00:53.620  render           | Fra: 124 | Rendering 25 / 32 samples
+00:53.662  render           | Fra: 124 | Rendering 32 / 32 samples
+00:53.980  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0124.png'
+00:53.980  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:53.980  render           | Rendering frame 125
+00:53.980  render           | Start rendering: PRISM_Setup, ViewLayer
+00:53.980  render           | Engine: EEVEE
+00:53.988  render           | Fra: 125 | Rendering 1 / 32 samples
+00:54.040  render           | Fra: 125 | Rendering 25 / 32 samples
+00:54.091  render           | Fra: 125 | Rendering 32 / 32 samples
+00:54.414  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0125.png'
+00:54.414  render           | Time: 00:00.43 (Saving: 00:00.09)
+00:54.414  render           | Rendering frame 126
+00:54.414  render           | Start rendering: PRISM_Setup, ViewLayer
+00:54.414  render           | Engine: EEVEE
+00:54.423  render           | Fra: 126 | Rendering 1 / 32 samples
+00:54.478  render           | Fra: 126 | Rendering 25 / 32 samples
+00:54.524  render           | Fra: 126 | Rendering 32 / 32 samples
+00:54.841  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0126.png'
+00:54.841  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:54.841  render           | Rendering frame 127
+00:54.841  render           | Start rendering: PRISM_Setup, ViewLayer
+00:54.841  render           | Engine: EEVEE
+00:54.849  render           | Fra: 127 | Rendering 1 / 32 samples
+00:54.898  render           | Fra: 127 | Rendering 25 / 32 samples
+00:54.904  render           | Fra: 127 | Rendering 32 / 32 samples
+00:55.258  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0127.png'
+00:55.258  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:55.258  render           | Rendering frame 128
+00:55.258  render           | Start rendering: PRISM_Setup, ViewLayer
+00:55.258  render           | Engine: EEVEE
+00:55.267  render           | Fra: 128 | Rendering 1 / 32 samples
+00:55.319  render           | Fra: 128 | Rendering 25 / 32 samples
+00:55.362  render           | Fra: 128 | Rendering 32 / 32 samples
+00:55.678  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0128.png'
+00:55.678  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:55.678  render           | Rendering frame 129
+00:55.678  render           | Start rendering: PRISM_Setup, ViewLayer
+00:55.678  render           | Engine: EEVEE
+00:55.687  render           | Fra: 129 | Rendering 1 / 32 samples
+00:55.741  render           | Fra: 129 | Rendering 25 / 32 samples
+00:55.783  render           | Fra: 129 | Rendering 32 / 32 samples
+00:56.104  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0129.png'
+00:56.104  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:56.104  render           | Rendering frame 130
+00:56.104  render           | Start rendering: PRISM_Setup, ViewLayer
+00:56.104  render           | Engine: EEVEE
+00:56.112  render           | Fra: 130 | Rendering 1 / 32 samples
+00:56.166  render           | Fra: 130 | Rendering 25 / 32 samples
+00:56.213  render           | Fra: 130 | Rendering 32 / 32 samples
+00:56.523  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0130.png'
+00:56.524  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:56.524  render           | Rendering frame 131
+00:56.524  render           | Start rendering: PRISM_Setup, ViewLayer
+00:56.524  render           | Engine: EEVEE
+00:56.531  render           | Fra: 131 | Rendering 1 / 32 samples
+00:56.584  render           | Fra: 131 | Rendering 25 / 32 samples
+00:56.626  render           | Fra: 131 | Rendering 32 / 32 samples
+00:56.941  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0131.png'
+00:56.941  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:56.941  render           | Rendering frame 132
+00:56.942  render           | Start rendering: PRISM_Setup, ViewLayer
+00:56.942  render           | Engine: EEVEE
+00:56.950  render           | Fra: 132 | Rendering 1 / 32 samples
+00:57.001  render           | Fra: 132 | Rendering 25 / 32 samples
+00:57.007  render           | Fra: 132 | Rendering 32 / 32 samples
+00:57.362  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0132.png'
+00:57.362  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:57.362  render           | Rendering frame 133
+00:57.362  render           | Start rendering: PRISM_Setup, ViewLayer
+00:57.362  render           | Engine: EEVEE
+00:57.370  render           | Fra: 133 | Rendering 1 / 32 samples
+00:57.422  render           | Fra: 133 | Rendering 25 / 32 samples
+00:57.464  render           | Fra: 133 | Rendering 32 / 32 samples
+00:57.780  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0133.png'
+00:57.780  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:57.780  render           | Rendering frame 134
+00:57.780  render           | Start rendering: PRISM_Setup, ViewLayer
+00:57.780  render           | Engine: EEVEE
+00:57.789  render           | Fra: 134 | Rendering 1 / 32 samples
+00:57.841  render           | Fra: 134 | Rendering 25 / 32 samples
+00:57.891  render           | Fra: 134 | Rendering 32 / 32 samples
+00:58.198  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0134.png'
+00:58.198  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:58.198  render           | Rendering frame 135
+00:58.198  render           | Start rendering: PRISM_Setup, ViewLayer
+00:58.198  render           | Engine: EEVEE
+00:58.206  render           | Fra: 135 | Rendering 1 / 32 samples
+00:58.260  render           | Fra: 135 | Rendering 25 / 32 samples
+00:58.303  render           | Fra: 135 | Rendering 32 / 32 samples
+00:58.619  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0135.png'
+00:58.619  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:58.619  render           | Rendering frame 136
+00:58.619  render           | Start rendering: PRISM_Setup, ViewLayer
+00:58.619  render           | Engine: EEVEE
+00:58.626  render           | Fra: 136 | Rendering 1 / 32 samples
+00:58.679  render           | Fra: 136 | Rendering 25 / 32 samples
+00:58.729  render           | Fra: 136 | Rendering 32 / 32 samples
+00:59.044  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0136.png'
+00:59.044  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:59.045  render           | Rendering frame 137
+00:59.045  render           | Start rendering: PRISM_Setup, ViewLayer
+00:59.045  render           | Engine: EEVEE
+00:59.052  render           | Fra: 137 | Rendering 1 / 32 samples
+00:59.101  render           | Fra: 137 | Rendering 25 / 32 samples
+00:59.107  render           | Fra: 137 | Rendering 32 / 32 samples
+00:59.461  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0137.png'
+00:59.461  render           | Time: 00:00.41 (Saving: 00:00.07)
+00:59.461  render           | Rendering frame 138
+00:59.461  render           | Start rendering: PRISM_Setup, ViewLayer
+00:59.461  render           | Engine: EEVEE
+00:59.470  render           | Fra: 138 | Rendering 1 / 32 samples
+00:59.525  render           | Fra: 138 | Rendering 25 / 32 samples
+00:59.567  render           | Fra: 138 | Rendering 32 / 32 samples
+00:59.883  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0138.png'
+00:59.883  render           | Time: 00:00.42 (Saving: 00:00.07)
+00:59.883  render           | Rendering frame 139
+00:59.883  render           | Start rendering: PRISM_Setup, ViewLayer
+00:59.883  render           | Engine: EEVEE
+00:59.891  render           | Fra: 139 | Rendering 1 / 32 samples
+00:59.943  render           | Fra: 139 | Rendering 25 / 32 samples
+00:59.987  render           | Fra: 139 | Rendering 32 / 32 samples
+01:00.303  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0139.png'
+01:00.303  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:00.303  render           | Rendering frame 140
+01:00.303  render           | Start rendering: PRISM_Setup, ViewLayer
+01:00.303  render           | Engine: EEVEE
+01:00.310  render           | Fra: 140 | Rendering 1 / 32 samples
+01:00.363  render           | Fra: 140 | Rendering 25 / 32 samples
+01:00.405  render           | Fra: 140 | Rendering 32 / 32 samples
+01:00.792  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0140.png'
+01:00.792  render           | Time: 00:00.48 (Saving: 00:00.14)
+01:00.792  render           | Rendering frame 141
+01:00.792  render           | Start rendering: PRISM_Setup, ViewLayer
+01:00.792  render           | Engine: EEVEE
+01:00.801  render           | Fra: 141 | Rendering 1 / 32 samples
+01:00.860  render           | Fra: 141 | Rendering 25 / 32 samples
+01:00.915  render           | Fra: 141 | Rendering 32 / 32 samples
+01:01.254  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0141.png'
+01:01.254  render           | Time: 00:00.46 (Saving: 00:00.08)
+01:01.254  render           | Rendering frame 142
+01:01.254  render           | Start rendering: PRISM_Setup, ViewLayer
+01:01.254  render           | Engine: EEVEE
+01:01.262  render           | Fra: 142 | Rendering 1 / 32 samples
+01:01.314  render           | Fra: 142 | Rendering 25 / 32 samples
+01:01.321  render           | Fra: 142 | Rendering 32 / 32 samples
+01:01.718  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0142.png'
+01:01.718  render           | Time: 00:00.46 (Saving: 00:00.08)
+01:01.718  render           | Rendering frame 143
+01:01.718  render           | Start rendering: PRISM_Setup, ViewLayer
+01:01.718  render           | Engine: EEVEE
+01:01.730  render           | Fra: 143 | Rendering 1 / 32 samples
+01:01.793  render           | Fra: 143 | Rendering 25 / 32 samples
+01:01.849  render           | Fra: 143 | Rendering 32 / 32 samples
+01:02.215  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0143.png'
+01:02.215  render           | Time: 00:00.49 (Saving: 00:00.10)
+01:02.215  render           | Rendering frame 144
+01:02.215  render           | Start rendering: PRISM_Setup, ViewLayer
+01:02.215  render           | Engine: EEVEE
+01:02.230  render           | Fra: 144 | Rendering 1 / 32 samples
+01:02.291  render           | Fra: 144 | Rendering 25 / 32 samples
+01:02.339  render           | Fra: 144 | Rendering 32 / 32 samples
+01:02.711  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0144.png'
+01:02.711  render           | Time: 00:00.49 (Saving: 00:00.10)
+01:02.711  render           | Rendering frame 145
+01:02.711  render           | Start rendering: PRISM_Setup, ViewLayer
+01:02.711  render           | Engine: EEVEE
+01:02.726  render           | Fra: 145 | Rendering 1 / 32 samples
+01:02.786  render           | Fra: 145 | Rendering 25 / 32 samples
+01:02.841  render           | Fra: 145 | Rendering 32 / 32 samples
+01:03.232  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0145.png'
+01:03.232  render           | Time: 00:00.52 (Saving: 00:00.12)
+01:03.232  render           | Rendering frame 146
+01:03.232  render           | Start rendering: PRISM_Setup, ViewLayer
+01:03.232  render           | Engine: EEVEE
+01:03.251  render           | Fra: 146 | Rendering 1 / 32 samples
+01:03.327  render           | Fra: 146 | Rendering 25 / 32 samples
+01:03.371  render           | Fra: 146 | Rendering 32 / 32 samples
+01:03.763  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0146.png'
+01:03.764  render           | Time: 00:00.53 (Saving: 00:00.12)
+01:03.764  render           | Rendering frame 147
+01:03.764  render           | Start rendering: PRISM_Setup, ViewLayer
+01:03.764  render           | Engine: EEVEE
+01:03.789  render           | Fra: 147 | Rendering 1 / 32 samples
+01:03.847  render           | Fra: 147 | Rendering 25 / 32 samples
+01:03.854  render           | Fra: 147 | Rendering 32 / 32 samples
+01:04.243  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0147.png'
+01:04.243  render           | Time: 00:00.47 (Saving: 00:00.08)
+01:04.243  render           | Rendering frame 148
+01:04.243  render           | Start rendering: PRISM_Setup, ViewLayer
+01:04.243  render           | Engine: EEVEE
+01:04.260  render           | Fra: 148 | Rendering 1 / 32 samples
+01:04.312  render           | Fra: 148 | Rendering 25 / 32 samples
+01:04.361  render           | Fra: 148 | Rendering 32 / 32 samples
+01:04.726  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0148.png'
+01:04.726  render           | Time: 00:00.48 (Saving: 00:00.09)
+01:04.726  render           | Rendering frame 149
+01:04.726  render           | Start rendering: PRISM_Setup, ViewLayer
+01:04.726  render           | Engine: EEVEE
+01:04.739  render           | Fra: 149 | Rendering 1 / 32 samples
+01:04.804  render           | Fra: 149 | Rendering 25 / 32 samples
+01:04.853  render           | Fra: 149 | Rendering 32 / 32 samples
+01:05.196  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0149.png'
+01:05.196  render           | Time: 00:00.47 (Saving: 00:00.08)
+01:05.196  render           | Rendering frame 150
+01:05.196  render           | Start rendering: PRISM_Setup, ViewLayer
+01:05.196  render           | Engine: EEVEE
+01:05.205  render           | Fra: 150 | Rendering 1 / 32 samples
+01:05.262  render           | Fra: 150 | Rendering 25 / 32 samples
+01:05.313  render           | Fra: 150 | Rendering 32 / 32 samples
+01:05.645  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0150.png'
+01:05.645  render           | Time: 00:00.44 (Saving: 00:00.08)
+01:05.645  render           | Rendering frame 151
+01:05.645  render           | Start rendering: PRISM_Setup, ViewLayer
+01:05.645  render           | Engine: EEVEE
+01:05.653  render           | Fra: 151 | Rendering 1 / 32 samples
+01:05.707  render           | Fra: 151 | Rendering 25 / 32 samples
+01:05.752  render           | Fra: 151 | Rendering 32 / 32 samples
+01:06.071  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0151.png'
+01:06.071  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:06.071  render           | Rendering frame 152
+01:06.071  render           | Start rendering: PRISM_Setup, ViewLayer
+01:06.071  render           | Engine: EEVEE
+01:06.079  render           | Fra: 152 | Rendering 1 / 32 samples
+01:06.128  render           | Fra: 152 | Rendering 25 / 32 samples
+01:06.134  render           | Fra: 152 | Rendering 32 / 32 samples
+01:06.492  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0152.png'
+01:06.492  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:06.492  render           | Rendering frame 153
+01:06.492  render           | Start rendering: PRISM_Setup, ViewLayer
+01:06.492  render           | Engine: EEVEE
+01:06.499  render           | Fra: 153 | Rendering 1 / 32 samples
+01:06.552  render           | Fra: 153 | Rendering 25 / 32 samples
+01:06.594  render           | Fra: 153 | Rendering 32 / 32 samples
+01:06.911  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0153.png'
+01:06.911  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:06.911  render           | Rendering frame 154
+01:06.911  render           | Start rendering: PRISM_Setup, ViewLayer
+01:06.911  render           | Engine: EEVEE
+01:06.925  render           | Fra: 154 | Rendering 1 / 32 samples
+01:06.976  render           | Fra: 154 | Rendering 25 / 32 samples
+01:07.027  render           | Fra: 154 | Rendering 32 / 32 samples
+01:07.341  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0154.png'
+01:07.341  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:07.341  render           | Rendering frame 155
+01:07.341  render           | Start rendering: PRISM_Setup, ViewLayer
+01:07.341  render           | Engine: EEVEE
+01:07.350  render           | Fra: 155 | Rendering 1 / 32 samples
+01:07.403  render           | Fra: 155 | Rendering 25 / 32 samples
+01:07.444  render           | Fra: 155 | Rendering 32 / 32 samples
+01:07.758  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0155.png'
+01:07.758  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:07.758  render           | Rendering frame 156
+01:07.758  render           | Start rendering: PRISM_Setup, ViewLayer
+01:07.758  render           | Engine: EEVEE
+01:07.768  render           | Fra: 156 | Rendering 1 / 32 samples
+01:07.821  render           | Fra: 156 | Rendering 25 / 32 samples
+01:07.873  render           | Fra: 156 | Rendering 32 / 32 samples
+01:08.181  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0156.png'
+01:08.181  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:08.181  render           | Rendering frame 157
+01:08.181  render           | Start rendering: PRISM_Setup, ViewLayer
+01:08.181  render           | Engine: EEVEE
+01:08.191  render           | Fra: 157 | Rendering 1 / 32 samples
+01:08.238  render           | Fra: 157 | Rendering 25 / 32 samples
+01:08.243  render           | Fra: 157 | Rendering 32 / 32 samples
+01:08.599  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0157.png'
+01:08.599  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:08.599  render           | Rendering frame 158
+01:08.599  render           | Start rendering: PRISM_Setup, ViewLayer
+01:08.599  render           | Engine: EEVEE
+01:08.607  render           | Fra: 158 | Rendering 1 / 32 samples
+01:08.660  render           | Fra: 158 | Rendering 25 / 32 samples
+01:08.702  render           | Fra: 158 | Rendering 32 / 32 samples
+01:09.021  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0158.png'
+01:09.021  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:09.021  render           | Rendering frame 159
+01:09.021  render           | Start rendering: PRISM_Setup, ViewLayer
+01:09.021  render           | Engine: EEVEE
+01:09.029  render           | Fra: 159 | Rendering 1 / 32 samples
+01:09.082  render           | Fra: 159 | Rendering 25 / 32 samples
+01:09.127  render           | Fra: 159 | Rendering 32 / 32 samples
+01:09.441  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0159.png'
+01:09.441  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:09.441  render           | Rendering frame 160
+01:09.441  render           | Start rendering: PRISM_Setup, ViewLayer
+01:09.441  render           | Engine: EEVEE
+01:09.449  render           | Fra: 160 | Rendering 1 / 32 samples
+01:09.502  render           | Fra: 160 | Rendering 25 / 32 samples
+01:09.544  render           | Fra: 160 | Rendering 32 / 32 samples
+01:09.862  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0160.png'
+01:09.863  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:09.863  render           | Rendering frame 161
+01:09.863  render           | Start rendering: PRISM_Setup, ViewLayer
+01:09.863  render           | Engine: EEVEE
+01:09.870  render           | Fra: 161 | Rendering 1 / 32 samples
+01:09.923  render           | Fra: 161 | Rendering 25 / 32 samples
+01:09.974  render           | Fra: 161 | Rendering 32 / 32 samples
+01:10.283  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0161.png'
+01:10.283  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:10.283  render           | Rendering frame 162
+01:10.283  render           | Start rendering: PRISM_Setup, ViewLayer
+01:10.283  render           | Engine: EEVEE
+01:10.290  render           | Fra: 162 | Rendering 1 / 32 samples
+01:10.340  render           | Fra: 162 | Rendering 25 / 32 samples
+01:10.346  render           | Fra: 162 | Rendering 32 / 32 samples
+01:10.703  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0162.png'
+01:10.703  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:10.703  render           | Rendering frame 163
+01:10.703  render           | Start rendering: PRISM_Setup, ViewLayer
+01:10.703  render           | Engine: EEVEE
+01:10.716  render           | Fra: 163 | Rendering 1 / 32 samples
+01:10.769  render           | Fra: 163 | Rendering 25 / 32 samples
+01:10.819  render           | Fra: 163 | Rendering 32 / 32 samples
+01:11.130  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0163.png'
+01:11.130  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:11.130  render           | Rendering frame 164
+01:11.130  render           | Start rendering: PRISM_Setup, ViewLayer
+01:11.130  render           | Engine: EEVEE
+01:11.140  render           | Fra: 164 | Rendering 1 / 32 samples
+01:11.194  render           | Fra: 164 | Rendering 25 / 32 samples
+01:11.236  render           | Fra: 164 | Rendering 32 / 32 samples
+01:11.554  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0164.png'
+01:11.554  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:11.554  render           | Rendering frame 165
+01:11.554  render           | Start rendering: PRISM_Setup, ViewLayer
+01:11.554  render           | Engine: EEVEE
+01:11.562  render           | Fra: 165 | Rendering 1 / 32 samples
+01:11.616  render           | Fra: 165 | Rendering 25 / 32 samples
+01:11.668  render           | Fra: 165 | Rendering 32 / 32 samples
+01:11.976  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0165.png'
+01:11.976  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:11.976  render           | Rendering frame 166
+01:11.976  render           | Start rendering: PRISM_Setup, ViewLayer
+01:11.976  render           | Engine: EEVEE
+01:11.984  render           | Fra: 166 | Rendering 1 / 32 samples
+01:12.039  render           | Fra: 166 | Rendering 25 / 32 samples
+01:12.080  render           | Fra: 166 | Rendering 32 / 32 samples
+01:12.402  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0166.png'
+01:12.402  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:12.402  render           | Rendering frame 167
+01:12.402  render           | Start rendering: PRISM_Setup, ViewLayer
+01:12.402  render           | Engine: EEVEE
+01:12.410  render           | Fra: 167 | Rendering 1 / 32 samples
+01:12.459  render           | Fra: 167 | Rendering 25 / 32 samples
+01:12.464  render           | Fra: 167 | Rendering 32 / 32 samples
+01:12.820  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0167.png'
+01:12.820  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:12.820  render           | Rendering frame 168
+01:12.820  render           | Start rendering: PRISM_Setup, ViewLayer
+01:12.820  render           | Engine: EEVEE
+01:12.828  render           | Fra: 168 | Rendering 1 / 32 samples
+01:12.883  render           | Fra: 168 | Rendering 25 / 32 samples
+01:12.926  render           | Fra: 168 | Rendering 32 / 32 samples
+01:13.241  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0168.png'
+01:13.241  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:13.241  render           | Rendering frame 169
+01:13.241  render           | Start rendering: PRISM_Setup, ViewLayer
+01:13.241  render           | Engine: EEVEE
+01:13.251  render           | Fra: 169 | Rendering 1 / 32 samples
+01:13.303  render           | Fra: 169 | Rendering 25 / 32 samples
+01:13.344  render           | Fra: 169 | Rendering 32 / 32 samples
+01:13.661  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0169.png'
+01:13.661  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:13.661  render           | Rendering frame 170
+01:13.661  render           | Start rendering: PRISM_Setup, ViewLayer
+01:13.661  render           | Engine: EEVEE
+01:13.669  render           | Fra: 170 | Rendering 1 / 32 samples
+01:13.722  render           | Fra: 170 | Rendering 25 / 32 samples
+01:13.768  render           | Fra: 170 | Rendering 32 / 32 samples
+01:14.080  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0170.png'
+01:14.080  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:14.080  render           | Rendering frame 171
+01:14.080  render           | Start rendering: PRISM_Setup, ViewLayer
+01:14.080  render           | Engine: EEVEE
+01:14.088  render           | Fra: 171 | Rendering 1 / 32 samples
+01:14.141  render           | Fra: 171 | Rendering 25 / 32 samples
+01:14.183  render           | Fra: 171 | Rendering 32 / 32 samples
+01:14.500  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0171.png'
+01:14.500  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:14.500  render           | Rendering frame 172
+01:14.500  render           | Start rendering: PRISM_Setup, ViewLayer
+01:14.500  render           | Engine: EEVEE
+01:14.508  render           | Fra: 172 | Rendering 1 / 32 samples
+01:14.557  render           | Fra: 172 | Rendering 25 / 32 samples
+01:14.563  render           | Fra: 172 | Rendering 32 / 32 samples
+01:14.919  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0172.png'
+01:14.919  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:14.919  render           | Rendering frame 173
+01:14.919  render           | Start rendering: PRISM_Setup, ViewLayer
+01:14.919  render           | Engine: EEVEE
+01:14.927  render           | Fra: 173 | Rendering 1 / 32 samples
+01:14.980  render           | Fra: 173 | Rendering 25 / 32 samples
+01:15.023  render           | Fra: 173 | Rendering 32 / 32 samples
+01:15.345  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0173.png'
+01:15.345  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:15.345  render           | Rendering frame 174
+01:15.346  render           | Start rendering: PRISM_Setup, ViewLayer
+01:15.346  render           | Engine: EEVEE
+01:15.353  render           | Fra: 174 | Rendering 1 / 32 samples
+01:15.407  render           | Fra: 174 | Rendering 25 / 32 samples
+01:15.459  render           | Fra: 174 | Rendering 32 / 32 samples
+01:15.769  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0174.png'
+01:15.769  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:15.769  render           | Rendering frame 175
+01:15.769  render           | Start rendering: PRISM_Setup, ViewLayer
+01:15.769  render           | Engine: EEVEE
+01:15.776  render           | Fra: 175 | Rendering 1 / 32 samples
+01:15.829  render           | Fra: 175 | Rendering 25 / 32 samples
+01:15.871  render           | Fra: 175 | Rendering 32 / 32 samples
+01:16.196  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0175.png'
+01:16.196  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:16.196  render           | Rendering frame 176
+01:16.196  render           | Start rendering: PRISM_Setup, ViewLayer
+01:16.196  render           | Engine: EEVEE
+01:16.204  render           | Fra: 176 | Rendering 1 / 32 samples
+01:16.257  render           | Fra: 176 | Rendering 25 / 32 samples
+01:16.307  render           | Fra: 176 | Rendering 32 / 32 samples
+01:16.614  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0176.png'
+01:16.614  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:16.614  render           | Rendering frame 177
+01:16.614  render           | Start rendering: PRISM_Setup, ViewLayer
+01:16.614  render           | Engine: EEVEE
+01:16.622  render           | Fra: 177 | Rendering 1 / 32 samples
+01:16.672  render           | Fra: 177 | Rendering 25 / 32 samples
+01:16.677  render           | Fra: 177 | Rendering 32 / 32 samples
+01:17.030  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0177.png'
+01:17.030  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:17.030  render           | Rendering frame 178
+01:17.030  render           | Start rendering: PRISM_Setup, ViewLayer
+01:17.030  render           | Engine: EEVEE
+01:17.038  render           | Fra: 178 | Rendering 1 / 32 samples
+01:17.090  render           | Fra: 178 | Rendering 25 / 32 samples
+01:17.132  render           | Fra: 178 | Rendering 32 / 32 samples
+01:17.447  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0178.png'
+01:17.447  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:17.447  render           | Rendering frame 179
+01:17.447  render           | Start rendering: PRISM_Setup, ViewLayer
+01:17.447  render           | Engine: EEVEE
+01:17.455  render           | Fra: 179 | Rendering 1 / 32 samples
+01:17.508  render           | Fra: 179 | Rendering 25 / 32 samples
+01:17.550  render           | Fra: 179 | Rendering 32 / 32 samples
+01:17.863  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0179.png'
+01:17.863  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:17.863  render           | Rendering frame 180
+01:17.863  render           | Start rendering: PRISM_Setup, ViewLayer
+01:17.863  render           | Engine: EEVEE
+01:17.871  render           | Fra: 180 | Rendering 1 / 32 samples
+01:17.924  render           | Fra: 180 | Rendering 25 / 32 samples
+01:17.967  render           | Fra: 180 | Rendering 32 / 32 samples
+01:18.280  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0180.png'
+01:18.280  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:18.280  render           | Rendering frame 181
+01:18.280  render           | Start rendering: PRISM_Setup, ViewLayer
+01:18.280  render           | Engine: EEVEE
+01:18.288  render           | Fra: 181 | Rendering 1 / 32 samples
+01:18.341  render           | Fra: 181 | Rendering 25 / 32 samples
+01:18.390  render           | Fra: 181 | Rendering 32 / 32 samples
+01:18.694  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0181.png'
+01:18.694  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:18.694  render           | Rendering frame 182
+01:18.694  render           | Start rendering: PRISM_Setup, ViewLayer
+01:18.694  render           | Engine: EEVEE
+01:18.702  render           | Fra: 182 | Rendering 1 / 32 samples
+01:18.750  render           | Fra: 182 | Rendering 25 / 32 samples
+01:18.756  render           | Fra: 182 | Rendering 32 / 32 samples
+01:19.111  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0182.png'
+01:19.111  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:19.111  render           | Rendering frame 183
+01:19.111  render           | Start rendering: PRISM_Setup, ViewLayer
+01:19.111  render           | Engine: EEVEE
+01:19.119  render           | Fra: 183 | Rendering 1 / 32 samples
+01:19.173  render           | Fra: 183 | Rendering 25 / 32 samples
+01:19.224  render           | Fra: 183 | Rendering 32 / 32 samples
+01:19.532  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0183.png'
+01:19.532  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:19.532  render           | Rendering frame 184
+01:19.532  render           | Start rendering: PRISM_Setup, ViewLayer
+01:19.532  render           | Engine: EEVEE
+01:19.540  render           | Fra: 184 | Rendering 1 / 32 samples
+01:19.592  render           | Fra: 184 | Rendering 25 / 32 samples
+01:19.634  render           | Fra: 184 | Rendering 32 / 32 samples
+01:19.945  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0184.png'
+01:19.945  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:19.945  render           | Rendering frame 185
+01:19.946  render           | Start rendering: PRISM_Setup, ViewLayer
+01:19.946  render           | Engine: EEVEE
+01:19.953  render           | Fra: 185 | Rendering 1 / 32 samples
+01:20.006  render           | Fra: 185 | Rendering 25 / 32 samples
+01:20.056  render           | Fra: 185 | Rendering 32 / 32 samples
+01:20.364  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0185.png'
+01:20.364  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:20.364  render           | Rendering frame 186
+01:20.364  render           | Start rendering: PRISM_Setup, ViewLayer
+01:20.364  render           | Engine: EEVEE
+01:20.373  render           | Fra: 186 | Rendering 1 / 32 samples
+01:20.426  render           | Fra: 186 | Rendering 25 / 32 samples
+01:20.468  render           | Fra: 186 | Rendering 32 / 32 samples
+01:20.787  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0186.png'
+01:20.787  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:20.787  render           | Rendering frame 187
+01:20.787  render           | Start rendering: PRISM_Setup, ViewLayer
+01:20.787  render           | Engine: EEVEE
+01:20.798  render           | Fra: 187 | Rendering 1 / 32 samples
+01:20.847  render           | Fra: 187 | Rendering 25 / 32 samples
+01:20.853  render           | Fra: 187 | Rendering 32 / 32 samples
+01:21.210  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0187.png'
+01:21.210  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:21.210  render           | Rendering frame 188
+01:21.210  render           | Start rendering: PRISM_Setup, ViewLayer
+01:21.210  render           | Engine: EEVEE
+01:21.218  render           | Fra: 188 | Rendering 1 / 32 samples
+01:21.271  render           | Fra: 188 | Rendering 25 / 32 samples
+01:21.313  render           | Fra: 188 | Rendering 32 / 32 samples
+01:21.628  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0188.png'
+01:21.628  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:21.628  render           | Rendering frame 189
+01:21.628  render           | Start rendering: PRISM_Setup, ViewLayer
+01:21.628  render           | Engine: EEVEE
+01:21.637  render           | Fra: 189 | Rendering 1 / 32 samples
+01:21.690  render           | Fra: 189 | Rendering 25 / 32 samples
+01:21.732  render           | Fra: 189 | Rendering 32 / 32 samples
+01:22.050  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0189.png'
+01:22.050  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:22.050  render           | Rendering frame 190
+01:22.050  render           | Start rendering: PRISM_Setup, ViewLayer
+01:22.050  render           | Engine: EEVEE
+01:22.057  render           | Fra: 190 | Rendering 1 / 32 samples
+01:22.110  render           | Fra: 190 | Rendering 25 / 32 samples
+01:22.156  render           | Fra: 190 | Rendering 32 / 32 samples
+01:22.466  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0190.png'
+01:22.466  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:22.466  render           | Rendering frame 191
+01:22.466  render           | Start rendering: PRISM_Setup, ViewLayer
+01:22.466  render           | Engine: EEVEE
+01:22.474  render           | Fra: 191 | Rendering 1 / 32 samples
+01:22.527  render           | Fra: 191 | Rendering 25 / 32 samples
+01:22.568  render           | Fra: 191 | Rendering 32 / 32 samples
+01:22.883  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0191.png'
+01:22.883  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:22.883  render           | Rendering frame 192
+01:22.883  render           | Start rendering: PRISM_Setup, ViewLayer
+01:22.883  render           | Engine: EEVEE
+01:22.892  render           | Fra: 192 | Rendering 1 / 32 samples
+01:22.943  render           | Fra: 192 | Rendering 25 / 32 samples
+01:22.949  render           | Fra: 192 | Rendering 32 / 32 samples
+01:23.302  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0192.png'
+01:23.303  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:23.303  render           | Rendering frame 193
+01:23.303  render           | Start rendering: PRISM_Setup, ViewLayer
+01:23.303  render           | Engine: EEVEE
+01:23.310  render           | Fra: 193 | Rendering 1 / 32 samples
+01:23.363  render           | Fra: 193 | Rendering 25 / 32 samples
+01:23.404  render           | Fra: 193 | Rendering 32 / 32 samples
+01:23.719  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0193.png'
+01:23.719  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:23.719  render           | Rendering frame 194
+01:23.719  render           | Start rendering: PRISM_Setup, ViewLayer
+01:23.719  render           | Engine: EEVEE
+01:23.727  render           | Fra: 194 | Rendering 1 / 32 samples
+01:23.780  render           | Fra: 194 | Rendering 25 / 32 samples
+01:23.831  render           | Fra: 194 | Rendering 32 / 32 samples
+01:24.140  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0194.png'
+01:24.140  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:24.140  render           | Rendering frame 195
+01:24.141  render           | Start rendering: PRISM_Setup, ViewLayer
+01:24.141  render           | Engine: EEVEE
+01:24.148  render           | Fra: 195 | Rendering 1 / 32 samples
+01:24.202  render           | Fra: 195 | Rendering 25 / 32 samples
+01:24.244  render           | Fra: 195 | Rendering 32 / 32 samples
+01:24.565  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0195.png'
+01:24.565  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:24.565  render           | Rendering frame 196
+01:24.565  render           | Start rendering: PRISM_Setup, ViewLayer
+01:24.565  render           | Engine: EEVEE
+01:24.572  render           | Fra: 196 | Rendering 1 / 32 samples
+01:24.625  render           | Fra: 196 | Rendering 25 / 32 samples
+01:24.677  render           | Fra: 196 | Rendering 32 / 32 samples
+01:24.995  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0196.png'
+01:24.995  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:24.995  render           | Rendering frame 197
+01:24.995  render           | Start rendering: PRISM_Setup, ViewLayer
+01:24.995  render           | Engine: EEVEE
+01:25.003  render           | Fra: 197 | Rendering 1 / 32 samples
+01:25.057  render           | Fra: 197 | Rendering 25 / 32 samples
+01:25.064  render           | Fra: 197 | Rendering 32 / 32 samples
+01:25.427  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0197.png'
+01:25.427  render           | Time: 00:00.43 (Saving: 00:00.07)
+01:25.427  render           | Rendering frame 198
+01:25.427  render           | Start rendering: PRISM_Setup, ViewLayer
+01:25.427  render           | Engine: EEVEE
+01:25.435  render           | Fra: 198 | Rendering 1 / 32 samples
+01:25.488  render           | Fra: 198 | Rendering 25 / 32 samples
+01:25.532  render           | Fra: 198 | Rendering 32 / 32 samples
+01:25.854  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0198.png'
+01:25.854  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:25.854  render           | Rendering frame 199
+01:25.854  render           | Start rendering: PRISM_Setup, ViewLayer
+01:25.854  render           | Engine: EEVEE
+01:25.864  render           | Fra: 199 | Rendering 1 / 32 samples
+01:25.916  render           | Fra: 199 | Rendering 25 / 32 samples
+01:25.959  render           | Fra: 199 | Rendering 32 / 32 samples
+01:26.272  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0199.png'
+01:26.272  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:26.272  render           | Rendering frame 200
+01:26.272  render           | Start rendering: PRISM_Setup, ViewLayer
+01:26.272  render           | Engine: EEVEE
+01:26.280  render           | Fra: 200 | Rendering 1 / 32 samples
+01:26.332  render           | Fra: 200 | Rendering 25 / 32 samples
+01:26.374  render           | Fra: 200 | Rendering 32 / 32 samples
+01:26.689  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0200.png'
+01:26.689  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:26.689  render           | Rendering frame 201
+01:26.689  render           | Start rendering: PRISM_Setup, ViewLayer
+01:26.690  render           | Engine: EEVEE
+01:26.697  render           | Fra: 201 | Rendering 1 / 32 samples
+01:26.750  render           | Fra: 201 | Rendering 25 / 32 samples
+01:26.801  render           | Fra: 201 | Rendering 32 / 32 samples
+01:27.107  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0201.png'
+01:27.107  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:27.107  render           | Rendering frame 202
+01:27.107  render           | Start rendering: PRISM_Setup, ViewLayer
+01:27.107  render           | Engine: EEVEE
+01:27.115  render           | Fra: 202 | Rendering 1 / 32 samples
+01:27.164  render           | Fra: 202 | Rendering 25 / 32 samples
+01:27.169  render           | Fra: 202 | Rendering 32 / 32 samples
+01:27.522  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0202.png'
+01:27.522  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:27.522  render           | Rendering frame 203
+01:27.523  render           | Start rendering: PRISM_Setup, ViewLayer
+01:27.523  render           | Engine: EEVEE
+01:27.530  render           | Fra: 203 | Rendering 1 / 32 samples
+01:27.583  render           | Fra: 203 | Rendering 25 / 32 samples
+01:27.633  render           | Fra: 203 | Rendering 32 / 32 samples
+01:27.945  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0203.png'
+01:27.945  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:27.945  render           | Rendering frame 204
+01:27.945  render           | Start rendering: PRISM_Setup, ViewLayer
+01:27.945  render           | Engine: EEVEE
+01:27.953  render           | Fra: 204 | Rendering 1 / 32 samples
+01:28.007  render           | Fra: 204 | Rendering 25 / 32 samples
+01:28.049  render           | Fra: 204 | Rendering 32 / 32 samples
+01:28.363  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0204.png'
+01:28.363  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:28.363  render           | Rendering frame 205
+01:28.363  render           | Start rendering: PRISM_Setup, ViewLayer
+01:28.363  render           | Engine: EEVEE
+01:28.371  render           | Fra: 205 | Rendering 1 / 32 samples
+01:28.424  render           | Fra: 205 | Rendering 25 / 32 samples
+01:28.475  render           | Fra: 205 | Rendering 32 / 32 samples
+01:28.782  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0205.png'
+01:28.782  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:28.782  render           | Rendering frame 206
+01:28.782  render           | Start rendering: PRISM_Setup, ViewLayer
+01:28.782  render           | Engine: EEVEE
+01:28.790  render           | Fra: 206 | Rendering 1 / 32 samples
+01:28.842  render           | Fra: 206 | Rendering 25 / 32 samples
+01:28.886  render           | Fra: 206 | Rendering 32 / 32 samples
+01:29.201  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0206.png'
+01:29.201  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:29.202  render           | Rendering frame 207
+01:29.202  render           | Start rendering: PRISM_Setup, ViewLayer
+01:29.202  render           | Engine: EEVEE
+01:29.210  render           | Fra: 207 | Rendering 1 / 32 samples
+01:29.259  render           | Fra: 207 | Rendering 25 / 32 samples
+01:29.265  render           | Fra: 207 | Rendering 32 / 32 samples
+01:29.618  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0207.png'
+01:29.618  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:29.618  render           | Rendering frame 208
+01:29.618  render           | Start rendering: PRISM_Setup, ViewLayer
+01:29.618  render           | Engine: EEVEE
+01:29.626  render           | Fra: 208 | Rendering 1 / 32 samples
+01:29.679  render           | Fra: 208 | Rendering 25 / 32 samples
+01:29.722  render           | Fra: 208 | Rendering 32 / 32 samples
+01:30.040  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0208.png'
+01:30.040  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:30.040  render           | Rendering frame 209
+01:30.040  render           | Start rendering: PRISM_Setup, ViewLayer
+01:30.040  render           | Engine: EEVEE
+01:30.048  render           | Fra: 209 | Rendering 1 / 32 samples
+01:30.100  render           | Fra: 209 | Rendering 25 / 32 samples
+01:30.142  render           | Fra: 209 | Rendering 32 / 32 samples
+01:30.453  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0209.png'
+01:30.453  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:30.453  render           | Rendering frame 210
+01:30.453  render           | Start rendering: PRISM_Setup, ViewLayer
+01:30.453  render           | Engine: EEVEE
+01:30.462  render           | Fra: 210 | Rendering 1 / 32 samples
+01:30.515  render           | Fra: 210 | Rendering 25 / 32 samples
+01:30.563  render           | Fra: 210 | Rendering 32 / 32 samples
+01:30.875  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0210.png'
+01:30.875  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:30.875  render           | Rendering frame 211
+01:30.875  render           | Start rendering: PRISM_Setup, ViewLayer
+01:30.875  render           | Engine: EEVEE
+01:30.883  render           | Fra: 211 | Rendering 1 / 32 samples
+01:30.935  render           | Fra: 211 | Rendering 25 / 32 samples
+01:30.977  render           | Fra: 211 | Rendering 32 / 32 samples
+01:31.294  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0211.png'
+01:31.294  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:31.294  render           | Rendering frame 212
+01:31.294  render           | Start rendering: PRISM_Setup, ViewLayer
+01:31.294  render           | Engine: EEVEE
+01:31.301  render           | Fra: 212 | Rendering 1 / 32 samples
+01:31.350  render           | Fra: 212 | Rendering 25 / 32 samples
+01:31.356  render           | Fra: 212 | Rendering 32 / 32 samples
+01:31.710  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0212.png'
+01:31.710  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:31.710  render           | Rendering frame 213
+01:31.710  render           | Start rendering: PRISM_Setup, ViewLayer
+01:31.710  render           | Engine: EEVEE
+01:31.718  render           | Fra: 213 | Rendering 1 / 32 samples
+01:31.772  render           | Fra: 213 | Rendering 25 / 32 samples
+01:31.814  render           | Fra: 213 | Rendering 32 / 32 samples
+01:32.128  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0213.png'
+01:32.129  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:32.129  render           | Rendering frame 214
+01:32.129  render           | Start rendering: PRISM_Setup, ViewLayer
+01:32.129  render           | Engine: EEVEE
+01:32.136  render           | Fra: 214 | Rendering 1 / 32 samples
+01:32.189  render           | Fra: 214 | Rendering 25 / 32 samples
+01:32.240  render           | Fra: 214 | Rendering 32 / 32 samples
+01:32.545  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0214.png'
+01:32.545  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:32.545  render           | Rendering frame 215
+01:32.545  render           | Start rendering: PRISM_Setup, ViewLayer
+01:32.545  render           | Engine: EEVEE
+01:32.552  render           | Fra: 215 | Rendering 1 / 32 samples
+01:32.605  render           | Fra: 215 | Rendering 25 / 32 samples
+01:32.646  render           | Fra: 215 | Rendering 32 / 32 samples
+01:32.963  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0215.png'
+01:32.963  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:32.963  render           | Rendering frame 216
+01:32.963  render           | Start rendering: PRISM_Setup, ViewLayer
+01:32.963  render           | Engine: EEVEE
+01:32.970  render           | Fra: 216 | Rendering 1 / 32 samples
+01:33.023  render           | Fra: 216 | Rendering 25 / 32 samples
+01:33.075  render           | Fra: 216 | Rendering 32 / 32 samples
+01:33.386  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0216.png'
+01:33.386  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:33.386  render           | Rendering frame 217
+01:33.386  render           | Start rendering: PRISM_Setup, ViewLayer
+01:33.386  render           | Engine: EEVEE
+01:33.394  render           | Fra: 217 | Rendering 1 / 32 samples
+01:33.442  render           | Fra: 217 | Rendering 25 / 32 samples
+01:33.448  render           | Fra: 217 | Rendering 32 / 32 samples
+01:33.805  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0217.png'
+01:33.805  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:33.805  render           | Rendering frame 218
+01:33.805  render           | Start rendering: PRISM_Setup, ViewLayer
+01:33.805  render           | Engine: EEVEE
+01:33.812  render           | Fra: 218 | Rendering 1 / 32 samples
+01:33.865  render           | Fra: 218 | Rendering 25 / 32 samples
+01:33.907  render           | Fra: 218 | Rendering 32 / 32 samples
+01:34.221  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0218.png'
+01:34.221  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:34.221  render           | Rendering frame 219
+01:34.221  render           | Start rendering: PRISM_Setup, ViewLayer
+01:34.221  render           | Engine: EEVEE
+01:34.229  render           | Fra: 219 | Rendering 1 / 32 samples
+01:34.283  render           | Fra: 219 | Rendering 25 / 32 samples
+01:34.326  render           | Fra: 219 | Rendering 32 / 32 samples
+01:34.639  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0219.png'
+01:34.639  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:34.639  render           | Rendering frame 220
+01:34.639  render           | Start rendering: PRISM_Setup, ViewLayer
+01:34.639  render           | Engine: EEVEE
+01:34.646  render           | Fra: 220 | Rendering 1 / 32 samples
+01:34.699  render           | Fra: 220 | Rendering 25 / 32 samples
+01:34.741  render           | Fra: 220 | Rendering 32 / 32 samples
+01:35.054  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0220.png'
+01:35.054  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:35.054  render           | Rendering frame 221
+01:35.054  render           | Start rendering: PRISM_Setup, ViewLayer
+01:35.054  render           | Engine: EEVEE
+01:35.061  render           | Fra: 221 | Rendering 1 / 32 samples
+01:35.114  render           | Fra: 221 | Rendering 25 / 32 samples
+01:35.164  render           | Fra: 221 | Rendering 32 / 32 samples
+01:35.469  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0221.png'
+01:35.469  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:35.469  render           | Rendering frame 222
+01:35.469  render           | Start rendering: PRISM_Setup, ViewLayer
+01:35.469  render           | Engine: EEVEE
+01:35.477  render           | Fra: 222 | Rendering 1 / 32 samples
+01:35.527  render           | Fra: 222 | Rendering 25 / 32 samples
+01:35.534  render           | Fra: 222 | Rendering 32 / 32 samples
+01:35.888  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0222.png'
+01:35.888  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:35.888  render           | Rendering frame 223
+01:35.888  render           | Start rendering: PRISM_Setup, ViewLayer
+01:35.888  render           | Engine: EEVEE
+01:35.895  render           | Fra: 223 | Rendering 1 / 32 samples
+01:35.948  render           | Fra: 223 | Rendering 25 / 32 samples
+01:35.999  render           | Fra: 223 | Rendering 32 / 32 samples
+01:36.306  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0223.png'
+01:36.307  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:36.307  render           | Rendering frame 224
+01:36.307  render           | Start rendering: PRISM_Setup, ViewLayer
+01:36.307  render           | Engine: EEVEE
+01:36.318  render           | Fra: 224 | Rendering 1 / 32 samples
+01:36.371  render           | Fra: 224 | Rendering 25 / 32 samples
+01:36.414  render           | Fra: 224 | Rendering 32 / 32 samples
+01:36.744  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0224.png'
+01:36.744  render           | Time: 00:00.43 (Saving: 00:00.07)
+01:36.744  render           | Rendering frame 225
+01:36.744  render           | Start rendering: PRISM_Setup, ViewLayer
+01:36.744  render           | Engine: EEVEE
+01:36.754  render           | Fra: 225 | Rendering 1 / 32 samples
+01:36.809  render           | Fra: 225 | Rendering 25 / 32 samples
+01:36.860  render           | Fra: 225 | Rendering 32 / 32 samples
+01:37.176  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0225.png'
+01:37.176  render           | Time: 00:00.43 (Saving: 00:00.08)
+01:37.176  render           | Rendering frame 226
+01:37.176  render           | Start rendering: PRISM_Setup, ViewLayer
+01:37.176  render           | Engine: EEVEE
+01:37.185  render           | Fra: 226 | Rendering 1 / 32 samples
+01:37.240  render           | Fra: 226 | Rendering 25 / 32 samples
+01:37.283  render           | Fra: 226 | Rendering 32 / 32 samples
+01:37.599  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0226.png'
+01:37.599  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:37.599  render           | Rendering frame 227
+01:37.599  render           | Start rendering: PRISM_Setup, ViewLayer
+01:37.599  render           | Engine: EEVEE
+01:37.607  render           | Fra: 227 | Rendering 1 / 32 samples
+01:37.656  render           | Fra: 227 | Rendering 25 / 32 samples
+01:37.661  render           | Fra: 227 | Rendering 32 / 32 samples
+01:38.017  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0227.png'
+01:38.017  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:38.017  render           | Rendering frame 228
+01:38.017  render           | Start rendering: PRISM_Setup, ViewLayer
+01:38.017  render           | Engine: EEVEE
+01:38.025  render           | Fra: 228 | Rendering 1 / 32 samples
+01:38.079  render           | Fra: 228 | Rendering 25 / 32 samples
+01:38.123  render           | Fra: 228 | Rendering 32 / 32 samples
+01:38.439  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0228.png'
+01:38.439  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:38.439  render           | Rendering frame 229
+01:38.439  render           | Start rendering: PRISM_Setup, ViewLayer
+01:38.439  render           | Engine: EEVEE
+01:38.446  render           | Fra: 229 | Rendering 1 / 32 samples
+01:38.499  render           | Fra: 229 | Rendering 25 / 32 samples
+01:38.542  render           | Fra: 229 | Rendering 32 / 32 samples
+01:38.860  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0229.png'
+01:38.860  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:38.860  render           | Rendering frame 230
+01:38.860  render           | Start rendering: PRISM_Setup, ViewLayer
+01:38.860  render           | Engine: EEVEE
+01:38.868  render           | Fra: 230 | Rendering 1 / 32 samples
+01:38.921  render           | Fra: 230 | Rendering 25 / 32 samples
+01:38.967  render           | Fra: 230 | Rendering 32 / 32 samples
+01:39.281  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0230.png'
+01:39.281  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:39.281  render           | Rendering frame 231
+01:39.281  render           | Start rendering: PRISM_Setup, ViewLayer
+01:39.281  render           | Engine: EEVEE
+01:39.290  render           | Fra: 231 | Rendering 1 / 32 samples
+01:39.343  render           | Fra: 231 | Rendering 25 / 32 samples
+01:39.385  render           | Fra: 231 | Rendering 32 / 32 samples
+01:39.699  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0231.png'
+01:39.699  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:39.699  render           | Rendering frame 232
+01:39.699  render           | Start rendering: PRISM_Setup, ViewLayer
+01:39.699  render           | Engine: EEVEE
+01:39.706  render           | Fra: 232 | Rendering 1 / 32 samples
+01:39.755  render           | Fra: 232 | Rendering 25 / 32 samples
+01:39.761  render           | Fra: 232 | Rendering 32 / 32 samples
+01:40.116  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0232.png'
+01:40.116  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:40.116  render           | Rendering frame 233
+01:40.116  render           | Start rendering: PRISM_Setup, ViewLayer
+01:40.116  render           | Engine: EEVEE
+01:40.124  render           | Fra: 233 | Rendering 1 / 32 samples
+01:40.176  render           | Fra: 233 | Rendering 25 / 32 samples
+01:40.218  render           | Fra: 233 | Rendering 32 / 32 samples
+01:40.551  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0233.png'
+01:40.551  render           | Time: 00:00.43 (Saving: 00:00.09)
+01:40.551  render           | Rendering frame 234
+01:40.551  render           | Start rendering: PRISM_Setup, ViewLayer
+01:40.551  render           | Engine: EEVEE
+01:40.560  render           | Fra: 234 | Rendering 1 / 32 samples
+01:40.614  render           | Fra: 234 | Rendering 25 / 32 samples
+01:40.665  render           | Fra: 234 | Rendering 32 / 32 samples
+01:40.975  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0234.png'
+01:40.975  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:40.975  render           | Rendering frame 235
+01:40.975  render           | Start rendering: PRISM_Setup, ViewLayer
+01:40.975  render           | Engine: EEVEE
+01:40.982  render           | Fra: 235 | Rendering 1 / 32 samples
+01:41.035  render           | Fra: 235 | Rendering 25 / 32 samples
+01:41.076  render           | Fra: 235 | Rendering 32 / 32 samples
+01:41.391  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0235.png'
+01:41.391  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:41.391  render           | Rendering frame 236
+01:41.391  render           | Start rendering: PRISM_Setup, ViewLayer
+01:41.391  render           | Engine: EEVEE
+01:41.399  render           | Fra: 236 | Rendering 1 / 32 samples
+01:41.452  render           | Fra: 236 | Rendering 25 / 32 samples
+01:41.503  render           | Fra: 236 | Rendering 32 / 32 samples
+01:41.815  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0236.png'
+01:41.815  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:41.815  render           | Rendering frame 237
+01:41.815  render           | Start rendering: PRISM_Setup, ViewLayer
+01:41.815  render           | Engine: EEVEE
+01:41.824  render           | Fra: 237 | Rendering 1 / 32 samples
+01:41.873  render           | Fra: 237 | Rendering 25 / 32 samples
+01:41.879  render           | Fra: 237 | Rendering 32 / 32 samples
+01:42.236  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0237.png'
+01:42.236  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:42.236  render           | Rendering frame 238
+01:42.236  render           | Start rendering: PRISM_Setup, ViewLayer
+01:42.236  render           | Engine: EEVEE
+01:42.243  render           | Fra: 238 | Rendering 1 / 32 samples
+01:42.296  render           | Fra: 238 | Rendering 25 / 32 samples
+01:42.339  render           | Fra: 238 | Rendering 32 / 32 samples
+01:42.656  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0238.png'
+01:42.656  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:42.656  render           | Rendering frame 239
+01:42.656  render           | Start rendering: PRISM_Setup, ViewLayer
+01:42.656  render           | Engine: EEVEE
+01:42.663  render           | Fra: 239 | Rendering 1 / 32 samples
+01:42.716  render           | Fra: 239 | Rendering 25 / 32 samples
+01:42.759  render           | Fra: 239 | Rendering 32 / 32 samples
+01:43.072  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0239.png'
+01:43.072  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:43.072  render           | Rendering frame 240
+01:43.072  render           | Start rendering: PRISM_Setup, ViewLayer
+01:43.072  render           | Engine: EEVEE
+01:43.081  render           | Fra: 240 | Rendering 1 / 32 samples
+01:43.135  render           | Fra: 240 | Rendering 25 / 32 samples
+01:43.179  render           | Fra: 240 | Rendering 32 / 32 samples
+01:43.501  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0240.png'
+01:43.501  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:43.501  render           | Rendering frame 241
+01:43.501  render           | Start rendering: PRISM_Setup, ViewLayer
+01:43.501  render           | Engine: EEVEE
+01:43.509  render           | Fra: 241 | Rendering 1 / 32 samples
+01:43.567  render           | Fra: 241 | Rendering 25 / 32 samples
+01:43.617  render           | Fra: 241 | Rendering 32 / 32 samples
+01:43.939  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0241.png'
+01:43.939  render           | Time: 00:00.43 (Saving: 00:00.08)
+01:43.939  render           | Rendering frame 242
+01:43.939  render           | Start rendering: PRISM_Setup, ViewLayer
+01:43.939  render           | Engine: EEVEE
+01:43.947  render           | Fra: 242 | Rendering 1 / 32 samples
+01:43.999  render           | Fra: 242 | Rendering 25 / 32 samples
+01:44.005  render           | Fra: 242 | Rendering 32 / 32 samples
+01:44.389  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0242.png'
+01:44.389  render           | Time: 00:00.45 (Saving: 00:00.07)
+01:44.389  render           | Rendering frame 243
+01:44.389  render           | Start rendering: PRISM_Setup, ViewLayer
+01:44.389  render           | Engine: EEVEE
+01:44.397  render           | Fra: 243 | Rendering 1 / 32 samples
+01:44.450  render           | Fra: 243 | Rendering 25 / 32 samples
+01:44.502  render           | Fra: 243 | Rendering 32 / 32 samples
+01:44.810  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0243.png'
+01:44.810  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:44.810  render           | Rendering frame 244
+01:44.810  render           | Start rendering: PRISM_Setup, ViewLayer
+01:44.810  render           | Engine: EEVEE
+01:44.817  render           | Fra: 244 | Rendering 1 / 32 samples
+01:44.870  render           | Fra: 244 | Rendering 25 / 32 samples
+01:44.912  render           | Fra: 244 | Rendering 32 / 32 samples
+01:45.226  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0244.png'
+01:45.226  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:45.226  render           | Rendering frame 245
+01:45.226  render           | Start rendering: PRISM_Setup, ViewLayer
+01:45.226  render           | Engine: EEVEE
+01:45.233  render           | Fra: 245 | Rendering 1 / 32 samples
+01:45.286  render           | Fra: 245 | Rendering 25 / 32 samples
+01:45.337  render           | Fra: 245 | Rendering 32 / 32 samples
+01:45.644  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0245.png'
+01:45.644  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:45.644  render           | Rendering frame 246
+01:45.644  render           | Start rendering: PRISM_Setup, ViewLayer
+01:45.644  render           | Engine: EEVEE
+01:45.652  render           | Fra: 246 | Rendering 1 / 32 samples
+01:45.706  render           | Fra: 246 | Rendering 25 / 32 samples
+01:45.748  render           | Fra: 246 | Rendering 32 / 32 samples
+01:46.063  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0246.png'
+01:46.063  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:46.063  render           | Rendering frame 247
+01:46.063  render           | Start rendering: PRISM_Setup, ViewLayer
+01:46.063  render           | Engine: EEVEE
+01:46.071  render           | Fra: 247 | Rendering 1 / 32 samples
+01:46.120  render           | Fra: 247 | Rendering 25 / 32 samples
+01:46.126  render           | Fra: 247 | Rendering 32 / 32 samples
+01:46.478  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0247.png'
+01:46.478  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:46.478  render           | Rendering frame 248
+01:46.478  render           | Start rendering: PRISM_Setup, ViewLayer
+01:46.478  render           | Engine: EEVEE
+01:46.486  render           | Fra: 248 | Rendering 1 / 32 samples
+01:46.538  render           | Fra: 248 | Rendering 25 / 32 samples
+01:46.581  render           | Fra: 248 | Rendering 32 / 32 samples
+01:46.893  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0248.png'
+01:46.893  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:46.893  render           | Rendering frame 249
+01:46.893  render           | Start rendering: PRISM_Setup, ViewLayer
+01:46.893  render           | Engine: EEVEE
+01:46.901  render           | Fra: 249 | Rendering 1 / 32 samples
+01:46.955  render           | Fra: 249 | Rendering 25 / 32 samples
+01:46.997  render           | Fra: 249 | Rendering 32 / 32 samples
+01:47.309  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0249.png'
+01:47.309  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:47.309  render           | Rendering frame 250
+01:47.310  render           | Start rendering: PRISM_Setup, ViewLayer
+01:47.310  render           | Engine: EEVEE
+01:47.317  render           | Fra: 250 | Rendering 1 / 32 samples
+01:47.370  render           | Fra: 250 | Rendering 25 / 32 samples
+01:47.416  render           | Fra: 250 | Rendering 32 / 32 samples
+01:47.754  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0250.png'
+01:47.754  render           | Time: 00:00.44 (Saving: 00:00.07)
+01:47.754  render           | Rendering frame 251
+01:47.754  render           | Start rendering: PRISM_Setup, ViewLayer
+01:47.754  render           | Engine: EEVEE
+01:47.762  render           | Fra: 251 | Rendering 1 / 32 samples
+01:47.816  render           | Fra: 251 | Rendering 25 / 32 samples
+01:47.857  render           | Fra: 251 | Rendering 32 / 32 samples
+01:48.176  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0251.png'
+01:48.176  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:48.176  render           | Rendering frame 252
+01:48.176  render           | Start rendering: PRISM_Setup, ViewLayer
+01:48.176  render           | Engine: EEVEE
+01:48.184  render           | Fra: 252 | Rendering 1 / 32 samples
+01:48.233  render           | Fra: 252 | Rendering 25 / 32 samples
+01:48.239  render           | Fra: 252 | Rendering 32 / 32 samples
+01:48.596  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0252.png'
+01:48.596  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:48.596  render           | Rendering frame 253
+01:48.596  render           | Start rendering: PRISM_Setup, ViewLayer
+01:48.596  render           | Engine: EEVEE
+01:48.604  render           | Fra: 253 | Rendering 1 / 32 samples
+01:48.656  render           | Fra: 253 | Rendering 25 / 32 samples
+01:48.699  render           | Fra: 253 | Rendering 32 / 32 samples
+01:49.012  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0253.png'
+01:49.012  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:49.012  render           | Rendering frame 254
+01:49.012  render           | Start rendering: PRISM_Setup, ViewLayer
+01:49.012  render           | Engine: EEVEE
+01:49.019  render           | Fra: 254 | Rendering 1 / 32 samples
+01:49.072  render           | Fra: 254 | Rendering 25 / 32 samples
+01:49.121  render           | Fra: 254 | Rendering 32 / 32 samples
+01:49.453  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0254.png'
+01:49.453  render           | Time: 00:00.44 (Saving: 00:00.08)
+01:49.453  render           | Rendering frame 255
+01:49.453  render           | Start rendering: PRISM_Setup, ViewLayer
+01:49.453  render           | Engine: EEVEE
+01:49.463  render           | Fra: 255 | Rendering 1 / 32 samples
+01:49.522  render           | Fra: 255 | Rendering 25 / 32 samples
+01:49.566  render           | Fra: 255 | Rendering 32 / 32 samples
+01:49.880  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0255.png'
+01:49.880  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:49.880  render           | Rendering frame 256
+01:49.880  render           | Start rendering: PRISM_Setup, ViewLayer
+01:49.880  render           | Engine: EEVEE
+01:49.888  render           | Fra: 256 | Rendering 1 / 32 samples
+01:49.941  render           | Fra: 256 | Rendering 25 / 32 samples
+01:49.991  render           | Fra: 256 | Rendering 32 / 32 samples
+01:50.296  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0256.png'
+01:50.296  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:50.296  render           | Rendering frame 257
+01:50.296  render           | Start rendering: PRISM_Setup, ViewLayer
+01:50.296  render           | Engine: EEVEE
+01:50.303  render           | Fra: 257 | Rendering 1 / 32 samples
+01:50.352  render           | Fra: 257 | Rendering 25 / 32 samples
+01:50.357  render           | Fra: 257 | Rendering 32 / 32 samples
+01:50.711  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0257.png'
+01:50.711  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:50.711  render           | Rendering frame 258
+01:50.711  render           | Start rendering: PRISM_Setup, ViewLayer
+01:50.711  render           | Engine: EEVEE
+01:50.719  render           | Fra: 258 | Rendering 1 / 32 samples
+01:50.772  render           | Fra: 258 | Rendering 25 / 32 samples
+01:50.814  render           | Fra: 258 | Rendering 32 / 32 samples
+01:51.128  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0258.png'
+01:51.128  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:51.128  render           | Rendering frame 259
+01:51.128  render           | Start rendering: PRISM_Setup, ViewLayer
+01:51.128  render           | Engine: EEVEE
+01:51.135  render           | Fra: 259 | Rendering 1 / 32 samples
+01:51.188  render           | Fra: 259 | Rendering 25 / 32 samples
+01:51.232  render           | Fra: 259 | Rendering 32 / 32 samples
+01:51.552  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0259.png'
+01:51.552  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:51.552  render           | Rendering frame 260
+01:51.552  render           | Start rendering: PRISM_Setup, ViewLayer
+01:51.552  render           | Engine: EEVEE
+01:51.559  render           | Fra: 260 | Rendering 1 / 32 samples
+01:51.611  render           | Fra: 260 | Rendering 25 / 32 samples
+01:51.654  render           | Fra: 260 | Rendering 32 / 32 samples
+01:51.968  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0260.png'
+01:51.968  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:51.968  render           | Rendering frame 261
+01:51.968  render           | Start rendering: PRISM_Setup, ViewLayer
+01:51.968  render           | Engine: EEVEE
+01:51.977  render           | Fra: 261 | Rendering 1 / 32 samples
+01:52.031  render           | Fra: 261 | Rendering 25 / 32 samples
+01:52.082  render           | Fra: 261 | Rendering 32 / 32 samples
+01:52.415  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0261.png'
+01:52.415  render           | Time: 00:00.44 (Saving: 00:00.07)
+01:52.416  render           | Rendering frame 262
+01:52.416  render           | Start rendering: PRISM_Setup, ViewLayer
+01:52.416  render           | Engine: EEVEE
+01:52.424  render           | Fra: 262 | Rendering 1 / 32 samples
+01:52.473  render           | Fra: 262 | Rendering 25 / 32 samples
+01:52.479  render           | Fra: 262 | Rendering 32 / 32 samples
+01:52.834  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0262.png'
+01:52.834  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:52.834  render           | Rendering frame 263
+01:52.834  render           | Start rendering: PRISM_Setup, ViewLayer
+01:52.834  render           | Engine: EEVEE
+01:52.842  render           | Fra: 263 | Rendering 1 / 32 samples
+01:52.895  render           | Fra: 263 | Rendering 25 / 32 samples
+01:52.945  render           | Fra: 263 | Rendering 32 / 32 samples
+01:53.248  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0263.png'
+01:53.249  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:53.249  render           | Rendering frame 264
+01:53.249  render           | Start rendering: PRISM_Setup, ViewLayer
+01:53.249  render           | Engine: EEVEE
+01:53.256  render           | Fra: 264 | Rendering 1 / 32 samples
+01:53.311  render           | Fra: 264 | Rendering 25 / 32 samples
+01:53.353  render           | Fra: 264 | Rendering 32 / 32 samples
+01:53.666  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0264.png'
+01:53.667  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:53.667  render           | Rendering frame 265
+01:53.667  render           | Start rendering: PRISM_Setup, ViewLayer
+01:53.667  render           | Engine: EEVEE
+01:53.674  render           | Fra: 265 | Rendering 1 / 32 samples
+01:53.726  render           | Fra: 265 | Rendering 25 / 32 samples
+01:53.778  render           | Fra: 265 | Rendering 32 / 32 samples
+01:54.092  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0265.png'
+01:54.092  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:54.092  render           | Rendering frame 266
+01:54.092  render           | Start rendering: PRISM_Setup, ViewLayer
+01:54.092  render           | Engine: EEVEE
+01:54.102  render           | Fra: 266 | Rendering 1 / 32 samples
+01:54.159  render           | Fra: 266 | Rendering 25 / 32 samples
+01:54.206  render           | Fra: 266 | Rendering 32 / 32 samples
+01:54.531  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0266.png'
+01:54.531  render           | Time: 00:00.43 (Saving: 00:00.07)
+01:54.531  render           | Rendering frame 267
+01:54.531  render           | Start rendering: PRISM_Setup, ViewLayer
+01:54.531  render           | Engine: EEVEE
+01:54.539  render           | Fra: 267 | Rendering 1 / 32 samples
+01:54.589  render           | Fra: 267 | Rendering 25 / 32 samples
+01:54.594  render           | Fra: 267 | Rendering 32 / 32 samples
+01:54.950  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0267.png'
+01:54.950  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:54.950  render           | Rendering frame 268
+01:54.950  render           | Start rendering: PRISM_Setup, ViewLayer
+01:54.950  render           | Engine: EEVEE
+01:54.958  render           | Fra: 268 | Rendering 1 / 32 samples
+01:55.011  render           | Fra: 268 | Rendering 25 / 32 samples
+01:55.054  render           | Fra: 268 | Rendering 32 / 32 samples
+01:55.366  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0268.png'
+01:55.366  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:55.366  render           | Rendering frame 269
+01:55.366  render           | Start rendering: PRISM_Setup, ViewLayer
+01:55.366  render           | Engine: EEVEE
+01:55.374  render           | Fra: 269 | Rendering 1 / 32 samples
+01:55.426  render           | Fra: 269 | Rendering 25 / 32 samples
+01:55.468  render           | Fra: 269 | Rendering 32 / 32 samples
+01:55.786  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0269.png'
+01:55.786  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:55.786  render           | Rendering frame 270
+01:55.786  render           | Start rendering: PRISM_Setup, ViewLayer
+01:55.786  render           | Engine: EEVEE
+01:55.793  render           | Fra: 270 | Rendering 1 / 32 samples
+01:55.847  render           | Fra: 270 | Rendering 25 / 32 samples
+01:55.897  render           | Fra: 270 | Rendering 32 / 32 samples
+01:56.228  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0270.png'
+01:56.228  render           | Time: 00:00.44 (Saving: 00:00.07)
+01:56.228  render           | Rendering frame 271
+01:56.228  render           | Start rendering: PRISM_Setup, ViewLayer
+01:56.228  render           | Engine: EEVEE
+01:56.237  render           | Fra: 271 | Rendering 1 / 32 samples
+01:56.289  render           | Fra: 271 | Rendering 25 / 32 samples
+01:56.331  render           | Fra: 271 | Rendering 32 / 32 samples
+01:56.649  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0271.png'
+01:56.649  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:56.649  render           | Rendering frame 272
+01:56.649  render           | Start rendering: PRISM_Setup, ViewLayer
+01:56.649  render           | Engine: EEVEE
+01:56.657  render           | Fra: 272 | Rendering 1 / 32 samples
+01:56.706  render           | Fra: 272 | Rendering 25 / 32 samples
+01:56.711  render           | Fra: 272 | Rendering 32 / 32 samples
+01:57.069  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0272.png'
+01:57.069  render           | Time: 00:00.42 (Saving: 00:00.08)
+01:57.069  render           | Rendering frame 273
+01:57.069  render           | Start rendering: PRISM_Setup, ViewLayer
+01:57.069  render           | Engine: EEVEE
+01:57.077  render           | Fra: 273 | Rendering 1 / 32 samples
+01:57.130  render           | Fra: 273 | Rendering 25 / 32 samples
+01:57.172  render           | Fra: 273 | Rendering 32 / 32 samples
+01:57.509  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0273.png'
+01:57.509  render           | Time: 00:00.43 (Saving: 00:00.07)
+01:57.509  render           | Rendering frame 274
+01:57.509  render           | Start rendering: PRISM_Setup, ViewLayer
+01:57.509  render           | Engine: EEVEE
+01:57.516  render           | Fra: 274 | Rendering 1 / 32 samples
+01:57.569  render           | Fra: 274 | Rendering 25 / 32 samples
+01:57.620  render           | Fra: 274 | Rendering 32 / 32 samples
+01:57.926  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0274.png'
+01:57.926  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:57.926  render           | Rendering frame 275
+01:57.926  render           | Start rendering: PRISM_Setup, ViewLayer
+01:57.926  render           | Engine: EEVEE
+01:57.934  render           | Fra: 275 | Rendering 1 / 32 samples
+01:57.986  render           | Fra: 275 | Rendering 25 / 32 samples
+01:58.028  render           | Fra: 275 | Rendering 32 / 32 samples
+01:58.358  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0275.png'
+01:58.358  render           | Time: 00:00.43 (Saving: 00:00.07)
+01:58.358  render           | Rendering frame 276
+01:58.358  render           | Start rendering: PRISM_Setup, ViewLayer
+01:58.358  render           | Engine: EEVEE
+01:58.368  render           | Fra: 276 | Rendering 1 / 32 samples
+01:58.427  render           | Fra: 276 | Rendering 25 / 32 samples
+01:58.481  render           | Fra: 276 | Rendering 32 / 32 samples
+01:58.787  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0276.png'
+01:58.787  render           | Time: 00:00.42 (Saving: 00:00.07)
+01:58.787  render           | Rendering frame 277
+01:58.787  render           | Start rendering: PRISM_Setup, ViewLayer
+01:58.787  render           | Engine: EEVEE
+01:58.794  render           | Fra: 277 | Rendering 1 / 32 samples
+01:58.843  render           | Fra: 277 | Rendering 25 / 32 samples
+01:58.848  render           | Fra: 277 | Rendering 32 / 32 samples
+01:59.201  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0277.png'
+01:59.201  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:59.201  render           | Rendering frame 278
+01:59.201  render           | Start rendering: PRISM_Setup, ViewLayer
+01:59.201  render           | Engine: EEVEE
+01:59.208  render           | Fra: 278 | Rendering 1 / 32 samples
+01:59.261  render           | Fra: 278 | Rendering 25 / 32 samples
+01:59.302  render           | Fra: 278 | Rendering 32 / 32 samples
+01:59.618  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0278.png'
+01:59.618  render           | Time: 00:00.41 (Saving: 00:00.07)
+01:59.618  render           | Rendering frame 279
+01:59.618  render           | Start rendering: PRISM_Setup, ViewLayer
+01:59.618  render           | Engine: EEVEE
+01:59.629  render           | Fra: 279 | Rendering 1 / 32 samples
+01:59.686  render           | Fra: 279 | Rendering 25 / 32 samples
+01:59.735  render           | Fra: 279 | Rendering 32 / 32 samples
+02:00.068  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0279.png'
+02:00.068  render           | Time: 00:00.44 (Saving: 00:00.07)
+02:00.068  render           | Rendering frame 280
+02:00.068  render           | Start rendering: PRISM_Setup, ViewLayer
+02:00.068  render           | Engine: EEVEE
+02:00.075  render           | Fra: 280 | Rendering 1 / 32 samples
+02:00.128  render           | Fra: 280 | Rendering 25 / 32 samples
+02:00.170  render           | Fra: 280 | Rendering 32 / 32 samples
+02:00.489  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0280.png'
+02:00.489  render           | Time: 00:00.42 (Saving: 00:00.07)
+02:00.489  render           | Rendering frame 281
+02:00.489  render           | Start rendering: PRISM_Setup, ViewLayer
+02:00.489  render           | Engine: EEVEE
+02:00.497  render           | Fra: 281 | Rendering 1 / 32 samples
+02:00.553  render           | Fra: 281 | Rendering 25 / 32 samples
+02:00.590  render           | Fra: 281 | Rendering 32 / 32 samples
+02:00.929  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0281.png'
+02:00.929  render           | Time: 00:00.44 (Saving: 00:00.07)
+02:00.929  render           | Rendering frame 282
+02:00.929  render           | Start rendering: PRISM_Setup, ViewLayer
+02:00.929  render           | Engine: EEVEE
+02:00.937  render           | Fra: 282 | Rendering 1 / 32 samples
+02:00.990  render           | Fra: 282 | Rendering 25 / 32 samples
+02:01.023  render           | Fra: 282 | Rendering 32 / 32 samples
+02:01.345  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0282.png'
+02:01.345  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:01.345  render           | Rendering frame 283
+02:01.345  render           | Start rendering: PRISM_Setup, ViewLayer
+02:01.345  render           | Engine: EEVEE
+02:01.352  render           | Fra: 283 | Rendering 1 / 32 samples
+02:01.405  render           | Fra: 283 | Rendering 25 / 32 samples
+02:01.438  render           | Fra: 283 | Rendering 32 / 32 samples
+02:01.762  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0283.png'
+02:01.762  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:01.762  render           | Rendering frame 284
+02:01.762  render           | Start rendering: PRISM_Setup, ViewLayer
+02:01.762  render           | Engine: EEVEE
+02:01.774  render           | Fra: 284 | Rendering 1 / 32 samples
+02:01.832  render           | Fra: 284 | Rendering 25 / 32 samples
+02:01.869  render           | Fra: 284 | Rendering 32 / 32 samples
+02:02.226  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0284.png'
+02:02.226  render           | Time: 00:00.46 (Saving: 00:00.07)
+02:02.226  render           | Rendering frame 285
+02:02.226  render           | Start rendering: PRISM_Setup, ViewLayer
+02:02.226  render           | Engine: EEVEE
+02:02.234  render           | Fra: 285 | Rendering 1 / 32 samples
+02:02.287  render           | Fra: 285 | Rendering 25 / 32 samples
+02:02.322  render           | Fra: 285 | Rendering 32 / 32 samples
+02:02.641  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0285.png'
+02:02.641  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:02.641  render           | Rendering frame 286
+02:02.641  render           | Start rendering: PRISM_Setup, ViewLayer
+02:02.641  render           | Engine: EEVEE
+02:02.649  render           | Fra: 286 | Rendering 1 / 32 samples
+02:02.702  render           | Fra: 286 | Rendering 25 / 32 samples
+02:02.740  render           | Fra: 286 | Rendering 32 / 32 samples
+02:03.080  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0286.png'
+02:03.080  render           | Time: 00:00.43 (Saving: 00:00.07)
+02:03.080  render           | Rendering frame 287
+02:03.080  render           | Start rendering: PRISM_Setup, ViewLayer
+02:03.080  render           | Engine: EEVEE
+02:03.088  render           | Fra: 287 | Rendering 1 / 32 samples
+02:03.145  render           | Fra: 287 | Rendering 25 / 32 samples
+02:03.189  render           | Fra: 287 | Rendering 32 / 32 samples
+02:03.505  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0287.png'
+02:03.505  render           | Time: 00:00.42 (Saving: 00:00.07)
+02:03.505  render           | Rendering frame 288
+02:03.505  render           | Start rendering: PRISM_Setup, ViewLayer
+02:03.505  render           | Engine: EEVEE
+02:03.513  render           | Fra: 288 | Rendering 1 / 32 samples
+02:03.566  render           | Fra: 288 | Rendering 25 / 32 samples
+02:03.608  render           | Fra: 288 | Rendering 32 / 32 samples
+02:03.922  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0288.png'
+02:03.922  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:03.922  render           | Rendering frame 289
+02:03.922  render           | Start rendering: PRISM_Setup, ViewLayer
+02:03.922  render           | Engine: EEVEE
+02:03.930  render           | Fra: 289 | Rendering 1 / 32 samples
+02:03.982  render           | Fra: 289 | Rendering 25 / 32 samples
+02:04.015  render           | Fra: 289 | Rendering 32 / 32 samples
+02:04.340  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0289.png'
+02:04.340  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:04.340  render           | Rendering frame 290
+02:04.340  render           | Start rendering: PRISM_Setup, ViewLayer
+02:04.340  render           | Engine: EEVEE
+02:04.348  render           | Fra: 290 | Rendering 1 / 32 samples
+02:04.400  render           | Fra: 290 | Rendering 25 / 32 samples
+02:04.434  render           | Fra: 290 | Rendering 32 / 32 samples
+02:04.757  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0290.png'
+02:04.757  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:04.757  render           | Rendering frame 291
+02:04.757  render           | Start rendering: PRISM_Setup, ViewLayer
+02:04.757  render           | Engine: EEVEE
+02:04.764  render           | Fra: 291 | Rendering 1 / 32 samples
+02:04.816  render           | Fra: 291 | Rendering 25 / 32 samples
+02:04.850  render           | Fra: 291 | Rendering 32 / 32 samples
+02:05.170  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0291.png'
+02:05.170  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:05.170  render           | Rendering frame 292
+02:05.170  render           | Start rendering: PRISM_Setup, ViewLayer
+02:05.170  render           | Engine: EEVEE
+02:05.177  render           | Fra: 292 | Rendering 1 / 32 samples
+02:05.229  render           | Fra: 292 | Rendering 25 / 32 samples
+02:05.263  render           | Fra: 292 | Rendering 32 / 32 samples
+02:05.614  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0292.png'
+02:05.614  render           | Time: 00:00.44 (Saving: 00:00.08)
+02:05.614  render           | Rendering frame 293
+02:05.614  render           | Start rendering: PRISM_Setup, ViewLayer
+02:05.614  render           | Engine: EEVEE
+02:05.622  render           | Fra: 293 | Rendering 1 / 32 samples
+02:05.679  render           | Fra: 293 | Rendering 25 / 32 samples
+02:05.717  render           | Fra: 293 | Rendering 32 / 32 samples
+02:06.081  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0293.png'
+02:06.081  render           | Time: 00:00.46 (Saving: 00:00.08)
+02:06.081  render           | Rendering frame 294
+02:06.081  render           | Start rendering: PRISM_Setup, ViewLayer
+02:06.081  render           | Engine: EEVEE
+02:06.091  render           | Fra: 294 | Rendering 1 / 32 samples
+02:06.151  render           | Fra: 294 | Rendering 25 / 32 samples
+02:06.188  render           | Fra: 294 | Rendering 32 / 32 samples
+02:06.567  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0294.png'
+02:06.567  render           | Time: 00:00.48 (Saving: 00:00.10)
+02:06.567  render           | Rendering frame 295
+02:06.567  render           | Start rendering: PRISM_Setup, ViewLayer
+02:06.567  render           | Engine: EEVEE
+02:06.576  render           | Fra: 295 | Rendering 1 / 32 samples
+02:06.638  render           | Fra: 295 | Rendering 25 / 32 samples
+02:06.677  render           | Fra: 295 | Rendering 32 / 32 samples
+02:07.020  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0295.png'
+02:07.020  render           | Time: 00:00.45 (Saving: 00:00.07)
+02:07.020  render           | Rendering frame 296
+02:07.020  render           | Start rendering: PRISM_Setup, ViewLayer
+02:07.021  render           | Engine: EEVEE
+02:07.029  render           | Fra: 296 | Rendering 1 / 32 samples
+02:07.088  render           | Fra: 296 | Rendering 25 / 32 samples
+02:07.129  render           | Fra: 296 | Rendering 32 / 32 samples
+02:07.480  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0296.png'
+02:07.480  render           | Time: 00:00.45 (Saving: 00:00.08)
+02:07.480  render           | Rendering frame 297
+02:07.480  render           | Start rendering: PRISM_Setup, ViewLayer
+02:07.480  render           | Engine: EEVEE
+02:07.492  render           | Fra: 297 | Rendering 1 / 32 samples
+02:07.558  render           | Fra: 297 | Rendering 25 / 32 samples
+02:07.606  render           | Fra: 297 | Rendering 32 / 32 samples
+02:07.946  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0297.png'
+02:07.947  render           | Time: 00:00.46 (Saving: 00:00.08)
+02:07.947  render           | Rendering frame 298
+02:07.947  render           | Start rendering: PRISM_Setup, ViewLayer
+02:07.947  render           | Engine: EEVEE
+02:07.955  render           | Fra: 298 | Rendering 1 / 32 samples
+02:08.014  render           | Fra: 298 | Rendering 25 / 32 samples
+02:08.057  render           | Fra: 298 | Rendering 32 / 32 samples
+02:08.390  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0298.png'
+02:08.390  render           | Time: 00:00.44 (Saving: 00:00.08)
+02:08.390  render           | Rendering frame 299
+02:08.391  render           | Start rendering: PRISM_Setup, ViewLayer
+02:08.391  render           | Engine: EEVEE
+02:08.401  render           | Fra: 299 | Rendering 1 / 32 samples
+02:08.465  render           | Fra: 299 | Rendering 25 / 32 samples
+02:08.504  render           | Fra: 299 | Rendering 32 / 32 samples
+02:08.899  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0299.png'
+02:08.899  render           | Time: 00:00.50 (Saving: 00:00.11)
+02:08.899  render           | Rendering frame 300
+02:08.899  render           | Start rendering: PRISM_Setup, ViewLayer
+02:08.899  render           | Engine: EEVEE
+02:08.914  render           | Fra: 300 | Rendering 1 / 32 samples
+02:08.972  render           | Fra: 300 | Rendering 25 / 32 samples
+02:09.010  render           | Fra: 300 | Rendering 32 / 32 samples
+02:09.354  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0300.png'
+02:09.354  render           | Time: 00:00.45 (Saving: 00:00.07)
+02:09.354  render           | Rendering frame 301
+02:09.354  render           | Start rendering: PRISM_Setup, ViewLayer
+02:09.354  render           | Engine: EEVEE
+02:09.363  render           | Fra: 301 | Rendering 1 / 32 samples
+02:09.419  render           | Fra: 301 | Rendering 25 / 32 samples
+02:09.454  render           | Fra: 301 | Rendering 32 / 32 samples
+02:09.799  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0301.png'
+02:09.799  render           | Time: 00:00.44 (Saving: 00:00.08)
+02:09.799  render           | Rendering frame 302
+02:09.800  render           | Start rendering: PRISM_Setup, ViewLayer
+02:09.800  render           | Engine: EEVEE
+02:09.808  render           | Fra: 302 | Rendering 1 / 32 samples
+02:09.864  render           | Fra: 302 | Rendering 25 / 32 samples
+02:09.905  render           | Fra: 302 | Rendering 32 / 32 samples
+02:10.231  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0302.png'
+02:10.231  render           | Time: 00:00.43 (Saving: 00:00.07)
+02:10.231  render           | Rendering frame 303
+02:10.232  render           | Start rendering: PRISM_Setup, ViewLayer
+02:10.232  render           | Engine: EEVEE
+02:10.239  render           | Fra: 303 | Rendering 1 / 32 samples
+02:10.292  render           | Fra: 303 | Rendering 25 / 32 samples
+02:10.327  render           | Fra: 303 | Rendering 32 / 32 samples
+02:10.649  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0303.png'
+02:10.649  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:10.649  render           | Rendering frame 304
+02:10.649  render           | Start rendering: PRISM_Setup, ViewLayer
+02:10.649  render           | Engine: EEVEE
+02:10.656  render           | Fra: 304 | Rendering 1 / 32 samples
+02:10.709  render           | Fra: 304 | Rendering 25 / 32 samples
+02:10.744  render           | Fra: 304 | Rendering 32 / 32 samples
+02:11.066  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0304.png'
+02:11.066  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:11.066  render           | Rendering frame 305
+02:11.066  render           | Start rendering: PRISM_Setup, ViewLayer
+02:11.066  render           | Engine: EEVEE
+02:11.084  render           | Fra: 305 | Rendering 1 / 32 samples
+02:11.129  render           | Fra: 305 | Rendering 25 / 32 samples
+02:11.165  render           | Fra: 305 | Rendering 32 / 32 samples
+02:11.485  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0305.png'
+02:11.485  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:11.485  render           | Rendering frame 306
+02:11.485  render           | Start rendering: PRISM_Setup, ViewLayer
+02:11.485  render           | Engine: EEVEE
+02:11.492  render           | Fra: 306 | Rendering 1 / 32 samples
+02:11.545  render           | Fra: 306 | Rendering 25 / 32 samples
+02:11.584  render           | Fra: 306 | Rendering 32 / 32 samples
+02:11.906  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0306.png'
+02:11.906  render           | Time: 00:00.42 (Saving: 00:00.07)
+02:11.907  render           | Rendering frame 307
+02:11.907  render           | Start rendering: PRISM_Setup, ViewLayer
+02:11.907  render           | Engine: EEVEE
+02:11.915  render           | Fra: 307 | Rendering 1 / 32 samples
+02:11.969  render           | Fra: 307 | Rendering 25 / 32 samples
+02:12.012  render           | Fra: 307 | Rendering 32 / 32 samples
+02:12.332  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0307.png'
+02:12.332  render           | Time: 00:00.42 (Saving: 00:00.07)
+02:12.332  render           | Rendering frame 308
+02:12.333  render           | Start rendering: PRISM_Setup, ViewLayer
+02:12.333  render           | Engine: EEVEE
+02:12.340  render           | Fra: 308 | Rendering 1 / 32 samples
+02:12.394  render           | Fra: 308 | Rendering 25 / 32 samples
+02:12.436  render           | Fra: 308 | Rendering 32 / 32 samples
+02:12.745  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0308.png'
+02:12.745  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:12.745  render           | Rendering frame 309
+02:12.745  render           | Start rendering: PRISM_Setup, ViewLayer
+02:12.745  render           | Engine: EEVEE
+02:12.752  render           | Fra: 309 | Rendering 1 / 32 samples
+02:12.805  render           | Fra: 309 | Rendering 25 / 32 samples
+02:12.838  render           | Fra: 309 | Rendering 32 / 32 samples
+02:13.161  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0309.png'
+02:13.161  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:13.161  render           | Rendering frame 310
+02:13.161  render           | Start rendering: PRISM_Setup, ViewLayer
+02:13.161  render           | Engine: EEVEE
+02:13.168  render           | Fra: 310 | Rendering 1 / 32 samples
+02:13.222  render           | Fra: 310 | Rendering 25 / 32 samples
+02:13.255  render           | Fra: 310 | Rendering 32 / 32 samples
+02:13.578  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0310.png'
+02:13.578  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:13.578  render           | Rendering frame 311
+02:13.578  render           | Start rendering: PRISM_Setup, ViewLayer
+02:13.578  render           | Engine: EEVEE
+02:13.585  render           | Fra: 311 | Rendering 1 / 32 samples
+02:13.638  render           | Fra: 311 | Rendering 25 / 32 samples
+02:13.671  render           | Fra: 311 | Rendering 32 / 32 samples
+02:13.994  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0311.png'
+02:13.994  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:13.994  render           | Rendering frame 312
+02:13.994  render           | Start rendering: PRISM_Setup, ViewLayer
+02:13.994  render           | Engine: EEVEE
+02:14.002  render           | Fra: 312 | Rendering 1 / 32 samples
+02:14.054  render           | Fra: 312 | Rendering 25 / 32 samples
+02:14.087  render           | Fra: 312 | Rendering 32 / 32 samples
+02:14.413  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0312.png'
+02:14.413  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:14.413  render           | Rendering frame 313
+02:14.413  render           | Start rendering: PRISM_Setup, ViewLayer
+02:14.413  render           | Engine: EEVEE
+02:14.420  render           | Fra: 313 | Rendering 1 / 32 samples
+02:14.473  render           | Fra: 313 | Rendering 25 / 32 samples
+02:14.507  render           | Fra: 313 | Rendering 32 / 32 samples
+02:14.827  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0313.png'
+02:14.827  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:14.827  render           | Rendering frame 314
+02:14.827  render           | Start rendering: PRISM_Setup, ViewLayer
+02:14.827  render           | Engine: EEVEE
+02:14.835  render           | Fra: 314 | Rendering 1 / 32 samples
+02:14.887  render           | Fra: 314 | Rendering 25 / 32 samples
+02:14.920  render           | Fra: 314 | Rendering 32 / 32 samples
+02:15.239  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0314.png'
+02:15.239  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:15.239  render           | Rendering frame 315
+02:15.239  render           | Start rendering: PRISM_Setup, ViewLayer
+02:15.239  render           | Engine: EEVEE
+02:15.248  render           | Fra: 315 | Rendering 1 / 32 samples
+02:15.300  render           | Fra: 315 | Rendering 25 / 32 samples
+02:15.334  render           | Fra: 315 | Rendering 32 / 32 samples
+02:15.652  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0315.png'
+02:15.652  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:15.652  render           | Rendering frame 316
+02:15.652  render           | Start rendering: PRISM_Setup, ViewLayer
+02:15.652  render           | Engine: EEVEE
+02:15.659  render           | Fra: 316 | Rendering 1 / 32 samples
+02:15.713  render           | Fra: 316 | Rendering 25 / 32 samples
+02:15.753  render           | Fra: 316 | Rendering 32 / 32 samples
+02:16.068  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0316.png'
+02:16.068  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:16.068  render           | Rendering frame 317
+02:16.068  render           | Start rendering: PRISM_Setup, ViewLayer
+02:16.068  render           | Engine: EEVEE
+02:16.075  render           | Fra: 317 | Rendering 1 / 32 samples
+02:16.129  render           | Fra: 317 | Rendering 25 / 32 samples
+02:16.172  render           | Fra: 317 | Rendering 32 / 32 samples
+02:16.481  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0317.png'
+02:16.481  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:16.481  render           | Rendering frame 318
+02:16.481  render           | Start rendering: PRISM_Setup, ViewLayer
+02:16.481  render           | Engine: EEVEE
+02:16.488  render           | Fra: 318 | Rendering 1 / 32 samples
+02:16.541  render           | Fra: 318 | Rendering 25 / 32 samples
+02:16.582  render           | Fra: 318 | Rendering 32 / 32 samples
+02:16.898  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0318.png'
+02:16.898  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:16.899  render           | Rendering frame 319
+02:16.899  render           | Start rendering: PRISM_Setup, ViewLayer
+02:16.899  render           | Engine: EEVEE
+02:16.906  render           | Fra: 319 | Rendering 1 / 32 samples
+02:16.996  render           | Fra: 319 | Rendering 25 / 32 samples
+02:17.022  render           | Fra: 319 | Rendering 32 / 32 samples
+02:17.376  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0319.png'
+02:17.376  render           | Time: 00:00.47 (Saving: 00:00.08)
+02:17.376  render           | Rendering frame 320
+02:17.376  render           | Start rendering: PRISM_Setup, ViewLayer
+02:17.376  render           | Engine: EEVEE
+02:17.387  render           | Fra: 320 | Rendering 1 / 32 samples
+02:17.445  render           | Fra: 320 | Rendering 25 / 32 samples
+02:17.480  render           | Fra: 320 | Rendering 32 / 32 samples
+02:17.826  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0320.png'
+02:17.826  render           | Time: 00:00.44 (Saving: 00:00.08)
+02:17.826  render           | Rendering frame 321
+02:17.826  render           | Start rendering: PRISM_Setup, ViewLayer
+02:17.826  render           | Engine: EEVEE
+02:17.836  render           | Fra: 321 | Rendering 1 / 32 samples
+02:17.897  render           | Fra: 321 | Rendering 25 / 32 samples
+02:17.938  render           | Fra: 321 | Rendering 32 / 32 samples
+02:18.281  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0321.png'
+02:18.281  render           | Time: 00:00.45 (Saving: 00:00.08)
+02:18.281  render           | Rendering frame 322
+02:18.281  render           | Start rendering: PRISM_Setup, ViewLayer
+02:18.281  render           | Engine: EEVEE
+02:18.289  render           | Fra: 322 | Rendering 1 / 32 samples
+02:18.346  render           | Fra: 322 | Rendering 25 / 32 samples
+02:18.382  render           | Fra: 322 | Rendering 32 / 32 samples
+02:18.752  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0322.png'
+02:18.752  render           | Time: 00:00.47 (Saving: 00:00.10)
+02:18.752  render           | Rendering frame 323
+02:18.752  render           | Start rendering: PRISM_Setup, ViewLayer
+02:18.752  render           | Engine: EEVEE
+02:18.763  render           | Fra: 323 | Rendering 1 / 32 samples
+02:18.823  render           | Fra: 323 | Rendering 25 / 32 samples
+02:18.863  render           | Fra: 323 | Rendering 32 / 32 samples
+02:19.204  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0323.png'
+02:19.204  render           | Time: 00:00.45 (Saving: 00:00.07)
+02:19.204  render           | Rendering frame 324
+02:19.204  render           | Start rendering: PRISM_Setup, ViewLayer
+02:19.204  render           | Engine: EEVEE
+02:19.212  render           | Fra: 324 | Rendering 1 / 32 samples
+02:19.270  render           | Fra: 324 | Rendering 25 / 32 samples
+02:19.306  render           | Fra: 324 | Rendering 32 / 32 samples
+02:19.655  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0324.png'
+02:19.655  render           | Time: 00:00.45 (Saving: 00:00.08)
+02:19.655  render           | Rendering frame 325
+02:19.655  render           | Start rendering: PRISM_Setup, ViewLayer
+02:19.655  render           | Engine: EEVEE
+02:19.664  render           | Fra: 325 | Rendering 1 / 32 samples
+02:19.721  render           | Fra: 325 | Rendering 25 / 32 samples
+02:19.760  render           | Fra: 325 | Rendering 32 / 32 samples
+02:20.110  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0325.png'
+02:20.110  render           | Time: 00:00.45 (Saving: 00:00.08)
+02:20.110  render           | Rendering frame 326
+02:20.110  render           | Start rendering: PRISM_Setup, ViewLayer
+02:20.110  render           | Engine: EEVEE
+02:20.119  render           | Fra: 326 | Rendering 1 / 32 samples
+02:20.175  render           | Fra: 326 | Rendering 25 / 32 samples
+02:20.215  render           | Fra: 326 | Rendering 32 / 32 samples
+02:20.560  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0326.png'
+02:20.560  render           | Time: 00:00.45 (Saving: 00:00.08)
+02:20.560  render           | Rendering frame 327
+02:20.560  render           | Start rendering: PRISM_Setup, ViewLayer
+02:20.560  render           | Engine: EEVEE
+02:20.569  render           | Fra: 327 | Rendering 1 / 32 samples
+02:20.624  render           | Fra: 327 | Rendering 25 / 32 samples
+02:20.670  render           | Fra: 327 | Rendering 32 / 32 samples
+02:20.994  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0327.png'
+02:20.994  render           | Time: 00:00.43 (Saving: 00:00.08)
+02:20.994  render           | Rendering frame 328
+02:20.994  render           | Start rendering: PRISM_Setup, ViewLayer
+02:20.994  render           | Engine: EEVEE
+02:21.003  render           | Fra: 328 | Rendering 1 / 32 samples
+02:21.057  render           | Fra: 328 | Rendering 25 / 32 samples
+02:21.098  render           | Fra: 328 | Rendering 32 / 32 samples
+02:21.416  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0328.png'
+02:21.416  render           | Time: 00:00.42 (Saving: 00:00.07)
+02:21.416  render           | Rendering frame 329
+02:21.416  render           | Start rendering: PRISM_Setup, ViewLayer
+02:21.416  render           | Engine: EEVEE
+02:21.424  render           | Fra: 329 | Rendering 1 / 32 samples
+02:21.477  render           | Fra: 329 | Rendering 25 / 32 samples
+02:21.511  render           | Fra: 329 | Rendering 32 / 32 samples
+02:21.835  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0329.png'
+02:21.835  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:21.835  render           | Rendering frame 330
+02:21.835  render           | Start rendering: PRISM_Setup, ViewLayer
+02:21.835  render           | Engine: EEVEE
+02:21.842  render           | Fra: 330 | Rendering 1 / 32 samples
+02:21.894  render           | Fra: 330 | Rendering 25 / 32 samples
+02:21.928  render           | Fra: 330 | Rendering 32 / 32 samples
+02:22.249  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0330.png'
+02:22.249  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:22.249  render           | Rendering frame 331
+02:22.249  render           | Start rendering: PRISM_Setup, ViewLayer
+02:22.249  render           | Engine: EEVEE
+02:22.257  render           | Fra: 331 | Rendering 1 / 32 samples
+02:22.309  render           | Fra: 331 | Rendering 25 / 32 samples
+02:22.343  render           | Fra: 331 | Rendering 32 / 32 samples
+02:22.667  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0331.png'
+02:22.667  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:22.667  render           | Rendering frame 332
+02:22.667  render           | Start rendering: PRISM_Setup, ViewLayer
+02:22.667  render           | Engine: EEVEE
+02:22.675  render           | Fra: 332 | Rendering 1 / 32 samples
+02:22.729  render           | Fra: 332 | Rendering 25 / 32 samples
+02:22.762  render           | Fra: 332 | Rendering 32 / 32 samples
+02:23.084  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0332.png'
+02:23.084  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:23.084  render           | Rendering frame 333
+02:23.084  render           | Start rendering: PRISM_Setup, ViewLayer
+02:23.084  render           | Engine: EEVEE
+02:23.091  render           | Fra: 333 | Rendering 1 / 32 samples
+02:23.143  render           | Fra: 333 | Rendering 25 / 32 samples
+02:23.177  render           | Fra: 333 | Rendering 32 / 32 samples
+02:23.497  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0333.png'
+02:23.497  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:23.497  render           | Rendering frame 334
+02:23.497  render           | Start rendering: PRISM_Setup, ViewLayer
+02:23.497  render           | Engine: EEVEE
+02:23.504  render           | Fra: 334 | Rendering 1 / 32 samples
+02:23.557  render           | Fra: 334 | Rendering 25 / 32 samples
+02:23.590  render           | Fra: 334 | Rendering 32 / 32 samples
+02:23.910  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0334.png'
+02:23.910  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:23.910  render           | Rendering frame 335
+02:23.910  render           | Start rendering: PRISM_Setup, ViewLayer
+02:23.910  render           | Engine: EEVEE
+02:23.919  render           | Fra: 335 | Rendering 1 / 32 samples
+02:23.974  render           | Fra: 335 | Rendering 25 / 32 samples
+02:24.009  render           | Fra: 335 | Rendering 32 / 32 samples
+02:24.327  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0335.png'
+02:24.327  render           | Time: 00:00.41 (Saving: 00:00.07)
+02:24.327  render           | Rendering frame 336
+02:24.327  render           | Start rendering: PRISM_Setup, ViewLayer
+02:24.327  render           | Engine: EEVEE
+02:24.334  render           | Fra: 336 | Rendering 1 / 32 samples
+02:24.387  render           | Fra: 336 | Rendering 25 / 32 samples
+02:24.425  render           | Fra: 336 | Rendering 32 / 32 samples
+02:24.739  render           | Saved: '/tmp/prism_animation_v2_20261030/frame_0336.png'
+02:24.739  render           | Time: 00:00.41 (Saving: 00:00.07)
+
+Blender quit

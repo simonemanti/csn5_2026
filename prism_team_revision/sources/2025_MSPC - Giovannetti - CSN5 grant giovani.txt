@@ -1,0 +1,691 @@
+    The MacroStrip Proportional Chamber
+    A new tracking detector for
+    large area applications
+
+
+
+    M. Giovannetti
+
+    Laboratori Nazionali di Frascati - INFN
+
+
+
+    Grant Giovani CSN5, Dec. 2nd 2025
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber   1
+The MSPC concept
+
+   THE GOAL:
+    ● Develop a new gaseous particle detector
+        for mid rate applications: O(200 kHz/cm2)
+    ● Space resolution down to 100 μm
+    ● Time resolution down to 6 ns
+    ● Easier construction w.r.t. MWPC
+          ○   reduced assembly person-power
+
+   HOW:
+    ● Using photolithographic techniques
+        from MicroPattern Gaseous Detetors
+
+   WHY:
+    ● for all low-mid rate applications where
+        MWPC would still be valid but no longer
+        feasible due to loss in expertise or high cost
+        due to time-consuming procedure
+
+
+
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber   2
+Spillovers
+
+                             NOW                                                  Future e+e- colliders
+  Tracking applications below 200 kHz/cm2 are still common         The MSPC is a good candidate for the IDEA Muon system
+
+   CMS, ATLAS, and LHCb still use MWPC, DT, CSC, sTGCs…
+
+ Beam monitoring at PS and SPS beam lines is performed with
+     Wire detectors: CERN need to build new MWPCs
+
+   The MSPC is suitable for all these application and more:
+             it will be the upgrade of MWPCs
+
+
+                Beyond HEP the main advantage is
+             the coverage of large area with low cost:
+
+ muon radiography/tomography (volcanoes, civil structures)                X-Y readout w/ space resolution <200 μm
+          neutron detection - homeland security                            Total surface: 1500m2, ～6000 detector
+     neutron detection - position sensitive detectors                             Particle rate: ≪1 kHz/cm2
+
+
+2025/12/02         M. Giovannetti - The MacroStrip Proportional Chamber                                                    3
+The candidate
+
+Competence and responsibility:
+  ● R&D on μ-RWELL/MPGD since 2017 (MsC, PhD, Postdoc)
+      ○   High rate layouts, large size: design, assembly, operation
+      ○   TT expert at ELTOS S.p.A. (IT)
+  ● R&D on sRPC since 2020
+  ● Test beam and data taking responsibilities
+  ● Cooperation experience in international working groups (RD51, DRD1)
+
+
+Academic and Working Experience:
+ ●   μ-RWELL for thermal neutron detection - CERN ATTRACT
+ ●   sRPC & μ-RWELL for thermal neutron detection - uRANIA (CSN-5)
+ ●   sRPC for thermal neutron detection - ATHENA (CSN-5)
+ ●   μ-RWELL for LHCb Phase II Upgrade (CSN1)
+ ●   μ-RWELL for FCC-IDEA muon (CSN1)
+ ●   μ-RWELL TT - INFN-AIDAinnova (CSN1)
+ ●   cylindrical μ-RWELL development - INFN-EURIZON (CSN1)
+
+
+ 2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber        4
+State of the art: MWPC
+
+                                          The MWPC: a revolution in HEP experiments
+                                            ●  G. Charpak: MWPC invented in 1968 (Nobel 1992)
+                                            ●  better rate capability w.r.t. detectors in the ‘60s
+                                               (a necessity while increasing experiments luminosity)
+                                                 ○    still limited at O(200 kHz/cm2)
+                                            ●  space resolution 50-100 μm
+                                            ●  time resolution 5-10 ns
+                                            ●  efficiency close to 100% for m.i.p.
+  Charpak, 1968
+                                                                                     LNF, 2025
+                        Manufacturing problems:
+                         ● a very high personpower
+                             needed for each detector
+                         ● very few production places
+                             still available in the world
+
+                        E.g.: LHCb U2 new MWPC @ LNF
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                      5
+State of the art: MPGD
+
+MPGDs: another revolution in HEP experiments
+ ●  A. Oed: MSGC invented in 1988 (no Nobel)
+                                                                                  MSGC, 1988
+ ●  anode-cathode distance O(100 μm)
+      ○    rate capability up to O(10 MHz/cm2)
+                                                                        COMPASS (Saclay)   ATLAS (LNF)          Giza (CEA)
+      ○    more prone to destructive sparks w.r.t. MWPC
+ ●  industrial photolithographic techniques for fast and
+    large size development
+                                                    MM, 1996
+                                                                       COMPASS (CERN)      LHCb (LNF)
+                                                                                                           KLOE-2 (LNF)
+
+                     LNF, 2025
+                                                     GEM, 1997
+
+                                                                      CLAS12 (JLAB) n_TOF (CERN)    UKRI (UK)
+
+
+
+                                                 μ-RWELL, 2014
+
+
+ 2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                                                  6
+              2026: can we get the best of both worlds?
+              MWPC, 2025
+
+
+
+
+                                                                     MicroPattern       MPGD, 2025
+                                                                     Gaseous Detectors
+                                                                      ● industrial process
+
+MultiWire Proportional Chambers
+ ● handmade
+ ● 600 wires - 2mm pitch
+       ○ wiring/tensioning
+       ○ gluing (24h curing)
+       ○ soldering
+ ● 4 detectors / 7 working days
+     /4 technicians
+
+
+
+ 2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                             7
+              2026: can we get the best of both worlds?
+              MWPC, 2025
+
+
+
+
+                                                                         MicroPattern       MPGD, 2025
+                                                                         Gaseous Detectors
+                                                                          ● industrial process
+
+MultiWire Proportional Chambers
+ ● handmade                                                                 The MacroStrip
+ ● 600 wires - 2mm pitch                                                 Proportional Chamber
+       ○ wiring/tensioning
+       ○ gluing (24h curing)                                         ●   industrial process
+       ○ soldering                                                         ○ amplification stage
+ ● 4 detectors / 7 working days                                                “ready made”
+     /4 technicians                                                        ○ only to be closed w/ cathode
+                                    MSPC, 2026                       ●   4 detectors / 1 working day
+                                                                         /2 technicians
+
+ 2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                  8
+The MSPC - MacroStrip Proportional Counter
+A “wireless” MWPC:
+  ●   Field (100μm width) and Sense (30μm width) metallic strips
+  ●   resistive glass substrate + backplane
+  ●   Field-Sense distance: 2mm
+
+Advantages over MWPC:
+ ●   easier to build (reduced personpower: photolithographic process)
+Advantages over MPGD:
+ ●   good spark suppression (similar to MWPC)
+
+
+
+
+ 2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber     9
+The MSPC - MacroStrip Proportional Counter
+A “wireless” MWPC:
+  ●   Field (100μm width) and Sense (30μm width) metallic strips
+  ●   resistive glass substrate + backplane
+  ●   Field-Sense distance: 2mm
+
+Advantages over MWPC:
+ ●   easier to build (reduced personpower: photolithographic process)
+Advantages over MPGD:
+ ●   good spark suppression (similar to MWPC)
+
+WHY IT WILL WORK:                                     Material study, CERN   Preliminary simulations, LNF
+               Proof of operation, LNF
+
+
+
+
+ 2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                                         10
+Proof of Operation @ LNF
+Is glass resistivity compatible with
+the detector operation?
+
+
+
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber   11
+Proof of Operation @ LNF
+Is glass resistivity compatible with                   wiring
+the detector operation?
+
+
+
+
+Using 100um/30um wires on glass,
+to simulate the metallic strips
+
+
+
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber   12
+Proof of Operation @ LNF
+Is glass resistivity compatible with                   wiring
+the detector operation?
+
+
+
+
+Using 100um/30um wires on glass,
+to simulate the metallic strips
+
+
+
+
+                                            glass
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber   13
+Proof of Operation @ LNF
+Is glass resistivity compatible with                   wiring         assembly
+the detector operation?
+
+
+
+
+Using 100um/30um wires on glass,
+to simulate the metallic strips
+
+
+
+
+                                            glass
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber              14
+Proof of Operation @ LNF
+Is glass resistivity compatible with                   wiring                   assembly
+the detector operation?
+
+
+
+
+Using 100um/30um wires on glass,
+to simulate the metallic strips
+
+
+
+
+                                            glass                     signals
+                                                                                   it works!
+
+2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber                            15
+Material study @ CERN
+                                                    The “CERN-INFN magnetron sputtering machine”
+                        26/10/2025                   ● (60x170cm2) flexible and (20x50cm2) rigid substrate
+                                                     ● deposition: C, Cu, Ti, Al
+                                                    Gianfranco (tech. manager) and Gianluca are involved in the MSPC
+                                                    project, this will ensure major control over the sputtering process.
+
+                                                                                                  CERN-INFN
+                                                                                                sputtering team
+
+
+
+
+                            Standard deposition:
+                            2 μm Cu (strips)
+                            30 nm Ti
+                            1.8 mm glass
+                            30 nm Ti
+                            2 μm Cu (backplane)         Karl and Hector will be also responsible at CERN of the
+                                                        chemical etching of the amplification stage of the MSPC.
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                                  16
+The Prototype - Design
+                                                  SENSE strip
+                                                    (30 μm)
+
+                                         FIELD strip
+                                          (100 μm)
+
+                                          GLASS
+
+
+
+
+                                 10x10
+                                  cm2
+
+
+support
+  PCB
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber   17
+Work Packages
+
+                               Goals of the MSPC project is
+              st
+             1 YEAR - M2       ➔ to design, build and operate the 1st prototype of MSPC (10x10cm2)
+             2nd YEAR - D1     ➔ to build a real size MSPC detector (20x50cm2)
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                    18
+Work Packages
+
+                               Goals of the MSPC project is
+              st
+             1 YEAR - M2       ➔ to design, build and operate the 1st prototype of MSPC (10x10cm2)
+             2nd YEAR - D1     ➔ to build a real size MSPC detector (20x50cm2)
+
+
+M1
+
+M2
+D1
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                    19
+Work Packages
+
+                               Goals of the MSPC project is
+              st
+             1 YEAR - M2       ➔ to design, build and operate the 1st prototype of MSPC (10x10cm2)
+             2nd YEAR - D1     ➔ to build a real size MSPC detector (20x50cm2)
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                    20
+Work Packages
+
+                               Goals of the MSPC project is
+              st
+             1 YEAR - M2       ➔ to design, build and operate the 1st prototype of MSPC (10x10cm2)
+             2nd YEAR - D1     ➔ to build a real size MSPC detector (20x50cm2)
+
+
+
+
+ M4                                                                                            M3
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                    21
+Timeline
+
+
+
+
+                                             10x10cm2 prototypes                 20x50cm2 detector
+                                                       Total 1st year 73.9 k€.         Total 2nd year 61.9 k€.
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                          22
+Team Composition
+●     Main workforce
+      1.00 - M. Giovannetti (LNF - PI, AdR sr.)
+      1.00 - G. Zunica (LNF - AdR sr. Detector Development service @ LNF)
+      ……. - G. Cutrone (LNF summer student during 08/25, now Sapienza student,
+                          MsC thesis on MSPC from 06/26)
+●     Practical support:
+      0.20 - M. Poli Lener (LNF - gaseous detector expert)
+      0.20 - G. Morello (LNF - Sputtering machine tech. manager, mechanical expert)                 Zunica
+      0.05 - M. Beretta (LNF - unit head of Electronic & Automation service @ LNF)
+
+●     Scientific advisors:                                                            Cutrone
+      0.30 - G. Bencivenni (LNF - retiring on 04/26 - gaseous detector expert,
+                              head of Detector Development service @ LNF)
+      0.20 - P. De Simone (LNF - retiring on 09/26 - simulations and analysis)
+      0.15 - G. Felici (LNF - retired in ‘24 - FEE expert)
+
+      FTE total = 3.10 + MsC student
+
+                                                                                 Me             Bencivenni
+    2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                                 23
+Synergies
+                                                                             MPT Workshop at LNF - INFN
+                                                               Project of the “Detectors Development and Experimental
+The CERN-INFN Magnetron Sputtering machine (CID) is a
+                                                               Activities Support” service, commissioning from 2027-Q3.
+   key asset for this project. Exploring different MSPC
+                                                               Independent research unit and service for external (INFN) users.
+      stacking the CID team expertise will increase.
+                                                               Goals:
+                                                                 ●    Develop new MPGDs (prototypes)
+                                                                 ●    Foster technology development inside LNF through the
+ The CERN-MPT-Workshop is leader in developing new                    use of industrial techniques
+MPGD technologies (MSGC, GEM, MicroMegas, μ-RWELL)               ●    Be part of the international link of MPGD developer labs
+ and is actively involved in each INFN activity regarding             (CERN, Saclay, Bonn, JLab, USTC-Hefei)
+                         MPGDs.                                Technologies required:
+                                                                 ●    Material coating (DLC machine)
+                                                                        ○     Diamond-Like-Carbon (DLC), B4C, Cu, Al, Cr, Ti, …
+                                                                 ●    Material Patterning
+ Collaboration with existing industries: ELTOS S.p.A. is a              ○     Dry film deposition/patterning, DLC patterning
+consolidated INFN and CERN partner for developing PCBs                        (jet-scrubbing, brushing machine)
+ for electronics and Detectors. ELTOS is also engaged in         ●    Chemical Etching
+        the INFN EU project AIDAinnova/OTELLO.                          ○     Controlled removal of Cu Cr, Ti
+
+                                                             The MSPC could be manufactured at the LNF MPT Workshop
+
+2025/12/02       M. Giovannetti - The MacroStrip Proportional Chamber                                                             24
+                                                 Summary
+
+                    The MSPC concept merges MWPC robustness and simplicity with MPGD
+                    industrial photolithographic fabrication, enabling large-area tracking
+                    with O(100 μm) spatial resolution, O(10 ns) timing, O(10⁵ Hz/cm²) rate
+                    capability and a great reduction in assembly person-power.
+
+                    In the next two years I will lead the simulation, design, construction and
+                    test of prototypes, establishing a validated roadmap:
+                    from proof-of-concept to real detector.
+
+                    To carry on this project I will exploit consolidated INFN–LNF and CERN
+                    infrastructures, helped by a team with proven expertise in MWPC, GEM
+                    and μ-RWELL detectors and an industrial partner already proficient in
+                    MPGD photolithography.
+
+                    With this grant, MSPC will become a competitive option for HEP and
+                    non-HEP applications, providing a cost-effective, industrially scalable
+                    alternative to traditional wire chambers.
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                25
+                                                    SPARE
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber   26
+Spare - Budget and Costs
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber   27
+WP1: Mechanics, Design & Construction
+
+
+
+
+                                                            M. Giovannetti + G. Bencivenni
+                                                              ● Amplification stage design (T1.1, T1.6)
+                                                            G. Zunica + G. Morello
+                                                              ● Amplification stage production (T1.4, T1.8)
+                                                            G. Morello
+                                                              ● Mechanical Design (T1.2, T1.3,T1.7)
+                                                            full team
+                                                              ● Clean Room Assembly (T1.5)
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                             28
+WP1 - Possible MSPC conﬁgurations
+
+                                                                    with DLC
+
+
+
+
+                                                                     DLC - FR4
+
+
+
+
+                                                                    with DLC
+
+
+
+                                                                      DLC - FR4
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber            29
+WP2: Detector Simulation & Reconstruction
+
+
+
+
+                                G. Zunica
+                                 ● Detector Simulation (T2.1, T2.2)
+                                 ● Reconstruction Software (T2.3)
+                                & w/ M. Giovannetti
+                                 ● Data analysis (T2.4)
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber     30
+WP3: FEE Integration
+
+
+
+
+M. Giovannetti + G. Cutrone
+      Ortec readout chain (T3.1)
+M. Beretta + G. Felici
+      VTX FEE development and integration (T3.2, T3.3)
+                                                                              CREMAT for
+                                                                      APV25    uRANIA-V
+
+
+
+
+   VTX for sRPC
+
+
+
+ 2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                  31
+WP4: Prototypes test and validation
+
+
+
+
+G. Morello
+       Cosmic-ray stand design (T4.2)
+M. Giovannetti + G. Cutrone
+       Data taking (T4.1, T4.3)
+Full team
+       Beam test (T4.4)
+Cosmic-ray stand installed at LNF-DDG laboratory (T4.2)
+  ●  first measurements will be conducted using the ORTEC pre-amplifier connected to the OR-ed strips, to
+     quickly helps to find the optimal layout in terms of efficiency and stability
+  ●  further measurement will be carried out with the VTX-chain system (space and time resolution: T4.3)
+The same stand can be adapted for a beam test (T4.4)
+  ●   performed during the second year at the πM1 beam (PSI), in parasitic mode to LHCb setup (300 MeV/c
+      muon beam)
+
+
+
+ 2025/12/02     M. Giovannetti - The MacroStrip Proportional Chamber                                        32
+Risk Assessment
+
+        Event                                                Risk                                             Mitigation
+
+        Issues with amplification stage production on        Inability to produce detectors at CERN           This process is standard in other industries, such as [21,22,23], using a
+        glass (e.g.: delamination)                                                                            different techniques (e.g. laser etching). However, the offer could not be
+                                                                                                              available before September.
+
+        Issues with amplification stage production on        Inability to use glass as substrate              Use of flexible substrate (Kapton) glued over FR4 (standard MPGD
+WP1     glass (e.g.: delamination)                                                                            technology). Kapton can be fully etched in order to create other
+                                                                                                              microstructures.
+
+        Delay of the amplification stage for small area      Delay of the production of large area            Beam test will be performed with the small area detectors
+        detector                                             detectors and their beam test characterization
+
+        Material procurement for VTX FEE is delayed          Impossible to measure space resolution of        Cosmic-ray measurements will be performed with the Ortec 142 amplifier
+        over the first year                                  small area prototypes with cosmic-ray            and large area detector design will be accordingly chosen
+
+        Material procurement for VTX FEE is delayed          Impossible to use the VTX FEE for the beam       Beam test will be performed with APV25 FEE borrowed from other INFN
+WP2     over the second year                                 test                                             groups
+
+        The MSPC gas gain is too low and the VTX gain        Impossibility to measure the performance         The measurement can be done using Ortec 142 amplifier and APV25 FEE
+        is not enough to amplify the signals, resulting in   with the VTX FEE
+        a low S/N
+
+        Unavailability of beam time at PSI                   Inability to perform the beam test and           Beam time request at common Beam Test Facility at LNF (or DESY)
+WP4                                                          measure large area detector performance
+
+
+
+ 2025/12/02         M. Giovannetti - The MacroStrip Proportional Chamber                                                                                                          33
+Proof of operation - Alternative conﬁgurations tested
+
+
+
+
+             All FR4               ALL Sense wires + backplane       Cathodic-Sense wires     Cathodic-Sense wires +
+                                                                      but NO backplane         insulated backplane
+
+                                                                            Attempt to ensure maximum adhesion
+                                                                                   between wires and glass.
+                                                                          Even a tiny gap would create a zone with an
+                                                                                 electric field about 1MV/cm !!
+                                                                           This would increase the dark counts (with
+                                                                           strips this problem will NOT be present)
+
+
+2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                                               34
+The CERN-INFN DLC Sputtering Machine (CID)
+
+                    The CID (CERN-INFN-DLC) sputtering machine, a joint project between CERN and INFN, is used for
+                    preparing the base material of the detector. The potential of the sputtering machine is:
+                       ●    Flexible substrates up to 1.7×0.6m2
+                       ●    Rigid substrates up to 0.2×0.6m2
+                    In 2023-24, the activity on CID focused on the tuning of the machine on small foils: good results in
+                    terms of reproducibility and uniformity.
+                    In 2025
+                       ●    0.8×0.6m2 foils have been sputtered with DLC or DLC+Cu
+                       ●    5x5cm2 glass samples have been sputtered with DLC, Ti+Cu, Al, B4C
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber                                                          35
+The μ-RWELL TT
+
+
+
+
+2025/12/02   M. Giovannetti - The MacroStrip Proportional Chamber   36
+LHCb upgrade II (Run 5-6)
+
+LHCb muon RUN 5-6 option: μ-RWELL → Detector requirements:
+  ●   Efficiency (4 gaps) > 99% within BX (25 ns)
+  ●   Stability up to 1 C/cm2 accumulated charge in 10y of operation
+
+
+
+
+  2025/12/02      M. Giovannetti - The MacroStrip Proportional Chamber   37
+LNF MPT Workshop - Photolithographic processes
+
+        1 – APICAL 5/50/0 base material
+
+
+
+                                                                           6 – Wet Dry-film development
+        2 – DLC sputtering
+
+
+
+
+        3 – DLCed base material on PCB substrate                           7 – Cu etching
+
+
+
+
+        4 – Dry film lamination
+                                                                           8 – Unexposed Dry film stripping
+
+
+
+
+                                                                           9 – PI etching
+
+
+        5 – UV-exposure with negative mask
+
+
+2025/12/02          M. Giovannetti - The MacroStrip Proportional Chamber                                      38
+LNF MPT Workshop - Status and medium-term Schedule
+
+●    Preliminary project development: Nov 2024 – Jan 2025
+●    Project discussion with the LNF Director & the Head of the Research Div.: Feb 2025
+●    Selection of the laboratory space
+●    Clearing and cleaning of the premises: completed on April 15, 2025
+●    Identification of machinery and chemical materials: ongoing
+●    Meeting at ELTOS for final project definition: April 28, 2025
+●    1st discussion with the Technical Division and DIV-RIC Director: May 8, 2025
+
+●    Contacts with suppliers: ongoing
+●    Procurement of Phase-1 equipments: within 2025 (delivery within middle 2026)
+●    Refurbishment of the facility building:
+       ○   Design phase: within September 2025
+       ○   Renovation works: to be completed by end of 2026/mid-2027
+●    Commissioning of the facility: second half of 2027- first half 2028
+
+
+
+
+2025/12/02    M. Giovannetti - The MacroStrip Proportional Chamber                        39
+

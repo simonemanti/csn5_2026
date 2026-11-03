@@ -1,0 +1,1533 @@
+                   GeMINI:
+Cost Effective, Real time Machine Learning Powered
+   GermaniuM Detector System with Enhanced
+                DIrectioNality CapabIlity
+
+
+                     Ge
+
+
+                    MINI
+      PI: Dr. Fabrizio Napolitano
+      Laboratori Nazionali di Frascati, INFN
+
+              Audizione per bando
+        Grant Giovani INFN n. 25559/2023       Roma, 13/11/23
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                2                  13/11/23
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                3                  13/11/23
+  GeMINI
+                                          Project’s goal
+       • Germanium detectors, particularly coaxial High Purity Germanium
+         (HPGe) detectors, are frequently used in fundamental science and
+         societal applications, thanks to their unparalleled energy resolution
+         and high detection e ciency in a broad energy range.
+
+       • Typical monolithic HPGe detectors lack however the ability to
+         measure the direction of the incident radiation
+
+       • Incident gamma direction is crucial in various elds, including
+         nuclear & atomic physics, dark matter, environmental and medical
+         physics
+               Socio-economical
+                                                             Fundamental
+               and technological
+                                                               science
+
+
+
+ Environmental                  Medical
+                                                      Nuclear & atomic
+        Nuclear Security
+
+Dr. Fabrizio Napolitano                         4                          13/11/23
+                          ffi
+                                                        fi
+                           ciency in a broad energy range.
+
+• Typical monolithic HPGe detectors lack however the ability to
+  measure the direction of the incident radiation
+
+• Incident gamma direction is crucial in various elds, including
+  nuclear & atomic physics, dark matter, environmental and medical
+  physics
+
+GeMINI’s goal: develop, characterize and deploy a cost-e ective
+real-time high-rate ML technique with enhanced performance for
+estimating the direction of gamma radiation implemented on a
+HPGe detector system, signi cantly extending the physics and
+technological reach of these detectors. This will be achieved by a
+precise study and characterization of the detector’s pulse shapes
+and real-time ML on FPGA.
+            ffi
+                      fi
+                                               fi
+                                                        ff
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                6                  13/11/23
+  GeMINI      State of the art & GeMINI Innovative
+           AGATA Segmented key-features    2D CsI(Tl) array [3]
+                HPGe
+
+
+
+
+                               Gamma ray
+                                direction
+
+                                              Separate active volumes
+Segmented readout electrodes                   • Can use inexpensive
+ • Better spectroscopic performance              scintillators
+    • But capacitative coupling                • But poor spectroscopic
+ • Very expensive in terms of                    performance
+    • Cost, complexity, operation
+      interpretation
+ • Relegated to large collaborations
+
+Dr. Fabrizio Napolitano                7                    13/11/23
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+    • Idea of inferring the gamma radiation direction from pulse shapes in
+      HPGe’s pioneered by Gladen et. al. [12]
+
+
+
+
+   • They use a hybrid algorithmic-ML approach, claiming a 70% e ciency
+     in direction classi cation.
+
+
+
+
+Dr. Fabrizio Napolitano             8                             13/11/23
+                   fi
+                                                            ffi
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+    • Idea of inferring the gamma radiation direction from pulse shapes in
+      HPGe’s pioneered by Gladen et. al. [12]
+
+
+
+
+   • They use a hybrid algorithmic-ML approach, claiming a 70% e ciency
+     in direction classi cation.           However
+                                • Missing: general method to infer direction
+                                   • As a function of gamma’s energies
+                                   • As a function of detector rates
+                                • Missing angular resolution
+                                • Can exploit modern ML approach to pulse shape
+       σ(θ)≈32˚                   analysis (CNN, (V)AEs ) [13-15]
+                                • Have to run the analysis o ine
+Dr. Fabrizio Napolitano                  9                            13/11/23
+                   fi
+                          ffl
+                                                                ffi
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+       • GeMINI will provide a real-time, ML on-the-edge powered HPGe
+         detector system with directionality capabilities leveraging the state-
+         of-the-art of two worlds:
+
+
+
+
+    Underground Physics
+
+                     Pulse shape analysis with deep CNNs and VAEs
+
+Dr. Fabrizio Napolitano                10                           13/11/23
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+       • GeMINI will provide a real-time, ML on-the-edge powered HPGe
+         detector system with directionality capabilities leveraging the state-
+         of-the-art of two worlds:
+
+
+
+
+                             • Leverage already rich environment from LHC experiments:
+                                 • ML to FPGA framework hls4ml
+                                 • Quantisation aware model (QKeras Pruning)
+ High Energy Physics
+                             •
+
+
+
+
+    FPGA for triggering at
+         HL-LHC
+
+
+Dr. Fabrizio Napolitano                      11                                          13/11/23
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                12                 13/11/23
+  GeMINI
+                    GeMINI activities & timeline
+
+
+
+
+                          WP1: Detector setup and operation
+                          WP2: Front-end and FPGA setup
+                          WP3: Simulation and ML
+                          WP4: Dissemination
+Dr. Fabrizio Napolitano                 13                    13/11/23
+  GeMINI
+                     GeMINI activities & timeline
+
+
+
+
+                                                             Test full system at DAΦNE
+                                                                        or BTF [D1.3]
+
+                                                   Data taking at DAΦNE complex             [M1.3]
+                                                       Beam allocated until at least June
+
+
+
+
+   Setup test bench
+                          Data taking with Ba-133
+       [M1.1,D1.1]
+                            radioactive source
+                                [M1.2,D1.2]
+
+                          WP1: Detector setup and operation
+Dr. Fabrizio Napolitano                       14                                      13/11/23
+    GeMINI
+                              GeMINI activities & timeline
+
+
+
+
+                                                                                Test inexpensive FPGA
+                                                                                                       [M2.3]
+                                                                                    • Xilinx Zynq XC7Z020 SoC ( up to 5 kHz)
+
+                                                         Full DAQ chain
+
+
+                           FPGA
+
+
+    Setup test bench                                             [M2.2]
+               [M2.1]                           • Caen fast digital detector emulator DT5810
+• Virtex UltraScale+ VU9P (up to 200 kHz)       • Digitizer DT5725 (250 MS/s, 14 bits) 80MB/s optical link
+
+
+                                            WP2: Front-end and FPGA setup
+Dr. Fabrizio Napolitano                                        15                                             13/11/23
+      GeMINI
+                        GeMINI activities & timeline
+
+
+
+
+                                                 ML architecture
+                                                                                 Re ned
+                                                                              ML architecture
+         Simulations & o ine ML
+
+
+
+
+Simulation I made with SolidStateDetector.jl [20] of 100 KeV gamma hitting di erent regions of a coaxial HPGe
+                                       WP3: Simulation and ML
+Dr. Fabrizio Napolitano                               16                                        13/11/23
+ fi
+                  ffl
+                                                                         ff
+  GeMINI
+                    GeMINI activities & timeline
+
+
+
+
+                     Peer-review
+                     publication                        Final Workshop
+
+
+
+
+                                   WP4: Dissemination
+Dr. Fabrizio Napolitano                   17                             13/11/23
+  GeMINI
+                    GeMINI activities & timeline
+
+
+
+
+                             • At the end the GeMINI project will deliver
+                               a fully characterized system able to:
+
+                               • Measure real-time gamma direction
+                               • Angular resolution better than 30˚
+                               • Operate to up 200 kHz
+                               • D e m o n s t r a t e d i n r a d i a t i o n h a rd
+                                 environments
+                               • First-time ML on-the-edge for radiation
+                                 detectors
+Dr. Fabrizio Napolitano             18                                  13/11/23
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                19                 13/11/23
+  GeMINI
+                          Participating Institutions
+
+             Coordinating Unit: LNF-INFN
+           Take part in: test rig assembly and
+           test with source and at DAΦNE
+
+
+
+            University of Zagreb
+            Take part in: HPGe detector
+            and front-end electronic
+
+
+
+            University of Zurich
+            Take part in: ML for pulse
+            shape, simulations
+
+
+
+Dr. Fabrizio Napolitano                 20             13/11/23
+  GeMINI
+                          Participating Institutions
+
+                                                      Experience in radiation
+   P.I.
+                                   1.0                detectors and front-end
+
+                                                     Experienced el. engineer
+
+
+                                                      Experience in HPGe
+                                                      operation
+
+                  1.9
+                                                      Experience in ML and
+                                                      HPGe pulse shapes
+               Groups involved:
+
+                                          Rich team with decade-long
+                                          experience dealing with HPGe at
+                                          LNF and LNGS
+Dr. Fabrizio Napolitano                  21                     13/11/23
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                22                 13/11/23
+  GeMINI
+
+                   Timeline & Financial requests
+       Total cost : 214 k€ - external funding 120 k€
+
+               Type            Total                  Year 1                               Year 2
+
+      Instrumentation          52 k€                     46 k€                                 6 k€
+                                                    (digitizers, FPGA, PC)               (digitizers, 2nd FPGA)
+
+
+
+
+                                                         12 k€                                11 k€
+       Consumables             23 k€             (sources, shield, SW license,           (sources, SW license,
+                                                     cables & connectors)                    suspensions)
+
+
+
+
+                                                          5 k€                                10 k€
+              Missions         15 k€           (To Zagreb for R/O Electronic and    (To Zagreb for R/O Electronic and
+                                                       to Zurch for ML)                     to Zurch for ML)
+
+
+
+
+        Other costs             4 k€                      1 k€                                 3 k€
+                                                     (Maintenance HPGe)            (Maintenance HPGe, nal workshop)
+
+
+
+
+       Total Request           94 k€                     64 k€                                30 k€
+
+
+Dr. Fabrizio Napolitano                   23                                                        13/11/23
+         fi
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                24                 13/11/23
+          GeMINI
+                                            PI: Fabrizio Napolitano
+                                            What quali es me for GeMINI
+              • M.Sc. and PhD in particle physics at Universität Heidelberg (DE)
+              • Now assegnista senior @ INFN-LNF
+              • Coordinator of 2 laurea thesis                    Author of 350+ PR papers      •
+                                                               Experiments:
+                                2015-2020                                2020-                           2020-
+
+     • L1Calo on-call
+     • Jet substructure
+                               ATLAS                         SIDDHARTA-2                                VIP-2
+                           PhD: Dark Matter in   • Co-responsible Luminometer • Test of scintillators   • Responsible for data analysis
+                           extreme kinematic     • Run Coordinator               @ BTF                  • Machine Learning
+                                regimes          • Resp. for online monitoring • HPGe operation @       • SDDs operation & monitoring
+                                                 • Commissioning of SDDs         DAΦNE
+                                                   (installation, test, operation)
+
+               • Organizing a workshop on Machine Learning next week in Trento
+                 ( nanced by ECT* after competitive selection)
+
+
+
+
+      Dr. Fabrizio Napolitano                                            25                                         13/11/23
+fi
+                      fi
+  GeMINI
+                          PI: Fabrizio Napolitano
+                      What quali es me for GeMINI
+     • Experience with ML-based pulse shape
+       discrimination of Germanium detector (GeMPI)
+       at LNGS
+     • Experience with development of novel ML
+       approaches
+
+
+     • Experience with radiation
+       detectors (kaonic atoms
+       and foundation of QM):
+
+
+    • Germanium (HPGe and BEGe)
+       • Operation and monitoring         • Silicon Drift Detectors (SDD):
+       • Search for new physics              • Installation and characterization
+                                             • Front-end
+                                             • Kaonic atoms measurements
+
+Dr. Fabrizio Napolitano              26                          13/11/23
+           fi
+  GeMINI
+                      Outline of the presentation
+                                 Project’s goal
+
+                   State of the art & GeMINI Innovative
+                               key-features
+
+                          GeMINI activities & timeline
+
+                           Participating Institutions
+
+                              Financial requests
+
+                             PI short presentation
+
+                                    Impact
+Dr. Fabrizio Napolitano                27                 13/11/23
+  GeMINI
+                                  Impact
+     Socio-economic                                 Fundamental Physics
+   Radioactive                                     Nuclear & atomic
+  safety control                                       physics
+                                 e MINI
+ Nuclear safety [11,32]        G                      Bellotti IBF [35]
+                                                   DA#NE$%&'()$JPARC, PSI
+                                σ(θ) < 30˚
+    Socio-economic                                    Fundamental Physics
+                               Rates  up
+                                Gamma ray
+                                           to
+ Environmental                  200   kHz
+                                 direction              Dark Matter
+Ultra-low level gamma           factor > 2             Exotic Decays [34]
+spectroscopy [27,28]                                         LNGS
+                                 in S/!"
+            Socio-economic                        Fundamental Physics
+
+             Medical                               Fundamental
+           Orto-positronium:
+                                                    symmetries
+              PET [30,33]                          Orto-positronium:
+                                                C,CP,CPT symmetries [33]
+Dr. Fabrizio Napolitano             28                      13/11/23
+  GeMINI
+                                         Impact
+     Socio-economic                                       Fundamental Physics
+   Radioactive                            H TS           Nuclear & atomic
+                                     H LIG
+  safety control                 HIG                         physics
+                                    e MINI
+ Nuclear safety [11,32]           G                         Bellotti IBF [35]
+                                                         DA#NE$%&'()$JPARC, PSI
+                                    σ(θ) < 30˚
+    Socio-economic                                          Fundamental Physics
+                                   Rates  up
+                                    Gamma ray
+                                               to
+ Environmental                      200   kHz
+                                     direction                Dark Matter
+Ultra-low level gamma               factor > 2               Exotic Decays [34]
+spectroscopy [27,28]                                               LNGS
+                                     in S/!"
+            Socio-economic                              Fundamental Physics
+
+             Medical
+                 Search for the decay of 180m Ta         Fundamental
+                       with an ultra-low-background
+           Orto-positronium: HPGe detector
+                                                          symmetries
+              PET [30,33]                                Orto-positronium:
+                                                      C,CP,CPT symmetries [33]
+Dr. Fabrizio Napolitano                   29                      13/11/23
+  GeMINI
+                                      Impact
+     Socio-economic                                 Fundamental Physics
+   Radioactive                          H TS       Nuclear & atomic
+                                  H  LIG
+  safety control               HIG                     physics
+                                 e MINI
+ Nuclear safety [11,32]        G                      Bellotti IBF [35]
+                                                   DA#NE$%&'()$JPARC, PSI
+                                 σ(θ) < 30˚
+    Socio-economic                                    Fundamental Physics
+                                Ratesrayup to
+ Environmental                   200 kHz                Dark Matter
+Ultra-low level gamma            factor > 2            Exotic Decays [34]
+spectroscopy [27,28]                                         LNGS
+                                  in S/!"
+            Socio-economic                        Fundamental Physics
+
+             Medical                               Fundamental
+           Orto-positronium:
+                                                    symmetries
+              PET [30,33]                          Orto-positronium:
+                                                C,CP,CPT symmetries [33]
+Dr. Fabrizio Napolitano                 30                  13/11/23
+  GeMINI
+                                       Impact
+     Socio-economic                                       Fundamental Physics
+   Radioactive                           H TS            Nuclear & atomic
+                                   H  LIG
+  safety control                HIG                          physics
+                                   e MINI
+ Nuclear safety [11,32]          G                          Bellotti IBF [35]
+                                                         DA#NE$%&'()$JPARC, PSI
+                                   σ(θ) < 30˚
+    Socio-economic                                          Fundamental Physics
+                                  Ratesrayup to
+ Environmental                     200 kHz                    Dark Matter
+Ultra-low level gamma              factor > 2                Exotic Decays [34]
+spectroscopy [27,28]                                               LNGS
+                                    in S/!"
+            Socio-economic                              Fundamental Physics
+
+             Medical                                     Fundamental
+                           Kaon mass measurement at
+           Orto-positronium:
+                                                          symmetries
+              PET [30,33]    DA#NE$%&'($*+$JPARC         Orto-positronium:
+                                                      C,CP,CPT symmetries [33]
+Dr. Fabrizio Napolitano                  31                       13/11/23
+  GeMINI
+                                         Impact
+     Socio-economic                                   Fundamental Physics
+   Radioactive                        LIG
+                                         H TS        Nuclear & atomic
+                                   G H
+  safety control               H I
+                                                         physics
+                                 e MINI
+ Nuclear safety [11,32]        G                        Bellotti IBF [35]
+                                                     DA#NE$%&'()$JPARC, PSI
+                                  σ(θ) < 30˚
+    Socio-economic                                      Fundamental Physics
+                                 Rates  up
+                                  Gamma ray
+                                             to
+ Environmental                    200   kHz
+                                   direction              Dark Matter
+Ultra-low level gamma              factor > 2            Exotic Decays [34]
+spectroscopy [27,28]                                           LNGS
+                                    in S/!"
+            Socio-economic                          Fundamental Physics
+
+             Medical                                 Fundamental
+           Orto-positronium:
+                                                      symmetries
+              PET [30,33]                            Orto-positronium:
+                                                  C,CP,CPT symmetries [33]
+Dr. Fabrizio Napolitano                   32                  13/11/23
+  GeMINI
+                               Concluding Remarks
+    • GeMINI develops and innovative ultra fast on the edge ML approach
+      on FGPA boards to unlock the true capabilities of HPGe detectors
+    • To achieve this, we leverage the best of two worlds: HEP and
+      Underground physics
+    • As PI, I have years of experience in algorithm design, machine learning
+      data analysis, as well as team leading and managerial skills;
+      GeMINI can boost my future career
+    • GeMINI introduces a new technology, path nder to deeper understating
+      of these excellent detectors, inside INFN and in concert with world-
+      leading institution (University of Zurich and University of Zagreb)
+    • GeMINI will realize a demonstration through a preliminary measurement
+      with radioactive sources and at the LNF accelerator complex (DAΦNE/
+      BTF), with high scienti c impact
+    • Within GeMINI, a wealth of experimental e orts will be able to bene t a
+      great increase in sensitivity at a low cost
+
+Dr. Fabrizio Napolitano                33                          13/11/23
+                          fi
+                                            ff
+                                                 fi
+                                                                    fi
+  GeMINI
+
+
+
+
+                  Many thanks for your attention!
+
+                           Questions?               Ge
+
+
+
+                                                MINI
+Dr. Fabrizio Napolitano          34                 13/11/23
+  GeMINI
+                                                                         References
+     [1] Directionality for wearable, closely packed radiation detector arrays Britt et al. - Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+     Spectrometers, Detectors and Associated Equipment - 2021 https://www.sciencedirect.com/science/article/pii/S0168900220311050
+
+     [2] Low-activity gamma source direction detection system based on NaI scintillator detector Sheng et al. - Measurement - 2023 https://www.sciencedirect.com/
+     science/article/pii/S026322412201569X
+
+     [3] A two-dimensional array detector for determining the direction to gamma-ray source Zhao et al. - Nuclear Instruments and Methods in Physics Research
+     Section A: Accelerators, Spectrometers, Detectors and Associated Equipment - 2022 https://www.sciencedirect.com/science/article/pii/S0168900222004260
+
+     [4] A Multi-Step Machine Learning Approach to Directional Gamma Ray Detection Durbin et al. - 2020 IEEE Nuclear Science Symposium and Medical Imaging
+     Conference (NSS/MIC) - 2020 https://ieeexplore.ieee.org/document/9507918
+
+     [5] Radiation measurement and imaging using 3D position sensitive pixelated CZT detector Kim et al. - Nuclear Engineering and Technology - 2019 https://
+     www.sciencedirect.com/science/article/pii/S1738573318305461
+
+     [6] Full-volume characterization of an AGATA segmented HPGe gamma-ray detector using a $$^{152}Eu$$ source De Canditiis et al. - The European Physical
+     Journal A - 2021 https://link.springer.com/article/10.1140/epja/s10050-021-00537-1
+
+     [7] Tracking $ \gamma$ rays in highly segmented HPGe detectors: A review of AGATA and GRETINA Korichi & Lauritsen - The European Physical Journal A - 2019
+     https://link.springer.com/article/10.1140/epja/i2019-12787-1
+
+     [8] Bruyneel B, Reiter P, Wiens A, et al. Crosstalk corrections for improved energy resolution with highly segmented HPGe-detectors. Nucl Instrum Methods Phys
+     Res Sect Accel Spectrometers Detect Assoc Equip 2009; 608: 99–106.
+
+     [9] Bruyneel B, Reiter P, Wiens A, et al. Crosstalk properties of 36-fold segmented symmetric hexagonal HPGe detectors. Nucl Instrum Methods Phys Res Sect
+     Accel Spectrometers Detect Assoc Equip 2009; 599: 196–208.
+
+     [10] Bucher TD, Noncolela SP, Lawrie EA, et al. Proportional crosstalk correction for the segmented clover at iThemba LABS. Phys Scr 2017; 92: 114004.
+
+     [11] Segmented HPGe detectors for post-irradiation examination of nuclear fuel Design and demonstration in gamma emission tomography VIKRAM RATHORE,
+     Uppsala Universitet http://uu.diva-portal.org/smash/get/diva2:1748604/FULLTEXT01.pdf
+
+     [12] Implementation of a machine learning technique for estimating gamma direction using a coaxial High Purity Germanium detector Gladen et al. - Nuclear
+     Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment - 2022 https://
+     www.sciencedirect.com/science/article/pii/S0168900222004879
+
+     [13] Pulse shape analysis in Gerda Phase II Agostini et al. - The European Physical Journal C - 2022 https://link.springer.com/article/10.1140/epjc/
+     s10052-022-10163-w
+
+     [14] Deep learning based pulse shape discrimination for germanium detectors Holl et al. - The European Physical Journal C - 2019 https://link.springer.com/article/
+     10.1140/epjc/s10052-019-6869-2
+
+     [15] Pulse shape discrimination using a convolutional neural network for organic liquid scintillator signals Jung et al. - Journal of Instrumentation - 2023 https://
+     iopscience.iop.org/article/10.1088/1748-0221/18/03/P03003/meta
+
+     [16] Revisiting the Charged Kaon Mass Bosnar et al. - Acta Physica Polonica B - 2020 https://inspirehep.net/files/25995ee6b7fbb31aaf120887b4a6487c
+
+     [17] FPGA-Accelerated Machine Learning Inference as a Service for Particle Physics Computing Duarte et al. - Computing and Software for Big Science - 2019
+     https://cds.cern.ch/record/2695229/files/Duarte2019_Article_FPGA-AcceleratedMachineLearnin.pdf
+
+     [18] Ultra-low latency recurrent neural network inference on FPGAs for physics applications with hls4ml Khoda et al. - Machine Learning: Science and Technology -
+     2023 https://iopscience.iop.org/article/10.1088/2632-2153/acc0d7
+
+
+Dr. Fabrizio Napolitano                                                                    35                                                                        13/11/23
+  GeMINI
+                                                                       References
+     [19] Briefly Analysis about CNN Accelerator based on FPGA Wang et al. - Procedia Computer Science - 2022 https://www.sciencedirect.com/science/article/pii/
+     S1877050922005701
+
+     [20] Simulation of semiconductor detectors in 3D with SolidStateDetectors.jl Abt et al. - Journal of Instrumentation - 2021 https://iopscience.iop.org/article/
+     10.1088/1748-0221/16/08/P08007/pdf
+
+     [21] Fast convolutional neural networks on FPGAs with hls4ml Aarrestad et al. - Machine Learning: Science and Technology - 2021 https://iopscience.iop.org/
+     article/10.1088/2632-2153/ac0ea1
+
+     [22] Novel Machine Learning and Differentiable Programming Techniques applied to the VIP-2 Underground Experiment, Napolitano et al. https://arxiv.org/abs/
+     2305.17153
+
+     [23] The modern era of light kaonic atom experiments Curceanu et al. - Reviews of Modern Physics - 2019 https://journals.aps.org/rmp/abstract/10.1103/
+     RevModPhys.91.025006
+
+     [24] https://agenda.infn.it/event/25725/timetable/?view=standard#12-kaon-mass-through-kaonic-at
+
+     [25] Beam energy determination in experiments at electron-positron colliders Achasov & Muchnoi - Journal of Instrumentation - 2014 https://iopscience.iop.org/
+     article/10.1088/1748-0221/9/06/C06011
+
+     [26] N. Seiberg and E. Witten, “String theory and noncommutative geometry,” JHEP 09, 032 (1999).
+
+     [27] https://agenda.infn.it/event/9213/contributions/77947/attachments/56496/66699/iaps_presentation_stella_150508_f.pdf
+
+     [28] Gator: a low-background counting facility at the Gran Sasso Underground Laboratory Baudis et al. - Journal of Instrumentation - 2011 https://
+     iopscience.iop.org/article/10.1088/1748-0221/6/08/P08010
+
+     [29] https://www.lngs.infn.it/en/pagine/bellotti-facility-en
+
+     [30] Modeling Positronium induced background in the time-of-flight (TOF) spectra of positron induced secondary electrons using Monte Carlo methods, Varghese
+     et al. https://ui.adsabs.harvard.edu/abs/2022APS..MARG00163C/abstract
+
+     [31] https://www.ortec-online.com/-/media/ametekortec/brochures/t/trans-spec-dx-100t-a4.pdf?la=en&revision=2644999d-812a-4f1b-b57d-41b448b8764e
+
+     [32] RadMAP: The Radiological Multi-sensor Analysis Platform Bandstra et al. - Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+     Spectrometers, Detectors and Associated Equipment - 2016
+     https://www.sciencedirect.com/science/article/pii/S0168900216309780
+
+     [33] The J-PET detector—a tool for precision studies of ortho-positronium decays https://doi.org/10.1016/j.nima.2021.165452
+
+     [34] Deep-underground search for the decay of 180m Ta with an ultra-low-background HPGe detector EPJC https://doi.org/10.1140/epjc/s10052-023-12087-5
+
+     [35] Underground study of the 17 O( p,γ )18 F reaction relevant for explosive hydrogen burning PRC https://journals.aps.org/prc/pdf/10.1103/PhysRevC.89.015803
+
+
+
+
+Dr. Fabrizio Napolitano                                                                  36                                                                     13/11/23
+  GeMINI
+
+                              Timeline & Financial requests
+         DT5810B                                  €12,392.54   €12,392.54        €0.00 Preventivo 1
+
+         “ Warranty                                €1,022.07    €1,022.07        €0.00 Preventivo 1
+
+         DT5725S                                   €5,924.10        €0.00    €5,924.10 Preventivo 1
+
+         “ Warranty                                 €488.59         €0.00     €488.59 Preventivo 1
+
+         DT5725SB                                  €7,430.57    €7,430.57        €0.00 Preventivo 1
+
+         “ Warranty                                 €612.83      €612.83         €0.00 Preventivo 1
+
+         XpressVUP FPGA                           €10,728.08   €10,728.08        €0.00 Preventivo 2
+
+         Low cost FPGA                             €2,000.00    €2,000.00        €0.00
+
+         Computer DAQ                              €2,000.00    €2,000.00        €0.00
+
+         Computer FPGA Bizon                       €7,370.22    €7,370.22        €0.00 Preventivo 3
+
+         NVIDIA RTX                                €2,000.00    €2,000.00        €0.00
+
+         Subtotal Instrumentations                €51,968.99   €45,556.31    €6,412.69
+
+         Cables and connectors                     €2,000.00    €1,000.00    €1,000.00
+
+         Mechanical structure                      €2,000.00    €2,000.00        €0.00
+
+         Cryogenic nitrogen                        €2,000.00    €1,000.00    €1,000.00
+
+         Software licence                          €2,000.00    €1,000.00    €1,000.00
+
+         Acustic panels                            €2,000.00        €0.00    €2,000.00
+
+         Suspensions                               €1,215.12    €1,215.12        €0.00 Preventivo 4
+
+         Lead shielding                            €2,000.00    €1,000.00    €1,000.00
+
+         Radiative sources                         €9,955.20    €5,000.00    €4,955.20 Preventivo 5
+
+         Subtotal Consumables                     €23,170.32   €12,215.12   €10,955.20
+
+         Missions                                 €15,000.00    €5,000.00   €10,000.00
+
+         Maintenance HPGe                          €2,000.00    €1,000.00    €1,000.00
+
+         Final workshop                            €2,000.00        €0.00    €2,000.00
+
+         Total                                    €94,139.31   €63,771.43   €30,367.89
+
+
+
+Dr. Fabrizio Napolitano              Total cost : 94kEur 37                                   13/11/23
+  GeMINI
+
+
+      Project budget:
+      The total cost of the project is: 214 kEuro
+      The total request for the project is: 94 kEuro in 2 years
+      The remaining part, 120 kEuro is insured by already existing resources as in-kind contribution from the participating institutions, as:
+       •        - Baltic Scientific Instruments coaxial p-type HPGe, model GCD-30185: 100 kEuro
+
+       •         - Caen 1CH HV Programmable Power Unit: 5 kEuro
+
+       •         - Caen N8315 NIM Power Supply 150W: 5 kEuro
+
+       •         - Simulation software and person power: 10 kEuro
+
+
+    • Instrumentation: 52 kEuro
+       1. DT5810B Dual channel FAST Digital Detect or Emulator with channel correlation: 10.157,84 + 837,76 (warranty) + IVA22
+
+       2. DT5725S - 8 Ch. 14 bit 250 MS/s Digitizer, 640 kS/ch: 4855,82 + 400,48 (warranty) + IVA22
+
+       3. DT5725SB - 8 Ch. 14 bit 250 MS/s Digitizer, 5.12 MS/ch: 6090,63 + 502,32 (warranty) + IVA22
+
+       4. XpressVUP - LP9P Low-profile PCIe Network Processing FPGA Board Featuring 2 x 100G Ethernet: 8793,51 + IVA22
+
+       5. Low-cost FPGA board: 2kEuro
+
+       6. Computer DAQ: 2 kEuro
+
+       7. Computer for ML deployment on the FPGA and simulations: BIZON X5500: 7370,22
+          Euro
+
+       8. NVIDIA RTX series GPU: 2kEuro
+
+
+
+
+Dr. Fabrizio Napolitano                                                 38                                                    13/11/23
+  GeMINI
+
+                           Consumables: 23 kEuro
+                               1. Cables and connectors: 2kEuro
+
+                               2. Mechanical construction: 2kEuro
+
+                               3. Cryogenic nitrogen: 2kEuro
+
+                               4. Software licenses: 2kEuro
+
+                               5. Suspensions for low-vibration base of HPGe (8x): 1.2kEuro
+                               6. Acustic panels for microphonic effect reduction: 2kEuro
+
+                               7. Lead shielding: 2kEuro
+
+                               8. Radioactive sources for calibration: 10kEuro. All the radioactive sources will be
+                                  purchased in collaboration with the LNF radio protection service
+
+
+
+
+                          Travel expenses: 15 kEuro
+                          Travel expenses for:
+                            •       - 2 missions to Zagreb for readout electronics: 2kEuro
+
+                           •          - 4 missions to Zurich for work on ML FPGA model: 6kEuro
+
+                           •          - Test at LNF: 2 persons for 10 days for test at DAFNE: 7kEuro
+                                 Other costs:
+                           1. Maintenance HPGe: 2 kEuro
+
+                           2. Organization of final workshop: 2kEuro
+
+
+
+
+Dr. Fabrizio Napolitano                                     39                                                   13/11/23
+  GeMINI
+
+
+
+
+For the first year of the project, the request is of 64 kEuro, the following items being requested (the remaining
+items are for the second year of the project):
+
+         Instrumentation: 46 kEuro
+          1. DT5810B Dual channel FAST Digital Detect or Emulator with channel correlation: 10.157,84 + 837,76 (warranty) + IVA22
+
+          2. DT5725SB - 8 Ch. 14 bit 250 MS/s Digitizer, 5.12 MS/ch: 6090,63 + 502,32 (warranty) + IVA22
+
+          3. XpressVUP - LP9P Low-profile PCIe Network Processing FPGA Board Featuring 2 x 100G Ethernet: 8793,51 + IVA22
+
+          4. Computer DAQ: 2 kEuro
+
+          5. Computer for ML deployment on the FPGA and simulations: BIZON X5500: 7370,22
+             Euro
+
+         Consumables: 12 kEuro
+          1. Cables and connectors: 1kEuro
+
+          2. Mechanical construction: 2kEuro
+
+          3. Cryogenic nitrogen: 1kEuro
+
+          4. Software license: 1kEuro
+
+          5. Suspensions for low-vibration base of HPGe (8x): 1.2kEuro
+
+          6. Lead shielding: 1kEuro
+
+          7. Radioactive sources: 5kEuro
+
+
+
+
+Dr. Fabrizio Napolitano                                            40                                                 13/11/23
+  GeMINI
+
+
+
+                          Travel expenses: 5 kEuro
+                          Travel expenses for:
+
+                           •        - 2 missions to Zagreb for readout electronics: 2kEuro
+
+
+                           •        - 2 missions to Zurich for ML FPGA model: 3kEuro
+                               Other costs: 1 kEuro
+
+                          1. Maintenance HPGe: 1 kEuro
+
+
+
+
+Dr. Fabrizio Napolitano                                  41                                  13/11/23
+  GeMINI
+                                    GeMINI activities
+
+
+
+
+• Understanding the underlying physics processes of pulse shapes: simulations
+
+
+
+
+Simulation I made with SolidStateDetector.jl [20] of 100 KeV gamma hitting di erent regions of a coaxial HPGe
+Dr. Fabrizio Napolitano                               42                                        13/11/23
+                                                                         ff
+  GeMINI
+                          GeMINI activities
+
+
+
+
+     • Train model based on data and simulation on GPU
+     • HPGe test rig: Virtex UltraScale+ VU9P (up to 200 kHz)
+        • Xilinx Zynq XC7Z020 SoC ( up to 5 kHz)
+     • Caen fast digital detector emulator DT5810
+     • Digitizer DT5725 (250 MS/s, 14 bits) 80MB/s optical link
+     • Leverage already rich environment from LHC experiments:
+        • ML to FPGA framework hls4ml
+        • Quantisation aware model (QKeras Pruning)
+
+Dr. Fabrizio Napolitano               43                          13/11/23
+  GeMINI
+                          GeMINI activities
+      • System characterization at LNF with:
+         • Radioactive sources (Ba-133 to benchmark against Gladen et al.)
+           at various angles, spanning the entire operational range of the
+           HPGe detector.
+         • At the DAΦNE collider: high count rates and possibly measure of
+           kaonic lead lines
+
+
+
+
+Dr. Fabrizio Napolitano               44                         13/11/23
+  GeMINI
+
+                   Timeline & Financial requests
+
+
+
+
+                          WP1: Detector setup and operation
+                          WP2: Front-end and FPGA setup
+                          WP3: Simulation and ML
+                          WP4: Dissemination
+Dr. Fabrizio Napolitano                 45                    13/11/23
+  GeMINI
+
+                   Timeline & Financial requests
+
+
+
+
+Dr. Fabrizio Napolitano          46                13/11/23
+  GeMINI
+
+                   Timeline & Financial requests
+
+
+
+
+Dr. Fabrizio Napolitano          47                13/11/23
+  GeMINI
+
+                   Timeline & Financial requests
+
+
+
+
+Dr. Fabrizio Napolitano          48                13/11/23
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+         • Determining the gamma ray direction is a challenging
+           task, so far achieved through multiple detection
+           volumes or readout channels
+
+         • Inexpensive scintillator can be employed in larger
+           numbers in arrays, however they o er poor
+           performances in terms of energy resolution with
+           respect to HPGe, unusable where precise spectral          2D CsI(Tl) array [3]
+           properties have to be determined.
+
+                      • HPGe detectors can be manufactured with segmented
+                        geometries of the contact electrodes to obtain spatially
+                        resolved readouts.
+
+                     • However, due to high cost, complexity in setup operation
+                       and interpretation relegate them in large collaboration
+                       (e.g. AGATA/GRETINA/GRETA). Moreover capacitive
+                       coupling known to partially degrade spectroscopic
+AGATA Segmented
+     HPGe              response.
+Dr. Fabrizio Napolitano                  49                         13/11/23
+                                              ff
+  GeMINI      State of the art & GeMINI Innovative
+                          key-features
+    • Idea of inferring the gamma radiation direction from pulse shapes in
+      HPGe’s pioneered by Gladen et. al. [12]
+
+
+
+
+   • They use a hybrid algorithmic-ML approach, claiming a 70% e ciency
+     in direction classi cation.           However
+                                • Missing: general method to infer direction
+                                   • As a function of gamma’s energies
+                                   • As a function of detector rates
+                                • Missing angular resolution
+                                • Can exploit modern ML approach to pulse shape
+                                  analysis (CNN, (V)AEs ) [13-15]
+                                • Have to run the analysis o ine
+Dr. Fabrizio Napolitano                 50                            13/11/23
+                   fi
+                          ffl
+                                                                ffi
+       GeMINI
+                               PI: Fabrizio Napolitano
+                               What quali es me for GeMINI
+
+          • M.Sc. and PhD in particle physics at Universität Heidelberg (DE)
+          • Now assegnista senior @ INFN-LNF
+          • Coordinator of 2 laurea thesis
+          • Co-responsible for SIDDHARTA-2’s Luminometer detector system at
+            DAΦNE
+          • SIDDHARTA-2 Run Coordinator
+          • Responsible for online monitoring of SIDDHARTA-2 experiment
+          • Responsible analysis for VIP-2 experiment at LNGS
+          • Organizing a workshop on Machine Learning next week in Trento
+            ( nanced by ECT* after competitive selection)
+
+
+
+
+     Dr. Fabrizio Napolitano                  51                 13/11/23
+fi
+                fi
+  GeMINI
+                                       Impact
+   • GeMINI will allow gain on S/!"$*,$-$,-./*+$*,$
+     /0*$ 01/2$ +3453./$ /*$ -$ 464/37$ 01/2*8/$ -9:8;-+$
+     43;3./1*9
+       • <=39$ :+3-/3+$ 1,$ >-.?:+*89@$ 5+3@*719-9/$
+         ,+*7$ *93$ @1+3./1*9$ A3B:B$ >3-7C19@8.3@$
+         >-.?:+*89@D
+  • Bene t where a HPGe is used to measure a
+    source from a point-like source
+     • DAΦNE: kaon mass measurements
+     • Searches for new physics at LNGS
+     • Ultra low level gamma spectroscopy:
+       STELLA [27] and Gator [28] facilities
+     • High rate, high precision measurement of
+       rare nuclear processes: Bellotti Ion Beam
+       Facility (LUNA)
+     • Orto-positronium annihilation
+Dr. Fabrizio Napolitano                   52                13/11/23
+    fi
+  GeMINI
+                                  Impact
+            Example: E;/+-$;*0$;3=3;$:-77-$453./+*4.*56F$GH<IIJ$%KL(
+
+                                                Gamma
+                                             direction from
+                                                 source
+
+
+
+
+                                                              Source
+
+
+
+
+                                                   Gamma
+                                                  direction
+                                                environmental
+                                                 background
+
+
+
+
+Dr. Fabrizio Napolitano              53                                13/11/23
+  GeMINI
+                                           Impact
+            Example: E;/+-$;*0$;3=3;$:-77-$453./+*4.*56F$GH<IIJ$%KL(
+      Search for the decay of 180m Ta with an ultra-low-background HPGe detector
+
+
+
+
+         Implication to Dark Matter and
+          Beyond the standard model
+
+
+
+
+                          https://doi.org/10.1140/epjc/s10052-023-12087-5
+
+Dr. Fabrizio Napolitano                        54                           13/11/23
+  GeMINI
+                                      Impact
+                          Example: MJ#N<$?-*9$7-44$73-48+3739/$
+
+
+
+
+              Target
+
+                                                    Interaction Point
+
+
+
+
+                       HPGe
+
+
+
+
+Dr. Fabrizio Napolitano                  55                             13/11/23
+  GeMINI
+                                      Impact
+                          Example: MJ#N<$?-*9$7-44$73-48+3739/$
+
+
+
+
+              Target
+
+                                                    Interaction Point
+
+                                                                    Beam-induced
+                                                                       gamma
+                                                                     background
+                                                                      direction
+                       HPGe
+
+
+
+
+Dr. Fabrizio Napolitano                  56                             13/11/23
+  GeMINI
+                                      Impact
+                          Example: MJ#N<$?-*9$7-44$73-48+3739/$
+
+
+
+
+Dr. Fabrizio Napolitano                  57                       13/11/23
+  GeMINI
+                                       Impact
+                Example: LUNA / Bellotti Ion Beam Facility (LNGS)
+
+
+
+
+                https://journals.aps.org/prc/pdf/10.1103/PhysRevC.89.015803
+Dr. Fabrizio Napolitano                       58                           13/11/23
+  GeMINI
+                                       Impact
+                 Example: LUNA / Bellotti Ion Beam Facility (LNGS)
+
+
+
+  Beam-induced
+     gamma
+   background
+    direction
+
+
+
+
+                                                                    Gamma
+                                                                   direction
+                                                                 environmental
+                                                                  background
+                                         Signal
+                                        gamma
+                                        direction
+
+
+
+
+                https://journals.aps.org/prc/pdf/10.1103/PhysRevC.89.015803
+Dr. Fabrizio Napolitano                       59                           13/11/23
+  GeMINI
+                                         Impact
+                Example: LUNA / Bellotti Ion Beam Facility (LNGS)
+                17O(p,γ)18F reaction relevant for explosive hydrogen burning
+
+
+                               Signals
+
+
+
+
+                                     Lower energy: background
+
+
+                       O P-9$ :+3-/;6$ 175+*=3$ /23$ */23+0143$
+                         19.*75+3441>1;3$41:9-;C/*C>-.?:+*89@$
+
+                https://journals.aps.org/prc/pdf/10.1103/PhysRevC.89.015803
+Dr. Fabrizio Napolitano                       60                           13/11/23
+  GeMINI
+                                       Impact
+                       • <9=1+*9739/$-9@$98.;3-+$4-,3/6F
+                     Q3-;$/173$@1+3./1*9-;1/6$0*8;@$-;;*0$R81.?3+$-9@$S
+                     7*+3$3,,3./1=3$4*8+.3$1@39/1,1.-/1*9
+
+
+
+
+                                                                             Gamma
+                                                                            direction
+                                                      Signal              environmental
+                                                     gamma                 background
+                                                     direction
+
+
+
+
+      O T1:2$ @37-9@$ *,$ R81.?$ U$ 5+3.143$
+        @3/3./*+4$,*+$/2+3-/4$@14.*=3+6$
+
+
+
+Dr. Fabrizio Napolitano                   61                              13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   62   13/11/23
+  GeMINI
+
+                                 FPGA performances
+
+
+
+
+              https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1/pdf
+Dr. Fabrizio Napolitano                     63                             13/11/23
+  GeMINI
+
+                                    FPGA performances
+                          Pruning                           Quantisation
+
+
+
+
+              https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1/pdf
+Dr. Fabrizio Napolitano                     64                             13/11/23
+  GeMINI
+
+                                    FPGA performances
+                          Pruning                           Quantisation
+
+
+
+
+              https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1/pdf
+Dr. Fabrizio Napolitano                     65                             13/11/23
+  GeMINI
+
+                                 FPGA performances
+
+
+
+
+              https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1/pdf
+Dr. Fabrizio Napolitano                     66                             13/11/23
+  GeMINI
+                     Case study: ATLAS LAr calorimeter ML FPGA
+
+
+
+
+              https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1/pdf
+Dr. Fabrizio Napolitano                     67                             13/11/23
+  GeMINI
+
+
+
+
+                  https://indico.cern.ch/event/1283970/contributions/5554340/attachments/2720393/4726092/FastML_for_Science_2.pdf
+
+
+Dr. Fabrizio Napolitano                                                   68                                                        13/11/23
+  GeMINI
+                         Case study: ATLAS LAr calorimeter ML FPGA
+
+
+
+
+                  https://indico.cern.ch/event/1283970/contributions/5554340/attachments/2720393/4726092/FastML_for_Science_2.pdf
+
+
+Dr. Fabrizio Napolitano                                                   69                                                        13/11/23
+  GeMINI
+                         Case study: ATLAS LAr calorimeter ML FPGA
+
+
+
+
+                  https://indico.cern.ch/event/1283970/contributions/5554340/attachments/2720393/4726092/FastML_for_Science_2.pdf
+
+
+Dr. Fabrizio Napolitano                                                   70                                                        13/11/23
+  GeMINI
+                         Case study: ATLAS LAr calorimeter ML FPGA
+
+
+
+
+                  https://indico.cern.ch/event/1283970/contributions/5554340/attachments/2720393/4726092/FastML_for_Science_2.pdf
+
+
+Dr. Fabrizio Napolitano                                                   71                                                        13/11/23
+  GeMINI
+                         Case study: ATLAS LAr calorimeter ML FPGA
+
+
+
+
+                  https://indico.cern.ch/event/1283970/contributions/5554340/attachments/2720393/4726092/FastML_for_Science_2.pdf
+
+
+Dr. Fabrizio Napolitano                                                   72                                                        13/11/23
+  GeMINI
+                    Case study: GERDA ML for pulse discrimination
+
+
+
+
+                          https://link.springer.com/article/10.1140/epjc/s10052-019-6869-2
+
+Dr. Fabrizio Napolitano                                   73                                 13/11/23
+  GeMINI
+                    Case study: GERDA ML for pulse discrimination
+
+
+
+
+                          https://link.springer.com/article/10.1140/epjc/s10052-019-6869-2
+
+Dr. Fabrizio Napolitano                                   74                                 13/11/23
+  GeMINI
+                    Case study: GERDA ML for pulse discrimination
+
+
+
+
+                          https://link.springer.com/article/10.1140/epjc/s10052-019-6869-2
+
+Dr. Fabrizio Napolitano                                   75                                 13/11/23
+  GeMINI
+                    Case study: GERDA ML for pulse discrimination
+
+
+
+
+                          https://link.springer.com/article/10.1140/epjc/s10052-019-6869-2
+
+Dr. Fabrizio Napolitano                                   76                                 13/11/23
+  GeMINI
+                    Case study: GERDA ML for pulse discrimination
+
+
+
+
+                          https://link.springer.com/article/10.1140/epjc/s10052-019-6869-2
+
+Dr. Fabrizio Napolitano                                   77                                 13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   78   13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   79   13/11/23
+  GeMINI
+
+
+
+                          Zagrebs HPGe
+
+
+
+
+Dr. Fabrizio Napolitano           80     13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   81   13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   82   13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   83   13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   84   13/11/23
+  GeMINI
+
+
+
+
+Dr. Fabrizio Napolitano   85   13/11/23
+

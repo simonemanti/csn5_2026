@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1140" viewBox="0 0 1100 1140"><rect width="1100" height="1140" fill="white"/><text x="45" y="35" font-family="sans-serif" font-size="20" fill="#555">Pre-edge corto</text><g transform="translate(-105,-100) scale(.72)"><ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Lettere nere" id="letters" fill="#080909">
+<ns0:path id="P" fill-rule="evenodd" d="M 291,568 V 312 H 408 C 475,312 509,345 509,395 C 509,447 473,479 408,479 H 337 V 568 Z M 337,352 V 439 H 405 C 444,439 462,423 462,395 C 462,368 444,352 405,352 Z" />
+<ns0:path id="R" fill-rule="evenodd" d="M 552,568 V 312 H 664 C 727,312 763,343 763,394 C 763,432 742,459 707,471 L 774,568 H 718 L 657,479 H 598 V 568 Z M 598,352 V 439 H 660 C 697,439 716,423 716,395 C 716,367 697,352 660,352 Z" />
+<ns0:path id="I" d="M 829,312 H 874 V 568 H 829 Z" />
+<ns0:path id="M" d="M 1198,568 V 312 H 1253 L 1341,453 L 1429,312 H 1483 V 568 H 1437 V 385 L 1341,533 L 1244,385 V 568 Z" />
+</ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Bordo XAS rosso" id="edge">
+<ns0:path id="S-edge" d="M 815,610 H 932 C 986,610 998,571 1004,500 L 1022,302 C 1026,258 1047,224 1071,224 C 1106,224 1121,291 1148,291 C 1177,291 1193,248 1218,248 C 1245,248 1264,289 1289,289 C 1311,289 1325,260 1345,260 C 1369,260 1384,284 1408,284 C 1432,284 1442,282 1459,282 H 1483" fill="none" stroke="#E71932" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" />
+</ns0:g>
+</g><text x="45" y="415" font-family="sans-serif" font-size="20" fill="#555">Pre-edge medio</text><g transform="translate(-105,280) scale(.72)"><ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Lettere nere" id="letters" fill="#080909">
+<ns0:path id="P" fill-rule="evenodd" d="M 291,568 V 312 H 408 C 475,312 509,345 509,395 C 509,447 473,479 408,479 H 337 V 568 Z M 337,352 V 439 H 405 C 444,439 462,423 462,395 C 462,368 444,352 405,352 Z" />
+<ns0:path id="R" fill-rule="evenodd" d="M 552,568 V 312 H 664 C 727,312 763,343 763,394 C 763,432 742,459 707,471 L 774,568 H 718 L 657,479 H 598 V 568 Z M 598,352 V 439 H 660 C 697,439 716,423 716,395 C 716,367 697,352 660,352 Z" />
+<ns0:path id="I" d="M 829,312 H 874 V 568 H 829 Z" />
+<ns0:path id="M" d="M 1198,568 V 312 H 1253 L 1341,453 L 1429,312 H 1483 V 568 H 1437 V 385 L 1341,533 L 1244,385 V 568 Z" />
+</ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Bordo XAS rosso" id="edge">
+<ns0:path id="S-edge" d="M 705,610 H 912 C 975,610 995,570 1003,500 L 1022,302 C 1026,258 1047,224 1071,224 C 1106,224 1121,291 1148,291 C 1177,291 1193,248 1218,248 C 1245,248 1264,289 1289,289 C 1311,289 1325,260 1345,260 C 1369,260 1384,284 1408,284 C 1432,284 1442,282 1459,282 H 1483" fill="none" stroke="#E71932" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" />
+</ns0:g>
+</g><text x="45" y="795" font-family="sans-serif" font-size="20" fill="#555">Pre-edge simmetrico</text><g transform="translate(-105,660) scale(.72)"><ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Lettere nere" id="letters" fill="#080909">
+<ns0:path id="P" fill-rule="evenodd" d="M 291,568 V 312 H 408 C 475,312 509,345 509,395 C 509,447 473,479 408,479 H 337 V 568 Z M 337,352 V 439 H 405 C 444,439 462,423 462,395 C 462,368 444,352 405,352 Z" />
+<ns0:path id="R" fill-rule="evenodd" d="M 552,568 V 312 H 664 C 727,312 763,343 763,394 C 763,432 742,459 707,471 L 774,568 H 718 L 657,479 H 598 V 568 Z M 598,352 V 439 H 660 C 697,439 716,423 716,395 C 716,367 697,352 660,352 Z" />
+<ns0:path id="I" d="M 829,312 H 874 V 568 H 829 Z" />
+<ns0:path id="M" d="M 1198,568 V 312 H 1253 L 1341,453 L 1429,312 H 1483 V 568 H 1437 V 385 L 1341,533 L 1244,385 V 568 Z" />
+</ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" ns1:groupmode="layer" ns1:label="Bordo XAS rosso" id="edge">
+<ns0:path id="S-edge" d="M 565,610 H 880 C 958,610 987,570 1000,500 L 1022,302 C 1026,258 1047,224 1071,224 C 1106,224 1121,291 1148,291 C 1177,291 1193,248 1218,248 C 1245,248 1264,289 1289,289 C 1311,289 1325,260 1345,260 C 1369,260 1384,284 1408,284 C 1432,284 1442,282 1459,282 H 1483" fill="none" stroke="#E71932" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" />
+</ns0:g>
+</g></svg>

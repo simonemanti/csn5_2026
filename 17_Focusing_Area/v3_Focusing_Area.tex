@@ -1,0 +1,45 @@
+% Variant 3: compact two-row serpentine workflow. Canvas: 224.2 x 70 mm.
+% Read the upper row left to right, then the lower row right to left.
+\input{focusing_common.tex}
+\begin{document}
+\begin{tikzpicture}[focusing]
+\path[use as bounding box] (0,0) rectangle (22.42,7);
+\clip (0,0) rectangle (22.42,7);
+\begin{pgfinterruptboundingbox}
+
+\coordinate (SIM) at (3.60,4.90);
+\coordinate (CRYSTAL) at (11.21,4.90);
+\coordinate (XAS) at (18.82,4.90);
+\coordinate (CZT) at (15.00,1.45);
+\coordinate (XANES) at (7.42,1.45);
+
+\draw[flow] (SIM) -- (CRYSTAL);
+\draw[flow] (CRYSTAL) -- (XAS);
+\draw[flow] (XAS) -- (CZT);
+\draw[flow] (CZT) -- (XANES);
+
+\DrawSimulation{SIM}
+\DrawCrystal{CRYSTAL}
+\DrawXAS{XAS}
+\DrawCZT{CZT}
+\DrawXANES{XANES}
+
+% One-line upper-row subtitles leave a clear gap above every circle.
+\node[title] at (3.60,6.72) {SIMULATION};
+\node[detail] at (3.60,6.29) {Ray tracing\enspace$\cdot$\enspace Detector response};
+\node[title] at (11.21,6.72) {CRYSTAL};
+\node[detail] at (11.21,6.29) {Bent Ge optics\enspace$\cdot$\enspace Energy selection};
+\node[title] at (18.82,6.72) {XAS};
+\node[detail] at (18.82,6.29) {X-ray absorption spectroscopy};
+
+% Lower-row labels sit outside the flow, leaving the long return arrow clear.
+\node[title] at (18.35,1.75) {CZT};
+\node[detail] at (18.35,1.14) {Multichannel detection\\Pulse-shape analysis};
+\node[title] at (4.12,1.75) {XANES};
+\node[detail] at (4.12,1.14) {Near-edge\\structure};
+
+\node[font=\sffamily\bfseries\fontsize{29}{31}\selectfont]
+  at (11.21,3.12) {PRISM};
+\end{pgfinterruptboundingbox}
+\end{tikzpicture}
+\end{document}

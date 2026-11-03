@@ -1,0 +1,119 @@
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\usepackage{amsmath,bm}
+\AtBeginDocument{\boldmath}
+\usetikzlibrary{arrows.meta}
+\definecolor{badge}{HTML}{9467BD}
+\begin{document}
+\begin{tikzpicture}[x=10mm,y=10mm,line cap=round,line join=round]
+\path[use as bounding box] (-12,-12) rectangle (12,12);
+\filldraw[fill=badge!50!white,draw=black,line width=3mm] (0,0) circle (10);
+
+% Jmol/CPK: Cd #FFD98F, Zn #7D80B0, Te #D47A00.
+% Zinc-blende cluster; Cd/Zn share cation sites. Occupancy illustrative.
+% Atom centers and nearest-neighbor bonds generated from fractional coordinates.
+\definecolor{cadmium}{HTML}{FFD98F}
+\definecolor{zinc}{HTML}{7D80B0}
+\definecolor{tellurium}{HTML}{D47A00}
+\shade[ball color=tellurium] (2.1431,0.2673) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (2.0247,-0.0833) -- (1.7144,-1.0027);
+\draw[cadmium!65!black,line width=2mm] (1.4297,-1.8464) -- (1.7144,-1.0027);
+\shade[ball color=cadmium] (1.2858,-2.2727) circle (0.46);
+\shade[ball color=tellurium] (2.1431,7.3500) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (2.0247,6.9994) -- (1.7144,6.0800);
+\draw[cadmium!65!black,line width=2mm] (1.4297,5.2364) -- (1.7144,6.0800);
+\shade[ball color=tellurium] (-1.2037,3.3042) circle (0.38);
+\draw[cadmium!65!black,line width=2mm] (0.9932,-1.9309) -- (0.8572,-1.7721);
+\draw[tellurium!65!black,line width=2mm] (0.6692,-1.5525) -- (0.8572,-1.7721);
+\draw[cadmium!65!black,line width=2mm] (0.9008,4.5771) -- (0.0411,4.0571);
+\draw[tellurium!65!black,line width=2mm] (-0.8871,3.4957) -- (0.0411,4.0571);
+\draw[tellurium!65!black,line width=2mm] (-1.3220,2.9536) -- (-1.6323,2.0342);
+\draw[cadmium!65!black,line width=2mm] (-1.9170,1.1906) -- (-1.6323,2.0342);
+\shade[ball color=tellurium] (-4.5505,-0.7416) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (-4.2339,-0.5501) -- (-3.3057,0.0113);
+\draw[cadmium!65!black,line width=2mm] (-2.4460,0.5313) -- (-3.3057,0.0113);
+\draw[tellurium!65!black,line width=2mm] (-4.6688,-1.0922) -- (-4.9791,-2.0116);
+\draw[cadmium!65!black,line width=2mm] (-5.2638,-2.8552) -- (-4.9791,-2.0116);
+\draw[cadmium!65!black,line width=2mm] (1.6342,4.5252) -- (2.5306,3.7922);
+\draw[tellurium!65!black,line width=2mm] (3.4889,3.0086) -- (2.5306,3.7922);
+\shade[ball color=cadmium] (1.2858,4.8100) circle (0.46);
+\draw[cadmium!65!black,line width=2mm] (-1.7126,0.4794) -- (-0.8162,-0.2536);
+\draw[tellurium!65!black,line width=2mm] (0.1422,-1.0372) -- (-0.8162,-0.2536);
+\shade[ball color=tellurium] (3.7754,2.7744) circle (0.38);
+\shade[ball color=cadmium] (-2.0609,0.7642) circle (0.46);
+\draw[tellurium!65!black,line width=2mm] (3.6571,2.4238) -- (3.3468,1.5044);
+\draw[cadmium!65!black,line width=2mm] (3.0621,0.6608) -- (3.3468,1.5044);
+\shade[ball color=tellurium] (0.4286,-1.2714) circle (0.38);
+\shade[ball color=cadmium] (-5.4077,-3.2816) circle (0.46);
+\draw[cadmium!65!black,line width=2mm] (2.5331,0.0015) -- (1.6734,-0.5185);
+\draw[tellurium!65!black,line width=2mm] (0.7452,-1.0799) -- (1.6734,-0.5185);
+\draw[cadmium!65!black,line width=2mm] (0.9932,5.1519) -- (0.8572,5.3107);
+\draw[tellurium!65!black,line width=2mm] (0.6692,5.5303) -- (0.8572,5.3107);
+\draw[tellurium!65!black,line width=2mm] (0.3103,-1.6219) -- (0.0000,-2.5414);
+\draw[cadmium!65!black,line width=2mm] (-0.2847,-3.3850) -- (0.0000,-2.5414);
+\shade[ball color=tellurium] (-4.5505,6.3412) circle (0.38);
+\draw[cadmium!65!black,line width=2mm] (-2.3536,1.1061) -- (-2.4895,1.2649);
+\draw[tellurium!65!black,line width=2mm] (-2.6775,1.4845) -- (-2.4895,1.2649);
+\draw[tellurium!65!black,line width=2mm] (5.1213,-1.5670) -- (4.1629,-0.7834);
+\draw[cadmium!65!black,line width=2mm] (3.2665,-0.0504) -- (4.1629,-0.7834);
+\draw[tellurium!65!black,line width=2mm] (-4.6688,5.9906) -- (-4.9791,5.0712);
+\draw[cadmium!65!black,line width=2mm] (-5.2638,4.2275) -- (-4.9791,5.0712);
+\shade[ball color=cadmium] (2.9182,0.2344) circle (0.46);
+\shade[ball color=tellurium] (5.4077,-1.8012) circle (0.38);
+\shade[ball color=cadmium] (-0.4286,-3.8114) circle (0.46);
+\draw[tellurium!65!black,line width=2mm] (5.2894,-2.1517) -- (4.9791,-3.0712);
+\draw[zinc!65!black,line width=2mm] (4.6944,-3.9148) -- (4.9791,-3.0712);
+\draw[cadmium!65!black,line width=2mm] (-5.0593,3.5163) -- (-4.1629,2.7834);
+\draw[tellurium!65!black,line width=2mm] (-3.2046,1.9998) -- (-4.1629,2.7834);
+\shade[ball color=tellurium] (0.4286,5.8114) circle (0.38);
+\draw[cadmium!65!black,line width=2mm] (2.6255,0.5763) -- (2.4895,0.7351);
+\draw[tellurium!65!black,line width=2mm] (2.3016,0.9547) -- (2.4895,0.7351);
+\shade[ball color=cadmium] (-5.4077,3.8012) circle (0.46);
+\draw[tellurium!65!black,line width=2mm] (0.3103,5.4608) -- (0.0000,4.5414);
+\draw[cadmium!65!black,line width=2mm] (-0.2847,3.6977) -- (0.0000,4.5414);
+\shade[ball color=tellurium] (-2.9182,1.7656) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (-1.0452,-3.0911) -- (-0.8572,-3.3107);
+\draw[cadmium!65!black,line width=2mm] (-0.7212,-3.4695) -- (-0.8572,-3.3107);
+\draw[cadmium!65!black,line width=2mm] (-0.8137,3.0385) -- (-1.6734,2.5185);
+\draw[tellurium!65!black,line width=2mm] (-2.6016,1.9571) -- (-1.6734,2.5185);
+\draw[tellurium!65!black,line width=2mm] (-3.0365,1.4150) -- (-3.3468,0.4956);
+\draw[cadmium!65!black,line width=2mm] (-3.6315,-0.3480) -- (-3.3468,0.4956);
+\shade[ball color=zinc] (4.5505,-4.3412) circle (0.46);
+\draw[cadmium!65!black,line width=2mm] (-0.0802,2.9865) -- (0.8162,2.2536);
+\draw[tellurium!65!black,line width=2mm] (1.7745,1.4700) -- (0.8162,2.2536);
+\shade[ball color=tellurium] (5.4077,5.2816) circle (0.38);
+\shade[ball color=cadmium] (-0.4286,3.2714) circle (0.46);
+\draw[tellurium!65!black,line width=2mm] (-1.5723,-2.5758) -- (-2.5306,-1.7922);
+\draw[cadmium!65!black,line width=2mm] (-3.4270,-1.0593) -- (-2.5306,-1.7922);
+\draw[tellurium!65!black,line width=2mm] (5.2894,4.9310) -- (4.9791,4.0116);
+\draw[cadmium!65!black,line width=2mm] (4.6944,3.1680) -- (4.9791,4.0116);
+\shade[ball color=tellurium] (2.0609,1.2358) circle (0.38);
+\shade[ball color=cadmium] (-3.7754,-0.7744) circle (0.46);
+\draw[cadmium!65!black,line width=2mm] (4.1654,2.5087) -- (3.3057,1.9887);
+\draw[tellurium!65!black,line width=2mm] (2.3775,1.4273) -- (3.3057,1.9887);
+\draw[tellurium!65!black,line width=2mm] (1.9426,0.8852) -- (1.6323,-0.0342);
+\draw[zinc!65!black,line width=2mm] (1.3476,-0.8778) -- (1.6323,-0.0342);
+\shade[ball color=tellurium] (-1.2858,-2.8100) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (-0.9692,-2.6185) -- (-0.0411,-2.0571);
+\draw[zinc!65!black,line width=2mm] (0.8187,-1.5371) -- (-0.0411,-2.0571);
+\draw[tellurium!65!black,line width=2mm] (-1.0452,3.9917) -- (-0.8572,3.7721);
+\draw[cadmium!65!black,line width=2mm] (-0.7212,3.6132) -- (-0.8572,3.7721);
+\draw[tellurium!65!black,line width=2mm] (-1.4041,-3.1606) -- (-1.7144,-4.0800);
+\draw[cadmium!65!black,line width=2mm] (-1.9992,-4.9236) -- (-1.7144,-4.0800);
+\shade[ball color=cadmium] (4.5505,2.7416) circle (0.46);
+\shade[ball color=zinc] (1.2037,-1.3042) circle (0.46);
+\shade[ball color=cadmium] (-2.1431,-5.3500) circle (0.46);
+\shade[ball color=tellurium] (-1.2858,4.2727) circle (0.38);
+\draw[tellurium!65!black,line width=2mm] (-1.4041,3.9222) -- (-1.7144,3.0027);
+\draw[cadmium!65!black,line width=2mm] (-1.9992,2.1591) -- (-1.7144,3.0027);
+\shade[ball color=cadmium] (-2.1431,1.7327) circle (0.46);
+\shade[ball color=cadmium] (-5.35,-6.6) circle (.36);
+\node[font=\fontsize{30}{34}\selectfont\bfseries] at (-4.1499999999999995,-6.6) {Cd};
+\shade[ball color=zinc] (-0.75,-6.6) circle (.36);
+\node[font=\fontsize{30}{34}\selectfont\bfseries] at (0.45,-6.6) {Zn};
+\shade[ball color=tellurium] (3.8499999999999996,-6.6) circle (.36);
+\node[font=\fontsize{30}{34}\selectfont\bfseries] at (5.05,-6.6) {Te};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,312 @@
+                   CSN 5 - GRANT GIOVANI RICERCATORI
+                                  2025
+
+
+
+
+           Perovskite-Hybrid Architecture for
+        Spectroscopy and Energy-Counting of γ-
+                        Rays
+                                   Proposer:
+                                  L.Margotti
+Members: Dr. A. Ciavatti, Dr. I. Fratelli, Dr. S.M. Carturan, Dr. C. Sbarra, Prof. B.
+      PEROVSKITE-Based γ-DETECTORS
+A Proof of Concept towards printable, high-performance devices
+Gamma SPECTROSCOPY (GS)            PHOTON COUNTING Dev (PCD)
+       Single Pixel                          Single Pixel
+
+
+
+
+                                                                 1
+      PEROVSKITE-Based γ-DETECTORS
+A Proof of Concept towards printable, high-performance devices
+Gamma SPECTROSCOPY (GS)            PHOTON COUNTING Dev (PCD)
+       Single Pixel                          Single Pixel
+
+
+
+
+                                                                 2
+        PEROVSKITE-Based γ-DETECTORS
+A Proof of Concept towards printable, high-performance devices
+Gamma SPECTROSCOPY (GS)               PHOTON COUNTING Dev (PCD)
+          Single Pixel                            Single Pixel
+
+       Detector type: DIRECT          Detector type: INDIRECT/HYBRID
+
+         - Area: A < 1mm2                     - Area: A < 1mm2
+    - Target aspect ratio: (10:1)        - Target aspect ratio: (1:1)
+  - Key feature: high thickness for    - Key feature: organic-plastic
+     enhanced interaction volume      scintillator on top for UV emission
+
+
+
+
+                                                                            3
+                        SINGLE CRYSTALS VS THIN FILMS
+      State of the art: coupling bulk performance with handling features
+   FAPbBr3 – 3mm                                                                                                         PEA2PbBr4
+
+
+
+
+Li, M., Wang, S., Wood, A. et             400                                                                              Basiricò, L. et al.
+al.                                                                                                                        Adv. Health. Mat.
+      Nat. Mater. (2025)                                                                                                        (2024)
+
+ MAPbI3 - 110 µm                                                           α event from Am
+                                                                         Thin film pulse, 300 V Bias241
+                                                                                                                         PEA2PbBr4
+                                                                                    (5.48MeV)
+                                                                          80% Threshold
+
+
+
+
+                                                Amplitude (a.u.)
+                                γ event                                                      t = 63.5 μs
+                                  241
+                                     Am
+                                (60keV)
+                                                                       20% Threshold
+
+                                                                                                          300V           Margotti, L. et al.
+    Sakhatskyi, K. et al.                                          0     200       400   600     800      1000   1200   IEEE NSC, MIC, RTSD
+    Nat. Photon. (2023)                                                                  Time (ms)
+                                                                                                                               2024              4
+         SINGLE CRYSTALS VS THIN
+                  FILMS
+         Coupling bulk performance with handling
+                         features
+
+
+                         PHASE-g
+       IDEA           Device GOALS     Performance TARGETS
+  3D-ELECTRODE         LOW COST           SINGLE-DIGIT
+  ARCHITECTURE          SCALABLE               ENERGY
+based on SOLUTION    PIXEL DEVICES          RESOLUTION
+  PROCESSED 2D-      FOR γ-COUNTING/     (<2 pcs/mm2) DARK
+    PEROVSKITE            ENERGY             COUNT RATE
+                      SPECTROSCOPY        FOR CLINICALLY
+                                        RELEVANT ENERGIES
+
+
+
+                                                              5
+                       PEROVSKITE-Based
+                          DETECTORS
+                  How do we reach bulk-like performance?
+
+
+
+
+Solution
+processing is a
+must!
+
+
+
+
+                                                           6
+         PEROVSKITE-Based
+            DETECTORS
+    How do we reach bulk-like performance?
+
+Envisioning PCB-printed Multielectrode
+Arrays…
+
+
+
+
+                                Commercially
+                                available PCB
+
+
+                                                7
+          2D PEROVSKITES: PEA2Pb(Br/I)4
+        Featuring highly resistive, more stable structures
+
+
+Quantum +
+dielectric
+confineme
+nts
+
+
+
+
+Features of interest compared to 3D
+perovskites
+✅✅ Larger  bandgap → Fewer thermally excited carriers
+    Lower trap density → Reduced trap-assisted leakage
+ ✅✅ Dielectric confinement → Less unintentional carrier injection
+    Reduced ion migration → Limited degradation
+
+       Lower dark current (10-13A @ 1kV/mm)
+                 Higher stability                                  8
+        ORGANIC-PLASTIC SCINTILLATOR
+                               Materials and Coupling
+
+PMPS :polydimethyl-co-diphenylsiloxane                      Phenyl groups /dyes:
+scintillators                                               examples
+
+
+
+
+                                          Tunable properties
+                                           through chemical
+                                             optimization!
+
+
+
+
+Goals:
+✅✅Peak  brilliance in the UV range (320-380nm)
+  Light yield under γ-sources at RT (60% rel. EJ212 under
+  Cs γ-rays, i.e. 5/7x10 ph/MeV))
+ ✅Precise optical coupling with 2D perovskites
+137                   3
+
+
+
+
+                                                                  M. Dalla Palma et al. , 2024,
+                                                                  IEEE Transactions on Nuclear Science   9
+OPTIMIZATION OF GEOMETRICAL PARAMETERS
+                GEANT4 for feedback-driven analyses
+
+                                    PARAMETERS OF INTEREST
+                                     Electric field inside the trenches
+                                     Structural features (thickness,
+                                      width, area)
+                                     Optical coupling (emission and
+                                      absorption matching)
+
+
+        FEEDBACK-DRIVEN SIMULATIONS will provide optimal combination of
+        parameters according to fabrication and desired outcomes.
+
+
+
+
+   Required material physical parameters (density, refractive index, charge
+   carriers mobility, μτ product, absorption/transmission coefficients, light
+   yield) have been assessed in previous works or will be determined through
+   dedicated tests onsite.                                                      1
+              CORE CHARACTERIZATION
+                Device-level assessments of GS and PCD
+
+  1. STRUCTURAL           2. BASIC PERFORMANCE                  3. RADIATION
+      ANALYSIS                 ASSESSMENTS                       DETECTION
+
+                            J-V and C-V curves,
+                             PL and Abs spectra
+                            Pulsed analyses
+                            Scintillator photon
+                             yield and spectral
+                             distribution.
+
+                                            Ledee et al.
+ Cross-section (SEM)                       Adv. Optical    X-rays: sensitivity,
+                                            Mater. 2022
+  for perovskite                                             time response, dose-
+  filling                                                    rate linearity, LOD,
+ Surface topography         PL spectrum                     radiation hardness.
+  (AFM / 3D                  of PEA2PbBr4
+                             thin film
+                                                            α-particles: single
+  profilometry) for                                          pulse detection, μτ
+  excess material.                                           product.
+                                                                                    1
+    TESTING under GAMMA SOURCES
+                     Performance assessments
+                                       PC: FAST CSA (0.16 fC ENC) + 3.2 GS/s
+                                     DIGITIZER for nanosecond-scale pulse
+                                    - Single-photonacquisition.
+                                                       detection
+                                        capability
+                                    - Sensitivity
+                                    - Count-rate stability
+                                    - Impact of hybrid contribution
+                                   GS: low-noise CSA + shaper (up to 100μs) + Digital
+Tuneable Source-                   MCA
+                                    - Charge Collection Efficiency
+Sample distance                     - Linearity
+   (1-50 mm)                        - Energy resolution
+
+
+                     Available Gamma Sources                                Lines in clinically
+   LOWEST ENERGIES        HIGHEST ENERGIES          MID-RANGE ENERGIES     relevant ranges for
+                                                                              SPECT (99mTc,
+        241
+              Am            137
+                                  Cs - 60Co                133
+                                                                 Ba             140keV)!
+       59.5keV            662keV – 1.17 &          81, 160, 223, 356 keV
+                             1.33MeV                                                              1
+APPLICATIONS AND PROSPECTS
+                       Expected impact
+
+ New prospects for γ-cameras:
+ ✅✅ Reduction in volume and cost
+    Extension to printable and large area devices
+  ✅ Real-time monitoring of radiotracers and spectroscopic dosimetry
+ Sinergy with the POR-FESR FORTRESS PROJECT (Fraboni) at IRCSS Reggio
+ Emilia, which is now provided a novel SPECT-CT (source: 99mTc, major γ-
+ peak at 140keV).
+
+                                            Onboard
+     Compound
+                                           dosimeters
+    detectors for
+   nuclear physics                    ✅Potential
+                                          Low-dose γ-monitors
+                                                 follow-up for the
+ ✅radiation
+     Tiled arrays for localized γ-
+            mapping
+                                      ASI-VUS3 IRIS project (INFN-
+                                      TTlab) for Wearable
+  ✅ Low-dose γ-monitors               Dosimeters for the Crew
+                                      Members Onboard the ISS.
+                                                                           1
+              TECHNICAL CONSIDERATIONS
+                        Risk Management and Requests
+      Possible Issues and                                          COSTS
+      Mitigation                                        VOICE         YEAR   YEAR
+Empty trenches / excess material                                        1      2
+    Sonication-assisted deposition / lapping           Missions        5k     5k
+    techniques
+ Environmental issues / external light
+                                                     Disposables      10k     5k
+contribution
+          Deposition of Parylene-C encapsulation
+          layer                                      SMU 4200A-       53k
+ Poor γ absorption
+                                                       SCS*
+          SJI / Metal Ink deposition for trenches   Pulsed Meas. U.          37k
+          height increased up to 500μm.
+                                                     DMCA + CSA              13k
+ Interface losses between perovskite and             SPC-Module               5k
+scintillator
+   Dedicated resin / cement of matched refractive
+   index                                                TOTAL         68k    65k
+ Delays in electronic instrumentation delivery
+                                                      * Co-funding with Dip.Fis.
+          Analog spectroscopic chain /                        Bologna
+          Electrometer …                                                            1
+Conclusions
+PHASE-g aims at validating a novel approach to perovskite-based γ-ray
+detectors, which merges the bulk properties of Single Crystals with the
+major advantages of interdigitated structures.
+It provides:
+➡   An Innovative dual structure which relies on 3D interdigitated
+electrodes
+➡   A dedicated study on PMPS-based scintillating device for photon
+counting
+➡➡  A spectroscopic device for γ-rays of different doses and energies
+    Tests with clinically relevant radiation energies
+It opens up new paradigms for detectors fabrication and thus scalability to
+large-area, pixelated multielectrode arrays.
+

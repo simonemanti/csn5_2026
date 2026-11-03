@@ -1,0 +1,10 @@
+/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/02_Lower_Reflection/s2_ge_vs_hapg_calculations/HAPG(0_0_8)/tune_0/crystal.bra
+1
+0
+0.1
+0.01
+4
+16.8750035247
+24776.3356855
+26251.6643145
+20001

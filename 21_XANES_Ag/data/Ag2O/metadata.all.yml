@@ -1,0 +1,136 @@
+data_info:
+  identifier:
+    pid: spring8.940198e0-4cd3-4190-a20d-c1fae98675ce
+    proposal_number: 2014S0000
+    register_name: /SPring-8/BL14B2/XAFS_Standard/Ag/K/311/Ag2O
+  date:
+    create_time: '2020-01-15 18:53:12'
+    update_time: '2021-03-19 16:37:45'
+  access_rights: open
+  contact_name:
+    affiliation:
+      organization: JASRI
+    name: Industrial Application and Partnership Division
+    role: organization
+  data_depositor:
+    affiliation:
+      organization: JASRI
+    name: Hironori Ofuchi
+  facility: SPring-8
+  class_name: BL14B2
+  disk_name: XAFS_Standard
+  title_ja: 標準試料
+  title: Standard Sample
+facility:
+  ring:
+    end_current: 99.5
+    end_current_unit: mA
+    energy: 8.0
+    energy_unit: GeV
+    filling_pattern: 406 bunches
+    filling_pattern_mode: A
+    start_current: 99.5
+    start_current_unit: mA
+sample:
+- chemical_formula: Ag2O
+  lot_number: '4050891'
+  model_number: AGO01PB
+  name: Silver(I) oxide
+  supplier: KOJUNDO CHEMICAL LABORATORY
+measurement:
+  date:
+    end_time: '2016-06-24 06:13:00'
+    start_time: '2016-06-24 06:09:00'
+  method:
+    absorption_edge: Ag K-edge
+    category: spectroscopy
+    detection: Transmission( 2)
+    sub_category: XAFS
+  scan_mode: angle axis (1)
+instrument:
+  monochrometer:
+    distance: 1.63747
+    distance_unit: A
+    net_plane: Si(311)
+    section:
+    - start_energy: 8.65
+      start_energy_unit: deg
+      step_energy: -0.00012
+      step_energy_unit: deg
+      end_energy: 8.04
+      end_energy_unit: deg
+      dwell_time: 50.0
+      dwell_time_unit: ms
+  slit:
+  - name: 4Dslit
+    vertical_size: 1.0
+    vertical_size_unit: mm
+    horizontal_size: 5.0
+    horizontal_size_unit: mm
+  xafs:
+    I0:
+      element:
+      - type: Ion Chamber
+        gas: Ar 100%
+        HV: 1000.0
+        HV_unit: V
+        amp_gain: 100000000.0
+        amp_gain_unit: V/A
+      element_number: 1
+    I1:
+      element:
+      - type: Ion Chamber
+        gas: Ar 70% + Kr 30%
+        HV: 1000.0
+        HV_unit: V
+        amp_gain: 10000000.0
+        amp_gain_unit: V/A
+      element_number: 1
+local:
+  measurement_time: 254.0
+  measurement_time_unit: sec
+  xafs_filename_list:
+  - Ag-K_Ag2O_Si311_50ms_160624.dat
+  xafs_processed_data_format:
+  - extension: ex3
+    format: Rex2000
+    columns:
+    - name: photon energy
+      unit: eV
+      formula: 12398/(2*D*math.sin(columns[1]))
+      input:
+        columns: xafs_raw_data_format[0].columns
+        D: xafs_raw_data_format[0].parameter.D
+    - name: absorption coefficient mu*t
+      formula: math.log(columns[3]/columns[4])
+      input:
+        columns: xafs_raw_data_format[0].columns
+  - extension: txt
+    format: Athena
+    columns:
+    - name: photon energy
+      unit: eV
+      formula: 12398/(2*D*math.sin(columns[1]))
+      input:
+        columns: xafs_raw_data_format[0].columns
+        D: xafs_raw_data_format[0].parameter.D
+    - name: absorption coefficient mu*t
+      formula: math.log(columns[3]/columns[4])
+      input:
+        columns: xafs_raw_data_format[0].columns
+  xafs_raw_data_format:
+  - extension: dat
+    format: PF9809
+    parameter:
+      D: monochrometer distance
+    columns:
+    - name: monochrometer angle (setting value of PC)
+      unit: deg
+    - name: monochrometer angle (encoder value)
+      unit: deg
+    - name: dwell time
+      unit: sec
+    - name: intensity I0
+      unit: count
+    - name: intensity I1
+      unit: count

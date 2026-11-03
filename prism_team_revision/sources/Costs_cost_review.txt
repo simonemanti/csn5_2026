@@ -1,0 +1,41 @@
+                                          COSTS
+
+Equipment:
+   ●​ CZT detector and front-end electronics: custom multichannel detector system for
+      fluorescence measurements in the 20–50 keV range.
+   ●​ Digitizer and DAQ: multichannel waveform-acquisition system for detector readout,
+      synchronization, and pulse-shape analysis.
+   ●​ Motorized positioning stages: two rotational and one translational stages for the sample
+      holder and CZT detector, for automated switching between fluorescence, If(E), and
+      incident-beam, I0(E), configurations.
+   ●​ Cooled X-ray tube and power supply: High-power W-anode X-ray tube enabling
+      measurements above 20 keV during the second year.
+   ●​ Bent germanium crystal optics: custom curved Ge crystals for monochromatization, energy
+      scanning, and focusing of the incident X-ray beam.
+Consumables:
+   ●​ Ag reference samples: metallic Ag foils and oxidized Ag powder standards for calibration,
+      energy-scale verification, and XANES validation.
+   ●​ Additional reference targets: selected materials containing elements with absorption edges
+      above 20 keV, such as Mo, Pd and Sn, for assessing the broader operating range of the
+      instrument.
+Services:
+   ●​ Custom mechanical design and fabrication: development of dedicated supports and
+      interfaces for integrating the sample holder, CZT detector, positioning stages, and associated
+      components into the spectrometer.
+Computing:
+   ●​ CPU and data storage: computing resources for the SHADOW4–GEANT4 simulations and
+      detector-response studies performed in WP1. The request corresponds to approximately
+      250,000 core-hours, calculated at a rate of €4.11 per 1,000 core-hours, together with the
+      storage required for simulated events, waveforms, and calibration datasets.
+Travels:
+   ●​ Conference participation: travel for the dissemination of project results through an oral
+      presentation. A possible target conference is the European Conference on X-Ray
+      Spectrometry, EXRS 2028, expected to be held in Paris in June 2028.
+In-kind contributions:
+   ●​ PRISM will benefit from existing VOXES infrastructure and equipment during the
+      development and preliminary integration phases. The estimated in-kind contribution includes
+      an X-ray tube available during the first project year (€10k), the shielded experimental bunker
+      (€5k), existing motorized positioning systems (€15k), and linear translation axes with
+      associated control hardware (€15k) for the crystal. The total estimated in-kind contribution is
+      therefore €45k.
+

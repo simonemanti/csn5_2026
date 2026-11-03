@@ -1,0 +1,922 @@
+             PRIμS:
+Paleo-astroparticles Reconstructed with
+  the Interactions of MUons in Stone
+
+ Claudio Galelli
+ claudio.galelli@obspm.fr
+                                  Presidenza INFN
+                                      19/11/2024
+ INFN sezione di Milano
+ LPC - Université Clermont-Auvergne
+ Mineral detection of astroparticles: the base idea
+ One of the many ways Geophysics has been connected to astroparticle physics over the years
+        Based on a very simple energy deposit idea: Scattering + Track formation
+                                An energetic astroparticle - WIMP, neutrino, Muons from
+                                cosmic ray shower - hits an atom in the crystal lattice of a
+                                mineral. The atom recoils and damages the crystalline
+                                structure leaving a defect called ion track -or just track
+Same formation concept as fission tracks - in that case the recoiling particle is the fission product
+                                    The idea of looking for tracks caused by cosmic rays or more
+                                    exotic particles has been floating around for 50 years
+                                                                    with interest from scientists such as Occhialini
+
+
+
+
+ Set aside because of limited modeling, readout and computational capabilities                                   2
+                             State of the art:
+
+   The concept was revived at the end of the 2010s and got the name paleodetectors
+                              The long exposure advantage: Paleodetectors capture and
+                              integrate exotic particle interactions over geological
+                              timescales, offering a high exposure detection scenario.
+
+
+                                                          First goals:
+                                                           ● Model the expected track
+                                                                length spectrum from
+                                                                exotic messengers
+                                                           ● Establish feasibility and
+                                                                identify suitable mineral
+                                                                samples.
+
+
+
+
+Tracks from secondary cosmic rays - mostly muons - in these studies are the background:
+                  the proposed samples are shielded deep underground.                 3
+                                 Paleodetectors for cosmic rays
+             Beyond Background: Muon tracks aren’t just noise for exotic particle studies
+         they hold valuable data about the past cosmic ray flux in our galaxy and beyond!
+ The Historical Memory: we are interested in minerals that have been exposed to the CR flux for
+ a period of time and then shielded by some material, keeping their accumulated historic signal.
+
+
+    Our example case study: the           A period ~6 Myr ago with
+    Messinian salinity crisis             desiccated Mediterranean.
+                                          The seabed was covered in
+                                          evaporites -mainly Halite
+                                          Deposits were flooded and
+                                          shielded after ~0.5 Myr
+
+
+                                          Our simulations show that tracks from secondary
+                                          muons are background-less except for the Uranium
+                                          fission peak. With enough material there is possibility of
+                                          discrimination between different CR flux scenarios.
+10 g Halite, 2.5 m/kyr deposit
+A: no SN, B: 20 pc, C: 100 pc
+                                                                                                   4
+The paleodetector community
+
+
+                               The community now spans tens of
+                               group, many in the US and Japan.
+
+                               Italy with the Milano group is the
+                               leader for the CR interest group.
+
+                               The community produced an 80+
+                               page “Whitepaper” in 2023 and
+                               2 general workshops (Washington 24)
+
+
+
+
+           The growth “wave” of the technique is reflected in
+           the more frequent appearances in conferences,
+           mentions in papers and interest of the public:
+           Feature article in the November APS Physics Today
+                                                                5
+                                  The paleodetector community
+Investigating the origins of UHECRs using the Pierre Auger Observatory and
+paleodetectors: Claudio Galelli, PhD Thesis
+
+27th European Cosmic Ray Symposium, Nijmegen, the Netherlands, 25-29/07/22: Claudio
+Galelli et al., Poster: “Cosmic ray signatures in Paleo-Detectors to investigate the past
+activity of our Galaxy”. https://indico.nikhef.nl/event/2110/contributions/14008/
+
+2022 Astroparticle Symposium, Saclay, France, 21-25/11/22: Claudio Galelli, Invited talk:
+“Digging for astroparticles: the paleodetectors technique”.
+https://indico.ijclab.in2p3.fr/event/8374/contributions/28070/
+
+Meudon, France, 16/11/2023, Seminar: “Rock of the Ages: techniques and challenges for
+paleodetectors”.
+
+Clermont-Ferrand, France, 05/04/2024, Seminar: “Catching cosmic messengers with
+minerals: techniques and challenges for paleodetectors”
+
+38th International Cosmic Ray Conference, Nagoya, Japan, 07/23: Lorenzo Caccianiga,
+Claudio Galelli, Lorenzo Apollonio, Paolo Magnani Poster: “The use of paleodetectors to
+investigate cosmic-ray fluxes throughout the history of Earth”
+
+8th Heidelberg symposium on high-energy gamma-ray astronomy, Milano, Italy, 09/24:
+                                                                                                   Published on PRD, 21/11/24
+Lorenzo Apollonio, Claudio Galelli, Lorenzo Caccianiga Poster: “Do minerals know about      Selected for APS and INFN press release
+cosmic rays?”
+
+
+
+     Perfect time to capitalize on the theoretical work and interest in literature
+                                                                                                                                  6
+                           PRI𝝻S: time for action
+                                    Solid science case:
+Our simulated case shows that there is a solid theoretical base with very interesting
+results that is relatively easy to transfer to experiment: it is time to crack open the rock!
+
+Perfect timing:                                   Relevance and innovation:
+The wave of interest in paleodetectors offers     Testing cosmic-ray tracks in ancient minerals
+the ideal moment to validate techniques           will set a global benchmark for
+and lead the field. Other groups in the           paleodetector experiments, and will position
+community are preparing to move to action         PRIµS as a cornerstone for future studies in
+with controlled experiments on shorter tracks     high-energy and cosmic ray astrophysics.
+
+                                     Scientific impact:
+ ●   First detection of a track from an astroparticle source
+ ●   Give insights into the historical flux of cosmic rays, with potential applications for dark
+     matter and neutrino studies.
+ ●   Establish essential data and methodological standards and pioneer the emerging
+     field of paleo-astroparticle physics.
+                                                                                                   7
+                    PRI𝝻S: milestones
+Gold        Measure and compare the spectrum of       First set standard on track
+            track lengths observed in a mineral       length spectra for the
+Milestone                                             paleodetector community.
+            using    optical    microscopy  with
+            simulations, including any necessary      Base for all the future
+            adjustments to the simulations.           experimental studies in the
+                                                      field.
+
+Platinum    Definitively detect and identify ion      First scientific experimental
+            tracks resulting from interactions with   result of the community.
+Milestone                                             Birth of paleo-astroparticle
+            secondary CRs.
+                                                      physics.
+
+
+
+
+Diamond     Measure the variation in track            One of the largest
+            production    rates    across different   advancements in cosmic
+Milestone                                             ray physics in the last
+            geological samples as a proxy for
+            cosmic ray flux variations.               decade.
+                                                                                8
+                       Sample selection and retrieval
+            The selection of the type and history of the sample to use is crucial
+
+Ideal sample: Halite from the MSC
+Preserved information on the flux of cosmic rays during the MSC
+desiccation event with defined exposure time
+ ● Samples already recovered from prior campaigns
+ ● Well-studied history due to geological interest
+ ● Solid track spectrum modeling from our study
+ ● Reference material with different history is available (e.g. Death Valley)
+
+                       Alternative sample: Volcanic Xenoliths                   Risk: Low
+                       Minerals formed in the mantle and brought to the         If the prime samples are
+                       surface by eruptions. Well-defined exposure time         not available, alternative
+                       between eruptions                                        sources     with    similar
+                        ● Available and easy to retrieve (LPC)                  properties       but   less
+                        ● Dating is easy thanks to eruptions                    interesting history can be
+                                                                                identified and obtained
+                        ● Different samples from different volcanic areas
+
+ Costs for acquisitions are part of the 18k€ requested for retrieval missions.
+ Overheads can cover possible “paying” acquisitions.                                                    9
+                                Sample readout
+      The expected typical size of the tracks defines the best readout strategy
+
+     Signal in the 1-100 𝝻m range: can use the same techniques as fission tracks
+                                  Optical Microscopy
+                    Accessible - Relatively cheap - Easily reproducible
+
+Main requirements of the instrument:
+Speed of scanning                                        Motorized stage and focusing
+Ease and speed of imaging                                Automated capture and transfer
+Ease of adjustment                                       Modular design
+Complete time availability
+
+                Modular microscopy station       Risk: low
+                with motorized XY stage and      Delays or unavailability of components of the
+                autofocus from Thorlabs.         station can be replaced with other similar parts.
+                Cost of the proposal: 32 k€      In the case of bigger delays or malfunctioning,
+                                                 the chosen parts are versatile and adaptable to
+                Details of the proposal in the
+                “PRI𝝻S cost” document.
+                                                 microscopes of many makes and models.
+                                                                                               10
+                                   Sample preparation
+         The first preparation step for optical microscopy is thinly slicing the sample
+
+Traditional workflow:                                     Proposed alternative: the Plasma Cleaner
+
+1.   Polishing the sample with a diamond                  A streamlined all-in-one solution
+     paste-based polisher                                       Environmentally friendly!
+          Expensive, extremely slow, wasteful
+                                                          Gas (Ar, O2) is excited to a plasma state and ablates the
+2.   Enhancing the signal by enlarging the                surface of the sample cleaning from contaminants.
+     tracks via chemical etching (HF)                     Tracks are highlighted like in chemical etching.
+           Needs dedicated safety protocols, non
+     eco-friendly                                               Already demonstrated on halite.
+
+                                                          Risk: low
+                   Tabletop plasma cleaner by SPI         If the selected product is unavailable, there are other
+                   supplies. Selected for stability and   plasma cleaners at similar price points on the market.
+                   reproducibility of results.            If there are malfunctions, a limited time share of similar
+                   Cost of the proposal: 11 k€            equipment can be negotiated with other INFN groups.
+                                                          Risk: low-medium
+                   Details of the proposal in the         If the technique is not optimal for a set of selected
+                   “PRI𝝻S cost” document.                 samples, classical etching can be used.
+                                                                                                                  11
+                                                          Costs included in the overheads.
+                                Image analysis
+Once the images are acquired tracks have to be separated from other structural
+features, counted and their size must be estimated in a pseudo-fourier analysis.
+
+
+                                       Track tagging and measuring can be performed on
+                                       different levels of automation
+                                                        classical image analysis
+                                                        to specialized AI tools
+
+
+                                       Ad-hoc trained Mask-R              Simple OpenCV
+                                       CNN or similar networks            ImageJ-based fourier
+                                                                          Tools for cell counting
+
+                                       Overheads can cover paying for software
+                                                                           Risk: low
+Calibration:                                                               If tracks in some samples
+                                                                           are hard to tag with
+The fission peak can be used as the calibration signal.                    advanced tools, tagging can
+Simulations will be refined after data acquisition.                        be done with simpler tools.
+                                                                                                         12
+       PRI𝝻S project timeline
+                                Gold   Platinum Diamond
+Cautious
+Optimistic
+
+
+
+
+                                                   13
+                              The PRI𝝻S group
+
+
+
+
+                 The bulk of the technical work will be carried out in Milano.
+
+The INFN Milano group:                              The LPC group:
+ ● Experience       on    sample       preparation,  ● Strong connection to the
+    etching, microscopy, and track analysis with        geology-geophysics world.
+    traditional techniques.                          ● Access to samples, including
+ ● World-leading expertise in cosmic ray track          xenoliths and sediment from
+    modeling within the paleodetector community.        retrieval campaigns in the
+ ● Multiple publications in the field.                  Mediterranean.
+                                                                                 14
+                      Budget recap and overview
+Microscopy station:         Primary working tool for scanning a large quantity of samples.
+Proposed model cost: 32k€   Main requirements: speed in scanning and imaging, modularity.
+Requested funds: 33 k€
+
+
+Plasma cleaner:             More efficient than chemical etching, eliminates the use of harmful acids.
+Proposed model cost: 11k€   Main requirements: reproducibility, stability between different sample runs
+Requested funds: 15 k€
+
+Retrieval missions:         12 man-weeks total, for collaboration purposes (Clermont-Ferrand) and
+Requested funds: 18 k€      sample acquisition/direct retrieval or invites.
+
+
+
+Overheads:                  Unforeseen material purchases, consumables, external sample acquisition
+Requested funds: 5 k€       or preparations, software.
+
+
+
+    Total cost: 71 k€ + 10% contingency (inflation, price increases) = 78 k€
+                                                                                                     15
+                                  PRI𝝻S Summary
+Objective: An innovative detection technique using optical microscopy to identify
+cosmic ray-induced ion tracks in ancient minerals.
+Key Milestones:
+
+ ●   Gold: Establish track-length spectrum standard for paleodetector research.
+ ●   Platinum: First confirmed identification of astroparticle-induced tracks.
+ ●   Diamond: Reconstruct historical cosmic ray flux variations from geological samples.
+Methods and Tools:
+
+ ●   Sample collection from ancient Halite deposits and/or volcanic xenoliths.
+ ●   High-resolution microscopy with automated scanning.
+ ●   Advanced etching and plasma cleaning for track enhancement.
+
+Impact:      PRIµS aims to establish the first experimental validation for
+paleodetectors, bridging geology and high-energy astrophysics. It could transform the
+technique into a powerful tool - not just for cosmic rays, but also for dark matter and
+neutrino research - opening doors to studying the deep history of cosmic events. If
+the work is successful, we will be setting the stage for breakthroughs and birthing the
+field of paleo-astroparticle physics.                                                16
+Thank you for your attention!
+
+
+
+
+                                17
+                14
+                     C evolution in atmosphere
+    14
+●    C is produced by cosmic rays in
+  atmosphere
+● production is dominated by low energy
+  cosmic rays that are strongly affected by
+  solar activity
+● the rate of 14C is of huge interest for
+  calibrating the dating technique
+● one of the most powerful method to track
+  14
+     C abundance is to use dendrochronology
+  (limited to kyr)
+
+
+
+
+                                                 18
+Traces of recent and close supernovae events
+● 60Fe deposit on oceanic crust
+● Identified as trace of very close
+  supernovae in the recent (few Myr)
+  past
+
+
+
+
+                                       K. Knie, G. Korschinek, T. Faestermann, E. A. Dorfi, G. Rugel and A. Wallner, «60Fe Anomaly in a Deep-Sea Manganese
+                                       Crust and Implications for a Nearby Supernova Source,» Phyis. Rev. Lett., vol. 93, n. 17, p. 171103, 2004.
+
+                                                                                                                                                             19
+                                        Cosmic rays
+
+
+From few GeV to hundreds of EeV (1 EeV= 1018 eV)
+ ● Most energetic particles known
+ ● Produce extensive air showers of secondary
+    particles in the atmosphere: in these showers
+    are muons, neutrons and neutrinos
+ ● Primary cosmic rays mostly charged particles
+    and are deflected by magnetic fields: delayed
+    wrt to neutral particles
+ ● cosmic rays in the TeV-PeV region associated to
+    supernova remnants, higher energy may be
+    accelerated by compact objects (magnetars?),
+    AGN or starburst galaxies
+
+
+
+
+                                                      20
+                                       Neutrinos
+
+
+Difficult to reveal: their interaction is very
+unlikely
+ ● need for large volumes
+ ● at low energy main background is
+     radioactivity
+ ● Atmospheric neutrino background is
+     practically ineliminable
+ ● at the highest energies almost
+     background-free but huge volumes (>km3 )
+     needed
+
+
+
+
+                                                   21
+                                 Dark matter
+
+Direct detection based on the
+(supposed) flow of DM over earth.
+Main hypothesis is WIMPs or
+axions
+
+Techniques rely on building
+massive, ultrapure detecting
+environments for rare events:
+ ● noble scintillators (XENON)
+ ● crystal scintillators
+    (DAMA/LIBRA)
+ ● cryogenic crystals (CRESST)
+
+
+
+                                               22
+                  How do we detect rare events?
+
+Is the event very rare and/or suppressed by background?
+
+
+
+
+ Create an environment in which energy deposit
+ from the desired interaction is distinguishable
+
+
+
+
+Internal background          Ultrapure material
+
+
+External background          Efficient shielding
+
+
+Rare event                   Large detecting volume
+                                                          23
+       Small detectors with a (very) long history
+
+    Minerals can be extracted from the Earth’s crust with ages up to the order of Gyr
+
+
+
+
+Xenon 1T
+                                                                              Morenosite crystals
+⁓1000 kg
+                                                                              ⁓100 g
+⁓10 years data
+                                                                              ⁓1 Gyr
+taking
+                                                                              Under >2000 m of
+Under ⁓ 1500 m of
+                                                                              rock
+rock
+                                                                              Exposure= 107 kg yr
+Exposure= 104 kg yr
+
+
+
+
+                                                                                                24
+                               Ok, but why?
+
+          Natural minerals can be (under certain conditions) particle detectors.
+
+
+                              Why should we use them
+                               when we have much
+                              more refined detectors?
+
+
+
+
+   They can reach a very large                        They can measure the fluxes of
+exposure, even with a small sample                       astroparticles in the past
+
+possibly larger than we could ever                    One of the very few chances of
+          build artificially                           studying any astrophysical
+                                                           emission in the past
+                                                                                       25
+                                    Choosing the Mineral
+                                                    Generalities
+
+The mechanism of track formation is not yet fully understood
+
+                                                               A wishlist for the perfect paleo-detector candidate:
+                                                                ● Insulators or poor semiconductors
+                                                                ● Low radioactive isotope content to lower
+                                                                    ﬁssion fragments contribution
+                                                                ● (Possibly) high H content to mitigate neutron
+                                                                    background
+                                                                ● Easy to datate
+                                                                ● Easy to retrieve
+                                                                ● Abundant in diﬀerent parts of the globe
+                                                                ● Forming often in Earth’s history
+
+
+
+
+                                                                                                                      26
+                         Choosing the Mineral
+       Backgrounds: fission products and neutrons
+
+                 Neutrons                                      Fission fragments
+From (ɑ,N) reactions and spontaneous ﬁssion           Spontaneous ﬁssion from 238U gives rise to
+                                                      two daughter nuclei that recoil back-to-back
+Neutrons interact preferentially with hydrogen
+losing most of their energy
+Hydrogen is too light to form tracks
+                                                             Long - O(μm) double tracks
+
+
+                                                             The more radiopure the better!
+
+           More hydrogen = good
+                                                 Minerals born in the Mantle
+                                                                           Evaporites from seawater
+
+                                                                                                     27
+                         Choosing the Mineral
+                                  Geological history
+
+                 The history of the mineral is as or more important than its composition
+
+
+Dark matter and neutrino searches                               Studies on the evolution of the cosmic
+need very high overburdens to shield the                        ray ﬂux need a source of samples with
+minerals from secondary CRs (=muons)                            diﬀerent ages but similar history
+
+
+
+
+Searches for transients need samples of                         Studies on the CR ﬂux in a ﬁxed moment
+slightly diﬀerent ages - born before and                        in the past need a sample that was
+after the event                                                 exposed for a time and then shielded
+
+
+
+                    These conditions often overwrite the preference on the mineral
+                                                                                                         28
+    Geological history: examples of interest
+                                  The Sudbury region
+
+
+Sudbury is a good candidate for paleo-detector
+extraction for searches that need high overburden,
+as it is recognised as the result of an asteroid
+impact that happened 1.85 Gyr ago: well dated.
+
+It has many access points to deep strata in Nickel
+mines: excavation is possible
+
+SNOLAB at 2km of depth is the deepest science
+facility in the world: it could provide on-site
+analysis possibilities, without the need of exposing
+the samples to present-day CR ﬂuxes
+
+
+
+                                                       29
+Geological history: examples of interest
+           The Mid-Atlantic rift
+
+
+
+
+                 The continuous production of crust in the oceanic rift can be
+                 dated with paleomagnetism - could be exploited as a series of
+                 samples exposed for diﬀerent integrated times.
+
+                 the Atlantic rift has diﬀerent overburden of water, from ~4 km
+                 to practically none (iceland), which can be used to “select”
+                 high energy secondary particles, mostly produced by high
+                 energy primaries
+
+                                                                                  30
+      Geological history: examples of interest
+                            Xenoliths and flux evolution
+Xenoliths are intrusions into magmatic ﬂows,
+taken mostly from the mantle and
+can easily be dated together with their
+associated eruptions.
+Many types:
+granodiorite, peridotite, sandstones, olivine…
+
+
+
+
+                                                           31
+         Geological history: examples of interest
+The Messinian Salinity Crisis and cosmic ray flux in the past
+
+
+Main problem in paleo-detectors for
+cosmic rays is to know the
+exposure time of the mineral to the
+air:even a small overburden might
+change the ﬂux dramatically.
+
+Evaporites (Halite, Gypsum)
+produced in that event were
+exposed for a known period
+( ~500 kyr) and then very brieﬂy
+(possibly just few years) covered by
+a ~km of water
+
+
+                                                           32
+“Chronology with a pinch of salt:
+Integrated stratigraphy of Messinian
+evaporites in the deep Eastern
+Mediterranean reveals long-lasting halite
+deposition during Atlantic connectivity”
+Meilijson et al.,
+Earth-science reviews,
+2019
+
+
+
+
+                                      33
+                           The first proposals
+Mica was one of the first targets
+(comes naturally in thin foils).
+
+
+
+
+  “Dark Horse” - Arons, 2003
+                                                 34
+2018 revival: paleo-detectors for dark matter
+                  detection
+
+                            Projected paleo-detector 90% Upper Limits
+                            on WIMP-like DM. Assumes σ = 15 nm; =
+                            100 kg Myr (high exposure case)
+
+                            T. D. P. Edwards, B. J. Kavanagh, C.
+                            Weniger, S. Baum, A. K. Drukier, K. Freese,
+                            M. Gorski and P. Stengel, "Digging for dark
+                            matter: Spectral analysis and discovery
+                            potential of paleo-detectors," Phys. Rev. D,
+                            vol. 99, no. 4, p. 043541, 2019
+                            arXiv:1811.10549
+
+
+
+                                                                       35
+             Paleo-detectors for solar neutrinos
+
+● Paleo-detectors have been suggested also to study the flux of solar neutrinos to understand the
+  sun metallicity
+● Focus on 8B neutrinos which are the most sensible to metallicity
+● Collect samples at different ages might give you an idea of how the metallicity of the sun evolved
+
+
+
+
+                                                                                                 timescales with paleo detectors," Physical
+                                                                                                 "Measuring solar neutrinos over gigayear
+                                                                                                 N. Tapia-Arellano and S. Horiuchi,
+
+
+                                                                                                 Review D, p. 123016, 2021
+                                                                                                                            36
+     Paleo-detectors for supernova neutrinos
+● Supernova neutrinos have a high instantaneous flux but for a very short (10s) duration
+● Paleo-detectors might be able to measure the rate of SN in our Galaxy
+
+
+
+
+                                                                                    S. Baum, T. D. P. Edwards, B. J. Kavanagh, P. Stengel,
+                                                                                    A. K. Drukier, K. Freese, M. Gorski and C. Weniger,
+                                                                                    «Paleodetectors for Galactic supernova neutrinos,»
+                                                                                    Phys. Rev. D, vol. 101, n. 10, p. 19, 2020
+                                                                                                                                             37
+                             Paleo-detectors for cosmic rays
+
+
+●   Atmospheric neutrinos might be able to trace   J. R. Jordan, S. Baum, P. Stengel, A. Ferrari, M. C. Morone, P. Sala and J. Spitz, «Measuring Changes in the
+                                                   Atmospheric Neutrino Rate over Gigayear Timescales,» Phys. Rev. Lett., vol. 125, n. 23, p. 231802, 2020
+    an evolution of the flux of cosmic rays and
+    search for long transients (100 Myr)
+●   For shorter transients a different approach
+    might be better (see after)
+●   The ability of measuring CR transients
+    depends on where the transients are
+    located: cosmic rays are charged particles
+    and are thus delayed by magnetic fields
+●   Depending on their rigidity, they might
+    even be trapped inside the Galactic Magnetic
+    Field (GMF)
+●   Exception: if sufficiently close and/or
+    energetic neutrons can arrive to Earth.
+    decay length ~9 kpc * (E [EeV])
+
+
+
+
+                                                                                                                                                           38
+Mass extinctions: caused by nearby astrophysical
+events?
+●   It was suggested in various occasion that a
+    nearby      catastrophic     astrophysical
+    event might be the cause of some of the
+    various mass extinctions that happened
+    on Earth
+●   gamma emission from SN or GRB could
+    have depleted the ozone layer, causing
+    harmful UV radiation to kill surface-living
+    species (or making them evolve quicker)
+●   some extinctions show however that also
+    deep-sea       and     deep-underground
+    creatures were affected. It was suggested
+    that it might be the effect of elevated
+    muon (and/or neutron?) fluxes induced
+    by a burst of primaries
+●   such a flux might easily have left tracks in
+    paleo-detectors
+
+
+
+                                                   39
+              The recipe for paleo-detectors
+                                                                                Choice of the read-out
+Choice of the signal                   Choice of the mineral
+WIMP Dark Matter
+Solar neutrinos
+Atmospheric neutrinos
+Supernova neutrinos      Radiopurity
+Secondary cosmic rays
+                                                                              Availability, rarity and
+                                                                              ease of extraction
+
+              Simulation of the response (track length) of
+                                                                                              Precision wanted
+              materials to signal and backgrounds
+
+
+                                                      Geological history & position in the crust
+
+ Simulation/measurement of the ﬂux
+                                                                                                           40
+               Simulations: the paleopy package
+                                                                 Thomas Edwards
+https://github.com/tedwards2412/paleopy                          Bradley Kavanaugh
+
+paleopy computes the track length spectrum for diﬀerent sources and backgrounds in selected materials
+
+                             It deﬁnes the characteristics of the mineral: number of diﬀerent nuclei,
+                             mass/charge of the components, molar mass
+                             Currently supported: nchwaningite, halite, epsomite, nickelbischoﬁte, olivine,
+                             sinjarite + morenosite, obisidian (in progress)
+
+                             Computes backgrounds for the selected mineral: neutrons, ﬁssion products
+                                                                              From SOURCES4A, SRIM
+
+                                            Computes track lengths for neutrinos of diﬀerent sources:
+                                            can be used for other particles
+                                                                              From Corsika, Geant & other software
+                                                     Computes track length for DM of mass m
+                                                                              From WIMPy_NREFT
+                                                                                                                41
+                            Simulations: the paleopy package
+
+
+
+T. D. P. Edwards, B. J. Kavanagh, C.
+Weniger, S. Baum, A. K. Drukier, K.
+Freese, M. Gorski and P. Stengel,
+"Digging for dark matter: Spectral
+analysis and discovery potential of
+paleo-detectors," Phys. Rev. D, vol.
+99, no. 4, p. 043541, 2019
+
+
+
+
+                                                               42
+Simulations: the paleopy package
+          Epsomite (MgSO47(H2O)
+
+
+
+
+                                   43
+Simulations: the paleopy package
+
+
+
+
+                                   44
+Case study 1: neutrinos from galactic
+            supernovae
+
+
+
+
+                                        45
+          Case study 1: neutrinos from galactic
+                      supernovae
+   Epsomite (MgSO47(H2O)                                 Morenosite (NiSO47(H2O)
+
+
+
+
+Hard to obtain with high enough overburdens: mostly
+                                                      Found in Sudbury’s Nickel mines
+found in carsic sediments and dried salt basins
+                                                                                        46
+Case study 1: neutrinos from galactic
+            supernovae
+
+
+
+
+    Huge volume needed for detection! - even in the best case scenario
+                                                                         47
+A possible case study: Fermi Bubbles (and their age)
+
+
+● The observation of bubble-like
+  structure perpendicular to the
+  galactic plane in gamma showed
+  that our Galaxy might have been
+  active in the recent past
+● Is it possible that this activity was
+  associated to high energy
+  cosmic ray emission?
+● Some studies date these
+  structures at 5-6 Myr -> nicely fits
+   the period where the Mediterranean was
+                                            M. Su and D. P. Finkbeiner, "EVIDENCE FOR GAMMA-RAY JETS IN THE MILKY WAY," Astrophys. Journal, vol. 753,
+   mostly evaporated (5.9 Myr)              no. 61, 2012.
+                                            R. Zhang and F. Guo, «Simulating the Fermi Bubbles as Forward Shocks Driven by AGN Jets,» Astrophys. Journal,
+                                            vol. 894, n. 117, 2020.
+                                            M. Su, T. Slatyer and D. Finkbeiner, «GIANT GAMMA-RAY BUBBLES FROM FERMI-LAT: ACTIVE GALACTIC
+                                            NUCLEUS ACTIVITY OR BIPOLAR GALACTIC WIND?,» Astrophys. Journal., vol. 724, p. 1044, 2010.
+
+
+
+
+                                                                                                                                                   48
+  Case study 2: MSC and the Fermi bubbles
+Phase 1: Simulate UHECR emission from the Fermi Bubbles, propagate and check which emitted particles
+can aﬀect evaporites from the MSC before they are shielded by the ﬂood
+
+
+
+                                                                          Toy model for FB emission:
+                                                                          -2.7 power law spectrum
+                                                                          normalized to the excess ﬂux
+                                                                          observed in the direction of
+                                                                          CenA, rescaled with distance
+
+
+
+
+                                                                         Propagation in GMF (JF12) using
+                                                                         CRPropa (Diﬀusion+ballistic)
+
+
+                                                                                                         49
+      Cosmic ray delay in Galactic Magnetic Field
+                                                  105
+● Measuring the GMF (and even more                        Delay of 1EeV protons
+  extragalactic magnetic fields) is a difficult               JF12 ﬁeld (regular only)
+  task, obtained through measurements of          104
+  starlight polarization, Faraday rotation
+  measure (RM) and synchrotron emission.
+● Different models exist, which can               103
+  disagree strongly on the direction of the
+  deflection, but usually agree at least on
+  the order of magnitude of its absolute
+  value                                           102
+● Delay is rarely considered -> need for
+  dedicated simulations
+● Below a certain rigidity (10-100 PV?)           10
+  likely a transition from ballistic to diffuse
+  propagation occur
+                                                  Years
+                                                                                         50
+Case study 2: MSC and the Fermi bubbles
+
+
+
+                                                                          Simulated observed spectrum
+                                                                          and the GMF induced delay at
+                                                                          earth
+                                                                          orange means out of temporal
+                                                                          bounds
+
+
+
+
+Phase 2: Simulate using Corsika the expected muon ﬂux associated with the “observed” FB spectrum
+
+Phase 3: Compute the nuclear recoil spectrum from muons hitting nuclei in a Halite target using Geant4   51
+              Headcount in the group
+
+
+
+
+11 institutes in Europe
+10 institutes in Japan
+19 institutes in the USA
+                                       52
+                           Plasma cleaning halite
+
+
+
+
+Towards a Prototype Paleo-Detector for Supernova Neutrino and DarkMatter Detection
+Authors: Emilie LaVoie-Ingram, Greg Wurtz, Chris Kelso, and Zane Cable, University of North
+Florida+
+Mineral Detection of Neutrinos and Dark Matter 2024, Proceedings                              53
+54
+55
+56
+57
+58
+

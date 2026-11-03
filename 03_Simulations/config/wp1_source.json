@@ -1,0 +1,15 @@
+{
+  "description": "Preliminary monoenergetic WP1 source, set just above the Ag K edge; not a calibrated W-tube model.",
+  "nrays": 100000,
+  "seed": 20260720,
+  "energy_keV": 25.52,
+  "spatial_distribution": "gaussian",
+  "sigma_x_m": 0.0001,
+  "sigma_z_m": 0.0001,
+  "angular_distribution": "flat",
+  "horizontal_angle_min_rad": -0.06,
+  "horizontal_angle_max_rad": 0.06,
+  "vertical_angle_min_rad": -0.00001,
+  "vertical_angle_max_rad": 0.00001,
+  "polarization_degree": 0.5
+}

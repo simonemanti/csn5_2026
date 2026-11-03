@@ -1,0 +1,582 @@
+       Proposal for Grant Giovani CSN5 - Year 2026
+ Acronym:                PRISM
+
+ Full title:             Precision Room-temperature Instrumentation for high-energy X-ray
+                         absorption Spectroscopy Measurements
+
+ Applicant:              Simone Manti
+
+ Participating units:    INFN National Laboratory of Frascati
+
+
+
+                                               Summary
+
+X-ray absorption spectroscopy (XAS) in the laboratory above 20 keV remains a challenge in hard
+X-ray instrumentation. Although synchrotron facilities provide outstanding performance, their limited
+accessibility motivates laboratory instruments for routine characterization. In this context, the limited
+photon flux of laboratory X-ray sources for fluorescence-mode XAS on thick samples makes high
+detection efficiency above 20 keV essential. However, silicon detectors lose efficiency at hard X-ray
+energies, while high-purity germanium detectors require cryogenic operation. Therefore, access to
+K-edges above 20 keV in the laboratory for elements such as Mo, Pd, Ag and Sn remains limited,
+despite their importance in catalysis, electrochemistry, and energy materials. PRISM will establish a
+laboratory platform for quantitative fluorescence-mode XAS above 20 keV by combining
+high-resolution crystal optics with a room-temperature multichannel cadmium zinc telluride (CZT)
+detector. PRISM integrates crystal monochromatization, energy-resolving detection, dedicated
+electronics, waveform reconstruction and SHADOW4-GEANT4 optimization into a single instrument.
+Building on expertise gained from the VOXES project and SIDDHARTA experiment, PRISM will
+develop the complete detection chain, targeting for the CZT an energy resolution ≤2% at 22.2 keV
+with high efficiency and SNR. The platform will be validated through fluorescence XANES at the Ag
+K-edge and demonstrated on realistic thick and heterogeneous samples. Beyond the proof of concept,
+PRISM will provide INFN with new capabilities in hard X-ray spectroscopy and semiconductor
+detector instrumentation. Its CZT detector, algorithms, calibration procedures and simulation
+framework will provide reusable technologies for future X-ray instruments. By bridging laboratory
+spectroscopy and large-scale facilities, PRISM will enable flexible, high-performance hard X-ray
+spectroscopy currently inaccessible outside synchrotron beamlines.
+
+1 State of the art​                                                                                    1
+2 Objectives and Expected Results​                                                                     2
+3 Methodology​                                                                                         2
+4 Organization​                                                                                        7
+5 Synergies with External Projects​                                                                    9
+6 Impact and Spin-offs​                                                                               10
+7 Costs​                                                                                              11
+8 Risk Assessment​                                                                                    12
+9 Bibliography​                                                                                       12
+1 State of the art
+A central challenge in radiation-detector development is enabling in-situ and operando
+characterization under realistic conditions. This requires element- and bulk-sensitive measurements
+of weak signals from thick, heterogeneous or dilute samples over long acquisition campaigns [1,2].
+X-rays are particularly suited for such investigations because of their high penetration depth, enabling
+access to the bulk of samples [3]. Among X-ray techniques, X-ray absorption spectroscopy (XAS)
+directly probes absorption across an element-specific absorption edge [4]. The near-edge region
+(XANES) is sensitive to oxidation state, electronic structure and coordination geometry, whereas the
+extended region up to 1 keV above the edge (EXAFS) provides quantitative information on the local
+atomic environment. XAS can be measured in transmission, from beam attenuation through the
+sample, or in fluorescence, from the emitted characteristic X-rays. Fluorescence detection is
+particularly suited to dilute, thick or geometrically constrained samples for which transmission is
+impractical [5].
+Synchrotron facilities are the reference platforms for XAS, as their high brilliance, energy tunability
+and dedicated beamlines enable high-quality spectra with excellent SNR over a wide energy range [6].
+However, access to these large-scale facilities is limited and competitive, and the allocated
+beamtime is often unsuitable for routine characterization, long experimental campaigns, or studies
+involving hazardous and radioactive samples [7]. These limitations have driven renewed interest in
+laboratory XAS systems based on conventional X-ray sources [8]. Although laboratory sources
+provide lower brilliance than synchrotrons, they offer continuous access, flexible sample handling and
+long measurement times, making them attractive for routine analysis, method development and slowly
+evolving in-situ or operando processes [9].
+Recent advances in source brightness, monochromator crystals and detection technology have enabled
+an increasing number of XAS and XES measurements to be transferred back to the laboratory
+[10,11]. Commercial laboratory XAS systems are available (e.g. Rigaku, Sigray, easyXAFS),
+confirming the maturity and industrial relevance of the field, although their architecture and
+substantial cost limit flexibility for customized fluorescence measurements. Within INFN-LNF, the
+VOXES spectrometer [12,13] has established expertise in high-resolution von Hamos spectroscopy
+for extended and dilute X-ray sources. The instrument currently operates mainly in the 5–20 keV
+range and has recently been upgraded with motorized positioning, energy-dispersive monitoring and
+mechanical compatibility with transmission XAS measurements [14].
+Despite this progress, laboratory fluorescence-XAS above approximately 20 keV remains
+challenging [15], although this range includes many technologically relevant K-edges of Mo, Pd, Ag
+and Sn, whose lower-energy L-edges are too closely spaced [16]. Silicon-based detectors
+progressively lose absorption efficiency in the hard-X-ray range, whereas high-purity germanium
+detectors offer excellent spectroscopic performance but require cryogenic cooling. High-Z compound
+semiconductors such as CdTe and CdZnTe instead provide high hard-X-ray absorption
+efficiency and room-temperature operation. Although CZT detectors have been developed for
+synchrotron, imaging and high-flux applications, their integration into multichannel,
+energy-resolving laboratory fluorescence-XAS systems remains largely unexplored [17,18].
+PRISM is specifically designed to close this technological gap by combining three mature but
+not previously integrated components into a single optimized platform: integrating segmented
+CZT sensors, low-noise electronics with waveform-based reconstruction and high-resolution crystal
+optics. Such a platform would extend laboratory fluorescence-XAS beyond 20 keV while
+consolidating the INFN expertise in hard-X-ray detection and spectroscopy.
+
+
+
+                                                                                                      1
+2 Objectives and Expected Results
+The main goal of the project is to develop and validate a room-temperature laboratory platform
+for fluorescence-mode XAS above 20 keV, combining a high-resolution crystal monochromator
+with a custom multichannel CZT detector. The X-ray source, crystal optics, sample environment,
+detector, electronics, data acquisition, and simulation framework will be optimized as an integrated
+measurement chain for quantitative XANES studies of samples unsuitable for transmission
+measurements because of thickness, dilution, or geometry. To my knowledge, no existing laboratory
+system combines crystal monochromatization with multichannel energy-resolving CZT
+detection for quantitative fluorescence XAS above 20 keV.
+
+The project has three objectives (O) and expected results (ER):
+
+O1: Design, construct and validate the complete fluorescence-mode PRISM XAS instrument
+through end-to-end simulations and experimental commissioning.​
+ER1: A fully commissioned laboratory setup with optimized source–optics–sample–detector
+geometry, supported by a validated simulation framework. Simulated and measured count rates will
+agree within 20%, while beam spot size and incident-energy resolution will be validated within 10%.
+
+O2: Develop and characterize a room-temperature multichannel CZT detection system
+optimized for hard X-ray fluorescence spectroscopy.​
+ER2: A calibrated CZT detector achieving intrinsic detection efficiency above 90% at 50 keV, energy
+resolution at the ≤2% level for the Ag Kɑ fluorescence line at 22.2 keV, and dead time below 10%
+under the operating conditions selected for XANES acquisition.
+
+O3: Demonstrate PRISM’s quantitative fluorescence XANES measurements above 20 keV using
+the Ag K-edge as benchmark.
+ER3: Ag K-edge XANES spectra will be acquired for metallic Ag foil and two Ag(I) reference
+compounds with different local coordination environments. The measurements will achieve a
+monochromatic incident-beam bandwidth of ≤10 eV FWHM and edge-step SNR ≥ 20.
+
+
+3 Methodology
+
+XAS in the laboratory
+
+XAS measures the energy dependence of the linear absorption coefficient, μ(E), across an
+element-specific core-level absorption edge (see Figure 1). The near-edge region (XANES) is
+sensitive to oxidation state, orbital occupancy and local symmetry, whereas the oscillations above
+the edge (EXAFS) provide information on coordination numbers, interatomic distances and
+structural disorder. Laboratory XAS becomes increasingly demanding at hard-X-ray energies
+because the usable flux from conventional sources decreases and EXAFS requires accurate
+measurements over a broad energy interval. PRISM will use the Ag K-edge at 25.5 keV as its
+benchmark, first establishing a robust XANES protocol and then quantifying the EXAFS range
+achievable within laboratory-compatible acquisition times.
+
+
+
+
+                                                                                                  2
+The absorption coefficient μ(E) can be acquired in transmission or fluorescence mode. In a
+dispersive transmission arrangement, such as that being explored with VOXES [14], the broad source
+spectrum passes through the sample and a monochromator crystal spatially separates the transmitted
+energies onto a position-sensitive detector. Comparison of the spectra acquired with (I(E)) and without
+(I0(E)) the sample provides μ(E). This approach is efficient but requires a homogeneous sample with
+an appropriate transmission thickness. PRISM will instead operate primarily in fluorescence mode.
+A crystal placed before the sample will select and focus one incident energy at a time, while an
+energy-resolving detector positioned approximately perpendicular to the incident beam will measure
+the characteristic fluorescence emitted following core-hole creation. For the Ag K-edge (see Figure 1),
+If(E) will be extracted from the Ag Kα line complex at approximately 22.2 keV. This geometry
+extends XAS to thick, dilute, heterogeneous, or geometrically constrained samples that are impractical
+in transmission. In the thin or dilute limit, after background, live-time and detector-response
+corrections, the absorption spectrum is proportional to the ratio μ(E) ∝ If(E) / I0(E) where I0(E) is the
+incident monochromatic intensity.
+
+PRISM will extend fluorescence-mode XAS above 20 keV by combining high-order crystal
+optics with efficient room-temperature CZT detection. A cylindrically bent germanium crystal,
+using the Ge(880) reflection as the baseline configuration, provides a sufficiently small lattice-plane
+spacing to satisfy the Bragg condition at practical angles and achieve the energy dispersion required in
+this range. The incident energy will be selected from the X-ray-tube continuum in a VOXES-derived
+von Hamos geometry, while the CZT array will maintain high detection efficiency for the
+corresponding fluorescence photons. During an energy scan, the crystal rotation will be coordinated
+with the motorized axes to preserve the source–crystal–sample geometry and the position of the
+
+
+                                                                                                       3
+focused spot. At each energy set point, a complete fluorescence spectrum will be acquired for a
+defined dwell time, and If(E) will be extracted by fitting or integrating the selected fluorescence line
+after local-background subtraction. Finer energy steps will be used around the absorption edge and
+coarser steps in the extended region, with dwell times adapted to the predicted count rate and target
+statistical uncertainty.
+
+
+
+
+The feasibility of the required angular scan and focusing is supported by the existing VOXES
+experience. For instance, Figure 2 (left) shows the measured Fe Kα rate on the position-sensitive
+detector as the crystal is rotated through its nominal Bragg angle, demonstrating a controlled
+Bragg-angle scan. In Figure 2 (right), the same Fe Kα line is shown on a two-dimensional detector,
+exhibiting millimetric size spot. Although these measurements were performed in an X-ray-emission
+configuration and do not themselves constitute XAS, they validate two essential instrumental
+functions for PRISM: precise crystal rotation for energy selection and spatial focusing with a bent
+crystal. The project will build on this expertise, the available VOXES components and in-kind
+contributions, specifically the two slits to collimate the flux after the source, existing crystal rotation
+and translation stages, and the shielded laboratory infrastructure at LNF.
+
+CZT detector and signal reconstruction
+
+The detector represents the key technological bottleneck for laboratory hard-X-ray fluorescence XAS.
+PRISM will overcome this limitation by developing a custom multichannel CZT detector
+optimized for laboratory fluorescence measurements in the 20–50 keV range. The design will
+build on the experience gained within SIDDHARTA, in collaboration with IMEM-CNR in Parma and
+with the University of Palermo, where CZT detectors were tested at the DAΦNE collider under
+high-flux conditions [19–22].
+
+
+
+                                                                                                         4
+The baseline CZT detector will consist of a monolithic 2-mm-thick CZT crystal segmented into a
+20-pixel linear array with a 500 μm pitch, common cathode and surrounding guard ring [23]. This
+geometry will increase the active area and collected solid angle, while distributing the fluorescence
+rate among independent channels to reduce pile-up and enable channel-resolved background
+monitoring. Each pixel will be coupled to a dedicated low-noise preamplifier. The system will be
+characterized in terms of efficiency, energy resolution, gain linearity and stability, dead time, rate
+capability and channel-to-channel uniformity.
+
+
+
+
+Waveforms will be digitized using a 64-channel, 16-bit, 125 MS/s acquisition platform. Although the
+detector requires 20 primary channels, the larger channel capacity will accommodate guard-ring,
+synchronization and diagnostic signals, providing margin for future detector expansion. A
+detector-response simulation will couple GEANT4 energy-deposition calculations to electric-field and
+weighting-potential models. Charge transport will then be simulated to generate channel-resolved
+current pulses including trapping, incomplete charge collection and charge sharing between adjacent
+pixels. After convolution with the measured front-end response and addition of realistic electronic
+noise, the synthetic waveforms will be used to develop and validate the reconstruction algorithms.
+Conventional pulse-shape observables and machine-learning classifiers, building on experience with
+germanium detectors [24] and ongoing CZT tests at the LNF Beam Test Facility [25] (see Figure
+3), will distinguish genuine fluorescence events from pile-up, saturation, electronic disturbances and
+distorted pulses. Dedicated reconstruction algorithms will also identify or correct escape-peak
+contributions, charge-sharing events and incomplete charge collection, thereby improving
+fluorescence-peak reconstruction and spectral quality.
+The same CZT detector head will measure both the fluorescence signal If(E) and the incident intensity
+I0(E) through a motorized exchange system. The CZT head and sample holder will each be mounted
+on independent rotation stages, while a long-travel linear axis will alternate the sample and detector
+between the two configurations. For If(E), the sample will be placed at the monochromatic focus and
+
+
+                                                                                                    5
+observed by the CZT array at approximately 90∘; for I0(E), the sample will be translated out and the
+detector rotated and repositioned into the attenuated direct beam. Calibrated attenuators, shorter dwell
+times and, when required, reduced tube current or slit aperture will keep the direct-beam rate within
+the validated linear operating range.
+
+Source to sample simulation
+
+To identify the optimal instrument configuration within the available project budget, PRISM will
+develop an end-to-end, source-to-detector simulation of the entire spectrometer. The Ag K-edge
+at approximately 25.5 keV will be used as the reference case for defining the XANES measurement
+protocol and the required performance in terms of energy resolution, photon flux, SNR and acquisition
+time. The simulation workflow will consist of two coupled stages. First, SHADOW4 [26]
+ray-tracing simulations building on the approach previously validated for the VOXES
+spectrometer [27], which will model photon transport from the X-ray tube through the collimating
+slits and crystal optics to the sample.
+
+
+
+
+Different germanium-based crystal reflections will be investigated in the VOXES-type von Hamos
+geometry, with the Ge(880) considered as the baseline candidate for measurements around the Ag
+K-edge [15]. The contributions from lower harmonics (e.g. (220), (440), and (660)) will be taken into
+account. Parametric studies will optimize the crystal material, reflection, curvature radius, dimensions,
+source–crystal and crystal–sample distances, slit apertures and Bragg geometry. The simulations will
+quantify the geometrical acceptance, energy bandwidth, photon flux, beam profile and illuminated
+spot size at the sample, while also evaluating alignment and mechanical tolerances. The SHADOW4
+output will then be transferred to GEANT4, which will simulate photon absorption in the
+sample, fluorescence emission, self-absorption, background contributions and energy deposition
+in the multichannel CZT detector. The combined simulations will be used in the first months of the
+project to optimize the source, crystal optics, slit system, sample geometry and detector configuration,
+balancing count rate, spectral resolution and background rejection. A coordinated motorized scanning
+scheme will also be defined to vary the incident energy across the Ag K-edge while maintaining the
+required source–crystal–sample geometry. The final outcome of this activity will be a design freeze
+
+
+                                                                                                       6
+specifying the X-ray source, crystal type and dimensions, curvature radius, distances, slit apertures,
+sample position, CZT geometry, motion stages and required positioning accuracy. A proposed layout
+of the setup for PRISM is shown in Figure 4, highlighting (not to scale) all the components from
+the source, the slit system, crystal, sample and the custom CZT detector.
+
+
+4 Organization
+
+
+        Name                            Unit                    FTE       Responsibility/WP
+
+     Simone Manti       INFN, National Laboratory of Frascati   1.0     Project Leader; WP1–WP4
+
+                                                                        Crystal optics, ray tracing,
+  Alessandro Scordo     INFN, National Laboratory of Frascati   0.3
+                                                                         integration; WP1/WP3
+
+  Massimiliano Bazzi    INFN, National Laboratory of Frascati   0.3    Electronics and DAQ; WP2
+
+                                                                        Scientific Supervisor and
+   Catalina Curceanu    INFN, National Laboratory of Frascati   0.1
+                                                                       application validation; WP4
+
+                           Total                                1.7                  -
+
+
+PRISM will be divided into the following Work Packages (WP):
+
+    ●​ WP1 – Requirements, simulations and design freeze (M1–M6): The experimental
+       requirements will be established through an end-to-end SHADOW4–GEANT4 simulation
+       workflow describing the complete measurement chain, from X-ray generation and crystal
+       optics to sample response and CZT detection. The simulations will define the optimized
+       source–optics–sample–detector geometry, performance targets and procurement
+       specifications, minimizing technical risks before construction. Dr. Alessandro Scordo will
+       contribute his expertise in crystal optics, ray tracing and VOXES-based spectrometer design.
+    ●​ WP2 – Room-temperature multichannel CZT spectroscopy for hard-X-ray fluorescence
+       XAS (M4–M15): A multichannel CZT detector with dedicated low-noise front-end
+       electronics and waveform-based DAQ will be developed and characterized for hard-X-ray
+       fluorescence spectroscopy. Channel calibration, gain equalization, efficiency measurements
+       and evaluation of energy resolution, stability, dead time and pile-up performance will be
+       performed. Pulse-shape-analysis methods will be implemented to maximize spectral quality
+       and identify distorted events. Ing. Massimiliano Bazzi will support the development and
+       validation of the electronics and DAQ chain.​
+    ●​ WP3 – Instrument integration and commissioning (M10–M18): After the design freeze,
+       the X-ray source, crystal optics, motion stages, slits and mechanical components will be
+       procured and validated through acceptance tests. The complete system will then be
+       mechanically and electronically integrated. Commissioning will include optical alignment,
+       synchronized energy scanning, control-system validation and quantitative comparison of
+       measured flux, spot size and energy resolution with simulation predictions. ​     ​
+    ●​ WP4 – Ag reference samples and realistic sample demonstration (M16–M24): The
+       complete instrument will first be validated using Ag foil and reference Ag compounds with
+       different chemical states. Quantitative XANES performance will be assessed through energy
+
+
+                                                                                                       7
+        calibration, reproducibility, signal-to-noise ratio and comparison with reference spectra.
+        Fluorescence-XAS will then be demonstrated on a realistic thick, diluted or heterogeneous
+        sample, defining the accessible measurement domain. I shall perform crystal-optics
+        optimization, measurements and interpretation of the experimental results, with support from
+        team members.
+
+The project Milestones (MS) are:​         ​
+
+    ●​ MS1 – Instrument concept validated and design frozen (M6): Optimized
+       source–optics–sample–detector configuration established, with predicted flux, energy
+       resolution, spot size and acquisition performance meeting the XANES requirements.
+    ●​ MS2 – CZT spectroscopic performance demonstrated (M15): The detector achieves >90%
+       efficiency at 50 keV, ≤2% energy resolution at 22.2 keV, dead time <10%, and pile-up
+       contamination <5% under XAS operating conditions.
+    ●​ MS3 – Integrated instrument commissioned (M18): Synchronized energy scanning and
+       calibration operational; measured count rates within 20%, and spot size and energy resolution
+       within 10% of simulation predictions.
+    ●​ MS4 – Fluorescence-XAS capability demonstrated (M24): Ag K-edge XANES
+       measurements achieved on the reference metallic foil with SNR ≥20; discrimination of two
+       chemical states demonstrated in a realistic sample with statistically significant discrimination.
+
+The Work Packages and the Milestones are summarized in the Gantt table in Figure 5.
+
+The project Deliverables (D) are:
+
+    ●​ D1 – Validated SHADOW4–GEANT4 workflow, optimized instrument design and technical
+       specifications (M6).
+    ●​ D2 – CZT calibration and performance-characterization dataset with validation report (M15).
+    ●​ D3 – Ag foil and reference-compound XANES dataset with quantitative validation report
+       (M21).
+    ●​ D4 – Realistic-sample dataset, operating-domain assessment, documented analysis tools and
+       final project report demonstrating PRISM capabilities (M24).
+
+
+
+
+                                                                                                      8
+5 Synergies with External Projects
+The PRISM project will establish extensive synergies with various external projects, institutions and
+companies.
+
+Other INFN Scientific Committees
+
+    ●​ CSN3: PRISM has synergy with KAONNIS, building on the experience gained with CZT
+       detectors in the SIDDHARTA experiment at DAΦNE, and the VIP experiment at LNGS,
+       which faces similar challenges in the detection of weak X-ray fluorescence lines above 20
+       keV [28] and employs related pulse shape analysis techniques [24].
+    ●​ CSN5: Synergy with VOXES, a former CSN5 Young Researchers project whose expertise in
+       crystal-based X-ray spectroscopy, instrumentation and data analysis provides the
+       technological foundation for PRISM. VOXES will contribute existing equipment and
+       laboratory infrastructure in kind, including facilities for testing and calibration with laboratory
+       X-ray sources. Further synergies are foreseen with SPHINX, particularly in precision angular
+       scanning, optical alignment and the integration of X-ray optics and detectors.
+    ●​ EuPRAXIA: Synergy with EuAPS and the AQUA beamline, both targeting XAS
+       measurements in different photon-energy ranges. Developing laboratory-based XAS methods
+       within PRISM will provide complementary expertise, instrumentation and procedures useful
+       for preparing and optimizing future experiments at these facilities.
+
+External institutions and national and international research laboratories
+
+    ●​ University of Palermo: PRISM will benefit from the established collaboration with the
+       University of Palermo in the development and testing of CZT detectors within the
+
+
+                                                                                                        9
+       SIDDHARTA experiment. This synergy will support the optimization of the detector
+       geometry, front-end electronics, calibration procedures and signal-reconstruction methods.
+    ●​ ENRICH COST Action: PRISM is strongly aligned with the ENRICH COST Action, which
+       promotes a European network for radiation-detection research and its applications to societal
+       challenges. Within this network, the applicant is co-leader of the Working Group on
+       Simulation. A particularly relevant connection is with Manuel Sánchez del Río, leader of the
+       Working Group and principal developer of SHADOW4, the ray-tracing software that will be
+       used to optimize the crystal optics and spectrometer geometry.
+
+Industry and Private Sector
+The following companies have provided letters of support for PRISM, confirming industrial interest in
+the proposed instrumentation and its technology-transfer potential.
+
+    ●​ Due2Lab: Due2Lab has expressed interest in the PRISM project, particularly in view of its
+       expertise in CZT crystal production and detector integration and the potential scalability of
+       the proposed multichannel system.
+    ●​ Rigaku: Rigaku has expressed interest in PRISM as a laboratory XAS development and may
+       represent a relevant industrial reference for the selection of X-ray sources, optics, and other
+       key components.
+    ●​ Quantum Design: Quantum Design Europe, the European distributor of Sigray laboratory
+       X-ray instrumentation, has expressed interest in the technological developments of PRISM,
+       which complement the laboratory XAS solutions currently distributed by the company.
+
+
+6 Impact and Spin-offs  ​​
+For the INFN community, the impact will extend beyond the realization of a single instrument.
+PRISM will valorize the existing VOXES infrastructure and consolidate LNF expertise in
+semiconductor radiation detectors, precision X-ray spectroscopy, radiation transport and
+spectral reconstruction. The modular CZT detector and readout chain, validated source-to-detector
+simulations, calibration procedures and performance maps will provide reusable technological assets
+for INFN activities developing hard-X-ray instrumentation. The project will establish a transferable
+methodology linking predictive simulations, subsystem validation and quantitative performance
+assessment of integrated spectrometers. After laboratory validation, the resulting design principles
+may support future developments such as EuAPS. PRISM will also train young researchers and
+technical staff in optics, detectors, electronics, simulation and data analysis.
+For the wider scientific community, PRISM will extend laboratory access to fluorescence-XAS at
+the K-edges of technologically relevant elements such as Mo, Pd, Ag and Sn. If the targeted
+performance is achieved, the platform will enable sample screening, method development, cell
+optimization and long-term in-situ or operando studies of thick, dilute and heterogeneous specimens
+that are difficult to investigate in transmission. PRISM will complement, rather than replace,
+synchrotron and XFEL facilities: preliminary characterization and protocol optimization will improve
+the efficiency of scarce beamtime, while repeated measurements and slowly evolving processes can be
+performed in the laboratory. Beneficiaries will include catalysis, electrochemistry, energy materials
+and advanced alloys. Documented workflows, reference datasets and operating-domain maps will
+support reproducibility and facilitate adoption by other laboratories.
+
+
+
+                                                                                                   10
+The main technology-transfer opportunities are the modular room-temperature CZT detector,
+front-end and multichannel DAQ chain, together with the associated calibration and
+pulse-reconstruction methods, validated source–optics–sample–detector workflows and compact
+hard-X-ray spectrometer architecture. Following experimental validation, these assets may be
+evaluated with INFN technology-transfer structures and X-ray instrumentation companies for
+protection, further development or co-design. Potential applications include materials characterization,
+quality control and long-duration monitoring of catalysts, batteries and advanced materials.
+
+
+7 Costs
+The requested budget for PRISM is 112 k€, with 69 k€ requested for 2027 and 43 k€ for 2028. In
+addition, PRISM will benefit from an estimated €45k in-kind contribution from existing VOXES
+equipment and infrastructure. The detailed costs are presented in Table I.
+
+
+
+
+                                                                                                     11
+8 Risk Assessment
+The main project risks (R) in relation to the specific planned activity (A) and the possible mitigation
+are summarized below.
+
+
+        Risk             Activities                             Mitigation
+
+ R1. Limited            A1.2–A1.4     The simulation workflow will be benchmarked against
+ accuracy of the                      analytical calculations and existing VOXES measurements.
+ end-to-end                           Additional support will be provided through direct interaction
+ simulation                           with the SHADOW4 developer Manuel Sánchez del Río within
+                                      COST Action ENRICH WG3.
+
+ R2. Extended           A2.1–A2.4     An in-kind VOXES Si PIN diode will be used for preliminary
+ CZT optimization                     calibration and reference measurements with reduced efficiency,
+ phase                                while CZT optimization and performance improvements
+                                      proceed in parallel.
+
+ R3. Delayed            A3.1–A3.4     Preliminary integration and alignment activities will be
+ delivery of critical                 performed using compatible in-kind VOXES components,
+ components                           including non-optimized crystals, allowing system validation to
+                                      proceed while final components are delivered.
+
+ R4. Lower than         A3.3–A4.4     Scan strategy, energy steps and dwell times will be optimized
+ expected                             using simulation and commissioning data. If required, optical
+ fluorescence                         acceptance and detector shaping parameters will be adjusted
+ count rate or SNR                    while preserving the required energy resolution and background
+                                      rejection performance.
+
+
+9 Bibliography
+[1]​ Bonn, M., Domke, K. F., Sulpizi, M., McCrory, C., and Peng, Z. “In situ and operando
+     characterization: Advancing our understanding of functional materials.” J. Chem. Phys., 162(14),
+     140402, 2025. doi: 10.1063/5.0270688.
+[2]​ Zaera, F. “In-situ and operando spectroscopies for the characterization of catalysts and of
+     mechanisms of catalytic reactions.” J. Catal., 404, 900–910, 2021. doi:
+     10.1016/j.jcat.2021.08.013.
+[3]​ Fehse, M., Iadecola, A., Simonelli, L., Longo, A., and Stievano, L. “The rise of X-ray
+     spectroscopies for unveiling the functional mechanisms in batteries.” Phys. Chem. Chem. Phys.,
+     23(41), 23445–23465, 2021. doi: 10.1039/D1CP03263A.
+[4]​ Calvin, S. XAFS for Everyone. Boca Raton: CRC Press, 2013. doi: 10.1201/b14843.
+[5]​ Bunker, G. Introduction to XAFS: A Practical Guide to X-ray Absorption Fine Structure
+     Spectroscopy. Cambridge: Cambridge University Press, 2010. doi: 10.1017/CBO9780511809194.
+[6]​ Cai, M., Sun, S., and Bao, J. “Synchrotron Radiation Based X-ray Absorption Spectroscopy:
+     Fundamentals and Applications in Photocatalysis.” ChemPhysChem, 25(10), e202300939, 2024.
+     doi: 10.1002/cphc.202300939.
+[7]​ Bès, R., Ahopelto, T., Honkanen, A.-P., Huotari, S., Leinders, G., et al. “Laboratory-scale X-ray
+     absorption spectroscopy approach for actinide research: Experiment at the uranium L3-edge.” J.
+     Nucl. Mater., 507, 50–53, 2018. doi: 10.1016/j.jnucmat.2018.04.034.
+[8]​ Zimmermann, P., Peredkov, S., Abdala, P. M., DeBeer, S., Tromp, M., et al. “Modern X-ray
+     spectroscopy: XAS and XES in the laboratory.” Coord. Chem. Rev., 423, 213466, 2020. doi:
+     10.1016/j.ccr.2020.213466.
+
+
+                                                                                                    12
+[9]​ Praetz, S., Johansen, M., Kober, D., Tesic, M., Schlesiger, C., et al. “Operando laboratory XAS on
+     battery materials using the DANOISE cell in a von Hámos spectrometer.” J. Anal. At. Spectrom.,
+     40(9), 2447–2461, 2025. doi: 10.1039/d5ja00155b.
+[10]​Malzer, W., Schlesiger, C., and Kanngießer, B. “A century of laboratory X-ray absorption
+     spectroscopy – A review and an optimistic outlook.” Spectrochim. Acta Part B At. Spectrosc., 177,
+     106101, 2021. doi: 10.1016/j.sab.2021.106101.
+[11]​Németh, Z., Szlachetko, J., Bajnóczi, É. G., and Vankó, G. “Laboratory von Hámos X-ray
+     spectroscopy for routine sample characterization.” Rev. Sci. Instrum., 87(10), 103105, 2016. doi:
+     10.1063/1.4964098.
+[12]​Scordo, A., Curceanu, C., Miliucci, M., Shi, H., Sirghi, F., et al. “VOXES: a high precision X-ray
+     spectrometer for diffused sources with HAPG crystals in the 2–20 keV range.” J. Instrum., 13(04),
+     C04002, 2018. doi: 10.1088/1748-0221/13/04/C04002.
+[13]​Manti, S., Napolitano, F., Clozza, A., Curceanu, C., Moskal, G., et al. “Enhancing Performances
+     of the VOXES Bragg Spectrometer for XES Investigations.” Condens. Matter, 9(1), 2024. doi:
+     10.3390/condmat9010019.
+[14]​Manti, S. and Scordo, A. “Recent Developments of the VOXES Von Hamos X-Ray Spectrometer
+     for Laboratory XES and XAS Studies.” Eng. Innov., 19, 23–29, 2026. doi: 10.4028/p-rQpe9Z.
+[15]​Yamamoto, T. “Selection of Monochromator Crystal for Pb L-, Br K-, and Ag K-Edge XANES
+     Using a Laboratory-Based Spectrometer.” X-Ray Spectrom., 55(4), 538–544, 2026. doi:
+     10.1002/xrs.70076.
+[16]​Schoepfer, V. A. and Lindsay, M. B. J. “X-ray absorption spectroscopy and X-ray diffraction data
+     for molybdenum minerals and compounds.” Data Brief, 45, 108576, 2022. doi:
+     10.1016/j.dib.2022.108576.
+[17]​Chun, W.-J., Asakura, K., and Iwasawa, Y. “Application of a CdTe Solid-State Detector to
+     Polarization-Dependent Total-Reflection Fluorescence XAFS Measurements.” J. Synchrotron
+     Radiat., 3(4), 160–162, 1996. doi: 10.1107/S0909049596005250.
+[18]​Collonge, M., Baussens, O., Busca, P., Fajardo, P., Fischer, P., et al. “Probing the potential of
+     CdZnTe for high-energy high-flux 2D X-ray detection using the XIDer incremental digital
+     integrating readout.” Front. Phys., 12, 2024. doi: 10.3389/fphy.2024.1304570.
+[19]​Abbene, L., Artibani, F., Bettelli, M., Buttacavoli, A., Principato, F., et al. “First Stability
+     Characterization for a CZT Detection System in an e+e− Collider Environment.” Sensors, 24(23),
+     2024. doi: 10.3390/s24237562.
+[20]​Abbene, L., Buttacavoli, A., Principato, F., Gerardi, G., Bettelli, M., et al. “Potentialities of
+     CdZnTe Quasi-Hemispherical Detectors for Hard X-ray Spectroscopy of Kaonic Atoms at the
+     DAΦNE Collider.” Sensors, 23(17), 2023. doi: 10.3390/s23177328.
+[21]​Scordo, A., Abbene, L., Artibani, F., Bazzi, M., Bettelli, M., et al. “CdZnTe detectors tested at the
+     DAΦNE collider for future kaonic atoms measurements.” Nucl. Instrum. Methods Phys. Res. Sect.
+     Accel.     Spectrometers      Detect.    Assoc.      Equip.,    1060,      169060,     2024.     doi:
+     10.1016/j.nima.2023.169060.
+[22]​Artibani, F., Abbene, L., Buttacavoli, A., Bettelli, M., Gerardi, G., et al. “Time-based selection of
+     kaonic atom x-ray events with quasi-hemispherical CZT detectors at the DAΦNE collider.” Meas.
+     Sci. Technol., 37(3), 035108, 2026. doi: 10.1088/1361-6501/ae3203.
+[23]​Mele, F., Quercia, J., Abbene, L., Benassi, G., Bettelli, M., et al. “Advances in
+     High-Energy-Resolution CdZnTe Linear Array Pixel Detectors with Fast and Low Noise Readout
+     Electronics.” Sensors, 23(4), 2023. doi: 10.3390/s23042167.
+[24]​Manti, S., Yip, S. h., Bazzi, M., Bortolotti, N., Bragadireanu, M., et al.
+     “Machine-learning-enhanced event selection for BEGe detectors in the VIP experiment.” J.
+     Instrum., 21(1), 2026. doi: 10.1088/1748-0221/21/01/P01036.
+[25]​Manti, S. and others. Machine Learning background suppression for CZT detectors using Monte
+     Carlo                 simulations.                Palermo,                  Italy,             2026.
+     https://indico.global/event/16638/contributions/146849/attachments/68437/132618/XGRADE_20
+     26_03_26.pdf.
+
+
+
+                                                                                                       13
+[26]​Del Rio, M. S., Reyes-Herrera, J., Shi, X., and Rebuffi, L. “SHADOW4: the popular ray tracing
+     revived for evolving synchrotron sources in fourth-generation storage rings.” J. Phys. Conf. Ser.,
+     3010(1), 012071, 2025. doi: 10.1088/1742-6596/3010/1/012071.
+[27]​Scordo, A., De Leo, V., Curceanu, C., Miliucci, M., and Sirghi, F. “Efficiency measurements and
+     simulations of a HAPG based Von Hamos spectrometer for large sources.” J. Anal. At. Spectrom.,
+     36(11), 2485–2491, 2021. doi: 10.1039/d1ja00214g.
+[28]​Manti, S., Bazzi, M., Bortolotti, N., Capoccia, C., Cargnelli, M., et al. “Testing the Pauli
+     Exclusion Principle across the Periodic Table with the VIP-3 Experiment.” Entropy, 26(9), 2024.
+     doi: 10.3390/e26090752.
+
+
+
+
+                                                                                                    14
+

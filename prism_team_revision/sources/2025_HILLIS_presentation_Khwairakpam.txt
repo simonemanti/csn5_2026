@@ -1,0 +1,571 @@
+High Ion Load Laser Ion Source
+
+
+                 1st December, 2025
+           INFN Grant Giovani 2025
+      Dr. Omorjit Singh Khwairakpam (Omi)
+              O.S. (Omi) Khwairakpam
+             A simplified layout of an ISOL facility
+                                                                                    Mass
+                                                                                selection (A)
+                                                                                                      Desired isotope
+                                           Element                                                                          Resonant
+                                         selection (Z)                                                                       lasers
+
+
+
+
+                                                                                                        A/Q filter
+
+                                                                                 Resonant lasers
+
+
+
+
+                                            High-purity Isotopic Ion beam
+                                                                            High suppression of the
+                                                                             isobaric contaminants
+
+
+
+
+01/12/2025                 O.S. (Omi) Khwairakpam                                                                       2
+             Laser Photo-Ionization: In a nutshell
+
+
+
+
+01/12/2025                 O.S. (Omi) Khwairakpam    3
+             How does the Laser Ion Source work?
+                                                                Vacuum
+                                                                chamber
+
+
+
+
+                   Hot Cavity   Transfer Line
+
+
+
+                                                                          Ion beam
+
+
+
+
+                         Exit
+                                      Production
+                                        Target
+
+
+
+
+01/12/2025                             O.S. (Omi) Khwairakpam                        4
+                       First SPES Hot Cavity Ion source
+
+
+             PRE-HEATING                                                   POST-HEATING
+
+
+                              Current
+
+                                                                          Plastic Residual
+                                                                            Deformation
+
+
+
+
+             DURING-HEATING (PRE-BENDING)                            DURING-HEATING (POST-BENDING)
+
+01/12/2025                                  O.S. (Omi) Khwairakpam                                   5
+               Wait…Why does the ion source need to be hot if the
+                          lasers do the ionization?
+             The answer lies in another question:
+
+             What happens if we lose all the laser ions via collision with the inner wall after their formation?
+
+        ✓ Given the high thermal environment, this process has a high probability.
+
+        ✓ But a radial ion confinement prevents this from happening, through the formation of a quasi-neutral plasma
+          inside the ion source (R. Kirchner et al. https://doi.org/10.1016/0168-9002(90)90377-I).
+
+        ✓ It is closely linked to the thermionic emission from the surface wall of the source material and hence, high
+          temperature is required in such laser ion source.
+
+
+   This is why an ISOL Laser Ion Source is not just a Laser Ion Source but a “Hot Cavity” Resonant Ionization Laser Ion Source.
+
+
+
+
+01/12/2025                                              O.S. (Omi) Khwairakpam                                          6
+                       Existing SPES Laser Ion Source (since 2017)
+        ✓ Material: Tantalum
+                  Work function = 4.28 eV                       Ion movement
+        ✓ Region 1: Orifice of the ion source
+        ✓ Region 2: Hot cavity
+                  Length: 33 mm
+                  Internal diameter: 3.1 mm
+                  External diameter: 5.1 mm
+        ✓ Region 3: Transfer line
+                  Length: 70 mm                                                                                  Electric Current
+                  Internal diameter: 8 mm
+                  External diameter: 8.8 mm
+
+
+                                                                                             O.S. Khwairakpam et al. https://doi.org/10.1016/j.nimb.2024.165249
+
+
+
+
+                                                 Improvements made over the previous source:
+                                                          ✓ Optimized thermal profile.
+                                       ✓ 4 sets of tungsten centering pins to mitigate thermal deformation.
+
+
+
+
+01/12/2025                                                    O.S. (Omi) Khwairakpam                                                                       7
+         Experimental tests at ISOLDE Offline 2, CERN (2023)
+             (no target, no proton beam)
+
+
+
+
+                                                                                                                Sm II
+
+
+
+
+                                                                                                                Sm I
+
+
+
+                                                                         Ga scheme
+
+
+                                           O.S. Khwairakpam et al. https://doi.org/10.1016/j.nimb.2024.165249
+
+
+
+01/12/2025                                                  O.S. (Omi) Khwairakpam                                      8
+                          Comparison with the ISOLDE MK1 source
+                                                                                                                               2
+
+
+
+    ISOLDE MK1 Source                                                                                            1
+
+
+
+
+                                      Exit      Hot cavity                     Transfer line                  J. Lettry et al. http://dx.doi.org/10.1063/1.1148978
+                                      (1)           (2)                            (3)
+
+                                             M. Manzolaro et al. http://dx.doi.org/10.1063/1.4998246
+
+
+                                                                                                                           2                          3
+
+
+                                                                                                                 1                                                   Characterized
+   Existing SPES Source                                                                                                                                                 in 2023
+
+
+
+
+                                      Exit      Hot cavity                     Transfer line           O.S. Khwairakpam et al. https://doi.org/10.1016/j.nimb.2024.165249
+                                      (1)           (2)                            (3)
+
+01/12/2025                                      O.S. (Omi) Khwairakpam                                                                                                      9
+                  What happens if we maintain the same operational temperature,
+        and vary the level of surface ion contamination (ion load) inside the laser ion source?
+
+
+
+
+01/12/2025                                  O.S. (Omi) Khwairakpam                         10
+       Time structure of ion beam against different ion load
+
+
+                                                                                                          1. Orifice
+                                                                                                          2. Hot cavity
+                                                                                                          3. Transfer Line
+
+
+
+                                                                                                         Ion load:
+                                                                                                         In the offline labs, we simulate the
+                                                                                                         level of contamination present inside
+                                                                                                         the ion source in real operation.
+
+                                                                 Ion confinement in the transfer line    Controlled using different elements
+                                                                  has higher susceptibility to the ion   (in this case K) which are easily
+                                                                                                         surface ionized.
+                                                                   load compared to the hot cavity
+                                                                                                         Indicated as Total Ion Current
+                                                                                                         (measured     before     the    mass
+                                                                                                         separation, and without lasers)
+
+
+
+                                           Time (μs)
+                     O.S. Khwairakpam et al. https://doi.org/10.1088/1742-6596/2743/1/012066
+
+
+01/12/2025                                          O.S. (Omi) Khwairakpam                                                     11
+                    SPES Laser Ion Source: Progress Summary
+              v1                   v2                          (characterization of v2)                  v3
+             2011                2017                                 2023                            Today
+
+ ❖ Design adapted from        ❖ Thermal                 ❖ Observation of ions from the        ❖ Optimize the transfer
+   ISOLDE MK1 source          Optimization               transfer line which was not the          line for higher ion
+                                                           case for ISOLDE MK1 source          survival rate (in high ion
+                           ❖ Introduction of                                                       load conditions)
+                              centering pins               ❖ However still inferior ion
+                                                           survival in the transfer line in
+                                                            the high ion load conditions
+
+
+
+
+01/12/2025                                   O.S. (Omi) Khwairakpam                                            12
+                                  Objective of the HILLIS project
+
+                       Development, Construction and Characterization of a next-generation
+                          resonant laser ion source to tackle the high ion load problem.
+
+             ➢ Deeper understanding of the radial ion confinement mechanism            New geometries of the ion source
+
+
+             ➢ Installation of a time-resolved single ion counting detector for ion source characterization at INFN-LNL.
+
+
+
+
+01/12/2025                                                O.S. (Omi) Khwairakpam                                           13
+                              New geometries of the ion source
+                                                Methodology                             One or more new prototypes!!
+              Simulations
+        Multiphysics Simulation
+                                      Construction                Characterization I           Characterization II
+             FEM Simulation                                             Thermal                 Experimental tests
+                                     Buy raw materials
+                                                                     characterization
+
+                                        Mechanical
+                                       construction
+
+
+
+
+                                        INFN-LNL                           INFN-LNL                   CERN
+                                  (in-house fabrication)
+
+01/12/2025                                        O.S. (Omi) Khwairakpam                                             14
+      Installation of a time-resolved single ion counting detector
+                                                     Methodology
+
+                                                                 With stable beams through
+                                                              neutral injection into the ion source
+                          Installation in the                            Benchmark                         Future
+                           SPES beam line                               measurement                   characterizations
+
+
+
+
+                                                                                                      New Ion Sources
+
+
+
+
+                              INFN-LNL
+
+
+
+01/12/2025                           O.S. (Omi) Khwairakpam                                                  15
+                          Impact and Consequences of HILLIS
+        1. ISOL community
+            ➢ HILLIS will tackle the high ion load problems observed in ISOL ion sources.
+
+             ➢ Expected increase in the ionization efficiency: 50-100%.
+
+             ➢ This should allow lower load on the target (in terms of proton current) in certain cases.
+        2. Medical communty
+            ➢ Resonant Laser Ion Source is the standard choice as isobaric contaminants from other sources are highly
+              risky for patients.
+
+             ➢ Medical radionuclides start off with an inferior in-target production, so having low efficiency is expensive.
+
+             ➢ MEDICIS at CERN experience very high level of ion load. Will greatly benefit from the activities foreseen
+               in HILLIS.
+        3. Ion Source community
+            ➢ The installation of the MagneToF detector will facilitate detailed characterization of future ion sources at
+                INFN-LNL.
+
+
+01/12/2025                                              O.S. (Omi) Khwairakpam                                          16
+             Personnel and Work Packages in the HILLIS project
+
+
+
+
+01/12/2025                       O.S. (Omi) Khwairakpam          17
+             GANNT Chart and Milestones of the HILLIS project
+
+
+
+
+01/12/2025                      O.S. (Omi) Khwairakpam          18
+                               Synergies with Other Activities
+         1. HISOL_NEXT (INFN-CSN5)
+
+             ➢ Connection with the ongoing research on high performance ISOL target and ion sources.
+
+             ➢ Ion sources: Additive manufacturing/ customized commercial pieces
+
+         2. SPES at INFN-LNL
+
+             ➢ Will provide the possibility of hosting the HILLIS detector set-up in one of the beam lines.
+
+             ➢ HILLIS detectors, specially the Faraday Cup can always provide a back up support in case of need.
+
+        3. ISOLDE at CERN
+
+             ➢ Has always been a strong reference point for research in this field.
+
+             ➢ Several on-going works on different approaches to ISOL ion source optimizations.
+
+
+
+01/12/2025                                              O.S. (Omi) Khwairakpam                                     19
+                 Costs
+
+
+
+
+01/12/2025   O.S. (Omi) Khwairakpam   20
+                                            Risk Evaluation
+               Adverse event                           Impact                     Solution/Mitigation
+                                                                                 Move the experimental
+                                             Possible difficulty in finding     tests to TRIUMF, Canada
+       1. Long shut down planned for
+                                             schedule at ISOLDE Offline
+                ISOLDE, CERN
+                                                         2 lab                >> Increase in cost of missione
+                                                                                         foreseen
+
+
+
+
+        2. Delay in installing the single    Difficulty in performing the     Perform the planned tests
+        ion counting detector due to         task WP3.5 at SPES, INFN-        with re-optimized source at
+            other priorities of SPES                       LNL                    ISOLDE or TRIUMF
+
+
+
+
+                                                                               Substitute the MagneTOF
+         3. Detector set-up has lower       Difficulty in characterization             detector.
+         performance than expected                  of ion sources
+                                                                              >> Additional cost of 5-6k euros
+
+
+01/12/2025                                          O.S. (Omi) Khwairakpam                                       21
+                                                          Conclusion
+             ➢ HILLIS project will tackle the high ion load situation, a very well-known limitation in the ISOL ion sources.
+
+
+             ➢ The impact of the project will extend to international facilities such as MEDICIS at CERN.
+
+
+             ➢ The project will promote in-house fabrication of ion sources at INFN-LNL.
+
+
+             ➢ The project will develop a technique for comprehensive characterization of ion sources at INFN-LNL.
+
+
+
+
+01/12/2025                                                   O.S. (Omi) Khwairakpam                                            22
+Thank You for your attention!
+
+
+
+
+O.S. (Omi) Khwairakpam
+             Back up slides
+
+01/12/2025        O.S. (Omi) Khwairakpam   24
+             A simplified layout of an ISOL facility
+                                                               Mass
+                                                           selection (A)
+                Ideal for species with
+                    T1/2 > 0.5 ms
+
+
+
+                                                                           A/Q filter
+
+
+
+
+01/12/2025                        O.S. (Omi) Khwairakpam                                25
+                                  Isobaric contamination situation
+                                       For the UCx target with proton energy 40 MeV
+
+
+                              87Ga             87As             87Se                  87Br             87Kr              87Rb      87Sr
+
+
+
+
+             Type:         Desired        Not Desired     Not Desired         Not Desired          Not Desired    Not Desired   Not Desired
+
+             T1/2 :        95 ms            484 ms             5.5 s                55.68 s           76.3 s         Stable       Stable
+
+         In-target
+     production ratio:        1                ̴103             ̴103                  ̴104             ̴104              ̴103          ̴102
+
+                      >> For the particular case of 87Ga, the level of isobaric contamination is high as shown above.
+                                                And it is the case for many other isotopes.
+
+                      Calls for an element selective ionization technique                      Resonant Ionization
+                               to attain high-purity isotopic beams                           Laser Ion source (RILIS)
+
+01/12/2025                                                 O.S. (Omi) Khwairakpam                                                 26
+             What separates the Laser Ion Source from other sources?
+                                          >>Resonant technique of ionization<<
+             ✓ Surface and plasma ion sources looks essentially at the ionization threshold as one unit/limit that needs to
+               be crossed at one step.
+             ✓ Laser ion source breaks down this process into several steps combined. Each step is unique to the
+               electronic configuration of the element considered.
+             ✓ Thus, so called the “Resonant Ionization Laser Ion Source (RILIS)”.
+
+
+
+
+                                                     D. Scarpa et al. https://doi.org/10.1063/5.0078913
+
+
+
+01/12/2025                                                     O.S. (Omi) Khwairakpam                                    27
+    Characterization using the Time Structure of the ion beam
+             ✓ Time structure of an ion beam is measured using single ion counting method.
+
+             ✓ The ion count is performed inside a time window synchronized with the laser pulses @5 kHz or
+               10 kHz.
+
+             ✓ Basically, putting a time-stamp on each ion arriving at the MagneTOF detector with reference to
+               the pulses of the laser and making a histogram over thousands of laser shots.
+
+             ✓ It provides information regarding the ion source environment.
+
+
+
+
+01/12/2025                                           O.S. (Omi) Khwairakpam                                 28
+      Inside the Resonant Ionization Laser Ion Source (RILIS)
+
+                                                     RILIS
+
+
+                      Laser                                           Hot Cavity
+                  Laser lab at floor +1                               Front End at floor -1
+                                                   ̴ 20 m
+             ✓ Atomic transitions         ✓ Beam transport            ✓ Geometry
+             ✓ Multi-step ionization      ✓ Stability of beam         ✓ Cavity material
+               scheme development           position                  ✓ Thermal behavior
+             ✓ Laser wavelength           ✓ Mitigation of             ✓ Ion survival rate
+             ✓ Laser linewidth              vibrational noise
+             ✓ Laser power
+
+
+
+
+01/12/2025                                   O.S. (Omi) Khwairakpam                           29
+               Comparison with the ISOLDE source
+
+
+
+
+                                                                                             O.S. Khwairakpam et al. https://doi.org/10.1016/j.nimb.2024.165249
+             J. Lettry et al. http://dx.doi.org/10.1063/1.1148978
+
+
+
+
+                                                                            Why?
+                                               Axial electric field in the whole length
+                                               High temperature in the transfer line
+
+
+
+
+01/12/2025                                                          O.S. (Omi) Khwairakpam                                                               30
+                                                How to approach?
+                          We want the radial ion confinement to resist the high ion load effect in the transfer line.
+
+                                   Parameter                  Hot cavity (2)            Transfer Line (3)          Discrepancy
+                                Temperature (°C)                   2200                       2000                     -10%
+                                Diameter (mm)                          3.1                       8                    +150%
+
+               The approach is to understand and optimize the effect of the geometry (diameter) on the radial ion confinement.
+
+                              ✓ Keep temperature the same and change just the geometry of the transfer line.
+
+        ✓ This doesn’t compromise the existing laser interaction volume. Indeed, we have roughly 80% of unused volume in the source.
+
+
+
+                                                                             Follow-up question: Why not make a single tube with the dimension of hot cavity?
+
+                                                   Laser Interaction             A bit of extra “room” in the transfer line allows to maintain a similar laser
+                                                       Volume                        interaction volume, in the case of thermal deformation of the line.
+
+
+
+
+01/12/2025                                                     O.S. (Omi) Khwairakpam                                                                 31
+      Installation of a time-resolved single ion counting detector
+
+
+
+
+01/12/2025                     O.S. (Omi) Khwairakpam          32
+                       New geometries of the ion source
+                                         Materials / Travels
+
+
+                     Ion Source Materials
+
+                 1. Tantalum rod (hot cavity)                                           Travels
+               2. Tantalum tube (transfer line)                       Experimental tests at ISOLDE Offline 2, CERN
+             3. Tantalum capillaries (mass marker)
+
+                   4. Mass marker solution
+
+
+
+
+01/12/2025                                           O.S. (Omi) Khwairakpam                                          33
+      Installation of a time-resolved single ion counting detector
+                                                         Materials
+
+
+                           Detector part                                           Vacuum part
+
+             1. MagneTOF (single ion counting, res < 1ns)                       1. Vacuum chamber
+
+               2. TimeTagger4 TDC module (res < 1ns)                            2. Vacuum gauges
+
+                   3. Faraday Cup (high sensitivity)                              3. Turbo pump
+
+                  4. Picoammeter (20 fA to 20 mA)                                 4. Gate valve
+
+                            5. Computer
+
+
+
+
+01/12/2025                                             O.S. (Omi) Khwairakpam                       34
+

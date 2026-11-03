@@ -1,0 +1,51 @@
+{
+  "checks": "pass",
+  "cameras": [
+    {
+      "camera": "01 Overview",
+      "sample_holder_visible_rays": 182,
+      "tested_rays": 216,
+      "beam_segments": 3
+    },
+    {
+      "camera": "02 Reverse",
+      "sample_holder_visible_rays": 215,
+      "tested_rays": 216,
+      "beam_segments": 3
+    },
+    {
+      "camera": "03 Top",
+      "sample_holder_visible_rays": 205,
+      "tested_rays": 216,
+      "beam_segments": 3
+    },
+    {
+      "camera": "04 Elevation",
+      "sample_holder_visible_rays": 204,
+      "tested_rays": 216,
+      "beam_segments": 3
+    },
+    {
+      "camera": "05 Source",
+      "sample_holder_visible_rays": 204,
+      "tested_rays": 216,
+      "beam_segments": 0
+    },
+    {
+      "camera": "06 Transmission",
+      "sample_holder_visible_rays": 181,
+      "tested_rays": 216,
+      "beam_segments": 0
+    },
+    {
+      "camera": "07 Transmission top",
+      "sample_holder_visible_rays": 200,
+      "tested_rays": 216,
+      "beam_segments": 0
+    }
+  ],
+  "upper_cover_z_mm": [
+    64.49999660253525,
+    72.49999046325684
+  ]
+}

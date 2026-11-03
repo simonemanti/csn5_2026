@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  PRISM goals and expected outcomes.
+  Content follows VERSIONS/v7_Proposal_Grant_Giovani_2026.pdf.
+  The flow and Matplotlib palette are inspired by Ref_Old/Objectives.svg.
+-->
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="160mm"
+   height="88mm"
+   viewBox="0 0 160 88"
+   version="1.1"
+   id="svg-prism-goals"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   sodipodi:docname="v2_Goals.svg"
+   inkscape:export-filename="v2_Goals.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <title id="title">PRISM goals and expected outcomes</title>
+  <desc id="desc">The predictive instrument design and room-temperature multichannel CZT detector converge into reference validation and then a realistic-sample fluorescence-XAS demonstration.</desc>
+
+  <sodipodi:namedview
+     id="namedview"
+     pagecolor="#e6e6e6"
+     bordercolor="#7f7f7f"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2"
+     inkscape:cx="302"
+     inkscape:cy="166"
+     inkscape:current-layer="layer-labels">
+    <inkscape:grid
+       type="xygrid"
+       id="grid"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="4"
+       spacingy="4"
+       color="#7f7f7f"
+       opacity="0.15"
+       empcolor="#1f77b4"
+       empopacity="0.25"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+
+  <defs id="defs">
+    <marker
+       id="arrowhead"
+       viewBox="0 0 3 3"
+       refX="2.65"
+       refY="1.5"
+       markerWidth="3"
+       markerHeight="3"
+       markerUnits="userSpaceOnUse"
+       orient="auto-start-reverse">
+      <path
+         id="arrowhead-path"
+         d="M0,0 L3,1.5 L0,3 Z"
+         fill="#2f3440" />
+    </marker>
+    <style id="style"><![CDATA[
+      text {
+        font-family: Helvetica, Arial, sans-serif;
+        fill: #111827;
+      }
+      .title {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: .55px;
+      }
+      .connector {
+        fill: none;
+        stroke: #2f3440;
+        stroke-width: .45;
+        stroke-linecap: square;
+        stroke-linejoin: miter;
+        marker-end: url(#arrowhead);
+      }
+      .card {
+        stroke: #27313f;
+        stroke-width: .45;
+      }
+      .heading {
+        font-size: 2.8px;
+        font-weight: 700;
+        letter-spacing: .05px;
+      }
+      .body {
+        font-size: 2.55px;
+        font-weight: 400;
+      }
+      .outcome {
+        font-size: 2.5px;
+        font-weight: 700;
+      }
+      .metric {
+        font-size: 2.4px;
+        font-weight: 400;
+      }
+      .badge {
+        fill: #ffffff;
+        stroke: #27313f;
+        stroke-width: .38;
+      }
+      .badge-text {
+        font-size: 2.25px;
+        font-weight: 700;
+        letter-spacing: .08px;
+      }
+    ]]></style>
+  </defs>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="01 Background"
+     id="layer-background">
+    <rect
+       id="page-background"
+       x="0"
+       y="0"
+       width="160"
+       height="88"
+       rx="1.2"
+       fill="#ffffff" />
+  </g>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="02 Connectors"
+     id="layer-connectors">
+    <path
+       id="connector-title-g1"
+       class="connector"
+       d="M56,6.8 H28 V15.5" />
+    <path
+       id="connector-title-g2"
+       class="connector"
+       d="M104,6.8 H132 V15.5" />
+    <path
+       id="connector-g1-g3"
+       class="connector"
+       d="M28,41.1 V46.75 H56" />
+    <path
+       id="connector-g2-g3"
+       class="connector"
+       d="M132,41.1 V46.75 H104" />
+    <path
+       id="connector-g3-g4"
+       class="connector"
+       d="M80,60.6 V63" />
+  </g>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="03 Goal cards"
+     id="layer-cards">
+    <rect
+       id="card-g1"
+       class="card"
+       x="4"
+       y="15.5"
+       width="48"
+       height="23.5"
+       rx="1.8"
+       fill="#1f77b4"
+       fill-opacity=".42" />
+    <rect
+       id="card-g2"
+       class="card"
+       x="108"
+       y="15.5"
+       width="48"
+       height="23.5"
+       rx="1.8"
+       fill="#ff7f0e"
+       fill-opacity=".42" />
+    <rect
+       id="card-g3"
+       class="card"
+       x="56"
+       y="35"
+       width="48"
+       height="23.5"
+       rx="1.8"
+       fill="#2ca02c"
+       fill-opacity=".42" />
+    <rect
+       id="card-g4"
+       class="card"
+       x="56"
+       y="63"
+       width="48"
+       height="21.8"
+       rx="1.8"
+       fill="#d62728"
+       fill-opacity=".42" />
+  </g>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="04 Labels"
+     id="layer-labels">
+    <text
+       id="main-title"
+       class="title"
+       x="80"
+       y="10.6"
+       text-anchor="middle">PRISM</text>
+
+    <text
+       id="text-g1"
+       x="28"
+       y="20.6"
+       text-anchor="middle">
+      <tspan x="28" class="heading">G1 · PREDICTIVE DESIGN</tspan>
+      <tspan x="28" dy="3.4" class="body">Validate and freeze the instrument</tspan>
+      <tspan x="28" dy="3.9" class="outcome">EO1 · Ag K-edge + ≥40 keV benchmark</tspan>
+      <tspan x="28" dy="3.5" class="metric">detected-rate agreement within 20%</tspan>
+      <tspan x="28" dy="3.5" class="metric">spot size / resolution within 10%</tspan>
+    </text>
+
+    <text
+       id="text-g2"
+       x="132"
+       y="20.6"
+       text-anchor="middle">
+      <tspan x="132" class="heading">G2 · CZT DETECTION</tspan>
+      <tspan x="132" dy="3.4" class="body">Multichannel CZT at room temperature</tspan>
+      <tspan x="132" dy="3.9" class="outcome">EO2 · &gt;90% efficiency at 40 keV</tspan>
+      <tspan x="132" dy="3.5" class="metric">≤1 keV FWHM over 20–40 keV</tspan>
+      <tspan x="132" dy="3.5" class="metric">dead time &lt;10% · residual pile-up &lt;5%</tspan>
+    </text>
+
+    <text
+       id="text-g3"
+       x="80"
+       y="40.1"
+       text-anchor="middle">
+      <tspan x="80" class="heading">G3 · REFERENCE VALIDATION</tspan>
+      <tspan x="80" dy="3.4" class="body">Validate PRISM on Ag compounds</tspan>
+      <tspan x="80" dy="3.9" class="outcome">EO3 · ≤10 eV XAS resolution</tspan>
+      <tspan x="80" dy="3.5" class="metric">SNR ≥20 · edge position within 1 eV</tspan>
+      <tspan x="80" dy="3.5" class="metric">&lt;12 h · reference deviation &lt;5%</tspan>
+    </text>
+
+    <text
+       id="text-g4"
+       x="80"
+       y="68"
+       text-anchor="middle">
+      <tspan x="80" class="heading">G4 · REALISTIC SAMPLE</tspan>
+      <tspan x="80" dy="3.4" class="body">f-XAS on thick, dilute or</tspan>
+      <tspan x="80" dy="3.3" class="body">operando-compatible sample</tspan>
+      <tspan x="80" dy="3.9" class="outcome">EO4 · ≥2 chemical states at ≥3σ</tspan>
+      <tspan x="80" dy="3.5" class="metric">&lt;12 h/spectrum · operating-domain map</tspan>
+    </text>
+  </g>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="05 Work-package badges"
+     id="layer-badges">
+    <rect
+       id="badge-wp1"
+       class="badge"
+       x="19.4"
+       y="36.9"
+       width="17.2"
+       height="4.2"
+       rx=".85" />
+    <text
+       id="text-wp1"
+       class="badge-text"
+       x="28"
+       y="39.75"
+       text-anchor="middle">WP1 + WP3</text>
+
+    <rect
+       id="badge-wp2"
+       class="badge"
+       x="126"
+       y="36.9"
+       width="12"
+       height="4.2"
+       rx=".85" />
+    <text
+       id="text-wp2"
+       class="badge-text"
+       x="132"
+       y="39.75"
+       text-anchor="middle">WP2</text>
+
+    <rect
+       id="badge-wp3"
+       class="badge"
+       x="70.3"
+       y="56.4"
+       width="19.4"
+       height="4.2"
+       rx=".85" />
+    <text
+       id="text-wp3"
+       class="badge-text"
+       x="80"
+       y="59.25"
+       text-anchor="middle">WP4 · REFS</text>
+
+    <rect
+       id="badge-wp4"
+       class="badge"
+       x="69.5"
+       y="82.7"
+       width="21"
+       height="4.2"
+       rx=".85" />
+    <text
+       id="text-wp4"
+       class="badge-text"
+       x="80"
+       y="85.55"
+       text-anchor="middle">WP4 · DEMO</text>
+  </g>
+</svg>
