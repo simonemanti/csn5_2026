@@ -1,0 +1,34 @@
+{
+  "reference": "21_XANES_Ag/data/Ag_foil/Ag-K_Ag-foil_Si311_50ms_160624.txt",
+  "doi": "10.48505/nims.1453",
+  "e0_eV": 25514.0,
+  "edge_step": 1.7108754854144217,
+  "coarse_points": 10,
+  "fine_points": 140,
+  "total_energies": 150,
+  "fine_step_eV": 0.539568345323741,
+  "coarse_relative_eV": [
+    -105.0,
+    -95.0,
+    -85.0,
+    -75.0,
+    -65.0,
+    -55.0,
+    -45.0,
+    -35.0,
+    -25.0,
+    -15.0
+  ],
+  "fine_range_relative_eV": [
+    -5,
+    70
+  ],
+  "reference_energy_shift_eV": 0,
+  "reference_smoothing": false,
+  "sequence": [
+    "I: full grid",
+    "I0: same full grid"
+  ],
+  "crystal_resolution_eV": null,
+  "constraint": "Both scan steps must be smaller than the crystal energy resolution"
+}

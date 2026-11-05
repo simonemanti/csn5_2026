@@ -4,20 +4,21 @@ SHELL := /bin/bash
 
 LATEX ?= xelatex
 PDFTOCAIRO ?= pdftocairo
+INKSCAPE ?= inkscape
 PNG_WIDTH ?= 2400
 NAME := v1_XAS_mode
 
 .PHONY: all clean distclean
-all: $(NAME).pdf $(NAME).svg $(NAME).png
+all: $(NAME).pdf $(NAME)_editable.svg $(NAME).png
 
 $(NAME).pdf: $(NAME).tex
 	mkdir -p .build
 	$(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=.build $<
 	cp .build/$(NAME).pdf $@
 
-# Cairo outlines the glyphs, preserving Arial on systems without the font.
-$(NAME).svg: $(NAME).pdf
-	$(PDFTOCAIRO) -svg $< $@
+# Inkscape internal PDF import preserves ordinary text as editable SVG text.
+$(NAME)_editable.svg: $(NAME).pdf
+	$(INKSCAPE) $< --export-plain-svg --export-filename=$@
 
 # Transparent PNG, with aspect ratio preserved.
 $(NAME).png: $(NAME).pdf
@@ -27,4 +28,4 @@ clean:
 	rm -rf .build
 
 distclean: clean
-	rm -f $(NAME).pdf $(NAME).svg $(NAME).png
+	rm -f $(NAME).pdf $(NAME).svg $(NAME)_editable.svg $(NAME).png

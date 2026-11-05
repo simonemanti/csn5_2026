@@ -1,0 +1,97 @@
+% Build: make. Direct TikZ -> XDV -> SVG -> PNG.
+\def\pgfsysdriver{pgfsys-dvisvgm.def}
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{fontspec,amsmath,pgfplots}
+\setsansfont{Arial}
+\setmainfont{Arial}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,calc}
+\definecolor{ink}{HTML}{16334B}
+\definecolor{coarse}{HTML}{2479AE}
+\definecolor{fine}{HTML}{C16A19}
+\definecolor{muted}{HTML}{596B79}
+\tikzset{every node/.style={font=\sffamily,text=ink,inner sep=0pt},
+  small/.style={font=\sffamily\fontsize{9}{11}\selectfont},
+  body/.style={font=\sffamily\fontsize{11}{13}\selectfont},
+  heading/.style={font=\sffamily\bfseries\fontsize{13}{15}\selectfont}}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path[use as bounding box] (0,0) rectangle (22,13.7);
+\fill[white] (0,0) rectangle (22,13.7);
+
+\node[anchor=west,font=\sffamily\bfseries\fontsize{24}{27}\selectfont] at (.65,13.02) {Protocollo XANES};
+\node[anchor=west,body,text=muted] at (.67,12.42)
+  {Ag foil \enspace|\enspace bordo K \enspace|\enspace $E_0=25\,514$ eV};
+\node[anchor=east,font=\sffamily\bfseries\fontsize{20}{23}\selectfont] at (21.35,13.02) {150 punti};
+\node[anchor=east,body,text=muted] at (21.33,12.42) {per scansione energetica};
+
+\fill[coarse!8] (.65,10.30) rectangle (11.00,11.88);
+\fill[fine!9] (11.20,10.30) rectangle (21.35,11.88);
+\fill[coarse] (.65,10.30) rectangle (.74,11.88);
+\fill[fine] (11.20,10.30) rectangle (11.29,11.88);
+\node[anchor=west,heading,text=coarse] at (1.05,11.48) {Sotto soglia};
+\node[anchor=east,heading,text=coarse] at (10.60,11.48) {10 punti};
+\node[anchor=west,body] at (1.05,10.94) {$\Delta E=10$ eV \quad $E-E_0=-105,-95,\ldots,-15$ eV};
+\node[anchor=west,small,text=muted] at (1.05,10.57) {100 eV fino all'inizio della griglia fine a $-5$ eV};
+\node[anchor=west,heading,text=fine] at (11.60,11.48) {Pre-soglia e sopra soglia};
+\node[anchor=east,heading,text=fine] at (20.95,11.48) {140 punti};
+\node[anchor=west,body] at (11.60,10.94) {$\Delta E=75/139\simeq 0{,}54$ eV \quad da $-5$ a $+70$ eV};
+\node[anchor=west,small,text=muted] at (11.60,10.57) {Passo uniforme; entrambi gli estremi inclusi};
+
+\begin{axis}[at={(1.85cm,4.90cm)},anchor=south west,width=18.85cm,height=4.75cm,scale only axis,
+  xmin=-110,xmax=75,ymin=-.08,ymax=1.25,
+  axis lines=left,axis line style={ink!65,line width=.6pt},
+  tick style={ink!60},tick label style={font=\sffamily\fontsize{10}{12}\selectfont,text=ink},
+  xtick={-105,-75,-50,-25,0,25,50,70},ytick={0,.5,1},
+  xlabel={$E-E_0$ (eV)},ylabel={Assorbimento normalizzato},
+  label style={font=\sffamily\fontsize{11}{13}\selectfont,text=ink},
+  xlabel style={at={(axis description cs:.5,-.10)},anchor=north},
+  ylabel style={at={(axis description cs:-.065,.5)},anchor=south},
+  clip=true]
+  \path[fill=coarse!6] (axis cs:-105,-.08) rectangle (axis cs:-5,1.25);
+  \path[fill=fine!7] (axis cs:-5,-.08) rectangle (axis cs:70,1.25);
+  \draw[densely dashed,coarse!70,line width=.6pt] (axis cs:-5,-.08)--(axis cs:-5,1.25);
+  \draw[densely dashed,ink!65,line width=.7pt] (axis cs:0,-.08)--(axis cs:0,1.25);
+  \draw[densely dashed,fine!70,line width=.6pt] (axis cs:70,-.08)--(axis cs:70,1.25);
+  \addplot[ink,line width=1.2pt,no marks] table {ag_foil_reference.dat};
+  \addplot[only marks,mark=*,mark size=2.05pt,coarse] table {scan_coarse.dat};
+  \addplot[only marks,mark=*,mark size=.75pt,fine] table {scan_fine.dat};
+  \node[anchor=north west,small] at (axis cs:1.5,1.23) {$E_0$};
+  \draw[ink,line width=1.2pt] (axis cs:-98,1.12)--(axis cs:-88,1.12);
+  \node[anchor=west,body] at (axis cs:-85,1.12) {Ag foil: curva di riferimento};
+  \node[anchor=west,small,text=muted] at (axis cs:-98,.99) {Punti colorati: campionamento previsto};
+\end{axis}
+
+% Position of the transition mapped onto the same linear energy scale.
+\pgfmathsetmacro{\leftx}{1.85+5/185*18.85}
+\pgfmathsetmacro{\finex}{1.85+105/185*18.85}
+\pgfmathsetmacro{\rightx}{1.85+180/185*18.85}
+\draw[coarse,line width=.8pt,{Bar[width=4pt]}-{Bar[width=4pt]}]
+  (\leftx,3.75)--(\finex,3.75);
+\node[small,text=coarse,fill=white,inner sep=3pt] at ({(\leftx+\finex)/2},3.75) {100 eV};
+\draw[fine,line width=.8pt,{Bar[width=4pt]}-{Bar[width=4pt]}]
+  (\finex,3.75)--(\rightx,3.75);
+\node[small,text=fine,fill=white,inner sep=3pt] at ({(\finex+\rightx)/2},3.75) {75 eV};
+\node[small,text=fine,anchor=north] at (\finex,3.53) {inizio griglia fine: $-5$ eV};
+
+\fill[ink!5,rounded corners=3pt] (.65,1.43) rectangle (10.75,3.02);
+\node[anchor=west,heading] at (1.05,2.62) {Vincolo sul passo energetico};
+\node[anchor=west,font=\fontsize{16}{19}\selectfont] at (1.05,2.08)
+  {$\Delta E_{\mathrm{scansione}}<\delta E_{\mathrm{cristallo}}$};
+\node[anchor=west,small,text=muted] at (1.05,1.67) {Da verificare in entrambe le regioni di scansione};
+
+\node[anchor=west,heading] at (11.45,2.72) {Sequenza di acquisizione};
+\node[draw=ink!25,rounded corners=3pt,minimum width=3.7cm,minimum height=.75cm,body]
+  (I) at (13.30,2.03) {1. Prima $I(E)$};
+\node[draw=ink!25,rounded corners=3pt,minimum width=3.7cm,minimum height=.75cm,body]
+  (I0) at (19.05,2.03) {2. Poi $I_0(E)$};
+\draw[ink,line width=1pt,-{Stealth[length=2.5mm]}] (I.east)--(I0.west);
+\node[anchor=west,small,text=muted] at (11.45,1.43) {Stessa griglia di 150 energie per entrambe le scansioni};
+
+\draw[ink!15,line width=.5pt] (.65,1.05)--(21.35,1.05);
+\node[anchor=west,small,text=muted] at (.65,.70)
+  {Riferimento misurato: Ag foil, NIMS / SPring-8 \enspace\textbullet\enspace DOI: 10.48505/nims.1453};
+\node[anchor=west,small,text=muted] at (.65,.32)
+  {Curva normalizzata da 21\_XANES\_Ag; nessuno spostamento energetico o smoothing. Non è una misura PRISM.};
+\end{tikzpicture}
+\end{document}

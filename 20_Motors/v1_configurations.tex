@@ -1,7 +1,7 @@
 % Minimal PRISM measurement configurations, intended for presentation slides.
-% Build: make (XeLaTeX, Arial, pdftocairo).
+% Build: make (XeLaTeX, Arial, Inkscape, pdftocairo).
 % Default: both panels. The Makefile also exports each panel separately.
-% I denotes fluorescence, not transmitted intensity.
+% I_f denotes fluorescence, not transmitted intensity.
 % Motion arrows are schematic; no mechanical dimensions are implied.
 \documentclass[border=3mm]{standalone}
 \usepackage{fix-cm}
@@ -52,14 +52,14 @@
 
 \newcommand{\FluorescencePanel}{%
   \XZAxes
-  \node[title] at (.1,3.65) {(a) $\bm{I}$: fluorescence};
+  \node[title] at (.1,3.65) {(a) $\bm{I_f}$: Fluorescence};
   \node[caption,anchor=west] at (.1,3.12) {Sample in the beam; CZT at $90^\circ$};
   \draw[beam,beamgreen] (.45,0) -- (3.68,0);
   \node at (1.75,.48) {X-ray beam};
   \SampleAt{4}{0}
   \draw[beam,fluororange] (4,.35) -- (4,2.03);
   \node[detector] at (4,2.55) {CZT};
-  \node[anchor=west] at (4.4,1.25) {$\bm{I}$};
+  \node[anchor=west] at (4.4,1.25) {$\bm{I_f}$};
   \draw[ink!65,line width=.7pt] (4.62,0) -- (4.62,.62) -- (4,.62);
   \node[caption] at (5,.37) {$90^\circ$};
   \node[caption] at (5.55,-.95) {Sample};
@@ -73,7 +73,7 @@
 
 \newcommand{\IncidentPanel}{%
   \XZAxes
-  \node[title] at (.1,3.65) {(b) $\bm{I_0}$: incident beam};
+  \node[title] at (.1,3.65) {(b) $\bm{I_0}$: Incident Beam};
   \node[caption,anchor=west] at (.1,3.12) {Sample out; CZT on the beam axis};
   \draw[beam,beamgreen] (.45,0) -- (6.02,0);
   \node at (1.75,.48) {X-ray beam};
@@ -98,7 +98,7 @@
     \end{scope}
     \node[font=\sffamily\bfseries\fontsize{12}{14}\selectfont,text=motioncyan]
       at (8.35,-1.8)
-      {2 rotations + 1 translation: automatic switching between $I$ and $I_0$};
+      {2 Rotations + 1 Translation: Automatic switching between $\bm{I_f}$ and $\bm{I_0}$};
   \or
     \path[use as bounding box] (0,-1.35) rectangle (8,4);
     \FluorescencePanel

@@ -5,6 +5,7 @@ SHELL := /bin/bash
 # Override, for example: make PNG_WIDTH=3200
 LATEX := xelatex
 PDFTOCAIRO ?= /usr/bin/pdftocairo
+INKSCAPE ?= inkscape
 PNG_WIDTH ?= 2400
 NAME := v1_configurations
 FIGURES := $(NAME) $(NAME)_I $(NAME)_I0
@@ -30,9 +31,9 @@ $(NAME)_I0.pdf: $(NAME).tex Makefile
 	$(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=.build -jobname=$(NAME)_I0 '\def\ConfigurationPanel{2}\input{$<}'
 	cp .build/$(NAME)_I0.pdf $@
 
-# Outline lettering so that SVGs do not require Arial on the target computer.
+# Inkscape internal PDF import preserves ordinary text as editable SVG text.
 %.svg: %.pdf
-	$(PDFTOCAIRO) -svg $< $@
+	$(INKSCAPE) $< --export-plain-svg --export-filename=$@
 
 # Transparent background; preserve the aspect ratio.
 %.png: %.pdf

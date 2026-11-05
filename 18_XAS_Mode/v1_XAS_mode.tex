@@ -6,13 +6,36 @@
 \usepackage{bm}
 \setmainfont{Arial}
 \setsansfont{Arial}
-\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
 
 % Matplotlib tab10 palette.
 \definecolor{mplBlue}{HTML}{1F77B4}
 \definecolor{mplOrange}{HTML}{FF7F0E}
 \definecolor{mplGreen}{HTML}{2CA02C}
 \definecolor{mplGray}{HTML}{7F7F7F}
+\definecolor{mplOlive}{HTML}{BCBD22}
+
+% Beam dimensions: change these values to adjust the black outline and widths.
+\newcommand{\beamOutline}{0.5mm}
+\newcommand{\beamWidth}{5mm}
+\newcommand{\fluorescenceWidth}{3.2mm}
+\newcommand{\outlinedbeam}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \pgfmathsetlengthmacro{\beamHalfWidth}{#1/2}
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#2,draw=black,line width=\beamOutline,line join=round]
+        (0,-\beamHalfWidth) -- (\beamLength-5mm,-\beamHalfWidth)
+        -- (\beamLength-5mm,-4mm) -- (\beamLength,0)
+        -- (\beamLength-5mm,4mm) -- (\beamLength-5mm,\beamHalfWidth)
+        -- (0,\beamHalfWidth) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 
 \begin{document}
 \resizebox{17.8cm}{5cm}{%
@@ -22,8 +45,7 @@
   line join=round,
   heading/.style={anchor=west,font=\sffamily\bfseries\fontsize{15}{18}\selectfont},
   detector/.style={draw=mplBlue,fill=mplBlue!15,line width=.9pt,
-    align=center,minimum width=2.05cm,minimum height=.8cm,inner sep=3pt},
-  beam/.style={line width=5mm,-{Triangle[length=5mm,width=8mm]},line cap=butt}
+    align=center,minimum width=2.05cm,minimum height=.8cm,inner sep=3pt}
 ]
 \useasboundingbox (-.15,-1.55) rectangle (18.85,3.79);
 \begin{pgfinterruptboundingbox}
@@ -31,16 +53,16 @@
 % Transmission: incident beam, planar sample, transmitted beam, detector.
 %\node[heading] at (0,3.02) {Transmission};
 \node[anchor=west] at (0,0) {X-ray beam};
-\draw[beam,mplGreen] (2.55,0) -- (4.12,0);
+\outlinedbeam{\beamWidth}{mplOrange}{(2.55,0)}{(4.12,0)}
 \path[fill=mplGray!35,draw=mplGray,line width=.7pt]
   (4.17,-.79) -- (4.45,-.52) -- (4.45,.96) -- (4.17,.69) -- cycle;
 \path[fill=mplGray,draw=mplGray,line width=.7pt]
   (4.45,-.52) -- (4.57,-.58) -- (4.57,.90) -- (4.45,.96) -- cycle;
-\draw[beam,mplOrange] (4.59,0) -- (6.55,0);
+\outlinedbeam{\beamWidth}{mplOrange!45}{(4.59,0)}{(6.55,0)}
 \node[detector,anchor=west] at (6.68,0) {Position\\Detector};
 \node at (4.37,-1.15) {Ag sample};
 \node at (3.30,.65) {$\bm{I_0}$};
-\node at (5.55,.65) {$\bm{I_f}$};
+\node at (5.55,.65) {$\bm{I_t}$};
 
 \end{scope}
 
@@ -48,13 +70,13 @@
 \begin{scope}[xshift=9.82cm]
 %  \node[heading] at (0,3.02) {Fluorescence};
   \node[anchor=west] at (0,0) {X-ray beam};
-  \draw[beam,mplGreen] (2.55,0) -- (4.14,0);
+  \outlinedbeam{\beamWidth}{mplOrange}{(2.55,0)}{(4.14,0)}
   \path[fill=mplGray,draw=mplGray,line width=.7pt]
     (3.75,-.64) -- (3.92,-.76) -- (5.04,.52) -- (4.87,.64) -- cycle;
   \path[fill=mplGray!35,draw=mplGray,line width=.7pt]
     (3.75,-.64) -- (4.87,.64) -- (4.64,.76) -- (3.52,-.52) -- cycle;
-  \draw[beam,mplOrange] (4.18,.18) -- (4.18,1.63);
-  \node[detector] at (4.18,2.12) {CZT Detector};
+  \outlinedbeam{\fluorescenceWidth}{mplGreen}{(4.18,.18)}{(4.18,1.63)}
+  \node[detector,draw=mplOlive,fill=mplOlive!15] at (4.18,2.12) {CZT Detector};
   \node at (4.28,-1.15) {Ag sample};
   \node at (3.30,.65) {$\bm{I_0}$};
   \node[anchor=west] at (4.78,.95) {$\bm{I_f}$};
