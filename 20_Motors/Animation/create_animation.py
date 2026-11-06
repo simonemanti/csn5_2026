@@ -21,7 +21,7 @@ def smooth(t):
     return t*t*(3-2*t)
 header = r'''\documentclass[multi=tikzpicture,border=0pt]{standalone}
 \usepackage{fontspec}\usepackage{tikz}\usepackage{amsmath,bm}
-\setsansfont{Arial}\usetikzlibrary{arrows.meta}
+\setsansfont{Arial}\usetikzlibrary{arrows.meta,calc}
 \definecolor{ink}{HTML}{17365D}\definecolor{beamgreen}{HTML}{2CA02C}
 \definecolor{fluororange}{HTML}{FF7F0E}\definecolor{detectorblue}{HTML}{1F77B4}
 \definecolor{samplegray}{HTML}{7F7F7F}\definecolor{motioncyan}{HTML}{008FA8}
@@ -41,15 +41,31 @@ for i in range(7 * args.fps):
     direct = smooth((state-0.62)/0.38)
     frames.append(r'''\begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=OPINC] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{OPINC}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=OPDIR] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=OPFL] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{OPDIR}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{OPFL}{(4,.35)}{(4,2.03)}
 \node[opacity=OPFL,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=OPDIR] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,SAMPLE)}]

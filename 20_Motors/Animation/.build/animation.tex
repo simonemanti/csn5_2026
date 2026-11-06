@@ -1,21 +1,37 @@
 \documentclass[multi=tikzpicture,border=0pt]{standalone}
 \usepackage{fontspec}\usepackage{tikz}\usepackage{amsmath,bm}
-\setsansfont{Arial}\usetikzlibrary{arrows.meta}
+\setsansfont{Arial}\usetikzlibrary{arrows.meta,calc}
 \definecolor{ink}{HTML}{17365D}\definecolor{beamgreen}{HTML}{2CA02C}
 \definecolor{fluororange}{HTML}{FF7F0E}\definecolor{detectorblue}{HTML}{1F77B4}
 \definecolor{samplegray}{HTML}{7F7F7F}\definecolor{motioncyan}{HTML}{008FA8}
 \begin{document}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -30,15 +46,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -53,15 +85,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -76,15 +124,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -99,15 +163,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -122,15 +202,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -145,15 +241,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -168,15 +280,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -191,15 +319,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -214,15 +358,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -237,15 +397,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -260,15 +436,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -283,15 +475,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -306,15 +514,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -329,15 +553,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -352,15 +592,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -375,15 +631,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -398,15 +670,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -421,15 +709,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=1.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{1.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=1.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0000)}]
@@ -444,15 +748,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9995] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9995}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9995,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0089)}]
@@ -467,15 +787,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9922] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9922}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9922,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0344)}]
@@ -490,15 +826,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9645] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9645}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9645,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0752)}]
@@ -513,15 +865,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9008] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9008}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9008,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.1296)}]
@@ -536,15 +904,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.7902] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.7902}{(4,.35)}{(4,2.03)}
 \node[opacity=0.7902,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.1962)}]
@@ -559,15 +943,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.6318] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.6318}{(4,.35)}{(4,2.03)}
 \node[opacity=0.6318,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.2734)}]
@@ -582,15 +982,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.4386] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.4386}{(4,.35)}{(4,2.03)}
 \node[opacity=0.4386,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.3598)}]
@@ -605,15 +1021,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.2387] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.2387}{(4,.35)}{(4,2.03)}
 \node[opacity=0.2387,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.4537)}]
@@ -628,15 +1060,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0746] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0746}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0746,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.5537)}]
@@ -651,15 +1099,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0003] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0003}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0003,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.6583)}]
@@ -674,15 +1138,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.7659)}]
@@ -697,15 +1177,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.8750)}]
@@ -720,15 +1216,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.9841)}]
@@ -743,15 +1255,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.9997] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.9997}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0003] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0003}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0003] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.0917)}]
@@ -766,15 +1294,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.9254] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.9254}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0746] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0746}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0746] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.1963)}]
@@ -789,15 +1333,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.7613] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.7613}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.2387] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.2387}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.2387] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.2963)}]
@@ -812,15 +1372,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.5614] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.5614}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.4386] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.4386}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.4386] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.3902)}]
@@ -835,15 +1411,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.3682] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.3682}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.6318] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.6318}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.6318] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.4766)}]
@@ -858,15 +1450,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.2098] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.2098}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.7902] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.7902}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.7902] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.5538)}]
@@ -881,15 +1489,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0992] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0992}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9008] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9008}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9008] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.6204)}]
@@ -904,15 +1528,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0355] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0355}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9645] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9645}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9645] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.6748)}]
@@ -927,15 +1567,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0078] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0078}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9922] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9922}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9922] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7156)}]
@@ -950,15 +1606,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0005] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0005}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9995] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9995}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9995] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7411)}]
@@ -973,15 +1645,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -996,15 +1684,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1019,15 +1723,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1042,15 +1762,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1065,15 +1801,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1088,15 +1840,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1111,15 +1879,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1134,15 +1918,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1157,15 +1957,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1180,15 +1996,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1203,15 +2035,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1226,15 +2074,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1249,15 +2113,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1272,15 +2152,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1295,15 +2191,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1318,15 +2230,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1341,15 +2269,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1364,15 +2308,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1387,15 +2347,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=1.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7500)}]
@@ -1410,15 +2386,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0005] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0005}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9995] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9995}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9995] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7411)}]
@@ -1433,15 +2425,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0078] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0078}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9922] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9922}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9922] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.7156)}]
@@ -1456,15 +2464,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0355] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0355}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9645] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9645}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9645] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.6748)}]
@@ -1479,15 +2503,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.0992] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.0992}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.9008] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.9008}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.9008] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.6204)}]
@@ -1502,15 +2542,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.2098] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.2098}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.7902] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.7902}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.7902] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.5538)}]
@@ -1525,15 +2581,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.3682] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.3682}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.6318] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.6318}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.6318] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.4766)}]
@@ -1548,15 +2620,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.5614] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.5614}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.4386] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.4386}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.4386] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.3902)}]
@@ -1571,15 +2659,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.7613] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.7613}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.2387] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.2387}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.2387] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.2963)}]
@@ -1594,15 +2698,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.9254] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.9254}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0746] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0746}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0746] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.1963)}]
@@ -1617,15 +2737,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=0.9997] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{0.9997}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0003] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0003}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0003] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,1.0917)}]
@@ -1640,15 +2776,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.9841)}]
@@ -1663,15 +2815,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.8750)}]
@@ -1686,15 +2854,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0000] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0000}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0000,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.7659)}]
@@ -1709,15 +2893,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0003] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0003}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0003,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.6583)}]
@@ -1732,15 +2932,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.0746] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.0746}{(4,.35)}{(4,2.03)}
 \node[opacity=0.0746,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.5537)}]
@@ -1755,15 +2971,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.2387] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.2387}{(4,.35)}{(4,2.03)}
 \node[opacity=0.2387,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.4537)}]
@@ -1778,15 +3010,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.4386] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.4386}{(4,.35)}{(4,2.03)}
 \node[opacity=0.4386,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.3598)}]
@@ -1801,15 +3049,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.6318] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.6318}{(4,.35)}{(4,2.03)}
 \node[opacity=0.6318,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.2734)}]
@@ -1824,15 +3088,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.7902] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.7902}{(4,.35)}{(4,2.03)}
 \node[opacity=0.7902,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.1962)}]
@@ -1847,15 +3127,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9008] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9008}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9008,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.1296)}]
@@ -1870,15 +3166,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9645] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9645}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9645,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0752)}]
@@ -1893,15 +3205,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9922] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9922}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9922,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0344)}]
@@ -1916,15 +3244,31 @@
 \end{tikzpicture}
 \begin{tikzpicture}[x=1cm,y=1cm,line join=round,line cap=round,
  every node/.style={font=\sffamily\fontsize{12}{14}\selectfont,text=ink},
- beam/.style={line width=2.4mm,-{Triangle[length=3.5mm,width=5mm]},line cap=butt}]
+]
+\newcommand{\BeamArrow}[4]{%
+  \begin{scope}
+    \coordinate (beamStart) at #3;
+    \coordinate (beamEnd) at #4;
+    \path let \p1 = ($(beamEnd)-(beamStart)$),
+      \n1 = {atan2(\y1,\x1)}, \n2 = {veclen(\x1,\y1)} in
+      \pgfextra{\xdef\beamAngle{\n1}\xdef\beamLength{\n2}};
+    \begin{scope}[shift={(beamStart)},rotate=\beamAngle]
+      \path[fill=#1,draw=black,opacity=#2,line width=.35mm,line join=round]
+        (0,-1.2mm) -- (\beamLength-3.5mm,-1.2mm)
+        -- (\beamLength-3.5mm,-2.5mm) -- (\beamLength,0)
+        -- (\beamLength-3.5mm,2.5mm) -- (\beamLength-3.5mm,1.2mm)
+        -- (0,1.2mm) -- cycle;
+    \end{scope}
+  \end{scope}
+}
 \path[use as bounding box] (-1.05,-1.25) rectangle (12.8878,4.35);
 \node[anchor=west,font=\sffamily\bfseries\fontsize{14}{17}\selectfont] at (-.72,3.9) {Switching between $\bm{I_f}$ and $\bm{I_0}$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (.17,2.25) node[anchor=west,font=\sffamily\fontsize{11}{13}\selectfont] {$x$};
 \draw[ink!75,line width=.8pt,-{Stealth[length=2mm]}] (-.58,2.25) -- (-.58,2.9) node[anchor=east,font=\sffamily\fontsize{11}{13}\selectfont] {$z$};
-\draw[beam,beamgreen,opacity=1.0000] (.45,0) -- (3.68,0);
+\BeamArrow{beamgreen}{1.0000}{(.45,0)}{(3.68,0)}
 \node at (1.75,.48) {X-ray beam};
-\draw[beam,beamgreen,opacity=0.0000] (.45,0) -- (5.98,0);
-\draw[beam,fluororange,opacity=0.9995] (4,.35) -- (4,2.03);
+\BeamArrow{beamgreen}{0.0000}{(.45,0)}{(5.98,0)}
+\BeamArrow{fluororange}{0.9995}{(4,.35)}{(4,2.03)}
 \node[opacity=0.9995,anchor=west] at (4.35,1.25) {$\bm{I_f}$};
 \node[opacity=0.0000] at (5.25,.48) {$\bm{I_0}$};
 \begin{scope}[shift={(4,0.0089)}]

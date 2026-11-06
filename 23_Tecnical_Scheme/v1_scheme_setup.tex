@@ -1,0 +1,145 @@
+% Final layout: two selected boundary rays, matching the edited reference.
+% Direct TikZ -> XDV -> SVG. Canvas: exactly 8.8 x 5.4 cm.
+\def\pgfsysdriver{pgfsys-dvisvgm.def}
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{fontspec,amsmath,bm}
+\setsansfont{Arial}
+\usetikzlibrary{arrows.meta,calc}
+\definecolor{ink}{HTML}{243746}
+\definecolor{beam}{HTML}{FF7F0E} % Matplotlib C1
+\definecolor{optic}{HTML}{858585}
+\definecolor{signal}{HTML}{2CA02C} % Matplotlib C2
+% Physical inputs: E in keV, Ge lattice parameter in Angstrom, R in cm.
+\def\Energy{25.514}
+\def\Lattice{5.6579}
+\def\Radius{20.6}
+% O-2094: aluminum substrate 52 x 27 mm, center thickness 10 mm.
+% 52 mm curved section shown symbolically in this 2D optical layout;
+% the 27 mm cylinder-axis dimension is out of the icon plane.
+\def\SupportWidth{5.2}
+\def\SupportDepth{2.7}
+\def\SupportThickness{1.0}
+% Visual exaggeration only: leave Radius and the nominal arms unchanged.
+\def\CurvatureExaggeration{3.0}
+\pgfmathsetmacro\Spacing{\Lattice/sqrt(128)}
+\pgfmathsetmacro\BraggAngle{asin(12.39841984332/(2*\Spacing*\Energy))}
+\pgfmathsetmacro\Arm{\Radius/sin(\BraggAngle)}
+% Drawing scale: paper cm / physical cm. Same scale on x and y.
+\pgfmathsetmacro\Scale{3.45/\Arm}
+\newcommand{\num}[1]{\pgfmathprintnumber[fixed,precision=2]{#1}}
+\begin{document}\boldmath
+\begin{tikzpicture}[x=1cm,y=1cm,line width=.3pt,line cap=round,line join=round,
+ every node/.style={font=\sffamily\fontsize{6.5}{7.5}\selectfont,text=ink,inner sep=1pt},
+ ray/.style={draw=beam,line width=.40pt,-{Stealth[length=.85mm,width=.55mm]}},
+ guide/.style={draw=ink!45,dash pattern=on 1.5pt off 1.5pt,line width=.25pt}]
+\path[use as bounding box] (0,0) rectangle (8.8,5.4);
+\begin{pgfinterruptboundingbox}
+\fill[white] (0,0) rectangle (8.8,5.4);
+% Isotropic layout enlargement; no anisotropic stretching of rays or text.
+% Center the optical construction in the wider canvas.
+\begin{scope}[shift={(.62,0)},scale=1.08]
+
+
+
+\coordinate (S) at (.55,3.65);
+\coordinate (C) at (4,3.65);
+\coordinate (F) at ($(C)+({3.45*cos(2*\BraggAngle)},{-3.45*sin(2*\BraggAngle)})$);
+% Two illustrative boundary rays, selected by both slit apertures.
+% Their input directions intersect at a virtual source V between the slits.
+% Envelope in this view is conceptual: sagittal focusing is out of plane.
+\def\VirtualSourceX{1.80}
+\def\CrystalIntercept{1.90} % physical cm, within the 2.6 cm substrate half-width
+\pgfmathsetmacro\EdgeSag{\CurvatureExaggeration*(sqrt(\Radius*\Radius-\CrystalIntercept*\CrystalIntercept)-\Radius)}
+\pgfmathsetmacro\UpperCX{4+\Scale*(-\CrystalIntercept*cos(\BraggAngle)+\EdgeSag*sin(\BraggAngle))}
+\pgfmathsetmacro\UpperCY{3.65+\Scale*(\CrystalIntercept*sin(\BraggAngle)+\EdgeSag*cos(\BraggAngle))}
+\pgfmathsetmacro\LowerCX{4+\Scale*(\CrystalIntercept*cos(\BraggAngle)+\EdgeSag*sin(\BraggAngle))}
+\pgfmathsetmacro\LowerCY{3.65+\Scale*(-\CrystalIntercept*sin(\BraggAngle)+\EdgeSag*cos(\BraggAngle))}
+\pgfmathsetmacro\SlopeUpper{(\UpperCY-3.65)/(\UpperCX-\VirtualSourceX)}
+\pgfmathsetmacro\SlopeLower{(\LowerCY-3.65)/(\LowerCX-\VirtualSourceX)}
+\coordinate (Cupper) at (\UpperCX,\UpperCY);
+\coordinate (Clower) at (\LowerCX,\LowerCY);
+\coordinate (Supper) at (.55,{3.65+\SlopeUpper*(.55-\VirtualSourceX)});
+\coordinate (Slower) at (.55,{3.65+\SlopeLower*(.55-\VirtualSourceX)});
+\draw[ray] (Supper)--(Cupper);
+\draw[ray] (Slower)--(Clower);
+\draw[ray] (Cupper)--(F);
+\draw[ray] (Clower)--(F);
+% p and q label the nominal central-arm lengths, not the envelope ray lengths.
+\node[above] at (2.15,3.76) {${p}$};
+\node[rotate={-2*\BraggAngle},above] at ($(C)!.57!(F)+(-0.098808,0.522709)$) {${q}$};
+% Tube source; emission point S fixes the origin of the optical path.
+\draw[fill=ink!7,draw=ink] (.22,3.38) rectangle (.49,3.92);
+\draw[fill=ink!16,draw=ink] (.49,3.53) rectangle (.55,3.77);
+\fill[beam] (Supper) circle (.017);
+\fill[beam] (Slower) circle (.017);
+\node[align=center] at (0.294635,4.281802) {X-Ray Tube\\Source};
+% Apertures enclose both line intersections, with a stroke-width clearance.
+% Their values are illustrative and must not be read as design slit settings.
+\foreach \x/\lab in {1.15/1,3.12/2}{
+ \pgfmathsetmacro\RayUpper{3.65+max(\SlopeUpper*(\x-\VirtualSourceX),\SlopeLower*(\x-\VirtualSourceX))}
+ \pgfmathsetmacro\RayLower{3.65+min(\SlopeUpper*(\x-\VirtualSourceX),\SlopeLower*(\x-\VirtualSourceX))}
+ \draw[line width=.7pt,ink]
+  (\x,3.32)--(\x,{\RayLower-.025})
+  (\x,{\RayUpper+.025})--(\x,3.98);
+
+}
+\node[anchor=base] at (1.197533,3.02) {Entrance Slit};
+\node[anchor=base] at (3.158051,3.02) {Collimating Slit};
+% O-2094 chord length and flat back; front-face curvature visually exaggerated.
+% Curvature direction remains symbolic in this dispersive-plane scheme.
+\begin{scope}[shift={(C)},rotate={-\BraggAngle}]
+ \begin{scope}[x={\Scale cm},y={\Scale cm}]
+  \draw[fill=optic!35,draw=optic!80!black,line width=.25pt]
+   plot[domain={-\SupportWidth/2}:{\SupportWidth/2},samples=41,variable=\u]
+    (\u,{\CurvatureExaggeration*(sqrt(\Radius*\Radius-\u*\u)-\Radius)})
+   -- ({\SupportWidth/2},\SupportThickness)
+   -- ({-\SupportWidth/2},\SupportThickness) -- cycle;
+ \end{scope}
+ \draw[guide] (-1,0)--({-\SupportWidth*\Scale/2},0);
+\end{scope}
+\node at (4.507800,3.912956) {Ge(880)};
+
+
+
+% Bragg angle measured against the nominal incident direction.
+\draw[guide] (3.30,3.65)--(C);
+\draw[ink] ($(C)+(180:.68)$) arc[start angle=180,end angle={180-\BraggAngle},radius=.68];
+\node at (3.001412,4.354912) {${\theta_B=\num{\BraggAngle}^{\circ}}$};
+% Focus at the sample, not at the fluorescence detector.
+% Sample surface is exactly 45 degrees to the incident propagation direction.
+\pgfmathsetmacro\SampleAngle{-2*\BraggAngle+45}
+\begin{scope}[shift={(F)},rotate=\SampleAngle]
+ \draw[draw=optic!80!black,fill=optic!35] (-.30,-.035) rectangle (.30,.035);
+ \draw[guide] (-.62,0)--(-.30,0);
+\end{scope}
+\draw[guide] (F)--++({180-2*\BraggAngle}:.48);
+\draw[ink!70] ($(F)+({180-2*\BraggAngle}:.44)$)
+ arc[start angle={180-2*\BraggAngle},end angle={180+\SampleAngle},radius=.44];
+\node at ($(F)+(-.67,.39)$) {$45^{\circ}$};
+\fill[beam] (F) circle (.025);
+\node at (5.336047,0.489682) {Ag Sample};
+% Illustrative fluorescence collection direction; not a constrained distance.
+\coordinate (D) at ($(F)+(.62,1.00)$);
+% Three fluorescence arrows fan out toward the CZT entrance face.
+\foreach \offset in {-.16,0,.16}{
+ \draw[draw=signal,line width=.40pt,shorten <=.6mm,shorten >=.15mm,
+  -{Stealth[length=.8mm,width=.5mm]}]
+  (F)--($(D)+({\offset*cos(32)},{-\offset*sin(32)})$);
+}
+\begin{scope}[shift={(D)},rotate=-32]
+ \draw[fill=optic!35,draw=optic!80!black] (-.22,0) rectangle (.22,.22);
+\end{scope}
+\node at (6.564949,2.303608) {Multichannel CZT};
+% Cartesian directions bottom left; physical scale bottom right.
+\draw[-{Stealth[length=1mm]},ink] (-.30,.42)--(.30,.42) node[right] {${x}$};
+\draw[-{Stealth[length=1mm]},ink] (-.30,.42)--(-.30,1.02) node[above] {${y}$};
+\coordinate (ScaleStart) at (6.38,.20);
+\draw[ink,line width=.45pt] (ScaleStart)--++({10*\Scale},0);
+\draw[ink] ($(ScaleStart)+(0,-.06)$)--++(0,.12)
+ ($(ScaleStart)+({10*\Scale},-.06)$)--++(0,.12);
+\node[anchor=south] at ($(ScaleStart)+({5*\Scale},.08)$) {10 cm};
+\node at (2.212039,1.775024) {${p=q=\dfrac{R}{\sin\theta_B}=\num{\Arm}\,\mathrm{cm}}$};
+\end{scope}
+\end{pgfinterruptboundingbox}
+\end{tikzpicture}
+\end{document}

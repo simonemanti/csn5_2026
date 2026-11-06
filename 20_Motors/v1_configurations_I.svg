@@ -90,130 +90,120 @@
     </g>
     <path
        id="path11"
-       d="M 12.75595,0 H 95.01476"
-       style="fill:none;stroke:#2ca02c;stroke-width:6.8032;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="M 12.75595,-3.4016 H 94.39467 V -7.08669 L 104.31604,0 94.39467,7.08669 V 3.4016 H 12.75595 Z"
+       style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
-    <path
-       id="path12"
-       d="M 7.78769,0 1.24016,4.94353 V 0 -4.94353 Z"
-       style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:#2ca02c;stroke-width:2.48033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(1.3333333,0,0,-1.3333333,137.19823,162.51867)" />
     <text
-       id="text12"
+       id="text11"
        xml:space="preserve"
        transform="matrix(1.3333333,0,0,1.3333333,36.288,148.40533)"><tspan
-         id="tspan12"
+         id="tspan11"
          style="font-variant:normal;font-weight:normal;font-size:11.9552px;font-family:Arial;writing-mode:lr-tb;fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="0"
          dx="0 0 0 0 0 3.3115904"
          y="0">X-raybeam</tspan></text>
     <path
-       id="path13"
+       id="path12"
        d="m 101.19832,-13.32303 3.96853,-2.83484 20.40929,29.4809 -3.96854,2.83484 z"
        style="fill:#d2d2d2;fill-opacity:1;fill-rule:nonzero;stroke:#7f7f7f;stroke-width:0.79701;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
     <path
-       id="path14"
-       d="M 113.38724,9.92155 V 48.24269"
-       style="fill:none;stroke:#ff7f0e;stroke-width:6.8032;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path13"
+       d="M 116.78885,9.92155 V 47.6226 h 3.68507 l -7.08668,9.92138 -7.0867,-9.92138 h 3.68509 V 9.92155 Z"
+       style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
     <path
-       id="path15"
-       d="M 7.78769,0 1.24016,4.94353 V 0 -4.94353 Z"
-       style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:#ff7f0e;stroke-width:2.48033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(0,-1.3333333,-1.3333333,0,162.52165,99.021867)" />
-    <path
-       id="path16"
+       id="path14"
        d="m 92.83583,62.07957 h 41.1028 v 20.40971 h -41.1028 z"
        style="fill:#e2edf5;fill-opacity:1;fill-rule:nonzero;stroke:#1f77b4;stroke-width:0.99628;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
     <text
-       id="text16"
+       id="text14"
        xml:space="preserve"
        transform="matrix(1.3333333,0,0,1.3333333,145.73733,72.32)"><tspan
-         id="tspan16"
+         id="tspan14"
          style="font-variant:normal;font-weight:700;font-size:12.9514px;font-family:Arial;writing-mode:lr-tb;fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="0"
          y="0">CZT</tspan></text>
     <path
-       id="path17"
+       id="path15"
        d="m 5.2724609,-7.3840234 c 0.046875,-0.2109375 0.058594,-0.2226563 0.2929688,-0.2460938 0.1875,-0.011719 0.3398437,-0.011719 0.515625,-0.011719 h 0.2578125 c 0.2460937,0 0.2578125,-0.011719 0.3164062,-0.058594 0.070312,-0.046875 0.1054688,-0.2109375 0.1054688,-0.28125 0,-0.1523437 -0.1171875,-0.2226562 -0.2578125,-0.2226562 -0.3046875,0 -0.609375,0.023437 -0.9140625,0.023437 -0.3046875,0 -0.6328125,0.011719 -0.9492188,0.011719 -0.3398437,0 -0.6679687,-0.011719 -0.9960937,-0.011719 -0.3046875,0 -0.6328125,-0.023437 -0.9257813,-0.023437 -0.140625,0 -0.3515625,0 -0.3515625,0.3515625 0,0.2109375 0.1875,0.2109375 0.4101563,0.2109375 h 0.2460937 c 0.1054688,0 0.3984375,0.011719 0.6328125,0.023437 l -1.7109375,6.82031246 c -0.046875,0.1875 -0.058594,0.19921875 -0.28125,0.2109375 -0.140625,0.0234375 -0.3632812,0.0234375 -0.515625,0.0234375 H 0.90136719 c -0.24609375,0 -0.4453125,0 -0.4453125,0.3515625 0,0.15234375 0.12890625,0.2109375 0.2578125,0.2109375 0.30468751,0 0.60937501,-0.0234375 0.91406251,-0.0234375 0.3164062,0 0.6445312,-0.01171875 0.9609375,-0.01171875 0.3398437,0 0.65625,0.01171875 0.9960937,0.01171875 0.3164063,0 0.6210938,0.0234375 0.9257813,0.0234375 0.1171875,0 0.3515625,0 0.3515625,-0.3515625 0,-0.2109375 -0.1992188,-0.2109375 -0.4101563,-0.2109375 H 4.2060547 c -0.082031,0 -0.4804688,-0.0117188 -0.6328125,-0.0234375 z m 0,0"
        style="fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none"
        aria-label="I"
        transform="matrix(1.3333333,0,0,1.3333333,182.33333,118.51333)" />
     <path
-       id="path18"
+       id="path16"
        d="m 3.4222266,-3.1653047 h 0.9257812 c 0.1523438,0 0.2929688,0 0.2929688,-0.234375 0,-0.140625 -0.1289063,-0.140625 -0.2695313,-0.140625 h -0.890625 l 0.2695313,-1.4414062 c 0.023437,-0.140625 0.023437,-0.1640625 0.09375,-0.234375 0.1054687,-0.09375 0.1992187,-0.09375 0.234375,-0.09375 0.1171875,0 0.1875,0.011719 0.28125,0.058594 -0.1875,0.09375 -0.3398438,0.3046875 -0.3398438,0.515625 0,0.234375 0.1992188,0.3632813 0.3984375,0.3632813 0.328125,0 0.5742188,-0.28125 0.5742188,-0.5859375 0,-0.4101563 -0.421875,-0.6328125 -0.9140625,-0.6328125 -0.375,0 -0.8203125,0.1523437 -1.1015625,0.5976562 -0.1757813,0.2929688 -0.2226563,0.5976563 -0.375,1.453125 H 1.8167578 c -0.1523437,0 -0.28125,0 -0.28125,0.234375 0,0.140625 0.1289063,0.140625 0.2578125,0.140625 h 0.7382813 l -0.609375,3.39843751 c -0.011719,0.0703125 -0.1054688,0.57421875 -0.140625,0.6796875 -0.023437,0.046875 -0.1523438,0.41015629 -0.3984375,0.41015629 -0.1523438,0 -0.2226563,-0.023437 -0.2695313,-0.046875 0.1992188,-0.09375 0.3398438,-0.30468754 0.3398438,-0.52734379 0,-0.234375 -0.1875,-0.36328125 -0.3867188,-0.36328125 -0.32812499,0 -0.57421874,0.28125 -0.57421874,0.5859375 0,0.43359374 0.45703125,0.63281254 0.86718754,0.63281254 0.5976562,0 1.0195312,-0.5859375 1.078125,-0.69140629 0.3398437,-0.52734375 0.5273437,-1.53515625 0.5507812,-1.67578125 z m 0,0"
        style="fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none"
        aria-label="f"
        transform="matrix(1.3333333,0,0,1.3333333,190.48,120.904)" />
     <path
-       id="path19"
+       id="path17"
        d="M 130.9621,0 V 17.57486 H 113.38724"
        style="fill:none;stroke:#687c96;stroke-width:0.69739;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
     <g
-       id="g19"
+       id="g17"
        aria-label="90&#10;◦"
        transform="matrix(1.3333333,0,0,1.3333333,189.68533,153.56533)">
       <path
-         id="path20"
+         id="path18"
          d="m 4.0182266,-3.4796641 v 0.3515625 c 0,2.55468754 -1.1367188,3.05859379 -1.7695313,3.05859379 -0.1875,0 -0.7851562,-0.01171875 -1.078125,-0.38671875 0.4804688,0 0.5742188,-0.31640625 0.5742188,-0.50390625 0,-0.33984379 -0.2695313,-0.50390629 -0.5039063,-0.50390629 -0.1757812,0 -0.50390624,0.09375 -0.50390624,0.52734379 0,0.7265625 0.58593754,1.18359375 1.52343754,1.18359375 1.40625,0 2.7421875,-1.50000004 2.7421875,-3.85546874 0,-2.9414063 -1.2539063,-3.6914063 -2.2265625,-3.6914063 -0.609375,0 -1.1484375,0.1992188 -1.6171875,0.6914063 -0.44531254,0.4921875 -0.70312504,0.9609375 -0.70312504,1.78125 0,1.3710937 0.97265624,2.4375 2.19140624,2.4375 0.6679688,0 1.125,-0.4570313 1.3710938,-1.0898438 z m -1.359375,0.84375 c -0.1757813,0 -0.6796875,0 -1.0195313,-0.6914062 -0.1992187,-0.4101563 -0.1992187,-0.9609375 -0.1992187,-1.4882813 0,-0.5976562 0,-1.1132812 0.234375,-1.5117187 0.2929687,-0.5507813 0.7148437,-0.6914063 1.1015625,-0.6914063 0.5039062,0 0.8554687,0.3632813 1.0429687,0.8671875 0.140625,0.3398438 0.1757813,1.03125 0.1757813,1.5351563 0,0.9140625 -0.375,1.9804687 -1.3359375,1.9804687 z m 7.8603514,-0.8671875 c 0,-0.8789062 -0.05859,-1.7578125 -0.433594,-2.5664062 -0.5039059,-1.0546875 -1.4062496,-1.2304688 -1.8632809,-1.2304688 -0.65625,0 -1.4648437,0.2929688 -1.9101562,1.3125 -0.3515625,0.75 -0.4101563,1.6054688 -0.4101563,2.484375 0,0.8203125 0.046875,1.8046875 0.5039063,2.63671879 0.46875,0.890625 1.265625,1.11328125 1.8046875,1.11328125 0.5859375,0 1.4179687,-0.234375 1.9101566,-1.27734374 0.339843,-0.75 0.398437,-1.6054688 0.398437,-2.4726563 z M 8.2106094,8.046875e-4 c -0.4335938,0 -1.078125,-0.2695312475 -1.2773438,-1.3242187875 -0.1171875,-0.65625 -0.1171875,-1.6640625 -0.1171875,-2.3085937 0,-0.703125 0,-1.4296875 0.09375,-2.015625 0.1992188,-1.3125 1.0195313,-1.40625 1.3007813,-1.40625 0.3632812,0 1.078125,0.1992187 1.2890625,1.2773437 0.1054687,0.6210938 0.1054687,1.453125 0.1054687,2.1445313 0,0.8203125 0,1.5585937 -0.1171875,2.2617187 C 9.3238906,-0.32732031 8.7027969,8.046875e-4 8.2106094,8.046875e-4 Z m 0,0"
          style="fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <path
-         id="path21"
+         id="path19"
          d="m 14.849281,-5.8995859 c 0,-0.9257813 -0.738281,-1.6523438 -1.652343,-1.6523438 -0.914063,0 -1.652344,0.75 -1.652344,1.6523438 0,0.9257812 0.75,1.640625 1.652344,1.640625 0.925781,0 1.652343,-0.7382813 1.652343,-1.640625 z m -1.652343,1.265625 c -0.714844,0 -1.265625,-0.5742188 -1.265625,-1.265625 0,-0.7148438 0.5625,-1.265625 1.265625,-1.265625 0.726562,0 1.277343,0.5742187 1.277343,1.265625 0,0.7148437 -0.5625,1.265625 -1.277343,1.265625 z m 0,0"
          style="fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     </g>
     <text
-       id="text21"
+       id="text19"
        xml:space="preserve"
        transform="matrix(1.3333333,0,0,1.3333333,196.33333,202.292)"><tspan
-         id="tspan21"
+         id="tspan19"
          style="font-variant:normal;font-weight:normal;font-size:10.9589px;font-family:Arial;writing-mode:lr-tb;fill:#17365d;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="0"
          y="0">Sample</tspan></text>
     <path
-       id="path22"
+       id="path20"
        d="m 90.7097,-7.08669 c 2.62831,-8.08953 9.37537,-14.16442 17.69527,-15.93275 5.75406,-1.22296 11.76208,-0.27141 13.13991,0.52404"
        style="fill:none;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
+    <path
+       id="path21"
+       d="M 5.38428,0 1.93044,1.3148 3.09413,0 1.93044,-1.3148 Z"
+       style="fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.15468,-0.66666667,-0.66666667,-1.15468,170.17087,194.37605)" />
+    <text
+       id="text21"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,74.237333,193.32267)"><tspan
+         id="tspan21"
+         style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">Sample</tspan><tspan
+         id="tspan22"
+         style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0.27500001"
+         y="11.955">rotation</tspan></text>
+    <path
+       id="path22"
+       d="M 140.0333,73.13481 C 168.49751,62.77444 188.38802,36.85092 190.65363,10.95119"
+       style="fill:none;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2.98883, 2.98883;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
     <path
        id="path23"
        d="M 5.38428,0 1.93044,1.3148 3.09413,0 1.93044,-1.3148 Z"
        style="fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(1.15468,-0.66666667,-0.66666667,-1.15468,170.17087,194.37605)" />
+       transform="matrix(0.11614667,1.3282267,1.3282267,-0.11614667,265.21884,144.20433)" />
     <text
        id="text23"
        xml:space="preserve"
-       transform="matrix(1.3333333,0,0,1.3333333,74.237333,193.32267)"><tspan
+       transform="matrix(1.3333333,0,0,1.3333333,272.44667,72.376)"><tspan
          id="tspan23"
          style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="0"
-         y="0">Sample</tspan><tspan
-         id="tspan24"
-         style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="0.27500001"
-         y="11.955">rotation</tspan></text>
-    <path
-       id="path24"
-       d="M 140.0333,73.13481 C 168.49751,62.77444 188.38802,36.85092 190.65363,10.95119"
-       style="fill:none;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2.98883, 2.98883;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(1.3333333,0,0,-1.3333333,11.338667,162.51867)" />
-    <path
-       id="path25"
-       d="M 5.38428,0 1.93044,1.3148 3.09413,0 1.93044,-1.3148 Z"
-       style="fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:#008fa8;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(0.11614667,1.3282267,1.3282267,-0.11614667,265.21884,144.20433)" />
-    <text
-       id="text25"
-       xml:space="preserve"
-       transform="matrix(1.3333333,0,0,1.3333333,272.44667,72.376)"><tspan
-         id="tspan25"
-         style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="0"
          y="0">CZT</tspan><tspan
-         id="tspan26"
+         id="tspan24"
          style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:Arial;writing-mode:lr-tb;fill:#008fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
          x="-6.9320002"
          y="11.955">rotation</tspan></text>

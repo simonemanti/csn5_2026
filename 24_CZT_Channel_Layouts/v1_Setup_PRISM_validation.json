@@ -1,0 +1,109 @@
+{
+  "blender_version": "5.2.0 LTS",
+  "blend": "/home/smanti/BANDI/Proposta_di_Grant_Giovani_in_CSN5_Anno_2026/24_CZT_Channel_Layouts/v1_Setup_PRISM.blend",
+  "checks": [
+    "Metric scale: 1 BU = 1 mm",
+    "D1_CZT__10x10x5mm: physical 10 x 10 x 5 mm",
+    "D2_CZT__10x10x5mm: physical 10 x 10 x 5 mm",
+    "D3_CZT__10x10x5mm: physical 10 x 10 x 5 mm",
+    "D4_CZT__10x10x5mm: physical 10 x 10 x 5 mm",
+    "Total nominal sensor entrance area: 400 mm2",
+    "Ag foil true thickness: 20 um",
+    "D1_module: face centre at 35 mm",
+    "D1_module: entrance face points to illuminated spot",
+    "D1_module: reflection side of sample",
+    "D2_module: face centre at 35 mm",
+    "D2_module: entrance face points to illuminated spot",
+    "D2_module: reflection side of sample",
+    "D3_module: face centre at 35 mm",
+    "D3_module: entrance face points to illuminated spot",
+    "D3_module: reflection side of sample",
+    "D4_module: face centre at 35 mm",
+    "D4_module: entrance face points to illuminated spot",
+    "D4_module: reflection side of sample",
+    "No selected envelope collisions at 1212 positions over 35-80 mm radius and 40-65 mm lift",
+    "I0 beam intersects the centre of D1 at 35 mm downstream",
+    "D1 entrance plane normal opposes incident beam in I0",
+    "I0 central ray clears Sample_top_stem",
+    "I0 central ray clears Sample_Z_carriage",
+    "I0 central ray clears Sample_Z_tower",
+    "I0 central ray clears Ag_foil__25x25x0.020mm",
+    "I0 central ray clears Sample_frame_0_-1",
+    "I0 central ray clears Sample_frame_0_1",
+    "I0 central ray clears Sample_frame_1_-1",
+    "I0 central ray clears Sample_frame_1_1",
+    "D1 face point (0,0) unobstructed by selected geometry",
+    "D1 face point (-5,-5) unobstructed by selected geometry",
+    "D1 face point (-5,5) unobstructed by selected geometry",
+    "D1 face point (5,-5) unobstructed by selected geometry",
+    "D1 face point (5,5) unobstructed by selected geometry",
+    "D2 face point (0,0) unobstructed by selected geometry",
+    "D2 face point (-5,-5) unobstructed by selected geometry",
+    "D2 face point (-5,5) unobstructed by selected geometry",
+    "D2 face point (5,-5) unobstructed by selected geometry",
+    "D2 face point (5,5) unobstructed by selected geometry",
+    "D3 face point (0,0) unobstructed by selected geometry",
+    "D3 face point (-5,-5) unobstructed by selected geometry",
+    "D3 face point (-5,5) unobstructed by selected geometry",
+    "D3 face point (5,-5) unobstructed by selected geometry",
+    "D3 face point (5,5) unobstructed by selected geometry",
+    "D4 face point (0,0) unobstructed by selected geometry",
+    "D4 face point (-5,-5) unobstructed by selected geometry",
+    "D4 face point (-5,5) unobstructed by selected geometry",
+    "D4 face point (5,-5) unobstructed by selected geometry",
+    "D4 face point (5,5) unobstructed by selected geometry",
+    "Timeline reaches both detector orientations",
+    "Timeline extracts sample and returns it exactly",
+    "All saved drivers evaluate without invalid expressions",
+    "Embedded sidebar auto-registers in a fresh Blender session with script execution enabled",
+    "Sidebar Incident I0 operator works",
+    "Sidebar Fluorescence operator works"
+  ],
+  "limitations": "Selected modeled envelopes only; no supplier CAD, cable/hose routing, tolerances, beam footprint or spectral response validated.",
+  "fluorescence_takeoff_to_normal_deg": [
+    44.99997079511132,
+    52.238773916914596,
+    72.17043933803302,
+    23.283758194252957
+  ],
+  "solid_angle_sr": 0.3200213371742479,
+  "acceptance_fraction_4pi": 0.02546648885307984,
+  "timeline": {
+    "1": {
+      "state": 0.0,
+      "sample_lift_mm": 0.0,
+      "head_angle_deg": 90.00000250447816
+    },
+    "51": {
+      "state": 0.3214285373687744,
+      "sample_lift_mm": 45.0,
+      "head_angle_deg": 89.99880722137341
+    },
+    "108": {
+      "state": 1.0,
+      "sample_lift_mm": 45.0,
+      "head_angle_deg": 0.0
+    },
+    "144": {
+      "state": 1.0,
+      "sample_lift_mm": 45.0,
+      "head_angle_deg": 0.0
+    },
+    "201": {
+      "state": 0.3214285671710968,
+      "sample_lift_mm": 45.0,
+      "head_angle_deg": 89.99880722137341
+    },
+    "228": {
+      "state": 0.0,
+      "sample_lift_mm": 0.0,
+      "head_angle_deg": 90.00000250447816
+    },
+    "252": {
+      "state": 0.0,
+      "sample_lift_mm": 0.0,
+      "head_angle_deg": 90.00000250447816
+    }
+  },
+  "result": "PASS"
+}
